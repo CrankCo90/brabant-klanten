@@ -52,11 +52,11 @@ brabantdigital.nl {
 ```
 Daarna: `sudo systemctl reload caddy`
 
-## 4. Autopilot-cron (respecteert de aan/uit-knop uit het dashboard)
+## 4. Autopilot-cron (zelf-sturend; leest de instellingen uit het dashboard)
 ```bash
-( crontab -l 2>/dev/null | grep -v send-outreach.py; echo '0 10 * * * [ -f /root/outreach-data/.autopilot_on ] && OUTREACH_DATA=/root/outreach-data OUTREACH_CAP=20 /usr/bin/python3 /root/klanten/_workflow/outreach/send-outreach.py >> /root/outreach-data/send.log 2>&1' ) | crontab -
+( crontab -l 2>/dev/null | grep -v 'send-outreach.py' | grep -v 'autopilot-run.sh'; echo '*/30 * * * * /root/klanten/_workflow/autopilot-run.sh' ) | crontab -
 ```
-(Autopilot UIT = de cron doet niets; AAN = stuurt dagelijks tot de cap. Handmatig versturen via het dashboard werkt altijd.)
+De autopilot stuurt alleen als je 'm in het dashboard AAN zet, binnen de start/stop-tijd en op de gekozen werkdagen, tot de dagcap.
 
 ## 5. Automatische reactie-detectie (IMAP)
 Voeg je IMAP-gegevens toe aan `/root/outreach-data/.smtp-env`:

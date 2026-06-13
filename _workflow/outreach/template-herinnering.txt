@@ -1,0 +1,14 @@
+{{aanhef}}
+
+Een tijdje terug liet ik je dit voorbeeld van een eigen website voor {{bedrijf}} zien — ik wilde even vriendelijk informeren of je er al naar hebt kunnen kijken:
+
+{{demo_url}}
+
+Geen druk hoor; ik hoor graag of het je aanspreekt of dat je nog vragen hebt.
+
+Groetjes,
+Leroy — Brabant Digital
+aanbod@brabantdigital.nl · 085-0608471
+
+—
+{{afmelder}}

@@ -13,7 +13,7 @@ from pathlib import Path
 REPO_DIR  = Path(__file__).resolve().parent
 DATA_DIR  = Path(os.environ.get("OUTREACH_DATA", "/root/outreach-data"))
 PROSPECTS = REPO_DIR / "prospects.json"
-TEMPLATE  = REPO_DIR / "template-nl.txt"
+TEMPLATE  = Path(os.environ["OUTREACH_TEMPLATE"]) if os.environ.get("OUTREACH_TEMPLATE") else (REPO_DIR / "template-nl.txt")
 ENV_FILE  = DATA_DIR / ".smtp-env"
 LOG       = DATA_DIR / "sent-log.csv"
 CAP       = int(os.environ.get("OUTREACH_CAP", "20"))
@@ -99,6 +99,8 @@ def main():
         msg["From"]     = f'{env["FROM_NAME"]} <{env["FROM_EMAIL"]}>'
         msg["To"]       = email
         msg["Reply-To"] = env["FROM_EMAIL"]
+        _intro=os.environ.get("OUTREACH_INTRO","").strip()
+        if _intro: body=_intro+"\n\n"+body
         msg.set_content(body)
         try:
             srv.send_message(msg)

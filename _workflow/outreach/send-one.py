@@ -25,6 +25,8 @@ body=(tpl.replace("{{aanhef}}",p.get("aanhef") or "Hoi,").replace("{{compliment}
 msg=EmailMessage()
 msg["Subject"]="[TEST] "+(p.get("onderwerp") or ("Websitevoorstel voor "+bedrijf))
 msg["From"]=f'{env["FROM_NAME"]} <{env["FROM_EMAIL"]}>'; msg["To"]=to; msg["Reply-To"]=env["FROM_EMAIL"]
+_intro=os.environ.get("OUTREACH_INTRO","").strip()
+if _intro: body=_intro+"\n\n"+body
 msg.set_content(body)
 port=int(env["SMTP_PORT"])
 s=smtplib.SMTP_SSL(env["SMTP_HOST"],port,context=ssl.create_default_context()) if port==465 else smtplib.SMTP(env["SMTP_HOST"],port)

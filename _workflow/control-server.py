@@ -7,6 +7,10 @@ ROOT="/root/klanten"; DATA="/root/outreach-data"
 TOKEN=open(os.path.join(DATA,".control-token")).read().strip()
 SENTLOG=os.path.join(DATA,"sent-log.csv"); AUTO=os.path.join(DATA,".autopilot_on")
 REPLIES=os.path.join(DATA,"replies.json")
+APJSON=os.path.join(DATA,"autopilot.json")
+def _ap():
+    import json as _j
+    return _j.load(open(APJSON)) if os.path.exists(APJSON) else {}
 
 def run(cmd, extra_env=None, timeout=900):
     e=dict(os.environ); e["PATH"]="/root/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
@@ -31,7 +35,7 @@ def sent_info():
     return {"prospects":pr,
             "sent":[{"email":r["email"],"datum":r["datum"],"bedrijf":r.get("bedrijf","")} for r in rows],
             "total":len(rows),"today":sum(1 for r in rows if r["datum"].startswith(today)),
-            "autopilot":os.path.exists(AUTO),
+            "autopilot":bool(_ap().get("on")),"settings":_ap(),
             "replies":json.load(open(REPLIES)) if os.path.exists(REPLIES) else {}}
 
 class H(BaseHTTPRequestHandler):
@@ -75,9 +79,47 @@ class H(BaseHTTPRequestHandler):
             rc,out=run("python3 _workflow/outreach/send-one.py %s %s"%(json.dumps(pros),json.dumps(to)),{"OUTREACH_DATA":DATA})
             return self._s(200,{"ok":rc==0,"log":out})
         if self.path=="/api/autopilot":
-            if body.get("on"): open(AUTO,"w").write("on")
-            elif os.path.exists(AUTO): os.remove(AUTO)
-            return self._s(200,{"autopilot":os.path.exists(AUTO)})
+            ap=_ap(); ap["on"]=bool(body.get("on")); json.dump(ap,open(APJSON,"w"))
+            return self._s(200,{"autopilot":ap["on"]})
+        if self.path=="/api/autopilot-settings":
+            ap={k:body.get(k) for k in ("on","cap","start","stop","dagen","interval")}
+            json.dump(ap,open(APJSON,"w"))
+            return self._s(200,{"ok":True,"log":"Autopilot-instellingen opgeslagen.","settings":ap})
+        if self.path=="/api/set-status":
+            b=(body.get("bedrijf") or "").strip(); st=(body.get("status") or "").strip()
+            if not (b and st): return self._s(400,{"error":"bedrijf+status vereist"})
+            cf=os.path.join(ROOT,"dashboard/clients.json"); C=json.load(open(cf))
+            for c in C:
+                if c.get("bedrijf")==b: c["status"]=st
+            json.dump(C,open(cf,"w"),ensure_ascii=False,indent=1)
+            run("git add -A && git -c user.email=vps@brabantdigital.nl -c user.name=BD-VPS commit -q -m 'status: %s'"%b)
+            if os.path.exists("/root/outreach-data/.git-token"):
+                tk=open("/root/outreach-data/.git-token").read().strip()
+                run("git push -q https://%s@github.com/CrankCo90/brabant-klanten.git HEAD:main"%tk)
+            return self._s(200,{"ok":True,"log":"Status van %s op '%s' gezet."%(b,st)})
+        if self.path=="/api/campaign":
+            dg=(body.get("doelgroep") or "all"); tpl=(body.get("sjabloon") or "uitnodiging"); intro=(body.get("intro") or ""); test=bool(body.get("test"))
+            tmap={"uitnodiging":"_workflow/outreach/template-nl.txt","herinnering":"_workflow/outreach/template-herinnering.txt","kort":"_workflow/outreach/template-kort.txt"}
+            tplp=os.path.join(ROOT,tmap.get(tpl,tmap["uitnodiging"]))
+            only=""
+            if dg.startswith("niche:") or dg.startswith("regio:"):
+                key,val=dg.split(":",1); names=[]
+                cl=json.load(open(os.path.join(ROOT,"dashboard/clients.json")))
+                for c in cl:
+                    if key=="niche" and c.get("niche")==val: names.append(c["bedrijf"])
+                    if key=="regio" and (c.get("regio")==val or (c.get("plaats","").split("\u00b7")[0].strip()==val)): names.append(c["bedrijf"])
+                only="|".join(names)
+            env={"OUTREACH_DATA":DATA,"OUTREACH_TEMPLATE":tplp,"OUTREACH_INTRO":intro}
+            if only: env["OUTREACH_ONLY"]=only
+            if test:
+                P=json.load(open(os.path.join(ROOT,"_workflow/outreach/prospects.json")))
+                cand=[x for x in P if x.get("status")=="klaar" and (not only or x.get("bedrijf") in only.split("|"))]
+                if not cand: return self._s(200,{"ok":False,"log":"Geen klaar-prospect met e-mail in deze doelgroep om te testen."})
+                rc,out=run("python3 _workflow/outreach/send-one.py %s %s"%(json.dumps(cand[0]["bedrijf"]),json.dumps("aanbod@brabantdigital.nl")),env)
+                return self._s(200,{"ok":rc==0,"log":out})
+            env["OUTREACH_CAP"]=str(int(body.get("cap",20)))
+            rc,out=run("git pull -q; python3 _workflow/outreach/send-outreach.py",env)
+            return self._s(200,{"ok":rc==0,"log":out})
         self._s(404,{"error":"not found"})
 
 if __name__=="__main__":

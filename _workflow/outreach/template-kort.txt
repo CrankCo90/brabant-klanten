@@ -1,0 +1,12 @@
+{{aanhef}}
+
+Ik heb vrijblijvend een voorbeeldwebsite voor {{bedrijf}} gemaakt — kijk gerust even:
+
+{{demo_url}}
+
+Tien complete ontwerpen, met online afspraken en goede vindbaarheid in Google. Bevalt het? Dan bouw ik 'm compleet uit voor €199 eenmalig (geen abonnement).
+
+Groetjes, Leroy — Brabant Digital · 085-0608471
+
+—
+{{afmelder}}
