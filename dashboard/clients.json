@@ -153,12 +153,12 @@
   "prioriteit": "hoog",
   "werkdag": "2026-06-13",
   "demo_url": "https://didis.demo.brabantdigital.nl",
-  "waarom": "Di-za open (fulltime); verouderd WordPress met duidelijke bugs.",
+  "waarom": "Eigenaar Didi Bock; verouderd WordPress én een onveilige inlog-pop-up van het gekaapte 'polyfill.io'-script. Sterke, urgente pitch.",
   "fouten": [
+   "Inlog-pop-up van het gekaapte 'polyfill.io'-script — verschijnt bij bezoekers, oogt onveilig (weg te klikken met Annuleren)",
    "Statistiekblok toont nog '99 / 99 / 99 / 99' placeholders",
    "Dode Instagram-link",
-   "Lege meta-description",
-   "Oud WordPress 5.5"
+   "Verouderd WordPress 5.5"
   ],
   "contact": "didishondentrimsalon@gmail.com · 06-15282531"
  },

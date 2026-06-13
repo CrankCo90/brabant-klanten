@@ -123,7 +123,7 @@
   "deadline": "vrijdag 27 juni 2026",
   "onderwerp": "Ik heb alvast een website voor Didi's Hondentrimsalon gemaakt (kijk even mee)",
   "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
-  "gratis_tip": "ik over iets op uw huidige site viel: statistiekblok toont nog '99 / 99 / 99 / 99' placeholders",
+  "gratis_tip": "ik zag dat uw website bezoekers een inlog-venster toont; dat komt van een extern script ('polyfill.io') dat vorig jaar is gekaapt en nu zulke nep-vensters laat zien. U kunt het met 'Annuleren' wegklikken, maar het hoort er niet te zijn — het oogt onveilig en kan bezoekers afschrikken. Goed om dat sowieso even te (laten) verwijderen",
   "verbeteringen": [
    "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
    "Beter vindbaar in Google op 'hondentrimsalon Breda' — de techniek zit ingebouwd.",
