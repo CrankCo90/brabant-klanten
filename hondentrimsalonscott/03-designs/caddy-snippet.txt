@@ -1,0 +1,5 @@
+hondentrimsalonscott.demo.brabantdigital.nl {
+    root * /var/www/demos/hondentrimsalonscott
+    file_server
+    encode gzip
+}

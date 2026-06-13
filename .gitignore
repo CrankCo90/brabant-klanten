@@ -1,0 +1,15 @@
+# secrets — NOOIT committen
+_workflow/.deploy-token
+**/id_ed25519
+**/id_rsa
+**/*.pem
+.env
+# OS-rommel
+.DS_Store
+Thumbs.db
+desktop.ini
+# backups & tijdelijke beeldbestanden
+*.bak
+**/assets/img/*.png
+# persoonlijke Claude Code-instellingen
+.claude/settings.local.json

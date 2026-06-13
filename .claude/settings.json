@@ -1,0 +1,62 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(*)",
+      "Write(*)",
+      "Read(*)",
+      "Bash(rsync:*)",
+      "Bash(scp:*)",
+      "Bash(ssh:*)",
+      "Bash(chmod:*)",
+      "Bash(sudo chmod:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(sed:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(curl:*)",
+      "Bash(cwebp:*)",
+      "Bash(convert:*)",
+      "Bash(magick:*)",
+      "Bash(git:*)",
+      "Bash(systemctl reload caddy)",
+      "Bash(systemctl restart caddy)",
+      "Bash(systemctl status caddy)",
+      "Bash(sudo systemctl reload caddy)",
+      "Bash(sudo systemctl restart caddy)",
+      "Bash(sudo systemctl status caddy)",
+      "Bash(caddy validate:*)",
+      "Bash(caddy fmt:*)",
+      "Bash(bash localize-images.sh)",
+      "Bash(./localize-images.sh)"
+    ],
+    "deny": [
+      "Bash(rm -rf /:*)",
+      "Bash(rm -rf ~:*)",
+      "Bash(mkfs:*)",
+      "Bash(dd:*)",
+      "Bash(shutdown:*)",
+      "Bash(reboot:*)",
+      "Read(~/.ssh/**)"
+    ],
+    "ask": [
+      "Bash(git reset --hard:*)",
+      "Bash(git push --force:*)"
+    ]
+  },
+  "defaultMode": "acceptEdits",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.sh\"" }
+        ]
+      }
+    ]
+  }
+}

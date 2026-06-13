@@ -1,0 +1,151 @@
+/* ===== BRABANT DIGITAL — Champagne & Charcoal (naar Claude Design referentie) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600&display=swap');
+:root{
+  --bg:#0f0d0b;                       /* warm near-black */
+  --panel:#17140f;                    /* kaart-achtergrond */
+  --panel2:#1e1a14;
+  --text:#f1ead9; --muted:#a89f8d;
+  --gold:#c9a96a; --gold-bright:#e3c98f;
+  --gold-soft:rgba(201,169,106,.12);
+  --line:rgba(201,169,106,.18);       /* omlijning rust */
+  --line-hover:rgba(201,169,106,.65); /* omlijning hover */
+  --head:'Cormorant Garamond',serif; --body:'Montserrat',sans-serif;
+  --r:20px; --r-lg:26px;
+  --glow:0 10px 40px rgba(201,169,106,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-weight:300;line-height:1.7}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--head);font-weight:600;line-height:1.12}
+.kicker{font-size:.7rem;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:16px}
+.accent{font-family:var(--head);font-style:italic;color:var(--gold);font-weight:600}
+
+/* ── header ── */
+header{position:sticky;top:0;z-index:50;background:rgba(15,13,11,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:26px;padding:18px 24px;max-width:1120px;margin:0 auto}
+.logo{font-family:var(--body);font-weight:600;font-size:1.02rem;letter-spacing:.22em;text-decoration:none;margin-right:auto}
+.logo span{color:var(--gold)}
+.nav a:not(.logo){font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;opacity:.8;transition:.25s}
+.nav a:not(.logo):hover{opacity:1;color:var(--gold-bright)}
+.nav .cta{background:linear-gradient(135deg,var(--gold),#b8945a);color:#171204;padding:10px 22px;border-radius:999px;opacity:1;font-weight:500;border:1px solid transparent;transition:.25s}
+.nav .cta:hover{color:#171204;filter:brightness(1.12);box-shadow:var(--glow)}
+#menubtn{display:none;background:none;border:none;color:var(--text);font-size:1.6rem;cursor:pointer}
+
+/* ── hero ── */
+.hero{min-height:80vh;display:flex;align-items:center;position:relative;overflow:hidden;
+  background:
+    radial-gradient(ellipse 55% 60% at 50% 0%,rgba(122,90,44,.38),transparent 70%),
+    radial-gradient(ellipse 45% 45% at 82% 70%,rgba(94,68,32,.22),transparent 70%),
+    radial-gradient(ellipse 40% 40% at 12% 85%,rgba(122,90,44,.14),transparent 70%)}
+.hero .wrap{max-width:900px;text-align:center;padding:96px 24px}
+.hero h1{font-size:clamp(2.7rem,6.4vw,4.6rem);font-weight:600;margin-bottom:24px}
+.hero p{color:var(--muted);font-size:1.04rem;max-width:620px;margin:0 auto 36px}
+.btns{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.b1{background:linear-gradient(135deg,var(--gold),#b8945a);color:#171204;padding:16px 32px;border-radius:999px;text-decoration:none;font-size:.9rem;font-weight:500;letter-spacing:.03em;border:1px solid transparent;transition:.25s}
+.b1:hover{filter:brightness(1.12);box-shadow:0 6px 30px rgba(201,169,106,.35);transform:translateY(-1px)}
+.b2{border:1px solid rgba(241,234,217,.35);color:var(--text);padding:16px 32px;border-radius:999px;text-decoration:none;font-size:.9rem;letter-spacing:.03em;transition:.25s}
+.b2:hover{border-color:var(--line-hover);color:var(--gold-bright);background:var(--gold-soft)}
+.hero .mini{margin-top:34px;font-size:.78rem;letter-spacing:.08em;color:var(--muted)}
+.hero .mini b{color:var(--gold)}
+
+/* ── secties ── */
+section{padding:96px 0}
+.sec-head{max-width:660px;margin-bottom:48px}
+.sec-head h2{font-size:clamp(2rem,3.8vw,2.8rem);font-weight:600;margin-bottom:14px}
+.sec-head p{color:var(--muted)}
+
+/* ── kaarten (omlijning + hover-highlight) ── */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card{background:linear-gradient(160deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:var(--r);padding:30px;transition:border-color .3s,transform .3s,box-shadow .3s}
+.card:hover{border-color:var(--line-hover);transform:translateY(-3px);box-shadow:var(--glow)}
+.card .ico{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;color:var(--gold);background:var(--gold-soft);border:1px solid var(--line);border-radius:13px;margin-bottom:18px}
+.card .ico svg{width:21px;height:21px}
+.card h3{font-size:1.45rem;font-weight:600;margin-bottom:10px}
+.card p{font-size:.88rem;color:var(--muted)}
+
+/* ── werkwijze ── */
+.steps{counter-reset:s}
+.step{display:flex;gap:26px;padding:32px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+.step:last-child{border-bottom:none}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:var(--head);font-size:2.3rem;font-weight:600;color:var(--gold);opacity:.55;min-width:64px;line-height:1}
+.step h3{font-size:1.35rem;font-weight:600;margin-bottom:6px}
+.step p{color:var(--muted);font-size:.93rem;max-width:640px}
+
+/* ── techniek ── */
+.tech{background:linear-gradient(180deg,transparent,rgba(122,90,44,.06) 30%,rgba(122,90,44,.06) 70%,transparent)}
+.tech .grid3 .card{background:transparent;border:none;padding:18px 6px}
+.tech .grid3 .card:hover{transform:none;box-shadow:none}
+.tech .stat{font-family:var(--head);font-size:2.6rem;font-weight:600;color:var(--gold);display:block;margin-bottom:8px;line-height:1}
+.tech .card h3{font-family:var(--body);font-size:.95rem;font-weight:600;color:var(--text)}
+
+/* ── portfolio ── */
+.folio .card{padding:0;overflow:hidden}
+.folio .shot{aspect-ratio:16/11;background-size:cover;background-position:top center;border-bottom:1px solid var(--line);transition:background-position 3s ease}
+.folio .card:hover .shot{background-position:bottom center}
+.folio .body{padding:24px 28px}
+.folio .tag{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.folio h3{font-size:1.6rem;margin-top:6px}
+.folio a.go{display:inline-block;margin-top:12px;color:var(--gold);text-decoration:none;font-size:.85rem;transition:.25s}
+.folio a.go:hover{color:var(--gold-bright);letter-spacing:.02em}
+
+/* ── prijs ── */
+.price{border:1px solid var(--line);border-radius:var(--r-lg);padding:52px;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;
+  background:radial-gradient(ellipse 70% 90% at 20% 10%,rgba(122,90,44,.22),transparent 70%),linear-gradient(160deg,var(--panel),var(--panel2));
+  transition:border-color .3s,box-shadow .3s}
+.price:hover{border-color:var(--line-hover);box-shadow:var(--glow)}
+.price h3{font-size:2.1rem;font-weight:600;margin-bottom:12px}
+.price ul{list-style:none;margin-top:16px}
+.price li{padding:7px 0;font-size:.92rem;color:var(--muted)}
+.price li::before{content:"✓  ";color:var(--gold)}
+.price .amount{text-align:center}
+.price .old{text-decoration:line-through;color:var(--muted);font-size:1.15rem;font-family:var(--head)}
+.price .now{font-family:var(--head);font-size:4rem;font-weight:600;color:var(--gold);display:inline-block;line-height:1.05;margin-left:10px}
+.price .per{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 22px;display:block;white-space:nowrap}
+.actie{display:inline-block;background:var(--gold-soft);border:1px solid var(--line);color:var(--gold);border-radius:999px;padding:6px 16px;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;margin-bottom:18px}
+
+/* ── belafspraak ── */
+.boek{background:radial-gradient(ellipse 50% 70% at 50% 100%,rgba(122,90,44,.16),transparent 70%);text-align:center}
+.boek .inner{max-width:680px;margin:0 auto;padding:0 24px}
+.boek h2{font-size:clamp(2.1rem,4vw,3rem);font-weight:600;margin-bottom:14px}
+.boek p{color:var(--muted);margin-bottom:30px}
+
+/* ── contact & formulier ── */
+.contact .grid2{align-items:start}
+form{display:grid;gap:14px}
+input,textarea{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:var(--text);font-family:var(--body);font-size:.92rem;width:100%;transition:border-color .25s}
+input:hover,textarea:hover{border-color:rgba(201,169,106,.35)}
+input:focus,textarea:focus{outline:none;border-color:var(--gold)}
+form button{justify-self:start;background:linear-gradient(135deg,var(--gold),#b8945a);color:#171204;border:none;padding:15px 34px;border-radius:999px;font-size:.88rem;font-weight:600;cursor:pointer;font-family:var(--body);transition:.25s}
+form button:hover{filter:brightness(1.12);box-shadow:var(--glow)}
+.cline{display:flex;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.cline:last-child{border-bottom:none}
+.cline .ico{font-size:1.2rem}
+.cline a{color:var(--gold);text-decoration:none}
+.cline a:hover{color:var(--gold-bright)}
+
+footer{border-top:1px solid var(--line);padding:42px 0;text-align:center;color:var(--muted);font-size:.8rem}
+
+.wa{position:fixed;right:22px;bottom:22px;z-index:60;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.4);text-decoration:none}
+.wa svg{width:30px;height:30px;fill:#fff}
+
+@media(max-width:880px){
+  section{padding:54px 0}
+  .sec-head{margin-bottom:28px}
+  .hero{min-height:auto}
+  .hero .wrap{padding:64px 24px}
+  .grid3,.grid2{grid-template-columns:1fr}
+  .price{grid-template-columns:1fr;padding:34px 26px}
+  .btns{flex-direction:column;align-items:stretch}
+  .b1,.b2{text-align:center}
+  .step{gap:16px;padding:24px 0}
+  .nav{flex-wrap:wrap;padding:14px 18px}
+  #menubtn{display:block}
+  .nav a:not(.logo){display:none}
+  .nav.open a:not(.logo){display:block;width:100%;padding:13px 0;border-top:1px solid var(--line);font-size:.85rem;opacity:1}
+  .nav.open .cta{text-align:center;margin-top:8px;border-top:none;padding:13px 0}
+}
+@media(max-width:880px){.price .per{white-space:normal}}
