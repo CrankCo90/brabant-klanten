@@ -227,13 +227,14 @@
   "prioriteit": "midden",
   "werkdag": "2026-06-13",
   "demo_url": "https://wilma-van-der-meijs.demo.brabantdigital.nl",
-  "waarom": "25 jaar, ABHB-gecertificeerd; verouderde .php-site (browser-check nodig).",
+  "waarom": "Fulltime (ma-za 09-17); oude .php-site met kapotte link. Géén e-mail.",
   "fouten": [
-   "Verouderde .php-site",
-   "'.eu'-domein",
-   "Nog in browser te verifiëren"
+   "Kapotte link 'contact.pp' (typefout)",
+   "Geen e-mailadres op site",
+   "Geen prijzen / geen online boeken",
+   "Verouderde .php-site"
   ],
-  "contact": "076-5497918 · 06-12232138"
+  "contact": "076-5497918 · 06-12232138 (geen e-mail; telefoon/Facebook)"
  },
  {
   "bedrijf": "Het Knappe Snuitje",
@@ -328,12 +329,12 @@
   "niche": "Hondentrimsalons",
   "regio": "Eindhoven",
   "plaats": "Helmond · Centrum",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 3,
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://mooie-hondjes.demo.brabantdigital.nl",
-  "waarom": "Verouderde .php-site; browser-check nodig.",
+  "waarom": "Site laadt niet (offline).",
   "fouten": [
    "Verouderde .php-site",
    "Nog te verifiëren"
@@ -350,10 +351,12 @@
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://sunshine.demo.brabantdigital.nl",
-  "waarom": "Serieus; site laadt leeg voor crawler (slecht voor Google). Browser-check nodig.",
+  "waarom": "Eigenaar Daphne van der Heijden; verouderd WordPress, prijzen-pagina geeft 404, geen openingstijden.",
   "fouten": [
-   "Site rendert leeg voor crawler (slechte indexering)",
-   "Nog te verifiëren in browser"
+   "Prijzen-pagina geeft 404 (kapotte link)",
+   "Geen openingstijden vermeld",
+   "Verouderd WordPress",
+   "Geen online boeken"
   ],
   "contact": "info@trimsalonsunshine.nl · 06-20866339"
  },
@@ -362,12 +365,12 @@
   "niche": "Hondentrimsalons",
   "regio": "Den Bosch",
   "plaats": "'s-Hertogenbosch",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 3,
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://trimsalon-elite.demo.brabantdigital.nl",
-  "waarom": "Eigen domein maar inhoud laadt niet; browser-check nodig.",
+  "waarom": "Site laadt niet meer (offline) — eerst handmatig bevestigen of het bedrijf nog actief is.",
   "fouten": [
    "Inhoud laadt leeg (JS-only)",
    "Nog te verifiëren"
@@ -384,24 +387,25 @@
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://just4dogs.demo.brabantdigital.nl",
-  "waarom": "Eigen domein maar verouderde .php-indruk; browser-check nodig.",
+  "waarom": "Eigenaar Jaimy Duijf; site grotendeels stuk (subpagina's 404). Géén e-mail bereikbaar.",
   "fouten": [
-   ".php-structuur = verouderd/eenvoudig CMS",
-   "Nog te verifiëren"
+   "Subpagina's (prijzen/behandelingen/contact) geven foutpagina",
+   "Typefouten in tekst",
+   "Contactpagina kapot — geen e-mail"
   ],
-  "contact": "via site/FB (eigenaar Jaimy)"
+  "contact": "06-16465335 (geen e-mail; telefoon/WhatsApp)"
  },
  {
   "bedrijf": "Lynn's Trimsalon",
   "niche": "Hondentrimsalons",
   "regio": "Tilburg",
   "plaats": "Waalwijk",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 3,
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://lynns.demo.brabantdigital.nl",
-  "waarom": "Site laadde niet (JS); browser-check nodig.",
+  "waarom": "Site 'temporarily disabled' (offline).",
   "fouten": [
    "Site laadt niet voor fetcher",
    "Nog te verifiëren"
@@ -418,10 +422,12 @@
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://jokes.demo.brabantdigital.nl",
-  "waarom": "Losse .html-pagina's = verouderde bouwer; browser-check nodig.",
+  "waarom": "Eigenaar Joke de Wit; verouderde 'wowslider'-site, sober.",
   "fouten": [
-   "Losse .html-pagina's (verouderde bouwer)",
-   "Nog te verifiëren"
+   "Verouderde wowslider-bouwer",
+   "Geen openingstijden",
+   "Geen vaste prijzen (alleen uurtarief €35)",
+   "Geen online boeken"
   ],
   "contact": "info@jokestrimsalon.nl · 06-11310207"
  },
@@ -430,12 +436,12 @@
   "niche": "Hondentrimsalons",
   "regio": "Den Bosch",
   "plaats": "Oss",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 3,
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://trimsalon-oss.demo.brabantdigital.nl",
-  "waarom": "Heeft site (laadt leeg); beperkte openingsdagen — let op koopkans.",
+  "waarom": "Klantenstop — geen nieuwe klanten, lage koopintentie nu.",
   "fouten": [
    "Inhoud laadt leeg",
    "Beperkte openingsdagen (ma dicht)"
@@ -447,12 +453,12 @@
   "niche": "Hondentrimsalons",
   "regio": "Eindhoven",
   "plaats": "Eindhoven",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 2,
   "prioriteit": "laag",
   "werkdag": "2026-06-13",
   "demo_url": "https://doggroomer.demo.brabantdigital.nl",
-  "waarom": "Expat-gericht, eigen domein; eerst in browser bekijken.",
+  "waarom": "Al sterke moderne site mét online boeken (Teamleader/Reviews 2025).",
   "fouten": [
    "Nog te verifiëren in browser"
   ],
