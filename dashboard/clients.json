@@ -671,5 +671,342 @@
    "Geen eigen website"
   ],
   "contact": ""
+ },
+ {
+  "bedrijf": "La Chica Nails",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond (Brouwhuis)",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://lachicanails.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: gebrekkig. Bezoekers krijgen nu een dikke beveiligingswaarschuwing in beeld voordat je site überhaupt laadt, omdat het beveiligingscertificaat niet klopt.",
+  "fouten": [
+   "Website draait op een self-signed SSL-certificaat: browsers tonen een 'niet veilig'-waarschuwing",
+   "Geen geldige HTTPS",
+   "Site draait op http://"
+  ],
+  "contact": "06-24547803"
+ },
+ {
+  "bedrijf": "Beauty Point Helmond",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://beautypoint-helmond.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: geen-site. Wie nu je webadres intikt, komt op een lege standaard hostingpagina terecht in plaats van een echte website.",
+  "fouten": [
+   "Domein toont alleen de standaard DirectAdmin-placeholderpagina ('Something amazing will be constructed here')",
+   "Geen inhoud, geen contactgegevens, geen openingstijden"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Ymy's nagelstudio",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://ymys-nagelstudio.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: alleen-social. Je bent online alleen via Facebook te vinden en hebt nog helemaal geen eigen website.",
+  "fouten": [
+   "Geen eigen website, alleen een Facebook-pagina",
+   "Op Facebook geen zichtbare openingstijden, prijzen of telefoonnummer"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Espaço Mão Bella",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://espaco-mao-bella.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: verouderd. De prijslijst- en contactpagina werken niet meer en geven een foutmelding (404), dus klanten kunnen geen tarieven of contactgegevens vinden.",
+  "fouten": [
+   "Verouderde, kale HTML-site met minimale opmaak",
+   "Geen online boeken",
+   "Geen geldige HTTPS (http://)",
+   "Prijslijst- en contactpagina geven een 404-foutmelding",
+   "Geen telefoonnummer/e-mail op de site"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Nagelstudio JAËL",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://nagelstudio-jael.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: gebrekkig. Je 'website' is eigenlijk maar een kale Google-bedrijfspagina, geen volwaardige eigen site met je eigen uitstraling.",
+  "fouten": [
+   "Geen echte eigen website, alleen een automatisch gegenereerde Google Business-pagina (business.site)",
+   "Beperkte uitstraling, geen eigen merkbeleving",
+   "Geen online boeken"
+  ],
+  "contact": "0492-512855"
+ },
+ {
+  "bedrijf": "Op mijn mooist",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://op-mijn-mooist.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: verouderd. De site draait op een gedateerde standaard JouwWeb-template, zonder telefoonnummer of online afspraakmogelijkheid.",
+  "fouten": [
+   "Verouderde JouwWeb-template",
+   "Beperkt mobielvriendelijk",
+   "Geen online boeken",
+   "Geen telefoonnummer/e-mail op de pagina",
+   "Geen reviews"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Margarita TrendyNails",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond (Helmond-Noord)",
+  "status": "demo",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://margarita-trendynails.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: gebrekkig. Je site oogt functioneel maar gedateerd en mist een veilige HTTPS-verbinding en zichtbare reviews.",
+  "fouten": [
+   "Functionele maar weinig moderne uitstraling",
+   "Geen geldige HTTPS zichtbaar",
+   "Geen e-mailadres",
+   "Geen reviews op de site",
+   "Versnipperde openingstijden ogen rommelig"
+  ],
+  "contact": "06-29035569"
+ },
+ {
+  "bedrijf": "Nagelstudio SusaNails",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond (Mierlo-Hout)",
+  "status": "demo",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://susanails.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: verouderd. Er staat nergens een zichtbaar telefoonnummer en geen klantreviews, terwijl je juist een nagelstudio-award noemt.",
+  "fouten": [
+   "Gedateerde uitstraling",
+   "Geen telefoonnummer/e-mail als tekst zichtbaar",
+   "Geen prijzen of openingstijden op de homepage",
+   "Geen reviews op de site (ondanks award-claim)"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Schoonheidssalon Esthetika",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond (Brandevoort)",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://esthetika-helmond.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: gebrekkig. Je website was bij controle gewoon onbereikbaar — bezoekers krijgen de site dan helemaal niet te zien.",
+  "fouten": [
+   "Website weigert de verbinding (onbereikbaar bij controle)",
+   "Geen geldige HTTPS (http://)"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Lady D. Nails",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://lady-d-nails.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: geen-site. Je hebt geen eigen website en zelfs je adres staat in verschillende gidsen verschillend vermeld.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen in directories",
+   "Tegenstrijdige adressen in directories",
+   "Geen telefoonnummer gevonden"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Nagelsalon Anne",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://nagelsalon-anne.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: alleen-social. Er is geen eigen website, alleen Facebook, en in gidsen staan meerdere adressen door elkaar.",
+  "fouten": [
+   "Geen eigen website, alleen Facebook en directory-vermeldingen",
+   "Meerdere 'Anne'-vermeldingen op verschillende adressen"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Beautty by RaeRae",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://beautty-by-raerae.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: alleen-social. Je bent alleen via Instagram te vinden en hebt geen eigen website waar klanten je info terugvinden.",
+  "fouten": [
+   "Geen eigen website, alleen Instagram",
+   "Geen vindbare prijzen, openingstijden of telefoonnummer buiten Instagram"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Nagelstudio Mariëlle",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://nagelstudio-marielle.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: verouderd. Je informatie staat verspreid over twee verschillende domeinnamen en de hoofdsite draait nog op een onbeveiligde http-verbinding.",
+  "fouten": [
+   "Site op http:// (geen geldige HTTPS zichtbaar)",
+   "Inhoud verspreid over twee losse domeinen (.nl én .com) — verwarrend voor vindbaarheid"
+  ],
+  "contact": "info@nagelstudio-marielle.nl"
+ },
+ {
+  "bedrijf": "Be.you.tiful by Melbis",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://beyoutiful-melbis.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: alleen-social. Er is geen eigen website te vinden, alleen een vermelding in een nagelstudio-gids zonder verdere gegevens.",
+  "fouten": [
+   "Geen eigen website, alleen directory-vermelding",
+   "Geen telefoonnummer, prijzen of openingstijden vindbaar"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Blue Nagelstudio",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://blue-nagelstudio.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: alleen-social. Je bent alleen via een gidsvermelding te vinden; een eigen website ontbreekt.",
+  "fouten": [
+   "Geen eigen website, alleen directory-vermelding",
+   "Wel online boeken genoemd in gids, maar geen eigen vindbare site"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Niki's Nagelstudio",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Mierlo",
+  "status": "demo",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://nikis-nagelstudio.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: gebrekkig. Klanten kunnen op je site geen online afspraak maken en er staan geen openingstijden vermeld.",
+  "fouten": [
+   "WordPress-site met gedateerde uitstraling",
+   "Geen online boeken",
+   "Geen e-mailadres",
+   "Geen openingstijden op de site",
+   "Geen prijzen met bedragen op de homepage"
+  ],
+  "contact": "06-15832332"
+ },
+ {
+  "bedrijf": "Blitz Nails Nagelstudio",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Mierlo",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://blitz-nails.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: alleen-social. Een eigen website ontbreekt volledig; je staat alleen in een nagelstudio-gids.",
+  "fouten": [
+   "Geen eigen website, alleen directory-vermelding",
+   "Geen telefoonnummer, prijzen of openingstijden vindbaar"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "XM Beauty",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Gemert",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://xm-beauty.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: alleen-social. Je hebt geen eigen website; klanten vinden alleen een kale adresvermelding in een gids.",
+  "fouten": [
+   "Geen eigen website, alleen directory-vermelding",
+   "Geen telefoonnummer, prijzen of openingstijden vindbaar via de gids"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Linda's Hair & Nail Design",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://lindas-hair-nail.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: geen-site. Online vind je alleen een gidsvermelding terug; een eigen website is er niet.",
+  "fouten": [
+   "Geen eigen website, alleen een bedrijvengids-vermelding",
+   "Geen telefoonnummer, prijzen of openingstijden vindbaar"
+  ],
+  "contact": "Bel of app ons"
+ },
+ {
+  "bedrijf": "Nagelsalon Everything Beauty",
+  "niche": "Nagelstudio's",
+  "regio": "Helmond e.o.",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://everything-beauty.demo.brabantdigital.nl",
+  "waarom": "Webaanwezigheid: geen-site. Er is wel een telefoonnummer bekend, maar geen eigen website waar klanten meer informatie vinden.",
+  "fouten": [
+   "Geen eigen website, alleen een vermelding op nagelstudio-info.nl",
+   "Geen vindbare prijzen, openingstijden of reviews"
+  ],
+  "contact": "06-18990636"
  }
 ]

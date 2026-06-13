@@ -19,6 +19,36 @@ Hondentrimsalon Oss (klantenstop), Doggroomer Eindhoven (al moderne site met onl
 
 **Nieuw in handelingskader:** gebruik eigen foto's van de prospect in de demo (CLAUDE.md + STRATEGIE.md + generator).
 
+## Batch 2: nagelstudio's Helmond e.o. (Helmond · Geldrop · Mierlo · Gemert)
+
+**Niche-keuze (onderbouwing):** marktonderzoek wees uit dat nagelstudio's/nagelstylisten in Helmond
+e.o. een hoge website-behoefte hebben: van de ~25 gecontroleerde studio's had de meerderheid een
+zwakke of ontbrekende webaanwezigheid — een grote groep heeft alleen Facebook/Instagram of een
+gidsvermelding, anderen draaien op verouderde bouwer-templates of kapotte sites. Online boeken
+ontbrak vrijwel overal, terwijl klanten dat in deze branche steeds vaker verwachten. Nagelstudio's
+passen bovendien qua structuur (afspraak/behandelingen/tarieven/reviews) goed op ons template.
+
+**Gevonden & gescand:** ~25 studio's (via Treatwell, nagelstudio-info.nl, nagelstudios.nl, Goudengids,
+Google + WebFetch per site). **20 prospects** geselecteerd (de zwakste/serieuze); sterke moderne sites
+(o.a. La Petite Belge, LaLina, Lika Nail Center) en een avond-only bijbaan (B's BeautySpot) bewust overgeslagen.
+
+**Concrete gevonden gebreken (echt waargenomen):** La Chica Nails draait op een self-signed
+SSL-certificaat (beveiligingswaarschuwing); Beauty Point Helmond toont enkel een lege DirectAdmin-placeholder;
+Schoonheidssalon Esthetika was bij controle onbereikbaar; Espaço Mão Bella heeft dode 404-links voor
+prijs/contact; JAËL gebruikt slechts een kale Google business.site; veel anderen hebben géén eigen site.
+
+**Demo's:** 20 kiesdemo's gegenereerd. De generator is **niche-bewust** gemaakt: per-entry veld
+`"niche":"nagels"` past een NL/EN-copymap toe op alle 10 designs (incl. calculator/quiz/before-after-slider)
+en gebruikt een **nagelbeeldpool** (geverifieerde Pexels-foto's, rolverdeling clean/salon/before) i.p.v.
+de hondenfoto's. De bestaande trimsalon-demo's blijven ongewijzigd (geen niche-veld). Verificatie:
+geen trim-/honden-tekst meer in de nagel-demo's (alleen een interne JS-variabele heet nog `coat`).
+
+**E-mail:** 1 prospect heeft een e-mailadres (Nagelstudio Mariëlle, Geldrop) → status `klaar`;
+de overige 19 → `concept` (geen e-mail gevonden, wel vaak telefoon/social). **Niets verstuurd.**
+
+**Reviews:** géén reviews overgenomen — de enige gevonden "reviews" waren parafrases zonder echt
+citaat (verzin geen reviews), dus leeg gelaten.
+
 ## STATUS: gestopt vóór verzenden — niets verstuurd. Wacht op controle door Pro4Never.
 
 ### Openstaand (na review)

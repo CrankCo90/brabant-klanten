@@ -896,5 +896,426 @@
   "plaats": "Eindhoven",
   "tel_display": "Bel of app ons",
   "tel_href": "#contact"
+ },
+ {
+  "bedrijf": "La Chica Nails",
+  "kort": "La Chica",
+  "slug": "lachicanails",
+  "plaats": "Helmond (Brouwhuis)",
+  "tel_display": "06-24547803",
+  "tel_href": "tel:+31624547803",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Ma 09:00–22:00 · di/wo 09:00–18:00 · do 09:00–22:00",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Beauty Point Helmond",
+  "kort": "Beauty Point",
+  "slug": "beautypoint-helmond",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Ymy's nagelstudio",
+  "kort": "Ymy's",
+  "slug": "ymys-nagelstudio",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Espaço Mão Bella",
+  "kort": "Mão Bella",
+  "slug": "espaco-mao-bella",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "Conceição",
+   "verhaal": "Eigenaresse afkomstig uit Brazilië, opende de studio in 2015; nagelverzorging staat centraal vanuit de Braziliaanse cultuur.",
+   "specialisaties": [
+    "Gelnagels",
+    "Acrylnagels",
+    "Gellak",
+    "Manicure",
+    "Voet-spa",
+    "Nailart",
+    "3D-design"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Nagelstudio JAËL",
+  "kort": "JAËL",
+  "slug": "nagelstudio-jael",
+  "plaats": "Helmond",
+  "tel_display": "0492-512855",
+  "tel_href": "tel:+31492512855",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [
+    "Acrylnagels",
+    "Nailart",
+    "Naildesign",
+    "3D-nagels"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Op mijn mooist",
+  "kort": "Op mijn mooist",
+  "slug": "op-mijn-mooist",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Gespecialiseerd in het gezond houden en krijgen van de natuurlijke nagel; geen kunstnagels.",
+   "specialisaties": [
+    "Gellak (CND-Shellac, Loveness)",
+    "Manicure",
+    "IBX-behandeling",
+    "Nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Margarita TrendyNails",
+  "kort": "Margarita",
+  "slug": "margarita-trendynails",
+  "plaats": "Helmond (Helmond-Noord)",
+  "tel_display": "06-29035569",
+  "tel_href": "tel:+31629035569",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "Margarita",
+   "verhaal": "Levert naar eigen zeggen 'een behandeling op niveau' met aandacht, advies en vakmanschap — geen snelle hoek-om nagelservice.",
+   "specialisaties": [
+    "BIAB",
+    "PolyGel",
+    "Gellak",
+    "Nailart",
+    "Nagelbijt-arrangement"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Ma 10:00–15:00 & 20:00–21:30 · di/do 09:00–15:00 & 20:00–21:30 · wo 09:00–21:30 · vr 09:00–12:00",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Nagelstudio SusaNails",
+  "kort": "SusaNails",
+  "slug": "susanails",
+  "plaats": "Helmond (Mierlo-Hout)",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "Susana",
+   "verhaal": "Gediplomeerd nagelstyliste met 17 jaar ervaring en een grote passie voor mooie nagels; perfectie staat centraal.",
+   "specialisaties": [
+    "Gelnagels (Buildergel)",
+    "Babyboom",
+    "French manicure",
+    "Nagelverlenging",
+    "Gellak",
+    "Nailart"
+   ],
+   "certificering": [
+    "TPO- en HEMA-vrije, EU-gecertificeerde producten",
+    "Gesteriliseerd gereedschap",
+    "Vijltjes voor eenmalig gebruik"
+   ],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Schoonheidssalon Esthetika",
+  "kort": "Esthetika",
+  "slug": "esthetika-helmond",
+  "plaats": "Helmond (Brandevoort)",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [
+    "Kunstnagels",
+    "Pedicure",
+    "Gezichtsbehandelingen",
+    "Spray tan",
+    "Make-up"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Lady D. Nails",
+  "kort": "Lady D",
+  "slug": "lady-d-nails",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Nagelsalon Anne",
+  "kort": "Anne",
+  "slug": "nagelsalon-anne",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Beautty by RaeRae",
+  "kort": "RaeRae",
+  "slug": "beautty-by-raerae",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [
+    "Nails",
+    "BIAB"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Nagelstudio Mariëlle",
+  "kort": "Mariëlle",
+  "slug": "nagelstudio-marielle",
+  "plaats": "Geldrop",
+  "tel_display": "06-36239855",
+  "tel_href": "tel:+31636239855",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "Mariëlle",
+   "verhaal": "",
+   "specialisaties": [
+    "CND-Lecente",
+    "Perfect M BIAB",
+    "Plexigel",
+    "Acrylnagels"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Be.you.tiful by Melbis",
+  "kort": "Be.you.tiful",
+  "slug": "beyoutiful-melbis",
+  "plaats": "Geldrop",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [
+    "Pedicure",
+    "Kunstnagels",
+    "Acrylnagels",
+    "Wimpers liften",
+    "Wenkbrauwen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Blue Nagelstudio",
+  "kort": "Blue",
+  "slug": "blue-nagelstudio",
+  "plaats": "Geldrop",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Niki's Nagelstudio",
+  "kort": "Niki's",
+  "slug": "nikis-nagelstudio",
+  "plaats": "Mierlo",
+  "tel_display": "06-15832332",
+  "tel_href": "tel:+31615832332",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "Niki",
+   "verhaal": "Allround nagelstyliste met bijna 15 jaar ervaring; nadruk op kwaliteit en klanttevredenheid, en biedt naast nagels ook permanente make-up.",
+   "specialisaties": [
+    "Acrylnagels",
+    "Gelnagels",
+    "Manicure",
+    "GelColor",
+    "Permanente make-up"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Blitz Nails Nagelstudio",
+  "kort": "Blitz Nails",
+  "slug": "blitz-nails",
+  "plaats": "Mierlo",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "XM Beauty",
+  "kort": "XM Beauty",
+  "slug": "xm-beauty",
+  "plaats": "Gemert",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Linda's Hair & Nail Design",
+  "kort": "Linda's",
+  "slug": "lindas-hair-nail",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
+ },
+ {
+  "bedrijf": "Nagelsalon Everything Beauty",
+  "kort": "Everything Beauty",
+  "slug": "everything-beauty",
+  "plaats": "Helmond",
+  "tel_display": "06-18990636",
+  "tel_href": "tel:+31618990636",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "",
+   "reviews": []
+  }
  }
 ]

@@ -26,6 +26,224 @@ def pick_pool(slug):
         l=sh[r]; out.append(l[idx[r]%len(l)]); idx[r]+=1
     return out
 
+# ---- Niche: nagelstudio's (hergebruikt het trimsalon-template met nagel-copy + nagelbeelden) ----
+# 8 nagelfoto's (Pexels, geverifieerd) in dezelfde index-vololgorde/rollen als AI_URLS:
+# 0,1 clean (hero/finished)  2 salon-interieur  3 'before' (kale nagels, slider)  4 clean 'after'
+# 5 salon (werk)  6 clean (lifestyle)  7 salon (werk)
+_PX = "https://images.pexels.com/photos/%s/pexels-photo-%s.jpeg?auto=compress&cs=tinysrgb&w=1280"
+NAIL_IMG = [_PX%(i,i) for i in ["2268404","3557600","6135674","3997388","3997381","4677846","2600287","7446919"]]
+
+# Decoratieve hond-emoji's -> nagel-emoji's (quiz design-09)
+NAIL_EMOJI = [("\U0001F415‍\U0001F9BA","\U0001F485"),("\U0001F415","\U0001F485"),
+    ("\U0001F9AE","\U0001F485"),("\U0001F429","✨"),("\U0001F43E","\U0001F485"),
+    ("\U0001F9F9","\U0001F3A8"),("\U0001F98A","\U0001F48E")]
+
+# Ordered replacements (combos eerst, dan hele zinnen, dan losse woorden). Toegepast als niche=="nagels".
+NAIL_MAP = [
+ # --- calculator (design-08) + quiz (design-09) opties/combo's: eerst, want ze bevatten substrings ---
+ ('data-en="Small">Klein','data-en="Short">Kort'),
+ ('data-en="Large">Groot','data-en="Long">Lang'),
+ ('data-en="Short / smooth">Kort / glad','data-en="Gel polish">Gellak'),
+ ('data-en="Long / doodle">Lang / doodle','data-en="BIAB">BIAB'),
+ ('data-en="Wire-haired">Ruwharig','data-en="Acrylics">Acryl'),
+ ('data-en="Double coat">Double coat','data-en="PolyGel">PolyGel'),
+ ('data-en="Wash & blow-dry">Wassen &amp; föhnen','data-en="Gel polish">Gellak'),
+ ('data-en="Full grooming">Volledige trimbeurt','data-en="Full set">Volledige set'),
+ ('data-en="Tidy-up">Bijwerken','data-en="Refill">Bijwerken'),
+ ('data-en="Short & smooth">Kort &amp; glad','data-en="Gel polish">Gellak'),
+ ('data-rec="Wassen & föhnen|Wash & blow-dry"','data-rec="Gellak|Gel polish"'),
+ ('data-rec="Volledige trimbeurt|Full grooming"','data-rec="Volledige set|Full set"'),
+ ('data-rec="Plukbeurt (ruwharig)|Hand-stripping"','data-rec="BIAB-set|BIAB set"'),
+ ('data-rec="Ontwol-behandeling|De-shed treatment"','data-rec="Acrylset|Acrylic set"'),
+ ('recVal=[\'Volledige trimbeurt\',\'Full grooming\']','recVal=[\'Volledige set\',\'Full set\']'),
+ # --- hele zinnen (EN) ---
+ ('Certified dog groomer for all breeds — from doodle to Pomeranian. Book online and your dog is pampered in all peace and quiet.',
+  'Certified nail stylist for every look — from a natural manicure to full acrylics. Book online and enjoy your nails in all peace and quiet.'),
+ ('Certified dog grooming salon in Amsterdam Osdorp. All breeds, groomed with love and patience.',
+  'Certified nail studio in Amsterdam Osdorp. Every style, done with love and precision.'),
+ ('Certified groomer for all breeds. Book online — your dog is pampered in calm, professional hands.',
+  'Certified nail stylist for every style. Book online — your nails in calm, professional hands.'),
+ ('Certified groomer for all breeds. Combine the grooming with a walk around the Sloterplas — your dog comes back glowing.',
+  'Certified nail stylist for every style. Combine your appointment with a coffee nearby — you leave glowing.'),
+ ('Certified groomer for all breeds. Calm, careful and always with an eye for your dog.',
+  'Certified nail stylist for every style. Calm, careful and always with an eye for you.'),
+ ('A certified groomer who treats every coat as a craft. All breeds, with love and patience.',
+  'A certified nail stylist who treats every set as a craft. Every style, with love and precision.'),
+ ('Every dog gets time and attention. No rush, no stress — just patient, expert care from a certified groomer who keeps learning.',
+  'Every client gets time and attention. No rush, no stress — just patient, expert care from a certified nail stylist who keeps learning.'),
+ ('Diploma in hand and re-trained every year — most recently at the Purina Pro Plan symposium 2026. Your dog benefits from the latest insights in coat and skin care.',
+  'Diploma in hand and re-trained every year — with the latest gel and nail techniques. You benefit from the newest insights in nail and skin care.'),
+ ('A personal grooming salon. Love, patience and craftsmanship — for every coat, every breed.',
+  'A personal nail studio. Love, patience and craftsmanship — for every set, every style.'),
+ ('A gentle wash and careful drying, tailored to the coat.','A gentle prep and careful finish, tailored to your nails.'),
+ ('Trimming, stripping or clipping — exactly what the breed needs.','Gel, BIAB or acrylics — exactly what your nails need.'),
+ ('A relaxed first visit so grooming stays fun for life.','A relaxed first visit so your appointments stay something to look forward to.'),
+ ('A spa day for your dog — drag the slider and watch a scruffy coat turn into a clean, fluffy result.',
+  'A spa moment for your hands — drag the slider and watch worn nails turn into a fresh, flawless result.'),
+ ('Hand-stripping that keeps the coat healthy and true to type.','Careful prep that keeps your natural nails healthy and strong.'),
+ ('Gentle products, tailored to skin and coat.','Gentle products, tailored to skin and nails.'),
+ ('Breed-true finish, neat and even.','Flawless finish, neat and even.'),
+ ('Expert handling of demanding coats, with patience.','Expert handling of tricky nails, with patience.'),
+ ("No more guessing. Pick your dog's size, coat and treatment and see a price indication right away.",
+  'No more guessing. Pick your length, technique and treatment and see a price indication right away.'),
+ ("* Indication only — the final price is set together after seeing your dog's coat.",
+  '* Indication only — the final price is set together after seeing your nails.'),
+ ('No more calling during grooming. Pick a treatment, a day and a time — done.',
+  'No more calling during work. Pick a treatment, a day and a time — done.'),
+ ('All breeds welcome, groomed with love and patience.','Every style welcome, done with love and precision.'),
+ ('Book online or call directly. Your dog will thank you.','Book online or call directly. Your nails will thank you.'),
+ ('Diploma plus yearly training. Specialised in doodles, wire-haired and double coats.',
+  'Diploma plus yearly training. Specialised in gel polish, BIAB and acrylics.'),
+ ('She trims our doodle with so much patience. He actually loves going now — and he comes back gorgeous.',
+  'She does my nails with so much patience and care. I actually look forward to every visit — and they always look gorgeous.'),
+ # --- hele zinnen (NL) ---
+ ('Gediplomeerd hondentrimster voor alle rassen — van doodle tot pomeriaan. Boek online en uw hond wordt in alle rust verwend.',
+  'Gediplomeerd nagelstyliste voor elke look — van een natuurlijke manicure tot complete acryl. Boek online en uw nagels worden in alle rust verwend.'),
+ ('Gediplomeerde hondentrimsalon in Amsterdam Osdorp. Alle rassen, met liefde en geduld getrimd.',
+  'Gediplomeerde nagelstudio in Amsterdam Osdorp. Elke stijl, met liefde en precisie gelakt.'),
+ ('Gediplomeerd trimster voor alle rassen. Boek online — uw hond wordt in alle rust en met vakmanschap verwend.',
+  'Gediplomeerd nagelstyliste voor elke stijl. Boek online — uw nagels worden in alle rust en met vakmanschap verwend.'),
+ ('Gediplomeerd trimster voor alle rassen. Combineer de trimbeurt met een rondje Sloterplas — uw hond komt stralend terug.',
+  'Gediplomeerd nagelstyliste voor elke stijl. Combineer uw afspraak met een koffie in de buurt — u gaat stralend naar huis.'),
+ ('Gediplomeerd trimster voor alle rassen. Rustig, zorgvuldig en altijd met oog voor uw hond.',
+  'Gediplomeerd nagelstyliste voor elke stijl. Rustig, zorgvuldig en altijd met oog voor u.'),
+ ('Een gediplomeerd trimster die elke vacht als vakwerk behandelt. Alle rassen, met liefde en geduld.',
+  'Een gediplomeerd nagelstyliste die elke set als vakwerk behandelt. Elke stijl, met liefde en geduld.'),
+ ('Elke hond krijgt tijd en aandacht. Geen haast, geen stress — alleen geduldig vakwerk van een gediplomeerd trimster die blijft bijscholen.',
+  'Elke klant krijgt tijd en aandacht. Geen haast, geen stress — alleen geduldig vakwerk van een gediplomeerd nagelstyliste die blijft bijscholen.'),
+ ('Gediplomeerd én jaarlijks bijgeschoold — onlangs nog op het Purina Pro Plan-symposium 2026. Uw hond profiteert van de nieuwste inzichten in vacht- en huidverzorging.',
+  'Gediplomeerd én jaarlijks bijgeschoold — met de nieuwste gel- en nageltechnieken. U profiteert van de nieuwste inzichten in nagel- en huidverzorging.'),
+ ('Gediplomeerd plus jaarlijkse bijscholing. Gespecialiseerd in doodles, ruwharig en double coats.',
+  'Gediplomeerd plus jaarlijkse bijscholing. Gespecialiseerd in gellak, BIAB en acryl.'),
+ ('Een persoonlijke trimsalon. Liefde, geduld en vakmanschap — voor elke vacht, elk ras.',
+  'Een persoonlijke nagelstudio. Liefde, geduld en vakmanschap — voor elke set, elke stijl.'),
+ ('Een zachte wasbeurt en zorgvuldig drogen, afgestemd op de vacht.',
+  'Een zachte voorbereiding en strakke afwerking, afgestemd op uw nagels.'),
+ ('Knippen, plukken of scheren — precies wat het ras nodig heeft.',
+  'Gellak, BIAB of acryl — precies wat uw nagels nodig hebben.'),
+ ('Een ontspannen eerste keer zodat trimmen een leven lang leuk blijft.',
+  'Een ontspannen eerste keer zodat uw afspraken iets blijven om naar uit te kijken.'),
+ ('Met de hand plukken zodat de vacht gezond en raszuiver blijft.',
+  'Zorgvuldige voorbereiding zodat uw natuurlijke nagel gezond en sterk blijft.'),
+ ('Een spa-dag voor uw hond — sleep de slider en zie een verwaarloosde vacht veranderen in een schoon, donzig resultaat.',
+  'Een spa-moment voor uw handen — sleep de slider en zie versleten nagels veranderen in een fris, perfect resultaat.'),
+ ('Vakkundige aanpak van veeleisende vachten, met geduld.','Vakkundige aanpak van lastige nagels, met geduld.'),
+ ('Zachte producten, afgestemd op huid en vacht.','Zachte producten, afgestemd op huid en nagels.'),
+ ('Alle rassen welkom, met liefde en geduld getrimd.','Elke stijl welkom, met liefde en precisie gelakt.'),
+ ('Geen giswerk meer. Kies grootte, vacht en behandeling van uw hond en zie direct een richtprijs.',
+  'Geen giswerk meer. Kies lengte, techniek en behandeling en zie direct een richtprijs.'),
+ ('Niet meer bellen tijdens het trimmen. Kies een behandeling, een dag en een tijd — klaar.',
+  'Niet meer bellen tijdens het werk. Kies een behandeling, een dag en een tijd — klaar.'),
+ ('Ze trimt onze doodle met zoveel geduld. Hij vindt het nu zelfs leuk — en hij komt er prachtig uit.',
+  'Ze doet mijn nagels met zoveel geduld en aandacht. Ik kijk nu zelfs uit naar elke afspraak — en ze zien er altijd prachtig uit.'),
+ # --- korte zinnen / labels (EN dan NL) ---
+ ('Dog grooming · Amsterdam Osdorp','Nail studio · Amsterdam Osdorp'),
+ ('Hondentrimsalon · Amsterdam Osdorp','Nagelstudio · Amsterdam Osdorp'),
+ ('Groomed with love and patience','Styled with love and precision'),
+ ('Met liefde en geduld getrimd','Met liefde en precisie gelakt'),
+ ('Specialist in doodles, wire-haired and double coated.','Specialist in gel polish, BIAB and acrylics.'),
+ ('Specialist in doodles, ruwharig en double coated.','Specialist in gellak, BIAB en acryl.'),
+ ('Specialised in doodles, wire-haired & double coat','Specialised in gel, BIAB & acrylics'),
+ ('Gespecialiseerd in doodles, ruwharig & double coat','Gespecialiseerd in gellak, BIAB & acryl'),
+ ('A calm spa day for your dog','A calm spa moment for your hands'),
+ ('Een rustige spa-dag voor uw hond','Een rustig spa-moment voor uw handen'),
+ ('Honest coat advice, also for at home','Honest nail advice, also for at home'),
+ ('Eerlijk vachtadvies, ook voor thuis','Eerlijk nageladvies, ook voor thuis'),
+ ("Book your dog's spot online.",'Book your spot online.'),
+ ('Boek online een plekje voor uw hond.','Boek online een plekje voor uzelf.'),
+ ("Book your dog's session",'Book your session'),
+ ('Boek de beurt van uw hond','Boek uw afspraak'),
+ ("Book your dog's spot",'Book your spot'),
+ ('Reserveer een plekje voor uw hond','Reserveer een plekje voor uzelf'),
+ ('Expertly groomed, close to home','Expertly styled, close to home'),
+ ('Vakkundig getrimd, vlak bij huis','Vakkundig gelakt, vlak bij huis'),
+ ('Specialist care for every coat','Specialist care for every set'),
+ ('Specialistische zorg voor elke vacht','Specialistische zorg voor elke set'),
+ ('Wire-haired & stripping','BIAB & overlay'),
+ ('Ruwharig &amp; plukken','BIAB &amp; overlay'),
+ ('Doodles & double coat','Gel polish & acrylics'),
+ ('Doodles &amp; double coat','Gellak &amp; acryl'),
+ ('Plan a grooming session','Plan an appointment'),
+ ('Plan een trimbeurt','Plan een afspraak'),
+ ('Where your dog is <em>pampered</em>','Where your nails are <em>pampered</em>'),
+ ('Waar uw hond wordt','Waar uw nagels worden'),
+ ('Trimming, stripping or clipping','Gel, BIAB or acrylics'),
+ ('Treat your dog','Treat yourself'),
+ ('Verwen uw hond','Verwen uzelf'),
+ ('Time and patience for every dog','Time and patience for every client'),
+ ('Tijd en geduld voor elke hond','Tijd en geduld voor elke klant'),
+ ('From doodle to Pomeranian','From natural to full set'),
+ ('Van doodle tot pomeriaan','Van natuurlijk tot complete set'),
+ ('The art of grooming','The art of nail styling'),
+ ('De kunst van het trimmen','De kunst van het lakken'),
+ ('Every coat, its own approach','Every set, its own approach'),
+ ('Elke vacht, eigen aanpak','Elke set, eigen aanpak'),
+ ('What does grooming cost?','What does a set cost?'),
+ ('Wat kost een trimbeurt?','Wat kost een set?'),
+ ('Which treatment suits your dog?','Which treatment suits you?'),
+ ('Welke behandeling past bij uw hond?','Welke behandeling past bij u?'),
+ ("What's your dog's size?",'What length do you want?'),
+ ('Wat is de grootte van uw hond?','Welke lengte wilt u?'),
+ ("What's the coat like?",'Which technique do you prefer?'),
+ ('Wat voor vacht heeft uw hond?','Welke techniek heeft uw voorkeur?'),
+ ('How often is your dog groomed?','How often do you get your nails done?'),
+ ('Hoe vaak wordt uw hond getrimd?','Hoe vaak laat u uw nagels doen?'),
+ ('Free trim advice','Free nail advice'),
+ ('Gratis trimadvies','Gratis nageladvies'),
+ ('Trim-quiz','Nagel-quiz'),
+ ('Full grooming','Full set'),
+ ('Volledige trimbeurt','Volledige set'),
+ ('Wassen &amp; föhnen','Manicure &amp; gellak'),
+ ('Wassen &amp; verzorgen','Manicure &amp; verzorging'),
+ ('Knippen &amp; stylen','Vormen &amp; stylen'),
+ ('Trim & style','Shape & style'),
+ ('Plukbeurt ruwharig','BIAB-set'),
+ ('1. Size of your dog','1. Nail length'),
+ ('1. Grootte van uw hond','1. Nagellengte'),
+ ('2. Coat type','2. Technique'),
+ ('2. Vachttype','2. Techniek'),
+ ('Long / doodle','Long'),
+ ('Lang / doodle','Lang'),
+ ('depending on coat condition','depending on nail condition'),
+ ('afhankelijk van vachtconditie','afhankelijk van nagelconditie'),
+ ('Certified groomer, all breeds','Certified stylist, every style'),
+ ('Gediplomeerd, alle rassen','Gediplomeerd, elke stijl'),
+ ('Wash, dry, nails & ears included','Manicure, file & topcoat included'),
+ ('Wassen, drogen, nagels &amp; oren inbegrepen','Manicure, vijlen &amp; toplaag inbegrepen'),
+ ('Wassen, drogen, nagels & oren inbegrepen','Manicure, vijlen & toplaag inbegrepen'),
+ ('Honest advice for at home','Honest advice for at home'),
+ ('Hand-stripping','Cuticle prep'),
+ # --- batch 2: index-voorstelpagina, design-10 boekingen, gemiste NL/alt ---
+ ('Wie zoekt op "hondentrimsalon Amsterdam Osdorp" vindt nu uw concurrenten. Met een eigen website verschijnt u in Google — elke dag nieuwe klanten die u nu misloopt.',
+  'Wie zoekt op "nagelstudio Amsterdam Osdorp" vindt nu uw concurrenten. Met een eigen website verschijnt u in Google — elke dag nieuwe klanten die u nu misloopt.'),
+ ("Mensen plannen zelf een afspraak, ook 's avonds. Die verschijnt direct in uw agenda — u wordt niet meer gestoord tijdens het trimmen.",
+  "Mensen plannen zelf een afspraak, ook 's avonds. Die verschijnt direct in uw agenda — u wordt niet meer gestoord tijdens het werk."),
+ ('Sleep de slider over de foto en zie een ongekamde vacht veranderen in een verzorgd resultaat. Uw vakwerk meteen zichtbaar.',
+  'Sleep de slider over de foto en zie versleten nagels veranderen in een vers gelakt resultaat. Uw vakwerk meteen zichtbaar.'),
+ ('grootte/vacht/dienst','lengte/techniek/dienst'),
+ ('De bezoeker kiest grootte, vachttype en behandeling en ziet meteen een richtprijs — duidelijk, zonder dat u vastzit aan een vast bedrag.',
+  'De bezoeker kiest lengte, techniek en behandeling en ziet meteen een richtprijs — duidelijk, zonder dat u vastzit aan een vast bedrag.'),
+ ('Modern Mint — Trim-keuzehulp','Modern Mint — Nagel-keuzehulp'),
+ ('Een korte, vriendelijke keuzehulp: "welke behandeling past bij mijn hond?" met persoonlijk advies en een directe boekingsknop.',
+  'Een korte, vriendelijke keuzehulp: "welke behandeling past bij mij?" met persoonlijk advies en een directe boekingsknop.'),
+ ('Trim-keuzehulp','Nagel-keuzehulp'),
+ ('Wassen & föhnen|Wash & blow-dry|45','Gellak|Gel polish|45'),
+ ('Volledige trimbeurt|Full grooming|65','Volledige set|Full set|65'),
+ ('Plukbeurt ruwharig|Hand-stripping|70','BIAB-set|BIAB set|70'),
+ ('Boek online of bel direct. Uw hond zal u dankbaar zijn.','Boek online of bel direct. Uw nagels zullen u dankbaar zijn.'),
+ ('Vakwerk waar baasjes op rekenen','Vakwerk waar klanten op rekenen'),
+ ('Careful de-shedding — never shaved, always respected.','Strong, natural-looking overlays — never bulky, always neat.'),
+ ('Zorgvuldig ontwollen — nooit kaalscheren, altijd respecteren.','Sterke, natuurlijke overlay — nooit dik, altijd verzorgd.'),
+ ('* Een richtprijs — de definitieve prijs bepalen we samen na het zien van de vacht.','* Een richtprijs — de definitieve prijs bepalen we samen na het zien van uw nagels.'),
+ ('Vers getrimde hond','Vers gelakte nagels'),
+ ('% alle rassen','% alle stijlen'),
+ # --- losse woorden / restjes (langste eerst) ---
+ ('All breeds','Every style'),('Alle rassen','Elke stijl'),('breeds welcome','styles welcome'),
+ ('happy dogs','happy clients'),('blije honden','blije klanten'),
+ ('Happy dog','Happy client'),('Blije hond','Blije klant'),
+ ('Double coated','Acryl'),('Double coat','Acryl'),('double coat','acryl'),
+ ('Wire-haired','BIAB'),('Ruwharig','BIAB'),('Doodles','Gellak'),('doodle','gellak'),
+]
 # per design: (bg-var, text-var, accent-var) zodat de sectie de kleuren overneemt
 VARMAP = {
  "previews/design-01.html":("--bg","--text","--gold"),
@@ -61,6 +279,9 @@ def apply_logo(html, logo, naam):
 
 def transform(text, s):
     merk=s["bedrijf"]; kort=s["kort"]; plaats=s["plaats"]; td=s["tel_display"]; th=s["tel_href"]
+    if s.get("niche")=="nagels":
+        for a,b in NAIL_MAP: text=text.replace(a,b)
+        for a,b in NAIL_EMOJI: text=text.replace(a,b)
     text = re.sub(r'Trimsalon (<em[^>]*>)Scott</em>', r'\1'+kort+'</em>', text)
     for a,b in [("Scott's","uw"),("Hondentrimsalon Scott",merk),("Trimsalon Scott",merk),
         ("Sloterpark Groen","Parkgroen"),("Verwijst naar de Sloterplas om de hoek.","Rustig, natuurlijk en gevestigd."),
@@ -73,7 +294,7 @@ def transform(text, s):
         text=text.replace(a,b)
     fotos=s.get("fotos") or []
     own = fotos if len(fotos)>=2 else []
-    sel = pick_pool(s["slug"]) if POOL_OK else AI_URLS
+    sel = NAIL_IMG if s.get("niche")=="nagels" else (pick_pool(s["slug"]) if POOL_OK else AI_URLS)
     for i,u in enumerate(AI_URLS):
         repl = own[i] if i < len(own) else sel[i]
         if repl != u: text=text.replace(u, repl)
@@ -107,7 +328,8 @@ def info_section(fname, s):
         cols='column-count:2;column-gap:34px;' if len(tar)>6 else ''
         tar_html='<ul style="list-style:none;font-size:.9rem;%s">%s</ul>'%(cols,lis)
     else:
-        tar_html='<p style="color:var(--mut)">Prijs op aanvraag \u2014 afgestemd op ras en vacht. Vraag gerust een richtprijs.</p>'
+        _afg = "afgestemd op lengte en techniek" if s.get("niche")=="nagels" else "afgestemd op ras en vacht"
+        tar_html='<p style="color:var(--mut)">Prijs op aanvraag \u2014 %s. Vraag gerust een richtprijs.</p>'%_afg
     over=('<section id="over" style="background:var(%s);color:var(%s);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)">'%(bg,text)
       +'<div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px">'
       +'<div><div style="color:var(%s);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div>'%acc
