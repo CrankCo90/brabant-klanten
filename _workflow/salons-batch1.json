@@ -27,16 +27,34 @@
   ],
   "content": {
    "eigenaar": "Angela van de Waardenburg",
-   "verhaal": "Gediplomeerd trimster sinds 2010 en trotse eigenaar van BeMellow. Werkt alleen met de beste verzorgingsproducten en bezoekt regelmatig beurzen, specialisatiecursussen en workshops. Aangesloten bij de ABHB. Op dit moment worden alleen kleine honden tot 8 kilo geknipt.",
-   "diensten": [
-    "Luxe totaalbehandeling",
-    "Self service wassen",
-    "Workshops hondenverzorging",
-    "Verzorgingsproducten",
-    "Gratis bijwerken tussen knipbeurten"
+   "verhaal": "Gediplomeerd trimster sinds 2010 en trotse eigenaar van BeMellow, een moderne en stijlvolle salon. Wij gebruiken alleen de beste verzorgingsproducten zodat de vacht gezond en schoon wordt zonder dat de huid uitdroogt. Ons aanbod is breed en vernieuwend: van een luxe totaalbehandeling tot self service en workshops.",
+   "specialisaties": [
+    "Kleine honden (tot 8 kg)",
+    "Doodles",
+    "Puppy's (gratis puppy-uurtje)",
+    "Vachtverzorgingsworkshops",
+    "Self service wassen"
+   ],
+   "certificering": [
+    "Gediplomeerd sinds 2010",
+    "Aangesloten bij de ABHB"
    ],
    "tarieven": [],
-   "openingstijden": "Op afspraak (di t/m do telefonisch bereikbaar)"
+   "openingstijden": "Op afspraak (di t/m do telefonisch bereikbaar)",
+   "reviews": [
+    {
+     "tekst": "Geweldige hondenspa. Kalou gaat er met plezier heen en ziet er altijd top uit.",
+     "naam": "MGC"
+    },
+    {
+     "tekst": "Mijn hond wordt hier regelmatig getrimd en mooi gemaakt!",
+     "naam": "Shirley"
+    },
+    {
+     "tekst": "Ze heeft mijn twee honden, Aeryn en Obi Wan, altijd met heel veel liefde gewassen en getrimd.",
+     "naam": "Assy"
+    }
+   ]
   }
  },
  {
@@ -48,22 +66,32 @@
   "tel_href": "tel:+31622969051",
   "content": {
    "eigenaar": "Ingeborg Konings",
-   "verhaal": "Gediplomeerd trimster met meer dan 25 jaar ervaring, eigen salon in Stiphout-Helmond. Volgt regelmatig hondenshows, vakbeurzen, workshops en specialisatiecursussen en werkt met de nieuwste ergonomische apparatuur. Extra tijd voor angstige honden en pups (welkom vanaf 16 weken).",
-   "diensten": [
-    "Trimmen",
-    "Knippen",
-    "Scheren",
-    "Effileren",
-    "Plukken",
-    "Strippen",
-    "Ontklitten",
-    "Ontwollen",
+   "verhaal": "Hond & Welzijn is dé trimsalon voor de regio Helmond, Nuenen en Eindhoven voor professionele vachtverzorging. Ik ben Ingeborg Konings, gediplomeerd trimster met meer dan 25 jaar ervaring. Ik werk op afspraak zodat iedere hond individuele aandacht krijgt, met extra tijd voor angstige honden en pups, en met de nieuwste ergonomische apparatuur.",
+   "specialisaties": [
+    "Alle rassen",
+    "Angstige honden (resocialiseren)",
+    "Puppy's vanaf 16 weken",
     "Voedingsadvies",
-    "Gebitsreiniging",
-    "Puppy-kennismaking"
+    "Ultrasone gebitsreiniging",
+    "Vlooienbestrijding"
+   ],
+   "certificering": [
+    "Gediplomeerd trimster sinds 2001",
+    "Meer dan 25 jaar ervaring",
+    "Werkt volgens hygiëneprotocol"
    ],
    "tarieven": [],
-   "openingstijden": "Op afspraak"
+   "openingstijden": "Op afspraak",
+   "reviews": [
+    {
+     "tekst": "Onze Shelby gaat elke acht weken naar Ingeborg en we zijn er zo blij mee! Shelby's vacht is nu perfect; ze krabt niet meer en verhaart nauwelijks. Ingeborg is zeer professioneel en vakkundig!",
+     "naam": "Monique"
+    },
+    {
+     "tekst": "Professionele hondentrimsalon, onze Guusje ziet er altijd tiptop uit als hij hier is geweest.",
+     "naam": "Lex"
+    }
+   ]
   }
  },
  {
@@ -75,26 +103,67 @@
   "tel_href": "#contact",
   "content": {
    "eigenaar": "Tamara",
-   "verhaal": "Gediplomeerd en gecertificeerd sinds 2018, eigen salon sinds 2019. Trimt volgens rasstandaard of naar eigen wens, zolang het welzijn van de hond voorop staat. Uw hond is de enige hond in de salon tijdens de behandeling.",
-   "diensten": [
-    "Knippen",
-    "Plukken",
-    "Wassen",
-    "Ontklitten",
-    "Scheren",
-    "Ontwollen",
-    "Oren plukken",
-    "Nagels"
+   "verhaal": "Mijn naam is Tamara, eigenaresse van Tammy's Trimsalon. In 2018 behaalde ik mijn diploma; in 2019 startte ik trots mijn eigen salon in Den Bosch. Ik trim volgens rasstandaard of naar eigen wens, zolang het welzijn van uw hond voorop staat. Uw hond is de enige hond in de salon tijdens de behandeling.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken van ruwharige rassen",
+    "Doodles en poedels",
+    "Ontklitten en ontwollen",
+    "Angstige honden"
+   ],
+   "certificering": [
+    "Gediplomeerd en gecertificeerd sinds 2018",
+    "Eigen salon sinds 2019"
    ],
    "tarieven": [
-    "Wassen/föhnen klein — vanaf €40",
-    "Wassen/föhnen middel — vanaf €50",
-    "Wassen/föhnen groot — vanaf €60",
-    "Gehele behandeling — vanaf €47,50 (uurtarief)",
-    "Oren plukken — €15",
-    "Nagels knippen — €15"
+    "Wassen/föhnen kort haar klein — €40,00",
+    "Wassen/föhnen lang haar klein — €45,00",
+    "Wassen/föhnen kort haar middel — €50,00",
+    "Wassen/föhnen lang haar middel — €55,00",
+    "Wassen/föhnen kort haar groot — €60,00",
+    "Wassen/föhnen lang haar groot — €65,00",
+    "Vervilting (per uur) — €47,00",
+    "Oren plukken — €15,00",
+    "Oogjes vrij knippen — €15,00",
+    "Nagels — €15,00",
+    "Vlooienbehandeling — €35,00",
+    "Bichon Frisé — €65,00",
+    "Cavalier King Charles — €75,00",
+    "Chihuahua langhaar — €55,00",
+    "Doodle klein — €75,00",
+    "Doodle middel — €90,00",
+    "Doodle groot — €120,00",
+    "Franse bulldog — €55,00",
+    "Golden Retriever — €75,00",
+    "Labrador — €75,00",
+    "Maltezer (knippen) — €75,00",
+    "Poedel middelslag — €90,00",
+    "Shih Tzu (knippen) — €75,00",
+    "Yorkshire Terriër — €75,00"
    ],
-   "openingstijden": "Ma t/m vr 09:00–18:00, op afspraak"
+   "openingstijden": "Ma t/m vr 09:00–18:00, op afspraak",
+   "reviews": [
+    {
+     "tekst": "We komen al enkele jaren bij Tammy's Trimsalon, tot volle tevredenheid. Er wordt zeer liefdevol en professioneel gewerkt en onze Labradoodle is dol op Tamara. Toppie!",
+     "naam": "Dorien"
+    },
+    {
+     "tekst": "Wij zijn meer dan tevreden: onze Teddy komt er mooi, lekker zacht en heerlijk ruikend vandaan. Een aanrader.",
+     "naam": "Jody"
+    },
+    {
+     "tekst": "Mijn langharige chihuahua Mikey ziet er na een bezoekje bij Tamara helemaal top uit en ruikt heerlijk. Zeker aan te raden.",
+     "naam": "Anna"
+    },
+    {
+     "tekst": "Echt vakwerk en zeker een aanrader! Mijn Maltees Poppy ziet er heel mooi uit.",
+     "naam": "Annemarie"
+    },
+    {
+     "tekst": "Mijn Jack Russel heeft een geweldige behandeling gehad. Erg tevreden over Tamara en haar professionaliteit.",
+     "naam": "Peter"
+    }
+   ]
   }
  },
  {
@@ -109,24 +178,39 @@
   ],
   "content": {
    "eigenaar": "Bonita",
-   "verhaal": "Het hondenvak is haar met de paplepel ingegoten — al jong mee naar hondenshows (ouders fokten Lhasa Apso's). Ergonomisch en hygiënisch ingerichte salon aan huis, nooit meer dan één hond tegelijk, werkt met professionele scharen en scheermachines.",
-   "diensten": [
-    "Volledige trimbeurt",
-    "Kleine trimbeurt",
-    "Wassen + drogen",
-    "Nagels knippen",
-    "Oren reinigen",
-    "Vlooienbehandeling",
-    "Gratis puppy-trimtraining"
+   "verhaal": "Mijn naam is Bonita. Het hondenvak is mij met de paplepel ingegoten — al op zevenjarige leeftijd ging ik mee naar hondenshows, want mijn ouders fokten en showden Lhasa Apso's. Mijn salon aan huis is hygiënisch en ergonomisch ingericht. Ik neem de tijd voor uw dier en werk met de beste scharen en professionele scheermachines.",
+   "specialisaties": [
+    "Trimmen volgens rasstandaard",
+    "Lhasa Apso (familietraditie)",
+    "Gratis puppy-trimtraining",
+    "Uitdunnen en in model brengen",
+    "Vachtafgestemde shampoos"
    ],
+   "certificering": [],
    "tarieven": [
-    "Wassen + drogen — vanaf €15",
-    "Nagels knippen — vanaf €7,50",
-    "Oren reinigen — vanaf €7,50",
-    "Vlooienbehandeling — vanaf €17,50",
-    "Puppy-trimtraining — gratis"
+    "Wassen + drogen — vanaf €15,00",
+    "Nagels knippen — €7,50",
+    "Oren reinigen — €7,50",
+    "Anaalklieren — vanaf €12,50",
+    "Vlooienbehandeling — €17,50",
+    "Puppy-trimtraining — gratis",
+    "Controle op parasieten — gratis"
    ],
-   "openingstijden": "Ma t/m vr 09:00–21:00, za 09:00–15:00 (op afspraak)"
+   "openingstijden": "Ma t/m vr 09:00–21:00, za 09:00–15:00; op afspraak",
+   "reviews": [
+    {
+     "tekst": "Ik kwam voor het knippen van de nagels van mijn hond, die niet makkelijk is. Bonita deed het snel en pijnloos — mijn hond stond daarna kwispelend rond te springen. Echt een aanrader.",
+     "naam": "Vijayendra"
+    },
+    {
+     "tekst": "Snel, makkelijk en niet duur, met een glanzende hond als resultaat.",
+     "naam": "Bonne"
+    },
+    {
+     "tekst": "Hier een blije Binky die gisteren een mooie knipbeurt kreeg. Deze dame weet wat ze doet en deelt graag info over vachtverzorging. Blije hond, blije baas.",
+     "naam": "Saskia"
+    }
+   ]
   }
  },
  {
@@ -203,14 +287,29 @@
   ],
   "content": {
    "eigenaar": "Peter en Norma",
-   "verhaal": "In 1997 startten Norma en Peter de trimsalon; inmiddels een team met Charlotte en Gina. Door de door Peter ontwikkelde gedragsmethode bieden ze ook honden met een onzeker karakter een vertrouwde omgeving.",
-   "diensten": [
-    "Trimmen",
-    "Was-service",
-    "Vachtverzorgingsadvies"
+   "verhaal": "In 1997 zijn Norma en Peter de trimsalon in Breda gestart; Peter trimt en Norma doet de administratie. Inmiddels een mooi team met Charlotte en Gina. Met de door Peter ontwikkelde gedragsmethode bieden wij ook honden met een onzeker karakter een vertrouwde omgeving.",
+   "specialisaties": [
+    "Alle vachttypen",
+    "Onzekere/angstige honden (eigen gedragsmethode)",
+    "Bouvier",
+    "Kleine en middelgrote honden",
+    "Was-service voor verharende honden"
+   ],
+   "certificering": [
+    "Trimsalon sinds 1997"
    ],
    "tarieven": [],
-   "openingstijden": "Ma t/m vr 09:00–17:00, op afspraak"
+   "openingstijden": "Ma t/m vr 09:00–17:00, op afspraak",
+   "reviews": [
+    {
+     "tekst": "Peter heeft mijn Norwich Terriër tot een waar kunstwerk getrimd! Zeer professioneel en duidelijk gepassioneerd; hij combineert respect voor de rasstandaard met het naar voren brengen van het speelse karakter van onze Beertje.",
+     "naam": "Suzanne"
+    },
+    {
+     "tekst": "Super!",
+     "naam": "Pien"
+    }
+   ]
   }
  },
  {
@@ -222,20 +321,39 @@
   "tel_href": "tel:+31735218323",
   "content": {
    "eigenaar": "Nancy",
-   "verhaal": "Op haar achttiende trimsalon Kwispel overgenomen; trimt inmiddels al 30 jaar honden met veel plezier. Vakgediplomeerde salon, zowel grote als kleine honden welkom; erkend stage- en leerbedrijf. Sinds 1997 gevestigd aan huis tussen Rosmalen en Nuland.",
-   "diensten": [
-    "Wassen en föhnen",
-    "Knippen",
-    "Scheren",
-    "Ontklitten",
-    "Ontwollen",
-    "Plukken",
+   "verhaal": "Welkom bij hondentrimsalon Kwispel in Rosmalen, al 30 jaar een begrip in de omgeving. Een vakgediplomeerde salon waar zowel grote als kleine honden welkom zijn. Ik trim sinds 1997 aan mijn woonhuis tussen Rosmalen en Nuland. Kwispel is een erkend stage- en leerbedrijf.",
+   "specialisaties": [
+    "Grote en kleine honden",
+    "Knippen, scheren en plukken",
+    "Ontklitten en ontwollen",
     "Effileren",
-    "Nagels knippen",
-    "Vachtverzorgingsadvies"
+    "Erkend stage- en leerbedrijf"
+   ],
+   "certificering": [
+    "Vakgediplomeerd",
+    "Al 30 jaar een begrip / sinds 1997",
+    "Aequor erkend stage- en leerbedrijf"
    ],
    "tarieven": [],
-   "openingstijden": "Dinsdag, donderdag, zaterdag (op afspraak)"
+   "openingstijden": "Dinsdag, donderdag, zaterdag 08:00–17:00, op afspraak",
+   "reviews": [
+    {
+     "tekst": "Een fantastische trimsalon. Vriendelijk voor de baasjes en extreem lief voor de honden. Onze hond kwam er altijd prachtig getrimd, gewassen en geborsteld uit. En de prijs is heel redelijk. Een echte aanrader.",
+     "naam": "Dick"
+    },
+    {
+     "tekst": "Uitstekende trimsalon, flexibel en nauwkeurig. Honden komen er graag en gaan er stralend vandaan!",
+     "naam": "Nanny"
+    },
+    {
+     "tekst": "Storm, onze grote labradoodle, gaat al van kleins af aan naar Nancy en komt er altijd prachtig vandaan. Zeer tevreden!",
+     "naam": "Mariëlle"
+    },
+    {
+     "tekst": "Geweldige ervaring. Super blij met het resultaat. Dank je wel.",
+     "naam": "Marietha"
+    }
+   ]
   }
  },
  {
@@ -247,22 +365,48 @@
   "tel_href": "#contact",
   "content": {
    "eigenaar": "Roxane",
-   "verhaal": "In 2021 omgeschoold tot hondentrimster, met een kleine knusse salon aan huis in Woensel-Zuid. Werkt 1 op 1 met de hond en neemt de tijd en geduld om angstige honden op hun gemak te stellen.",
-   "diensten": [
-    "Puppy-wenbeurtje",
-    "Volledige behandeling",
-    "Kleine beurt",
-    "Wassen",
-    "Föhnen",
-    "Nagels knippen",
-    "In model knippen/effileren/plukken"
+   "verhaal": "Mijn naam is Roxane, trotse eigenaresse van Hondentrimsalon Rox. In 2021 liet ik mij omscholen tot hondentrimster; inmiddels heb ik een kleine, knusse salon aan huis in Mensfort, Eindhoven. Ik werk 1 op 1 met uw hond en stel met geduld ook angstige honden op hun gemak — het welzijn van de hond staat altijd op nummer 1.",
+   "specialisaties": [
+    "1-op-1 behandeling",
+    "Puppy-wenbeurtje (12-16 weken)",
+    "Doodles",
+    "Knippen, effileren, plukken en scheren"
+   ],
+   "certificering": [
+    "Omgeschoold tot hondentrimster sinds 2021"
    ],
    "tarieven": [
-    "Puppy-wenbeurtje — €25",
-    "Volledige behandeling — vanaf €60 (uurtarief €60)",
-    "Toeslag vlooien — €25"
+    "Puppy-wenbeurtje — €25,00",
+    "Beagle — €72,50",
+    "Bichon Frisé — €65–€90",
+    "Chihuahua korthaar — €60",
+    "Doodle klein — €85–€105",
+    "Doodle medium — €105–€125",
+    "Doodle groot — €120–€140",
+    "Franse Bulldog — €60",
+    "Golden Retriever — €60 p/u",
+    "Labrador — €65–€80",
+    "Maltezer — €65–€90",
+    "Poedel dwerg — €80–€105",
+    "Shih-tzu — €65–€90",
+    "West Highland White Terriër — €70–€100",
+    "Yorkshire Terriër — €57,50"
    ],
-   "openingstijden": "Ma t/m vr 09:00–16:00, op afspraak"
+   "openingstijden": "Ma t/m vr 09:00–16:00, op afspraak",
+   "reviews": [
+    {
+     "tekst": "Mijn hond ziet er weer zo fris uit! Dank je Rox.",
+     "naam": "Cyanne"
+    },
+    {
+     "tekst": "Rox heeft onze Berner Doodle Nala weer prachtig gemaakt. Het was de eerste keer (16 weken oud); Rox is heel lief met de honden en Nala voelde zich meteen thuis. Wij komen graag terug!",
+     "naam": "Jack"
+    },
+    {
+     "tekst": "De eerste keer bij Rox voelde meteen heel warm en vertrouwd, ook al hadden mijn hond en ik nog geen ervaring met trimsalons.",
+     "naam": "Nina"
+    }
+   ]
   }
  },
  {
@@ -277,20 +421,34 @@
   ],
   "content": {
    "eigenaar": "Wilma van der Meijs",
-   "verhaal": "Al 25 jaar met veel plezier werkzaam als gediplomeerd ABHB-hondentrimster in haar eigen salon aan huis in Breda. Volgt alle hedendaagse cursussen.",
-   "diensten": [
-    "Knipvachten",
-    "Plukvachten",
-    "Effileren",
-    "Uitkammen",
-    "Wassen en drogen",
-    "Nagels",
-    "Gebitscontrole",
-    "Oorverzorging",
-    "Anaalklieren"
+   "verhaal": "Ik ben Wilma van der Meijs, al 25 jaar met veel plezier gediplomeerd ABHB-hondentrimster in mijn eigen salon aan huis in Breda (Haagse Beemden). Zelf heb ik een Jack Russell en altijd Bouviers gehad. Ik volg alle hedendaagse cursussen zodat uw hond verzorgd en gezond door het leven gaat.",
+   "specialisaties": [
+    "Alle vachttypen (knip-, pluk- en effileervachten)",
+    "Bouvier",
+    "Ruwharige rassen",
+    "Uitkammen en ontwollen",
+    "Vlooien- en tekenbestrijding"
+   ],
+   "certificering": [
+    "Gediplomeerd ABHB-hondentrimster",
+    "25 jaar ervaring"
    ],
    "tarieven": [],
-   "openingstijden": "Ma t/m za 09:00–17:00 (op afspraak)"
+   "openingstijden": "Ma t/m za 09:00–17:00, op afspraak",
+   "reviews": [
+    {
+     "tekst": "Wilma trimt onze honden al jaren, tot volle tevredenheid. We hebben haar bij veel vrienden aanbevolen en ook zij blijven tevreden. Onze hond komt er heerlijk geurend vandaan.",
+     "naam": "Marian"
+    },
+    {
+     "tekst": "Een fijne plek en een lieve dame. Mijn Labrador verhaarde veel en zag er binnen een half uur (voor een mooie prijs) weer verzorgd uit en rook heerlijk.",
+     "naam": "SDM"
+    },
+    {
+     "tekst": "Lola gaat met veel plezier naar de trimsalon. Na een knipbeurt bij Wilma ziet onze hond er weer pluizig en fris uit.",
+     "naam": "Irene"
+    }
+   ]
   }
  },
  {
@@ -305,23 +463,55 @@
   ],
   "content": {
    "eigenaar": "Floortje Clement",
-   "verhaal": "Maakte in 2014 van haar passie haar werk; opleiding hondentrimmen bij het HKI met 1,5 jaar stage. Trotse eigenaar van Het Knappe Snuitje in Etten-Leur; neemt echt de tijd voor elke hond en bezoekt regelmatig vakbeurzen, workshops en shows.",
-   "diensten": [
-    "Volledige trimbeurt",
-    "Wassen",
-    "Borstelen",
-    "Nagels knippen",
-    "Puppybehandeling",
-    "Ruibehandeling (was- en blaas)",
-    "Dekenwasservice"
+   "verhaal": "Mijn naam is Floortje Clement. In 2014 besloot ik van mijn passie mijn werk te maken en startte ik de opleiding hondentrimmen bij het HKI, met 1,5 jaar stage. Nu ben ik trotse eigenaar van Het Knappe Snuitje in Etten-Leur. Iedere hond is uniek; ik neem echt de tijd zodat uw hond zich op zijn gemak voelt.",
+   "specialisaties": [
+    "Alle rassen en kruisingen",
+    "Speciale puppybehandeling",
+    "Ruibehandeling",
+    "Dekenwasservice",
+    "Tussenbeurten"
+   ],
+   "certificering": [
+    "Opleiding hondentrimmen bij het HKI",
+    "Bezoekt regelmatig vakbeurzen, workshops en clinics"
    ],
    "tarieven": [
-    "Trimbeurt — per ras (richtprijs incl. wassen/föhnen/nagels)",
+    "Chihuahua korthaar — €40,00",
+    "Jack Russell — €42,50",
+    "Mopshond — €50,00",
+    "Franse Bulldog — €50,00",
+    "Engelse Bulldog — €55,00",
+    "Yorkshire Terriër — €57,50",
+    "Labrador — €62,00",
+    "Lhasa Apso — €62,50",
+    "Maltezer — €62,50",
+    "Shih Tzu — €62,50",
+    "Cavalier King Charles — €65,00",
+    "Golden Retriever — €81,00",
+    "Australian Shepherd — €82,50",
+    "Bearded Collie — €102,00",
+    "Berner Sennen — €102,00",
+    "Leonberger — €145,00",
+    "Labradoodle tot 55 cm — €51,00 p/u",
+    "Bouvier — €60,00 p/u",
     "Nagels knippen — €12,50",
-    "Ruibehandeling kleine hond — €72",
-    "Toeslag ontklitten — €20 per 15 min"
+    "Nagels & voetjes — €18,50"
    ],
-   "openingstijden": "Ma t/m do 08:30–17:00, vr 08:30–12:00 (op afspraak)"
+   "openingstijden": "Ma t/m do 08:30–17:00, vr 08:30–12:00; op afspraak",
+   "reviews": [
+    {
+     "tekst": "Een echte aanrader!",
+     "naam": "Husam"
+    },
+    {
+     "tekst": "Goed werk!",
+     "naam": "Laetitia"
+    },
+    {
+     "tekst": "Ik breng beide labradoodles naar haar! Ze zien er altijd netjes uit en ze weet goed met hun verschillende vachten om te gaan. Ook heel lief voor mijn (nerveuze) dames. Een aanrader!",
+     "naam": "Wendy"
+    }
+   ]
   }
  },
  {
@@ -345,24 +535,53 @@
   ],
   "content": {
    "eigenaar": "Simone en Jasmijn Baelemans",
-   "verhaal": "Gediplomeerde hondentrimsalon in Waalwijk waar elke hond welkom is. De bedrijfsnaam komt van hun hond Mila, de mascotte. Met ervaring en liefde voor honden maken ze van elke trimbeurt een prettige ervaring. Ook een Dogboutique met verzorgingsproducten.",
-   "diensten": [
+   "verhaal": "Dogsalon Mila is een gediplomeerde hondentrimsalon in Waalwijk, gerund door Simone en Jasmijn. De naam komt van onze hond Mila, de mascotte. Met ervaring en liefde voor honden maken wij van elke trimbeurt een prettige ervaring. Daarnaast hebben we Dogboutique Mila met verzorgingsproducten en bieden we 1-op-1 lessen vachtverzorging.",
+   "specialisaties": [
+    "Alle rassen welkom",
     "Volledige trimbeurt",
-    "Wassen en drogen",
-    "Ontwollen",
-    "Knippen/scheren",
-    "Nagels knippen",
-    "Puppytraining",
-    "Dogboutique"
+    "Ontwollen / ondervacht verwijderen",
+    "Puppytraining (1e keer gratis)",
+    "1-op-1 lessen vachtverzorging",
+    "Eigen dogboutique"
+   ],
+   "certificering": [
+    "Gediplomeerde hondentrimsalon"
    ],
    "tarieven": [
-    "Volledige trimbeurt klein — €55",
-    "Volledige trimbeurt middel — €60–65",
-    "Volledige trimbeurt groot — €75–100",
-    "Wassen en drogen klein — €25",
-    "Ontwollen klein — €40"
+    "Volledige trimbeurt klein — €55,00",
+    "Volledige trimbeurt middel — €60–€65",
+    "Volledige trimbeurt groot — €75–€100",
+    "Wassen en drogen klein — €25,00",
+    "Wassen en drogen middel — €40,00",
+    "Wassen en drogen groot — €60,00",
+    "Ontwollen klein — €40,00",
+    "Ontwollen middel — €60,00",
+    "Ontwollen groot — €95,00",
+    "Puppytraining 1e keer — gratis"
    ],
-   "openingstijden": "Ma/di/do/vr, op afspraak"
+   "openingstijden": "Ma/di/do/vr, op afspraak",
+   "reviews": [
+    {
+     "tekst": "Een hele goede trimsalon. De eigenaresse is heel vriendelijk, lief voor de hond en kan goed met hem omgaan. Onze hond ziet er altijd erg netjes uit.",
+     "naam": "Ria"
+    },
+    {
+     "tekst": "Veel aandacht voor de hond en mooi geknipt. Je hond ziet er top uit, is weer lekker zacht en ruikt heerlijk.",
+     "naam": "Henk"
+    },
+    {
+     "tekst": "Heel erg goed behandeld, onze hond ziet er altijd goed geknipt uit.",
+     "naam": "Wies"
+    },
+    {
+     "tekst": "Fijne salon waar je hond op een vriendelijke en professionele manier behandeld wordt.",
+     "naam": "Maria"
+    },
+    {
+     "tekst": "Bailey en Luna zijn altijd fris en mooi geschoren.",
+     "naam": "Carola"
+    }
+   ]
   }
  },
  {

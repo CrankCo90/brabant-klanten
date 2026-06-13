@@ -67,30 +67,54 @@ def transform(text, s):
 
 def info_section(fname, s):
     c=s.get("content") or {}
-    verhaal=c.get("verhaal",""); tar=c.get("tarieven") or []; opening=c.get("openingstijden",""); eig=c.get("eigenaar","")
-    if not (verhaal or tar or opening): return ""
+    verhaal=c.get("verhaal",""); tar=c.get("tarieven") or []; opening=c.get("openingstijden","")
+    eig=c.get("eigenaar",""); spec=c.get("specialisaties") or []; cert=c.get("certificering") or []; revs=c.get("reviews") or []
+    if not (verhaal or tar or opening or spec or revs): return ""
     bg,text,acc=VARMAP[fname]
     titel=("Over "+eig) if eig else "Over ons"
-    opening_html=f'<p style="color:var(--mut);margin-top:14px"><strong style="color:var({text})">Openingstijden:</strong> {opening}</p>' if opening else ""
+    chips=""
+    if spec:
+        chips='<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:18px">'
+        for x in spec[:8]:
+            chips+='<span style="border:1px solid var(%s);color:var(%s);border-radius:999px;padding:5px 12px;font-size:.78rem">%s</span>'%(acc,acc,x)
+        chips+='</div>'
+    cert_html=''
+    if cert: cert_html='<p style="color:var(--mut);font-size:.85rem;margin-top:16px">\u2713 '+' \u00b7 '.join(cert)+'</p>'
+    opening_html=''
+    if opening: opening_html='<p style="color:var(--mut);margin-top:14px"><strong style="color:var(%s)">Openingstijden:</strong> %s</p>'%(text,opening)
     if tar:
-        lis=""
-        for t in tar[:8]:
-            if "—" in t:
-                naam,prijs=t.rsplit("—",1)
-                lis+=f'<li style="display:flex;justify-content:space-between;gap:18px;padding:8px 0;border-bottom:1px solid rgba(128,128,128,.16)"><span>{naam.strip()}</span><span style="color:var({acc});white-space:nowrap">{prijs.strip()}</span></li>'
+        lis=''
+        for t in tar[:26]:
+            if "\u2014" in t or "—" in t:
+                naam,prijs=t.replace("\u2014","—").rsplit("—",1)
+                lis+='<li style="padding:7px 0;border-bottom:1px solid rgba(128,128,128,.14);display:flex;justify-content:space-between;gap:14px;break-inside:avoid"><span>%s</span><span style="color:var(%s);white-space:nowrap">%s</span></li>'%(naam.strip(),acc,prijs.strip())
             else:
-                lis+=f'<li style="padding:8px 0;border-bottom:1px solid rgba(128,128,128,.16)">{t}</li>'
-        if len(tar)>8: lis+='<li style="padding:8px 0;color:var(--mut)">… en meer — vraag de volledige prijslijst</li>'
-        tar_html=f'<ul style="list-style:none;font-size:.92rem">{lis}</ul>'
+                lis+='<li style="padding:7px 0;border-bottom:1px solid rgba(128,128,128,.14);break-inside:avoid">%s</li>'%t
+        cols='column-count:2;column-gap:34px;' if len(tar)>6 else ''
+        tar_html='<ul style="list-style:none;font-size:.9rem;%s">%s</ul>'%(cols,lis)
     else:
-        tar_html='<p style="color:var(--mut)">Prijs op aanvraag — afgestemd op ras en vacht. Vraag gerust een richtprijs.</p>'
-    return (f'<section id="over" style="background:var({bg});color:var({text});padding:74px 0;border-top:1px solid rgba(128,128,128,.18)">'
-      f'<div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px">'
-      f'<div><div style="color:var({acc});letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div>'
-      f'<h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">{titel}</h2>'
-      f'<p style="color:var(--mut);line-height:1.75">{verhaal}</p>{opening_html}</div>'
-      f'<div><h3 style="font-family:var(--head);font-size:1.4rem;color:var({acc});margin-bottom:12px">Tarieven</h3>{tar_html}</div>'
-      f'</div></section>')
+        tar_html='<p style="color:var(--mut)">Prijs op aanvraag \u2014 afgestemd op ras en vacht. Vraag gerust een richtprijs.</p>'
+    over=('<section id="over" style="background:var(%s);color:var(%s);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)">'%(bg,text)
+      +'<div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px">'
+      +'<div><div style="color:var(%s);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div>'%acc
+      +'<h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">%s</h2>'%titel
+      +'<p style="color:var(--mut);line-height:1.75">%s</p>%s%s%s</div>'%(verhaal,chips,cert_html,opening_html)
+      +'<div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(%s);margin-bottom:12px">Tarieven</h3>%s</div>'%(acc,tar_html)
+      +'</div></section>')
+    rev=''
+    if revs:
+        cards=''
+        for r in revs[:6]:
+            tk=(r.get("tekst") or "").strip(); nm=(r.get("naam") or "").strip()
+            if not tk: continue
+            cards+='<div style="background:rgba(128,128,128,.08);border:1px solid rgba(128,128,128,.18);border-radius:14px;padding:20px"><p style="font-style:italic;line-height:1.6;margin-bottom:10px">\u201c%s\u201d</p><p style="color:var(%s);font-size:.85rem">\u2014 %s</p></div>'%(tk,acc,nm)
+        if cards:
+            rev=('<section style="background:var(%s);color:var(%s);padding:64px 0;border-top:1px solid rgba(128,128,128,.18)">'%(bg,text)
+              +'<div style="max-width:1100px;margin:0 auto;padding:0 28px">'
+              +'<div style="color:var(%s);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:8px">Reviews</div>'%acc
+              +'<h2 style="font-family:var(--head);font-size:2rem;margin-bottom:24px">Wat klanten zeggen</h2>'
+              +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px">%s</div></div></section>'%cards)
+    return over+rev
 
 n=0
 for s in salons:
