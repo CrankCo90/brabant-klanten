@@ -29,6 +29,14 @@ Demo weghalen: `rm -rf /var/www/demos/KLANT` + Caddy-blok weg + reload.
 - **Geblokkeerd (altijd):** systeem-vernietigende commando's — afgevangen door `.claude/hooks/guard.sh`.
 - **Vangnet:** maak/laat een **VPS-snapshot** maken vóór grote of verwijderende acties.
 
+## Aanbod, hosting & strategie (zie `_workflow/STRATEGIE.md`)
+- **Prijs:** €199 EENMALIG, geen maandelijkse/verplichte kosten, klant zit nergens aan vast. 1 maand gratis kleine aanpassingen na oplevering. Normaal €499 (lanceringskorting voor review).
+- **Hosting:** optioneel, losse service (~€19/mnd), 12 mnd vooruit = 25% korting, niet verplicht.
+- **Infra:** alles op één VPS, git-gedreven (demo's + productie /var/www/sites/<klant>, eigen domein via DNS). Geen VPS-per-klant.
+- **Dashboard:** admin.brabantdigital.nl (basicauth), leest clients.json; per niche + werkdag, met stats.
+- **Prospect-proces:** per niche+regio 20-30 bedrijven scannen, ranken (web/foto/social/vindbaarheid/fulltime), alleen de zwakste benaderen; al-goede sites NIET.
+- **Onboarding 'ja':** welkomstmail + onboardingformulier; standaard hosten op onze VPS (alleen DNS). Logins veilig buiten git.
+
 ## Terugkoppeling
 Schrijf aan het eind van elke werkdag een korte samenvatting naar
 `_workflow/logs/DAGELIJKS-JJJJ-MM-DD.md`: wat gedaan, welke demo-links, wat openstaat, eventuele fouten.
