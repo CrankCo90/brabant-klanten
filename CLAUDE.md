@@ -37,6 +37,11 @@ Demo weghalen: `rm -rf /var/www/demos/KLANT` + Caddy-blok weg + reload.
 - **Prospect-proces:** per niche+regio 20-30 bedrijven scannen, ranken (web/foto/social/vindbaarheid/fulltime), alleen de zwakste benaderen; al-goede sites NIET.
 - **Onboarding 'ja':** welkomstmail + onboardingformulier; standaard hosten op onze VPS (alleen DNS). Logins veilig buiten git.
 
+## E-mail versturen (handmatig/test)
+Een losse (test)kopie van een prospect-mail sturen vanaf de VPS:
+`OUTREACH_DATA=/root/outreach-data python3 _workflow/outreach/send-one.py "<bedrijf>" <naar-adres>`
+(gebruikt de SMTP-gegevens uit .smtp-env; onderwerp krijgt [TEST]; telt niet als 'benaderd').
+
 ## Terugkoppeling
 Schrijf aan het eind van elke werkdag een korte samenvatting naar
 `_workflow/logs/DAGELIJKS-JJJJ-MM-DD.md`: wat gedaan, welke demo-links, wat openstaat, eventuele fouten.

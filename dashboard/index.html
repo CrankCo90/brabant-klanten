@@ -126,6 +126,12 @@ canvas#cStatus,canvas#cNiche{max-height:240px}
       </div>
       <div id="prospectlist" style="max-height:300px;overflow:auto;margin-bottom:10px"></div>
       <button class="btn gold" id="btnsend">Verstuur outreach naar geselecteerde</button>
+      <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+        <span style="font-size:.85rem;color:#8d887e">Testkopie sturen:</span>
+        <select id="testprospect" style="background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:8px;padding:8px 10px;color:#ece9e2;font-family:inherit"></select>
+        <input id="testto" type="email" placeholder="naar e-mailadres" style="background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:8px;padding:8px 10px;color:#ece9e2;font-family:inherit">
+        <button class="btn" id="btntest">Stuur test</button>
+      </div>
       <div style="border-top:1px solid rgba(255,255,255,.1);margin:20px 0 12px"></div>
       <h4 style="font-family:'Playfair Display',serif;color:#c9a96a;font-size:1.05rem;margin-bottom:8px">Vrije opdracht aan Claude (op de VPS)</h4>
       <textarea id="claudeprompt" rows="2" placeholder="bijv. 'Zet de demo van Sunshine live' of 'Maak een nieuwe demo voor <link>'" style="width:100%;background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:9px;padding:11px 13px;color:#ece9e2;font-family:inherit;font-size:.9rem"></textarea>
@@ -239,12 +245,14 @@ function render(st){var sent={};(st.sent||[]).forEach(function(x){sent[(x.email|
    else if(isSent){ badge='<span class="badge s-benaderd">verzonden</span>'; cb='<input type="checkbox" disabled>'; }
    else { badge='<span class="badge s-prospect">klaar</span>'; cb='<input type="checkbox" class="psel" value="'+(p.bedrijf||"").replace(/"/g,"&quot;")+'" checked>'; }
    return '<label style="display:flex;gap:10px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(255,255,255,.06)">'+cb+'<span style="flex:1">'+(p.bedrijf||"")+' <span style="color:#8d887e;font-size:.82rem">'+(p.email||"geen e-mailadres")+'</span></span>'+badge+'</label>';
- }).join("")||'<p class="note">Geen prospects.</p>';}
+ }).join("")||'<p class="note">Geen prospects.</p>';
+ var ts=$c("#testprospect"); if(ts)ts.innerHTML=(st.prospects||[]).map(function(p){return "<option>"+(p.bedrijf||"")+"</option>";}).join("");}
 async function connect(){if(!CT)return;try{var st=await capi("/status","GET");if(st.error){$c("#ctlstate").textContent="(niet verbonden)";return;}$c("#ctlsetup").style.display="none";$c("#ctlpanel").style.display="block";$c("#ctlstate").textContent="\u2022 verbonden";$c("#autopilot").checked=!!st.autopilot;var _cv=localStorage.getItem("bd_cap");if(_cv)$c("#cap").value=_cv;render(st);var sm={};(st.sent||[]).forEach(function(x){sm[(x.email||"").toLowerCase()]=1;});if(window.bdRefresh)window.bdRefresh({sent:sm,replies:st.replies||{}});}catch(e){$c("#ctlstate").textContent="(geen /api)";}}
 document.addEventListener("click",function(ev){
  var id=ev.target&&ev.target.id;
  if(id==="ctlconnect"){CT=$c("#ctltoken").value.trim();localStorage.setItem("bd_ctl",CT);connect();}
  if(id==="btnrefreshctl"){connect();}
+ if(id==="btntest"){var tp=$c("#testprospect").value;var tt=$c("#testto").value.trim();if(!tt){alert("Vul een e-mailadres in.");return;}log("Testkopie van '"+tp+"' naar "+tt+"...");capi("/test-mail","POST",{prospect:tp,to:tt}).then(function(r){log(r.log||r);});}
  if(id==="btndeploy"){if(confirm("Demo's publiceren op de VPS?")){log("Publiceren...");capi("/deploy","POST",{}).then(function(r){log(r.log||r);});}}
  if(id==="btnsend"){var sel=[].slice.call(document.querySelectorAll(".psel:checked")).map(function(c){return c.value;});if(!sel.length){alert("Niemand geselecteerd.");return;}if(confirm(sel.length+" mail(s) versturen naar:\n\n"+sel.join("\n")+"\n\nDoorgaan?")){log("Versturen ("+sel.length+")... pagina ververst zo automatisch.");capi("/send-outreach","POST",{prospects:sel,cap:+$c("#cap").value}).then(function(r){log(r.log||r);setTimeout(function(){location.reload();},4000);});}}
  if(id==="btnclaude"){var pr=$c("#claudeprompt").value.trim();if(!pr)return;if(confirm("Deze opdracht door Claude op de VPS laten uitvoeren?\n\n"+pr)){log("Claude voert uit (kan even duren)...");capi("/claude","POST",{prompt:pr}).then(function(r){log(r.log||r);});}}
