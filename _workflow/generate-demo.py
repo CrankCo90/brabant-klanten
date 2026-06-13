@@ -5,12 +5,26 @@
 - 'Over ons + Tarieven'-sectie met echte content (in de kleuren van elk design)
 - Cal-planner popup op de 'Afspraak maken'-knoppen
 """
-import json, re
+import json, re, random
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC  = ROOT / "hondentrimsalonscott" / "03-designs"
 FILES = ["index.html"] + [f"previews/design-{i:02d}.html" for i in range(1,11)]
 salons = json.loads((ROOT/"_workflow"/"salons-batch1.json").read_text(encoding="utf-8"))
+
+_pp = ROOT/"_workflow"/"ai-pool.json"
+POOL = json.loads(_pp.read_text(encoding="utf-8")) if _pp.exists() else {"clean":[],"dirty":[],"salon":[]}
+POOL_OK = all(len(POOL.get(k,[]))>0 for k in ("clean","dirty","salon"))
+AI_BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/"
+AI_URLS=[AI_BASE+x for x in ["hf_20260613_085111_ed4bc4a1-2b25-4d9e-9d32-c845d82e43d5.png","hf_20260613_085111_f52a0629-6c32-41b2-b8dd-fef7eedcac53.png","hf_20260613_085113_6fec380b-3cdc-4be3-b70c-9d7c43c23dc1.png","hf_20260613_085115_b87c0cc0-c208-4c3b-8852-8bca6fcdcb98.png","hf_20260613_085116_7544c5ba-9d93-484b-bb04-5d7b6ab28cb3.png","hf_20260613_085118_a274f992-0d24-45ad-a2c6-c057fd5ec738.png","hf_20260613_085120_63fb879f-0316-4081-b785-cbc92515996b.png","hf_20260613_085121_b800ad99-b6c5-4d3b-acc0-2940c43fa059.png"]]
+ROLES=["clean","clean","salon","dirty","clean","salon","clean","salon"]
+def pick_pool(slug):
+    rnd=random.Random("img-"+slug)
+    sh={k:rnd.sample(POOL[k],len(POOL[k])) for k in ("clean","dirty","salon")}
+    idx={"clean":0,"dirty":0,"salon":0}; out=[]
+    for r in ROLES:
+        l=sh[r]; out.append(l[idx[r]%len(l)]); idx[r]+=1
+    return out
 
 # per design: (bg-var, text-var, accent-var) zodat de sectie de kleuren overneemt
 VARMAP = {
@@ -58,11 +72,11 @@ def transform(text, s):
         ("06 25 54 84 20",td),("Amsterdam",plaats),(">Scott<",">"+kort+"<"),("Scott",kort)]:
         text=text.replace(a,b)
     fotos=s.get("fotos") or []
-    if len(fotos)>=2:
-        BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/"
-        AI=[BASE+x for x in ["hf_20260613_085111_ed4bc4a1-2b25-4d9e-9d32-c845d82e43d5.png","hf_20260613_085111_f52a0629-6c32-41b2-b8dd-fef7eedcac53.png","hf_20260613_085113_6fec380b-3cdc-4be3-b70c-9d7c43c23dc1.png","hf_20260613_085115_b87c0cc0-c208-4c3b-8852-8bca6fcdcb98.png","hf_20260613_085116_7544c5ba-9d93-484b-bb04-5d7b6ab28cb3.png","hf_20260613_085118_a274f992-0d24-45ad-a2c6-c057fd5ec738.png","hf_20260613_085120_63fb879f-0316-4081-b785-cbc92515996b.png","hf_20260613_085121_b800ad99-b6c5-4d3b-acc0-2940c43fa059.png"]]
-        for i,u in enumerate(AI):
-            if i < len(fotos): text=text.replace(u,fotos[i])
+    own = fotos if len(fotos)>=2 else []
+    sel = pick_pool(s["slug"]) if POOL_OK else AI_URLS
+    for i,u in enumerate(AI_URLS):
+        repl = own[i] if i < len(own) else sel[i]
+        if repl != u: text=text.replace(u, repl)
     return text
 
 def info_section(fname, s):
