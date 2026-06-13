@@ -1,21 +1,477 @@
 [
-  {
-    "bedrijf": "Hondentrimsalon Scott",
-    "aanhef": "Hoi,",
-    "plaats": "Amsterdam Osdorp",
-    "email": "",
-    "status": "concept",
-    "demo_url": "https://hondentrimsalonscott.demo.brabantdigital.nl",
-    "deadline": "vrijdag 26 juni 2026",
-    "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Scott gemaakt (kijk even mee)",
-    "compliment": "Eerst een complimentje: wat een mooi en geduldig trimwerk laat je zien op je Instagram — gediplomeerd, alle rassen, en je blijft jezelf bijscholen (ik zag het Purina-symposium voorbijkomen).",
-    "gratis_tip": "in je Instagram-bio staat je adres als \"Jan van Zupthenstraat\", terwijl de straat in Osdorp volgens mij \"Jan van Zutphenstraat\" is. Klanten die daarop zoeken of navigeren, kunnen zo de verkeerde kant op worden gestuurd — klein, maar zo gefikst.",
-    "verbeteringen": [
-      "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en jij ziet het direct in je agenda. Geen telefoontjes meer tijdens het trimmen.",
-      "Beter vindbaar in Google op \"hondentrimsalon Osdorp\" en \"trimsalon Amsterdam Nieuw-West\" — de techniek zit ingebouwd.",
-      "Nederlands én Engels met één knop, handig in Amsterdam.",
-      "WhatsApp-knop, klikbaar telefoonnummer, en je reviews en voor/na-foto's netjes op een rij.",
-      "Snelle, moderne uitstraling op telefoon, tablet en computer."
-    ]
-  }
+ {
+  "bedrijf": "Hondentrimsalon Scott",
+  "aanhef": "Hoi,",
+  "plaats": "Amsterdam Osdorp",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://hondentrimsalonscott.demo.brabantdigital.nl",
+  "deadline": "vrijdag 26 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Scott gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een mooi en geduldig trimwerk laat je zien op je Instagram — gediplomeerd, alle rassen, en je blijft jezelf bijscholen (ik zag het Purina-symposium voorbijkomen).",
+  "gratis_tip": "in je Instagram-bio staat je adres als \"Jan van Zupthenstraat\", terwijl de straat in Osdorp volgens mij \"Jan van Zutphenstraat\" is. Klanten die daarop zoeken of navigeren, kunnen zo de verkeerde kant op worden gestuurd — klein, maar zo gefikst.",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en jij ziet het direct in je agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op \"hondentrimsalon Osdorp\" en \"trimsalon Amsterdam Nieuw-West\" — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop, handig in Amsterdam.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en je reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Spa Dogs",
+  "aanhef": "Hoi,",
+  "plaats": "'s-Hertogenbosch",
+  "email": "nlcejwillemsen@hotmail.com",
+  "status": "concept",
+  "demo_url": "https://spadogs.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Spa Dogs gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "u (nog) geen eigen website heeft — terwijl uw vakwerk dat juist verdient",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon 's-Hertogenbosch' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Trimsalon Agnes",
+  "aanhef": "Hoi,",
+  "plaats": "Eindhoven",
+  "email": "trimsalonagnes@hotmail.com",
+  "status": "concept",
+  "demo_url": "https://trimsalon-agnes.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Trimsalon Agnes gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "u (nog) geen eigen website heeft — terwijl uw vakwerk dat juist verdient",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Eindhoven' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hond & Welzijn",
+  "aanhef": "Hoi,",
+  "plaats": "Helmond",
+  "email": "info@hondenwelzijn.nl",
+  "status": "concept",
+  "demo_url": "https://hond-en-welzijn.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hond & Welzijn gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: e-mailadres met spatie: 'info@ hondenwelzijn.nl'",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Helmond' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Tammy's Trimsalon",
+  "aanhef": "Hoi,",
+  "plaats": "'s-Hertogenbosch",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://tammys.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Tammy's Trimsalon gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: prijslijst-link wijst naar een concurrent (trimsalon-knappekoppies.nl)",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon 's-Hertogenbosch' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Bonita",
+  "aanhef": "Hoi,",
+  "plaats": "Eindhoven",
+  "email": "formulier@bonita-hondentrimsalon.nl",
+  "status": "concept",
+  "demo_url": "https://bonita.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Bonita gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: kapotte Google-Maps 'temporary placeholder' staat zichtbaar op de site",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Eindhoven' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Didi's Hondentrimsalon",
+  "aanhef": "Hoi,",
+  "plaats": "Breda",
+  "email": "didishondentrimsalon@gmail.com",
+  "status": "concept",
+  "demo_url": "https://didis.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Didi's Hondentrimsalon gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: statistiekblok toont nog '99 / 99 / 99 / 99' placeholders",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Breda' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Trimsalon Peter Rijswijk",
+  "aanhef": "Hoi,",
+  "plaats": "Breda",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://peter-rijswijk.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Trimsalon Peter Rijswijk gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: foto's/inhoud uit 2015",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Breda' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Kwispel",
+  "aanhef": "Hoi,",
+  "plaats": "Rosmalen",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://kwispel.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Kwispel gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: alleen gratis 123website-subdomein (geen eigen domein)",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Rosmalen' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Rox",
+  "aanhef": "Hoi,",
+  "plaats": "Eindhoven",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://rox.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Rox gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: 'Powered by JouwWeb'",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Eindhoven' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Wilma van der Meijs",
+  "aanhef": "Hoi,",
+  "plaats": "Breda",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://wilma-van-der-meijs.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Wilma van der Meijs gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: verouderde .php-site",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Breda' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Het Knappe Snuitje",
+  "aanhef": "Hoi,",
+  "plaats": "Etten-Leur",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://knappe-snuitje.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Het Knappe Snuitje gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: copyright 2022 / content uit 2021",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Etten-Leur' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Does",
+  "aanhef": "Hoi,",
+  "plaats": "Tilburg",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://does.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Does gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "u (nog) geen eigen website heeft — terwijl uw vakwerk dat juist verdient",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Tilburg' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Dogsalon Mila",
+  "aanhef": "Hoi,",
+  "plaats": "Waalwijk",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://dogsalon-mila.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Dogsalon Mila gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: 'Powered by JouwWeb'",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Waalwijk' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Trimsalon Van Kop tot Staart",
+  "aanhef": "Hoi,",
+  "plaats": "Helmond",
+  "email": "renate@trimsalonhelmond.nl",
+  "status": "concept",
+  "demo_url": "https://van-kop-tot-staart.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Trimsalon Van Kop tot Staart gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: copyright 2017",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Helmond' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Trimsalon Eindhoven",
+  "aanhef": "Hoi,",
+  "plaats": "Eindhoven",
+  "email": "carla@trimsaloneindhoven.eu",
+  "status": "concept",
+  "demo_url": "https://trimsalon-eindhoven.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Trimsalon Eindhoven gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: geen HTTPS (http://)",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Eindhoven' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Mooie Hondjes trimsalon",
+  "aanhef": "Hoi,",
+  "plaats": "Helmond",
+  "email": "info@mooiehondjes.nl",
+  "status": "concept",
+  "demo_url": "https://mooie-hondjes.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Mooie Hondjes trimsalon gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: verouderde .php-site",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Helmond' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Sunshine",
+  "aanhef": "Hoi,",
+  "plaats": "'s-Hertogenbosch",
+  "email": "info@trimsalonsunshine.nl",
+  "status": "concept",
+  "demo_url": "https://sunshine.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Sunshine gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: site rendert leeg voor crawler (slechte indexering)",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon 's-Hertogenbosch' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Trimsalon Elite",
+  "aanhef": "Hoi,",
+  "plaats": "'s-Hertogenbosch",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://trimsalon-elite.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Trimsalon Elite gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: inhoud laadt leeg (JS-only)",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon 's-Hertogenbosch' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Just 4 Dogs",
+  "aanhef": "Hoi,",
+  "plaats": "Oss",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://just4dogs.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Just 4 Dogs gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: .php-structuur = verouderd/eenvoudig CMS",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Oss' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Lynn's Trimsalon",
+  "aanhef": "Hoi,",
+  "plaats": "Waalwijk",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://lynns.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Lynn's Trimsalon gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: site laadt niet voor fetcher",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Waalwijk' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Jokes trimsalon",
+  "aanhef": "Hoi,",
+  "plaats": "Breda",
+  "email": "info@jokestrimsalon.nl",
+  "status": "concept",
+  "demo_url": "https://jokes.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Jokes trimsalon gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: losse .html-pagina's (verouderde bouwer)",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Breda' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Oss",
+  "aanhef": "Hoi,",
+  "plaats": "Oss",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://trimsalon-oss.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Oss gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: inhoud laadt leeg",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Oss' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Doggroomer Eindhoven",
+  "aanhef": "Hoi,",
+  "plaats": "Eindhoven",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://doggroomer.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Doggroomer Eindhoven gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: nog te verifiëren in browser",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Eindhoven' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ },
+ {
+  "bedrijf": "Bemellow",
+  "aanhef": "Hoi,",
+  "plaats": "Helmond",
+  "email": "",
+  "status": "concept",
+  "demo_url": "https://bemellow.demo.brabantdigital.nl",
+  "deadline": "vrijdag 27 juni 2026",
+  "onderwerp": "Ik heb alvast een website voor Bemellow gemaakt (kijk even mee)",
+  "compliment": "Eerst een complimentje: wat een verzorgd en vakkundig trimwerk kom ik van u tegen — daar hoort een website bij die net zo professioneel oogt.",
+  "gratis_tip": "ik over iets op uw huidige site viel: hij draait nog op WordPress uit 2011, wat oud en kwetsbaar is en niet goed werkt op mobiel",
+  "verbeteringen": [
+   "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en u ziet het direct in uw agenda. Geen telefoontjes meer tijdens het trimmen.",
+   "Beter vindbaar in Google op 'hondentrimsalon Helmond' — de techniek zit ingebouwd.",
+   "Nederlands én Engels met één knop.",
+   "WhatsApp-knop, klikbaar telefoonnummer, en uw reviews en voor/na-foto's netjes op een rij.",
+   "Snelle, moderne uitstraling op telefoon, tablet en computer."
+  ]
+ }
 ]
