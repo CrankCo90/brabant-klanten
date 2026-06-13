@@ -131,7 +131,7 @@ canvas#cStatus,canvas#cNiche{max-height:240px}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>
-const PWHASH="419ecc575146d1431229d51c92a9cf88213d3a349310a5c983494411030ca22b";
+const PWHASH="64696df0eff1c7ed0db5371356e155b4279d2a260223f8a774798b9ac0654abe";
 const $=s=>document.querySelector(s);
 // gouden stofdeeltjes
 (function(){const cv=$('#dust'),cx=cv.getContext('2d');let W,H,P;
@@ -173,6 +173,6 @@ function list(){const rows=DATA.filter(d=>active.has(d.status));
   }).join('')||'<p class="note">Geen klanten in deze selectie.</p>';}
 function setGroup(g){group=g;localStorage.setItem('bd_group',g);document.querySelectorAll('[data-group]').forEach(c=>c.classList.toggle('on',c.dataset.group===g));list();}
 document.querySelectorAll('[data-group]').forEach(c=>c.onclick=()=>setGroup(c.dataset.group));
-function init(){fetch('clients.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d.sort((a,b)=>(b.werkdag||'').localeCompare(a.werkdag||''));const c=stats();charts(c);filters();setGroup(group);}).catch(e=>{$('#list').innerHTML='<p class="note">Kon clients.json niet laden: '+e+'</p>';});}
+function init(){fetch((location.pathname.indexOf('/admin')===0?'/admin/':'./')+'clients.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d.sort((a,b)=>(b.werkdag||'').localeCompare(a.werkdag||''));const c=stats();charts(c);filters();setGroup(group);}).catch(e=>{$('#list').innerHTML='<p class="note">Kon clients.json niet laden: '+e+'</p>';});}
 </script>
 </body></html>

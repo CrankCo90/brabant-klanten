@@ -1,39 +1,39 @@
-# DASHBOARD — eenmalige setup (admin-login)
+# DASHBOARD — setup (op brabantdigital.nl/admin)
 
-> Het dashboard draait op **https://admin.demo.brabantdigital.nl** (valt onder je bestaande
-> `*.demo`-wildcard → geen nieuwe DNS nodig), achter een admin-login. De auto-deploy
-> synchroniseert de bestanden naar `/var/www/admin`. De login regel je één keer hieronder.
+> Het dashboard draait op **https://brabantdigital.nl/admin**, met een eigen luxe inlogpagina
+> (geen browser-popup). De auto-deploy synchroniseert de bestanden naar `/var/www/admin`.
 
-## 1. Wachtwoord-hash maken (op de VPS)
-```bash
-caddy hash-password --plaintext 'KIES-EEN-WACHTWOORD'
+## Caddyfile — /admin toevoegen aan je hoofdsite
+Vervang je huidige `brabantdigital.nl { ... }`-blok door dit (gebruikt handle_path):
 ```
-Kopieer de hash (begint met `$2a$...`).
-
-## 2. Caddy-blok toevoegen (`sudo nano /etc/caddy/Caddyfile`)
-```
-admin.demo.brabantdigital.nl {
-    root * /var/www/admin
-    file_server
-    encode gzip
-    basic_auth {
-        leroy PLAK-HIER-DE-HASH
+brabantdigital.nl {
+    handle_path /admin* {
+        root * /var/www/admin
+        file_server
+        encode gzip
+    }
+    handle {
+        root * /var/www/brabantdigital
+        file_server
+        encode gzip
     }
 }
 ```
-> Geeft `caddy validate` een fout op `basic_auth`? Dan draai je een oudere Caddy: gebruik dan
-> `basicauth` (zonder underscore).
+Het oude losse `admin.demo.brabantdigital.nl { ... }`-blok mag je verwijderen (of laten staan).
 
-## 3. Eerste publicatie + herladen
+## Publiceren + herladen
 ```bash
-mkdir -p /var/www/admin
+cd /root/klanten && git pull
 rsync -a /root/klanten/dashboard/ /var/www/admin/ && chmod -R a+rX /var/www/admin
+caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
 sudo systemctl reload caddy
 ```
 
-## 4. Inloggen
-Open **https://admin.demo.brabantdigital.nl** → gebruikersnaam `leroy` + je wachtwoord.
+## Inloggen
+Open **https://brabantdigital.nl/admin** → luxe inlogpagina → wachtwoord invullen.
+Wachtwoord wijzigen? Geef het door aan Claude; die wisselt de hash in `dashboard/index.html`.
 
-Daarna houdt de 15-min auto-deploy het dashboard vanzelf up-to-date. De klantgegevens staan
-in `dashboard/clients.json` (door Claude bijgehouden); nieuwe klanten meld je toe via het
-formulier onderaan het dashboard.
+## Beveiliging (eerlijk)
+De inlogpagina is een client-side slot: prima om meekijkers te weren, maar `clients.json` is
+technisch op te vragen via de URL. Wil je het écht dichttimmeren, dan kan de data versleuteld
+worden (alleen met het wachtwoord te ontsleutelen) of een server-side login erbij — vraag Claude.
