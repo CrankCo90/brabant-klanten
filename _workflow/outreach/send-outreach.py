@@ -75,7 +75,9 @@ def main():
     sent = 0
     for p in prospects:
         if sent >= left: break
-        if p.get("status") != "klaar": continue          # alleen prospects met klaarstaande demo
+        if p.get("status") != "klaar": continue
+        _only=os.environ.get("OUTREACH_ONLY","").strip()
+        if _only and p.get("bedrijf") not in set(x.strip() for x in _only.split("|") if x.strip()): continue          # alleen prospects met klaarstaande demo
         email = (p.get("email") or "").strip()
         if "@" not in email or email.lower() in done: continue
         verb = p.get("verbeteringen") or []

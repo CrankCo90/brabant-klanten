@@ -18,3 +18,4 @@ __pycache__/
 *.pyc
 _workflow/outreach/.smtp-env
 _workflow/outreach/sent-log.csv
+**/.control-token

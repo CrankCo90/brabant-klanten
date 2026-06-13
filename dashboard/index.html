@@ -122,7 +122,31 @@ canvas#cStatus,canvas#cNiche{max-height:240px}
       <div class="bar"><span class="lab">Status:</span><span id="statusFilters"></span></div>
       <div id="list"></div>
     </section>
-    <section id="add">
+    <section id="acties">
+  <div class="panel">
+    <h3>Acties &amp; autopilot <span id="ctlstate" style="font-size:.78rem;color:#8d887e;font-weight:400"></span></h3>
+    <div id="ctlsetup">
+      <p class="note">Verbind eenmalig met de VPS-besturing met je control-token.</p>
+      <div style="display:flex;gap:8px;max-width:520px"><input id="ctltoken" type="password" placeholder="control-token" style="flex:1;background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:9px;padding:11px 13px;color:#ece9e2;font-family:inherit"><button class="btn gold" id="ctlconnect">Verbinden</button></div>
+    </div>
+    <div id="ctlpanel" style="display:none">
+      <div style="display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-bottom:16px">
+        <label style="display:flex;align-items:center;gap:8px;font-size:.9rem">Autopilot (dagelijks automatisch) <input type="checkbox" id="autopilot"></label>
+        <label style="display:flex;align-items:center;gap:8px;font-size:.9rem">Dagcap <input type="range" id="cap" min="3" max="30" value="10"> <b id="capval" style="color:#c9a96a">10</b></label>
+        <button class="btn" id="btndeploy">Publiceer demo's</button>
+        <button class="btn" id="btnrefreshctl">Status verversen</button>
+      </div>
+      <div id="prospectlist" style="max-height:300px;overflow:auto;margin-bottom:10px"></div>
+      <button class="btn gold" id="btnsend">Verstuur outreach naar geselecteerde</button>
+      <div style="border-top:1px solid rgba(255,255,255,.1);margin:20px 0 12px"></div>
+      <h4 style="font-family:'Playfair Display',serif;color:#c9a96a;font-size:1.05rem;margin-bottom:8px">Vrije opdracht aan Claude (op de VPS)</h4>
+      <textarea id="claudeprompt" rows="2" placeholder="bijv. 'Zet de demo van Sunshine live' of 'Maak een nieuwe demo voor <link>'" style="width:100%;background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:9px;padding:11px 13px;color:#ece9e2;font-family:inherit;font-size:.9rem"></textarea>
+      <button class="btn" id="btnclaude" style="margin-top:8px">Uitvoeren</button>
+      <pre id="ctllog" style="background:#0f0f12;border:1px solid rgba(201,169,106,.2);border-radius:10px;padding:14px;margin-top:14px;max-height:320px;overflow:auto;font-size:.78rem;white-space:pre-wrap;display:none;color:#c4bfb4"></pre>
+    </div>
+  </div>
+</section>
+<section id="add">
       <div class="panel">
         <h3>Nieuwe klant / website toevoegen</h3>
         <form class="add" action="https://api.web3forms.com/submit" method="POST">
@@ -191,5 +215,31 @@ function list(){const rows=DATA.filter(d=>active.has(d.status));
 function setGroup(g){group=g;localStorage.setItem('bd_group',g);document.querySelectorAll('[data-group]').forEach(c=>c.classList.toggle('on',c.dataset.group===g));list();}
 document.querySelectorAll('[data-group]').forEach(c=>c.onclick=()=>setGroup(c.dataset.group));
 function init(){fetch((location.pathname.indexOf('/admin')===0?'/admin/':'./')+'clients.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d.sort((a,b)=>(b.werkdag||'').localeCompare(a.werkdag||''));const c=stats();charts(c);filters();setGroup(group);}).catch(e=>{$('#list').innerHTML='<p class="note">Kon clients.json niet laden: '+e+'</p>';});}
+</script>
+<script>
+(function(){
+var $c=function(s){return document.querySelector(s);};
+var CTL=location.origin.replace(/\/$/,"")+"/api";
+var CT=localStorage.getItem("bd_ctl")||"";
+function log(t){var p=$c("#ctllog");p.style.display="block";p.textContent=((typeof t==="string")?t:JSON.stringify(t,null,1))+"\n\n"+p.textContent;}
+async function capi(path,method,body){var r=await fetch(CTL+path,{method:method,headers:{"Authorization":"Bearer "+CT,"Content-Type":"application/json"},body:body?JSON.stringify(body):undefined});var j=await r.json().catch(function(){return {error:"geen geldig antwoord"};});if(!r.ok)j.error=j.error||("HTTP "+r.status);return j;}
+function render(st){var sent={};(st.sent||[]).forEach(function(x){sent[(x.email||"").toLowerCase()]=1;});var rep=st.replies||{};
+ var ps=(st.prospects||[]).filter(function(p){return p.status==="klaar";});
+ $c("#prospectlist").innerHTML=ps.map(function(p){var e=(p.email||"").toLowerCase();var isSent=!!sent[e];var r=rep[e];
+  var badge=r?('<span class="badge s-'+(r.status==="ja"?"ja":(r.status==="nee"?"nee":"benaderd"))+'">'+r.status+'</span>'):(isSent?'<span class="badge s-benaderd">verzonden</span>':'<span class="badge s-prospect">klaar</span>');
+  return '<label style="display:flex;gap:10px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(255,255,255,.06)"><input type="checkbox" class="psel" value="'+(p.bedrijf||"").replace(/"/g,"&quot;")+'" '+(isSent?"disabled":"checked")+'><span style="flex:1">'+(p.bedrijf||"")+' <span style="color:#8d887e;font-size:.82rem">'+(p.email||"")+'</span></span>'+badge+'</label>';}).join("")||'<p class="note">Geen klaarstaande prospects.</p>';}
+async function connect(){if(!CT)return;try{var st=await capi("/status","GET");if(st.error){$c("#ctlstate").textContent="(niet verbonden)";return;}$c("#ctlsetup").style.display="none";$c("#ctlpanel").style.display="block";$c("#ctlstate").textContent="\u2022 verbonden";$c("#autopilot").checked=!!st.autopilot;render(st);}catch(e){$c("#ctlstate").textContent="(geen /api)";}}
+document.addEventListener("click",function(ev){
+ var id=ev.target&&ev.target.id;
+ if(id==="ctlconnect"){CT=$c("#ctltoken").value.trim();localStorage.setItem("bd_ctl",CT);connect();}
+ if(id==="btnrefreshctl"){connect();}
+ if(id==="btndeploy"){if(confirm("Demo's publiceren op de VPS?")){log("Publiceren...");capi("/deploy","POST",{}).then(function(r){log(r.log||r);});}}
+ if(id==="btnsend"){var sel=[].slice.call(document.querySelectorAll(".psel:checked")).map(function(c){return c.value;});if(!sel.length){alert("Niemand geselecteerd.");return;}if(confirm(sel.length+" mail(s) versturen naar:\n\n"+sel.join("\n")+"\n\nDoorgaan?")){log("Versturen ("+sel.length+")...");capi("/send-outreach","POST",{prospects:sel,cap:+$c("#cap").value}).then(function(r){log(r.log||r);setTimeout(connect,1500);});}}
+ if(id==="btnclaude"){var pr=$c("#claudeprompt").value.trim();if(!pr)return;if(confirm("Deze opdracht door Claude op de VPS laten uitvoeren?\n\n"+pr)){log("Claude voert uit (kan even duren)...");capi("/claude","POST",{prompt:pr}).then(function(r){log(r.log||r);});}}
+});
+document.addEventListener("input",function(ev){if(ev.target&&ev.target.id==="cap")$c("#capval").textContent=ev.target.value;});
+document.addEventListener("change",function(ev){if(ev.target&&ev.target.id==="autopilot"){capi("/autopilot","POST",{on:ev.target.checked}).then(function(r){log("Autopilot: "+(r.autopilot?"AAN":"UIT"));});}});
+setTimeout(connect,800);
+})();
 </script>
 </body></html>
