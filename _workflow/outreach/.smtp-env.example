@@ -1,0 +1,8 @@
+# Kopieer dit naar /root/outreach-data/.smtp-env op de VPS en vul je echte gegevens in.
+# Deze waarden staan BUITEN Git en de chat. Vind ze in je Vimexx-webmail/instellingen.
+SMTP_HOST=smtp.jouwprovider.nl
+SMTP_PORT=587
+SMTP_USER=aanbod@brabantdigital.nl
+SMTP_PASS=jouw-mailwachtwoord
+FROM_NAME=Leroy - Brabant Digital
+FROM_EMAIL=aanbod@brabantdigital.nl

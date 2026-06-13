@@ -25,7 +25,7 @@ Demo weghalen: `rm -rf /var/www/demos/KLANT` + Caddy-blok weg + reload.
 
 ## Autonomie-afspraken (door Pro4Never vastgesteld)
 - **Mag automatisch, zonder te vragen:** demo's bouwen/bewerken, live zetten, Caddy beheren, demo's verwijderen.
-- **Klantbenadering:** autonoom versturen toegestaan. Regels: log élke verzonden mail/bericht, benader nooit dezelfde prospect twee keer, en houd het netjes/persoonlijk. (Verzendkanaal wordt later ingericht.)
+- **Klantbenadering (e-mail, autonoom):** zie `_workflow/OUTREACH-SETUP.md`. Funnel: prospect vinden → demo bouwen → pushen → VPS mailt via `outreach/send-outreach.py`. Regels: nooit dezelfde prospect twee keer (sent-log.csv), daglimiet (OUTREACH_CAP, standaard 20), afmeldregel + duidelijke afzender in elke mail, alleen mailen als er een werkende demo-link klaarstaat, en B2B/lokale ondernemers. 'Nee'-reacties → blokkeerlijst. WhatsApp NIET automatisch (alleen wa.me-knop/handmatig).
 - **Geblokkeerd (altijd):** systeem-vernietigende commando's — afgevangen door `.claude/hooks/guard.sh`.
 - **Vangnet:** maak/laat een **VPS-snapshot** maken vóór grote of verwijderende acties.
 

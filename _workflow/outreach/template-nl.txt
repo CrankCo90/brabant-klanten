@@ -1,0 +1,18 @@
+Hallo {{voornaam}},
+
+Ik kwam {{bedrijf}} tegen in {{plaats}} en zag dat jullie (nog) geen eigen website hebben — terwijl jullie werk dat juist verdient.
+
+Daarom heb ik alvast vrijblijvend laten zien hoe een website voor {{bedrijf}} eruit zou kunnen zien. U kunt het hier bekijken:
+
+{{demo_url}}
+
+Tien complete ontwerpen, met online afspraken maken, betere vindbaarheid in Google en een Nederlands/Engels-knop. Geen verplichtingen — kijk gerust of er iets bij zit dat u aanspreekt.
+
+Bevalt het? Dan bouw ik de website compleet uit (introductieprijs: eenmalig €199). Vragen of even sparren mag altijd — bel of app 085-0608471, of beantwoord deze mail.
+
+Vriendelijke groet,
+Leroy — Brabant Digital
+aanbod@brabantdigital.nl · 085-0608471 · brabantdigital.nl
+
+—
+U ontvangt deze mail eenmalig omdat u een lokale ondernemer bent zonder website. Geen interesse? Antwoord met "nee" en u hoort nooit meer iets van mij.

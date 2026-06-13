@@ -13,3 +13,8 @@ desktop.ini
 **/assets/img/*.png
 # persoonlijke Claude Code-instellingen
 .claude/settings.local.json
+# outreach: secrets & state nooit in git
+__pycache__/
+*.pyc
+_workflow/outreach/.smtp-env
+_workflow/outreach/sent-log.csv
