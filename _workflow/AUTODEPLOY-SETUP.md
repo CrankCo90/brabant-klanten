@@ -29,7 +29,7 @@
      Je ziet 'm maar één keer.
 
 3. **Plak in deze chat:**
-   - de repo-URL (bv. `https://github.com/JOUWNAAM/brabant-klanten`)
+   - de repo-URL (bv. `https://github.com/CrankCo90/brabant-klanten`)
    - de token (`github_pat_...`)
 
    Dan bewaar ik de token veilig (in `_workflow/.deploy-token`, staat in `.gitignore` →
@@ -58,7 +58,7 @@ CFG
 
 # 3) oude kopie opzij, repo klonen naar /root/klanten
 mv /root/klanten /root/klanten-oud-$(date +%s) 2>/dev/null || true
-git clone git@github.com:JOUWNAAM/brabant-klanten.git /root/klanten
+git clone git@github.com:CrankCo90/brabant-klanten.git /root/klanten
 
 # 4) deploy-script één keer testen
 bash /root/klanten/_workflow/vps-autodeploy.sh && echo "eerste publicatie gelukt"
@@ -77,3 +77,17 @@ elke klant met een kiesdemo (`03-designs/index.html`) naar
 - Voor elke klant met `03-designs/index.html`: bestanden synchroniseren naar
   `/var/www/demos/<klant>`, rechten zetten, Caddy-blok toevoegen (de 1e keer), Caddy herladen.
 - Tooling (`*.sh`, `caddy-snippet.txt`, `*.bak`) wordt niet mee gepubliceerd.
+
+---
+
+## (Intern) Hoe Claude pusht in een nieuwe sessie
+De mount ondersteunt geen `.git`, dus pushen gaat via een schone kopie in de sandbox:
+```bash
+TOK=$(tr -d '\n' < "_workflow/.deploy-token")
+rm -rf /tmp/bk && git clone "https://${TOK}@github.com/CrankCo90/brabant-klanten.git" /tmp/bk
+rsync -a --delete --exclude='.git' --exclude='_workflow/.deploy-token' --exclude='*.bak' \
+      --exclude='**/assets/img/*.png' "./" /tmp/bk/
+cd /tmp/bk && git add -A && git -c user.email=leroyb@home.nl -c user.name=Pro4Never \
+      commit -q -m "update" && git push -q origin main
+```
+De VPS-cron (elke 15 min) doet de rest.
