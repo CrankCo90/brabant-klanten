@@ -157,17 +157,15 @@ canvas#cStatus,canvas#cNiche{max-height:240px}
     <section id="add">
       <div class="panel">
         <h3>Nieuwe klant / website toevoegen</h3>
-        <form class="add" action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="ef050157-d2a3-43ce-89c2-6088aa1b8bf2">
-          <input type="hidden" name="subject" value="Nieuwe klant voor dashboard — Brabant Digital">
+        <form class="add" id="addform">
           <input type="text" name="bedrijf" placeholder="Bedrijfsnaam" required>
           <input type="text" name="niche" placeholder="Niche (bv. Hondentrimsalons)" required>
           <input type="text" name="regio" placeholder="Regio (bv. Noord-Brabant)">
           <input type="text" name="link" placeholder="Website of social-link">
           <textarea class="full" name="notitie" rows="2" placeholder="Notitie (optioneel)"></textarea>
-          <button type="submit">Aanmelden — Claude pakt het op</button>
+          <button type="submit">Aanmelden — Claude bouwt de demo</button>
         </form>
-        <p class="note">Na aanmelden komt de klant binnen op aanbod@brabantdigital.nl en zet Claude 'm in het dashboard + gaat ermee aan de slag.</p>
+        <p class="note">Na aanmelden bouwt de VPS direct een demo, registreert de klant in dit dashboard en publiceert. Diepe content/foto's verrijk je daarna met een vrije opdracht. (Vereist verbinding met de control-server.)</p>
       </div>
     </section>
   </div>
@@ -259,6 +257,16 @@ document.addEventListener("click",function(ev){
 });
 document.addEventListener("input",function(ev){if(ev.target&&ev.target.id==="cap")localStorage.setItem("bd_cap",ev.target.value);});
 document.addEventListener("change",function(ev){if(ev.target&&ev.target.id==="autopilot"){capi("/autopilot","POST",{on:ev.target.checked}).then(function(r){log("Autopilot: "+(r.autopilot?"AAN":"UIT"));});}});
+document.addEventListener("submit",function(ev){
+ if(ev.target&&ev.target.id==="addform"){ev.preventDefault();
+  if(!CT){alert("Verbind eerst met de control-server (plak je token bovenaan in 'Acties & autopilot').");return;}
+  var f=ev.target,g=function(n){var el=f.querySelector('[name="'+n+'"]');return el?el.value.trim():"";};
+  var payload={bedrijf:g("bedrijf"),niche:g("niche"),regio:g("regio"),link:g("link"),notitie:g("notitie")};
+  if(!payload.bedrijf){alert("Bedrijfsnaam is vereist.");return;}
+  log("Nieuwe klant '"+payload.bedrijf+"' wordt op de VPS verwerkt (demo bouwen kan even duren)...");
+  capi("/new-client","POST",payload).then(function(r){log(r.log||r);setTimeout(function(){location.reload();},6000);});
+ }
+});
 setTimeout(connect,800);
 })();
 </script>

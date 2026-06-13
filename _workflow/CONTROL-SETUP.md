@@ -70,6 +70,15 @@ IMAP_PORT=993
 ```
 Reacties (ja/nee/afmelden) verschijnen daarna automatisch bij de prospect in het dashboard.
 
+## 5b. Push-toegang voor de VPS (nodig voor "Nieuwe klant" + persistente wijzigingen)
+De VPS kloont read-only; om door het dashboard aangemaakte klanten te bewaren moet de VPS kunnen pushen.
+Plak je fijnmazige GitHub-token (zelfde als voor Cowork, Contents: Read+write) één keer:
+```bash
+echo 'PLAK-HIER-JE-GITHUB-PAT' > /root/outreach-data/.git-token
+chmod 600 /root/outreach-data/.git-token
+```
+(Zonder dit bestand bouwt "Nieuwe klant" de demo wel lokaal, maar wordt die bij de volgende auto-pull overschreven.)
+
 ## 6. Gebruik
 Open brabantdigital.nl/admin → blok "Acties & autopilot" → plak je token → Verbinden.
 Vink prospects aan → "Verstuur outreach" (met bevestiging) → live log verschijnt.

@@ -66,6 +66,9 @@ class H(BaseHTTPRequestHandler):
             if not pr: return self._s(400,{"error":"lege opdracht"})
             rc,out=run("git pull -q; claude -p %s --permission-mode acceptEdits"%json.dumps(pr),timeout=1200)
             return self._s(200,{"ok":rc==0,"log":out})
+        if self.path=="/api/new-client":
+            rc,out=run("python3 _workflow/new-client.py %s"%json.dumps(json.dumps(body)),{"OUTREACH_DATA":DATA},timeout=900)
+            return self._s(200,{"ok":rc==0,"log":out})
         if self.path=="/api/test-mail":
             to=(body.get("to") or "").strip(); pros=(body.get("prospect") or "").strip()
             if not (to and pros): return self._s(400,{"error":"prospect en to vereist"})
