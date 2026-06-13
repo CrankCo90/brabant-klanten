@@ -32,7 +32,10 @@
       "Bash(caddy validate:*)",
       "Bash(caddy fmt:*)",
       "Bash(bash localize-images.sh)",
-      "Bash(./localize-images.sh)"
+      "Bash(./localize-images.sh)",
+      "WebSearch",
+      "WebFetch",
+      "mcp__workspace__web_fetch"
     ],
     "deny": [
       "Bash(rm -rf /:*)",
@@ -54,7 +57,10 @@
       {
         "matcher": "Bash",
         "hooks": [
-          { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.sh\"" }
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.sh\""
+          }
         ]
       }
     ]

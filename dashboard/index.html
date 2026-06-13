@@ -65,6 +65,18 @@ section{padding:26px 0}
 .s-benaderd{background:rgba(239,159,39,.18);color:#efa927}
 .s-ja{background:rgba(151,196,89,.2);color:#97c459}
 .s-nee{background:rgba(226,116,106,.18);color:#e2746a}
+.s-prospect{background:rgba(201,169,106,.18);color:#c9a96a}
+.s-afgewezen{background:rgba(111,106,96,.25);color:#9a948a}
+.prow{border-bottom:1px solid rgba(255,255,255,.06)}
+.prow summary{display:flex;align-items:center;gap:10px;padding:12px 6px;cursor:pointer;list-style:none}
+.prow summary::-webkit-details-marker{display:none}
+.prow summary::before{content:"\25B8";color:#8d887e;font-size:.8rem}
+.prow[open] summary::before{content:"\25BE"}
+.pn{font-weight:500}.pm{font-size:.82rem;color:#8d887e;margin-right:auto}
+.psc{font-size:.7rem;color:#c9a96a;border:1px solid rgba(201,169,106,.3);border-radius:999px;padding:2px 8px}
+.pdet{padding:2px 6px 16px 22px;font-size:.88rem;color:#c4bfb4}
+.pdet p{margin:6px 0}.pdet ul{margin:4px 0 4px 18px}.pdet li{margin:2px 0}
+.pmeta{color:#6f6a60;font-size:.78rem}
 form.add{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
 form.add input,form.add textarea{background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:9px;padding:11px 13px;color:#ece9e2;font-family:inherit;font-size:.9rem}
 form.add .full{grid-column:1/3}
@@ -148,12 +160,12 @@ function unlock(){$('#login').style.display='none';$('#app').style.display='bloc
 if(sessionStorage.getItem('bd_ok')==='1'){unlock();}else{setTimeout(()=>$('#pw').focus(),300);}
 
 // ---------- dashboard ----------
-const STATUS=[["nieuw","Nieuw"],["demo","Demo klaar"],["benaderd","Benaderd"],["ja","Gekocht"],["nee","Afgewezen"]];
-const COL={nieuw:"#888780",demo:"#378add",benaderd:"#efa927",ja:"#97c459",nee:"#e2746a"};
+const STATUS=[["prospect","Prospect"],["demo","Demo klaar"],["benaderd","Benaderd"],["ja","Gekocht"],["nee","Nee"],["afgewezen","Niet benaderen"]];
+const COL={prospect:"#c9a96a",demo:"#378add",benaderd:"#efa927",ja:"#97c459",nee:"#e2746a",afgewezen:"#6f6a60"};
 let DATA=[], group=localStorage.getItem('bd_group')||'niche', active=new Set(STATUS.map(s=>s[0])), charted=false;
 function stats(){const c=Object.fromEntries(STATUS.map(s=>[s[0],0]));DATA.forEach(d=>c[d.status]=(c[d.status]||0)+1);
   const benaderd=c.benaderd+c.ja+c.nee, conv=(c.ja+c.nee)?Math.round(c.ja/(c.ja+c.nee)*100):0;
-  $('#stats').innerHTML=[['Totaal klanten',DATA.length,''],['Benaderd',benaderd,''],['Gekocht',c.ja,'green'],['Afgewezen',c.nee,'red'],['Conversie',conv+'%','amber']]
+  $('#stats').innerHTML=[['Totaal',DATA.length,''],['Prospects',c.prospect||0,'amber'],['Benaderd',benaderd,''],['Gekocht',c.ja,'green'],['Conversie',conv+'%','amber']]
     .map(([l,v,k])=>`<div class="stat ${k}"><div class="lbl">${l}</div><div class="val">${v}</div></div>`).join('');return c;}
 function charts(c){if(charted)return;charted=true;
   new Chart($('#cStatus'),{type:'doughnut',data:{labels:STATUS.map(s=>s[1]),datasets:[{data:STATUS.map(s=>c[s[0]]||0),backgroundColor:STATUS.map(s=>COL[s[0]]),borderColor:'#17171c',borderWidth:2}]},options:{plugins:{legend:{labels:{color:'#c4bfb4',font:{size:12}}}}}});
@@ -167,9 +179,14 @@ function list(){const rows=DATA.filter(d=>active.has(d.status));
   $('#list').innerHTML=keys.map(k=>{const items=rows.filter(d=>(group==='niche'?d.niche:d.werkdag)===k);
     const sub=group==='werkdag'?[...new Set(items.map(i=>i.niche))].join(', '):items.length+' klant(en)';
     return `<div class="group"><h4>${k||'—'} <span>${sub}</span></h4>`+items.map(d=>`
-      <div class="row"><div><div class="b">${d.bedrijf}</div><div class="m">${d.regio||''}</div></div>
-      <div class="m">${group==='niche'?('Werkdag: '+(d.werkdag||'—')):d.niche}${d.demo_url?` · <a href="${d.demo_url}" target="_blank">demo ↗</a>`:''}</div>
-      <div>${badge(d.status)}</div><div class="m" title="${(d.notitie||'').replace(/"/g,'&quot;')}">${d.notitie?'ℹ︎':''}</div></div>`).join('')+`</div>`;
+      <details class="prow"><summary><span class="pn">${d.bedrijf}</span><span class="pm">${d.plaats||d.regio||''}</span>${d.score?`<span class="psc">score ${d.score}</span>`:''}${badge(d.status)}</summary>
+      <div class="pdet">
+        ${(d.waarom||d.notitie)?`<p><b>Waarom:</b> ${d.waarom||d.notitie}</p>`:''}
+        ${(d.fouten&&d.fouten.length)?`<p><b>Gevonden punten / pitch-tips:</b></p><ul>${d.fouten.map(x=>'<li>'+x+'</li>').join('')}</ul>`:''}
+        ${d.contact?`<p><b>Contact:</b> ${d.contact}</p>`:''}
+        ${d.demo_url?`<p><a href="${d.demo_url}" target="_blank">Demo \u2197</a></p>`:''}
+        <p class="pmeta">${group==='niche'?('Werkdag: '+(d.werkdag||'—')):('Niche: '+d.niche)} \u00b7 Regio: ${d.regio||'—'}</p>
+      </div></details>`).join('')+`</div>`;
   }).join('')||'<p class="note">Geen klanten in deze selectie.</p>';}
 function setGroup(g){group=g;localStorage.setItem('bd_group',g);document.querySelectorAll('[data-group]').forEach(c=>c.classList.toggle('on',c.dataset.group===g));list();}
 document.querySelectorAll('[data-group]').forEach(c=>c.onclick=()=>setGroup(c.dataset.group));
