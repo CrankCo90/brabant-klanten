@@ -43,5 +43,13 @@ if [ -f "$REPO_DIR/dashboard/index.html" ]; then
   changed=1
   echo "$(date '+%F %T') dashboard gesynchroniseerd" >>"$LOG"
 fi
+# onboarding-formulier publiceren
+if [ -f "$REPO_DIR/onboarding/index.html" ]; then
+  mkdir -p /var/www/onboarding
+  rsync -a --delete --exclude="*.txt" "$REPO_DIR/onboarding/" /var/www/onboarding/
+  chmod -R a+rX /var/www/onboarding
+  changed=1
+  echo "$(date '+%F %T') onboarding gesynchroniseerd" >>"$LOG"
+fi
 if [ "$changed" = 1 ]; then systemctl reload caddy; echo "$(date '+%F %T') caddy herladen ($after)" >>"$LOG"; fi
 exit 0

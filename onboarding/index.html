@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Welkom bij Brabant Digital — onboarding</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0f0f12;color:#ece9e2;font-weight:300;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+.hero{text-align:center;padding:64px 24px 30px;position:relative;overflow:hidden;border-bottom:1px solid rgba(201,169,106,.18)}
+.mark{width:54px;height:54px;border-radius:14px;background:linear-gradient(135deg,#e7c987,#9c7a3f);display:grid;place-items:center;color:#15151a;font-weight:700;font-family:'Playfair Display',serif;font-size:1.5rem;margin:0 auto 18px}
+.hero h1{font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:700;margin-bottom:10px}
+.hero p{color:#a9a499;max-width:520px;margin:0 auto}
+.steps{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:20px;font-size:.78rem;color:#8d887e}
+.steps span{background:#17171c;border:1px solid rgba(201,169,106,.2);border-radius:999px;padding:6px 14px}
+form{padding:34px 0 80px}
+fieldset{border:1px solid rgba(201,169,106,.18);border-radius:14px;padding:22px 24px;margin-bottom:18px;background:#15151a}
+legend{font-family:'Playfair Display',serif;color:#c9a96a;font-size:1.05rem;padding:0 10px}
+label{display:block;font-size:.86rem;color:#c4bfb4;margin:14px 0 6px}
+input,select,textarea{width:100%;background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:10px;padding:12px 14px;color:#ece9e2;font-family:inherit;font-size:.92rem}
+input:focus,select:focus,textarea:focus{outline:none;border-color:#c9a96a}
+.radio{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+.radio label{display:flex;gap:10px;align-items:flex-start;background:#0f0f12;border:1px solid rgba(201,169,106,.25);border-radius:10px;padding:13px 14px;margin:0;cursor:pointer;color:#ece9e2;font-size:.9rem}
+.radio input{width:auto;margin-top:3px}
+.radio small{display:block;color:#8d887e;font-size:.8rem}
+.hint{font-size:.8rem;color:#8d887e;margin-top:6px}
+button{width:100%;margin-top:8px;background:linear-gradient(135deg,#e7c987,#c9a96a);color:#15151a;border:none;border-radius:999px;padding:16px;font-weight:600;font-size:1rem;cursor:pointer;font-family:inherit}
+button:hover{opacity:.92}
+#ok{display:none;text-align:center;padding:60px 24px}
+#ok .big{font-size:3rem}
+#ok h2{font-family:'Playfair Display',serif;font-size:1.8rem;margin:10px 0}
+#ok p{color:#a9a499}
+.foot{text-align:center;color:#6f6a60;font-size:.8rem;padding:0 0 40px}
+</style></head>
+<body>
+<div class="hero">
+  <div class="mark">B</div>
+  <h1>Welkom — fijn dat je voor ons kiest! 🐾</h1>
+  <p>Nog een paar gegevens en we gaan je website bouwen. Het invullen kost zo'n 5 minuten; je hoeft niets technisch te doen.</p>
+  <div class="steps"><span>1 · Jij vult dit in</span><span>2 · Wij bouwen</span><span>3 · Live</span></div>
+</div>
+
+<div class="wrap">
+<form id="f" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="ef050157-d2a3-43ce-89c2-6088aa1b8bf2">
+  <input type="hidden" name="subject" value="Onboarding ingevuld — nieuwe klant Brabant Digital">
+
+  <fieldset><legend>Over jou</legend>
+    <label>Bedrijfsnaam *</label><input name="bedrijf" required>
+    <label>Naam contactpersoon *</label><input name="naam" required>
+    <label>E-mailadres *</label><input type="email" name="email" required>
+    <label>Telefoon / WhatsApp</label><input name="telefoon">
+  </fieldset>
+
+  <fieldset><legend>Je website</legend>
+    <label>Welk ontwerp / welke stijl spreekt je het meest aan? *</label>
+    <input name="ontwerp" placeholder="Bijv. 'ontwerp 02 — Champagne & Charcoal'" required>
+    <label>Wil je nog functies combineren of aanpassen? (kleur, voor/na, prijscalculator, extra pagina…)</label>
+    <textarea name="wensen" rows="3" placeholder="Beschrijf gerust je wensen — aanpassingen zijn inbegrepen."></textarea>
+  </fieldset>
+
+  <fieldset><legend>Domein & hosting</legend>
+    <label>Heb je al een domeinnaam? Zo ja, welke?</label>
+    <input name="domein" placeholder="bijv. mijnsalon.nl — of laat leeg als je er nog geen hebt">
+    <label>Waar wil je dat je website draait? *</label>
+    <div class="radio">
+      <label><input type="radio" name="hosting" value="Wij hosten" required> <span>Laat Brabant Digital het hosten <small>Aanbevolen — jij wijzigt straks alleen één DNS-instelling, wij regelen de rest. Optioneel, met 25% korting bij een jaar ineens.</small></span></label>
+      <label><input type="radio" name="hosting" value="Eigen hosting"> <span>Ik host het zelf / heb al hosting <small>Prima — we nemen daarna persoonlijk contact op om de inloggegevens veilig te regelen (nooit via dit formulier).</small></span></label>
+    </div>
+  </fieldset>
+
+  <fieldset><legend>Inhoud</legend>
+    <label>Openingstijden</label><textarea name="openingstijden" rows="2" placeholder="bijv. ma–vr 09:00–17:00, za 09:00–13:00"></textarea>
+    <label>Diensten & prijzen</label><textarea name="diensten" rows="3" placeholder="Korte lijst van je diensten en (vanaf-)prijzen."></textarea>
+    <label>E-mailadres voor online boekingen / je agenda</label><input name="agenda" placeholder="waar afspraken naartoe mogen">
+    <label>Logo & foto's</label><input name="media" placeholder="Link naar Google Drive / WeTransfer, of mail ze naar aanbod@brabantdigital.nl">
+    <p class="hint">Geen mooie foto's? Geen probleem — we kijken samen wat er mogelijk is.</p>
+    <label>Social media / Google-reviews (links)</label><input name="socials" placeholder="Instagram, Facebook, Google-reviewlink…">
+    <label>Nog iets dat we moeten weten?</label><textarea name="overig" rows="2"></textarea>
+  </fieldset>
+
+  <button type="submit">Versturen — wij gaan voor je aan de slag</button>
+  <p class="hint" style="text-align:center;margin-top:12px">Je gegevens komen alleen bij Brabant Digital terecht. We reageren binnen 1 werkdag.</p>
+</form>
+
+<div id="ok">
+  <div class="big">✓</div>
+  <h2>Bedankt! We hebben alles ontvangen.</h2>
+  <p>We gaan direct voor je aan de slag en nemen binnen 1 werkdag contact op. Tot snel! 🐾</p>
+</div>
+<div class="foot">Brabant Digital · aanbod@brabantdigital.nl · 085-0608471</div>
+</div>
+
+<script>
+document.getElementById('f').addEventListener('submit',async function(e){
+  e.preventDefault();var btn=this.querySelector('button');btn.disabled=true;btn.textContent='Versturen…';
+  try{var r=await fetch(this.action,{method:'POST',headers:{'Accept':'application/json'},body:new FormData(this)});
+    if(r.ok){document.getElementById('f').style.display='none';document.getElementById('ok').style.display='block';window.scrollTo({top:0,behavior:'smooth'});}
+    else throw 0;
+  }catch(_){btn.disabled=false;btn.textContent='Versturen — wij gaan voor je aan de slag';alert('Versturen lukte niet. Probeer opnieuw of mail naar aanbod@brabantdigital.nl');}
+});
+</script>
+</body></html>
