@@ -38,6 +38,21 @@ def transform(text, s):
     ]
     for a,b in rep:
         text = text.replace(a,b)
+    # eigen foto's van de prospect gebruiken (anders blijven de AI-beelden staan)
+    fotos = s.get("fotos") or []
+    if fotos:
+        BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/"
+        AI=[BASE+x for x in [
+            "hf_20260613_085111_ed4bc4a1-2b25-4d9e-9d32-c845d82e43d5.png",
+            "hf_20260613_085111_f52a0629-6c32-41b2-b8dd-fef7eedcac53.png",
+            "hf_20260613_085113_6fec380b-3cdc-4be3-b70c-9d7c43c23dc1.png",
+            "hf_20260613_085115_b87c0cc0-c208-4c3b-8852-8bca6fcdcb98.png",
+            "hf_20260613_085116_7544c5ba-9d93-484b-bb04-5d7b6ab28cb3.png",
+            "hf_20260613_085118_a274f992-0d24-45ad-a2c6-c057fd5ec738.png",
+            "hf_20260613_085120_63fb879f-0316-4081-b785-cbc92515996b.png",
+            "hf_20260613_085121_b800ad99-b6c5-4d3b-acc0-2940c43fa059.png"]]
+        for i,u in enumerate(AI):
+            text = text.replace(u, fotos[i % len(fotos)])
     return text
 
 count=0

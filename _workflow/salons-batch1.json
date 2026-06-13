@@ -1,26 +1,233 @@
 [
- {"bedrijf":"Spa Dogs","kort":"Spa Dogs","slug":"spadogs","plaats":"'s-Hertogenbosch","tel_display":"06-16517900","tel_href":"tel:+31616517900"},
- {"bedrijf":"Trimsalon Agnes","kort":"Agnes","slug":"trimsalon-agnes","plaats":"Eindhoven","tel_display":"06-10944891","tel_href":"tel:+31610944891"},
- {"bedrijf":"Hondentrimsalon Bemellow","kort":"Bemellow","slug":"bemellow","plaats":"Helmond","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Hond & Welzijn","kort":"Hond & Welzijn","slug":"hond-en-welzijn","plaats":"Helmond","tel_display":"06-22969051","tel_href":"tel:+31622969051"},
- {"bedrijf":"Tammy's Trimsalon","kort":"Tammy's","slug":"tammys","plaats":"'s-Hertogenbosch","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Hondentrimsalon Bonita","kort":"Bonita","slug":"bonita","plaats":"Eindhoven","tel_display":"06-12790153","tel_href":"tel:+31612790153"},
- {"bedrijf":"Didi's Hondentrimsalon","kort":"Didi's","slug":"didis","plaats":"Breda","tel_display":"06-15282531","tel_href":"tel:+31615282531"},
- {"bedrijf":"Trimsalon Peter Rijswijk","kort":"Peter Rijswijk","slug":"peter-rijswijk","plaats":"Breda","tel_display":"076-5719272","tel_href":"tel:+31765719272"},
- {"bedrijf":"Hondentrimsalon Kwispel","kort":"Kwispel","slug":"kwispel","plaats":"Rosmalen","tel_display":"073-5218323","tel_href":"tel:+31735218323"},
- {"bedrijf":"Hondentrimsalon Rox","kort":"Rox","slug":"rox","plaats":"Eindhoven","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Hondentrimsalon Wilma van der Meijs","kort":"Wilma","slug":"wilma-van-der-meijs","plaats":"Breda","tel_display":"076-5497918","tel_href":"tel:+31765497918"},
- {"bedrijf":"Het Knappe Snuitje","kort":"Knappe Snuitje","slug":"knappe-snuitje","plaats":"Etten-Leur","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Hondentrimsalon Does","kort":"Does","slug":"does","plaats":"Tilburg","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Dogsalon Mila","kort":"Mila","slug":"dogsalon-mila","plaats":"Waalwijk","tel_display":"06-28382312","tel_href":"tel:+31628382312"},
- {"bedrijf":"Trimsalon Van Kop tot Staart","kort":"Van Kop tot Staart","slug":"van-kop-tot-staart","plaats":"Helmond","tel_display":"06-41651080","tel_href":"tel:+31641651080"},
- {"bedrijf":"Trimsalon Eindhoven","kort":"Trimsalon Eindhoven","slug":"trimsalon-eindhoven","plaats":"Eindhoven","tel_display":"06-41329765","tel_href":"tel:+31641329765"},
- {"bedrijf":"Mooie Hondjes trimsalon","kort":"Mooie Hondjes","slug":"mooie-hondjes","plaats":"Helmond","tel_display":"06-46348913","tel_href":"tel:+31646348913"},
- {"bedrijf":"Hondentrimsalon Sunshine","kort":"Sunshine","slug":"sunshine","plaats":"'s-Hertogenbosch","tel_display":"06-20866339","tel_href":"tel:+31620866339"},
- {"bedrijf":"Trimsalon Elite","kort":"Elite","slug":"trimsalon-elite","plaats":"'s-Hertogenbosch","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Just 4 Dogs","kort":"Just 4 Dogs","slug":"just4dogs","plaats":"Oss","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Lynn's Trimsalon","kort":"Lynn's","slug":"lynns","plaats":"Waalwijk","tel_display":"06-16522983","tel_href":"tel:+31616522983"},
- {"bedrijf":"Jokes trimsalon","kort":"Jokes","slug":"jokes","plaats":"Breda","tel_display":"06-11310207","tel_href":"tel:+31611310207"},
- {"bedrijf":"Hondentrimsalon Oss","kort":"Oss","slug":"trimsalon-oss","plaats":"Oss","tel_display":"Bel of app ons","tel_href":"#contact"},
- {"bedrijf":"Doggroomer Eindhoven","kort":"Doggroomer","slug":"doggroomer","plaats":"Eindhoven","tel_display":"Bel of app ons","tel_href":"#contact"}
+ {
+  "bedrijf": "Spa Dogs",
+  "kort": "Spa Dogs",
+  "slug": "spadogs",
+  "plaats": "'s-Hertogenbosch",
+  "tel_display": "06-16517900",
+  "tel_href": "tel:+31616517900"
+ },
+ {
+  "bedrijf": "Trimsalon Agnes",
+  "kort": "Agnes",
+  "slug": "trimsalon-agnes",
+  "plaats": "Eindhoven",
+  "tel_display": "06-10944891",
+  "tel_href": "tel:+31610944891"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Bemellow",
+  "kort": "Bemellow",
+  "slug": "bemellow",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "fotos": [
+   "https://www.bemellow.nl/wp-content/uploads/2010/09/p80415011.jpg"
+  ]
+ },
+ {
+  "bedrijf": "Hond & Welzijn",
+  "kort": "Hond & Welzijn",
+  "slug": "hond-en-welzijn",
+  "plaats": "Helmond",
+  "tel_display": "06-22969051",
+  "tel_href": "tel:+31622969051"
+ },
+ {
+  "bedrijf": "Tammy's Trimsalon",
+  "kort": "Tammy's",
+  "slug": "tammys",
+  "plaats": "'s-Hertogenbosch",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Bonita",
+  "kort": "Bonita",
+  "slug": "bonita",
+  "plaats": "Eindhoven",
+  "tel_display": "06-12790153",
+  "tel_href": "tel:+31612790153",
+  "fotos": [
+   "https://www.bonita-hondentrimsalon.nl/wp-content/uploads/2016/04/Homepage-nexus.jpg"
+  ]
+ },
+ {
+  "bedrijf": "Didi's Hondentrimsalon",
+  "kort": "Didi's",
+  "slug": "didis",
+  "plaats": "Breda",
+  "tel_display": "06-15282531",
+  "tel_href": "tel:+31615282531"
+ },
+ {
+  "bedrijf": "Trimsalon Peter Rijswijk",
+  "kort": "Peter Rijswijk",
+  "slug": "peter-rijswijk",
+  "plaats": "Breda",
+  "tel_display": "076-5719272",
+  "tel_href": "tel:+31765719272",
+  "fotos": [
+   "https://trimsalonpeterrijswijk.nl/wp-content/uploads/2019/01/616780_280300235416653_648161008_o.jpg",
+   "https://trimsalonpeterrijswijk.nl/wp-content/uploads/2019/01/19055643_1343135525799780_8214772704669158599_o.jpg",
+   "https://trimsalonpeterrijswijk.nl/wp-content/uploads/2015/05/hondentrimsalon-peter-rijswijk-home-wasservice.png",
+   "https://trimsalonpeterrijswijk.nl/wp-content/uploads/2015/05/hondentrimsalon-peter-rijswijk-home-adviezen.png"
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Kwispel",
+  "kort": "Kwispel",
+  "slug": "kwispel",
+  "plaats": "Rosmalen",
+  "tel_display": "073-5218323",
+  "tel_href": "tel:+31735218323"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Rox",
+  "kort": "Rox",
+  "slug": "rox",
+  "plaats": "Eindhoven",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Wilma van der Meijs",
+  "kort": "Wilma",
+  "slug": "wilma-van-der-meijs",
+  "plaats": "Breda",
+  "tel_display": "076-5497918",
+  "tel_href": "tel:+31765497918",
+  "fotos": [
+   "https://www.honden-trimsalon.eu/images/trimsalon%20wilma%20van%20der%20meijs.jpg"
+  ]
+ },
+ {
+  "bedrijf": "Het Knappe Snuitje",
+  "kort": "Knappe Snuitje",
+  "slug": "knappe-snuitje",
+  "plaats": "Etten-Leur",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "fotos": [
+   "https://www.hetknappesnuitje.nl/wp-content/uploads/2016/04/het-knappe-snuitje-banner-01.jpg"
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Does",
+  "kort": "Does",
+  "slug": "does",
+  "plaats": "Tilburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact"
+ },
+ {
+  "bedrijf": "Dogsalon Mila",
+  "kort": "Mila",
+  "slug": "dogsalon-mila",
+  "plaats": "Waalwijk",
+  "tel_display": "06-28382312",
+  "tel_href": "tel:+31628382312",
+  "fotos": [
+   "https://primary.jwwb.nl/public/k/t/t/temp-casyiibfdrsbxazphirc/b3qe92/e6fa2f40-537f-497c-8a30-5f4eb254f0bc.png",
+   "https://primary.jwwb.nl/public/k/t/t/temp-casyiibfdrsbxazphirc/pbq4ch/4b637c64-cee6-444b-8322-c9947c0b6357.png"
+  ]
+ },
+ {
+  "bedrijf": "Trimsalon Van Kop tot Staart",
+  "kort": "Van Kop tot Staart",
+  "slug": "van-kop-tot-staart",
+  "plaats": "Helmond",
+  "tel_display": "06-41651080",
+  "tel_href": "tel:+31641651080",
+  "fotos": [
+   "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/puppi_bibi.jpeg",
+   "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/Sammie-na.1.jpg",
+   "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/Binky-na.1.jpg",
+   "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/Frits-na.1-3.jpg",
+   "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/Bellou-na.1.jpg"
+  ]
+ },
+ {
+  "bedrijf": "Trimsalon Eindhoven",
+  "kort": "Trimsalon Eindhoven",
+  "slug": "trimsalon-eindhoven",
+  "plaats": "Eindhoven",
+  "tel_display": "06-41329765",
+  "tel_href": "tel:+31641329765"
+ },
+ {
+  "bedrijf": "Mooie Hondjes trimsalon",
+  "kort": "Mooie Hondjes",
+  "slug": "mooie-hondjes",
+  "plaats": "Helmond",
+  "tel_display": "06-46348913",
+  "tel_href": "tel:+31646348913"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Sunshine",
+  "kort": "Sunshine",
+  "slug": "sunshine",
+  "plaats": "'s-Hertogenbosch",
+  "tel_display": "06-20866339",
+  "tel_href": "tel:+31620866339"
+ },
+ {
+  "bedrijf": "Trimsalon Elite",
+  "kort": "Elite",
+  "slug": "trimsalon-elite",
+  "plaats": "'s-Hertogenbosch",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact"
+ },
+ {
+  "bedrijf": "Just 4 Dogs",
+  "kort": "Just 4 Dogs",
+  "slug": "just4dogs",
+  "plaats": "Oss",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "fotos": [
+   "https://www.just4dogs.nl/images/page-1_slide01.jpg",
+   "https://www.just4dogs.nl/images/page-1_slide02.jpg"
+  ]
+ },
+ {
+  "bedrijf": "Lynn's Trimsalon",
+  "kort": "Lynn's",
+  "slug": "lynns",
+  "plaats": "Waalwijk",
+  "tel_display": "06-16522983",
+  "tel_href": "tel:+31616522983"
+ },
+ {
+  "bedrijf": "Jokes trimsalon",
+  "kort": "Jokes",
+  "slug": "jokes",
+  "plaats": "Breda",
+  "tel_display": "06-11310207",
+  "tel_href": "tel:+31611310207",
+  "fotos": [
+   "https://jokestrimsalon.nl/data0/images/01.jpg",
+   "https://jokestrimsalon.nl/data0/images/04.jpg",
+   "https://jokestrimsalon.nl/data0/images/02.jpg",
+   "https://jokestrimsalon.nl/data0/images/03.jpg"
+  ]
+ },
+ {
+  "bedrijf": "Hondentrimsalon Oss",
+  "kort": "Oss",
+  "slug": "trimsalon-oss",
+  "plaats": "Oss",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact"
+ },
+ {
+  "bedrijf": "Doggroomer Eindhoven",
+  "kort": "Doggroomer",
+  "slug": "doggroomer",
+  "plaats": "Eindhoven",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact"
+ }
 ]

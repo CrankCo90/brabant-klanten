@@ -41,6 +41,9 @@ Demo weghalen: `rm -rf /var/www/demos/KLANT` + Caddy-blok weg + reload.
 Schrijf aan het eind van elke werkdag een korte samenvatting naar
 `_workflow/logs/DAGELIJKS-JJJJ-MM-DD.md`: wat gedaan, welke demo-links, wat openstaat, eventuele fouten.
 
+## Beeldgebruik in demo's (belangrijk)
+Heeft de prospect een werkende website of openbare social media met foto's? **Gebruik dan HUN eigen foto's in de demo** (zodat het meteen vertrouwd aanvoelt). Val alleen terug op AI-beelden als er geen bruikbare eigen foto's zijn (geen/offline site, geen openbare foto's). Voorkeur: https-afbeeldingen; voor de echte verkochte site worden ze lokaal opgeslagen.
+
 ## Stijlregels voor de sites
 Statische HTML/CSS/JS, responsive, snel, NL met NL/EN-knop, SEO ingebakken, geen AI-/interne
 verwijzingen op klantpagina's (zie het schoonmaak-resultaat van hondentrimsalonscott als voorbeeld).
