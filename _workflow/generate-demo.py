@@ -33,6 +33,18 @@ Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"
 document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
 </script>'''
 
+
+LOGO_FILES = ("previews/design-06.html","previews/design-07.html")
+def apply_stats(html, stats):
+    divs=""
+    for item in stats:
+        n=item[0]; lbl=item[1]; dec=item[2] if len(item)>2 else 0
+        divs+='<div><b data-count="%s"%s>0</b><span>%s</span></div>'%(n,(' data-dec="%d"'%dec if dec else ''),lbl)
+    return re.sub(r'<section class="stats">.*?</section>', '<section class="stats">'+divs+'</section>', html, flags=re.S)
+def apply_logo(html, logo, naam):
+    img='<img src="%s" alt="%s" style="height:36px;width:auto;display:block">'%(logo,naam)
+    return re.sub(r'(<span class="logo"[^>]*>).*?(</span>)', r'\1'+img+r'\2', html, count=1, flags=re.S)
+
 def transform(text, s):
     merk=s["bedrijf"]; kort=s["kort"]; plaats=s["plaats"]; td=s["tel_display"]; th=s["tel_href"]
     text = re.sub(r'Trimsalon (<em[^>]*>)Scott</em>', r'\1'+kort+'</em>', text)
@@ -85,6 +97,8 @@ for s in salons:
     dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
     for f in FILES:
         out=transform((SRC/f).read_text(encoding="utf-8"), s)
+        if s.get("stats") and 'class="stats"' in out: out=apply_stats(out, s["stats"])
+        if s.get("logo") and f in LOGO_FILES: out=apply_logo(out, s["logo"], s["bedrijf"])
         if f!="index.html":
             if f in VARMAP and "<footer" in out:
                 sec=info_section(f,s)
