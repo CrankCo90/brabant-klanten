@@ -34,8 +34,7 @@ Draai daarna: `python3 _workflow/generate-demo.py`
 
 ## 5. Vastleggen + publiceren (NIET mailen)
 - Voeg 1 regel toe aan `_workflow/gedaan-niches.txt`: "<datum> · <niche> · <regio> · <aantal>".
-- Commit + push met het token:
-  `TOKEN=$(cat /root/outreach-data/.git-token); git add -A && git commit -m "Ochtendronde <niche> <regio>" && git push https://$TOKEN@github.com/CrankCo90/brabant-klanten.git HEAD:main`
+- Commit + push: `bash _workflow/push.sh "Ochtendronde <niche> <regio>"`
 - Publiceer live: `bash _workflow/vps-autodeploy.sh`
 - Schrijf een korte samenvatting naar `_workflow/logs/DAGELIJKS-<datum>.md` (gekozen niche/regio + onderbouwing, aantal prospects, hoeveel met e-mail, opvallende vondsten).
 

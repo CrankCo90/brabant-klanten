@@ -35,7 +35,9 @@
       "Bash(./localize-images.sh)",
       "WebSearch",
       "WebFetch",
-      "mcp__workspace__web_fetch"
+      "mcp__workspace__web_fetch",
+      "Bash(python3:*)",
+      "Bash(bash:*)"
     ],
     "deny": [
       "Bash(rm -rf /:*)",
