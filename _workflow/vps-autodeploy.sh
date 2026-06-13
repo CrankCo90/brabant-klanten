@@ -35,5 +35,13 @@ for d in */ ; do
   changed=1
   echo "$(date '+%F %T') gepubliceerd: $klant" >>"$LOG"
 done
+# admin-dashboard publiceren
+if [ -f "$REPO_DIR/dashboard/index.html" ]; then
+  mkdir -p /var/www/admin
+  rsync -a --delete "$REPO_DIR/dashboard/" /var/www/admin/
+  chmod -R a+rX /var/www/admin
+  changed=1
+  echo "$(date '+%F %T') dashboard gesynchroniseerd" >>"$LOG"
+fi
 if [ "$changed" = 1 ]; then systemctl reload caddy; echo "$(date '+%F %T') caddy herladen ($after)" >>"$LOG"; fi
 exit 0
