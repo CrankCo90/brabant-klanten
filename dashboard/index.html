@@ -231,10 +231,15 @@ var CT=localStorage.getItem("bd_ctl")||"";
 function log(t){var p=$c("#ctllog");p.style.display="block";p.textContent=((typeof t==="string")?t:JSON.stringify(t,null,1))+"\n\n"+p.textContent;}
 async function capi(path,method,body){var r=await fetch(CTL+path,{method:method,headers:{"Authorization":"Bearer "+CT,"Content-Type":"application/json"},body:body?JSON.stringify(body):undefined});var j=await r.json().catch(function(){return {error:"geen geldig antwoord"};});if(!r.ok)j.error=j.error||("HTTP "+r.status);return j;}
 function render(st){var sent={};(st.sent||[]).forEach(function(x){sent[(x.email||"").toLowerCase()]=1;});var rep=st.replies||{};
- var ps=(st.prospects||[]).filter(function(p){return p.status==="klaar";});
- $c("#prospectlist").innerHTML=ps.map(function(p){var e=(p.email||"").toLowerCase();var isSent=!!sent[e];var r=rep[e];
-  var badge=r?('<span class="badge s-'+(r.status==="ja"?"ja":(r.status==="nee"?"nee":"benaderd"))+'">'+r.status+'</span>'):(isSent?'<span class="badge s-benaderd">verzonden</span>':'<span class="badge s-prospect">klaar</span>');
-  return '<label style="display:flex;gap:10px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(255,255,255,.06)"><input type="checkbox" class="psel" value="'+(p.bedrijf||"").replace(/"/g,"&quot;")+'" '+(isSent?"disabled":"checked")+'><span style="flex:1">'+(p.bedrijf||"")+' <span style="color:#8d887e;font-size:.82rem">'+(p.email||"")+'</span></span>'+badge+'</label>';}).join("")||'<p class="note">Geen klaarstaande prospects.</p>';}
+ var ps=(st.prospects||[]).filter(function(p){return p.status==="klaar"||p.status==="concept";});
+ $c("#prospectlist").innerHTML=ps.map(function(p){
+   var e=(p.email||"").toLowerCase(); var hasMail=/@/.test(e); var isSent=!!sent[e]; var r=rep[e]; var badge, cb;
+   if(!hasMail){ badge='<span class="badge s-afgewezen">geen e-mail \u00b7 bel/app</span>'; cb='<input type="checkbox" disabled>'; }
+   else if(r){ badge='<span class="badge s-'+(r.status==="ja"?"ja":(r.status==="nee"?"nee":"benaderd"))+'">'+r.status+'</span>'; cb='<input type="checkbox" disabled>'; }
+   else if(isSent){ badge='<span class="badge s-benaderd">verzonden</span>'; cb='<input type="checkbox" disabled>'; }
+   else { badge='<span class="badge s-prospect">klaar</span>'; cb='<input type="checkbox" class="psel" value="'+(p.bedrijf||"").replace(/"/g,"&quot;")+'" checked>'; }
+   return '<label style="display:flex;gap:10px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(255,255,255,.06)">'+cb+'<span style="flex:1">'+(p.bedrijf||"")+' <span style="color:#8d887e;font-size:.82rem">'+(p.email||"geen e-mailadres")+'</span></span>'+badge+'</label>';
+ }).join("")||'<p class="note">Geen prospects.</p>';}
 async function connect(){if(!CT)return;try{var st=await capi("/status","GET");if(st.error){$c("#ctlstate").textContent="(niet verbonden)";return;}$c("#ctlsetup").style.display="none";$c("#ctlpanel").style.display="block";$c("#ctlstate").textContent="\u2022 verbonden";$c("#autopilot").checked=!!st.autopilot;var _cv=localStorage.getItem("bd_cap");if(_cv)$c("#cap").value=_cv;render(st);var sm={};(st.sent||[]).forEach(function(x){sm[(x.email||"").toLowerCase()]=1;});if(window.bdRefresh)window.bdRefresh({sent:sm,replies:st.replies||{}});}catch(e){$c("#ctlstate").textContent="(geen /api)";}}
 document.addEventListener("click",function(ev){
  var id=ev.target&&ev.target.id;
