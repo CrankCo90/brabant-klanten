@@ -188,24 +188,29 @@ if(sessionStorage.getItem('bd_ok')==='1'){unlock();}else{setTimeout(()=>$('#pw')
 // ---------- dashboard ----------
 const STATUS=[["prospect","Prospect"],["demo","Demo klaar"],["benaderd","Benaderd"],["ja","Gekocht"],["nee","Nee"],["afgewezen","Niet benaderen"]];
 const COL={prospect:"#c9a96a",demo:"#378add",benaderd:"#efa927",ja:"#97c459",nee:"#e2746a",afgewezen:"#6f6a60"};
-let DATA=[], group=localStorage.getItem('bd_group')||'niche', active=new Set(STATUS.map(s=>s[0])), charted=false;
-function stats(){const c=Object.fromEntries(STATUS.map(s=>[s[0],0]));DATA.forEach(d=>c[d.status]=(c[d.status]||0)+1);
-  const benaderd=c.benaderd+c.ja+c.nee, conv=(c.ja+c.nee)?Math.round(c.ja/(c.ja+c.nee)*100):0;
-  $('#stats').innerHTML=[['Totaal',DATA.length,''],['Prospects',c.prospect||0,'amber'],['Benaderd',benaderd,''],['Gekocht',c.ja,'green'],['Conversie',conv+'%','amber']]
-    .map(([l,v,k])=>`<div class="stat ${k}"><div class="lbl">${l}</div><div class="val">${v}</div></div>`).join('');return c;}
-function charts(c){if(charted)return;charted=true;
-  new Chart($('#cStatus'),{type:'doughnut',data:{labels:STATUS.map(s=>s[1]),datasets:[{data:STATUS.map(s=>c[s[0]]||0),backgroundColor:STATUS.map(s=>COL[s[0]]),borderColor:'#17171c',borderWidth:2}]},options:{plugins:{legend:{labels:{color:'#c4bfb4',font:{size:12}}}}}});
-  const n=[...new Set(DATA.map(d=>d.niche))];
-  new Chart($('#cNiche'),{type:'bar',data:{labels:n,datasets:[{data:n.map(x=>DATA.filter(d=>d.niche===x).length),backgroundColor:'#c9a96a'}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#c4bfb4'},grid:{display:false}},y:{ticks:{color:'#8d887e',stepSize:1},grid:{color:'rgba(255,255,255,.06)'}}}}});}
+let DATA=[], group=localStorage.getItem('bd_group')||'niche', active=new Set(STATUS.map(s=>s[0]));
+var CTL={sent:{},replies:{}}, chS=null, chN=null;
+function emailOf(c){var m=((c.contact||"")+" "+(c.email||"")).match(/[\w.+-]+@[\w.-]+\.\w+/);return m?m[0].toLowerCase():"";}
+function effStatus(c){var e=emailOf(c);if(e&&CTL.replies[e]){var r=CTL.replies[e].status;return r==="ja"?"ja":(r==="nee"?"nee":"benaderd");}if(e&&CTL.sent[e])return "benaderd";return c.status;}
+window.bdRefresh=function(ctl){if(ctl)CTL=ctl;stats();drawCharts();list();};
+function stats(){var c={};STATUS.forEach(function(x){c[x[0]]=0;});DATA.forEach(function(d){var e=effStatus(d);c[e]=(c[e]||0)+1;});
+  var benaderd=(c.benaderd||0)+(c.ja||0)+(c.nee||0), prospectsN=(c.prospect||0)+(c.demo||0), conv=benaderd?Math.round((c.ja||0)/benaderd*100):0;
+  $('#stats').innerHTML=[['Totaal',DATA.length,''],['Prospects',prospectsN,'amber'],['Benaderd',benaderd,''],['Gekocht',c.ja||0,'green'],['Conversie',conv+'%','amber']]
+    .map(function(a){return '<div class="stat '+a[2]+'"><div class="lbl">'+a[0]+'</div><div class="val">'+a[1]+'</div></div>';}).join('');return c;}
+function drawCharts(){var c={};STATUS.forEach(function(x){c[x[0]]=0;});DATA.forEach(function(d){var e=effStatus(d);c[e]=(c[e]||0)+1;});
+  if(chS)chS.destroy();if(chN)chN.destroy();
+  chS=new Chart($('#cStatus'),{type:'doughnut',data:{labels:STATUS.map(s=>s[1]),datasets:[{data:STATUS.map(s=>c[s[0]]||0),backgroundColor:STATUS.map(s=>COL[s[0]]),borderColor:'#17171c',borderWidth:2}]},options:{plugins:{legend:{labels:{color:'#c4bfb4',font:{size:12}}}}}});
+  var n=[...new Set(DATA.map(d=>d.niche))];
+  chN=new Chart($('#cNiche'),{type:'bar',data:{labels:n,datasets:[{data:n.map(x=>DATA.filter(d=>d.niche===x).length),backgroundColor:'#c9a96a'}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#c4bfb4'},grid:{display:false}},y:{ticks:{color:'#8d887e',stepSize:1},grid:{color:'rgba(255,255,255,.06)'}}}}});}
 function filters(){$('#statusFilters').innerHTML=STATUS.map(s=>`<span class="chip ${active.has(s[0])?'on':''}" data-s="${s[0]}">${s[1]}</span>`).join(' ');
   document.querySelectorAll('[data-s]').forEach(c=>c.onclick=()=>{const s=c.dataset.s;active.has(s)?active.delete(s):active.add(s);filters();list();});}
 function badge(s){const n=STATUS.find(x=>x[0]===s);return `<span class="badge s-${s}">${n?n[1]:s}</span>`;}
-function list(){const rows=DATA.filter(d=>active.has(d.status));
+function list(){const rows=DATA.filter(d=>active.has(effStatus(d)));
   const keys=[...new Set(rows.map(d=>group==='niche'?d.niche:d.werkdag))].sort().reverse();
   $('#list').innerHTML=keys.map(k=>{const items=rows.filter(d=>(group==='niche'?d.niche:d.werkdag)===k);
     const sub=group==='werkdag'?[...new Set(items.map(i=>i.niche))].join(', '):items.length+' klant(en)';
     return `<div class="group"><h4>${k||'—'} <span>${sub}</span></h4>`+items.map(d=>`
-      <details class="prow"><summary><span class="pn">${d.bedrijf}</span><span class="pm">${d.plaats||d.regio||''}</span>${d.score?`<span class="psc">score ${d.score}</span>`:''}${badge(d.status)}</summary>
+      <details class="prow"><summary><span class="pn">${d.bedrijf}</span><span class="pm">${d.plaats||d.regio||''}</span>${d.score?`<span class="psc">score ${d.score}</span>`:''}${badge(effStatus(d))}</summary>
       <div class="pdet">
         ${(d.waarom||d.notitie)?`<p><b>Waarom:</b> ${d.waarom||d.notitie}</p>`:''}
         ${(d.fouten&&d.fouten.length)?`<p><b>Gevonden punten / pitch-tips:</b></p><ul>${d.fouten.map(x=>'<li>'+x+'</li>').join('')}</ul>`:''}
@@ -216,7 +221,7 @@ function list(){const rows=DATA.filter(d=>active.has(d.status));
   }).join('')||'<p class="note">Geen klanten in deze selectie.</p>';}
 function setGroup(g){group=g;localStorage.setItem('bd_group',g);document.querySelectorAll('[data-group]').forEach(c=>c.classList.toggle('on',c.dataset.group===g));list();}
 document.querySelectorAll('[data-group]').forEach(c=>c.onclick=()=>setGroup(c.dataset.group));
-function init(){fetch((location.pathname.indexOf('/admin')===0?'/admin/':'./')+'clients.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d.sort((a,b)=>(b.werkdag||'').localeCompare(a.werkdag||''));const c=stats();charts(c);filters();setGroup(group);}).catch(e=>{$('#list').innerHTML='<p class="note">Kon clients.json niet laden: '+e+'</p>';});}
+function init(){fetch((location.pathname.indexOf('/admin')===0?'/admin/':'./')+'clients.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d.sort((a,b)=>(b.werkdag||'').localeCompare(a.werkdag||''));stats();drawCharts();filters();setGroup(group);}).catch(e=>{$('#list').innerHTML='<p class="note">Kon clients.json niet laden: '+e+'</p>';});}
 </script>
 <script>
 (function(){
@@ -230,7 +235,7 @@ function render(st){var sent={};(st.sent||[]).forEach(function(x){sent[(x.email|
  $c("#prospectlist").innerHTML=ps.map(function(p){var e=(p.email||"").toLowerCase();var isSent=!!sent[e];var r=rep[e];
   var badge=r?('<span class="badge s-'+(r.status==="ja"?"ja":(r.status==="nee"?"nee":"benaderd"))+'">'+r.status+'</span>'):(isSent?'<span class="badge s-benaderd">verzonden</span>':'<span class="badge s-prospect">klaar</span>');
   return '<label style="display:flex;gap:10px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(255,255,255,.06)"><input type="checkbox" class="psel" value="'+(p.bedrijf||"").replace(/"/g,"&quot;")+'" '+(isSent?"disabled":"checked")+'><span style="flex:1">'+(p.bedrijf||"")+' <span style="color:#8d887e;font-size:.82rem">'+(p.email||"")+'</span></span>'+badge+'</label>';}).join("")||'<p class="note">Geen klaarstaande prospects.</p>';}
-async function connect(){if(!CT)return;try{var st=await capi("/status","GET");if(st.error){$c("#ctlstate").textContent="(niet verbonden)";return;}$c("#ctlsetup").style.display="none";$c("#ctlpanel").style.display="block";$c("#ctlstate").textContent="\u2022 verbonden";$c("#autopilot").checked=!!st.autopilot;var _cv=localStorage.getItem("bd_cap");if(_cv)$c("#cap").value=_cv;render(st);}catch(e){$c("#ctlstate").textContent="(geen /api)";}}
+async function connect(){if(!CT)return;try{var st=await capi("/status","GET");if(st.error){$c("#ctlstate").textContent="(niet verbonden)";return;}$c("#ctlsetup").style.display="none";$c("#ctlpanel").style.display="block";$c("#ctlstate").textContent="\u2022 verbonden";$c("#autopilot").checked=!!st.autopilot;var _cv=localStorage.getItem("bd_cap");if(_cv)$c("#cap").value=_cv;render(st);var sm={};(st.sent||[]).forEach(function(x){sm[(x.email||"").toLowerCase()]=1;});if(window.bdRefresh)window.bdRefresh({sent:sm,replies:st.replies||{}});}catch(e){$c("#ctlstate").textContent="(geen /api)";}}
 document.addEventListener("click",function(ev){
  var id=ev.target&&ev.target.id;
  if(id==="ctlconnect"){CT=$c("#ctltoken").value.trim();localStorage.setItem("bd_ctl",CT);connect();}
