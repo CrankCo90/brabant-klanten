@@ -1,45 +1,670 @@
 [
- {"bedrijf":"Hondentrimsalon Scott","niche":"Hondentrimsalons","regio":"Amsterdam","plaats":"Amsterdam · Osdorp","status":"demo","score":5,"werkdag":"2026-06-13","demo_url":"https://hondentrimsalonscott.demo.brabantdigital.nl","waarom":"Geen website (alleen Instagram), gediplomeerd, alle rassen. 10-designs demo live.","fouten":["Geen eigen website","Adres-typefout in bio: 'Zupthenstraat' i.p.v. 'Zutphenstraat'","Reviews verstopt achter 'klik link'"],"contact":"06-25548420 (e-mail nog nodig)"},
- {"bedrijf":"Trimsalon by Fem","niche":"Hondentrimsalons","regio":"Noord-Brabant","plaats":"Schaijk","status":"benaderd","score":4,"werkdag":"2026-06-12","demo_url":"https://trimsalonbyfem-a.demo.brabantdigital.nl","waarom":"3 sites (A/B/C) gebouwd, mail + WhatsApp verstuurd.","fouten":["E-mailknop linkte naar .nu i.p.v. .nl","Verouderde JouwWeb-site"],"contact":"info@trimsalonbyfem.nl"},
-
- {"bedrijf":"Spa Dogs","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"'s-Hertogenbosch","status":"prospect","score":5,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"Serieus bedrijf (FB 100% aanbevolen, 13 reviews) maar helemaal geen eigen website.","fouten":["Geen eigen website — alleen Facebook","Privé hotmail-adres als enige contact"],"contact":"nlcejwillemsen@hotmail.com · 06-16517900"},
- {"bedrijf":"Trimsalon Agnes","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven · Woensel","status":"prospect","score":5,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"Gediplomeerd sinds 1998, maar geen enkele eigen site (alleen gidsen/Yelp).","fouten":["Geen eigen website","Alleen telefoonboek/Yelp + privé hotmail"],"contact":"trimsalonagnes@hotmail.com · 06-10944891"},
- {"bedrijf":"Bemellow","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Helmond","status":"prospect","score":5,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"Serieus sinds 2010; site draait op extreem oude WordPress.","fouten":["WordPress uit 2011 (oud/onveilig)","Geen meta-description (geen SEO)","Niet mobielvriendelijk","Geen online boeken"],"contact":"via Facebook/site (Angela van de Waardenburg)"},
- {"bedrijf":"Hond & Welzijn","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Helmond · Stiphout","status":"prospect","score":5,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"25+ jaar ervaring; sterke verouderde site vol concrete fouten.","fouten":["E-mailadres met spatie: 'info@ hondenwelzijn.nl'","Copyright vast op 2001-2020","Lege meta-description","Geen HTTPS","Encoding-fout 'MenÃ¼'"],"contact":"info@hondenwelzijn.nl · 06-22969051"},
- {"bedrijf":"Tammy's Trimsalon","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"'s-Hertogenbosch","status":"prospect","score":4,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"Gediplomeerd sinds 2018; zwakke JouwWeb-site met een kapotte link.","fouten":["Prijslijst-link wijst naar een concurrent (trimsalon-knappekoppies.nl)","'Powered by JouwWeb'","Titel met fout backtick 'Tammy`s'","Geen online boeken"],"contact":"via contactformulier op site"},
- {"bedrijf":"Hondentrimsalon Bonita","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven · Gestel","status":"prospect","score":4,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"Fulltime (ma-vr 09-21), 10+ jr ervaring; gedateerde site met zichtbare bug.","fouten":["Kapotte Google-Maps 'temporary placeholder' staat zichtbaar op de site","Gedateerd WordPress-design","Mix NL/EN knoppen","Geen online boeken"],"contact":"formulier@bonita-hondentrimsalon.nl · 06-12790153"},
- {"bedrijf":"Didi's Hondentrimsalon","niche":"Hondentrimsalons","regio":"Breda","plaats":"Breda","status":"prospect","score":4,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"Di-za open (fulltime); verouderd WordPress met duidelijke bugs.","fouten":["Statistiekblok toont nog '99 / 99 / 99 / 99' placeholders","Dode Instagram-link","Lege meta-description","Oud WordPress 5.5"],"contact":"didishondentrimsalon@gmail.com · 06-15282531"},
- {"bedrijf":"Trimsalon Peter Rijswijk","niche":"Hondentrimsalons","regio":"Breda","plaats":"Breda","status":"prospect","score":4,"prioriteit":"hoog","werkdag":"2026-06-13","demo_url":"","waarom":"Gevestigd sinds 1997 (ma-vr), sterk verouderde site.","fouten":["Foto's/inhoud uit 2015","Geen e-mailadres op de site","Geen og:title (zwakke SEO)","Geen online boeken"],"contact":"076-5719272"},
- {"bedrijf":"Hondentrimsalon Kwispel","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"Rosmalen","status":"prospect","score":4,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"30 jaar gevestigd, maar alleen een gratis 123website-pagina.","fouten":["Alleen gratis 123website-subdomein (geen eigen domein)","Zeer basale pagina"],"contact":"073-5218323 · Vliertwijksestraat 38A"},
- {"bedrijf":"Hondentrimsalon Rox","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven · Mensfort","status":"prospect","score":4,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"Salon aan huis sinds 2021; zwakke JouwWeb-site. Let op: mogelijk parttime.","fouten":["'Powered by JouwWeb'","Leeg/kapot logo-alt","Weinig content","Geen online boeken"],"contact":"via contactpagina (eigenaar Roxane)"},
- {"bedrijf":"Hondentrimsalon Wilma van der Meijs","niche":"Hondentrimsalons","regio":"Breda","plaats":"Breda","status":"prospect","score":4,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"25 jaar, ABHB-gecertificeerd; verouderde .php-site (browser-check nodig).","fouten":["Verouderde .php-site","'.eu'-domein","Nog in browser te verifiëren"],"contact":"076-5497918 · 06-12232138"},
- {"bedrijf":"Het Knappe Snuitje","niche":"Hondentrimsalons","regio":"Breda","plaats":"Etten-Leur","status":"prospect","score":4,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"Serieus aanbod; verouderde site. Let op: ~3 dagen open (parttime-signaal).","fouten":["Copyright 2022 / content uit 2021","og:image via http:// (niet veilig)","Geen Instagram, alleen Facebook"],"contact":"via Facebook/contactpagina · Brakkenstraat 4"},
- {"bedrijf":"Hondentrimsalon Does","niche":"Hondentrimsalons","regio":"Tilburg","plaats":"Tilburg","status":"prospect","score":4,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"Bekend, gevestigd (leidt stagiairs op) maar geen eigen website.","fouten":["Geen eigen website (alleen Facebook)"],"contact":"FB HondentrimsalonDoes · Besterdplein 6"},
- {"bedrijf":"Dogsalon Mila","niche":"Hondentrimsalons","regio":"Tilburg","plaats":"Waalwijk","status":"prospect","score":3,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"Serieus (webshop, ~fulltime) maar duidelijk JouwWeb-bouwer.","fouten":["'Powered by JouwWeb'","Afspraak alleen via WhatsApp, geen agenda","Zwakke SEO-title"],"contact":"WhatsApp 06-28382312 (Simone & Jasmijn)"},
- {"bedrijf":"Trimsalon Van Kop tot Staart","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Helmond","status":"prospect","score":3,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"ABHB-lid; site uit 2017, slordige details.","fouten":["Copyright 2017","wp-login / 'Forgot password' zichtbaar op publieke pagina","Content/foto's uit 2017-2018"],"contact":"renate@trimsalonhelmond.nl · 06-41651080"},
- {"bedrijf":"Trimsalon Eindhoven","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven","status":"prospect","score":3,"prioriteit":"midden","werkdag":"2026-06-13","demo_url":"","waarom":"Dagelijks open (fulltime); geen HTTPS en zwakke site.","fouten":["Geen HTTPS (http://)","Verouderde/zwakke site","'.eu'-domein"],"contact":"carla@trimsaloneindhoven.eu · 06-41329765"},
- {"bedrijf":"Mooie Hondjes trimsalon","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Helmond · Centrum","status":"prospect","score":3,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Verouderde .php-site; browser-check nodig.","fouten":["Verouderde .php-site","Nog te verifiëren"],"contact":"info@mooiehondjes.nl · 06-46348913"},
- {"bedrijf":"Hondentrimsalon Sunshine","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"'s-Hertogenbosch","status":"prospect","score":3,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Serieus; site laadt leeg voor crawler (slecht voor Google). Browser-check nodig.","fouten":["Site rendert leeg voor crawler (slechte indexering)","Nog te verifiëren in browser"],"contact":"info@trimsalonsunshine.nl · 06-20866339"},
- {"bedrijf":"Trimsalon Elite","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"'s-Hertogenbosch","status":"prospect","score":3,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Eigen domein maar inhoud laadt niet; browser-check nodig.","fouten":["Inhoud laadt leeg (JS-only)","Nog te verifiëren"],"contact":"via site/Facebook · Karel Doormanstraat 27"},
- {"bedrijf":"Just 4 Dogs","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"Oss","status":"prospect","score":3,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Eigen domein maar verouderde .php-indruk; browser-check nodig.","fouten":[".php-structuur = verouderd/eenvoudig CMS","Nog te verifiëren"],"contact":"via site/FB (eigenaar Jaimy)"},
- {"bedrijf":"Lynn's Trimsalon","niche":"Hondentrimsalons","regio":"Tilburg","plaats":"Waalwijk","status":"prospect","score":3,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Site laadde niet (JS); browser-check nodig.","fouten":["Site laadt niet voor fetcher","Nog te verifiëren"],"contact":"06-16522983 · Putstraat 66"},
- {"bedrijf":"Jokes trimsalon","niche":"Hondentrimsalons","regio":"Breda","plaats":"Breda · Belcrum","status":"prospect","score":3,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Losse .html-pagina's = verouderde bouwer; browser-check nodig.","fouten":["Losse .html-pagina's (verouderde bouwer)","Nog te verifiëren"],"contact":"info@jokestrimsalon.nl · 06-11310207"},
- {"bedrijf":"Hondentrimsalon Oss","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"Oss","status":"prospect","score":3,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Heeft site (laadt leeg); beperkte openingsdagen — let op koopkans.","fouten":["Inhoud laadt leeg","Beperkte openingsdagen (ma dicht)"],"contact":"via site/FB · Oude Kerkstraat 29"},
- {"bedrijf":"Doggroomer Eindhoven","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven","status":"prospect","score":2,"prioriteit":"laag","werkdag":"2026-06-13","demo_url":"","waarom":"Expat-gericht, eigen domein; eerst in browser bekijken.","fouten":["Nog te verifiëren in browser"],"contact":"via site"},
-
- {"bedrijf":"Studio Proud","niche":"Hondentrimsalons","regio":"Den Bosch","plaats":"'s-Hertogenbosch","status":"afgewezen","score":1,"werkdag":"2026-06-13","demo_url":"","waarom":"Al sterke moderne site (webshop); trimmen is bijzaak.","fouten":[],"contact":""},
- {"bedrijf":"Trendy Dog","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven","status":"afgewezen","score":2,"werkdag":"2026-06-13","demo_url":"","waarom":"Recente nette site (2025), alleen kleine typefout.","fouten":[],"contact":""},
- {"bedrijf":"Trimsalon Spots","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Helmond","status":"afgewezen","score":2,"werkdag":"2026-06-13","demo_url":"","waarom":"Moderne nette site (2026).","fouten":[],"contact":""},
- {"bedrijf":"Trimsalon Nikki","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Nuenen","status":"afgewezen","score":2,"werkdag":"2026-06-13","demo_url":"","waarom":"Investeert al in SEO (meerdere landingspagina's).","fouten":[],"contact":""},
- {"bedrijf":"Trimsalon Limbo","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Venlo","status":"afgewezen","score":1,"werkdag":"2026-06-13","demo_url":"","waarom":"Buiten doelregio (Venlo) en investeert al fors in SEO.","fouten":[],"contact":""},
- {"bedrijf":"Renate's Hondentrimsalon","niche":"Hondentrimsalons","regio":"Tilburg","plaats":"Waalwijk","status":"afgewezen","score":1,"werkdag":"2026-06-13","demo_url":"","waarom":"Top moderne site (jan 2026). Alleen een mailto-bug, geen verkoopkans.","fouten":["mailto-href wijst naar fout domein renatestrimsalon.nl (gratis tip)"],"contact":""},
- {"bedrijf":"Doggies by Diana","niche":"Hondentrimsalons","regio":"Tilburg","plaats":"Tilburg","status":"afgewezen","score":3,"werkdag":"2026-06-13","demo_url":"","waarom":"Sterke moderne site; momenteel klantenstop. Alleen kapotte mail als tip.","fouten":["E-mail fout weergegeven: 'info@ doggiesbydiana.nI' (hoofdletter I + spatie)"],"contact":""},
- {"bedrijf":"Trimsalon Doggy Douche","niche":"Hondentrimsalons","regio":"Tilburg","plaats":"Tilburg","status":"afgewezen","score":2,"werkdag":"2026-06-13","demo_url":"","waarom":"Redelijk verzorgde multipage-site; geen duidelijke zwakte.","fouten":[],"contact":""},
- {"bedrijf":"Hondentrimsalon Princenhage","niche":"Hondentrimsalons","regio":"Breda","plaats":"Breda · Princenhage","status":"afgewezen","score":1,"werkdag":"2026-06-13","demo_url":"","waarom":"Sterke moderne site (FB/Insta/TikTok); wachtlijst vol.","fouten":[],"contact":""},
- {"bedrijf":"Trimsalon @t-Lanta","niche":"Hondentrimsalons","regio":"Breda","plaats":"Sluiskil/Breda","status":"afgewezen","score":3,"werkdag":"2026-06-13","demo_url":"","waarom":"Hoofdvestiging in Zeeland, niet echt lokaal Breda.","fouten":["Veel kapotte foto-slots (Jimdo)"],"contact":""},
- {"bedrijf":"HondPro","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven","status":"afgewezen","score":3,"werkdag":"2026-06-13","demo_url":"","waarom":"Moderne site; positioneert zich vooral als opleiding (eerder concurrent).","fouten":["og:url op http://localhost","WhatsApp-knop = placeholder wa.me/1234567890"],"contact":""},
- {"bedrijf":"HondenTrimsalon Tilburg (.com)","niche":"Hondentrimsalons","regio":"Tilburg","plaats":"Tilburg","status":"afgewezen","score":1,"werkdag":"2026-06-13","demo_url":"","waarom":"Geen echt lokaal bedrijf — lijkt SEO-doorverwijzing naar HondPro Eindhoven.","fouten":["Title-tag = ruwe contactstring","Subpagina-titel 'My WordPress'"],"contact":""},
- {"bedrijf":"Pet Styling Cecile","niche":"Hondentrimsalons","regio":"Eindhoven","plaats":"Eindhoven · Meerhoven","status":"afgewezen","score":2,"werkdag":"2026-06-13","demo_url":"","waarom":"Heeft al website(s) (petstyling.nl/dogs2groom.nl).","fouten":[],"contact":""},
- {"bedrijf":"Furry Tails","niche":"Hondentrimsalons","regio":"Breda","plaats":"Breda","status":"afgewezen","score":2,"werkdag":"2026-06-13","demo_url":"","waarom":"Honden maar 1 dag/week = bijbaan-signaal.","fouten":[],"contact":""},
- {"bedrijf":"Hondentrimsalon Sonja","niche":"Hondentrimsalons","regio":"Breda","plaats":"Etten-Leur","status":"afgewezen","score":3,"werkdag":"2026-06-13","demo_url":"","waarom":"Geen site (kans) maar ~3 dagen open = parttime-signaal.","fouten":["Geen eigen website"],"contact":""}
+ {
+  "bedrijf": "Hondentrimsalon Scott",
+  "niche": "Hondentrimsalons",
+  "regio": "Amsterdam",
+  "plaats": "Amsterdam · Osdorp",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-13",
+  "demo_url": "https://hondentrimsalonscott.demo.brabantdigital.nl",
+  "waarom": "Geen website (alleen Instagram), gediplomeerd, alle rassen. 10-designs demo live.",
+  "fouten": [
+   "Geen eigen website",
+   "Adres-typefout in bio: 'Zupthenstraat' i.p.v. 'Zutphenstraat'",
+   "Reviews verstopt achter 'klik link'"
+  ],
+  "contact": "06-25548420 (e-mail nog nodig)"
+ },
+ {
+  "bedrijf": "Trimsalon by Fem",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Schaijk",
+  "status": "benaderd",
+  "score": 4,
+  "werkdag": "2026-06-12",
+  "demo_url": "https://trimsalonbyfem-a.demo.brabantdigital.nl",
+  "waarom": "3 sites (A/B/C) gebouwd, mail + WhatsApp verstuurd.",
+  "fouten": [
+   "E-mailknop linkte naar .nu i.p.v. .nl",
+   "Verouderde JouwWeb-site"
+  ],
+  "contact": "info@trimsalonbyfem.nl"
+ },
+ {
+  "bedrijf": "Spa Dogs",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "'s-Hertogenbosch",
+  "status": "demo",
+  "score": 5,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://spadogs.demo.brabantdigital.nl",
+  "waarom": "Serieus bedrijf (FB 100% aanbevolen, 13 reviews) maar helemaal geen eigen website.",
+  "fouten": [
+   "Geen eigen website — alleen Facebook",
+   "Privé hotmail-adres als enige contact"
+  ],
+  "contact": "nlcejwillemsen@hotmail.com · 06-16517900"
+ },
+ {
+  "bedrijf": "Trimsalon Agnes",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven · Woensel",
+  "status": "demo",
+  "score": 5,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://trimsalon-agnes.demo.brabantdigital.nl",
+  "waarom": "Gediplomeerd sinds 1998, maar geen enkele eigen site (alleen gidsen/Yelp).",
+  "fouten": [
+   "Geen eigen website",
+   "Alleen telefoonboek/Yelp + privé hotmail"
+  ],
+  "contact": "trimsalonagnes@hotmail.com · 06-10944891"
+ },
+ {
+  "bedrijf": "Bemellow",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 5,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://bemellow.demo.brabantdigital.nl",
+  "waarom": "Serieus sinds 2010; site draait op extreem oude WordPress.",
+  "fouten": [
+   "WordPress uit 2011 (oud/onveilig)",
+   "Geen meta-description (geen SEO)",
+   "Niet mobielvriendelijk",
+   "Geen online boeken"
+  ],
+  "contact": "via Facebook/site (Angela van de Waardenburg)"
+ },
+ {
+  "bedrijf": "Hond & Welzijn",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Helmond · Stiphout",
+  "status": "demo",
+  "score": 5,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://hond-en-welzijn.demo.brabantdigital.nl",
+  "waarom": "25+ jaar ervaring; sterke verouderde site vol concrete fouten.",
+  "fouten": [
+   "E-mailadres met spatie: 'info@ hondenwelzijn.nl'",
+   "Copyright vast op 2001-2020",
+   "Lege meta-description",
+   "Geen HTTPS",
+   "Encoding-fout 'MenÃ¼'"
+  ],
+  "contact": "info@hondenwelzijn.nl · 06-22969051"
+ },
+ {
+  "bedrijf": "Tammy's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "'s-Hertogenbosch",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://tammys.demo.brabantdigital.nl",
+  "waarom": "Gediplomeerd sinds 2018; zwakke JouwWeb-site met een kapotte link.",
+  "fouten": [
+   "Prijslijst-link wijst naar een concurrent (trimsalon-knappekoppies.nl)",
+   "'Powered by JouwWeb'",
+   "Titel met fout backtick 'Tammy`s'",
+   "Geen online boeken"
+  ],
+  "contact": "via contactformulier op site"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Bonita",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven · Gestel",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://bonita.demo.brabantdigital.nl",
+  "waarom": "Fulltime (ma-vr 09-21), 10+ jr ervaring; gedateerde site met zichtbare bug.",
+  "fouten": [
+   "Kapotte Google-Maps 'temporary placeholder' staat zichtbaar op de site",
+   "Gedateerd WordPress-design",
+   "Mix NL/EN knoppen",
+   "Geen online boeken"
+  ],
+  "contact": "formulier@bonita-hondentrimsalon.nl · 06-12790153"
+ },
+ {
+  "bedrijf": "Didi's Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Breda",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://didis.demo.brabantdigital.nl",
+  "waarom": "Di-za open (fulltime); verouderd WordPress met duidelijke bugs.",
+  "fouten": [
+   "Statistiekblok toont nog '99 / 99 / 99 / 99' placeholders",
+   "Dode Instagram-link",
+   "Lege meta-description",
+   "Oud WordPress 5.5"
+  ],
+  "contact": "didishondentrimsalon@gmail.com · 06-15282531"
+ },
+ {
+  "bedrijf": "Trimsalon Peter Rijswijk",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Breda",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "hoog",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://peter-rijswijk.demo.brabantdigital.nl",
+  "waarom": "Gevestigd sinds 1997 (ma-vr), sterk verouderde site.",
+  "fouten": [
+   "Foto's/inhoud uit 2015",
+   "Geen e-mailadres op de site",
+   "Geen og:title (zwakke SEO)",
+   "Geen online boeken"
+  ],
+  "contact": "076-5719272"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Kwispel",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "Rosmalen",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://kwispel.demo.brabantdigital.nl",
+  "waarom": "30 jaar gevestigd, maar alleen een gratis 123website-pagina.",
+  "fouten": [
+   "Alleen gratis 123website-subdomein (geen eigen domein)",
+   "Zeer basale pagina"
+  ],
+  "contact": "073-5218323 · Vliertwijksestraat 38A"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Rox",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven · Mensfort",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://rox.demo.brabantdigital.nl",
+  "waarom": "Salon aan huis sinds 2021; zwakke JouwWeb-site. Let op: mogelijk parttime.",
+  "fouten": [
+   "'Powered by JouwWeb'",
+   "Leeg/kapot logo-alt",
+   "Weinig content",
+   "Geen online boeken"
+  ],
+  "contact": "via contactpagina (eigenaar Roxane)"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Wilma van der Meijs",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Breda",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://wilma-van-der-meijs.demo.brabantdigital.nl",
+  "waarom": "25 jaar, ABHB-gecertificeerd; verouderde .php-site (browser-check nodig).",
+  "fouten": [
+   "Verouderde .php-site",
+   "'.eu'-domein",
+   "Nog in browser te verifiëren"
+  ],
+  "contact": "076-5497918 · 06-12232138"
+ },
+ {
+  "bedrijf": "Het Knappe Snuitje",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Etten-Leur",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://knappe-snuitje.demo.brabantdigital.nl",
+  "waarom": "Serieus aanbod; verouderde site. Let op: ~3 dagen open (parttime-signaal).",
+  "fouten": [
+   "Copyright 2022 / content uit 2021",
+   "og:image via http:// (niet veilig)",
+   "Geen Instagram, alleen Facebook"
+  ],
+  "contact": "via Facebook/contactpagina · Brakkenstraat 4"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Does",
+  "niche": "Hondentrimsalons",
+  "regio": "Tilburg",
+  "plaats": "Tilburg",
+  "status": "demo",
+  "score": 4,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://does.demo.brabantdigital.nl",
+  "waarom": "Bekend, gevestigd (leidt stagiairs op) maar geen eigen website.",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "FB HondentrimsalonDoes · Besterdplein 6"
+ },
+ {
+  "bedrijf": "Dogsalon Mila",
+  "niche": "Hondentrimsalons",
+  "regio": "Tilburg",
+  "plaats": "Waalwijk",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://dogsalon-mila.demo.brabantdigital.nl",
+  "waarom": "Serieus (webshop, ~fulltime) maar duidelijk JouwWeb-bouwer.",
+  "fouten": [
+   "'Powered by JouwWeb'",
+   "Afspraak alleen via WhatsApp, geen agenda",
+   "Zwakke SEO-title"
+  ],
+  "contact": "WhatsApp 06-28382312 (Simone & Jasmijn)"
+ },
+ {
+  "bedrijf": "Trimsalon Van Kop tot Staart",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://van-kop-tot-staart.demo.brabantdigital.nl",
+  "waarom": "ABHB-lid; site uit 2017, slordige details.",
+  "fouten": [
+   "Copyright 2017",
+   "wp-login / 'Forgot password' zichtbaar op publieke pagina",
+   "Content/foto's uit 2017-2018"
+  ],
+  "contact": "renate@trimsalonhelmond.nl · 06-41651080"
+ },
+ {
+  "bedrijf": "Trimsalon Eindhoven",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "midden",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://trimsalon-eindhoven.demo.brabantdigital.nl",
+  "waarom": "Dagelijks open (fulltime); geen HTTPS en zwakke site.",
+  "fouten": [
+   "Geen HTTPS (http://)",
+   "Verouderde/zwakke site",
+   "'.eu'-domein"
+  ],
+  "contact": "carla@trimsaloneindhoven.eu · 06-41329765"
+ },
+ {
+  "bedrijf": "Mooie Hondjes trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Helmond · Centrum",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://mooie-hondjes.demo.brabantdigital.nl",
+  "waarom": "Verouderde .php-site; browser-check nodig.",
+  "fouten": [
+   "Verouderde .php-site",
+   "Nog te verifiëren"
+  ],
+  "contact": "info@mooiehondjes.nl · 06-46348913"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Sunshine",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "'s-Hertogenbosch",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://sunshine.demo.brabantdigital.nl",
+  "waarom": "Serieus; site laadt leeg voor crawler (slecht voor Google). Browser-check nodig.",
+  "fouten": [
+   "Site rendert leeg voor crawler (slechte indexering)",
+   "Nog te verifiëren in browser"
+  ],
+  "contact": "info@trimsalonsunshine.nl · 06-20866339"
+ },
+ {
+  "bedrijf": "Trimsalon Elite",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "'s-Hertogenbosch",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://trimsalon-elite.demo.brabantdigital.nl",
+  "waarom": "Eigen domein maar inhoud laadt niet; browser-check nodig.",
+  "fouten": [
+   "Inhoud laadt leeg (JS-only)",
+   "Nog te verifiëren"
+  ],
+  "contact": "via site/Facebook · Karel Doormanstraat 27"
+ },
+ {
+  "bedrijf": "Just 4 Dogs",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "Oss",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://just4dogs.demo.brabantdigital.nl",
+  "waarom": "Eigen domein maar verouderde .php-indruk; browser-check nodig.",
+  "fouten": [
+   ".php-structuur = verouderd/eenvoudig CMS",
+   "Nog te verifiëren"
+  ],
+  "contact": "via site/FB (eigenaar Jaimy)"
+ },
+ {
+  "bedrijf": "Lynn's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Tilburg",
+  "plaats": "Waalwijk",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://lynns.demo.brabantdigital.nl",
+  "waarom": "Site laadde niet (JS); browser-check nodig.",
+  "fouten": [
+   "Site laadt niet voor fetcher",
+   "Nog te verifiëren"
+  ],
+  "contact": "06-16522983 · Putstraat 66"
+ },
+ {
+  "bedrijf": "Jokes trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Breda · Belcrum",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://jokes.demo.brabantdigital.nl",
+  "waarom": "Losse .html-pagina's = verouderde bouwer; browser-check nodig.",
+  "fouten": [
+   "Losse .html-pagina's (verouderde bouwer)",
+   "Nog te verifiëren"
+  ],
+  "contact": "info@jokestrimsalon.nl · 06-11310207"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Oss",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "Oss",
+  "status": "demo",
+  "score": 3,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://trimsalon-oss.demo.brabantdigital.nl",
+  "waarom": "Heeft site (laadt leeg); beperkte openingsdagen — let op koopkans.",
+  "fouten": [
+   "Inhoud laadt leeg",
+   "Beperkte openingsdagen (ma dicht)"
+  ],
+  "contact": "via site/FB · Oude Kerkstraat 29"
+ },
+ {
+  "bedrijf": "Doggroomer Eindhoven",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven",
+  "status": "demo",
+  "score": 2,
+  "prioriteit": "laag",
+  "werkdag": "2026-06-13",
+  "demo_url": "https://doggroomer.demo.brabantdigital.nl",
+  "waarom": "Expat-gericht, eigen domein; eerst in browser bekijken.",
+  "fouten": [
+   "Nog te verifiëren in browser"
+  ],
+  "contact": "via site"
+ },
+ {
+  "bedrijf": "Studio Proud",
+  "niche": "Hondentrimsalons",
+  "regio": "Den Bosch",
+  "plaats": "'s-Hertogenbosch",
+  "status": "afgewezen",
+  "score": 1,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Al sterke moderne site (webshop); trimmen is bijzaak.",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Trendy Dog",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven",
+  "status": "afgewezen",
+  "score": 2,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Recente nette site (2025), alleen kleine typefout.",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Trimsalon Spots",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Helmond",
+  "status": "afgewezen",
+  "score": 2,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Moderne nette site (2026).",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Trimsalon Nikki",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Nuenen",
+  "status": "afgewezen",
+  "score": 2,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Investeert al in SEO (meerdere landingspagina's).",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Trimsalon Limbo",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Venlo",
+  "status": "afgewezen",
+  "score": 1,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Buiten doelregio (Venlo) en investeert al fors in SEO.",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Renate's Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Tilburg",
+  "plaats": "Waalwijk",
+  "status": "afgewezen",
+  "score": 1,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Top moderne site (jan 2026). Alleen een mailto-bug, geen verkoopkans.",
+  "fouten": [
+   "mailto-href wijst naar fout domein renatestrimsalon.nl (gratis tip)"
+  ],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Doggies by Diana",
+  "niche": "Hondentrimsalons",
+  "regio": "Tilburg",
+  "plaats": "Tilburg",
+  "status": "afgewezen",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Sterke moderne site; momenteel klantenstop. Alleen kapotte mail als tip.",
+  "fouten": [
+   "E-mail fout weergegeven: 'info@ doggiesbydiana.nI' (hoofdletter I + spatie)"
+  ],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Trimsalon Doggy Douche",
+  "niche": "Hondentrimsalons",
+  "regio": "Tilburg",
+  "plaats": "Tilburg",
+  "status": "afgewezen",
+  "score": 2,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Redelijk verzorgde multipage-site; geen duidelijke zwakte.",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Hondentrimsalon Princenhage",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Breda · Princenhage",
+  "status": "afgewezen",
+  "score": 1,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Sterke moderne site (FB/Insta/TikTok); wachtlijst vol.",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Trimsalon @t-Lanta",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Sluiskil/Breda",
+  "status": "afgewezen",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Hoofdvestiging in Zeeland, niet echt lokaal Breda.",
+  "fouten": [
+   "Veel kapotte foto-slots (Jimdo)"
+  ],
+  "contact": ""
+ },
+ {
+  "bedrijf": "HondPro",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven",
+  "status": "afgewezen",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Moderne site; positioneert zich vooral als opleiding (eerder concurrent).",
+  "fouten": [
+   "og:url op http://localhost",
+   "WhatsApp-knop = placeholder wa.me/1234567890"
+  ],
+  "contact": ""
+ },
+ {
+  "bedrijf": "HondenTrimsalon Tilburg (.com)",
+  "niche": "Hondentrimsalons",
+  "regio": "Tilburg",
+  "plaats": "Tilburg",
+  "status": "afgewezen",
+  "score": 1,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Geen echt lokaal bedrijf — lijkt SEO-doorverwijzing naar HondPro Eindhoven.",
+  "fouten": [
+   "Title-tag = ruwe contactstring",
+   "Subpagina-titel 'My WordPress'"
+  ],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Pet Styling Cecile",
+  "niche": "Hondentrimsalons",
+  "regio": "Eindhoven",
+  "plaats": "Eindhoven · Meerhoven",
+  "status": "afgewezen",
+  "score": 2,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Heeft al website(s) (petstyling.nl/dogs2groom.nl).",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Furry Tails",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Breda",
+  "status": "afgewezen",
+  "score": 2,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Honden maar 1 dag/week = bijbaan-signaal.",
+  "fouten": [],
+  "contact": ""
+ },
+ {
+  "bedrijf": "Hondentrimsalon Sonja",
+  "niche": "Hondentrimsalons",
+  "regio": "Breda",
+  "plaats": "Etten-Leur",
+  "status": "afgewezen",
+  "score": 3,
+  "werkdag": "2026-06-13",
+  "demo_url": "",
+  "waarom": "Geen site (kans) maar ~3 dagen open = parttime-signaal.",
+  "fouten": [
+   "Geen eigen website"
+  ],
+  "contact": ""
+ }
 ]
