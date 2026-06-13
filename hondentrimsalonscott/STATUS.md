@@ -18,3 +18,9 @@
 - Bestanden klaar: `03-designs/index.html`, `previews/`, `localize-images.sh`, `caddy-snippet.txt`, en `DEPLOY.md` (Caddy, stap voor stap).
 - Foto's: nu CDN-hotlinks; `./localize-images.sh` zet ze om naar lokale WebP (~2-4 MB) en vervangt de links.
 - Stack = Caddy (niet nginx). CP2-VPS ruim voldoende; geen upgrade nodig voor statische demo's.
+
+## LIVE (13-06-2026)
+- Kiesdemo live: **https://hondentrimsalonscott.demo.brabantdigital.nl** (HTTPS via Caddy, geverifieerd).
+- Klantpagina: Brabant Digital-gebrand, alle AI-/interne verwijzingen verwijderd, prijs €499→€199, WhatsApp + werkend Web3Forms-formulier.
+- Auto-deploy actief: VPS-cron elke 15 min (`_workflow/vps-autodeploy.sh`) pullt uit GitHub-repo CrankCo90/brabant-klanten en publiceert.
+- Wacht op: Scott's reactie / keuze ontwerp(en).
