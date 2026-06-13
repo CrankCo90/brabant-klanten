@@ -40,7 +40,8 @@ def transform(text, s):
         text = text.replace(a,b)
     # eigen foto's van de prospect gebruiken (anders blijven de AI-beelden staan)
     fotos = s.get("fotos") or []
-    if fotos:
+    # 1 eigen afbeelding = bijna altijd een logo/banner -> dan liever nette AI-foto's
+    if len(fotos) >= 2:
         BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/"
         AI=[BASE+x for x in [
             "hf_20260613_085111_ed4bc4a1-2b25-4d9e-9d32-c845d82e43d5.png",
