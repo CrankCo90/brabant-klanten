@@ -24,7 +24,20 @@
   "tel_href": "#contact",
   "fotos": [
    "https://www.bemellow.nl/wp-content/uploads/2010/09/p80415011.jpg"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Angela van de Waardenburg",
+   "verhaal": "Gediplomeerd trimster sinds 2010 en trotse eigenaar van BeMellow. Werkt alleen met de beste verzorgingsproducten en bezoekt regelmatig beurzen, specialisatiecursussen en workshops. Aangesloten bij de ABHB. Op dit moment worden alleen kleine honden tot 8 kilo geknipt.",
+   "diensten": [
+    "Luxe totaalbehandeling",
+    "Self service wassen",
+    "Workshops hondenverzorging",
+    "Verzorgingsproducten",
+    "Gratis bijwerken tussen knipbeurten"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak (di t/m do telefonisch bereikbaar)"
+  }
  },
  {
   "bedrijf": "Hond & Welzijn",
@@ -32,7 +45,26 @@
   "slug": "hond-en-welzijn",
   "plaats": "Helmond",
   "tel_display": "06-22969051",
-  "tel_href": "tel:+31622969051"
+  "tel_href": "tel:+31622969051",
+  "content": {
+   "eigenaar": "Ingeborg Konings",
+   "verhaal": "Gediplomeerd trimster met meer dan 25 jaar ervaring, eigen salon in Stiphout-Helmond. Volgt regelmatig hondenshows, vakbeurzen, workshops en specialisatiecursussen en werkt met de nieuwste ergonomische apparatuur. Extra tijd voor angstige honden en pups (welkom vanaf 16 weken).",
+   "diensten": [
+    "Trimmen",
+    "Knippen",
+    "Scheren",
+    "Effileren",
+    "Plukken",
+    "Strippen",
+    "Ontklitten",
+    "Ontwollen",
+    "Voedingsadvies",
+    "Gebitsreiniging",
+    "Puppy-kennismaking"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak"
+  }
  },
  {
   "bedrijf": "Tammy's Trimsalon",
@@ -40,7 +72,30 @@
   "slug": "tammys",
   "plaats": "'s-Hertogenbosch",
   "tel_display": "Bel of app ons",
-  "tel_href": "#contact"
+  "tel_href": "#contact",
+  "content": {
+   "eigenaar": "Tamara",
+   "verhaal": "Gediplomeerd en gecertificeerd sinds 2018, eigen salon sinds 2019. Trimt volgens rasstandaard of naar eigen wens, zolang het welzijn van de hond voorop staat. Uw hond is de enige hond in de salon tijdens de behandeling.",
+   "diensten": [
+    "Knippen",
+    "Plukken",
+    "Wassen",
+    "Ontklitten",
+    "Scheren",
+    "Ontwollen",
+    "Oren plukken",
+    "Nagels"
+   ],
+   "tarieven": [
+    "Wassen/föhnen klein — vanaf €40",
+    "Wassen/föhnen middel — vanaf €50",
+    "Wassen/föhnen groot — vanaf €60",
+    "Gehele behandeling — vanaf €47,50 (uurtarief)",
+    "Oren plukken — €15",
+    "Nagels knippen — €15"
+   ],
+   "openingstijden": "Ma t/m vr 09:00–18:00, op afspraak"
+  }
  },
  {
   "bedrijf": "Hondentrimsalon Bonita",
@@ -51,7 +106,28 @@
   "tel_href": "tel:+31612790153",
   "fotos": [
    "https://www.bonita-hondentrimsalon.nl/wp-content/uploads/2016/04/Homepage-nexus.jpg"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Bonita",
+   "verhaal": "Het hondenvak is haar met de paplepel ingegoten — al jong mee naar hondenshows (ouders fokten Lhasa Apso's). Ergonomisch en hygiënisch ingerichte salon aan huis, nooit meer dan één hond tegelijk, werkt met professionele scharen en scheermachines.",
+   "diensten": [
+    "Volledige trimbeurt",
+    "Kleine trimbeurt",
+    "Wassen + drogen",
+    "Nagels knippen",
+    "Oren reinigen",
+    "Vlooienbehandeling",
+    "Gratis puppy-trimtraining"
+   ],
+   "tarieven": [
+    "Wassen + drogen — vanaf €15",
+    "Nagels knippen — vanaf €7,50",
+    "Oren reinigen — vanaf €7,50",
+    "Vlooienbehandeling — vanaf €17,50",
+    "Puppy-trimtraining — gratis"
+   ],
+   "openingstijden": "Ma t/m vr 09:00–21:00, za 09:00–15:00 (op afspraak)"
+  }
  },
  {
   "bedrijf": "Didi's Hondentrimsalon",
@@ -59,7 +135,27 @@
   "slug": "didis",
   "plaats": "Breda",
   "tel_display": "06-15282531",
-  "tel_href": "tel:+31615282531"
+  "tel_href": "tel:+31615282531",
+  "content": {
+   "eigenaar": "Didi Bock",
+   "verhaal": "Kleinschalige trimsalon in Breda met een-op-een aandacht; alle honden van groot tot klein welkom. Opleiding bij het Huisdier Kennis Instituut, stage bij Hondentrimsalon Does in Tilburg, volgt workshops en de laatste trimtechnieken. Aangesloten bij de ABHB.",
+   "diensten": [
+    "Kleine behandeling",
+    "Grote behandeling",
+    "Was-en-blaas",
+    "Nagels knippen",
+    "Knippen/scheren/plukken",
+    "Puppytrim"
+   ],
+   "tarieven": [
+    "Kleine honden knippen/scheren — €55",
+    "Middelgrote honden knippen/scheren — €77",
+    "Grote honden knippen/scheren — €88",
+    "Nagels knippen — €10",
+    "Puppytrim 8-16 weken — gratis"
+   ],
+   "openingstijden": "Di t/m za 09:00–17:00 (op afspraak)"
+  }
  },
  {
   "bedrijf": "Trimsalon Peter Rijswijk",
@@ -73,7 +169,18 @@
    "https://trimsalonpeterrijswijk.nl/wp-content/uploads/2019/01/19055643_1343135525799780_8214772704669158599_o.jpg",
    "https://trimsalonpeterrijswijk.nl/wp-content/uploads/2015/05/hondentrimsalon-peter-rijswijk-home-wasservice.png",
    "https://trimsalonpeterrijswijk.nl/wp-content/uploads/2015/05/hondentrimsalon-peter-rijswijk-home-adviezen.png"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Peter en Norma",
+   "verhaal": "In 1997 startten Norma en Peter de trimsalon; inmiddels een team met Charlotte en Gina. Door de door Peter ontwikkelde gedragsmethode bieden ze ook honden met een onzeker karakter een vertrouwde omgeving.",
+   "diensten": [
+    "Trimmen",
+    "Was-service",
+    "Vachtverzorgingsadvies"
+   ],
+   "tarieven": [],
+   "openingstijden": "Ma t/m vr 09:00–17:00, op afspraak"
+  }
  },
  {
   "bedrijf": "Hondentrimsalon Kwispel",
@@ -81,7 +188,24 @@
   "slug": "kwispel",
   "plaats": "Rosmalen",
   "tel_display": "073-5218323",
-  "tel_href": "tel:+31735218323"
+  "tel_href": "tel:+31735218323",
+  "content": {
+   "eigenaar": "Nancy",
+   "verhaal": "Op haar achttiende trimsalon Kwispel overgenomen; trimt inmiddels al 30 jaar honden met veel plezier. Vakgediplomeerde salon, zowel grote als kleine honden welkom; erkend stage- en leerbedrijf. Sinds 1997 gevestigd aan huis tussen Rosmalen en Nuland.",
+   "diensten": [
+    "Wassen en föhnen",
+    "Knippen",
+    "Scheren",
+    "Ontklitten",
+    "Ontwollen",
+    "Plukken",
+    "Effileren",
+    "Nagels knippen",
+    "Vachtverzorgingsadvies"
+   ],
+   "tarieven": [],
+   "openingstijden": "Dinsdag, donderdag, zaterdag (op afspraak)"
+  }
  },
  {
   "bedrijf": "Hondentrimsalon Rox",
@@ -89,7 +213,26 @@
   "slug": "rox",
   "plaats": "Eindhoven",
   "tel_display": "Bel of app ons",
-  "tel_href": "#contact"
+  "tel_href": "#contact",
+  "content": {
+   "eigenaar": "Roxane",
+   "verhaal": "In 2021 omgeschoold tot hondentrimster, met een kleine knusse salon aan huis in Woensel-Zuid. Werkt 1 op 1 met de hond en neemt de tijd en geduld om angstige honden op hun gemak te stellen.",
+   "diensten": [
+    "Puppy-wenbeurtje",
+    "Volledige behandeling",
+    "Kleine beurt",
+    "Wassen",
+    "Föhnen",
+    "Nagels knippen",
+    "In model knippen/effileren/plukken"
+   ],
+   "tarieven": [
+    "Puppy-wenbeurtje — €25",
+    "Volledige behandeling — vanaf €60 (uurtarief €60)",
+    "Toeslag vlooien — €25"
+   ],
+   "openingstijden": "Ma t/m vr 09:00–16:00, op afspraak"
+  }
  },
  {
   "bedrijf": "Hondentrimsalon Wilma van der Meijs",
@@ -100,7 +243,24 @@
   "tel_href": "tel:+31765497918",
   "fotos": [
    "https://www.honden-trimsalon.eu/images/trimsalon%20wilma%20van%20der%20meijs.jpg"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Wilma van der Meijs",
+   "verhaal": "Al 25 jaar met veel plezier werkzaam als gediplomeerd ABHB-hondentrimster in haar eigen salon aan huis in Breda. Volgt alle hedendaagse cursussen.",
+   "diensten": [
+    "Knipvachten",
+    "Plukvachten",
+    "Effileren",
+    "Uitkammen",
+    "Wassen en drogen",
+    "Nagels",
+    "Gebitscontrole",
+    "Oorverzorging",
+    "Anaalklieren"
+   ],
+   "tarieven": [],
+   "openingstijden": "Ma t/m za 09:00–17:00 (op afspraak)"
+  }
  },
  {
   "bedrijf": "Het Knappe Snuitje",
@@ -111,7 +271,27 @@
   "tel_href": "#contact",
   "fotos": [
    "https://www.hetknappesnuitje.nl/wp-content/uploads/2016/04/het-knappe-snuitje-banner-01.jpg"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Floortje Clement",
+   "verhaal": "Maakte in 2014 van haar passie haar werk; opleiding hondentrimmen bij het HKI met 1,5 jaar stage. Trotse eigenaar van Het Knappe Snuitje in Etten-Leur; neemt echt de tijd voor elke hond en bezoekt regelmatig vakbeurzen, workshops en shows.",
+   "diensten": [
+    "Volledige trimbeurt",
+    "Wassen",
+    "Borstelen",
+    "Nagels knippen",
+    "Puppybehandeling",
+    "Ruibehandeling (was- en blaas)",
+    "Dekenwasservice"
+   ],
+   "tarieven": [
+    "Trimbeurt — per ras (richtprijs incl. wassen/föhnen/nagels)",
+    "Nagels knippen — €12,50",
+    "Ruibehandeling kleine hond — €72",
+    "Toeslag ontklitten — €20 per 15 min"
+   ],
+   "openingstijden": "Ma t/m do 08:30–17:00, vr 08:30–12:00 (op afspraak)"
+  }
  },
  {
   "bedrijf": "Hondentrimsalon Does",
@@ -131,7 +311,28 @@
   "fotos": [
    "https://primary.jwwb.nl/public/k/t/t/temp-casyiibfdrsbxazphirc/b3qe92/e6fa2f40-537f-497c-8a30-5f4eb254f0bc.png",
    "https://primary.jwwb.nl/public/k/t/t/temp-casyiibfdrsbxazphirc/pbq4ch/4b637c64-cee6-444b-8322-c9947c0b6357.png"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Simone en Jasmijn Baelemans",
+   "verhaal": "Gediplomeerde hondentrimsalon in Waalwijk waar elke hond welkom is. De bedrijfsnaam komt van hun hond Mila, de mascotte. Met ervaring en liefde voor honden maken ze van elke trimbeurt een prettige ervaring. Ook een Dogboutique met verzorgingsproducten.",
+   "diensten": [
+    "Volledige trimbeurt",
+    "Wassen en drogen",
+    "Ontwollen",
+    "Knippen/scheren",
+    "Nagels knippen",
+    "Puppytraining",
+    "Dogboutique"
+   ],
+   "tarieven": [
+    "Volledige trimbeurt klein — €55",
+    "Volledige trimbeurt middel — €60–65",
+    "Volledige trimbeurt groot — €75–100",
+    "Wassen en drogen klein — €25",
+    "Ontwollen klein — €40"
+   ],
+   "openingstijden": "Ma/di/do/vr, op afspraak"
+  }
  },
  {
   "bedrijf": "Trimsalon Van Kop tot Staart",
@@ -146,7 +347,25 @@
    "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/Binky-na.1.jpg",
    "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/Frits-na.1-3.jpg",
    "https://trimsalonhelmond.nl/wp-content/uploads/2018/04/Bellou-na.1.jpg"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Renate Croijmans",
+   "verhaal": "Gediplomeerd hondentrimster en trotse eigenaresse van Van Kop tot Staart in Helmond. Opleiding hondentoiletteren bij het Huisdier Kennis Instituut, oefent haar beroep uit vanuit huis. Volgde diverse specialisatieworkshops en clinics. Aangesloten bij de ABHB.",
+   "diensten": [
+    "Knippen",
+    "Scheren",
+    "Borstelen",
+    "Wassen/drogen",
+    "Ruibehandeling",
+    "Plukken",
+    "Ontwollen",
+    "Puppy-wenmomentje (gratis)",
+    "Nagels knippen",
+    "Oren schoonmaken"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak"
+  }
  },
  {
   "bedrijf": "Trimsalon Eindhoven",
@@ -154,7 +373,29 @@
   "slug": "trimsalon-eindhoven",
   "plaats": "Eindhoven",
   "tel_display": "06-41329765",
-  "tel_href": "tel:+31641329765"
+  "tel_href": "tel:+31641329765",
+  "content": {
+   "eigenaar": "Carla den Dekker",
+   "verhaal": "In 1998 de opleiding Hondentrimmen afgerond. Werkt het liefst één op één zodat de hond de volledige aandacht krijgt en nauwelijks stress ervaart. De hond wordt direct na aankomst getrimd en kan daarna meteen opgehaald worden.",
+   "diensten": [
+    "Volledige behandeling",
+    "Wassen en föhnen",
+    "Oren reinigen",
+    "Nagels knippen",
+    "Knippen",
+    "Scheren",
+    "Effileren",
+    "Plukken",
+    "Ontwollen",
+    "Breng- en haalservice"
+   ],
+   "tarieven": [
+    "Halen en brengen (5 km) — €5",
+    "Halen en brengen (10 km) — €10",
+    "Kennismakingskorting — €5"
+   ],
+   "openingstijden": "Alle werkdagen, op afspraak"
+  }
  },
  {
   "bedrijf": "Mooie Hondjes trimsalon",
@@ -170,7 +411,24 @@
   "slug": "sunshine",
   "plaats": "'s-Hertogenbosch",
   "tel_display": "06-20866339",
-  "tel_href": "tel:+31620866339"
+  "tel_href": "tel:+31620866339",
+  "content": {
+   "eigenaar": "Daphne van der Heijden",
+   "verhaal": "Eigenaresse van Hondentrimsalon Sunshine in 's-Hertogenbosch. Paraveterinair dierenartsassistente (20 jaar in een dierenkliniek gewerkt) én gediplomeerd hondentrimster (diploma 2004). Aangesloten bij de ABHB.",
+   "diensten": [
+    "Volledige behandeling",
+    "Knippen",
+    "Scheren",
+    "Effileren",
+    "Plukken",
+    "Ontwollen",
+    "Alleen wassen",
+    "Nagels knippen",
+    "Ontklitten"
+   ],
+   "tarieven": [],
+   "openingstijden": "Uitsluitend op afspraak"
+  }
  },
  {
   "bedrijf": "Trimsalon Elite",
@@ -190,7 +448,21 @@
   "fotos": [
    "https://www.just4dogs.nl/images/page-1_slide01.jpg",
    "https://www.just4dogs.nl/images/page-1_slide02.jpg"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Jaimy Duijf",
+   "verhaal": "Trotse eigenaar van Just 4 Dogs in Oss. Zes jaar geleden de opleiding hondentrimmen gevolgd bij het Huisdier Kennis Instituut en ruim 3 jaar stage gelopen bij verschillende trimsalons in de regio Oss, waardoor bijna alle rassen voorbij zijn gekomen.",
+   "diensten": [
+    "Knippen & scheren",
+    "Wassen & drogen",
+    "Honden-parfum",
+    "Nagels knippen",
+    "Vlooienbehandeling",
+    "Kortharige honden"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak"
+  }
  },
  {
   "bedrijf": "Lynn's Trimsalon",
@@ -212,7 +484,26 @@
    "https://jokestrimsalon.nl/data0/images/04.jpg",
    "https://jokestrimsalon.nl/data0/images/02.jpg",
    "https://jokestrimsalon.nl/data0/images/03.jpg"
-  ]
+  ],
+  "content": {
+   "eigenaar": "Joke de Wit",
+   "verhaal": "Eigenaresse van Joke's trimsalon, sinds 2019 gevestigd als gediplomeerd trimster in het centrum van Breda. Werkt alleen met professionele materialen en producten en is altijd alleen met uw hond in de salon, zodat de hond de volle aandacht krijgt.",
+   "diensten": [
+    "Volledige trimbehandeling",
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Plukken",
+    "Scheren",
+    "Ontwollen",
+    "Oren controleren",
+    "Nagels knippen"
+   ],
+   "tarieven": [
+    "Uurtarief — €35 (incl. btw)"
+   ],
+   "openingstijden": "Op afspraak"
+  }
  },
  {
   "bedrijf": "Hondentrimsalon Oss",

@@ -94,7 +94,7 @@ footer{text-align:center;color:var(--mut);font-size:.9rem;padding-bottom:14px}fo
   </div>
 </div>
 
-<footer id="book"><div class="wrap"><b>Trimsalon Van Kop tot Staart</b> · Helmond · 06-41651080</div></footer>
+<section id="over" style="background:var(--bg);color:var(--ink);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px"><div><div style="color:var(--mint);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">Over Renate Croijmans</h2><p style="color:var(--mut);line-height:1.75">Gediplomeerd hondentrimster en trotse eigenaresse van Van Kop tot Staart in Helmond. Opleiding hondentoiletteren bij het Huisdier Kennis Instituut, oefent haar beroep uit vanuit huis. Volgde diverse specialisatieworkshops en clinics. Aangesloten bij de ABHB.</p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--ink)">Openingstijden:</strong> Op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--mint);margin-bottom:12px">Tarieven</h3><p style="color:var(--mut)">Prijs op aanvraag — afgestemd op ras en vacht. Vraag gerust een richtprijs.</p></div></div></section><footer id="book"><div class="wrap"><b>Trimsalon Van Kop tot Staart</b> · Helmond · 06-41651080</div></footer>
 
 <script>
 const lb=document.getElementById('lang');let en=false;
@@ -107,5 +107,11 @@ function applyRec(){rec.textContent=en?recVal[1]:recVal[0];}
 document.querySelectorAll('[data-next]').forEach(b=>b.onclick=()=>{if(b.dataset.rec){recVal=b.dataset.rec.split('|');applyRec();}show(cur+1);});
 document.getElementById('restart').onclick=()=>show(0);
 show(0);
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
 </script>
 </body></html>

@@ -135,7 +135,7 @@ footer b{color:var(--gold);font-family:var(--head)}
   <a class="b1 reveal" href="#contact" data-en="Book online now">Nu online boeken</a>
 </section>
 
-<footer><div class="wrap"><b>Hondentrimsalon Bemellow</b> · Helmond · Bel of app ons</div></footer>
+<section id="over" style="background:var(--bg);color:var(--text);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px"><div><div style="color:var(--gold);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">Over Angela van de Waardenburg</h2><p style="color:var(--mut);line-height:1.75">Gediplomeerd trimster sinds 2010 en trotse eigenaar van BeMellow. Werkt alleen met de beste verzorgingsproducten en bezoekt regelmatig beurzen, specialisatiecursussen en workshops. Aangesloten bij de ABHB. Op dit moment worden alleen kleine honden tot 8 kilo geknipt.</p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--text)">Openingstijden:</strong> Op afspraak (di t/m do telefonisch bereikbaar)</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--gold);margin-bottom:12px">Tarieven</h3><p style="color:var(--mut)">Prijs op aanvraag — afgestemd op ras en vacht. Vraag gerust een richtprijs.</p></div></div></section><footer><div class="wrap"><b>Hondentrimsalon Bemellow</b> · Helmond · Bel of app ons</div></footer>
 
 <script>
 // i18n
@@ -160,5 +160,11 @@ const cv=document.getElementById('fx'),cx=cv.getContext('2d');let W,H,ps;
 function rs(){W=cv.width=cv.offsetWidth;H=cv.height=cv.offsetHeight;ps=Array.from({length:46},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*2+.5,s:Math.random()*.4+.1,o:Math.random()*.5+.2}))}
 rs();addEventListener('resize',rs);
 (function loop(){cx.clearRect(0,0,W,H);ps.forEach(p=>{p.y-=p.s;if(p.y<-5){p.y=H+5;p.x=Math.random()*W}cx.beginPath();cx.arc(p.x,p.y,p.r,0,7);cx.fillStyle='rgba(201,169,106,'+p.o+')';cx.fill()});requestAnimationFrame(loop)})();
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
 </script>
 </body></html>

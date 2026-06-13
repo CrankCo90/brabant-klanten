@@ -105,7 +105,7 @@ footer b{color:var(--gold);font-family:var(--head)}
   <a class="b1 reveal" href="tel:+31611310207">06-11310207</a>
 </section>
 
-<footer><div class="wrap"><b>Jokes trimsalon</b> · Breda · 06-11310207</div></footer>
+<section id="over" style="background:var(--bg);color:var(--text);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px"><div><div style="color:var(--gold);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">Over Joke de Wit</h2><p style="color:var(--mut);line-height:1.75">Eigenaresse van Joke's trimsalon, sinds 2019 gevestigd als gediplomeerd trimster in het centrum van Breda. Werkt alleen met professionele materialen en producten en is altijd alleen met uw hond in de salon, zodat de hond de volle aandacht krijgt.</p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--text)">Openingstijden:</strong> Op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--gold);margin-bottom:12px">Tarieven</h3><ul style="list-style:none;font-size:.92rem"><li style="display:flex;justify-content:space-between;gap:18px;padding:8px 0;border-bottom:1px solid rgba(128,128,128,.16)"><span>Uurtarief</span><span style="color:var(--gold);white-space:nowrap">€35 (incl. btw)</span></li></ul></div></div></section><footer><div class="wrap"><b>Jokes trimsalon</b> · Breda · 06-11310207</div></footer>
 
 <script>
 const lb=document.getElementById('lang');let en=false;
@@ -118,5 +118,11 @@ addEventListener('scroll',()=>{const y=scrollY;nav.classList.toggle('sc',y>40);
  l1.style.transform='translateY('+y*.6+'px) rotate('+y*.05+'deg)';l2.style.transform='translateY('+y*-.3+'px) rotate('+y*-.04+'deg)';},{passive:true});
 const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.16});
 document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
 </script>
 </body></html>

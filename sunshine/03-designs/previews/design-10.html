@@ -113,7 +113,7 @@ footer{text-align:center;color:var(--mut);font-size:.9rem;padding-bottom:14px}fo
   </div>
 </div>
 
-<footer><div class="wrap"><b>Hondentrimsalon Sunshine</b> · 's-Hertogenbosch · 06-20866339</div></footer>
+<section id="over" style="background:var(--bg);color:var(--text);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px"><div><div style="color:var(--wood);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">Over Daphne van der Heijden</h2><p style="color:var(--mut);line-height:1.75">Eigenaresse van Hondentrimsalon Sunshine in 's-Hertogenbosch. Paraveterinair dierenartsassistente (20 jaar in een dierenkliniek gewerkt) én gediplomeerd hondentrimster (diploma 2004). Aangesloten bij de ABHB.</p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--text)">Openingstijden:</strong> Uitsluitend op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--wood);margin-bottom:12px">Tarieven</h3><p style="color:var(--mut)">Prijs op aanvraag — afgestemd op ras en vacht. Vraag gerust een richtprijs.</p></div></div></section><footer><div class="wrap"><b>Hondentrimsalon Sunshine</b> · 's-Hertogenbosch · 06-20866339</div></footer>
 
 <script>
 const lb=document.getElementById('lang');let en=false;
@@ -137,5 +137,11 @@ buildDows();buildDays();buildSlots();
 document.querySelectorAll('.next').forEach(n=>n.onclick=()=>{if(!n.classList.contains('go'))return;if(p===1){document.getElementById('s-svc').textContent=en?sel.svcEn:sel.svc;document.getElementById('s-date').textContent=sel.date;document.getElementById('s-time').textContent=sel.time;document.getElementById('s-price').textContent='€ '+sel.price;}show(p+1);});
 document.querySelectorAll('.back').forEach(b=>b.onclick=()=>{if(p===2){sel.svc=sel.date=sel.time=null;document.querySelectorAll('.on').forEach(x=>{if(x.closest('.svc,.cal,.slots'))x.classList.remove('on')});show(0);}else show(p-1);});
 show(0);
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
 </script>
 </body></html>

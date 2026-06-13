@@ -82,7 +82,7 @@ footer b{color:var(--terra);font-family:var(--head)}
   <p class="reveal" data-en="Online, whenever it suits you.">Online, wanneer het u uitkomt.</p>
   <a class="b1 reveal" href="tel:+31765497918">076-5497918</a>
 </section>
-<footer id="book"><div class="wrap"><b>Hondentrimsalon Wilma van der Meijs</b> · Breda · 076-5497918</div></footer>
+<section id="over" style="background:var(--bg);color:var(--ink);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px"><div><div style="color:var(--terra);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">Over Wilma van der Meijs</h2><p style="color:var(--mut);line-height:1.75">Al 25 jaar met veel plezier werkzaam als gediplomeerd ABHB-hondentrimster in haar eigen salon aan huis in Breda. Volgt alle hedendaagse cursussen.</p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--ink)">Openingstijden:</strong> Ma t/m za 09:00–17:00 (op afspraak)</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--terra);margin-bottom:12px">Tarieven</h3><p style="color:var(--mut)">Prijs op aanvraag — afgestemd op ras en vacht. Vraag gerust een richtprijs.</p></div></div></section><footer id="book"><div class="wrap"><b>Hondentrimsalon Wilma van der Meijs</b> · Breda · 076-5497918</div></footer>
 
 <script>
 const lb=document.getElementById('lang');let en=false;
@@ -93,5 +93,11 @@ document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
 function tilt(el,max){el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect();const px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;el.style.transform='rotateY('+px*max+'deg) rotateX('+(-py*max)+'deg)';});el.addEventListener('mouseleave',()=>el.style.transform='rotateY(0) rotateX(0)');}
 tilt(document.getElementById('tilt'),14);
 document.querySelectorAll('.t3').forEach(c=>tilt(c,12));
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
 </script>
 </body></html>
