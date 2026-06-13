@@ -120,7 +120,7 @@ canvas#cStatus,canvas#cNiche{max-height:240px}
     <div id="ctlpanel" style="display:none">
       <div style="display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-bottom:16px">
         <label style="display:flex;align-items:center;gap:8px;font-size:.9rem">Autopilot (dagelijks automatisch) <input type="checkbox" id="autopilot"></label>
-        <label style="display:flex;align-items:center;gap:8px;font-size:.9rem">Dagcap <input type="range" id="cap" min="3" max="30" value="10"> <b id="capval" style="color:#c9a96a">10</b></label>
+        <label style="display:flex;align-items:center;gap:8px;font-size:.9rem">Dagcap <input type="number" id="cap" min="1" max="100" value="20" style="width:74px;background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:8px;padding:7px 9px;color:#ece9e2;font-family:inherit"></label>
         <button class="btn" id="btndeploy">Publiceer demo's</button>
         <button class="btn" id="btnrefreshctl">Status verversen</button>
       </div>
@@ -230,16 +230,16 @@ function render(st){var sent={};(st.sent||[]).forEach(function(x){sent[(x.email|
  $c("#prospectlist").innerHTML=ps.map(function(p){var e=(p.email||"").toLowerCase();var isSent=!!sent[e];var r=rep[e];
   var badge=r?('<span class="badge s-'+(r.status==="ja"?"ja":(r.status==="nee"?"nee":"benaderd"))+'">'+r.status+'</span>'):(isSent?'<span class="badge s-benaderd">verzonden</span>':'<span class="badge s-prospect">klaar</span>');
   return '<label style="display:flex;gap:10px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(255,255,255,.06)"><input type="checkbox" class="psel" value="'+(p.bedrijf||"").replace(/"/g,"&quot;")+'" '+(isSent?"disabled":"checked")+'><span style="flex:1">'+(p.bedrijf||"")+' <span style="color:#8d887e;font-size:.82rem">'+(p.email||"")+'</span></span>'+badge+'</label>';}).join("")||'<p class="note">Geen klaarstaande prospects.</p>';}
-async function connect(){if(!CT)return;try{var st=await capi("/status","GET");if(st.error){$c("#ctlstate").textContent="(niet verbonden)";return;}$c("#ctlsetup").style.display="none";$c("#ctlpanel").style.display="block";$c("#ctlstate").textContent="\u2022 verbonden";$c("#autopilot").checked=!!st.autopilot;render(st);}catch(e){$c("#ctlstate").textContent="(geen /api)";}}
+async function connect(){if(!CT)return;try{var st=await capi("/status","GET");if(st.error){$c("#ctlstate").textContent="(niet verbonden)";return;}$c("#ctlsetup").style.display="none";$c("#ctlpanel").style.display="block";$c("#ctlstate").textContent="\u2022 verbonden";$c("#autopilot").checked=!!st.autopilot;var _cv=localStorage.getItem("bd_cap");if(_cv)$c("#cap").value=_cv;render(st);}catch(e){$c("#ctlstate").textContent="(geen /api)";}}
 document.addEventListener("click",function(ev){
  var id=ev.target&&ev.target.id;
  if(id==="ctlconnect"){CT=$c("#ctltoken").value.trim();localStorage.setItem("bd_ctl",CT);connect();}
  if(id==="btnrefreshctl"){connect();}
  if(id==="btndeploy"){if(confirm("Demo's publiceren op de VPS?")){log("Publiceren...");capi("/deploy","POST",{}).then(function(r){log(r.log||r);});}}
- if(id==="btnsend"){var sel=[].slice.call(document.querySelectorAll(".psel:checked")).map(function(c){return c.value;});if(!sel.length){alert("Niemand geselecteerd.");return;}if(confirm(sel.length+" mail(s) versturen naar:\n\n"+sel.join("\n")+"\n\nDoorgaan?")){log("Versturen ("+sel.length+")...");capi("/send-outreach","POST",{prospects:sel,cap:+$c("#cap").value}).then(function(r){log(r.log||r);setTimeout(connect,1500);});}}
+ if(id==="btnsend"){var sel=[].slice.call(document.querySelectorAll(".psel:checked")).map(function(c){return c.value;});if(!sel.length){alert("Niemand geselecteerd.");return;}if(confirm(sel.length+" mail(s) versturen naar:\n\n"+sel.join("\n")+"\n\nDoorgaan?")){log("Versturen ("+sel.length+")... pagina ververst zo automatisch.");capi("/send-outreach","POST",{prospects:sel,cap:+$c("#cap").value}).then(function(r){log(r.log||r);setTimeout(function(){location.reload();},4000);});}}
  if(id==="btnclaude"){var pr=$c("#claudeprompt").value.trim();if(!pr)return;if(confirm("Deze opdracht door Claude op de VPS laten uitvoeren?\n\n"+pr)){log("Claude voert uit (kan even duren)...");capi("/claude","POST",{prompt:pr}).then(function(r){log(r.log||r);});}}
 });
-document.addEventListener("input",function(ev){if(ev.target&&ev.target.id==="cap")$c("#capval").textContent=ev.target.value;});
+document.addEventListener("input",function(ev){if(ev.target&&ev.target.id==="cap")localStorage.setItem("bd_cap",ev.target.value);});
 document.addEventListener("change",function(ev){if(ev.target&&ev.target.id==="autopilot"){capi("/autopilot","POST",{on:ev.target.checked}).then(function(r){log("Autopilot: "+(r.autopilot?"AAN":"UIT"));});}});
 setTimeout(connect,800);
 })();
