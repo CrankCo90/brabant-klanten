@@ -51,8 +51,10 @@ def transform(text, s):
             "hf_20260613_085118_a274f992-0d24-45ad-a2c6-c057fd5ec738.png",
             "hf_20260613_085120_63fb879f-0316-4081-b785-cbc92515996b.png",
             "hf_20260613_085121_b800ad99-b6c5-4d3b-acc0-2940c43fa059.png"]]
+        # eigen foto's vullen de eerste beeldplekken (incl. hero); rest blijft AI -> mix, geen herhaling
         for i,u in enumerate(AI):
-            text = text.replace(u, fotos[i % len(fotos)])
+            if i < len(fotos):
+                text = text.replace(u, fotos[i])
     return text
 
 count=0
