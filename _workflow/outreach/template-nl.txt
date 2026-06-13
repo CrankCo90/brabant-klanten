@@ -1,18 +1,29 @@
-Hallo {{voornaam}},
+{{aanhef}}
 
-Ik kwam {{bedrijf}} tegen in {{plaats}} en zag dat jullie (nog) geen eigen website hebben — terwijl jullie werk dat juist verdient.
+{{compliment}}
 
-Daarom heb ik alvast vrijblijvend laten zien hoe een website voor {{bedrijf}} eruit zou kunnen zien. U kunt het hier bekijken:
+Eén ding wil ik je sowieso even laten weten, los van de rest van deze mail: {{gratis_tip}}
+
+Dan waarom ik schrijf. Ik ben Leroy van Brabant Digital en ik help lokale ondernemers aan een website die net zo professioneel oogt als hun werk. Jouw werk verdient een eigen, goed vindbare plek online. Daarom heb ik alvast iets gemaakt — geen schets, maar tien complete, werkende ontwerpen voor {{bedrijf}}, met jouw eigen teksten erin:
 
 {{demo_url}}
 
-Tien complete ontwerpen, met online afspraken maken, betere vindbaarheid in Google en een Nederlands/Engels-knop. Geen verplichtingen — kijk gerust of er iets bij zit dat u aanspreekt.
+(Kijk gerust op je telefoon — daar zien de meeste klanten je toch.)
 
-Bevalt het? Dan bouw ik de website compleet uit (introductieprijs: eenmalig €199). Vragen of even sparren mag altijd — bel of app 085-0608471, of beantwoord deze mail.
+Wat het je oplevert:
+{{verbeteringen}}
 
-Vriendelijke groet,
-Leroy — Brabant Digital
-aanbod@brabantdigital.nl · 085-0608471 · brabantdigital.nl
+En het is een startpunt, geen eindpunt: alle aanpassingen zijn inbegrepen. Andere kleur, jouw eigen foto's erin, stijlen combineren, een extra pagina — zeg het en ik maak het tot 100% jouw site.
+
+Wat kost dat? Normaal €499, maar Brabant Digital is net gestart: de eerste ondernemers krijgen meer dan de helft korting in ruil voor een eerlijke review. Voor jou is het €199, alles-in — jouw favoriete ontwerp afgemaakt, boekingssysteem ingesteld en live. Dit aanbod geldt t/m {{deadline}}.
+
+Bevalt het niet? Ook prima — dan haal ik de voorbeelden offline, en heb je in elk geval die gratis tip eraan overgehouden. 😉
+
+Reageren kan op deze mail, of app me gerust: 085-0608471.
+
+Groetjes,
+Leroy
+Brabant Digital · 085-0608471 · brabantdigital.nl
 
 —
-U ontvangt deze mail eenmalig omdat u een lokale ondernemer bent zonder website. Geen interesse? Antwoord met "nee" en u hoort nooit meer iets van mij.
+{{afmelder}}

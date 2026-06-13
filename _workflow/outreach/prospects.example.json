@@ -1,12 +1,21 @@
 [
   {
-    "bedrijf": "Hondentrimsalon Voorbeeld",
-    "voornaam": "",
-    "plaats": "Amsterdam",
-    "email": "info@voorbeeld.nl",
-    "bron": "Google Maps",
-    "demo_url": "https://voorbeeld.demo.brabantdigital.nl",
-    "status": "klaar",
-    "onderwerp": "Een gratis websitevoorstel voor Hondentrimsalon Voorbeeld"
+    "bedrijf": "Hondentrimsalon Scott",
+    "aanhef": "Hoi,",
+    "plaats": "Amsterdam Osdorp",
+    "email": "",
+    "status": "concept",
+    "demo_url": "https://hondentrimsalonscott.demo.brabantdigital.nl",
+    "deadline": "vrijdag 26 juni 2026",
+    "onderwerp": "Ik heb alvast een website voor Hondentrimsalon Scott gemaakt (kijk even mee)",
+    "compliment": "Eerst een complimentje: wat een mooi en geduldig trimwerk laat je zien op je Instagram — gediplomeerd, alle rassen, en je blijft jezelf bijscholen (ik zag het Purina-symposium voorbijkomen).",
+    "gratis_tip": "in je Instagram-bio staat je adres als \"Jan van Zupthenstraat\", terwijl de straat in Osdorp volgens mij \"Jan van Zutphenstraat\" is. Klanten die daarop zoeken of navigeren, kunnen zo de verkeerde kant op worden gestuurd — klein, maar zo gefikst.",
+    "verbeteringen": [
+      "Online afspraken, 24/7 — klanten kiezen zelf een vrij moment en jij ziet het direct in je agenda. Geen telefoontjes meer tijdens het trimmen.",
+      "Beter vindbaar in Google op \"hondentrimsalon Osdorp\" en \"trimsalon Amsterdam Nieuw-West\" — de techniek zit ingebouwd.",
+      "Nederlands én Engels met één knop, handig in Amsterdam.",
+      "WhatsApp-knop, klikbaar telefoonnummer, en je reviews en voor/na-foto's netjes op een rij.",
+      "Snelle, moderne uitstraling op telefoon, tablet en computer."
+    ]
   }
 ]

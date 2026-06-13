@@ -78,11 +78,20 @@ def main():
         if p.get("status") != "klaar": continue          # alleen prospects met klaarstaande demo
         email = (p.get("email") or "").strip()
         if "@" not in email or email.lower() in done: continue
+        verb = p.get("verbeteringen") or []
+        verb_txt = "\n".join("- " + v for v in verb) if verb else "- Online afspraken, betere vindbaarheid in Google en een snelle, moderne uitstraling."
+        afmelder = p.get("afmelder") or ("U ontvangt deze mail eenmalig omdat u een lokale ondernemer bent zonder (goede) website. "
+                   "Geen interesse? Antwoord met \"nee\" en u hoort nooit meer iets van mij.")
         body = (template
-                .replace("{{bedrijf}}",  p.get("bedrijf",""))
-                .replace("{{plaats}}",   p.get("plaats",""))
-                .replace("{{demo_url}}", p.get("demo_url",""))
-                .replace("{{voornaam}}", p.get("voornaam") or "daar"))
+                .replace("{{aanhef}}",       p.get("aanhef") or "Hoi,")
+                .replace("{{compliment}}",   p.get("compliment",""))
+                .replace("{{gratis_tip}}",   p.get("gratis_tip",""))
+                .replace("{{bedrijf}}",      p.get("bedrijf",""))
+                .replace("{{plaats}}",       p.get("plaats",""))
+                .replace("{{demo_url}}",     p.get("demo_url",""))
+                .replace("{{verbeteringen}}",verb_txt)
+                .replace("{{deadline}}",     p.get("deadline") or "twee weken vanaf vandaag")
+                .replace("{{afmelder}}",     afmelder))
         msg = EmailMessage()
         msg["Subject"]  = p.get("onderwerp") or f"Een websitevoorstel voor {p.get('bedrijf','uw bedrijf')}"
         msg["From"]     = f'{env["FROM_NAME"]} <{env["FROM_EMAIL"]}>'
