@@ -104,25 +104,13 @@ canvas#cStatus,canvas#cNiche{max-height:240px}
   <div class="top"><div class="wrap">
     <span class="brand"><span class="bmark">B</span><span><b>Brabant Digital</b><span>Beheer-dashboard</span></span></span>
     <button class="btn" onclick="location.reload()">Vernieuwen</button>
+    <button class="btn" onclick="document.getElementById('acties').scrollIntoView({behavior:'smooth'})">Outreach</button>
     <button class="btn gold" onclick="document.getElementById('add').scrollIntoView({behavior:'smooth'})">+ Klant</button>
   </div></div>
   <div class="wrap">
     <section>
       <div class="cards" id="stats"></div>
-      <div class="panels">
-        <div class="panel"><h3>Status-verdeling</h3><canvas id="cStatus"></canvas></div>
-        <div class="panel"><h3>Klanten per niche</h3><canvas id="cNiche"></canvas></div>
-      </div>
-    </section>
-    <section>
-      <div class="bar"><span class="lab">Groeperen:</span>
-        <span class="chip" data-group="niche">Per niche</span>
-        <span class="chip" data-group="werkdag">Per werkdag</span>
-      </div>
-      <div class="bar"><span class="lab">Status:</span><span id="statusFilters"></span></div>
-      <div id="list"></div>
-    </section>
-    <section id="acties">
+<section id="acties">
   <div class="panel">
     <h3>Acties &amp; autopilot <span id="ctlstate" style="font-size:.78rem;color:#8d887e;font-weight:400"></span></h3>
     <div id="ctlsetup">
@@ -146,7 +134,21 @@ canvas#cStatus,canvas#cNiche{max-height:240px}
     </div>
   </div>
 </section>
-<section id="add">
+
+      <div class="panels">
+        <div class="panel"><h3>Status-verdeling</h3><canvas id="cStatus"></canvas></div>
+        <div class="panel"><h3>Klanten per niche</h3><canvas id="cNiche"></canvas></div>
+      </div>
+    </section>
+    <section>
+      <div class="bar"><span class="lab">Groeperen:</span>
+        <span class="chip" data-group="niche">Per niche</span>
+        <span class="chip" data-group="werkdag">Per werkdag</span>
+      </div>
+      <div class="bar"><span class="lab">Status:</span><span id="statusFilters"></span></div>
+      <div id="list"></div>
+    </section>
+    <section id="add">
       <div class="panel">
         <h3>Nieuwe klant / website toevoegen</h3>
         <form class="add" action="https://api.web3forms.com/submit" method="POST">
