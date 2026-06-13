@@ -79,6 +79,15 @@ chmod 600 /root/outreach-data/.git-token
 ```
 (Zonder dit bestand bouwt "Nieuwe klant" de demo wel lokaal, maar wordt die bij de volgende auto-pull overschreven.)
 
+## 5c. Dagelijkse prospect-ronde (elke ochtend 09:00, autonoom, mailt NIET)
+Vereist: `.git-token` (stap 5b) + Claude Code ingelogd op de VPS.
+```bash
+( crontab -l 2>/dev/null | grep -v 'DAGELIJKSE-RONDE'; echo '0 9 * * * /bin/bash -lc "cd /root/klanten && claude -p \"$(cat _workflow/DAGELIJKSE-RONDE.md)\" --dangerously-skip-permissions >> /root/outreach-data/ochtend.log 2>&1"' ) | crontab -
+```
+De ronde doet marktonderzoek, kiest een niche+regio in NB, bouwt ~20 demo's en zet de mails op
+klaar/concept — en stopt daar. Verzenden doe jij via het dashboard (of de outreach-autopilot).
+De guard-hook blijft actief, dus systeem-vernietigende commando's blijven geblokkeerd.
+
 ## 6. Gebruik
 Open brabantdigital.nl/admin → blok "Acties & autopilot" → plak je token → Verbinden.
 Vink prospects aan → "Verstuur outreach" (met bevestiging) → live log verschijnt.
