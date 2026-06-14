@@ -564,6 +564,7 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
 .warow .wamsg{width:100%;min-height:82px}
 .waact{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
 .links{display:inline-flex;gap:6px;vertical-align:middle}
+.langtag{font-size:10px;font-weight:800;letter-spacing:.04em;padding:3px 8px;border-radius:99px;background:rgba(106,166,230,.16);color:var(--st-demo);border:1px solid rgba(106,166,230,.3);white-space:nowrap}
 
 </style>
 </head>
@@ -813,7 +814,8 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
           <form id="addClientForm" class="form-grid">
             <div class="fld"><label>Bedrijfsnaam</label><input class="inp" id="nc_bedrijf" required placeholder="bv. Hondentrimsalon Bello"></div>
             <div class="fld"><label>Niche</label><input class="inp" id="nc_niche" value="Hondentrimsalons"></div>
-            <div class="fld"><label>Regio</label><input class="inp" id="nc_regio" placeholder="bv. Noord-Brabant"></div>
+            <div class="fld"><label>Regio</label><input class="inp" id="nc_regio" placeholder="bv. Noord-Brabant of Austin, TX"></div>
+            <div class="fld"><label>Land / taal</label><select class="inp" id="nc_land"><option value="NL">Nederland (Nederlands)</option><option value="US">Buitenland / VS (Engels)</option></select></div>
             <div class="fld"><label>Telefoon (voor WhatsApp)</label><input class="inp" id="nc_tel" placeholder="bv. 06-12345678"></div>
             <div class="fld"><label>Website of social-link</label><input class="inp" id="nc_link" placeholder="https://"></div>
             <div class="fld full"><label>Notitie (optioneel)</label><textarea class="inp" id="nc_not" placeholder="Bijzonderheden…"></textarea></div>
@@ -1063,7 +1065,7 @@ function toClient(d,i){
  return {id:i,bedrijf:d.bedrijf,n:d.bedrijf,city:cityOf(d),dist:distOf(d),region:d.regio||cityOf(d),
    nicheLabel:label,niche:nk(label),st:st,score:d.score||0,em:emailOf(d),es:esOf(d),
    web:d.bron?stripProto(d.bron):null,social:d.social||null,phone:(d.telefoon||phoneOf(d)),address:d.plaats||cityOf(d),
-   demo_url:d.demo_url||'',waarom:d.waarom||'',fouten:d.fouten||[],werkdag:d.werkdag||'',wa:d.wa_tekst||''};
+   demo_url:d.demo_url||'',waarom:d.waarom||'',fouten:d.fouten||[],werkdag:d.werkdag||'',wa:d.wa_tekst||'',land:d.land||'NL',taal:d.taal||'nl'};
 }
 function rebuild(){buildSent();CLIENTS=DATA.map(toClient);}
 
@@ -1123,7 +1125,8 @@ function renderCharts(){
 /* ---------- Action list (outreach wachtrij) ---------- */
 function waNumber(p){var d=String(p||'').replace(/[^\d+]/g,'').replace(/^\+/,'');if(d.indexOf('00')===0)d=d.slice(2);if(d.indexOf('31')===0)return d;if(d.indexOf('0')===0)return '31'+d.slice(1);if(d.length>=9)return '31'+d;return d;}
 function waName(c){var b=c.n||'';var m=b.match(/^([A-Za-zÀ-ÿ]+)'s\b/)||b.match(/\bby ([A-Za-zÀ-ÿ]+)/i)||b.match(/(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$/i);if(m){var n=m[1];if(!/^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$/i.test(n))return n.length>1?n.charAt(0).toUpperCase()+n.slice(1):b;}return b;}
-function waText(c){if(c.wa)return c.wa;var demo=c.demo_url?('\n\n'+(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url))):'';return 'Hoi '+waName(c)+', ik ben Leroy van Brabant Digital — ik maak websites voor lokale ondernemers hier in de buurt. Voor '+c.n+' heb ik alvast (gratis) een voorbeeldsite gemaakt. Mag ik ’m je laten zien?'+demo;}
+function waGreet(c){var b=c.n||'';var m=b.match(/^([A-Za-zÀ-ÿ]+)'s\b/)||b.match(/\bby ([A-Za-zÀ-ÿ]+)/i)||b.match(/(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon|nails|grooming)\s+([A-Za-zÀ-ÿ]+)$/i);var nm=b;if(m){var n=m[1];if(!/^(nails?|beauty|design|nagel|hair|studio|hondjes|dog|grooming)$/i.test(n))nm=n.length>1?n.charAt(0).toUpperCase()+n.slice(1):b;}return (c.taal==='en'?'Hi ':'Hoi ')+nm+',';}
+function waText(c){if(c.wa)return c.wa;var demo=c.demo_url?('\n\n'+(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url))):'';if(c.taal==='en')return waGreet(c)+' I\u2019m Leroy from Brabant Digital — I build websites for local businesses. For '+c.n+' I already made a free example site. Mind if I show you?'+demo;return waGreet(c)+' ik ben Leroy van Brabant Digital — ik maak websites voor lokale ondernemers hier in de buurt. Voor '+c.n+' heb ik alvast (gratis) een voorbeeldsite gemaakt. Mag ik ’m je laten zien?'+demo;}
 function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIComponent(waText(c));}
 function renderWhatsapp(){var wrap=$("#waList");if(!wrap)return;
  var rows=CLIENTS.filter(function(c){return waNumber(c.phone)&&['prospect','demo','benaderd'].includes(c.st);}).sort(function(a,b){return (a.em?1:0)-(b.em?1:0)||b.score-a.score;});
@@ -1177,7 +1180,7 @@ function doAction(act,id){var c=CLIENTS.find(function(x){return x.id==id;});if(!
 function rowHtml(c,showStatus){var loc=c.dist?c.city+' · '+c.dist:c.city;
  return '<div class="crow" data-id="'+c.id+'">'+nicheTile(c.nicheLabel,34)+
   '<span class="cmeta"><span class="cn">'+c.n+'</span><span class="cl">'+loc+'</span></span>'+
-  '<span class="rt">'+webTag(c)+'<span class="score">score '+c.score+'</span>'+(showStatus?'<span class="badge '+STATUS[c.st].cls+'">'+STATUS[c.st].label+'</span>':'')+rowActions(c)+
+  '<span class="rt">'+(c.taal==='en'?'<span class="langtag">\uD83C\uDDFA\uD83C\uDDF8 EN</span>':'')+webTag(c)+'<span class="score">score '+c.score+'</span>'+(showStatus?'<span class="badge '+STATUS[c.st].cls+'">'+STATUS[c.st].label+'</span>':'')+rowActions(c)+
   '<svg class="chev2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></span></div>';}
 function renderNicheChips(){var wrap=$("#nicheChips");if(!wrap)return;var counts={};CLIENTS.forEach(function(c){counts[c.nicheLabel]=(counts[c.nicheLabel]||0)+1;});
  var keys=Object.keys(counts).sort(function(a,b){return counts[b]-counts[a];});
@@ -1289,7 +1292,7 @@ function bindUI(){
  // campagne
  var cs=$("#campaignSend");if(cs)cs.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}toast('Campagne inplannen…');api('/campaign','POST',{groep:$("#campGroep").value,sjabloon:$("#campSjabloon").value,intro:$("#campBericht").value,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):'Campagne ingepland');});});
  // nieuw
- var f=$("#addClientForm");if(f)f.addEventListener('submit',function(e){e.preventDefault();if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var p={bedrijf:$("#nc_bedrijf").value.trim(),niche:$("#nc_niche").value.trim(),regio:$("#nc_regio").value.trim(),link:$("#nc_link").value.trim(),telefoon:($("#nc_tel")?$("#nc_tel").value.trim():""),notitie:$("#nc_not").value.trim()};if(!p.bedrijf){toast('Bedrijfsnaam is vereist');return;}toast('\''+p.bedrijf+'\' wordt verwerkt op de VPS…');api('/new-client','POST',p).then(function(r){toast(r.error?('Fout: '+r.error):'Aangemeld — Claude bouwt de demo');f.reset();setTimeout(boot,6000);});});
+ var f=$("#addClientForm");if(f)f.addEventListener('submit',function(e){e.preventDefault();if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var p={bedrijf:$("#nc_bedrijf").value.trim(),niche:$("#nc_niche").value.trim(),regio:$("#nc_regio").value.trim(),land:($("#nc_land")?$("#nc_land").value:"NL"),link:$("#nc_link").value.trim(),telefoon:($("#nc_tel")?$("#nc_tel").value.trim():""),notitie:$("#nc_not").value.trim()};if(!p.bedrijf){toast('Bedrijfsnaam is vereist');return;}toast('\''+p.bedrijf+'\' wordt verwerkt op de VPS…');api('/new-client','POST',p).then(function(r){toast(r.error?('Fout: '+r.error):'Aangemeld — Claude bouwt de demo');f.reset();setTimeout(boot,6000);});});
  // autopilot settings save
  var as=$("#saveAutopilot");if(as)as.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}api('/autopilot-settings','POST',{start:$("#apStart").value,stop:$("#apStop").value,dagen:$("#apDagen").value,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):'Instellingen opgeslagen');});});
  // instellingen control-token

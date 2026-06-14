@@ -307,6 +307,7 @@ def info_section(fname, s):
     if not (verhaal or tar or opening or spec or revs): return ""
     bg,text,acc=VARMAP[fname]
     titel=("Over "+eig) if eig else "Over ons"
+    titel_en=("About "+eig) if eig else "About us"
     chips=""
     if spec:
         chips='<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:18px">'
@@ -316,7 +317,7 @@ def info_section(fname, s):
     cert_html=''
     if cert: cert_html='<p style="color:var(--mut);font-size:.85rem;margin-top:16px">\u2713 '+' \u00b7 '.join(cert)+'</p>'
     opening_html=''
-    if opening: opening_html='<p style="color:var(--mut);margin-top:14px"><strong style="color:var(%s)">Openingstijden:</strong> %s</p>'%(text,opening)
+    if opening: opening_html='<p style="color:var(--mut);margin-top:14px"><strong style="color:var(%s)" data-en="Opening hours:">Openingstijden:</strong> %s</p>'%(text,opening)
     if tar:
         lis=''
         for t in tar[:26]:
@@ -329,13 +330,13 @@ def info_section(fname, s):
         tar_html='<ul style="list-style:none;font-size:.9rem;%s">%s</ul>'%(cols,lis)
     else:
         _afg = "afgestemd op lengte en techniek" if s.get("niche")=="nagels" else "afgestemd op ras en vacht"
-        tar_html='<p style="color:var(--mut)">Prijs op aanvraag \u2014 %s. Vraag gerust een richtprijs.</p>'%_afg
+        tar_html='<p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag \u2014 %s. Vraag gerust een richtprijs.</p>'%_afg
     over=('<section id="over" style="background:var(%s);color:var(%s);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)">'%(bg,text)
       +'<div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px">'
-      +'<div><div style="color:var(%s);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px">Over ons</div>'%acc
-      +'<h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px">%s</h2>'%titel
+      +'<div><div style="color:var(%s);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px" data-en="About us">Over ons</div>'%acc
+      +'<h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px" data-en="%s">%s</h2>'%(titel_en,titel)
       +'<p style="color:var(--mut);line-height:1.75">%s</p>%s%s%s</div>'%(verhaal,chips,cert_html,opening_html)
-      +'<div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(%s);margin-bottom:12px">Tarieven</h3>%s</div>'%(acc,tar_html)
+      +'<div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(%s);margin-bottom:12px" data-en="Pricing">Tarieven</h3>%s</div>'%(acc,tar_html)
       +'</div></section>')
     rev=''
     if revs:
@@ -347,8 +348,8 @@ def info_section(fname, s):
         if cards:
             rev=('<section style="background:var(%s);color:var(%s);padding:64px 0;border-top:1px solid rgba(128,128,128,.18)">'%(bg,text)
               +'<div style="max-width:1100px;margin:0 auto;padding:0 28px">'
-              +'<div style="color:var(%s);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:8px">Reviews</div>'%acc
-              +'<h2 style="font-family:var(--head);font-size:2rem;margin-bottom:24px">Wat klanten zeggen</h2>'
+              +'<div style="color:var(%s);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:8px" data-en="Reviews">Reviews</div>'%acc
+              +'<h2 style="font-family:var(--head);font-size:2rem;margin-bottom:24px" data-en="What our clients say">Wat klanten zeggen</h2>'
               +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px">%s</div></div></section>'%cards)
     return over+rev
 
@@ -364,6 +365,9 @@ for s in salons:
                 sec=info_section(f,s)
                 if sec: out=out.replace("<footer",sec+"<footer",1)
             out=out.replace("</body>", CAL+"\n</body>",1)
+        if s.get("taal")=="en":
+            out=out.replace('<html lang="nl">','<html lang="en">')
+            out=out.replace("</body>", '<script>addEventListener("load",function(){var b=document.getElementById("lang");if(b&&/EN/i.test(b.textContent))b.click();});</script>\n</body>',1)
         (dest/f).write_text(out,encoding="utf-8")
     n+=1
 print(f"{n} demo's gegenereerd (met content-sectie + Cal-popup).")

@@ -21,7 +21,8 @@
    "tarieven": [],
    "openingstijden": "Op afspraak",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Trimsalon Agnes",
@@ -52,7 +53,8 @@
      "naam": "Marketta"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Bemellow",
@@ -94,7 +96,8 @@
      "naam": "Assy"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Hond & Welzijn",
@@ -131,7 +134,8 @@
      "naam": "Lex"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Tammy's Trimsalon",
@@ -203,7 +207,8 @@
      "naam": "Peter"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Bonita",
@@ -250,7 +255,8 @@
      "naam": "Saskia"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Didi's Hondentrimsalon",
@@ -309,7 +315,8 @@
     "jaar ervaring",
     0
    ]
-  ]
+  ],
+  "taal": "nl"
  },
  {
   "bedrijf": "Trimsalon Peter Rijswijk",
@@ -349,7 +356,8 @@
      "naam": "Pien"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Kwispel",
@@ -393,7 +401,8 @@
      "naam": "Marietha"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Rox",
@@ -446,7 +455,8 @@
      "naam": "Nina"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Wilma van der Meijs",
@@ -488,7 +498,8 @@
      "naam": "Irene"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Het Knappe Snuitje",
@@ -551,7 +562,8 @@
      "naam": "Wendy"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Does",
@@ -585,7 +597,8 @@
      "naam": "Mieke"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Dogsalon Mila",
@@ -647,7 +660,8 @@
      "naam": "Carola"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Trimsalon Van Kop tot Staart",
@@ -700,7 +714,8 @@
      "naam": "Sheila"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Trimsalon Eindhoven",
@@ -743,7 +758,8 @@
      "naam": "Elena"
     }
    ]
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Mooie Hondjes trimsalon",
@@ -751,7 +767,8 @@
   "slug": "mooie-hondjes",
   "plaats": "Helmond",
   "tel_display": "06-46348913",
-  "tel_href": "tel:+31646348913"
+  "tel_href": "tel:+31646348913",
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Sunshine",
@@ -791,7 +808,8 @@
     }
    ]
   },
-  "logo": "https://trimsalonsunshine.nl/wp-content/uploads/2018/02/cropped-logo-transparant-1.png"
+  "logo": "https://trimsalonsunshine.nl/wp-content/uploads/2018/02/cropped-logo-transparant-1.png",
+  "taal": "nl"
  },
  {
   "bedrijf": "Trimsalon Elite",
@@ -799,7 +817,8 @@
   "slug": "trimsalon-elite",
   "plaats": "'s-Hertogenbosch",
   "tel_display": "Bel of app ons",
-  "tel_href": "#contact"
+  "tel_href": "#contact",
+  "taal": "nl"
  },
  {
   "bedrijf": "Just 4 Dogs",
@@ -825,7 +844,8 @@
    ],
    "tarieven": [],
    "openingstijden": "Op afspraak"
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Lynn's Trimsalon",
@@ -833,7 +853,8 @@
   "slug": "lynns",
   "plaats": "Waalwijk",
   "tel_display": "06-16522983",
-  "tel_href": "tel:+31616522983"
+  "tel_href": "tel:+31616522983",
+  "taal": "nl"
  },
  {
   "bedrijf": "Jokes trimsalon",
@@ -879,7 +900,8 @@
     }
    ]
   },
-  "logo": "https://jokestrimsalon.nl/images/logo.png"
+  "logo": "https://jokestrimsalon.nl/images/logo.png",
+  "taal": "nl"
  },
  {
   "bedrijf": "Hondentrimsalon Oss",
@@ -887,7 +909,8 @@
   "slug": "trimsalon-oss",
   "plaats": "Oss",
   "tel_display": "Bel of app ons",
-  "tel_href": "#contact"
+  "tel_href": "#contact",
+  "taal": "nl"
  },
  {
   "bedrijf": "Doggroomer Eindhoven",
@@ -895,7 +918,8 @@
   "slug": "doggroomer",
   "plaats": "Eindhoven",
   "tel_display": "Bel of app ons",
-  "tel_href": "#contact"
+  "tel_href": "#contact",
+  "taal": "nl"
  },
  {
   "bedrijf": "La Chica Nails",
@@ -913,7 +937,8 @@
    "tarieven": [],
    "openingstijden": "Ma 09:00–22:00 · di/wo 09:00–18:00 · do 09:00–22:00",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Beauty Point Helmond",
@@ -931,7 +956,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Ymy's nagelstudio",
@@ -949,7 +975,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Espaço Mão Bella",
@@ -975,7 +1002,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Nagelstudio JAËL",
@@ -998,7 +1026,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Op mijn mooist",
@@ -1021,7 +1050,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Margarita TrendyNails",
@@ -1045,7 +1075,8 @@
    "tarieven": [],
    "openingstijden": "Ma 10:00–15:00 & 20:00–21:30 · di/do 09:00–15:00 & 20:00–21:30 · wo 09:00–21:30 · vr 09:00–12:00",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Nagelstudio SusaNails",
@@ -1074,7 +1105,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Schoonheidssalon Esthetika",
@@ -1098,7 +1130,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Lady D. Nails",
@@ -1116,7 +1149,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Nagelsalon Anne",
@@ -1134,7 +1168,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Beautty by RaeRae",
@@ -1155,7 +1190,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Nagelstudio Mariëlle",
@@ -1178,7 +1214,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Be.you.tiful by Melbis",
@@ -1202,7 +1239,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Blue Nagelstudio",
@@ -1220,7 +1258,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Niki's Nagelstudio",
@@ -1244,7 +1283,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Blitz Nails Nagelstudio",
@@ -1262,7 +1302,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "XM Beauty",
@@ -1280,7 +1321,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Linda's Hair & Nail Design",
@@ -1298,7 +1340,8 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  },
  {
   "bedrijf": "Nagelsalon Everything Beauty",
@@ -1316,6 +1359,7 @@
    "tarieven": [],
    "openingstijden": "",
    "reviews": []
-  }
+  },
+  "taal": "nl"
  }
 ]

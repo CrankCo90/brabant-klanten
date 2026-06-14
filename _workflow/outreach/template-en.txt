@@ -1,0 +1,23 @@
+{{aanhef}}
+
+{{compliment}}
+
+That's why I'm reaching out. I'm Leroy from Brabant Digital and I build websites for local businesses. For {{bedrijf}} I've already made one — not a mockup, but a working example site you can look at right now:
+
+{{demo_url}}
+
+A tip you can use right away, even if you do nothing with this message: {{gratis_tip}}
+
+What a proper website gives you:
+{{verbeteringen}}
+
+You can have everything adjusted — your own photos, different colors, an extra page — until it's truly yours. A finished site is normally $499; since I'm just starting out and would love a few honest reviews, it's $199 right now. That's a one-time fee: no subscription, no monthly costs, no strings attached. The first month I'll make small tweaks for free.
+
+Sound good, or do you have a question? Just reply to this email. And if it's not for you, that's completely fine — I'll take the examples back offline.
+
+Kind regards,
+Leroy
+Brabant Digital · brabantdigital.nl
+
+—
+{{afmelder}}

@@ -14,11 +14,12 @@ def main():
     if not bedrijf: print("Geen bedrijfsnaam."); return 1
     niche=(d.get("niche") or "Onbekend").strip(); regio=(d.get("regio") or "").strip()
     link=(d.get("link") or "").strip(); notitie=(d.get("notitie") or "").strip(); telefoon=(d.get("telefoon") or "").strip()
+    land=(d.get("land") or "NL").strip().upper(); taal=("nl" if land=="NL" else "en")
     sg=slug(bedrijf)
     sf=ROOT/"_workflow/salons-batch1.json"; S=json.loads(sf.read_text(encoding="utf-8"))
     if not any(x["slug"]==sg for x in S):
         kort=re.sub(r'^(hondentrimsalon|trimsalon|dogsalon|salon)\s+','',bedrijf,flags=re.I).strip() or bedrijf
-        S.append({"bedrijf":bedrijf,"kort":kort,"slug":sg,"plaats":regio,"tel_display":"Bel of app ons","tel_href":"#contact"})
+        S.append({"bedrijf":bedrijf,"kort":kort,"slug":sg,"plaats":regio,"tel_display":("Call or message us" if taal=="en" else "Bel of app ons"),"tel_href":"#contact","taal":taal})
         sf.write_text(json.dumps(S,ensure_ascii=False,indent=1),encoding="utf-8")
     g=run(["python3","_workflow/generate-demo.py"])
     if g.returncode!=0: print("generate-demo fout:",g.stderr[-500:]); return 1
@@ -28,12 +29,12 @@ def main():
         C.append({"bedrijf":bedrijf,"niche":niche,"regio":regio,"plaats":regio,"status":"demo","score":0,
                   "werkdag":datetime.date.today().isoformat(),"demo_url":url,
                   "waarom":"Via dashboard aangemeld. "+notitie,"fouten":[],"contact":link,
-                  "bron":(link if link.lower().startswith("http") else None),"social":None,"telefoon":(telefoon or None)})
+                  "bron":(link if link.lower().startswith("http") else None),"social":None,"telefoon":(telefoon or None),"land":land,"taal":taal})
         cf.write_text(json.dumps(C,ensure_ascii=False,indent=1),encoding="utf-8")
     pf=ROOT/"_workflow/outreach/prospects.json"; P=json.loads(pf.read_text(encoding="utf-8"))
     if not any(p["bedrijf"]==bedrijf for p in P):
-        P.append({"bedrijf":bedrijf,"aanhef":"Hoi,","plaats":regio,"email":"","status":"concept","demo_url":url,
-                  "deadline":"","onderwerp":"Ik heb alvast een website voor %s gemaakt (kijk even mee)"%bedrijf,
+        P.append({"bedrijf":bedrijf,"aanhef":("Hi," if taal=="en" else "Hoi,"),"plaats":regio,"email":"","status":"concept","demo_url":url,"land":land,"taal":taal,
+                  "deadline":"","onderwerp":(("I already built a website for %s (take a look)"%bedrijf) if taal=="en" else ("Ik heb alvast een website voor %s gemaakt (kijk even mee)"%bedrijf)),
                   "compliment":"","gratis_tip":notitie,"verbeteringen":[]})
         pf.write_text(json.dumps(P,ensure_ascii=False,indent=1),encoding="utf-8")
     run(["git","add","-A"]); run(["git","-c","user.email=vps@brabantdigital.nl","-c","user.name=BD-VPS","commit","-q","-m","Nieuwe klant via dashboard: "+bedrijf])

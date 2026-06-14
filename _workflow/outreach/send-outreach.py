@@ -12,16 +12,17 @@ from email.utils import formatdate, make_msgid
 from pathlib import Path
 import re as _re
 def _aanhef(p):
+    g="Hi" if p.get("taal")=="en" else "Hoi"
     a=(p.get("aanhef") or "").strip()
-    if a and a.lower() not in ("hoi,","hoi"): return a
+    if a and a.lower() not in ("hoi,","hoi","hi,","hi"): return a
     b=p.get("bedrijf") or ""
     for pat in (r"^([A-Za-zÀ-ÿ]+)'s\b", r"\bby ([A-Za-zÀ-ÿ]+)", r"(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$"):
         m=_re.search(pat,b,_re.I)
         if m:
             n=m.group(1)
             if not _re.match(r"^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$",n,_re.I):
-                return "Hoi %s,"%((n[:1].upper()+n[1:]) if len(n)>1 else b)
-    return "Hoi,"
+                return g+" %s,"%((n[:1].upper()+n[1:]) if len(n)>1 else b)
+    return g+","
 
 
 REPO_DIR  = Path(__file__).resolve().parent
@@ -74,6 +75,7 @@ def main():
         print("Geen prospects.json — niets te doen."); return
     prospects = json.loads(PROSPECTS.read_text(encoding="utf-8"))
     template  = TEMPLATE.read_text(encoding="utf-8")
+    template_en = (REPO_DIR/"template-en.txt").read_text(encoding="utf-8") if (REPO_DIR/"template-en.txt").exists() else template
     done = sent_set()
     left = CAP - sent_today()
     if left <= 0:
@@ -96,9 +98,9 @@ def main():
         if "@" not in email or email.lower() in done: continue
         verb = p.get("verbeteringen") or []
         verb_txt = "\n".join("- " + v for v in verb) if verb else "- Online afspraken, betere vindbaarheid in Google en een snelle, moderne uitstraling."
-        afmelder = p.get("afmelder") or ("Je krijgt dit bericht eenmalig omdat ik lokale ondernemers in de buurt help. "
-                   "Geen interesse? Eén woordje \"nee\" terug en je hoort nooit meer iets van me.")
-        body = (template
+        afmelder = p.get("afmelder") or (("You received this message once because I help local businesses get online. Not interested? Just reply 'no' and you will never hear from me again.") if p.get("taal")=="en" else ("Je krijgt dit bericht eenmalig omdat ik lokale ondernemers in de buurt help. Geen interesse? Eén woordje \"nee\" terug en je hoort nooit meer iets van me."))
+        _tpl = template_en if p.get("taal")=="en" else template
+        body = (_tpl
                 .replace("{{aanhef}}",       _aanhef(p))
                 .replace("{{compliment}}",   p.get("compliment",""))
                 .replace("{{gratis_tip}}",   p.get("gratis_tip",""))
