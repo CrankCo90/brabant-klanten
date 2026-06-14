@@ -1095,18 +1095,19 @@
   "niche": "Nagelstudio's",
   "regio": "Helmond e.o.",
   "plaats": "Helmond",
-  "status": "afgewezen",
+  "status": "demo",
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://beautty-by-raerae.demo.brabantdigital.nl",
-  "waarom": "Heeft website via Instagram (exacte handle nog handmatig te bevestigen).",
+  "waarom": "Alleen Instagram (@beauttybyraerae) + een Salonized-boekpagina (beauty-by-raerae.salonized.com) — géén eigen website. Boekt via DM. Upgrade-prospect.",
   "fouten": [
-   "Geen eigen website, alleen Instagram",
-   "Geen vindbare prijzen, openingstijden of telefoonnummer buiten Instagram"
+   "Geen eigen website (alleen Salonized-boekpagina)",
+   "Boeken alleen via Instagram-DM",
+   "Geen eigen vindbaarheid in Google"
   ],
-  "contact": "Bel of app ons",
+  "contact": "DM via Instagram (Ketsegangske 5, Helmond)",
   "bron": null,
-  "social": null,
+  "social": "IG @beauttybyraerae",
   "telefoon": null,
   "land": "NL",
   "taal": "nl"
