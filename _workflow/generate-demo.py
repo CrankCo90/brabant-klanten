@@ -244,6 +244,214 @@ NAIL_MAP = [
  ('Double coated','Acryl'),('Double coat','Acryl'),('double coat','acryl'),
  ('Wire-haired','BIAB'),('Ruwharig','BIAB'),('Doodles','Gellak'),('doodle','gellak'),
 ]
+# ===== Pedicure (voetverzorging) — eigen content, zelfde keys als NAIL_MAP =====
+PEDI_IMG = ["https://images.pexels.com/photos/%s/pexels-photo-%s.jpeg?auto=compress&cs=tinysrgb&w=1280"%(i,i) for i in ["3997388","4677846","6135674","2600287","7446919","3557600","2268404","3997381"]]
+PEDI_EMOJI = [("\U0001F415‍\U0001F9BA","\U0001F9B6"),("\U0001F415","\U0001F9B6"),
+    ("\U0001F9AE","\U0001F9B6"),("\U0001F429","✨"),("\U0001F43E","\U0001FA77"),
+    ("\U0001F9F9","\U0001F484"),("\U0001F98A","\U0001FA79")]
+PEDICURE_MAP = [
+ ('data-en="Small">Klein','data-en="Basic">Basis'),
+ ('data-en="Large">Groot','data-en="Extensive">Uitgebreid'),
+ ('data-en="Short / smooth">Kort / glad','data-en="Basic pedicure">Basispedicure'),
+ ('data-en="Long / doodle">Lang / doodle','data-en="Medical pedicure">Medische pedicure'),
+ ('data-en="Wire-haired">Ruwharig','data-en="Problem foot">Probleemvoet'),
+ ('data-en="Double coat">Double coat','data-en="Diabetic foot">Diabetische voet'),
+ ('data-en="Wash & blow-dry">Wassen &amp; föhnen','data-en="Basic pedicure">Basispedicure'),
+ ('data-en="Full grooming">Volledige trimbeurt','data-en="Complete treatment">Complete behandeling'),
+ ('data-en="Tidy-up">Bijwerken','data-en="Touch-up">Bijwerken'),
+ ('data-en="Short & smooth">Kort &amp; glad','data-en="Basic pedicure">Basispedicure'),
+ ('data-rec="Wassen & föhnen|Wash & blow-dry"','data-rec="Basispedicure|Basic pedicure"'),
+ ('data-rec="Volledige trimbeurt|Full grooming"','data-rec="Complete behandeling|Complete treatment"'),
+ ('data-rec="Plukbeurt (ruwharig)|Hand-stripping"','data-rec="Medische pedicure|Medical pedicure"'),
+ ('data-rec="Ontwol-behandeling|De-shed treatment"','data-rec="Eeltbehandeling|Callus treatment"'),
+ ("recVal=['Volledige trimbeurt','Full grooming']","recVal=['Complete behandeling','Complete treatment']"),
+ # hele zinnen (EN)
+ ('Certified dog groomer for all breeds — from doodle to Pomeranian. Book online and your dog is pampered in all peace and quiet.',
+  'Certified pedicurist for healthy, well-cared-for feet. Book online and your feet are in expert, caring hands.'),
+ ('Certified dog grooming salon in Amsterdam Osdorp. All breeds, groomed with love and patience.',
+  'Certified pedicure practice in Amsterdam Osdorp. Expert foot care, with attention and patience.'),
+ ('Certified groomer for all breeds. Book online — your dog is pampered in calm, professional hands.',
+  'Certified pedicurist. Book online — your feet in calm, professional hands.'),
+ ('Certified groomer for all breeds. Combine the grooming with a walk around the Sloterplas — your dog comes back glowing.',
+  'Certified pedicurist. Walk out comfortably again — feet cared for, problems solved.'),
+ ('Certified groomer for all breeds. Calm, careful and always with an eye for your dog.',
+  'Certified pedicurist. Calm, careful and always with an eye for you.'),
+ ('A certified groomer who treats every coat as a craft. All breeds, with love and patience.',
+  'A certified pedicurist who treats every foot with care. Expert foot care, with attention and patience.'),
+ ('Every dog gets time and attention. No rush, no stress — just patient, expert care from a certified groomer who keeps learning.',
+  'Every client gets time and attention. No rush, no stress — just patient, expert care from a certified pedicurist who keeps learning.'),
+ ('Diploma in hand and re-trained every year — most recently at the Purina Pro Plan symposium 2026. Your dog benefits from the latest insights in coat and skin care.',
+  'Diploma in hand and re-trained every year — including medical foot care. You benefit from the latest insights in foot and skin care.'),
+ ('A personal grooming salon. Love, patience and craftsmanship — for every coat, every breed.',
+  'A personal pedicure practice. Care, patience and craftsmanship — for every foot.'),
+ ('A gentle wash and careful drying, tailored to the coat.','A gentle, thorough treatment tailored to your feet.'),
+ ('Trimming, stripping or clipping — exactly what the breed needs.','Basic, medical or spa — exactly what your feet need.'),
+ ('A relaxed first visit so grooming stays fun for life.','A relaxed first visit so foot care stays something easy.'),
+ ('A spa day for your dog — drag the slider and watch a scruffy coat turn into a clean, fluffy result.',
+  'A spa moment for your feet — drag the slider and watch tired feet turn into fresh, cared-for results.'),
+ ('Hand-stripping that keeps the coat healthy and true to type.','Careful treatment that keeps your feet and nails healthy.'),
+ ('Gentle products, tailored to skin and coat.','Gentle products, tailored to skin and nails.'),
+ ('Breed-true finish, neat and even.','Neat, careful finish every time.'),
+ ('Expert handling of demanding coats, with patience.','Expert care for problem feet, with patience.'),
+ ("No more guessing. Pick your dog's size, coat and treatment and see a price indication right away.",
+  'No more guessing. Pick your treatment, foot condition and extras and see a price indication right away.'),
+ ("* Indication only — the final price is set together after seeing your dog's coat.",
+  '* Indication only — the final price is set together after seeing your feet.'),
+ ('No more calling during grooming. Pick a treatment, a day and a time — done.',
+  'No more calling during work. Pick a treatment, a day and a time — done.'),
+ ('All breeds welcome, groomed with love and patience.','Every foot welcome, cared for with attention and patience.'),
+ ('Book online or call directly. Your dog will thank you.','Book online or call directly. Your feet will thank you.'),
+ ('Diploma plus yearly training. Specialised in doodles, wire-haired and double coats.',
+  'Diploma plus yearly training. Specialised in medical, diabetic and problem feet.'),
+ ('She trims our doodle with so much patience. He actually loves going now — and he comes back gorgeous.',
+  'She treats my feet with so much care and patience. I walk out comfortable every time — a real recommendation.'),
+ # hele zinnen (NL)
+ ('Gediplomeerd hondentrimster voor alle rassen — van doodle tot pomeriaan. Boek online en uw hond wordt in alle rust verwend.',
+  'Gediplomeerd pedicure voor gezonde, verzorgde voeten. Boek online en uw voeten zijn in deskundige, zorgzame handen.'),
+ ('Gediplomeerde hondentrimsalon in Amsterdam Osdorp. Alle rassen, met liefde en geduld getrimd.',
+  'Gediplomeerde pedicurepraktijk in Amsterdam Osdorp. Vakkundige voetverzorging, met aandacht en geduld.'),
+ ('Gediplomeerd trimster voor alle rassen. Boek online — uw hond wordt in alle rust en met vakmanschap verwend.',
+  'Gediplomeerd pedicure. Boek online — uw voeten in alle rust en met vakmanschap verzorgd.'),
+ ('Gediplomeerd trimster voor alle rassen. Combineer de trimbeurt met een rondje Sloterplas — uw hond komt stralend terug.',
+  'Gediplomeerd pedicure. U loopt er weer soepel en verzorgd vandoor — klachten verholpen.'),
+ ('Gediplomeerd trimster voor alle rassen. Rustig, zorgvuldig en altijd met oog voor uw hond.',
+  'Gediplomeerd pedicure. Rustig, zorgvuldig en altijd met oog voor u.'),
+ ('Een gediplomeerd trimster die elke vacht als vakwerk behandelt. Alle rassen, met liefde en geduld.',
+  'Een gediplomeerd pedicure die elke voet met zorg behandelt. Vakkundige voetverzorging, met aandacht en geduld.'),
+ ('Elke hond krijgt tijd en aandacht. Geen haast, geen stress — alleen geduldig vakwerk van een gediplomeerd trimster die blijft bijscholen.',
+  'Elke klant krijgt tijd en aandacht. Geen haast, geen stress — alleen geduldig vakwerk van een gediplomeerd pedicure die blijft bijscholen.'),
+ ('Gediplomeerd én jaarlijks bijgeschoold — onlangs nog op het Purina Pro Plan-symposium 2026. Uw hond profiteert van de nieuwste inzichten in vacht- en huidverzorging.',
+  'Gediplomeerd én jaarlijks bijgeschoold — óók in medische voetzorg. U profiteert van de nieuwste inzichten in voet- en huidverzorging.'),
+ ('Gediplomeerd plus jaarlijkse bijscholing. Gespecialiseerd in doodles, ruwharig en double coats.',
+  'Gediplomeerd plus jaarlijkse bijscholing. Gespecialiseerd in medische, diabetische en probleemvoeten.'),
+ ('Een persoonlijke trimsalon. Liefde, geduld en vakmanschap — voor elke vacht, elk ras.',
+  'Een persoonlijke pedicurepraktijk. Zorg, geduld en vakmanschap — voor elke voet.'),
+ ('Een zachte wasbeurt en zorgvuldig drogen, afgestemd op de vacht.',
+  'Een zachte, grondige behandeling afgestemd op uw voeten.'),
+ ('Knippen, plukken of scheren — precies wat het ras nodig heeft.',
+  'Basis, medisch of spa — precies wat uw voeten nodig hebben.'),
+ ('Een ontspannen eerste keer zodat trimmen een leven lang leuk blijft.',
+  'Een ontspannen eerste keer zodat voetverzorging makkelijk blijft.'),
+ ('Met de hand plukken zodat de vacht gezond en raszuiver blijft.',
+  'Zorgvuldige behandeling zodat uw voeten en nagels gezond blijven.'),
+ ('Een spa-dag voor uw hond — sleep de slider en zie een verwaarloosde vacht veranderen in een schoon, donzig resultaat.',
+  'Een spa-moment voor uw voeten — sleep de slider en zie vermoeide voeten veranderen in een fris, verzorgd resultaat.'),
+ ('Vakkundige aanpak van veeleisende vachten, met geduld.','Vakkundige aanpak van probleemvoeten, met geduld.'),
+ ('Zachte producten, afgestemd op huid en vacht.','Zachte producten, afgestemd op huid en nagels.'),
+ ('Alle rassen welkom, met liefde en geduld getrimd.','Elke voet welkom, met aandacht en geduld verzorgd.'),
+ ('Geen giswerk meer. Kies grootte, vacht en behandeling van uw hond en zie direct een richtprijs.',
+  'Geen giswerk meer. Kies behandeling, voetconditie en extra en zie direct een richtprijs.'),
+ ('Niet meer bellen tijdens het trimmen. Kies een behandeling, een dag en een tijd — klaar.',
+  'Niet meer bellen tijdens het werk. Kies een behandeling, een dag en een tijd — klaar.'),
+ ('Ze trimt onze doodle met zoveel geduld. Hij vindt het nu zelfs leuk — en hij komt er prachtig uit.',
+  'Ze behandelt mijn voeten met zoveel zorg en geduld. Ik loop er elke keer soepel vandoor — een echte aanrader.'),
+ # korte zinnen / labels
+ ('Dog grooming · Amsterdam Osdorp','Pedicure · Amsterdam Osdorp'),
+ ('Hondentrimsalon · Amsterdam Osdorp','Pedicure · Amsterdam Osdorp'),
+ ('Groomed with love and patience','Cared for with attention and patience'),
+ ('Met liefde en geduld getrimd','Met aandacht en geduld verzorgd'),
+ ('Specialist in doodles, wire-haired and double coated.','Specialist in medical, diabetic and problem feet.'),
+ ('Specialist in doodles, ruwharig en double coated.','Specialist in medische, diabetische en probleemvoeten.'),
+ ('Specialised in doodles, wire-haired & double coat','Specialised in medical & diabetic foot care'),
+ ('Gespecialiseerd in doodles, ruwharig & double coat','Gespecialiseerd in medische & diabetische voetzorg'),
+ ('A calm spa day for your dog','A calm spa moment for your feet'),
+ ('Een rustige spa-dag voor uw hond','Een rustig spa-moment voor uw voeten'),
+ ('Honest coat advice, also for at home','Honest foot advice, also for at home'),
+ ('Eerlijk vachtadvies, ook voor thuis','Eerlijk voetadvies, ook voor thuis'),
+ ("Book your dog's spot online.",'Book your spot online.'),
+ ('Boek online een plekje voor uw hond.','Boek online een plekje voor uzelf.'),
+ ("Book your dog's session",'Book your appointment'),
+ ('Boek de beurt van uw hond','Boek uw afspraak'),
+ ("Book your dog's spot",'Book your spot'),
+ ('Reserveer een plekje voor uw hond','Reserveer een plekje voor uzelf'),
+ ('Expertly groomed, close to home','Expertly cared for, close to home'),
+ ('Vakkundig getrimd, vlak bij huis','Vakkundig verzorgd, vlak bij huis'),
+ ('Specialist care for every coat','Specialist care for every foot'),
+ ('Specialistische zorg voor elke vacht','Specialistische zorg voor elke voet'),
+ ('Wire-haired & stripping','Medical foot care'),
+ ('Ruwharig &amp; plukken','Medische voetzorg'),
+ ('Doodles & double coat','Diabetic & problem feet'),
+ ('Doodles &amp; double coat','Diabetische &amp; probleemvoeten'),
+ ('Plan a grooming session','Plan an appointment'),
+ ('Plan een trimbeurt','Plan een afspraak'),
+ ('Where your dog is <em>pampered</em>','Where your feet are <em>cared for</em>'),
+ ('Waar uw hond wordt','Waar uw voeten worden'),
+ ('Trimming, stripping or clipping','Basic, medical or spa'),
+ ('Treat your dog','Treat your feet'),
+ ('Verwen uw hond','Verwen uw voeten'),
+ ('Time and patience for every dog','Time and patience for every client'),
+ ('Tijd en geduld voor elke hond','Tijd en geduld voor elke klant'),
+ ('From doodle to Pomeranian','From basic to medical'),
+ ('Van doodle tot pomeriaan','Van basis tot medisch'),
+ ('The art of grooming','The art of foot care'),
+ ('De kunst van het trimmen','De kunst van voetverzorging'),
+ ('Every coat, its own approach','Every foot, its own approach'),
+ ('Elke vacht, eigen aanpak','Elke voet, eigen aanpak'),
+ ('What does grooming cost?','What does a treatment cost?'),
+ ('Wat kost een trimbeurt?','Wat kost een behandeling?'),
+ ('Which treatment suits your dog?','Which treatment suits you?'),
+ ('Welke behandeling past bij uw hond?','Welke behandeling past bij u?'),
+ ("What's your dog's size?",'Which treatment do you want?'),
+ ('Wat is de grootte van uw hond?','Welke behandeling wilt u?'),
+ ("What's the coat like?",'What is your foot like?'),
+ ('Wat voor vacht heeft uw hond?','Wat voor voet heeft u?'),
+ ('How often is your dog groomed?','How often do you get a pedicure?'),
+ ('Hoe vaak wordt uw hond getrimd?','Hoe vaak laat u uw voeten doen?'),
+ ('Free trim advice','Free foot advice'),
+ ('Gratis trimadvies','Gratis voetadvies'),
+ ('Trim-quiz','Voet-quiz'),
+ ('Full grooming','Complete behandeling'),
+ ('Volledige trimbeurt','Complete behandeling'),
+ ('Wassen &amp; föhnen','Basispedicure'),
+ ('Wassen &amp; verzorgen','Basispedicure'),
+ ('Knippen &amp; stylen','Knippen &amp; verzorgen'),
+ ('Trim & style','Care & finish'),
+ ('Plukbeurt ruwharig','Medische pedicure'),
+ ('1. Size of your dog','1. Treatment'),
+ ('1. Grootte van uw hond','1. Behandeling'),
+ ('2. Coat type','2. Foot condition'),
+ ('2. Vachttype','2. Voetconditie'),
+ ('Long / doodle','Medical'),
+ ('Lang / doodle','Medisch'),
+ ('depending on coat condition','depending on foot condition'),
+ ('afhankelijk van vachtconditie','afhankelijk van voetconditie'),
+ ('Certified groomer, all breeds','Certified pedicurist'),
+ ('Gediplomeerd, alle rassen','Gediplomeerd pedicure'),
+ ('Wash, dry, nails & ears included','Foot bath, nails & callus included'),
+ ('Wassen, drogen, nagels &amp; oren inbegrepen','Voetbad, nagels &amp; eelt inbegrepen'),
+ ('Wassen, drogen, nagels & oren inbegrepen','Voetbad, nagels & eelt inbegrepen'),
+ ('Hand-stripping','Callus care'),
+ ('Wie zoekt op "hondentrimsalon Amsterdam Osdorp" vindt nu uw concurrenten. Met een eigen website verschijnt u in Google — elke dag nieuwe klanten die u nu misloopt.',
+  'Wie zoekt op "pedicure Amsterdam Osdorp" vindt nu uw concurrenten. Met een eigen website verschijnt u in Google — elke dag nieuwe klanten die u nu misloopt.'),
+ ("Mensen plannen zelf een afspraak, ook 's avonds. Die verschijnt direct in uw agenda — u wordt niet meer gestoord tijdens het trimmen.",
+  "Mensen plannen zelf een afspraak, ook 's avonds. Die verschijnt direct in uw agenda — u wordt niet meer gestoord tijdens het werk."),
+ ('Sleep de slider over de foto en zie een ongekamde vacht veranderen in een verzorgd resultaat. Uw vakwerk meteen zichtbaar.',
+  'Sleep de slider over de foto en zie vermoeide voeten veranderen in een verzorgd resultaat. Uw vakwerk meteen zichtbaar.'),
+ ('grootte/vacht/dienst','behandeling/voetconditie/extra'),
+ ('De bezoeker kiest grootte, vachttype en behandeling en ziet meteen een richtprijs — duidelijk, zonder dat u vastzit aan een vast bedrag.',
+  'De bezoeker kiest behandeling, voetconditie en extra en ziet meteen een richtprijs — duidelijk, zonder dat u vastzit aan een vast bedrag.'),
+ ('Modern Mint — Trim-keuzehulp','Modern Mint — Voet-keuzehulp'),
+ ('Een korte, vriendelijke keuzehulp: "welke behandeling past bij mijn hond?" met persoonlijk advies en een directe boekingsknop.',
+  'Een korte, vriendelijke keuzehulp: "welke behandeling past bij mij?" met persoonlijk advies en een directe boekingsknop.'),
+ ('Trim-keuzehulp','Voet-keuzehulp'),
+ ('Wassen & föhnen|Wash & blow-dry|45','Basispedicure|Basic pedicure|30'),
+ ('Volledige trimbeurt|Full grooming|65','Complete behandeling|Complete treatment|45'),
+ ('Plukbeurt ruwharig|Hand-stripping|70','Medische pedicure|Medical pedicure|40'),
+ ('Boek online of bel direct. Uw hond zal u dankbaar zijn.','Boek online of bel direct. Uw voeten zullen u dankbaar zijn.'),
+ ('Vakwerk waar baasjes op rekenen','Vakwerk waar klanten op rekenen'),
+ ('Careful de-shedding — never shaved, always respected.','Careful callus care — never harsh, always gentle.'),
+ ('Zorgvuldig ontwollen — nooit kaalscheren, altijd respecteren.','Zorgvuldige eeltverwijdering — nooit hard, altijd voorzichtig.'),
+ ('* Een richtprijs — de definitieve prijs bepalen we samen na het zien van de vacht.','* Een richtprijs — de definitieve prijs bepalen we samen na het zien van uw voeten.'),
+ ('Vers getrimde hond','Vers verzorgde voeten'),
+ ('% alle rassen','% elke voet'),
+ ('All breeds','Every foot'),('Alle rassen','Elke voet'),('breeds welcome','feet welcome'),
+ ('happy dogs','happy clients'),('blije honden','blije klanten'),
+ ('Happy dog','Happy client'),('Blije hond','Blije klant'),
+ ('Double coated','Diabetische voet'),('Double coat','Diabetische voet'),('double coat','diabetische voet'),
+ ('Wire-haired','Probleemvoet'),('Ruwharig','Probleemvoet'),('Doodles','Medisch'),('doodle','medisch'),
+ ('Pomeranian','medische voet'),('Pomeriaan','Medische voet'),('pomeriaan','medische voet'),
+]
+
 # per design: (bg-var, text-var, accent-var) zodat de sectie de kleuren overneemt
 VARMAP = {
  "previews/design-01.html":("--bg","--text","--gold"),
@@ -282,6 +490,9 @@ def transform(text, s):
     if s.get("niche")=="nagels":
         for a,b in NAIL_MAP: text=text.replace(a,b)
         for a,b in NAIL_EMOJI: text=text.replace(a,b)
+    elif s.get("niche")=="pedicure":
+        for a,b in PEDICURE_MAP: text=text.replace(a,b)
+        for a,b in PEDI_EMOJI: text=text.replace(a,b)
     text = re.sub(r'Trimsalon (<em[^>]*>)Scott</em>', r'\1'+kort+'</em>', text)
     for a,b in [("Scott's","uw"),("Hondentrimsalon Scott",merk),("Trimsalon Scott",merk),
         ("Sloterpark Groen","Parkgroen"),("Verwijst naar de Sloterplas om de hoek.","Rustig, natuurlijk en gevestigd."),
@@ -294,7 +505,7 @@ def transform(text, s):
         text=text.replace(a,b)
     fotos=s.get("fotos") or []
     own = fotos if len(fotos)>=2 else []
-    sel = NAIL_IMG if s.get("niche")=="nagels" else (pick_pool(s["slug"]) if POOL_OK else AI_URLS)
+    sel = NAIL_IMG if s.get("niche")=="nagels" else (PEDI_IMG if s.get("niche")=="pedicure" else (pick_pool(s["slug"]) if POOL_OK else AI_URLS))
     for i,u in enumerate(AI_URLS):
         repl = own[i] if i < len(own) else sel[i]
         if repl != u: text=text.replace(u, repl)
@@ -329,7 +540,7 @@ def info_section(fname, s):
         cols='column-count:2;column-gap:34px;' if len(tar)>6 else ''
         tar_html='<ul style="list-style:none;font-size:.9rem;%s">%s</ul>'%(cols,lis)
     else:
-        _afg = "afgestemd op lengte en techniek" if s.get("niche")=="nagels" else "afgestemd op ras en vacht"
+        _afg = "afgestemd op lengte en techniek" if s.get("niche")=="nagels" else ("afgestemd op uw voeten en wensen" if s.get("niche")=="pedicure" else "afgestemd op ras en vacht")
         tar_html='<p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag \u2014 %s. Vraag gerust een richtprijs.</p>'%_afg
     over=('<section id="over" style="background:var(%s);color:var(%s);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)">'%(bg,text)
       +'<div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px">'
@@ -353,6 +564,39 @@ def info_section(fname, s):
               +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px">%s</div></div></section>'%cards)
     return over+rev
 
+# ---- design-11 (premium pedicure) generator ----
+_D11P = (ROOT/"_workflow"/"templates"/"design11-pedicure.html")
+PEDI_D11_TPL = _D11P.read_text(encoding="utf-8") if _D11P.exists() else ""
+def _rev_cards(revs):
+    cards=""
+    for r in (revs or [])[:3]:
+        nm=(r.get("naam") or "Klant").strip(); tk=(r.get("tekst") or "").strip()
+        if not tk: continue
+        cards+='<div class="rev"><div class="stars">★★★★★</div><p>“%s”</p><div class="who"><div class="av">%s</div><div><b>%s</b><span data-en="Pedicure">Pedicure</span></div></div></div>'%(tk,nm[0],nm)
+    if not cards:
+        fb=[("Vakkundig en met veel zorg geholpen. Ik loop er weer soepel vandoor.","Marit"),
+            ("Rustig, hygiënisch en deskundig. Een echte aanrader.","Tom"),
+            ("Eindelijk een pedicure die de tijd neemt. Top!","Sanne")]
+        for tk,nm in fb:
+            cards+='<div class="rev"><div class="stars">★★★★★</div><p>“%s”</p><div class="who"><div class="av">%s</div><div><b>%s</b><span data-en="Pedicure">Pedicure</span></div></div></div>'%(tk,nm[0],nm)
+    return cards
+def render_d11_pedicure(s):
+    if not PEDI_D11_TPL: return ""
+    merk=s["bedrijf"]; kort=s.get("kort") or merk; plaats=s["plaats"]
+    th=s.get("tel_href",""); td=s.get("tel_display","")
+    tel = th[4:] if th.startswith("tel:") else (th or "#contact")
+    logo = merk.replace(kort,"<em>%s</em>"%kort,1) if kort and kort in merk else "<em>%s</em>"%merk
+    c=s.get("content") or {}
+    out=PEDI_D11_TPL
+    for a,b in {
+        "⟦TITLE⟧":"%s — Pedicure %s"%(merk,plaats),"⟦LOGO⟧":logo,"⟦NAME⟧":merk,"⟦PLAATS⟧":plaats,
+        "⟦TEL⟧":tel,"⟦PHONE⟧":td or "Bel of app ons","⟦ADRES⟧":plaats,
+        "⟦IMG_HERO⟧":PEDI_IMG[0],"⟦IMG_ABOUT⟧":PEDI_IMG[1],"⟦IMG_G1⟧":PEDI_IMG[2],"⟦IMG_G2⟧":PEDI_IMG[3],"⟦IMG_G3⟧":PEDI_IMG[4],
+        "⟦REVIEWS⟧":_rev_cards(c.get("reviews")),
+    }.items():
+        out=out.replace(a,b)
+    return out
+
 n=0
 for s in salons:
     dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
@@ -369,5 +613,7 @@ for s in salons:
             out=out.replace('<html lang="nl">','<html lang="en">')
             out=out.replace("</body>", '<script>addEventListener("load",function(){var b=document.getElementById("lang");if(b&&/EN/i.test(b.textContent))b.click();});</script>\n</body>',1)
         (dest/f).write_text(out,encoding="utf-8")
+    if s.get("niche")=="pedicure":
+        (dest/"previews"/"design-11.html").write_text(render_d11_pedicure(s),encoding="utf-8")
     n+=1
 print(f"{n} demo's gegenereerd (met content-sectie + Cal-popup).")

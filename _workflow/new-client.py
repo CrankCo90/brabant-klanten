@@ -18,8 +18,17 @@ def main():
     sg=slug(bedrijf)
     sf=ROOT/"_workflow/salons-batch1.json"; S=json.loads(sf.read_text(encoding="utf-8"))
     if not any(x["slug"]==sg for x in S):
-        kort=re.sub(r'^(hondentrimsalon|trimsalon|dogsalon|salon)\s+','',bedrijf,flags=re.I).strip() or bedrijf
-        S.append({"bedrijf":bedrijf,"kort":kort,"slug":sg,"plaats":regio,"tel_display":("Call or message us" if taal=="en" else "Bel of app ons"),"tel_href":"#contact","taal":taal})
+        kort=re.sub(r'^(hondentrimsalon|trimsalon|dogsalon|pedicuresalon|pedicurepraktijk|pedicure|nagelstudio|nagelsalon|salon)\s+','',bedrijf,flags=re.I).strip() or bedrijf
+        nlc=niche.lower()
+        nk2 = "pedicure" if "pedicure" in nlc else ("nagels" if ("nagel" in nlc or "nail" in nlc) else None)
+        _tel=re.sub(r'[^0-9]','',telefoon)
+        if _tel.startswith("0"): _tel="+31"+_tel[1:]
+        elif _tel and not _tel.startswith("31"): _tel="+31"+_tel
+        td = telefoon if telefoon else ("Call or message us" if taal=="en" else "Bel of app ons")
+        th = ("tel:"+_tel) if _tel else "#contact"
+        ent={"bedrijf":bedrijf,"kort":kort,"slug":sg,"plaats":regio,"tel_display":td,"tel_href":th,"taal":taal}
+        if nk2: ent["niche"]=nk2
+        S.append(ent)
         sf.write_text(json.dumps(S,ensure_ascii=False,indent=1),encoding="utf-8")
     g=run(["python3","_workflow/generate-demo.py"])
     if g.returncode!=0: print("generate-demo fout:",g.stderr[-500:]); return 1
