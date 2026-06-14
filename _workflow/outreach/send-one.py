@@ -6,6 +6,19 @@ import sys, os, json, ssl, smtplib
 from email.message import EmailMessage
 from email.utils import formatdate, make_msgid
 from pathlib import Path
+import re as _re
+def _aanhef(p):
+    a=(p.get("aanhef") or "").strip()
+    if a and a.lower() not in ("hoi,","hoi"): return a
+    b=p.get("bedrijf") or ""
+    for pat in (r"^([A-Za-zÀ-ÿ]+)'s\b", r"\bby ([A-Za-zÀ-ÿ]+)", r"(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$"):
+        m=_re.search(pat,b,_re.I)
+        if m:
+            n=m.group(1)
+            if not _re.match(r"^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$",n,_re.I):
+                return "Hoi %s,"%((n[:1].upper()+n[1:]) if len(n)>1 else b)
+    return "Hoi,"
+
 ROOT=Path("/root/klanten"); DATA=Path(os.environ.get("OUTREACH_DATA","/root/outreach-data"))
 if len(sys.argv)<3: print('Gebruik: send-one.py "<bedrijf>" <naar-adres>'); sys.exit(1)
 bedrijf=sys.argv[1]; to=sys.argv[2]
@@ -19,7 +32,7 @@ if not p: print("Prospect niet gevonden:",bedrijf); sys.exit(1)
 tpl=(ROOT/"_workflow/outreach/template-nl.txt").read_text()
 verb="\n".join("- "+v for v in (p.get("verbeteringen") or []))
 afm='Je krijgt dit bericht eenmalig omdat ik lokale ondernemers in de buurt help. Geen interesse? Eén woordje "nee" terug en je hoort nooit meer iets van me.'
-body=(tpl.replace("{{aanhef}}",p.get("aanhef") or "Hoi,").replace("{{compliment}}",p.get("compliment",""))
+body=(tpl.replace("{{aanhef}}",_aanhef(p)).replace("{{compliment}}",p.get("compliment",""))
         .replace("{{gratis_tip}}",p.get("gratis_tip","")).replace("{{bedrijf}}",bedrijf)
         .replace("{{demo_url}}",p.get("demo_url","")).replace("{{verbeteringen}}",verb)
         .replace("{{deadline}}",p.get("deadline","")).replace("{{afmelder}}",afm))

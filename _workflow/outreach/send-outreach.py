@@ -10,6 +10,19 @@ import json, csv, os, sys, ssl, smtplib, datetime, time
 from email.message import EmailMessage
 from email.utils import formatdate, make_msgid
 from pathlib import Path
+import re as _re
+def _aanhef(p):
+    a=(p.get("aanhef") or "").strip()
+    if a and a.lower() not in ("hoi,","hoi"): return a
+    b=p.get("bedrijf") or ""
+    for pat in (r"^([A-Za-zÀ-ÿ]+)'s\b", r"\bby ([A-Za-zÀ-ÿ]+)", r"(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$"):
+        m=_re.search(pat,b,_re.I)
+        if m:
+            n=m.group(1)
+            if not _re.match(r"^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$",n,_re.I):
+                return "Hoi %s,"%((n[:1].upper()+n[1:]) if len(n)>1 else b)
+    return "Hoi,"
+
 
 REPO_DIR  = Path(__file__).resolve().parent
 DATA_DIR  = Path(os.environ.get("OUTREACH_DATA", "/root/outreach-data"))
@@ -86,7 +99,7 @@ def main():
         afmelder = p.get("afmelder") or ("Je krijgt dit bericht eenmalig omdat ik lokale ondernemers in de buurt help. "
                    "Geen interesse? Eén woordje \"nee\" terug en je hoort nooit meer iets van me.")
         body = (template
-                .replace("{{aanhef}}",       p.get("aanhef") or "Hoi,")
+                .replace("{{aanhef}}",       _aanhef(p))
                 .replace("{{compliment}}",   p.get("compliment",""))
                 .replace("{{gratis_tip}}",   p.get("gratis_tip",""))
                 .replace("{{bedrijf}}",      p.get("bedrijf",""))

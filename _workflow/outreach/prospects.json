@@ -1,7 +1,7 @@
 [
  {
   "bedrijf": "Hondentrimsalon Scott",
-  "aanhef": "Hoi,",
+  "aanhef": "Hoi Scott,",
   "plaats": "Amsterdam Osdorp",
   "email": "",
   "status": "concept",
@@ -343,7 +343,7 @@
  },
  {
   "bedrijf": "Trimsalon Elite",
-  "aanhef": "Hoi,",
+  "aanhef": "Hoi Elite,",
   "plaats": "'s-Hertogenbosch",
   "email": "",
   "status": "afgewezen",
@@ -381,7 +381,7 @@
  },
  {
   "bedrijf": "Lynn's Trimsalon",
-  "aanhef": "Hoi,",
+  "aanhef": "Hoi Lynn,",
   "plaats": "Waalwijk",
   "email": "",
   "status": "afgewezen",
@@ -419,7 +419,7 @@
  },
  {
   "bedrijf": "Hondentrimsalon Oss",
-  "aanhef": "Hoi,",
+  "aanhef": "Hoi Oss,",
   "plaats": "Oss",
   "email": "",
   "status": "afgewezen",
@@ -595,7 +595,7 @@
  },
  {
   "bedrijf": "Nagelstudio SusaNails",
-  "aanhef": "Hoi,",
+  "aanhef": "Hoi SusaNails,",
   "plaats": "Helmond (Mierlo-Hout)",
   "email": "",
   "status": "concept",
@@ -612,7 +612,7 @@
  },
  {
   "bedrijf": "Schoonheidssalon Esthetika",
-  "aanhef": "Hoi,",
+  "aanhef": "Hoi Esthetika,",
   "plaats": "Helmond (Brandevoort)",
   "email": "",
   "status": "concept",
