@@ -882,11 +882,11 @@
   "niche": "Nagelstudio's",
   "regio": "Helmond e.o.",
   "plaats": "Helmond (Brouwhuis)",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://lachicanails.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: gebrekkig. Bezoekers krijgen nu een dikke beveiligingswaarschuwing in beeld voordat je site überhaupt laadt, omdat het beveiligingscertificaat niet klopt.",
+  "waarom": "Heeft goede moderne eigen website (lachicanails.nl).",
   "fouten": [
    "Website draait op een self-signed SSL-certificaat: browsers tonen een 'niet veilig'-waarschuwing",
    "Geen geldige HTTPS",
@@ -908,14 +908,14 @@
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://beautypoint-helmond.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: geen-site. Wie nu je webadres intikt, komt op een lege standaard hostingpagina terecht in plaats van een echte website.",
+  "waarom": "Domein toont lege placeholder (geen werkende site); leunt op social.",
   "fouten": [
-   "Domein toont alleen de standaard DirectAdmin-placeholderpagina ('Something amazing will be constructed here')",
-   "Geen inhoud, geen contactgegevens, geen openingstijden"
+   "Website is lege placeholder (kapot)",
+   "Geen online afspraak"
   ],
-  "contact": "Bel of app ons",
-  "bron": null,
-  "social": null,
+  "contact": "info@beautypointhelmond.nl",
+  "bron": "https://beautypointhelmond.nl",
+  "social": "FB Beauty Point Helmond · IG @beautypointnl_",
   "telefoon": "0492-521659",
   "land": "NL",
   "taal": "nl"
@@ -929,14 +929,14 @@
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://ymys-nagelstudio.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: alleen-social. Je bent online alleen via Facebook te vinden en hebt nog helemaal geen eigen website.",
+  "waarom": "Geen eigen website, alleen Facebook.",
   "fouten": [
-   "Geen eigen website, alleen een Facebook-pagina",
-   "Op Facebook geen zichtbare openingstijden, prijzen of telefoonnummer"
+   "Geen eigen website",
+   "Alleen Facebook"
   ],
   "contact": "Bel of app ons",
   "bron": null,
-  "social": null,
+  "social": "FB /nailshelmond",
   "telefoon": "06-34335388",
   "land": "NL",
   "taal": "nl"
@@ -950,17 +950,14 @@
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://espaco-mao-bella.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: verouderd. De prijslijst- en contactpagina werken niet meer en geven een foutmelding (404), dus klanten kunnen geen tarieven of contactgegevens vinden.",
+  "waarom": "Verouderde, deels kapotte http-site (geen HTTPS, /contact 404).",
   "fouten": [
-   "Verouderde, kale HTML-site met minimale opmaak",
-   "Geen online boeken",
-   "Geen geldige HTTPS (http://)",
-   "Prijslijst- en contactpagina geven een 404-foutmelding",
-   "Geen telefoonnummer/e-mail op de site"
+   "Verouderde site, geen HTTPS",
+   "Contactpagina 404"
   ],
   "contact": "Bel of app ons",
-  "bron": null,
-  "social": null,
+  "bron": "http://espacomaobella.nl",
+  "social": "FB /nagelstudio.espaco.mao.bella",
   "telefoon": "06-48272988",
   "land": "NL",
   "taal": "nl"
@@ -974,15 +971,14 @@
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://nagelstudio-jael.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: gebrekkig. Je 'website' is eigenlijk maar een kale Google-bedrijfspagina, geen volwaardige eigen site met je eigen uitstraling.",
+  "waarom": "Gratis Google-bedrijfssite (opgeheven door Google) — geen werkende eigen site.",
   "fouten": [
-   "Geen echte eigen website, alleen een automatisch gegenereerde Google Business-pagina (business.site)",
-   "Beperkte uitstraling, geen eigen merkbeleving",
-   "Geen online boeken"
+   "Geen werkende eigen website",
+   "Alleen social/directory"
   ],
   "contact": "0492-512855",
   "bron": null,
-  "social": null,
+  "social": "FB Nagelstudio JAËL",
   "telefoon": "0492-512855",
   "land": "NL",
   "taal": "nl"
@@ -996,16 +992,13 @@
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://op-mijn-mooist.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: verouderd. De site draait op een gedateerde standaard JouwWeb-template, zonder telefoonnummer of online afspraakmogelijkheid.",
+  "waarom": "Alleen een gratis JouwWeb-site.",
   "fouten": [
-   "Verouderde JouwWeb-template",
-   "Beperkt mobielvriendelijk",
-   "Geen online boeken",
-   "Geen telefoonnummer/e-mail op de pagina",
-   "Geen reviews"
+   "Gratis JouwWeb-bouwer",
+   "Geen online afspraak"
   ],
   "contact": "Bel of app ons",
-  "bron": null,
+  "bron": "https://opmijnmooist.jouwweb.nl",
   "social": null,
   "telefoon": "06-12988229",
   "land": "NL",
@@ -1020,17 +1013,14 @@
   "score": 3,
   "werkdag": "2026-06-13",
   "demo_url": "https://margarita-trendynails.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: gebrekkig. Je site oogt functioneel maar gedateerd en mist een veilige HTTPS-verbinding en zichtbare reviews.",
+  "waarom": "Eigen domein maar op gratis JouwWeb-bouwer.",
   "fouten": [
-   "Functionele maar weinig moderne uitstraling",
-   "Geen geldige HTTPS zichtbaar",
-   "Geen e-mailadres",
-   "Geen reviews op de site",
-   "Versnipperde openingstijden ogen rommelig"
+   "JouwWeb-bouwer",
+   "Geen e-mail"
   ],
-  "contact": "06-29035569",
-  "bron": null,
-  "social": null,
+  "contact": "WhatsApp 06-29035569",
+  "bron": "https://www.margarita-trendynails.nl",
+  "social": "IG @margarita_trendynails · FB",
   "telefoon": "06-29035569",
   "land": "NL",
   "taal": "nl"
@@ -1044,16 +1034,14 @@
   "score": 3,
   "werkdag": "2026-06-13",
   "demo_url": "https://susanails.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: verouderd. Er staat nergens een zichtbaar telefoonnummer en geen klantreviews, terwijl je juist een nagelstudio-award noemt.",
+  "waarom": "Eigen domein maar gratis Weebly-bouwer + privé e-mail.",
   "fouten": [
-   "Gedateerde uitstraling",
-   "Geen telefoonnummer/e-mail als tekst zichtbaar",
-   "Geen prijzen of openingstijden op de homepage",
-   "Geen reviews op de site (ondanks award-claim)"
+   "Weebly gratis-bouwer",
+   "Privé @live.com-mail"
   ],
-  "contact": "Bel of app ons",
-  "bron": null,
-  "social": null,
+  "contact": "susanails@live.com",
+  "bron": "https://www.susanails.nl",
+  "social": "IG @nagelstudio_susanails",
   "telefoon": null,
   "land": "NL",
   "taal": "nl"
@@ -1063,11 +1051,11 @@
   "niche": "Nagelstudio's",
   "regio": "Helmond e.o.",
   "plaats": "Helmond (Brandevoort)",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://esthetika-helmond.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: gebrekkig. Je website was bij controle gewoon onbereikbaar — bezoekers krijgen de site dan helemaal niet te zien.",
+  "waarom": "Heeft moderne eigen website (salonesthetika.nl, Squarespace).",
   "fouten": [
    "Website weigert de verbinding (onbereikbaar bij controle)",
    "Geen geldige HTTPS (http://)"
@@ -1088,11 +1076,10 @@
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://lady-d-nails.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: geen-site. Je hebt geen eigen website en zelfs je adres staat in verschillende gidsen verschillend vermeld.",
+  "waarom": "Geclaimd domein (ladydnails.nl) is dood; nauwelijks vindbaar.",
   "fouten": [
-   "Geen eigen website, alleen vermeldingen in directories",
-   "Tegenstrijdige adressen in directories",
-   "Geen telefoonnummer gevonden"
+   "Domein dood/offline",
+   "Nauwelijks online vindbaar"
   ],
   "contact": "Bel of app ons",
   "bron": null,
@@ -1110,15 +1097,15 @@
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://nagelsalon-anne.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: alleen-social. Er is geen eigen website, alleen Facebook, en in gidsen staan meerdere adressen door elkaar.",
+  "waarom": "Geclaimd domein (nagelsalonanne.nl) staat geparkeerd — geen echte site.",
   "fouten": [
-   "Geen eigen website, alleen Facebook en directory-vermeldingen",
-   "Meerdere 'Anne'-vermeldingen op verschillende adressen"
+   "Domein geparkeerd",
+   "Geen echte website"
   ],
   "contact": "Bel of app ons",
   "bron": null,
-  "social": null,
-  "telefoon": "0492-559960",
+  "social": "FB Salon Anne Helmond",
+  "telefoon": "06-12323529",
   "land": "NL",
   "taal": "nl"
  },
@@ -1127,11 +1114,11 @@
   "niche": "Nagelstudio's",
   "regio": "Helmond e.o.",
   "plaats": "Helmond",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://beautty-by-raerae.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: alleen-social. Je bent alleen via Instagram te vinden en hebt geen eigen website waar klanten je info terugvinden.",
+  "waarom": "Heeft website via Instagram (exacte handle nog handmatig te bevestigen).",
   "fouten": [
    "Geen eigen website, alleen Instagram",
    "Geen vindbare prijzen, openingstijden of telefoonnummer buiten Instagram"
@@ -1148,11 +1135,11 @@
   "niche": "Nagelstudio's",
   "regio": "Helmond e.o.",
   "plaats": "Geldrop",
-  "status": "demo",
+  "status": "afgewezen",
   "score": 3,
   "werkdag": "2026-06-13",
   "demo_url": "https://nagelstudio-marielle.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: verouderd. Je informatie staat verspreid over twee verschillende domeinnamen en de hoofdsite draait nog op een onbeveiligde http-verbinding.",
+  "waarom": "Heeft eigen website(s) (nagelstudio-marielle.nl + .com).",
   "fouten": [
    "Site op http:// (geen geldige HTTPS zichtbaar)",
    "Inhoud verspreid over twee losse domeinen (.nl én .com) — verwarrend voor vindbaarheid"
@@ -1173,14 +1160,14 @@
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://beyoutiful-melbis.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: alleen-social. Er is geen eigen website te vinden, alleen een vermelding in een nagelstudio-gids zonder verdere gegevens.",
+  "waarom": "Gratis Simpsite (geeft 404); leunt op Treatwell/social. KvK 61934194.",
   "fouten": [
-   "Geen eigen website, alleen directory-vermelding",
-   "Geen telefoonnummer, prijzen of openingstijden vindbaar"
+   "Gratis Simpsite (kapot/404)",
+   "Afhankelijk van Treatwell"
   ],
   "contact": "Bel of app ons",
   "bron": null,
-  "social": null,
+  "social": "IG @beyoutifulbymelbis · Treatwell",
   "telefoon": "06-10618054",
   "land": "NL",
   "taal": "nl"
@@ -1194,14 +1181,14 @@
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://blue-nagelstudio.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: alleen-social. Je bent alleen via een gidsvermelding te vinden; een eigen website ontbreekt.",
+  "waarom": "Geclaimd domein (bluenagelstudio.nl) is dood; alleen IG/FB. KvK 75521784.",
   "fouten": [
-   "Geen eigen website, alleen directory-vermelding",
-   "Wel online boeken genoemd in gids, maar geen eigen vindbare site"
+   "Domein dood",
+   "Alleen social"
   ],
   "contact": "Bel of app ons",
   "bron": null,
-  "social": null,
+  "social": "IG @blue_nagelstudio · FB",
   "telefoon": "06-51197252",
   "land": "NL",
   "taal": "nl"
@@ -1215,17 +1202,14 @@
   "score": 3,
   "werkdag": "2026-06-13",
   "demo_url": "https://nikis-nagelstudio.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: gebrekkig. Klanten kunnen op je site geen online afspraak maken en er staan geen openingstijden vermeld.",
+  "waarom": "Eigen WordPress-site maar verouderd (sinds 2023 niet bijgewerkt) → upgrade.",
   "fouten": [
-   "WordPress-site met gedateerde uitstraling",
-   "Geen online boeken",
-   "Geen e-mailadres",
-   "Geen openingstijden op de site",
-   "Geen prijzen met bedragen op de homepage"
+   "Verouderde site (2023)",
+   "Geen online afspraak"
   ],
   "contact": "06-15832332",
-  "bron": null,
-  "social": null,
+  "bron": "https://nikisnagelstudio.nl",
+  "social": "IG @nikisnagelstudio",
   "telefoon": "06-15832332",
   "land": "NL",
   "taal": "nl"
@@ -1239,10 +1223,10 @@
   "score": 5,
   "werkdag": "2026-06-13",
   "demo_url": "https://blitz-nails.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: alleen-social. Een eigen website ontbreekt volledig; je staat alleen in een nagelstudio-gids.",
+  "waarom": "Geen eigen website, nauwelijks online aanwezigheid.",
   "fouten": [
-   "Geen eigen website, alleen directory-vermelding",
-   "Geen telefoonnummer, prijzen of openingstijden vindbaar"
+   "Geen eigen website",
+   "Alleen directory"
   ],
   "contact": "Bel of app ons",
   "bron": null,
@@ -1260,14 +1244,13 @@
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://xm-beauty.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: alleen-social. Je hebt geen eigen website; klanten vinden alleen een kale adresvermelding in een gids.",
+  "waarom": "Eigen domein maar gratis JouwWeb-bouwer + Salonized.",
   "fouten": [
-   "Geen eigen website, alleen directory-vermelding",
-   "Geen telefoonnummer, prijzen of openingstijden vindbaar via de gids"
+   "JouwWeb-bouwer"
   ],
-  "contact": "Bel of app ons",
-  "bron": null,
-  "social": null,
+  "contact": "info@xmbeauty.nl",
+  "bron": "https://www.xmbeauty.nl",
+  "social": "IG @xmbeautygemert",
   "telefoon": "06-22170143",
   "land": "NL",
   "taal": "nl"
@@ -1281,14 +1264,14 @@
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://lindas-hair-nail.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: geen-site. Online vind je alleen een gidsvermelding terug; een eigen website is er niet.",
+  "waarom": "Geclaimd domein dood; alleen Facebook.",
   "fouten": [
-   "Geen eigen website, alleen een bedrijvengids-vermelding",
-   "Geen telefoonnummer, prijzen of openingstijden vindbaar"
+   "Domein dood",
+   "Alleen Facebook"
   ],
   "contact": "Bel of app ons",
   "bron": null,
-  "social": null,
+  "social": "FB Lindas hair & nail design",
   "telefoon": "06-14286882",
   "land": "NL",
   "taal": "nl"
@@ -1302,14 +1285,14 @@
   "score": 4,
   "werkdag": "2026-06-13",
   "demo_url": "https://everything-beauty.demo.brabantdigital.nl",
-  "waarom": "Webaanwezigheid: geen-site. Er is wel een telefoonnummer bekend, maar geen eigen website waar klanten meer informatie vinden.",
+  "waarom": "Geen eigen website, alleen Facebook + directory.",
   "fouten": [
-   "Geen eigen website, alleen een vermelding op nagelstudio-info.nl",
-   "Geen vindbare prijzen, openingstijden of reviews"
+   "Geen eigen website",
+   "Alleen Facebook"
   ],
   "contact": "06-18990636",
   "bron": null,
-  "social": null,
+  "social": "FB Nagelsalon Everything Beauty",
   "telefoon": "06-18990636",
   "land": "NL",
   "taal": "nl"
@@ -1341,12 +1324,12 @@
   "score": 5,
   "werkdag": "2026-06-14",
   "demo_url": "https://pedicuresalon-wijnands.demo.brabantdigital.nl",
-  "waarom": "Geen eigen website (alleen pedicure.nl). Medisch pedicure, diabetische voet, sinds 1997.",
+  "waarom": "Geen eigen website (alleen directory). KvK 17098010, sinds 1997.",
   "fouten": [
-   "Geen eigen website (alleen directory)",
-   "Geen online afspraak"
+   "Geen eigen website",
+   "Privé hotmail-mail"
   ],
-  "contact": "040-2545533",
+  "contact": "francienwijnands@hotmail.com",
   "bron": null,
   "social": null,
   "telefoon": "040-2545533",
@@ -1404,12 +1387,12 @@
   "score": 5,
   "werkdag": "2026-06-14",
   "demo_url": "https://karin-vrijsen-pedicure.demo.brabantdigital.nl",
-  "waarom": "Geen eigen website. Pedicure + voetreflex.",
+  "waarom": "Geen eigen website (de gevonden site was van José Hegge). Alleen directory + privé-mail.",
   "fouten": [
    "Geen eigen website",
-   "Geen online afspraak"
+   "Privé @live-mail"
   ],
-  "contact": "040-2548393",
+  "contact": "karin.vrijsen@live.nl",
   "bron": null,
   "social": null,
   "telefoon": "040-2548393",
@@ -1467,12 +1450,12 @@
   "score": 5,
   "werkdag": "2026-06-14",
   "demo_url": "https://angelas-voetverzorgingssalon.demo.brabantdigital.nl",
-  "waarom": "Geen eigen website. (Medische) pedicure.",
+  "waarom": "Geen eigen website, alleen directory + Gmail.",
   "fouten": [
    "Geen eigen website",
-   "Geen online afspraak"
+   "Gmail-adres"
   ],
-  "contact": "040-8443170",
+  "contact": "angelakerste@gmail.com",
   "bron": null,
   "social": null,
   "telefoon": "040-8443170",
@@ -1488,14 +1471,14 @@
   "score": 5,
   "werkdag": "2026-06-14",
   "demo_url": "https://pedicurepraktijk-anita-van-laarhoven.demo.brabantdigital.nl",
-  "waarom": "Zwakke gratis JouwWeb-site + Facebook — upgrade-kandidaat.",
+  "waarom": "Gratis JouwWeb-site (2 pagina's) + Facebook → upgrade. KvK 77307054.",
   "fouten": [
-   "Alleen gratis JouwWeb-site",
-   "Beperkte uitstraling"
+   "Gratis JouwWeb-site",
+   "Gmail-adres"
   ],
-  "contact": "06-13851451",
-  "bron": null,
-  "social": null,
+  "contact": "anitavanlaarhoven243@gmail.com",
+  "bron": "https://pedicurepraktijkanitavanlaarhoven.jouwweb.nl",
+  "social": "FB Pedicurepraktijk Anita van Laarhoven",
   "telefoon": "06-13851451",
   "land": "NL",
   "taal": "nl"
@@ -1509,13 +1492,13 @@
   "score": 5,
   "werkdag": "2026-06-14",
   "demo_url": "https://annette-van-den-brand.demo.brabantdigital.nl",
-  "waarom": "Goede Google-reviews maar geen eigen website.",
+  "waarom": "Eigen domein maar verouderde sitebuilder-site → upgrade. KvK 16074675.",
   "fouten": [
-   "Geen eigen website",
-   "Geen online afspraak"
+   "Verouderde sitebuilder-site",
+   "Gmail-adres"
   ],
-  "contact": "06-18801139",
-  "bron": null,
+  "contact": "pedicuresalonannettevndnbrand@gmail.com",
+  "bron": "https://www.pedicuresalonannettevandenbrand.nl",
   "social": null,
   "telefoon": "06-18801139",
   "land": "NL",
