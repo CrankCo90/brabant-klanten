@@ -798,6 +798,8 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
               <option value="stad">Stad</option>
               <option value="werkdag">Werkdag (nieuwste)</option>
               <option value="status">Status</option>
+              <option value="email">Met e-mail eerst</option>
+              <option value="whatsapp">Met WhatsApp eerst</option>
             </select>
           </div>
         </div>
@@ -1129,7 +1131,7 @@ function renderCharts(){
 function waNumber(p){var d=String(p||'').replace(/[^\d+]/g,'').replace(/^\+/,'');if(d.indexOf('00')===0)d=d.slice(2);if(d.indexOf('31')===0)return d;if(d.indexOf('0')===0)return '31'+d.slice(1);if(d.length>=9)return '31'+d;return d;}
 function waName(c){var b=c.n||'';var m=b.match(/^([A-Za-zÀ-ÿ]+)'s\b/)||b.match(/\bby ([A-Za-zÀ-ÿ]+)/i)||b.match(/(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$/i);if(m){var n=m[1];if(!/^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$/i.test(n))return n.length>1?n.charAt(0).toUpperCase()+n.slice(1):b;}return b;}
 function waGreet(c){var b=c.n||'';var m=b.match(/^([A-Za-zÀ-ÿ]+)'s\b/)||b.match(/\bby ([A-Za-zÀ-ÿ]+)/i)||b.match(/(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon|nails|grooming)\s+([A-Za-zÀ-ÿ]+)$/i);var nm=b;if(m){var n=m[1];if(!/^(nails?|beauty|design|nagel|hair|studio|hondjes|dog|grooming)$/i.test(n))nm=n.length>1?n.charAt(0).toUpperCase()+n.slice(1):b;}return (c.taal==='en'?'Hi ':'Hoi ')+nm+',';}
-function waText(c){if(c.wa)return c.wa;var demo=c.demo_url?('\n\n'+(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url))):'';if(c.taal==='en')return waGreet(c)+' I\u2019m Leroy from Brabant Digital — I build websites for local businesses. For '+c.n+' I already made a free example site. Mind if I show you?'+demo;return waGreet(c)+' ik ben Leroy van Brabant Digital — ik maak websites voor lokale ondernemers hier in de buurt. Voor '+c.n+' heb ik alvast (gratis) een voorbeeldsite gemaakt. Mag ik ’m je laten zien?'+demo;}
+function waText(c){if(c.wa)return c.wa;var demo=c.demo_url?('\n\n'+(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url))):'';if(mailDone(c)){if(c.taal==='en')return waGreet(c)+' I just sent you an email about a free example website for '+c.n+' — not sure if you saw it yet! Happy to show it here too:'+demo;return waGreet(c)+' ik had je net een mailtje gestuurd over een gratis voorbeeldsite voor '+c.n+' — niet zeker of je ’m al gezien had! Mag ik ’m hier ook even laten zien?'+demo;}if(c.taal==='en')return waGreet(c)+' I\u2019m Leroy from Brabant Digital — I build websites for local businesses. For '+c.n+' I already made a free example site. Mind if I show you?'+demo;return waGreet(c)+' ik ben Leroy van Brabant Digital — ik maak websites voor lokale ondernemers hier in de buurt. Voor '+c.n+' heb ik alvast (gratis) een voorbeeldsite gemaakt. Mag ik ’m je laten zien?'+demo;}
 function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIComponent(waText(c));}
 function renderWhatsapp(){var wrap=$("#waList");if(!wrap)return;
  var rows=CLIENTS.filter(function(c){return waNumber(c.phone)&&['prospect','demo','benaderd'].includes(c.st);}).sort(function(a,b){return (a.em?1:0)-(b.em?1:0)||b.score-a.score;});
@@ -1176,6 +1178,8 @@ function sortC(a){var r=[...a];
  if(sortBy==='stad')return r.sort(function(x,y){return x.city.localeCompare(y.city)||y.score-x.score;});
  if(sortBy==='status')return r.sort(function(x,y){return STATUS_ORDER.indexOf(x.st)-STATUS_ORDER.indexOf(y.st)||y.score-x.score;});
  if(sortBy==='werkdag')return r.sort(function(x,y){return (y.werkdag||'').localeCompare(x.werkdag||'')||y.score-x.score;});
+ if(sortBy==='email')return r.sort(function(x,y){return (y.em?1:0)-(x.em?1:0)||y.score-x.score;});
+ if(sortBy==='whatsapp')return r.sort(function(x,y){return (waNumber(y.phone)?1:0)-(waNumber(x.phone)?1:0)||y.score-x.score;});
  return r.sort(function(x,y){return y.score-x.score||x.n.localeCompare(y.n);});}
 function srcLinks(c){var out='';if(c.web)out+='<a class="link" href="'+(c.weburl||('https://'+c.web))+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">site ↗</a>';
  var q=encodeURIComponent(c.n+' '+c.city);out+=' <a class="link" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">zoek ↗</a>';return out;}
@@ -1185,6 +1189,7 @@ function rowActions(c){var b=[];
  else if(isArch(c)){}
  else{
    if(c.em){b.push(mailDone(c)?'<button class="qa done" disabled>✓ Gemaild</button>':'<button class="qa gold" data-act="mail" data-id="'+c.id+'">Mailen</button>');}else{b.push('<span class="qa muted">geen e-mail</span>');}
+   b.push('<button class="qa" data-act="testmail" data-id="'+c.id+'" title="Test-mail naar info@donzahandel.com + leroyb@home.nl">Test e-mail</button>');
    if(waNumber(c.phone)){b.push(waDone(c)?'<button class="qa done" disabled>✓ Geappt</button>':'<button class="qa wa" data-act="wa" data-id="'+c.id+'">WhatsApp</button>');}else{b.push('<span class="qa muted">geen tel</span>');}
    if(c.st==='benaderd'){b.push('<button class="qa win" data-act="won" data-id="'+c.id+'">Klant ✓</button>');}
  }
@@ -1195,6 +1200,7 @@ function doAction(act,id){var c=CLIENTS.find(function(x){return x.id==id;});if(!
  else if(act==='build'){if(!CT){toast('Verbind eerst (Instellingen).');return;}if(!confirm('Claude een demo laten (bij)bouwen voor '+c.n+'?'))return;toast('Claude bouwt de demo…');api('/claude','POST',{prompt:'Bouw of werk de demo bij voor '+c.bedrijf+' en publiceer; zet status op demo in dashboard/clients.json.'}).then(function(r){toast(r.error?('Fout: '+r.error):'Opdracht naar Claude gestuurd');setTimeout(boot,2500);});}
  else if(act==='call'){if(c.em){window.location.href='mailto:'+c.em;}else if(waNumber(c.phone)){window.open('tel:'+c.phone.replace(/[^0-9+]/g,''),'_self');}else{toast('Geen telefoon/e-mail bekend');}}
  else if(act==='won'){if(!CT){toast('Verbind eerst (Instellingen).');return;}if(!confirm(c.n+' markeren als KLANT (gekocht)?'))return;c.st='gekocht';renderKlanten();renderStats();api('/set-status','POST',{bedrijf:c.bedrijf,status:'ja'}).then(function(r){toast(r.error?('Fout: '+r.error):(c.n+' is nu klant 🎉'));setTimeout(boot,1000);});}
+ else if(act==='testmail'){if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}toast('Test-mail versturen…');Promise.all([api('/test-mail','POST',{prospect:c.bedrijf,to:'info@donzahandel.com'}),api('/test-mail','POST',{prospect:c.bedrijf,to:'leroyb@home.nl'})]).then(function(rs){var ok=rs.every(function(r){return r&&!r.error&&r.ok;});toast(ok?('Test-mail van '+c.n+' verstuurd naar info@donzahandel.com + leroyb@home.nl'):'Test-mail (deels) mislukt — check Instellingen/SMTP');});}
  else if(act==='follow'){go('whatsapp');toast('Opvolgen kan via de WhatsApp-wachtrij of per mail.');}}
 function rowHtml(c,showStatus){var loc=c.dist?c.city+' · '+c.dist:c.city;
  return '<div class="crow" data-id="'+c.id+'">'+nicheTile(c.nicheLabel,34)+
