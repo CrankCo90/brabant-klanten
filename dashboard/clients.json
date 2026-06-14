@@ -1331,5 +1331,71 @@
   "telefoon": null,
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicuresalon Annette van den Brand",
+  "niche": "Pedicures",
+  "regio": "Uden e.o.",
+  "plaats": "Uden",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-14",
+  "demo_url": "https://annette-van-den-brand.demo.brabantdigital.nl",
+  "waarom": "Goede Google-reviews (4,9 · 13) maar geen eigen website — Google toont zelfs 'Website toevoegen'. Sterke prospect.",
+  "fouten": [
+   "Geen eigen website (Google: 'Website toevoegen')",
+   "Alleen telefonisch/Google vindbaar",
+   "Geen online afspraak"
+  ],
+  "contact": "06-18801139",
+  "bron": null,
+  "social": null,
+  "telefoon": "06-18801139",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Sylvia Bots",
+  "niche": "Pedicures",
+  "regio": "Eindhoven",
+  "plaats": "Veldhoven",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-14",
+  "demo_url": "https://sylvia-bots.demo.brabantdigital.nl",
+  "waarom": "22 Google-reviews (4,5) maar geen eigen website — alleen een pedicure.nl-directorypagina.",
+  "fouten": [
+   "Geen eigen website — alleen een pedicure.nl-directorypagina",
+   "Geen online afspraak",
+   "Geen eigen vindbaarheid in Google"
+  ],
+  "contact": "040-2524774",
+  "bron": null,
+  "social": null,
+  "telefoon": "040-2524774",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicurepraktijk Veldhoven",
+  "niche": "Pedicures",
+  "regio": "Eindhoven",
+  "plaats": "Veldhoven",
+  "status": "demo",
+  "score": 5,
+  "werkdag": "2026-06-14",
+  "demo_url": "https://pedicurepraktijk-veldhoven.demo.brabantdigital.nl",
+  "waarom": "Reviews (4,9 · 7) maar geen eigen website — alleen pedicure.nl. Geen online afspraak/openingstijden.",
+  "fouten": [
+   "Geen eigen website — alleen pedicure.nl",
+   "Geen online afspraak",
+   "Geen openingstijden vindbaar"
+  ],
+  "contact": "06-25425645",
+  "bron": null,
+  "social": null,
+  "telefoon": "06-25425645",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

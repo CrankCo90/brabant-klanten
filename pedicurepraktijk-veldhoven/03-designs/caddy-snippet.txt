@@ -1,0 +1,5 @@
+pedicurepraktijk-veldhoven.demo.brabantdigital.nl {
+    root * /var/www/demos/pedicurepraktijk-veldhoven
+    file_server
+    encode gzip
+}

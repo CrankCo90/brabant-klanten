@@ -1,0 +1,5 @@
+annette-van-den-brand.demo.brabantdigital.nl {
+    root * /var/www/demos/annette-van-den-brand
+    file_server
+    encode gzip
+}
