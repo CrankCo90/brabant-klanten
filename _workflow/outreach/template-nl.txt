@@ -2,28 +2,22 @@
 
 {{compliment}}
 
-Eén ding wil ik je sowieso even laten weten, los van de rest van deze mail: {{gratis_tip}}
-
-Dan waarom ik schrijf. Ik ben Leroy van Brabant Digital en ik help lokale ondernemers aan een website die net zo professioneel oogt als hun werk. Jouw werk verdient een eigen, goed vindbare plek online. Daarom heb ik alvast iets gemaakt — geen schets, maar tien complete, werkende ontwerpen voor {{bedrijf}}, met jouw eigen teksten erin:
+Daarom schrijf ik je. Ik ben Leroy van Brabant Digital en ik maak websites voor lokale ondernemers hier in de buurt. Voor {{bedrijf}} heb ik er alvast één gemaakt — geen schets, maar een werkende voorbeeldsite die je nu meteen kunt bekijken:
 
 {{demo_url}}
 
-(Kijk gerust op je telefoon — daar zien de meeste klanten je toch.)
+Tip die je sowieso kunt gebruiken, ook als je verder niets met deze mail doet: {{gratis_tip}}
 
-Wat het je oplevert:
+Wat een eigen site je oplevert:
 {{verbeteringen}}
 
-En het is een startpunt, geen eindpunt: alle aanpassingen zijn inbegrepen. Andere kleur, jouw eigen foto's erin, stijlen combineren, een extra pagina — zeg het en ik maak het tot 100% jouw site.
+Je kunt alles laten aanpassen — je eigen foto's, andere kleuren, een extra pagina — tot het echt van jou is. Een afgemaakte site is normaal 499 euro; omdat ik net begin en graag een paar eerlijke reviews verzamel, is het nu 199 euro. Dat is eenmalig: geen abonnement, geen maandkosten, je zit nergens aan vast. De eerste maand pas ik kleine dingen kosteloos voor je aan.
 
-Wat kost dat? Normaal €499, maar Brabant Digital is net gestart: de eerste ondernemers krijgen meer dan de helft korting in ruil voor een eerlijke review. Voor jou is het €199 — en let op: dat is EENMALIG. Geen abonnement, geen maandelijkse kosten, je zit nergens aan vast. Daar zit je favoriete ontwerp volledig afgemaakt bij, het boekingssysteem ingesteld, én een maand lang gratis kleine aanpassingen zodat alles echt klopt. Hosting kan ik optioneel uit handen nemen (met 25% korting bij een jaar ineens), maar dat hoeft absoluut niet. Dit aanbod geldt t/m {{deadline}}.
+Klinkt het goed, of heb je een vraag? Antwoord gerust op deze mail, of app me op 085-0608471. En als het niets voor je is, hoor ik dat ook prima — dan haal ik de voorbeelden weer offline.
 
-Bevalt het niet? Ook prima — dan haal ik de voorbeelden offline, en heb je in elk geval die gratis tip eraan overgehouden. 😉
-
-Reageren kan op deze mail, of app me gerust: 085-0608471.
-
-Groetjes,
+Hartelijke groet,
 Leroy
-Brabant Digital · 085-0608471 · brabantdigital.nl
+Brabant Digital · brabantdigital.nl · 085-0608471
 
 —
 {{afmelder}}

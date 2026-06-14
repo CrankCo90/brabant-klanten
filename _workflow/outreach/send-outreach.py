@@ -8,6 +8,7 @@
 """
 import json, csv, os, sys, ssl, smtplib, datetime, time
 from email.message import EmailMessage
+from email.utils import formatdate, make_msgid
 from pathlib import Path
 
 REPO_DIR  = Path(__file__).resolve().parent
@@ -82,8 +83,8 @@ def main():
         if "@" not in email or email.lower() in done: continue
         verb = p.get("verbeteringen") or []
         verb_txt = "\n".join("- " + v for v in verb) if verb else "- Online afspraken, betere vindbaarheid in Google en een snelle, moderne uitstraling."
-        afmelder = p.get("afmelder") or ("U ontvangt deze mail eenmalig omdat u een lokale ondernemer bent zonder (goede) website. "
-                   "Geen interesse? Antwoord met \"nee\" en u hoort nooit meer iets van mij.")
+        afmelder = p.get("afmelder") or ("Je krijgt dit bericht eenmalig omdat ik lokale ondernemers in de buurt help. "
+                   "Geen interesse? Eén woordje \"nee\" terug en je hoort nooit meer iets van me.")
         body = (template
                 .replace("{{aanhef}}",       p.get("aanhef") or "Hoi,")
                 .replace("{{compliment}}",   p.get("compliment",""))
@@ -99,6 +100,9 @@ def main():
         msg["From"]     = f'{env["FROM_NAME"]} <{env["FROM_EMAIL"]}>'
         msg["To"]       = email
         msg["Reply-To"] = env["FROM_EMAIL"]
+        msg["Date"]       = formatdate(localtime=True)
+        msg["Message-ID"] = make_msgid(domain=(env["FROM_EMAIL"].split("@")[-1]))
+        msg["List-Unsubscribe"] = f'<mailto:{env["FROM_EMAIL"]}?subject=afmelden>'
         _intro=os.environ.get("OUTREACH_INTRO","").strip()
         if _intro: body=_intro+"\n\n"+body
         msg.set_content(body)

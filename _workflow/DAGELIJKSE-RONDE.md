@@ -28,10 +28,14 @@ Per gekozen prospect:
   werkdag (vandaag YYYY-MM-DD), demo_url:"https://<slug>.demo.brabantdigital.nl", waarom, fouten:[gevonden punten], contact,
   bron (de ORIGINELE website-URL waar je de info vandaan haalde, of null), social (link naar hun Facebook/Instagram, of null)}.
   → bron/social zijn belangrijk: in het dashboard kan ik daarmee met één klik de bronpagina terugzien.
-- Voeg toe aan `_workflow/outreach/prospects.json`: {bedrijf, aanhef:"Hoi <voornaam of leeg>,", plaats,
-  email (indien gevonden, anders ""), status: "klaar" als e-mail gevonden anders "concept",
-  demo_url, deadline:"", onderwerp, compliment, gratis_tip (de sterkste gevonden fout, natuurlijke zin),
-  verbeteringen:[5 punten, gelokaliseerd op plaats/niche]}.
+- Voeg toe aan `_workflow/outreach/prospects.json`: {bedrijf, aanhef, plaats, email (indien gevonden, anders ""),
+  status: "klaar" als e-mail gevonden anders "concept", demo_url, deadline:"", onderwerp, compliment, gratis_tip, verbeteringen}.
+  Schrijf de mailteksten WARM, PERSOONLIJK en KORT — alsof je een mede-ondernemer in de buurt een berichtje stuurt. Geen verkooppraat.
+  • aanhef: "Hoi <voornaam>," als je de eigenaar kent, anders "Hoi,". Nooit "Geachte".
+  • onderwerp: rustig en concreet, bv. "Ik heb alvast een website voor <bedrijf> gemaakt (kijk even mee)". Geen "GRATIS", geen uitroeptekens, geen "aanbieding".
+  • compliment: 2 zinnen die OPRECHT en SPECIFIEK over HÉN gaan — iets echt dat je zag (hun werk/foto's/reviews) + een zachte constatering dat ze een goede plek online verdienen. GEEN opsomming van wat er mis is, GEEN algemene verkoopzin.
+  • gratis_tip: één ECHT bruikbare, concrete tip die ze zélf meteen kunnen toepassen (bv. Google-bedrijfsprofiel claimen, klikbaar nummer in de bio, één duidelijke 'Afspraak maken'-knop). Het is een cadeautje, NIET een herhaling van hun fout.
+  • verbeteringen: 3 concrete voordelen, gelokaliseerd op plaats/niche (online boeken, vindbaar in Google op "<niche> <plaats>", foto's+reviews netjes op de telefoon). Hou het bij 3.
 Draai daarna: `python3 _workflow/generate-demo.py`
 
 ## 5. Vastleggen + publiceren (NIET mailen)
