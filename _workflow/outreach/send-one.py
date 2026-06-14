@@ -28,7 +28,6 @@ msg["Subject"]="[TEST] "+(p.get("onderwerp") or ("Websitevoorstel voor "+bedrijf
 msg["From"]=f'{env["FROM_NAME"]} <{env["FROM_EMAIL"]}>'; msg["To"]=to; msg["Reply-To"]=env["FROM_EMAIL"]
 msg["Date"]=formatdate(localtime=True)
 msg["Message-ID"]=make_msgid(domain=(env["FROM_EMAIL"].split("@")[-1]))
-msg["List-Unsubscribe"]=f'<mailto:{env["FROM_EMAIL"]}?subject=afmelden>'
 _intro=os.environ.get("OUTREACH_INTRO","").strip()
 if _intro: body=_intro+"\n\n"+body
 msg.set_content(body)
