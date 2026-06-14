@@ -2,6 +2,9 @@
 # Draait op de VPS via cron. Haalt de laatste versie op en publiceert elke klant
 # met een kiesdemo (03-designs/index.html) naar /var/www/demos/<klant>.
 set -euo pipefail
+# voorkom overlappende runs (veilig voor cron elke minuut)
+exec 9>/var/lock/bd-autodeploy.lock
+flock -n 9 || exit 0
 REPO_DIR="/root/klanten"
 WWW="/var/www/demos"
 CADDY="/etc/caddy/Caddyfile"
