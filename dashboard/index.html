@@ -716,6 +716,7 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
             <div class="fld"><label>Bedrijfsnaam</label><input class="inp" id="nc_bedrijf" required placeholder="bv. Hondentrimsalon Bello"></div>
             <div class="fld"><label>Niche</label><input class="inp" id="nc_niche" value="Hondentrimsalons"></div>
             <div class="fld"><label>Regio</label><input class="inp" id="nc_regio" placeholder="bv. Noord-Brabant"></div>
+            <div class="fld"><label>Telefoon (voor WhatsApp)</label><input class="inp" id="nc_tel" placeholder="bv. 06-12345678"></div>
             <div class="fld"><label>Website of social-link</label><input class="inp" id="nc_link" placeholder="https://"></div>
             <div class="fld full"><label>Notitie (optioneel)</label><textarea class="inp" id="nc_not" placeholder="Bijzonderheden…"></textarea></div>
             <div class="full"><button class="btn gold" style="width:100%;justify-content:center;padding:14px" type="submit">Aanmelden — Claude pakt het op</button></div>
@@ -863,7 +864,7 @@ function toClient(d,i){
  var label=d.niche||'Overig';
  return {id:i,bedrijf:d.bedrijf,n:d.bedrijf,city:cityOf(d),dist:distOf(d),region:d.regio||cityOf(d),
    nicheLabel:label,niche:nk(label),st:st,score:d.score||0,em:emailOf(d),es:esOf(d),
-   web:d.bron?stripProto(d.bron):null,social:d.social||null,phone:phoneOf(d),address:d.plaats||cityOf(d),
+   web:d.bron?stripProto(d.bron):null,social:d.social||null,phone:(d.telefoon||phoneOf(d)),address:d.plaats||cityOf(d),
    demo_url:d.demo_url||'',waarom:d.waarom||'',fouten:d.fouten||[],werkdag:d.werkdag||'',wa:d.wa_tekst||''};
 }
 function rebuild(){buildSent();CLIENTS=DATA.map(toClient);}
@@ -930,7 +931,7 @@ function renderWhatsapp(){var wrap=$("#waList");if(!wrap)return;
  var cnt=$("#waCount");if(cnt)cnt.textContent=rows.length+' met telefoonnummer';
  if(!rows.length){wrap.innerHTML='<div class="empty">Geen prospects met telefoonnummer in de wachtrij.</div>';return;}
  wrap.innerHTML=rows.map(function(c){var noemail=c.em?'':'<span class="badge b-geen">geen e-mail</span>';
-  return '<div class="warow" data-num="'+waNumber(c.phone)+'"><div class="wahead">'+nicheTile(c.nicheLabel,30)+'<div class="wameta"><div class="cn">'+c.n+'</div><div class="cl">'+(c.dist?c.city+' · '+c.dist:c.city)+' · '+c.phone+'</div></div><div class="rt">'+noemail+'<span class="badge '+STATUS[c.st].cls+'">'+STATUS[c.st].label+'</span></div></div><textarea class="inp wamsg">'+waText(c)+'</textarea><div class="waact"><a class="btn gold wa-open" target="_blank" rel="noopener">Open in WhatsApp ↗</a><button class="btn wa-done" data-b="'+encodeURIComponent(c.bedrijf)+'">Markeer als geappt</button></div></div>';}).join('');
+  return '<div class="warow" data-num="'+waNumber(c.phone)+'"><div class="wahead">'+nicheTile(c.nicheLabel,30)+'<div class="wameta"><div class="cn">'+c.n+'</div><div class="cl">'+(c.dist?c.city+' · '+c.dist:c.city)+' · '+c.phone+(waNumber(c.phone).indexOf('316')===0?'':' · <span class="muted">vast nr?</span>')+'</div></div><div class="rt">'+noemail+'<span class="badge '+STATUS[c.st].cls+'">'+STATUS[c.st].label+'</span></div></div><textarea class="inp wamsg">'+waText(c)+'</textarea><div class="waact"><a class="btn gold wa-open" target="_blank" rel="noopener">Open in WhatsApp ↗</a><button class="btn wa-done" data-b="'+encodeURIComponent(c.bedrijf)+'">Markeer als geappt</button></div></div>';}).join('');
  wrap.querySelectorAll('.warow').forEach(function(row){var num=row.dataset.num,ta=row.querySelector('.wamsg'),open=row.querySelector('.wa-open');function upd(){open.href='https://wa.me/'+num+'?text='+encodeURIComponent(ta.value);}upd();ta.addEventListener('input',upd);var done=row.querySelector('.wa-done');done.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}var b=decodeURIComponent(done.dataset.b);toast('Markeren als geappt…');api('/set-status','POST',{bedrijf:b,status:'benaderd'}).then(function(r){toast(r.error?('Fout: '+r.error):'Gemarkeerd als benaderd');setTimeout(boot,800);});});});
 }
 function renderActions(){
@@ -1022,7 +1023,7 @@ function bindUI(){
  // campagne
  var cs=$("#campaignSend");if(cs)cs.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}toast('Campagne inplannen…');api('/campaign','POST',{groep:$("#campGroep").value,sjabloon:$("#campSjabloon").value,intro:$("#campBericht").value,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):'Campagne ingepland');});});
  // nieuw
- var f=$("#addClientForm");if(f)f.addEventListener('submit',function(e){e.preventDefault();if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var p={bedrijf:$("#nc_bedrijf").value.trim(),niche:$("#nc_niche").value.trim(),regio:$("#nc_regio").value.trim(),link:$("#nc_link").value.trim(),notitie:$("#nc_not").value.trim()};if(!p.bedrijf){toast('Bedrijfsnaam is vereist');return;}toast('\''+p.bedrijf+'\' wordt verwerkt op de VPS…');api('/new-client','POST',p).then(function(r){toast(r.error?('Fout: '+r.error):'Aangemeld — Claude bouwt de demo');f.reset();setTimeout(boot,6000);});});
+ var f=$("#addClientForm");if(f)f.addEventListener('submit',function(e){e.preventDefault();if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var p={bedrijf:$("#nc_bedrijf").value.trim(),niche:$("#nc_niche").value.trim(),regio:$("#nc_regio").value.trim(),link:$("#nc_link").value.trim(),telefoon:($("#nc_tel")?$("#nc_tel").value.trim():""),notitie:$("#nc_not").value.trim()};if(!p.bedrijf){toast('Bedrijfsnaam is vereist');return;}toast('\''+p.bedrijf+'\' wordt verwerkt op de VPS…');api('/new-client','POST',p).then(function(r){toast(r.error?('Fout: '+r.error):'Aangemeld — Claude bouwt de demo');f.reset();setTimeout(boot,6000);});});
  // autopilot settings save
  var as=$("#saveAutopilot");if(as)as.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}api('/autopilot-settings','POST',{start:$("#apStart").value,stop:$("#apStop").value,dagen:$("#apDagen").value,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):'Instellingen opgeslagen');});});
  // instellingen control-token

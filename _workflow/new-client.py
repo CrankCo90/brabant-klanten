@@ -13,7 +13,7 @@ def main():
     bedrijf=(d.get("bedrijf") or "").strip()
     if not bedrijf: print("Geen bedrijfsnaam."); return 1
     niche=(d.get("niche") or "Onbekend").strip(); regio=(d.get("regio") or "").strip()
-    link=(d.get("link") or "").strip(); notitie=(d.get("notitie") or "").strip()
+    link=(d.get("link") or "").strip(); notitie=(d.get("notitie") or "").strip(); telefoon=(d.get("telefoon") or "").strip()
     sg=slug(bedrijf)
     sf=ROOT/"_workflow/salons-batch1.json"; S=json.loads(sf.read_text(encoding="utf-8"))
     if not any(x["slug"]==sg for x in S):
@@ -28,7 +28,7 @@ def main():
         C.append({"bedrijf":bedrijf,"niche":niche,"regio":regio,"plaats":regio,"status":"demo","score":0,
                   "werkdag":datetime.date.today().isoformat(),"demo_url":url,
                   "waarom":"Via dashboard aangemeld. "+notitie,"fouten":[],"contact":link,
-                  "bron":(link if link.lower().startswith("http") else None),"social":None})
+                  "bron":(link if link.lower().startswith("http") else None),"social":None,"telefoon":(telefoon or None)})
         cf.write_text(json.dumps(C,ensure_ascii=False,indent=1),encoding="utf-8")
     pf=ROOT/"_workflow/outreach/prospects.json"; P=json.loads(pf.read_text(encoding="utf-8"))
     if not any(p["bedrijf"]==bedrijf for p in P):

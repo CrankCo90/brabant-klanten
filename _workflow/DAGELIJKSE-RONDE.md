@@ -26,6 +26,7 @@ Per gekozen prospect:
 - Vul `"content"` als je het op hun site vond: {eigenaar, verhaal, specialisaties, certificering, tarieven, openingstijden, reviews}.
 - Voeg toe aan `dashboard/clients.json`: {bedrijf, niche, regio, plaats, status:"demo", score (1-5),
   werkdag (vandaag YYYY-MM-DD), demo_url:"https://<slug>.demo.brabantdigital.nl", waarom, fouten:[gevonden punten], contact,
+  telefoon (het mobiele/WhatsApp-nummer van het bedrijf, bv. "06-12345678" — zoek dit ACTIEF op, want het is cruciaal voor WhatsApp-benadering; null als echt niet te vinden),
   bron (de ORIGINELE website-URL waar je de info vandaan haalde, of null), social (link naar hun Facebook/Instagram, of null), wa_tekst (kort, persoonlijk WhatsApp-appje van 1-2 zinnen + de demo-link, vooral voor prospects mét telefoon zonder e-mail, of null)}.
   → bron/social zijn belangrijk: in het dashboard kan ik daarmee met één klik de bronpagina terugzien.
 - Voeg toe aan `_workflow/outreach/prospects.json`: {bedrijf, aanhef, plaats, email (indien gevonden, anders ""),
