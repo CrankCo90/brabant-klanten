@@ -61,6 +61,8 @@ class H(BaseHTTPRequestHandler):
             cap=int(body.get("cap",20)); sel=body.get("prospects") or []
             env={"OUTREACH_DATA":DATA,"OUTREACH_CAP":str(cap)}
             if sel: env["OUTREACH_ONLY"]="|".join(sel)
+            _intro=(body.get("intro") or "").strip()
+            if _intro: env["OUTREACH_INTRO"]=_intro
             rc,out=run("git pull -q; python3 _workflow/outreach/send-outreach.py",env)
             return self._s(200,{"ok":rc==0,"log":out})
         if self.path=="/api/deploy":
