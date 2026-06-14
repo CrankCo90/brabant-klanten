@@ -1370,5 +1370,254 @@
   "tel_display": "Bel of app ons",
   "tel_href": "#contact",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicuresalon Wijnands",
+  "kort": "Wijnands",
+  "slug": "pedicuresalon-wijnands",
+  "plaats": "Veldhoven",
+  "tel_display": "040-2545533",
+  "tel_href": "tel:+31402545533",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicuresalon Wijnands biedt al sinds 1997 vakkundige voetverzorging in Veldhoven: van een complete basispedicure tot medische voetzorg bij diabetes en reuma.",
+   "specialisaties": [
+    "Medische pedicure",
+    "Diabetische voet",
+    "Reumatische voet",
+    "Ambulant"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": [
+    {
+     "naam": "Manfred",
+     "tekst": "Goede service, vakkundig en netjes geholpen."
+    }
+   ]
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Ansbo",
+  "kort": "Ansbo",
+  "slug": "pedicure-ansbo",
+  "plaats": "Veldhoven",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicure Ansbo in Veldhoven staat voor rustige, persoonlijke voetverzorging met aandacht voor elke voet.",
+   "specialisaties": [
+    "Pedicure",
+    "Voetverzorging",
+    "Ambulant"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicurepraktijk Keijser",
+  "kort": "Keijser",
+  "slug": "pedicurepraktijk-keijser",
+  "plaats": "Veldhoven",
+  "tel_display": "06-16363138",
+  "tel_href": "tel:+31616363138",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicurepraktijk Keijser (Mariëlle Keijser) verzorgt uw voeten met geduld en compassie — ook aan huis.",
+   "specialisaties": [
+    "Pedicure",
+    "Ambulant",
+    "Voetverzorging"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Karin Vrijsen Pedicure",
+  "kort": "Karin Vrijsen",
+  "slug": "karin-vrijsen-pedicure",
+  "plaats": "Veldhoven",
+  "tel_display": "040-2548393",
+  "tel_href": "tel:+31402548393",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Bij Karin Vrijsen kunt u terecht voor pedicure en voetreflexologie in een rustige, toegankelijke praktijk.",
+   "specialisaties": [
+    "Pedicure",
+    "Voetreflexologie",
+    "Voetmassage"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure het Voetenmeisje",
+  "kort": "het Voetenmeisje",
+  "slug": "pedicure-het-voetenmeisje",
+  "plaats": "Veldhoven",
+  "tel_display": "06-46174859",
+  "tel_href": "tel:+31646174859",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicure het Voetenmeisje (Mareska Bons) is gespecialiseerd in risicovoeten: diabetes, reuma, oncologie. Uw voeten in goede handen.",
+   "specialisaties": [
+    "Medische pedicure",
+    "Diabetische voet",
+    "Reumatische voet",
+    "Oncologische voet"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicurepraktijk Balans",
+  "kort": "Balans",
+  "slug": "pedicurepraktijk-balans",
+  "plaats": "Veldhoven",
+  "tel_display": "040-8424402",
+  "tel_href": "tel:+31408424402",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicurepraktijk Balans verzorgt sinds 2007 voeten met aandacht en vakkennis in Veldhoven.",
+   "specialisaties": [
+    "Pedicure",
+    "Voetverzorging",
+    "Voetmassage"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Angela's Voetverzorgingssalon",
+  "kort": "Angela's",
+  "slug": "angelas-voetverzorgingssalon",
+  "plaats": "Veldhoven",
+  "tel_display": "040-8443170",
+  "tel_href": "tel:+31408443170",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Angela's Voetverzorgingssalon biedt (medische) pedicure in een toegankelijke praktijk in Veldhoven.",
+   "specialisaties": [
+    "Medische pedicure",
+    "Pedicure",
+    "Voetverzorging"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicurepraktijk Anita van Laarhoven",
+  "kort": "Anita van Laarhoven",
+  "slug": "pedicurepraktijk-anita-van-laarhoven",
+  "plaats": "Veldhoven",
+  "tel_display": "06-13851451",
+  "tel_href": "tel:+31613851451",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicurepraktijk Anita van Laarhoven verzorgt uw voeten persoonlijk en vakkundig in Veldhoven.",
+   "specialisaties": [
+    "Pedicure",
+    "Voetverzorging",
+    "Ambulant"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicuresalon Annette van den Brand",
+  "kort": "Annette",
+  "slug": "annette-van-den-brand",
+  "plaats": "Uden",
+  "tel_display": "06-18801139",
+  "tel_href": "tel:+31618801139",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicuresalon Annette van den Brand staat voor vakkundige, persoonlijke voetverzorging in Uden.",
+   "specialisaties": [
+    "Medische pedicure",
+    "Pedicure"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": [
+    {
+     "naam": "Riny",
+     "tekst": "Zeer professioneel, klantvriendelijk en goede uitleg van de behandelingen."
+    },
+    {
+     "naam": "Monique",
+     "tekst": "Zeer vakkundige en vriendelijke pedicure, met vol vertrouwen."
+    }
+   ]
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Sylvia Bots",
+  "kort": "Sylvia Bots",
+  "slug": "sylvia-bots",
+  "plaats": "Veldhoven",
+  "tel_display": "040-2524774",
+  "tel_href": "tel:+31402524774",
+  "niche": "pedicure",
+  "content": {
+   "verhaal": "Pedicure Sylvia Bots staat bekend om vakkundige, no-nonsense voetverzorging tegen een gunstig tarief.",
+   "specialisaties": [
+    "Pedicure",
+    "Voetverzorging"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "openingstijden": "Op afspraak",
+   "reviews": [
+    {
+     "naam": "Cindy",
+     "tekst": "Vakkundige pedicure, reageert snel en het tarief is gunstig."
+    }
+   ]
+  },
+  "taal": "nl"
  }
 ]
