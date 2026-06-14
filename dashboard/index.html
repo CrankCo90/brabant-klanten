@@ -1122,7 +1122,8 @@ function renderCharts(){
 
 /* ---------- Action list (outreach wachtrij) ---------- */
 function waNumber(p){var d=String(p||'').replace(/[^\d+]/g,'').replace(/^\+/,'');if(d.indexOf('00')===0)d=d.slice(2);if(d.indexOf('31')===0)return d;if(d.indexOf('0')===0)return '31'+d.slice(1);if(d.length>=9)return '31'+d;return d;}
-function waText(c){if(c.wa)return c.wa;var demo=c.demo_url?('\n\n'+(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url))):'';return 'Hoi! Ik ben Leroy van Brabant Digital — ik maak websites voor lokale ondernemers hier in de buurt. Voor '+c.n+' heb ik alvast (gratis) een voorbeeldsite gemaakt. Mag ik ’m je laten zien?'+demo;}
+function waName(c){var b=c.n||'';var m=b.match(/^([A-Za-zÀ-ÿ]+)'s\b/)||b.match(/\bby ([A-Za-zÀ-ÿ]+)/i)||b.match(/(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$/i);if(m){var n=m[1];if(!/^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$/i.test(n))return n.length>1?n.charAt(0).toUpperCase()+n.slice(1):b;}return b;}
+function waText(c){if(c.wa)return c.wa;var demo=c.demo_url?('\n\n'+(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url))):'';return 'Hoi '+waName(c)+', ik ben Leroy van Brabant Digital — ik maak websites voor lokale ondernemers hier in de buurt. Voor '+c.n+' heb ik alvast (gratis) een voorbeeldsite gemaakt. Mag ik ’m je laten zien?'+demo;}
 function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIComponent(waText(c));}
 function renderWhatsapp(){var wrap=$("#waList");if(!wrap)return;
  var rows=CLIENTS.filter(function(c){return waNumber(c.phone)&&['prospect','demo','benaderd'].includes(c.st);}).sort(function(a,b){return (a.em?1:0)-(b.em?1:0)||b.score-a.score;});
