@@ -1067,7 +1067,7 @@ function toClient(d,i){
  var label=d.niche||'Overig';
  return {id:i,bedrijf:d.bedrijf,n:d.bedrijf,city:cityOf(d),dist:distOf(d),region:d.regio||cityOf(d),
    nicheLabel:label,niche:nk(label),st:st,score:d.score||0,em:emailOf(d),es:esOf(d),
-   web:d.bron?stripProto(d.bron):null,social:d.social||null,phone:(d.telefoon||phoneOf(d)),address:d.plaats||cityOf(d),
+   web:d.bron?stripProto(d.bron):null,weburl:d.bron||'',social:d.social||null,phone:(d.telefoon||phoneOf(d)),address:d.plaats||cityOf(d),
    demo_url:d.demo_url||'',waarom:d.waarom||'',fouten:d.fouten||[],werkdag:d.werkdag||'',wa:d.wa_tekst||'',land:d.land||'NL',taal:d.taal||'nl'};
 }
 function rebuild(){buildSent();CLIENTS=DATA.map(toClient);}
@@ -1177,7 +1177,7 @@ function sortC(a){var r=[...a];
  if(sortBy==='status')return r.sort(function(x,y){return STATUS_ORDER.indexOf(x.st)-STATUS_ORDER.indexOf(y.st)||y.score-x.score;});
  if(sortBy==='werkdag')return r.sort(function(x,y){return (y.werkdag||'').localeCompare(x.werkdag||'')||y.score-x.score;});
  return r.sort(function(x,y){return y.score-x.score||x.n.localeCompare(y.n);});}
-function srcLinks(c){var out='';if(c.web)out+='<a class="link" href="https://'+c.web+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">site ↗</a>';
+function srcLinks(c){var out='';if(c.web)out+='<a class="link" href="'+(c.weburl||('https://'+c.web))+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">site ↗</a>';
  var q=encodeURIComponent(c.n+' '+c.city);out+=' <a class="link" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">zoek ↗</a>';return out;}
 function rowActions(c){var b=[];
  if(c.st==='prospect'&&!c.demo_url){b.push('<button class="qa gold" data-act="build" data-id="'+c.id+'">Bouw demo</button>');}
@@ -1274,13 +1274,13 @@ function renderKlantDetail(c){var d=buildDetail(c);var loc=c.dist?c.city+' · '+
  (c.em?'<a class="btn" href="mailto:'+c.em+'">E-mail</a>':'<button class="btn" data-toast="Geen e-mail — benader via bel/app">Geen e-mail</button>')+
  '</div></div>'+
  '<div class="detail-grid"><div class="detail-main">'+
- '<div class="panel"><div class="panel-head"><span class="panel-title">Webaanwezigheid</span>'+(c.web?'<a class="link" href="https://'+c.web+'" target="_blank" rel="noopener">'+c.web+' ↗</a>':'<span class="tag-empty">geen eigen website</span>')+'</div><div class="panel-body">'+(c.web?bframe('huidige website',c.web):'<div class="empty-web"><div class="empty-web-ic">!</div><div><b>Geen eigen website gevonden.</b><div class="muted">Alleen online vindbaar via een vermelding. Sterke kans voor een eigen site + online afspraken.</div></div></div>')+'</div></div>'+
+ '<div class="panel"><div class="panel-head"><span class="panel-title">Webaanwezigheid</span>'+(c.web?'<a class="link" href="'+(c.weburl||('https://'+c.web))+'" target="_blank" rel="noopener">'+c.web+' ↗</a>':'<span class="tag-empty">geen eigen website</span>')+'</div><div class="panel-body">'+(c.web?bframe('huidige website',(c.weburl||c.web)):'<div class="empty-web"><div class="empty-web-ic">!</div><div><b>Geen eigen website gevonden.</b><div class="muted">Alleen online vindbaar via een vermelding. Sterke kans voor een eigen site + online afspraken.</div></div></div>')+'</div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Demo van Brabant Digital</span>'+(d.demoReady?'<span class="dot-on">live</span>':'<span class="tag-empty">nog te bouwen</span>')+'</div><div class="panel-body">'+(d.demoReady?bframe('demo · '+c.n,d.demoUrl,'demo'):'<div class="empty-web"><div class="empty-web-ic">+</div><div><b>Nog geen demo.</b><div class="muted">Claude kan automatisch een demo bouwen.</div></div></div>')+(d.demoReady?'<div class="demo-foot"><span class="kv-v">'+d.demoUrl+'</span><a class="btn sm gold" href="https://'+d.demoUrl+'" target="_blank" rel="noopener">Openen ↗</a></div>':'')+'</div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Analyse <span class="amp">— waarom</span></span></div><div class="panel-body"><p class="analyse">'+d.why+'</p></div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Gevonden punten <span class="amp">/ pitch-tips</span></span></div><div class="panel-body"><ul class="tips">'+d.tips.map(function(t){return '<li>'+t+'</li>';}).join('')+'</ul></div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Activiteit</span></div><div class="panel-body"><div class="timeline">'+d.activity.map(function(a){return '<div class="tl-item '+a.tone+'"><span class="tl-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+(ACT_ICONS[a.ic]||ACT_ICONS.plus)+'</svg></span><div class="tl-body"><span class="tl-t">'+a.t+'</span><span class="tl-d">'+a.d+'</span></div></div>';}).join('')+'</div></div></div>'+
  '</div><div class="detail-side">'+
- '<div class="panel"><div class="panel-head"><span class="panel-title">Bedrijfsgegevens</span></div><div class="panel-body kvlist">'+kv('Niche',c.nicheLabel)+kv('Telefoon',c.phone)+kv('E-mail',c.em?'<a class="link" href="mailto:'+c.em+'">'+c.em+'</a>':'')+kv('Website',c.web?'<a class="link" href="https://'+c.web+'" target="_blank" rel="noopener">'+c.web+'</a>':'')+kv('Bron',srcLinks(c))+kv('Plaats',c.address)+kv('Regio',c.region)+'</div></div>'+
+ '<div class="panel"><div class="panel-head"><span class="panel-title">Bedrijfsgegevens</span></div><div class="panel-body kvlist">'+kv('Niche',c.nicheLabel)+kv('Telefoon',c.phone)+kv('E-mail',c.em?'<a class="link" href="mailto:'+c.em+'">'+c.em+'</a>':'')+kv('Website',c.web?'<a class="link" href="'+(c.weburl||('https://'+c.web))+'" target="_blank" rel="noopener">'+c.web+'</a>':'')+kv('Bron',srcLinks(c))+kv('Plaats',c.address)+kv('Regio',c.region)+'</div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Status &amp; opvolging</span></div><div class="panel-body"><label class="fld-label">Status wijzigen</label><div class="status-row"><select class="inp" id="detailStatus">'+statusOpts+'</select><button class="btn gold" id="saveStatus">Opslaan</button></div></div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Lead-score <span class="amp">opbouw</span></span></div><div class="panel-body"><div class="scorebars">'+d.breakdown.map(function(b){return '<div class="sb-row"><span class="sb-k">'+b.k+'</span><span class="sb-dots">'+[1,2,3,4,5].map(function(n){return '<i class="'+(n<=b.v?'on':'')+'"></i>';}).join('')+'</span></div>';}).join('')+'</div></div></div>'+
  '</div></div>';

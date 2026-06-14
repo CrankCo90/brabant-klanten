@@ -22,13 +22,14 @@ Verstuur GEEN enkele e-mail. Wees feitelijk; verzin geen reviews of gegevens.
 
 ## 4. Bouw de demo's (gebruik de bestaande generator)
 Per gekozen prospect:
-- Voeg toe aan `_workflow/salons-batch1.json`: {"bedrijf","kort","slug","plaats","tel_display","tel_href","taal"}  (taal "nl" of "en"; tel_display in die taal)
+- Voeg toe aan `_workflow/salons-batch1.json`: {"bedrijf","kort","slug","plaats","tel_display","tel_href","taal","fotos"}  (taal "nl"/"en"; tel_display in die taal;
+  fotos = lijst van ≥2 DIRECTE afbeeldings-URL's van hun eigen site/social die ECHT laden — controleer ze. Minder dan 2 bruikbare → laat "fotos" weg, dan gebruikt de generator AI-beelden. Eén losse afbeelding is meestal een logo → NIET als foto gebruiken.)
   (slug = kleine letters + koppeltekens; tel_href "tel:+31..." of "#contact").
 - Vul `"content"` als je het op hun site vond: {eigenaar, verhaal, specialisaties, certificering, tarieven, openingstijden, reviews}.
 - Voeg toe aan `dashboard/clients.json`: {bedrijf, niche, regio, plaats, status:"demo", score (1-5),
   werkdag (vandaag YYYY-MM-DD), demo_url:"https://<slug>.demo.brabantdigital.nl", waarom, fouten:[gevonden punten], contact,
   telefoon (het mobiele/WhatsApp-nummer van het bedrijf, bv. "06-12345678" — zoek dit ACTIEF op, want het is cruciaal voor WhatsApp-benadering; null als echt niet te vinden),
-  land ("NL" of bv. "US"), taal ("nl" of "en"), bron (de ORIGINELE website-URL, of null), social (link naar hun Facebook/Instagram, of null), wa_tekst (kort, persoonlijk WhatsApp-appje van 1-2 zinnen + de demo-link, vooral voor prospects mét telefoon zonder e-mail, of null)}.
+  land ("NL" of bv. "US"), taal ("nl" of "en"), bron (de WERKENDE, CANONIEKE website-URL — open 'm en volg redirects; sla de variant op die écht laadt in de browser, dus mét www en/of via http als dát de werkende is. TEST elke link voordat je 'm opslaat), social (link naar hun Facebook/Instagram, of null), wa_tekst (kort, persoonlijk WhatsApp-appje van 1-2 zinnen + de demo-link, vooral voor prospects mét telefoon zonder e-mail, of null)}.
   → bron/social zijn belangrijk: in het dashboard kan ik daarmee met één klik de bronpagina terugzien.
 - Voeg toe aan `_workflow/outreach/prospects.json`: {bedrijf, aanhef, plaats, email (indien gevonden, anders ""),
   status: "klaar" als e-mail gevonden anders "concept", demo_url, deadline:"", onderwerp, compliment, gratis_tip, verbeteringen}.
