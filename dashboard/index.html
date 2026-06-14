@@ -72,6 +72,19 @@ label.fld{display:block;font-size:.78rem;color:#8d887e;margin:0 0 6px}
 .clirow:hover{background:rgba(255,255,255,.03)}.clirow .nm{font-weight:500}.clirow .pl{font-size:.82rem;color:#8d887e}
 .psc{font-size:.7rem;color:#c9a96a;border:1px solid rgba(201,169,106,.3);border-radius:999px;padding:2px 8px;margin-left:auto}
 .grouph{font-family:'Playfair Display',serif;color:#c9a96a;border-bottom:1px solid rgba(201,169,106,.2);padding-bottom:8px;margin:18px 0 4px}
+.grouph .gc{font-family:Inter;font-size:.74rem;color:#8d887e;font-weight:400;background:rgba(201,169,106,.12);border-radius:999px;padding:2px 9px;margin-left:6px;vertical-align:middle}
+.segrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.segrow .cl{font-size:.78rem;color:#8d887e;margin-right:2px}
+.seg{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#c4bfb4;border-radius:8px;padding:7px 14px;font-size:.82rem;cursor:pointer}
+.seg.on{background:#c9a96a;color:#15151a;border-color:#c9a96a;font-weight:600}
+.rejtog{margin-left:auto;font-size:.8rem;color:#8d887e;display:flex;align-items:center;gap:7px;cursor:pointer}
+.chiprow{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.clirow .ci{flex:1;min-width:0}
+.links{display:inline-flex;gap:6px;vertical-align:middle}
+.clirow .psc{margin-left:0}
+.mini{font-size:.72rem;color:#9fb7d4;border:1px solid rgba(159,183,212,.3);border-radius:999px;padding:3px 9px;text-decoration:none;white-space:nowrap}
+.mini:hover{background:rgba(159,183,212,.12)}
+.mini.gold{color:#c9a96a;border-color:rgba(201,169,106,.4)}
 pre.log{background:#0f0f12;border:1px solid rgba(201,169,106,.2);border-radius:10px;padding:14px;margin-top:16px;max-height:320px;overflow:auto;font-size:.78rem;white-space:pre-wrap;color:#c4bfb4;display:none}
 .selrow{display:flex;gap:10px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(255,255,255,.06)}
 .bar{height:22px;background:linear-gradient(90deg,#c9a96a,#9c7a3f);border-radius:5px}
@@ -230,16 +243,32 @@ function renderTest(v){
    +'<button class="btn gold" id="st" style="margin-top:12px">Stuur test</button><pre class="log" id="log"></pre></div>';
   $("#st").onclick=function(){var to=$("#tt").value.trim();if(!to){alert("Vul een e-mailadres in.");return;}lg("Testkopie versturen...");api("/test-mail","POST",{prospect:$("#tp").value,to:to}).then(function(r){lg(r.log||r);});};
 }
+var KV={by:"werkdag",val:null,rej:false};
+function fmtDay(s){if(!s||!/^\d{4}-\d{2}-\d{2}/.test(s))return s||"—";var p=s.split("-");var mn=["jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"];return p[2]+" "+mn[+p[1]-1]+" "+p[0];}
+function esc(s){return String(s).replace(/"/g,"&quot;");}
+function keyOf(d){return KV.by==="status"?effStatus(d):(d[KV.by]||"—");}
+function labelOf(by,val){if(by==="werkdag")return fmtDay(val);if(by==="status"){var s=STATUS.find(function(x){return x[0]===val;});return s?s[1]:val;}return val;}
+function srcLinks(d){var out="";if(d.bron){out+='<a class="mini" href="'+d.bron+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">site ↗</a>';}var q=encodeURIComponent((d.bedrijf||"")+" "+(d.plaats||d.regio||""));out+='<a class="mini" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">zoek ↗</a>';if(d.demo_url){out+='<a class="mini gold" href="'+d.demo_url+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">demo ↗</a>';}return '<span class="links">'+out+'</span>';}
+function rowHtml(d){var st=effStatus(d),sn=STATUS.find(function(x){return x[0]===st;});return '<div class="clirow" data-route="klant/'+encodeURIComponent(d.bedrijf)+'"><div class="ci"><div class="nm">'+d.bedrijf+'</div><div class="pl">'+(d.plaats||d.regio||"")+'</div></div>'+srcLinks(d)+'<span class="psc">'+(d.score||0)+'</span><span class="badge s-'+st+'">'+(sn?sn[1]:st)+'</span></div>';}
 function renderKlanten(v){
-  v.innerHTML='<div class="row2" id="filters"></div><div id="clist"></div>';
-  var active=new Set(STATUS.map(function(s){return s[0];}));
-  function drawF(){$("#filters").innerHTML='<span style="font-size:.78rem;color:#8d887e;margin-right:4px">Status:</span>'+'<span class="chip '+(active.size===STATUS.length?"on":"")+'" data-f="all">Alle</span>'+STATUS.map(function(s){return '<span class="chip '+(active.has(s[0])?"on":"")+'" data-f="'+s[0]+'">'+s[1]+'</span>';}).join(' ');
-    document.querySelectorAll("[data-f]").forEach(function(c){c.onclick=function(){var f=c.dataset.f;if(f==="all"){active=new Set(STATUS.map(function(s){return s[0];}));}else{active=new Set([f]);}drawF();drawL();};});}
-  function drawL(){var rows=DATA.filter(function(d){return active.has(effStatus(d));});var niches=[...new Set(rows.map(function(d){return d.niche;}))];
-    $("#clist").innerHTML=niches.map(function(n){var items=rows.filter(function(d){return d.niche===n;});
-      return '<div class="grouph">'+n+' <span style="font-family:Inter;font-size:.78rem;color:#8d887e;font-weight:400">'+items.length+' klant(en)</span></div>'+items.map(function(d){var st=effStatus(d);var sn=STATUS.find(function(x){return x[0]===st;});
-        return '<div class="clirow" data-route="klant/'+encodeURIComponent(d.bedrijf)+'"><div><div class="nm">'+d.bedrijf+'</div><div class="pl">'+(d.plaats||d.regio||"")+'</div></div><span class="psc">score '+(d.score||0)+'</span><span class="badge s-'+st+'">'+(sn?sn[1]:st)+'</span></div>';}).join('');}).join('')||'<p class="lead">Geen klanten in deze selectie.</p>';}
-  drawF();drawL();
+  v.innerHTML='<div id="kctrl"></div><div id="clist"></div>';
+  function pool(){return DATA.filter(function(d){return KV.rej||effStatus(d)!=="afgewezen";});}
+  function values(){var set=[...new Set(pool().map(keyOf))];if(KV.by==="werkdag")set.sort().reverse();else if(KV.by==="status")set.sort(function(a,b){return STATUS.findIndex(function(x){return x[0]===a;})-STATUS.findIndex(function(x){return x[0]===b;});});else set.sort();return set;}
+  function drawC(){
+    var seg=[["werkdag","Per dag"],["niche","Per niche"],["status","Per status"]].map(function(s){return '<span class="seg '+(KV.by===s[0]?"on":"")+'" data-by="'+s[0]+'">'+s[1]+'</span>';}).join("");
+    var chips='<span class="chip '+(KV.val===null?"on":"")+'" data-v="__all">Alle ('+pool().length+')</span>'+values().map(function(x){var c=pool().filter(function(d){return keyOf(d)===x;}).length;return '<span class="chip '+(KV.val===x?"on":"")+'" data-v="'+esc(x)+'">'+labelOf(KV.by,x)+' ('+c+')</span>';}).join("");
+    var rejN=DATA.filter(function(d){return effStatus(d)==="afgewezen";}).length;
+    $("#kctrl").innerHTML='<div class="segrow"><span class="cl">Groepeer:</span>'+seg+'<label class="rejtog"><input type="checkbox" id="rejc" '+(KV.rej?"checked":"")+'> Toon “niet benaderen” ('+rejN+')</label></div><div class="chiprow">'+chips+'</div>';
+    document.querySelectorAll("[data-by]").forEach(function(e){e.onclick=function(){KV.by=e.dataset.by;KV.val=null;drawC();drawL();};});
+    document.querySelectorAll("[data-v]").forEach(function(e){e.onclick=function(){KV.val=e.dataset.v==="__all"?null:e.dataset.v;drawC();drawL();};});
+    $("#rejc").onchange=function(){KV.rej=this.checked;KV.val=null;drawC();drawL();};
+  }
+  function drawL(){
+    var rows=pool().filter(function(d){return KV.val===null||keyOf(d)===KV.val;});
+    var groups=values().filter(function(g){return KV.val===null||g===KV.val;});
+    $("#clist").innerHTML=groups.map(function(g){var items=rows.filter(function(d){return keyOf(d)===g;});if(!items.length)return "";items.sort(function(a,b){return (b.score||0)-(a.score||0);});return '<div class="grouph">'+labelOf(KV.by,g)+'<span class="gc">'+items.length+'</span></div>'+items.map(rowHtml).join("");}).join("")||'<p class="lead">Geen klanten in deze selectie.</p>';
+  }
+  drawC();drawL();
 }
 function renderKlant(v,bedrijf){var d=DATA.find(function(x){return x.bedrijf===bedrijf;});if(!d){v.innerHTML='<p class="lead">Klant niet gevonden.</p>';return;}
   var st=effStatus(d),sn=STATUS.find(function(x){return x[0]===st;});
@@ -249,7 +278,7 @@ function renderKlant(v,bedrijf){var d=DATA.find(function(x){return x.bedrijf===b
    +(d.waarom?'<p style="margin-bottom:12px"><b>Waarom:</b> '+d.waarom+'</p>':'')
    +((d.fouten&&d.fouten.length)?'<p><b>Gevonden punten / pitch-tips:</b></p><ul style="margin:6px 0 12px 18px">'+d.fouten.map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul>':'')
    +(d.contact?'<p style="margin-bottom:8px"><b>Contact:</b> '+d.contact+'</p>':'')
-   +(d.demo_url?'<p style="margin-bottom:16px"><a class="gold" href="'+d.demo_url+'" target="_blank">Demo openen ↗</a></p>':'')
+   +'<p style="margin-bottom:16px"><b>Bron:</b> '+srcLinks(d)+'</p>'
    +'<div class="row2"><label class="fld" style="margin:0">Status wijzigen</label><select class="in" id="sst" style="width:auto">'+STATUS.map(function(s){return '<option value="'+s[0]+'" '+(s[0]===d.status?"selected":"")+'>'+s[1]+'</option>';}).join('')+'</select><button class="btn gold" id="savest">Opslaan</button></div>'
    +'<pre class="log" id="log"></pre></div>';
   $("#savest").onclick=function(){if(!CT){alert("Verbind eerst (Instellingen).");return;}lg("Status opslaan...");api("/set-status","POST",{bedrijf:d.bedrijf,status:$("#sst").value}).then(function(r){lg(r.log||r);d.status=$("#sst").value;});};

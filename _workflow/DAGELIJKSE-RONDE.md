@@ -25,7 +25,9 @@ Per gekozen prospect:
   (slug = kleine letters + koppeltekens; tel_href "tel:+31..." of "#contact").
 - Vul `"content"` als je het op hun site vond: {eigenaar, verhaal, specialisaties, certificering, tarieven, openingstijden, reviews}.
 - Voeg toe aan `dashboard/clients.json`: {bedrijf, niche, regio, plaats, status:"demo", score (1-5),
-  werkdag (vandaag YYYY-MM-DD), demo_url:"https://<slug>.demo.brabantdigital.nl", waarom, fouten:[gevonden punten], contact}.
+  werkdag (vandaag YYYY-MM-DD), demo_url:"https://<slug>.demo.brabantdigital.nl", waarom, fouten:[gevonden punten], contact,
+  bron (de ORIGINELE website-URL waar je de info vandaan haalde, of null), social (link naar hun Facebook/Instagram, of null)}.
+  → bron/social zijn belangrijk: in het dashboard kan ik daarmee met één klik de bronpagina terugzien.
 - Voeg toe aan `_workflow/outreach/prospects.json`: {bedrijf, aanhef:"Hoi <voornaam of leeg>,", plaats,
   email (indien gevonden, anders ""), status: "klaar" als e-mail gevonden anders "concept",
   demo_url, deadline:"", onderwerp, compliment, gratis_tip (de sterkste gevonden fout, natuurlijke zin),

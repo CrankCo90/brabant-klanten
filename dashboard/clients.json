@@ -14,7 +14,9 @@
    "Adres-typefout in bio: 'Zupthenstraat' i.p.v. 'Zutphenstraat'",
    "Reviews verstopt achter 'klik link'"
   ],
-  "contact": "06-25548420 (e-mail nog nodig)"
+  "contact": "06-25548420 (e-mail nog nodig)",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon by Fem",
@@ -30,7 +32,9 @@
    "E-mailknop linkte naar .nu i.p.v. .nl",
    "Verouderde JouwWeb-site"
   ],
-  "contact": "info@trimsalonbyfem.nl"
+  "contact": "info@trimsalonbyfem.nl",
+  "bron": "https://trimsalonbyfem.nl",
+  "social": null
  },
  {
   "bedrijf": "Spa Dogs",
@@ -47,7 +51,9 @@
    "Geen eigen website — alleen Facebook",
    "Privé hotmail-adres als enige contact"
   ],
-  "contact": "nlcejwillemsen@hotmail.com · 06-16517900"
+  "contact": "nlcejwillemsen@hotmail.com · 06-16517900",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Agnes",
@@ -64,7 +70,9 @@
    "Geen eigen website",
    "Alleen telefoonboek/Yelp + privé hotmail"
   ],
-  "contact": "trimsalonagnes@hotmail.com · 06-10944891"
+  "contact": "trimsalonagnes@hotmail.com · 06-10944891",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Bemellow",
@@ -83,7 +91,9 @@
    "Niet mobielvriendelijk",
    "Geen online boeken"
   ],
-  "contact": "via Facebook/site (Angela van de Waardenburg)"
+  "contact": "via Facebook/site (Angela van de Waardenburg)",
+  "bron": null,
+  "social": "zoek"
  },
  {
   "bedrijf": "Hond & Welzijn",
@@ -103,7 +113,9 @@
    "Geen HTTPS",
    "Encoding-fout 'MenÃ¼'"
   ],
-  "contact": "info@hondenwelzijn.nl · 06-22969051"
+  "contact": "info@hondenwelzijn.nl · 06-22969051",
+  "bron": "https://hondenwelzijn.nl",
+  "social": null
  },
  {
   "bedrijf": "Tammy's Trimsalon",
@@ -122,7 +134,9 @@
    "Titel met fout backtick 'Tammy`s'",
    "Geen online boeken"
   ],
-  "contact": "via contactformulier op site"
+  "contact": "via contactformulier op site",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Bonita",
@@ -141,7 +155,9 @@
    "Mix NL/EN knoppen",
    "Geen online boeken"
   ],
-  "contact": "formulier@bonita-hondentrimsalon.nl · 06-12790153"
+  "contact": "formulier@bonita-hondentrimsalon.nl · 06-12790153",
+  "bron": "https://bonita-hondentrimsalon.nl",
+  "social": null
  },
  {
   "bedrijf": "Didi's Hondentrimsalon",
@@ -159,7 +175,9 @@
    "Dode Instagram-link",
    "Verouderd WordPress 5.5"
   ],
-  "contact": "didishondentrimsalon@gmail.com · 06-15282531"
+  "contact": "didishondentrimsalon@gmail.com · 06-15282531",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Peter Rijswijk",
@@ -178,7 +196,9 @@
    "Geen og:title (zwakke SEO)",
    "Geen online boeken"
   ],
-  "contact": "076-5719272"
+  "contact": "076-5719272",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Kwispel",
@@ -195,7 +215,9 @@
    "Alleen gratis 123website-subdomein (geen eigen domein)",
    "Zeer basale pagina"
   ],
-  "contact": "073-5218323 · Vliertwijksestraat 38A"
+  "contact": "073-5218323 · Vliertwijksestraat 38A",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Rox",
@@ -214,7 +236,9 @@
    "Weinig content",
    "Geen online boeken"
   ],
-  "contact": "via contactpagina (eigenaar Roxane)"
+  "contact": "via contactpagina (eigenaar Roxane)",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Wilma van der Meijs",
@@ -233,7 +257,9 @@
    "Geen prijzen / geen online boeken",
    "Verouderde .php-site"
   ],
-  "contact": "076-5497918 · 06-12232138 (geen e-mail; telefoon/Facebook)"
+  "contact": "076-5497918 · 06-12232138 (geen e-mail; telefoon/Facebook)",
+  "bron": null,
+  "social": "zoek"
  },
  {
   "bedrijf": "Het Knappe Snuitje",
@@ -251,7 +277,9 @@
    "og:image via http:// (niet veilig)",
    "Geen Instagram, alleen Facebook"
   ],
-  "contact": "via Facebook/contactpagina · Brakkenstraat 4"
+  "contact": "via Facebook/contactpagina · Brakkenstraat 4",
+  "bron": null,
+  "social": "zoek"
  },
  {
   "bedrijf": "Hondentrimsalon Does",
@@ -267,7 +295,9 @@
   "fouten": [
    "Geen eigen website (alleen Facebook)"
   ],
-  "contact": "FB HondentrimsalonDoes · Besterdplein 6"
+  "contact": "FB HondentrimsalonDoes · Besterdplein 6",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Dogsalon Mila",
@@ -285,7 +315,9 @@
    "Afspraak alleen via WhatsApp, geen agenda",
    "Zwakke SEO-title"
   ],
-  "contact": "WhatsApp 06-28382312 (Simone & Jasmijn)"
+  "contact": "WhatsApp 06-28382312 (Simone & Jasmijn)",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Van Kop tot Staart",
@@ -303,7 +335,9 @@
    "wp-login / 'Forgot password' zichtbaar op publieke pagina",
    "Content/foto's uit 2017-2018"
   ],
-  "contact": "renate@trimsalonhelmond.nl · 06-41651080"
+  "contact": "renate@trimsalonhelmond.nl · 06-41651080",
+  "bron": "https://trimsalonhelmond.nl",
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Eindhoven",
@@ -321,7 +355,9 @@
    "Verouderde/zwakke site",
    "'.eu'-domein"
   ],
-  "contact": "carla@trimsaloneindhoven.eu · 06-41329765"
+  "contact": "carla@trimsaloneindhoven.eu · 06-41329765",
+  "bron": "https://trimsaloneindhoven.eu",
+  "social": null
  },
  {
   "bedrijf": "Mooie Hondjes trimsalon",
@@ -338,7 +374,9 @@
    "Verouderde .php-site",
    "Nog te verifiëren"
   ],
-  "contact": "info@mooiehondjes.nl · 06-46348913"
+  "contact": "info@mooiehondjes.nl · 06-46348913",
+  "bron": "https://mooiehondjes.nl",
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Sunshine",
@@ -357,7 +395,9 @@
    "Verouderd WordPress",
    "Geen online boeken"
   ],
-  "contact": "info@trimsalonsunshine.nl · 06-20866339"
+  "contact": "info@trimsalonsunshine.nl · 06-20866339",
+  "bron": "https://trimsalonsunshine.nl",
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Elite",
@@ -374,7 +414,9 @@
    "Inhoud laadt leeg (JS-only)",
    "Nog te verifiëren"
   ],
-  "contact": "via site/Facebook · Karel Doormanstraat 27"
+  "contact": "via site/Facebook · Karel Doormanstraat 27",
+  "bron": null,
+  "social": "zoek"
  },
  {
   "bedrijf": "Just 4 Dogs",
@@ -392,7 +434,9 @@
    "Typefouten in tekst",
    "Contactpagina kapot — geen e-mail"
   ],
-  "contact": "06-16465335 (geen e-mail; telefoon/WhatsApp)"
+  "contact": "06-16465335 (geen e-mail; telefoon/WhatsApp)",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Lynn's Trimsalon",
@@ -409,7 +453,9 @@
    "Site laadt niet voor fetcher",
    "Nog te verifiëren"
   ],
-  "contact": "06-16522983 · Putstraat 66"
+  "contact": "06-16522983 · Putstraat 66",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Jokes trimsalon",
@@ -428,7 +474,9 @@
    "Geen vaste prijzen (alleen uurtarief €35)",
    "Geen online boeken"
   ],
-  "contact": "info@jokestrimsalon.nl · 06-11310207"
+  "contact": "info@jokestrimsalon.nl · 06-11310207",
+  "bron": "https://jokestrimsalon.nl",
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Oss",
@@ -445,7 +493,9 @@
    "Inhoud laadt leeg",
    "Beperkte openingsdagen (ma dicht)"
   ],
-  "contact": "via site/FB · Oude Kerkstraat 29"
+  "contact": "via site/FB · Oude Kerkstraat 29",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Doggroomer Eindhoven",
@@ -461,7 +511,9 @@
   "fouten": [
    "Nog te verifiëren in browser"
   ],
-  "contact": "via site"
+  "contact": "via site",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Studio Proud",
@@ -474,7 +526,9 @@
   "demo_url": "",
   "waarom": "Al sterke moderne site (webshop); trimmen is bijzaak.",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trendy Dog",
@@ -487,7 +541,9 @@
   "demo_url": "",
   "waarom": "Recente nette site (2025), alleen kleine typefout.",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Spots",
@@ -500,7 +556,9 @@
   "demo_url": "",
   "waarom": "Moderne nette site (2026).",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Nikki",
@@ -513,7 +571,9 @@
   "demo_url": "",
   "waarom": "Investeert al in SEO (meerdere landingspagina's).",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Limbo",
@@ -526,7 +586,9 @@
   "demo_url": "",
   "waarom": "Buiten doelregio (Venlo) en investeert al fors in SEO.",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Renate's Hondentrimsalon",
@@ -541,7 +603,9 @@
   "fouten": [
    "mailto-href wijst naar fout domein renatestrimsalon.nl (gratis tip)"
   ],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Doggies by Diana",
@@ -556,7 +620,9 @@
   "fouten": [
    "E-mail fout weergegeven: 'info@ doggiesbydiana.nI' (hoofdletter I + spatie)"
   ],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon Doggy Douche",
@@ -569,7 +635,9 @@
   "demo_url": "",
   "waarom": "Redelijk verzorgde multipage-site; geen duidelijke zwakte.",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Princenhage",
@@ -582,7 +650,9 @@
   "demo_url": "",
   "waarom": "Sterke moderne site (FB/Insta/TikTok); wachtlijst vol.",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Trimsalon @t-Lanta",
@@ -597,7 +667,9 @@
   "fouten": [
    "Veel kapotte foto-slots (Jimdo)"
   ],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "HondPro",
@@ -613,7 +685,9 @@
    "og:url op http://localhost",
    "WhatsApp-knop = placeholder wa.me/1234567890"
   ],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "HondenTrimsalon Tilburg (.com)",
@@ -629,7 +703,9 @@
    "Title-tag = ruwe contactstring",
    "Subpagina-titel 'My WordPress'"
   ],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Pet Styling Cecile",
@@ -642,7 +718,9 @@
   "demo_url": "",
   "waarom": "Heeft al website(s) (petstyling.nl/dogs2groom.nl).",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Furry Tails",
@@ -655,7 +733,9 @@
   "demo_url": "",
   "waarom": "Honden maar 1 dag/week = bijbaan-signaal.",
   "fouten": [],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Hondentrimsalon Sonja",
@@ -670,7 +750,9 @@
   "fouten": [
    "Geen eigen website"
   ],
-  "contact": ""
+  "contact": "",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "La Chica Nails",
@@ -687,7 +769,9 @@
    "Geen geldige HTTPS",
    "Site draait op http://"
   ],
-  "contact": "06-24547803"
+  "contact": "06-24547803",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Beauty Point Helmond",
@@ -703,7 +787,9 @@
    "Domein toont alleen de standaard DirectAdmin-placeholderpagina ('Something amazing will be constructed here')",
    "Geen inhoud, geen contactgegevens, geen openingstijden"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Ymy's nagelstudio",
@@ -719,7 +805,9 @@
    "Geen eigen website, alleen een Facebook-pagina",
    "Op Facebook geen zichtbare openingstijden, prijzen of telefoonnummer"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Espaço Mão Bella",
@@ -738,7 +826,9 @@
    "Prijslijst- en contactpagina geven een 404-foutmelding",
    "Geen telefoonnummer/e-mail op de site"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Nagelstudio JAËL",
@@ -755,7 +845,9 @@
    "Beperkte uitstraling, geen eigen merkbeleving",
    "Geen online boeken"
   ],
-  "contact": "0492-512855"
+  "contact": "0492-512855",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Op mijn mooist",
@@ -774,7 +866,9 @@
    "Geen telefoonnummer/e-mail op de pagina",
    "Geen reviews"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Margarita TrendyNails",
@@ -793,7 +887,9 @@
    "Geen reviews op de site",
    "Versnipperde openingstijden ogen rommelig"
   ],
-  "contact": "06-29035569"
+  "contact": "06-29035569",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Nagelstudio SusaNails",
@@ -811,7 +907,9 @@
    "Geen prijzen of openingstijden op de homepage",
    "Geen reviews op de site (ondanks award-claim)"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Schoonheidssalon Esthetika",
@@ -827,7 +925,9 @@
    "Website weigert de verbinding (onbereikbaar bij controle)",
    "Geen geldige HTTPS (http://)"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Lady D. Nails",
@@ -844,7 +944,9 @@
    "Tegenstrijdige adressen in directories",
    "Geen telefoonnummer gevonden"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Nagelsalon Anne",
@@ -860,7 +962,9 @@
    "Geen eigen website, alleen Facebook en directory-vermeldingen",
    "Meerdere 'Anne'-vermeldingen op verschillende adressen"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Beautty by RaeRae",
@@ -876,7 +980,9 @@
    "Geen eigen website, alleen Instagram",
    "Geen vindbare prijzen, openingstijden of telefoonnummer buiten Instagram"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Nagelstudio Mariëlle",
@@ -892,7 +998,9 @@
    "Site op http:// (geen geldige HTTPS zichtbaar)",
    "Inhoud verspreid over twee losse domeinen (.nl én .com) — verwarrend voor vindbaarheid"
   ],
-  "contact": "info@nagelstudio-marielle.nl"
+  "contact": "info@nagelstudio-marielle.nl",
+  "bron": "https://nagelstudio-marielle.nl",
+  "social": null
  },
  {
   "bedrijf": "Be.you.tiful by Melbis",
@@ -908,7 +1016,9 @@
    "Geen eigen website, alleen directory-vermelding",
    "Geen telefoonnummer, prijzen of openingstijden vindbaar"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Blue Nagelstudio",
@@ -924,7 +1034,9 @@
    "Geen eigen website, alleen directory-vermelding",
    "Wel online boeken genoemd in gids, maar geen eigen vindbare site"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Niki's Nagelstudio",
@@ -943,7 +1055,9 @@
    "Geen openingstijden op de site",
    "Geen prijzen met bedragen op de homepage"
   ],
-  "contact": "06-15832332"
+  "contact": "06-15832332",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Blitz Nails Nagelstudio",
@@ -959,7 +1073,9 @@
    "Geen eigen website, alleen directory-vermelding",
    "Geen telefoonnummer, prijzen of openingstijden vindbaar"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "XM Beauty",
@@ -975,7 +1091,9 @@
    "Geen eigen website, alleen directory-vermelding",
    "Geen telefoonnummer, prijzen of openingstijden vindbaar via de gids"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Linda's Hair & Nail Design",
@@ -991,7 +1109,9 @@
    "Geen eigen website, alleen een bedrijvengids-vermelding",
    "Geen telefoonnummer, prijzen of openingstijden vindbaar"
   ],
-  "contact": "Bel of app ons"
+  "contact": "Bel of app ons",
+  "bron": null,
+  "social": null
  },
  {
   "bedrijf": "Nagelsalon Everything Beauty",
@@ -1007,6 +1127,8 @@
    "Geen eigen website, alleen een vermelding op nagelstudio-info.nl",
    "Geen vindbare prijzen, openingstijden of reviews"
   ],
-  "contact": "06-18990636"
+  "contact": "06-18990636",
+  "bron": null,
+  "social": null
  }
 ]

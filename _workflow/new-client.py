@@ -27,7 +27,8 @@ def main():
     if not any(c["bedrijf"]==bedrijf for c in C):
         C.append({"bedrijf":bedrijf,"niche":niche,"regio":regio,"plaats":regio,"status":"demo","score":0,
                   "werkdag":datetime.date.today().isoformat(),"demo_url":url,
-                  "waarom":"Via dashboard aangemeld. "+notitie,"fouten":[],"contact":link})
+                  "waarom":"Via dashboard aangemeld. "+notitie,"fouten":[],"contact":link,
+                  "bron":(link if link.lower().startswith("http") else None),"social":None})
         cf.write_text(json.dumps(C,ensure_ascii=False,indent=1),encoding="utf-8")
     pf=ROOT/"_workflow/outreach/prospects.json"; P=json.loads(pf.read_text(encoding="utf-8"))
     if not any(p["bedrijf"]==bedrijf for p in P):
