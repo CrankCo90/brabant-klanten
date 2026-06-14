@@ -52,9 +52,13 @@ met een kosmische **themawisselaar** rechtsboven (Obsidian = standaard puur zwar
 Aurora = smaragd, Royal = melkweg-goud); keuze wordt onthouden.
 - **Overzicht:** 5 stat-cards + status-donut + balken per regio (live uit de data).
 - **Klanten = actie-bord:** een "To-do"-balk bovenaan — **Te doen** (X versturen · Y bouwen) staat
-  standaard aan; **Benaderd** apart; daarnaast **Klanten** (gekocht) en **Archief**. Per rij
-  **quick-acties** (Verstuur demo / Bouw demo / Klant ✓ / Mail-Bel) die echt via de VPS lopen,
-  met een bevestiging vooraf. Niche-chips + sorteren werken. Klik op een rij = detailpagina.
+  standaard aan; **Benaderd** apart; daarnaast **Klanten** (gekocht) en **Archief**. Per rij staan
+  **twee kanaal-knoppen**: **Mailen** (verstuurt echt via de VPS, met bevestiging) en **WhatsApp**
+  (opent je Business-app met de tekst klaar; jij verstuurt zelf). Zodra een kanaal gedaan is wordt
+  de knop **✓ Gemaild** / **✓ Geappt**. Een klant blijft in **Te doen** tot ALLE beschikbare kanalen
+  gedaan zijn en schuift dan door naar **Benaderd**; "geen e-mail"/"geen tel" telt niet mee. De
+  WhatsApp-status wordt in de browser onthouden (localStorage). Prospects zonder demo tonen "Bouw demo".
+  Niche-chips + sorteren werken. Klik op een rij = detailpagina.
 - **Detailpagina:** live **snapshots** van de huidige site én de demo (WordPress mShots), analyse
   ("waarom"), pitch-tips ("fouten"), bron-links (site/zoek), bedrijfsgegevens, status wijzigen
   (slaat echt op via VPS), lead-score-opbouw, en knoppen Bel/Mail/WhatsApp.
@@ -137,6 +141,9 @@ Aurora = smaragd, Royal = melkweg-goud); keuze wordt onthouden.
 4. 5 klanten zonder telefoonnummer (Instagram-only) — daar is WhatsApp niet mogelijk; eventueel via
    Instagram/Facebook-DM.
 5. Controleer of **autopilot uit** staat als je nog niet automatisch wilt mailen.
+6. Mail-/WhatsApp-historie van vóór de kanaal-vinkjes is niet geregistreerd; eerder benaderde klanten
+   kunnen weer als "te doen" verschijnen. Vanaf nu wordt elk verstuurd kanaal bijgehouden
+   (mail via de sent-log op de VPS, WhatsApp via de browser-localStorage).
 
 ## 13. Veelgebruikte commando's (op de VPS)
 ```bash
@@ -159,4 +166,5 @@ cd /root/klanten && OUTREACH_DATA=/root/outreach-data python3 _workflow/outreach
 - WhatsApp-benadering toegevoegd als compliant "klik-om-te-sturen" wachtrij (geen auto-blast).
 - Telefoonnummers verzameld en geverifieerd (56/61).
 - Meertaligheid ingebouwd (NL/EN), demo's bouwen in de taal van de klant.
+- Actie-bord gemaakt: Mailen + WhatsApp per rij met ✓-vinkje per kanaal; klant blijft in 'Te doen' tot beide kanalen gedaan zijn.
 - Werkwijze: dashboardwijzigingen worden vóór publiceren in een nagebootste browser (jsdom) getest.
