@@ -1,0 +1,9 @@
+# Klanten die NOOIT gepubliceerd mogen worden (1 map-slug per regel).
+# vps-autodeploy.sh slaat deze over en haalt een eventueel al-live exemplaar offline.
+# Regel weghalen = klant mag weer gedeployed worden. Regels met # worden genegeerd.
+doggroomer
+mooie-hondjes
+trimsalon-elite
+trimsalon-oss
+just4dogs
+lynns

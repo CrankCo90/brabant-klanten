@@ -1,0 +1,36 @@
+{
+  "niche": "nail",
+  "bron": "(specifiek)",
+  "rijen": [
+    {
+      "dag": "Maandag",
+      "day": "Monday",
+      "tijd": "10–15 / 20–21:30",
+      "time": "10–15 / 20–21:30"
+    },
+    {
+      "dag": "Di & Do",
+      "day": "Tue & Thu",
+      "tijd": "09–15 / 20–21:30",
+      "time": "09–15 / 20–21:30"
+    },
+    {
+      "dag": "Woensdag",
+      "day": "Wednesday",
+      "tijd": "09:00 – 21:30",
+      "time": "09:00 – 21:30"
+    },
+    {
+      "dag": "Vrijdag",
+      "day": "Friday",
+      "tijd": "09:00 – 12:00",
+      "time": "09:00 – 12:00"
+    },
+    {
+      "dag": "Za & Zo",
+      "day": "Sat & Sun",
+      "tijd": "Gesloten",
+      "time": "Closed"
+    }
+  ]
+}

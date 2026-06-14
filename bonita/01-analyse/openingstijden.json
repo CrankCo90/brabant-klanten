@@ -1,0 +1,24 @@
+{
+  "niche": "hond",
+  "bron": "(specifiek)",
+  "rijen": [
+    {
+      "dag": "Ma – Vr",
+      "day": "Mon – Fri",
+      "tijd": "09:00 – 21:00",
+      "time": "09:00 – 21:00"
+    },
+    {
+      "dag": "Zaterdag",
+      "day": "Saturday",
+      "tijd": "09:00 – 15:00",
+      "time": "09:00 – 15:00"
+    },
+    {
+      "dag": "Zondag",
+      "day": "Sunday",
+      "tijd": "Gesloten",
+      "time": "Closed"
+    }
+  ]
+}

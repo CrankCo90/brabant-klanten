@@ -7,6 +7,23 @@
 Pro4Never (Brabant Digital) maakt statische demo-websites voor lokale ondernemers,
 zet ze live op een VPS, en pitcht ze. Doel: klant koopt website + maandelijkse hosting/onderhoud.
 
+## Werkwijze & communicatie met Pro4Never (VASTE AFSPRAAK — altijd volgen)
+- **Commando's ALTIJD één-voor-één aanleveren**, elk in een EIGEN codeblok. Nooit meerdere
+  commando's in één blok of als één groot overzicht — Pro4Never plakt een blok in z'n geheel
+  en zou anders alles als één commando uitvoeren.
+- **Leg bij ELK commando uit wat het doet** (één korte zin vóór het codeblok). Geen kale
+  commando's zonder uitleg.
+- Eén logische actie = één codeblok (een `for`-lus die in één keer hoort te draaien mag samen).
+  Combineer geen losse stappen met `&&` als ze ook apart kunnen.
+- Waar de uitkomst van een stap de volgende beïnvloedt: geef de stap, laat Pro4Never 'm draaien
+  en de output terugkoppelen, geef dan pas de volgende.
+- **Benoem bij ELK commando expliciet in WELKE terminal het moet draaien:** ofwel
+  "**PC-terminal**" (PowerShell op de pc van Pro4Never) ofwel "**VPS-terminal**" (SSH/bash op de
+  VPS, `root@...:~/klanten`). Nooit een commando geven zonder de terminal te benoemen.
+- Pro4Never draait commando's vaak in de **VPS bash-shell**, niet in PowerShell op de pc.
+  Geef bash-commando's voor de VPS, tenzij expliciet anders gevraagd.
+- Feedback van Pro4Never over werkwijze → hier vastleggen zodat het tussen sessies bewaard blijft.
+
 ## Stack & vaste feiten
 - **Hosting:** VPS `93.190.187.213`, webserver **Caddy** (HTTPS automatisch).
 - **Demo-URL per klant:** `KLANT.demo.brabantdigital.nl` (wildcard `*.demo` staat al in DNS).
@@ -22,6 +39,10 @@ sudo chmod -R a+rX /var/www/demos/KLANT          # na élke upload
 sudo systemctl reload caddy
 ```
 Demo weghalen: `rm -rf /var/www/demos/KLANT` + Caddy-blok weg + reload.
+
+**Afgewezen klanten NOOIT deployen:** zet de map-slug in `_workflow/niet-deployen.txt`
+(1 per regel). `vps-autodeploy.sh` slaat die klanten over én haalt een al-live exemplaar
+automatisch offline. Regel weghalen = klant mag weer live.
 
 ## Autonomie-afspraken (door Pro4Never vastgesteld)
 - **Mag automatisch, zonder te vragen:** demo's bouwen/bewerken, live zetten, Caddy beheren, demo's verwijderen.

@@ -6,6 +6,7 @@ REPO_DIR="/root/klanten"
 WWW="/var/www/demos"
 CADDY="/etc/caddy/Caddyfile"
 SUFFIX="demo.brabantdigital.nl"
+SKIP_FILE="$REPO_DIR/_workflow/niet-deployen.txt"   # 1 klant-slug per regel = nooit publiceren
 LOG="$REPO_DIR/_workflow/logs/autodeploy.log"
 mkdir -p "$(dirname "$LOG")"
 cd "$REPO_DIR"
@@ -21,6 +22,15 @@ for d in */ ; do
   klant="${d%/}"
   src="$REPO_DIR/$klant/03-designs"
   [ -f "$src/index.html" ] || continue          # alleen klanten met een kiesdemo
+  # Afgewezen klanten: niet publiceren, en al-live exemplaar offline halen
+  if [ -f "$SKIP_FILE" ] && grep -qxF "$klant" "$SKIP_FILE"; then
+    if [ -d "$WWW/$klant" ]; then
+      rm -rf "$WWW/$klant"
+      changed=1
+      echo "$(date '+%F %T') afgewezen → offline gehaald: $klant" >>"$LOG"
+    fi
+    continue
+  fi
   dest="$WWW/$klant"
   mkdir -p "$dest"
   rsync -a --delete \
