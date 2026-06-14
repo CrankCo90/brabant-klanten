@@ -1361,5 +1361,14 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon dogs demi",
+  "kort": "dogs demi",
+  "slug": "trimsalon-dogs-demi",
+  "plaats": "Rosmalen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "taal": "nl"
  }
 ]

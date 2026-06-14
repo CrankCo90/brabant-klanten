@@ -1313,5 +1313,23 @@
   "telefoon": "06-18990636",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon dogs demi",
+  "niche": "Hondentrimsalons",
+  "regio": "Rosmalen",
+  "plaats": "Rosmalen",
+  "status": "demo",
+  "score": 0,
+  "werkdag": "2026-06-14",
+  "demo_url": "https://trimsalon-dogs-demi.demo.brabantdigital.nl",
+  "waarom": "Via dashboard aangemeld. ",
+  "fouten": [],
+  "contact": "https://www.trimsalondogsdemi.com/foto-s/",
+  "bron": "https://www.trimsalondogsdemi.com/foto-s/",
+  "social": null,
+  "telefoon": null,
+  "land": "NL",
+  "taal": "nl"
  }
 ]
