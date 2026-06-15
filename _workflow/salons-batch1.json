@@ -463,8 +463,8 @@
   "kort": "Wilma",
   "slug": "wilma-van-der-meijs",
   "plaats": "Breda",
-  "tel_display": "076-5497918",
-  "tel_href": "tel:+31765497918",
+  "tel_display": "06-12232138",
+  "tel_href": "tel:+31612232138",
   "fotos": [
    "https://www.honden-trimsalon.eu/images/trimsalon%20wilma%20van%20der%20meijs.jpg"
   ],
@@ -1452,29 +1452,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Pedicurepraktijk Balans",
-  "kort": "Balans",
-  "slug": "pedicurepraktijk-balans",
-  "plaats": "Veldhoven",
-  "tel_display": "040-8424402",
-  "tel_href": "tel:+31408424402",
-  "niche": "pedicure",
-  "content": {
-   "verhaal": "Pedicurepraktijk Balans verzorgt sinds 2007 voeten met aandacht en vakkennis in Veldhoven.",
-   "specialisaties": [
-    "Pedicure",
-    "Voetverzorging",
-    "Voetmassage"
-   ],
-   "certificering": [
-    "Gediplomeerd"
-   ],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Angela's Voetverzorgingssalon",
   "kort": "Angela's",
   "slug": "angelas-voetverzorgingssalon",
@@ -1546,33 +1523,6 @@
     {
      "naam": "Monique",
      "tekst": "Zeer vakkundige en vriendelijke pedicure, met vol vertrouwen."
-    }
-   ]
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Pedicure Sylvia Bots",
-  "kort": "Sylvia Bots",
-  "slug": "sylvia-bots",
-  "plaats": "Veldhoven",
-  "tel_display": "040-2524774",
-  "tel_href": "tel:+31402524774",
-  "niche": "pedicure",
-  "content": {
-   "verhaal": "Pedicure Sylvia Bots staat bekend om vakkundige, no-nonsense voetverzorging tegen een gunstig tarief.",
-   "specialisaties": [
-    "Pedicure",
-    "Voetverzorging"
-   ],
-   "certificering": [
-    "Gediplomeerd"
-   ],
-   "openingstijden": "Op afspraak",
-   "reviews": [
-    {
-     "naam": "Cindy",
-     "tekst": "Vakkundige pedicure, reageert snel en het tarief is gunstig."
     }
    ]
   },
@@ -1678,8 +1628,8 @@
   "kort": "Jopie Dierkx",
   "slug": "pedicure-jopie-dierkx",
   "plaats": "Eindhoven",
-  "tel_display": "040-2452070",
-  "tel_href": "tel:+31402452070",
+  "tel_display": "06-24498994",
+  "tel_href": "tel:+31624498994",
   "niche": "pedicure",
   "content": {
    "eigenaar": "",
@@ -1788,44 +1738,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "PedicureSalon Ingrid (Sporen-vd Meerakker)",
-  "kort": "Ingrid",
-  "slug": "pedicuresalon-ingrid",
-  "plaats": "Waalre",
-  "tel_display": "040-2217637",
-  "tel_href": "tel:+31402217637",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Pedicurepraktijk Scheepens-van der Aalst",
-  "kort": "Scheepens-van der Aalst",
-  "slug": "pedicurepraktijk-scheepens-van-der-aalst",
-  "plaats": "Waalre",
-  "tel_display": "040-2214431",
-  "tel_href": "tel:+31402214431",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Annette van Tiggelen",
   "kort": "Annette van Tiggelen",
   "slug": "annette-van-tiggelen",
@@ -1889,44 +1801,6 @@
   "plaats": "Eersel",
   "tel_display": "06-42926261",
   "tel_href": "tel:+31642926261",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Pedicure Salon Letitia",
-  "kort": "Salon Letitia",
-  "slug": "pedicure-salon-letitia",
-  "plaats": "Tilburg",
-  "tel_display": "013-545…",
-  "tel_href": "#contact",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Pedicure Tilburg (Nathalie Medisch)",
-  "kort": "Tilburg",
-  "slug": "pedicure-tilburg",
-  "plaats": "Tilburg",
-  "tel_display": "013-5913675",
-  "tel_href": "tel:+31135913675",
   "niche": "pedicure",
   "content": {
    "eigenaar": "",
@@ -2225,25 +2099,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Cosmo Beauty Nails",
-  "kort": "Cosmo Beauty Nails",
-  "slug": "cosmo-beauty-nails",
-  "plaats": "Eindhoven",
-  "tel_display": "040-7370585",
-  "tel_href": "tel:+31407370585",
-  "niche": "nagels",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Nagelstudio Mijndroomlijf",
   "kort": "Mijndroomlijf",
   "slug": "nagelstudio-mijndroomlijf",
@@ -2510,25 +2365,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Scoobie Trimsalon",
-  "kort": "Scoobie Trimsalon",
-  "slug": "scoobie-trimsalon",
-  "plaats": "Tilburg",
-  "tel_display": "013-5713963",
-  "tel_href": "tel:+31135713963",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Kings Trimsalon",
   "kort": "Kings Trimsalon",
   "slug": "kings-trimsalon",
@@ -2611,25 +2447,6 @@
   "plaats": "Waalwijk",
   "tel_display": "06-41465188",
   "tel_href": "tel:+31641465188",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Honden was- en trimsalon 't Vosje",
-  "kort": "Honden was- en trimsalon 't Vosje",
-  "slug": "honden-was-en-trimsalon-t-vosje",
-  "plaats": "Sprang-Capelle",
-  "tel_display": "0416-281253",
-  "tel_href": "tel:+31416281253",
   "niche": "hond",
   "content": {
    "eigenaar": "",
@@ -2757,25 +2574,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Trimsalon Ricky",
-  "kort": "Ricky",
-  "slug": "trimsalon-ricky",
-  "plaats": "Oosterhout",
-  "tel_display": "0162-741315",
-  "tel_href": "tel:+31162741315",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Trimsalon Vlindervallei",
   "kort": "Vlindervallei",
   "slug": "trimsalon-vlindervallei",
@@ -2890,50 +2688,12 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Saskia Hondentrimsalon",
-  "kort": "Saskia Hondentrimsalon",
-  "slug": "saskia-hondentrimsalon",
-  "plaats": "Den Bosch",
-  "tel_display": "073-6444045",
-  "tel_href": "tel:+31736444045",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Trimsalon Mailo",
   "kort": "Mailo",
   "slug": "trimsalon-mailo",
   "plaats": "Den Bosch",
   "tel_display": "Bel of app ons",
   "tel_href": "#contact",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Hondentrimsalon De Blije Snoet",
-  "kort": "De Blije Snoet",
-  "slug": "hondentrimsalon-de-blije-snoet",
-  "plaats": "Rosmalen",
-  "tel_display": "073-8220086",
-  "tel_href": "tel:+31738220086",
   "niche": "hond",
   "content": {
    "eigenaar": "",
@@ -3042,25 +2802,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Trimsalon Your Special Friend",
-  "kort": "Your Special Friend",
-  "slug": "trimsalon-your-special-friend",
-  "plaats": "Den Bosch",
-  "tel_display": "073-6897953",
-  "tel_href": "tel:+31736897953",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Trimsalon Het Maaspoortje (Sylvia Gielkens)",
   "kort": "Het Maaspoortje",
   "slug": "trimsalon-het-maaspoortje",
@@ -3105,25 +2846,6 @@
   "plaats": "Breda",
   "tel_display": "06-87627435",
   "tel_href": "tel:+31687627435",
-  "niche": "nagels",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Art of Nails & Beauty",
-  "kort": "Art of Nails & Beauty",
-  "slug": "art-of-nails-en-beauty",
-  "plaats": "Breda",
-  "tel_display": "076-5153977",
-  "tel_href": "tel:+31765153977",
   "niche": "nagels",
   "content": {
    "eigenaar": "",
@@ -3422,25 +3144,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Sweet4feet",
-  "kort": "Sweet4feet",
-  "slug": "sweet4feet",
-  "plaats": "Breda",
-  "tel_display": "076-5815252",
-  "tel_href": "tel:+31765815252",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Feet Fit",
   "kort": "Feet Fit",
   "slug": "feet-fit",
@@ -3517,25 +3220,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Pedicure Inge Nijhof",
-  "kort": "Inge Nijhof",
-  "slug": "pedicure-inge-nijhof",
-  "plaats": "Etten-Leur",
-  "tel_display": "076-5011888",
-  "tel_href": "tel:+31765011888",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Pedicuresalon Kitty Bastiaansen",
   "kort": "Kitty Bastiaansen",
   "slug": "pedicuresalon-kitty-bastiaansen",
@@ -3561,25 +3245,6 @@
   "plaats": "Prinsenbeek",
   "tel_display": "Bel of app ons",
   "tel_href": "#contact",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Pedicure Erna (Govers-Arts)",
-  "kort": "Erna",
-  "slug": "pedicure-erna",
-  "plaats": "Oss",
-  "tel_display": "0412-634462",
-  "tel_href": "tel:+31412634462",
   "niche": "pedicure",
   "content": {
    "eigenaar": "",
@@ -3675,63 +3340,6 @@
   "plaats": "Den Bosch",
   "tel_display": "06-15622754",
   "tel_href": "tel:+31615622754",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Ms More schoonheidssalon",
-  "kort": "Ms More schoonheidssalon",
-  "slug": "ms-more-schoonheidssalon",
-  "plaats": "Den Bosch",
-  "tel_display": "073-2110010",
-  "tel_href": "tel:+31732110010",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Piedino Voetverzorgingssalon",
-  "kort": "Piedino Voetverzorgingssalon",
-  "slug": "piedino-voetverzorgingssalon",
-  "plaats": "Vught",
-  "tel_display": "073-6569358",
-  "tel_href": "tel:+31736569358",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Voetenstudio Uden",
-  "kort": "Voetenstudio Uden",
-  "slug": "voetenstudio-uden",
-  "plaats": "Uden",
-  "tel_display": "0413-251661",
-  "tel_href": "tel:+31413251661",
   "niche": "pedicure",
   "content": {
    "eigenaar": "",
@@ -3973,25 +3581,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Trimsalon-Bella",
-  "kort": "Bella",
-  "slug": "trimsalon-bella",
-  "plaats": "Eindhoven",
-  "tel_display": "040-2029400",
-  "tel_href": "tel:+31402029400",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Ala Pluto trimsalon",
   "kort": "Ala Pluto trimsalon",
   "slug": "ala-pluto-trimsalon",
@@ -4017,25 +3606,6 @@
   "plaats": "Eindhoven",
   "tel_display": "06-10688304",
   "tel_href": "tel:+31610688304",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Trimsalon Amico",
-  "kort": "Amico",
-  "slug": "trimsalon-amico",
-  "plaats": "Helmond",
-  "tel_display": "0492-330137",
-  "tel_href": "tel:+31492330137",
   "niche": "hond",
   "content": {
    "eigenaar": "",
@@ -4258,25 +3828,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Hondenkapsalon Brigitta",
-  "kort": "Brigitta",
-  "slug": "hondenkapsalon-brigitta",
-  "plaats": "Bergen op Zoom",
-  "tel_display": "0164-257939",
-  "tel_href": "tel:+31164257939",
-  "niche": "hond",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Hondenkapsalon Fresh by Sas",
   "kort": "Fresh by Sas",
   "slug": "hondenkapsalon-fresh-by-sas",
@@ -4416,25 +3967,6 @@
   "plaats": "Asten",
   "tel_display": "0493-691…",
   "tel_href": "#contact",
-  "niche": "pedicure",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
-  "bedrijf": "Voetje voor voetje",
-  "kort": "Voetje voor voetje",
-  "slug": "voetje-voor-voetje",
-  "plaats": "Someren",
-  "tel_display": "0493-495558",
-  "tel_href": "tel:+31493495558",
   "niche": "pedicure",
   "content": {
    "eigenaar": "",
@@ -4714,25 +4246,6 @@
   "taal": "nl"
  },
  {
-  "bedrijf": "Nails by Alice",
-  "kort": "by Alice",
-  "slug": "nails-by-alice",
-  "plaats": "Etten-Leur",
-  "tel_display": "076-5016020",
-  "tel_href": "tel:+31765016020",
-  "niche": "nagels",
-  "content": {
-   "eigenaar": "",
-   "verhaal": "",
-   "specialisaties": [],
-   "certificering": [],
-   "tarieven": [],
-   "openingstijden": "Op afspraak",
-   "reviews": []
-  },
-  "taal": "nl"
- },
- {
   "bedrijf": "Nail Desire",
   "kort": "Nail Desire",
   "slug": "nail-desire",
@@ -4758,6 +4271,671 @@
   "plaats": "Leur / Oudenbosch",
   "tel_display": "06-29750560",
   "tel_href": "tel:+31629750560",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trudy Pedicure",
+  "kort": "Trudy Pedicure",
+  "slug": "trudy-pedicure",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-48643827",
+  "tel_href": "tel:+31648643827",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Total Care 4 Your Feet",
+  "kort": "Total Care 4 Your Feet",
+  "slug": "total-care-4-your-feet",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-44267174",
+  "tel_href": "tel:+31644267174",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "La Luna Hand & Voet",
+  "kort": "La Luna Hand & Voet",
+  "slug": "la-luna-hand-en-voet",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-18886402",
+  "tel_href": "tel:+31618886402",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Janneke",
+  "kort": "Janneke",
+  "slug": "pedicure-janneke",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-34796778",
+  "tel_href": "tel:+31634796778",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Mila Bergman",
+  "kort": "Mila Bergman",
+  "slug": "pedicure-mila-bergman",
+  "plaats": "Best",
+  "tel_display": "06-10967840",
+  "tel_href": "tel:+31610967840",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Annette Hendriks",
+  "kort": "Annette Hendriks",
+  "slug": "pedicure-annette-hendriks",
+  "plaats": "Best",
+  "tel_display": "06-23174538",
+  "tel_href": "tel:+31623174538",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicurepraktijk Footcare",
+  "kort": "Footcare",
+  "slug": "pedicurepraktijk-footcare",
+  "plaats": "Best",
+  "tel_display": "06-12994477",
+  "tel_href": "tel:+31612994477",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Salon Elegant",
+  "kort": "Elegant",
+  "slug": "salon-elegant",
+  "plaats": "Veghel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Dian",
+  "kort": "Dian",
+  "slug": "pedicure-dian",
+  "plaats": "Son en Breugel",
+  "tel_display": "06-26892293",
+  "tel_href": "tel:+31626892293",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Wink's Pedicure",
+  "kort": "Wink's Pedicure",
+  "slug": "wink-s-pedicure",
+  "plaats": "Drunen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Voetpedicure Wendy",
+  "kort": "Wendy",
+  "slug": "voetpedicure-wendy",
+  "plaats": "Drunen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Monique",
+  "kort": "Monique",
+  "slug": "pedicure-monique",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "06-12800583",
+  "tel_href": "tel:+31612800583",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pedicure Aafke",
+  "kort": "Aafke",
+  "slug": "pedicure-aafke",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "06-48566144",
+  "tel_href": "tel:+31648566144",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sietje's Trimsalon",
+  "kort": "Sietje's Trimsalon",
+  "slug": "sietje-s-trimsalon",
+  "plaats": "Uden",
+  "tel_display": "06-18765870",
+  "tel_href": "tel:+31618765870",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "'t HondenHuukske",
+  "kort": "'t HondenHuukske",
+  "slug": "t-hondenhuukske",
+  "plaats": "Uden",
+  "tel_display": "06-13773824",
+  "tel_href": "tel:+31613773824",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Wildebras",
+  "kort": "Wildebras",
+  "slug": "trimsalon-wildebras",
+  "plaats": "Boxtel",
+  "tel_display": "06-46356225",
+  "tel_href": "tel:+31646356225",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Von",
+  "kort": "Von",
+  "slug": "hondentrimsalon-von",
+  "plaats": "Boxtel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Blitzz",
+  "kort": "Blitzz",
+  "slug": "hondentrimsalon-blitzz",
+  "plaats": "Dongen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Cuties",
+  "kort": "Cuties",
+  "slug": "hondentrimsalon-cuties",
+  "plaats": "Oisterwijk",
+  "tel_display": "06-24518736",
+  "tel_href": "tel:+31624518736",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "That's My Dog Trimsalon",
+  "kort": "That's My Dog Trimsalon",
+  "slug": "that-s-my-dog-trimsalon",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-23361094",
+  "tel_href": "tel:+31623361094",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Blitz Hondenstyling",
+  "kort": "Blitz Hondenstyling",
+  "slug": "blitz-hondenstyling",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-57744939",
+  "tel_href": "tel:+31657744939",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Sophie",
+  "kort": "Sophie",
+  "slug": "hondentrimsalon-sophie",
+  "plaats": "Best",
+  "tel_display": "06-46060691",
+  "tel_href": "tel:+31646060691",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Dare To Shine",
+  "kort": "Dare To Shine",
+  "slug": "trimsalon-dare-to-shine",
+  "plaats": "Dongen",
+  "tel_display": "06-18140351",
+  "tel_href": "tel:+31618140351",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon van de Klundert",
+  "kort": "van de Klundert",
+  "slug": "hondentrimsalon-van-de-klundert",
+  "plaats": "Goirle",
+  "tel_display": "06-18529624",
+  "tel_href": "tel:+31618529624",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Riggle Nagelstudio",
+  "kort": "Riggle Nagelstudio",
+  "slug": "riggle-nagelstudio",
+  "plaats": "Veghel",
+  "tel_display": "06-22031199",
+  "tel_href": "tel:+31622031199",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nagelstudio Sterre",
+  "kort": "Sterre",
+  "slug": "nagelstudio-sterre",
+  "plaats": "Veghel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nails by Martje",
+  "kort": "Nails by Martje",
+  "slug": "nails-by-martje",
+  "plaats": "Veghel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nailydays by Patty",
+  "kort": "Nailydays by Patty",
+  "slug": "nailydays-by-patty",
+  "plaats": "Veghel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nagelsalon Nails en Zo",
+  "kort": "Nails en Zo",
+  "slug": "nagelsalon-nails-en-zo",
+  "plaats": "Veghel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Meia Lua",
+  "kort": "Meia Lua",
+  "slug": "meia-lua",
+  "plaats": "Boxtel",
+  "tel_display": "06-37429062",
+  "tel_href": "tel:+31637429062",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Just Nails Valkenswaard",
+  "kort": "Just Nails Valkenswaard",
+  "slug": "just-nails-valkenswaard",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-36196554",
+  "tel_href": "tel:+31636196554",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Lak' Aan",
+  "kort": "Lak' Aan",
+  "slug": "lak-aan",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-20777289",
+  "tel_href": "tel:+31620777289",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hand- & Nagelstudio Sandy",
+  "kort": "Sandy",
+  "slug": "hand-en-nagelstudio-sandy",
+  "plaats": "Best",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nagelstudio By Femz",
+  "kort": "By Femz",
+  "slug": "nagelstudio-by-femz",
+  "plaats": "Waalwijk",
+  "tel_display": "06-46436208",
+  "tel_href": "tel:+31646436208",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "",
+   "specialisaties": [],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nagelstudio Cindy van der Pol",
+  "kort": "Cindy van der Pol",
+  "slug": "nagelstudio-cindy-van-der-pol",
+  "plaats": "Waalwijk",
+  "tel_display": "06-10422264",
+  "tel_href": "tel:+31610422264",
   "niche": "nagels",
   "content": {
    "eigenaar": "",

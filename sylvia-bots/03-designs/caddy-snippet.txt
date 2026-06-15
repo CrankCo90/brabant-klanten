@@ -1,5 +1,0 @@
-sylvia-bots.demo.brabantdigital.nl {
-    root * /var/www/demos/sylvia-bots
-    file_server
-    encode gzip
-}
