@@ -6,7 +6,7 @@ Daarom schrijf ik je. Ik ben Leroy van Brabant Digital en ik maak websites voor 
 
 {{demo_url}}
 
-Tip die je sowieso kunt gebruiken, ook als je verder niets met deze mail doet: {{gratis_tip}}
+Een tip die ik je sowieso gratis wil meegeven, ook als je verder niets met deze mail doet: {{gratis_tip}}
 
 Wat een eigen site je oplevert:
 {{verbeteringen}}
