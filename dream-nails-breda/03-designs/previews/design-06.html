@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dream Nails Breda · Editorial Wit — 3D tilt</title>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f1ea;--ink:#1c1a17;--mut:#6f6a60;--terra:#c2603f;--card:#fff;--head:'Italiana',serif;--body:'Inter',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-weight:300;line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%}
+.wrap{max-width:1160px;margin:0 auto;padding:0 30px}
+nav{position:sticky;top:0;z-index:40;background:rgba(244,241,234,.85);backdrop-filter:blur(10px);border-bottom:1px solid rgba(28,26,23,.08)}
+nav .wrap{display:flex;align-items:center;gap:26px;padding:20px 30px}
+.logo{font-family:var(--head);font-size:1.7rem;margin-right:auto}.logo em{color:var(--terra)}
+nav a{color:var(--ink);text-decoration:none;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+nav a:hover{color:var(--terra)}
+.lang{border:1px solid var(--terra);border-radius:999px;padding:5px 12px;font-size:.7rem;cursor:pointer;background:none;color:var(--terra)}
+.cta{background:var(--ink);color:#fff !important;padding:11px 20px;border-radius:999px;font-weight:500}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;padding:80px 0;perspective:1200px}
+.kick{color:var(--terra);letter-spacing:.32em;text-transform:uppercase;font-size:.74rem;margin-bottom:22px}
+.hero h1{font-family:var(--head);font-size:5rem;line-height:1.02;margin-bottom:24px}
+.hero p{color:var(--mut);max-width:430px;margin-bottom:32px;font-size:1.04rem}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.b1{background:var(--ink);color:#fff;padding:15px 30px;border-radius:999px;text-decoration:none;font-weight:500;transition:.25s}.b1:hover{background:var(--terra)}
+.b2{border:1px solid var(--ink);color:var(--ink);padding:15px 30px;border-radius:999px;text-decoration:none}
+.tilt{transform-style:preserve-3d;transition:transform .15s ease-out;will-change:transform}
+.tilt img{width:100%;border-radius:18px;aspect-ratio:4/5;object-fit:cover;box-shadow:0 40px 80px rgba(28,26,23,.22);transform:translateZ(40px)}
+.tilt .badge{position:absolute;bottom:24px;left:24px;background:#fff;padding:14px 20px;border-radius:12px;transform:translateZ(80px);box-shadow:0 14px 30px rgba(28,26,23,.15);font-family:var(--head);font-size:1.3rem}
+.tilt{position:relative}
+.sec-h{text-align:center;max-width:620px;margin:0 auto 50px}
+.sec-h h2{font-family:var(--head);font-size:3.2rem;margin-bottom:14px}
+.sec-h p{color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-bottom:90px;perspective:1000px}
+.t3{background:var(--card);border-radius:16px;padding:34px 30px;transform-style:preserve-3d;transition:transform .15s ease-out;box-shadow:0 10px 30px rgba(28,26,23,.06)}
+.t3 .ic{font-size:2rem;margin-bottom:16px;display:block;transform:translateZ(30px)}
+.t3 h3{font-family:var(--head);font-size:1.5rem;margin-bottom:10px}
+.t3 p{color:var(--mut);font-size:.92rem}
+.cta-band{text-align:center;padding:100px 0;background:var(--ink);color:#fff;border-radius:28px;margin:0 30px 80px}
+.cta-band h2{font-family:var(--head);font-size:3.2rem;margin-bottom:16px}
+.cta-band p{color:#b9b4ab;margin-bottom:28px}
+.cta-band .b1{background:var(--terra)}
+footer{padding:40px 0 16px;text-align:center;color:var(--mut);font-size:.9rem}
+footer b{color:var(--terra);font-family:var(--head)}
+.note{text-align:center;color:rgba(111,106,96,.6);font-size:.72rem;padding:14px}
+.reveal{opacity:0;transform:translateY(28px);transition:.8s}.reveal.in{opacity:1;transform:none}
+@media(max-width:840px){.hero{grid-template-columns:1fr}.hero h1{font-size:3rem}.grid{grid-template-columns:1fr}nav a:not(.cta):not(.lang){display:none}}
+</style></head>
+<body>
+<nav><div class="wrap">
+  <span class="logo"><em>Dream Nails Breda</em></span>
+  <a href="#diensten" data-en="The craft">Het vak</a>
+  <a href="#book" data-en="Contact">Contact</a>
+  <button class="lang" id="lang">EN</button>
+  <a href="#book" class="cta" data-en="Book">Afspraak maken</a>
+</div></nav>
+
+<header class="hero wrap">
+  <div>
+    <div class="kick" data-en="Nail studio · Breda">Nagelstudio · Breda</div>
+    <h1 data-en="The art of nail styling">De kunst van het lakken</h1>
+    <p data-en="A certified nail stylist who treats every set as a craft. Every style, with love and precision.">Een gediplomeerd nagelstyliste die elke set als vakwerk behandelt. Elke stijl, met liefde en geduld.</p>
+    <div class="btns"><a class="b1" href="#book" data-en="Book online">Online afspraak maken</a><a class="b2" href="#diensten" data-en="The craft">Het vak</a></div>
+  </div>
+  <div class="tilt" id="tilt">
+    <img src="https://images.pexels.com/photos/3997381/pexels-photo-3997381.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="">
+    <span class="badge">4,9 ★</span>
+  </div>
+</header>
+
+<section class="wrap" id="diensten">
+  <div class="sec-h reveal"><div class="kick" data-en="Specialties">Specialiteiten</div><h2 data-en="Every set, its own approach">Elke set, eigen aanpak</h2><p data-en="Move your mouse over the cards.">Beweeg met uw muis over de kaarten.</p></div>
+  <div class="grid">
+    <div class="t3"><span class="ic">✂️</span><h3 data-en="Acrylics">Acryl</h3><p data-en="Careful prep that keeps your natural nails healthy and strong.">Zorgvuldige voorbereiding zodat uw natuurlijke nagel gezond en sterk blijft.</p></div>
+    <div class="t3"><span class="ic">✨</span><h3 data-en="Gellak">Gellak</h3><p data-en="Patient detangling and a clean, even finish.">Geduldig ontklitten en een strakke, egale afwerking.</p></div>
+    <div class="t3"><span class="ic">💎</span><h3 data-en="PolyGel">PolyGel</h3><p data-en="Strong, natural-looking overlays — never bulky, always neat.">Sterke, natuurlijke overlay — nooit dik, altijd verzorgd.</p></div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2 class="reveal" data-en="Book your session">Boek uw afspraak</h2>
+  <p class="reveal" data-en="Online, whenever it suits you.">Online, wanneer het u uitkomt.</p>
+  <a class="b1 reveal" href="tel:+31648979943">06-48979943</a>
+</section>
+<section id="over" style="background:var(--bg);color:var(--ink);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px"><div><div style="color:var(--terra);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px" data-en="About us">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px" data-en="About us">Over ons</h2><p style="color:var(--mut);line-height:1.75"></p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--ink)" data-en="Opening hours:">Openingstijden:</strong> Op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--terra);margin-bottom:12px" data-en="Pricing">Tarieven</h3><p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag — afgestemd op lengte en techniek. Vraag gerust een richtprijs.</p></div></div></section><footer id="book"><div class="wrap"><b>Dream Nails Breda</b> · Breda · 06-48979943</div></footer>
+
+<script>
+const lb=document.getElementById('lang');let en=false;
+const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
+lb.onclick=()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));};
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.16});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+function tilt(el,max){el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect();const px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;el.style.transform='rotateY('+px*max+'deg) rotateX('+(-py*max)+'deg)';});el.addEventListener('mouseleave',()=>el.style.transform='rotateY(0) rotateX(0)');}
+tilt(document.getElementById('tilt'),14);
+document.querySelectorAll('.t3').forEach(c=>tilt(c,12));
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
+</script>
+</body></html>

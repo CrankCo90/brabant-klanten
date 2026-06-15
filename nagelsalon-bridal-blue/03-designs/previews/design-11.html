@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nagelsalon Bridal Blue — Nagelstudio Oss</title>
+<meta name="description" content="Nagelsalon Bridal Blue — nagelstudio in Oss. Persoonlijk advies, topmerken en een gezellige sfeer. Maak eenvoudig online een afspraak.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#FBF7F1; --cream2:#F4EBDF; --card:#FFFFFF;
+  --gold:#C7A063; --gold-d:#A07E3C;
+  --plum:#8E5A6E; --plum-d:#6E4255;
+  --ink:#2B2521; --muted:#7C7166; --line:rgba(43,37,33,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.7;font-weight:300;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.serif{font-family:'Playfair Display',serif;font-weight:600;line-height:1.12}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.kick{display:inline-block;letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;font-weight:600;color:var(--gold-d)}
+.btn{display:inline-flex;align-items:center;gap:9px;border-radius:999px;padding:13px 26px;font-size:.92rem;font-weight:500;cursor:pointer;border:1px solid transparent;transition:.2s;font-family:inherit}
+.btn-gold{background:linear-gradient(135deg,#d4b074,#bb914d);color:#3a2e18;box-shadow:0 10px 24px rgba(160,126,60,.28)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(160,126,60,.36)}
+.btn-ghost{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.5);backdrop-filter:blur(4px)}
+.btn-ghost:hover{background:rgba(255,255,255,.22)}
+.btn-line{background:transparent;color:var(--plum-d);border-color:var(--plum)}
+.btn-line:hover{background:var(--plum);color:#fff}
+
+header{position:sticky;top:0;z-index:60;background:rgba(251,247,241,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:22px;padding:15px 28px;max-width:1180px;margin:0 auto}
+.logo{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--ink);margin-right:auto;letter-spacing:.01em}
+.logo em{color:var(--plum);font-style:italic}
+.menu{display:flex;gap:24px;align-items:center}
+.menu a{font-size:.9rem;font-weight:400;color:var(--ink);opacity:.82;transition:.2s}
+.menu a:hover{opacity:1;color:var(--plum-d)}
+.lang{border:1px solid var(--gold);border-radius:999px;padding:6px 13px;font-size:.72rem;cursor:pointer;background:none;color:var(--ink);letter-spacing:.1em;font-family:inherit}
+.burger{display:none;background:none;border:0;cursor:pointer;font-size:1.6rem;color:var(--ink);line-height:1}
+
+.hero{position:relative;min-height:86vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;overflow:hidden;background:#3a2c30}
+.hero .bg{position:absolute;inset:0;background:linear-gradient(135deg,#6e4255,#3a2c30) ,url('https://images.pexels.com/photos/2268404/pexels-photo-2268404.jpeg?auto=compress&cs=tinysrgb&w=1280');background-size:cover;background-position:center;background-blend-mode:overlay}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,22,25,.42),rgba(30,22,25,.64))}
+.hero .inner{position:relative;z-index:2;max-width:760px;padding:118px 28px 104px}
+.hero .pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.32);padding:7px 16px;border-radius:999px;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;font-weight:500;margin-bottom:24px}
+.hero .pill::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.hero h1{font-size:clamp(2.5rem,5.6vw,4.2rem);font-weight:700}
+.hero h1 em{display:block;font-style:italic;font-weight:500;color:#e9c98f}
+.hero p{margin:22px auto 32px;max-width:540px;font-size:1.06rem;font-weight:300;color:rgba(255,255,255,.9)}
+.hero .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.hero .trust{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;margin-top:40px;font-size:.82rem;color:rgba(255,255,255,.85)}
+.hero .trust span{display:flex;align-items:center;gap:8px}
+.hero .trust span::before{content:"✦";color:var(--gold)}
+
+section{padding:90px 0}
+.sec-head{max-width:620px;margin:0 auto 50px;text-align:center}
+.sec-head h2{font-size:clamp(2rem,4vw,2.6rem);margin:14px 0 0}
+.sec-head h2 em{font-style:italic;color:var(--plum)}
+.sec-head p{color:var(--muted);margin-top:14px}
+
+.about{background:var(--cream2)}
+.about .grid{display:grid;grid-template-columns:1fr 1fr;gap:58px;align-items:center}
+.about .photo{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/5;background:linear-gradient(135deg,#caa8b4,#8e5a6e);box-shadow:0 30px 60px rgba(110,66,85,.22)}
+.about .photo img{width:100%;height:100%;object-fit:cover}
+.about .photo .badge{position:absolute;right:-16px;bottom:28px;background:#fff;border-radius:16px;padding:18px 22px;box-shadow:0 16px 40px rgba(0,0,0,.14);text-align:center}
+.about .photo .badge b{font-family:'Playfair Display',serif;font-size:1.9rem;color:var(--plum);display:block;line-height:1}
+.about .photo .badge span{font-size:.72rem;letter-spacing:.05em;color:var(--muted)}
+.about h2{font-size:clamp(2rem,4vw,2.6rem);margin:14px 0 18px}
+.about h2 em{font-style:italic;color:var(--gold-d)}
+.about p{color:#5d5349;margin-bottom:16px}
+.about .more{margin-top:12px}
+
+.treat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.treat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:32px 26px;transition:.25s}
+.treat:hover{transform:translateY(-6px);box-shadow:0 24px 48px rgba(110,66,85,.12);border-color:rgba(199,160,99,.4)}
+.treat .ic{width:54px;height:54px;border-radius:14px;display:grid;place-items:center;font-size:1.5rem;background:linear-gradient(135deg,#f3e6d3,#ecdcc4);margin-bottom:18px}
+.treat h3{font-size:1.24rem;font-weight:600;margin-bottom:10px}
+.treat p{font-size:.9rem;color:var(--muted)}
+
+.why{background:linear-gradient(180deg,var(--cream2),var(--cream))}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.why-card{text-align:center;padding:30px 22px}
+.why-card .ic{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;margin:0 auto 18px;font-size:1.6rem;background:#fff;border:1px solid rgba(199,160,99,.4);color:var(--plum)}
+.why-card h3{font-size:1.16rem;font-weight:600;margin-bottom:8px}
+.why-card p{font-size:.88rem;color:var(--muted)}
+
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gallery img{border-radius:14px;aspect-ratio:1;object-fit:cover;width:100%;transition:.4s;filter:saturate(.98)}
+.gallery img:hover{transform:scale(1.03)}
+
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 28px}
+.rev .stars{color:var(--gold);letter-spacing:3px;margin-bottom:14px;font-size:.95rem}
+.rev p{font-size:.95rem;color:#4f463d;font-style:italic;margin-bottom:18px}
+.rev .who{display:flex;align-items:center;gap:12px}
+.rev .av{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--plum),var(--gold));color:#fff;display:grid;place-items:center;font-weight:600;font-family:'Playfair Display',serif}
+.rev .who b{font-weight:500;font-size:.92rem}
+.rev .who span{display:block;font-size:.76rem;color:var(--muted)}
+
+.contact{background:var(--cream2)}
+.contact .grid{display:grid;grid-template-columns:1fr 1.1fr;gap:44px;align-items:start}
+.info-card,.form-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:34px 32px}
+.info-card h3{font-size:1.4rem;margin-bottom:20px}
+.info-row{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.info-row:last-child{border:0}
+.info-row .ic{font-size:1.12rem;color:var(--plum)}
+.info-row b{display:block;font-weight:500;font-size:.92rem}
+.info-row span{font-size:.86rem;color:var(--muted)}
+.hours{margin-top:22px;background:var(--cream);border-radius:14px;padding:20px 22px}
+.hours h4{font-family:'Playfair Display',serif;font-size:1.05rem;margin-bottom:12px}
+.hours .row{display:flex;justify-content:space-between;font-size:.86rem;padding:5px 0;color:#5d5349}
+.hours .row span:last-child{color:var(--muted)}
+.form-card h3{font-size:1.4rem;margin-bottom:6px}
+.form-card>p{font-size:.86rem;color:var(--muted);margin-bottom:20px}
+.field{margin-bottom:15px}
+.field label{display:block;font-size:.8rem;font-weight:500;margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:11px;font-family:inherit;font-size:.9rem;background:var(--cream);color:var(--ink);transition:.2s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--plum);background:#fff}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-card .btn-gold{width:100%;justify-content:center;margin-top:4px}
+.form-note{font-size:.76rem;color:var(--muted);text-align:center;margin-top:12px}
+
+footer{background:var(--ink);color:#d7cec4;padding:54px 0 30px}
+footer .grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;margin-bottom:28px}
+footer .logo{color:#fff;font-size:1.4rem}footer .logo em{color:var(--gold)}
+footer .fcol p{font-size:.86rem;max-width:300px;color:#a99e92;margin-top:12px}
+footer .fcol h4{font-family:'Playfair Display',serif;color:#fff;font-size:1rem;margin-bottom:14px}
+footer .fcol a,footer .fcol .li{display:block;font-size:.86rem;color:#a99e92;padding:4px 0}
+footer .fcol a:hover{color:var(--gold)}
+footer .bot{border-top:1px solid rgba(255,255,255,.12);padding-top:20px;text-align:center;font-size:.78rem;color:#8c8276}
+
+@media(max-width:980px){
+  .treat-grid,.why-grid{grid-template-columns:repeat(2,1fr)}
+  .rev-grid{grid-template-columns:1fr 1fr}
+  .about .grid,.contact .grid{grid-template-columns:1fr;gap:38px}
+  .about .photo{max-width:430px;margin:0 auto;aspect-ratio:5/4}
+}
+@media(max-width:720px){
+  .menu{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--cream);padding:16px 28px;gap:4px;border-bottom:1px solid var(--line);box-shadow:0 20px 40px rgba(0,0,0,.08)}
+  .menu.open{display:flex}
+  .menu a{padding:10px 0;width:100%;border-bottom:1px solid var(--line)}
+  .menu .btn,.menu .lang{margin-top:8px;align-self:flex-start}
+  .burger{display:block}
+  section{padding:62px 0}
+  .rev-grid,.gallery{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr 1fr}
+  .row2{grid-template-columns:1fr}
+  .hero .inner{padding:88px 24px 76px}
+  .about .photo .badge{right:12px}
+}
+@media(max-width:460px){
+  .treat-grid,.why-grid{grid-template-columns:1fr}
+  .hero .trust{gap:12px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="#">Nagelsalon <em>Bridal Blue</em></a>
+    <nav class="menu" id="menu">
+      <a href="#over" data-en="About">Over ons</a>
+      <a href="#behandelingen" data-en="Treatments">Behandelingen</a>
+      <a href="#waarom" data-en="Why us">Waarom wij</a>
+      <a href="#reviews" data-en="Reviews">Reviews</a>
+      <a href="#contact" data-en="Contact">Contact</a>
+      <button class="lang" id="lang">EN</button>
+      <a href="#contact" class="btn btn-gold" data-en="Book online">Afspraak maken</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="bg"></div>
+  <div class="inner">
+    <span class="pill" data-en="Premium nail studio">Premium Nagelstudio</span>
+    <h1 data-en="Beautiful nails,<em>truly personal.</em>">Mooie nagels,<em>écht persoonlijk.</em></h1>
+    <p data-en="At Nagelsalon Bridal Blue it's all about you. Personal advice, premium brands and a cosy atmosphere — you leave with a gorgeous result every time.">Bij Nagelsalon Bridal Blue draait alles om jou. Persoonlijk advies, topmerken en een gezellige sfeer — je gaat gegarandeerd met een prachtig resultaat de deur uit.</p>
+    <div class="cta">
+      <a href="#contact" class="btn btn-gold" data-en="Book online →">Online afspraak maken →</a>
+      <a href="#behandelingen" class="btn btn-ghost" data-en="View treatments">Bekijk behandelingen</a>
+    </div>
+    <div class="trust">
+      <span data-en="Top brands">Top merken</span>
+      <span data-en="Personal advice">Persoonlijk advies</span>
+      <span data-en="Cosy atmosphere">Gezellige sfeer</span>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="over">
+  <div class="wrap">
+    <div class="grid">
+      <div class="photo">
+        <img src="https://images.pexels.com/photos/3557600/pexels-photo-3557600.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="In de salon" onerror="this.style.display='none'">
+        <div class="badge"><b data-en="happy clients">blije klanten</b><span data-en="every week">elke week</span></div>
+      </div>
+      <div>
+        <span class="kick" data-en="About us">Over ons</span>
+        <h2 data-en="A salon where you<br><em>feel at home</em>">Een salon waar jij<br><em>je thuis voelt</em></h2>
+        <p data-en="At Nagelsalon Bridal Blue in Oss it's all about you. In a warm, cosy salon you get personal advice, we work with premium brands, and together we find the perfect treatment for your nails.">Bij Nagelsalon Bridal Blue in Oss draait alles om jou. In een warme, gezellige salon krijg je persoonlijk advies, werken we met topmerken en vinden we samen de perfecte behandeling voor jouw nagels.</p>
+        <p data-en="Whether you come for strong, natural nails with BIAB, a flawless gel polish finish or striking acrylics — we think along with you, for a result that stays beautiful for weeks.">Of je nu komt voor sterke, natuurlijke nagels met BIAB, een flawless gellak finish of opvallende acrylnagels — we denken met je mee, voor een resultaat dat wekenlang mooi blijft.</p>
+        <div class="more"><a href="#behandelingen" class="btn btn-line" data-en="Discover our treatments">Ontdek onze behandelingen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="behandelingen">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick" data-en="Treatments">Behandelingen</span>
+      <h2 data-en="Craft you <em>see and feel</em>">Vakwerk dat je <em>ziet en voelt</em></h2>
+      <p data-en="Every treatment is done with care and precision. We use only premium brands and give honest advice about what suits your nails best.">Elke behandeling wordt met zorg en precisie uitgevoerd. We gebruiken uitsluitend topmerken en geven eerlijk advies over wat het beste bij jouw nagels past.</p>
+    </div>
+    <div class="treat-grid">
+      <div class="treat">
+        <div class="ic">💅</div>
+        <h3 data-en="BIAB with gel polish">BIAB met gellak</h3>
+        <p data-en="Builder In A Bottle — the perfect base for strong, natural-looking nails with a beautiful gel polish finish.">Builder In A Bottle — de perfecte basis voor sterke, natuurlijk ogende nagels met een prachtige gellak finish.</p>
+      </div>
+      <div class="treat">
+        <div class="ic">✨</div>
+        <h3 data-en="Gel polish">Gellak</h3>
+        <p data-en="Sleek, glossy and perfectly finished. Our gel polish stays flawless for up to 3 weeks — no chips, no fuss.">Strak, glanzend en perfect afgewerkt. Onze gellak blijft tot wel 3 weken flawless zitten — geen chips, geen gedoe.</p>
+      </div>
+      <div class="treat">
+        <div class="ic">💎</div>
+        <h3 data-en="Acrylic nails">Acrylnagels</h3>
+        <p data-en="Strong, durable nails made to measure — from natural to glamorous. Perfect for extra length or a statement look.">Sterke, duurzame nagels op maat — van naturel tot glamoureus. Perfect voor extra lengte of een statement-look.</p>
+      </div>
+      <div class="treat">
+        <div class="ic">🌸</div>
+        <h3 data-en="Manicure">Manicure</h3>
+        <p data-en="The ultimate care for your hands and nails. From a classic manicure to an extensive spa treatment.">De ultieme verzorging voor je handen en nagels. Van klassieke manicure tot uitgebreide spa-behandeling.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="waarom">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick" data-en="Why us">Waarom wij</span>
+      <h2 data-en="The difference you <em>feel</em>">Het verschil dat je <em>voelt</em></h2>
+      <p data-en="An appointment here is more than beautiful nails. It's an experience you look back on with pleasure — and a result you enjoy every day.">Een afspraak bij ons is meer dan alleen mooie nagels. Het is een ervaring waar je met plezier op terugkijkt — en een resultaat waar je elke dag van geniet.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="ic">♡</div><h3 data-en="Personal advice">Persoonlijk advies</h3><p data-en="We really listen and tailor every advice to your nails and lifestyle.">We luisteren écht en stemmen elk advies af op jouw nagels en levensstijl.</p></div>
+      <div class="why-card"><div class="ic">☕</div><h3 data-en="Cosy atmosphere">Gezellige sfeer</h3><p data-en="It feels like coming home. Come alone or with friends — coffee is always ready.">Het voelt als thuiskomen. Kom alleen of met vriendinnen — de koffie staat altijd klaar.</p></div>
+      <div class="why-card"><div class="ic">✦</div><h3 data-en="Top brands">Top merken</h3><p data-en="We work exclusively with premium products for your safety and the finest result.">We werken uitsluitend met premium producten voor jouw veiligheid én het mooiste resultaat.</p></div>
+      <div class="why-card"><div class="ic">⏱</div><h3 data-en="Long-lasting">Langhoudend</h3><p data-en="Our treatments stay perfect for weeks. No chips, no fading — just beautiful.">Onze behandelingen blijven wekenlang perfect. Geen chips, geen vervaging — gewoon prachtig.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="galerij">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick" data-en="Gallery">Galerij</span>
+      <h2 data-en="Our <em>work</em>">Ons <em>werk</em></h2>
+    </div>
+    <div class="gallery">
+      <img src="https://images.pexels.com/photos/6135674/pexels-photo-6135674.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="Werk" loading="lazy" onerror="this.style.display='none'">
+      <img src="https://images.pexels.com/photos/3997388/pexels-photo-3997388.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="Werk" loading="lazy" onerror="this.style.display='none'">
+      <img src="https://images.pexels.com/photos/3997381/pexels-photo-3997381.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="Werk" loading="lazy" onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick" data-en="Reviews">Reviews</span>
+      <h2 data-en="What our clients <em>say</em>">Wat onze klanten <em>zeggen</em></h2>
+    </div>
+    <div class="rev-grid">
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p data-en="“100% recommended — super friendly and they really think along for the best treatment. You feel at ease right away.”">“100% aanrader — super vriendelijk en ze denken echt met je mee voor de beste behandeling. Je voelt je meteen op je gemak.”</p>
+        <div class="who"><div class="av">L</div><div><b>Lisa</b><span data-en="Gel polish">Gellak</span></div></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p data-en="“Got our nails done together with my daughters. What a lovely experience! We're all three super happy with the result.”">“Samen met mijn dochters de nagels laten doen. Wat een fijne ervaring! We zijn alledrie super blij met het resultaat.”</p>
+        <div class="who"><div class="av">S</div><div><b>Sandra</b><span data-en="Manicure">Manicure</span></div></div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p data-en="“Such a relaxed atmosphere and you leave with gorgeous nails every time. I'm never going anywhere else!”">“Zo'n fijne, ontspannen sfeer en je gaat elke keer met super mooie nagels de deur uit. Ik kom hier nooit meer weg!”</p>
+        <div class="who"><div class="av">K</div><div><b>Kim</b><span>BIAB</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick" data-en="Make an appointment">Afspraak maken</span>
+      <h2 data-en="Ready for your <em>perfect nails?</em>">Klaar voor jouw <em>perfecte nagels?</em></h2>
+      <p data-en="Plan your appointment easily. A question, or want advice on the right treatment? We're happy to help.">Plan eenvoudig je afspraak in. Een vraag of wil je overleggen welke behandeling het beste past? We denken graag met je mee.</p>
+    </div>
+    <div class="grid">
+      <div class="info-card">
+        <h3 data-en="Contact &amp; location">Contact &amp; locatie</h3>
+        <div class="info-row"><span class="ic">📍</span><div><b data-en="Location">Locatie</b><span>Oss</span></div></div>
+        <div class="info-row"><span class="ic">📞</span><div><b data-en="Phone">Telefoon</b><span>06-12132339</span></div></div>
+        <div class="info-row"><span class="ic">💬</span><div><b>WhatsApp</b><span data-en="Send a message">Stuur een berichtje</span></div></div>
+        <div class="hours">
+          <h4 data-en="Opening hours">Openingstijden</h4>
+<div class="row"><span data-en="Mon – Sat">Ma – Za</span><span data-en="By appointment">Op afspraak</span></div>
+        </div>
+      </div>
+      <div class="form-card">
+        <h3 data-en="Send a message">Stuur een bericht</h3>
+        <p data-en="Leave your details and we'll get back to you within 24 hours.">Vul je gegevens in en we nemen binnen 24 uur contact met je op.</p>
+        <form onsubmit="event.preventDefault();this.querySelector('.form-note').textContent=document.documentElement.lang==='en'?'✓ Thank you! In the live website this sends your request.':'✓ Bedankt! In de live website verstuurt dit jouw aanvraag.';">
+          <div class="row2">
+            <div class="field"><label data-en="Name *">Naam *</label><input required placeholder="Je naam"></div>
+            <div class="field"><label data-en="Phone *">Telefoon *</label><input required placeholder="06 ..."></div>
+          </div>
+          <div class="field"><label data-en="Email *">E-mail *</label><input type="email" placeholder="jij@email.nl"></div>
+          <div class="field"><label data-en="Desired treatment">Gewenste behandeling</label>
+            <select><option data-en="Make a choice">Maak een keuze</option><option data-en="BIAB with gel polish">BIAB met gellak</option><option data-en="Gel polish">Gellak</option><option data-en="Acrylic nails">Acrylnagels</option><option data-en="Manicure">Manicure</option><option data-en="I'd like advice">Ik wil graag overleggen</option></select>
+          </div>
+          <div class="field"><label data-en="Message">Bericht</label><textarea rows="3" placeholder="Vertel ons kort wat je zoekt"></textarea></div>
+          <button class="btn btn-gold" type="submit" data-en="Send request">Verstuur aanvraag</button>
+          <p class="form-note" data-en="Free &amp; no obligation — we reply within 24 hours.">Gratis &amp; vrijblijvend — we nemen binnen 24 uur contact met je op.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div class="fcol">
+        <a class="logo" href="#">Nagelsalon <em>Bridal Blue</em></a>
+        <p data-en="Nail studio in Oss — beautiful nails, truly personal. Premium brands, cosy atmosphere.">Nagelstudio in Oss — mooie nagels, écht persoonlijk. Topmerken, gezellige sfeer.</p>
+      </div>
+      <div class="fcol">
+        <h4 data-en="Treatments">Behandelingen</h4>
+        <span class="li" data-en="BIAB with gel polish">BIAB met gellak</span>
+        <span class="li" data-en="Gel polish">Gellak</span>
+        <span class="li" data-en="Acrylic nails">Acrylnagels</span>
+        <span class="li" data-en="Manicure">Manicure</span>
+      </div>
+      <div class="fcol">
+        <h4 data-en="Contact">Contact</h4>
+        <a href="tel:+31612132339">06-12132339</a>
+        <span class="li">Oss</span>
+        <a href="#contact" data-en="Make an appointment">Afspraak maken</a>
+      </div>
+    </div>
+    <div class="bot">© 2026 Nagelsalon Bridal Blue · <span data-en="Website by Brabant Digital">Website door Brabant Digital</span></div>
+  </div>
+</footer>
+
+<script>
+const burger=document.getElementById('burger'),menu=document.getElementById('menu');
+burger.addEventListener('click',()=>menu.classList.toggle('open'));
+menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.remove('open')));
+const lb=document.getElementById('lang');let en=false;
+const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
+lb.addEventListener('click',()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';
+  document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));});
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
+</script>
+</body>
+</html>

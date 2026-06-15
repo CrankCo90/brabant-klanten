@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RegiNails & Lashes · Champagne & Charcoal — Uitgebreid</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#14141a;--soft:#1d1d25;--text:#f0ead9;--mut:#b6b0a0;--gold:#c9a96a;--head:'Cormorant Garamond',serif;--body:'Montserrat',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-weight:300;line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+nav{position:fixed;top:0;left:0;right:0;z-index:40;transition:.35s}
+nav.scrolled{background:rgba(20,20,26,.9);backdrop-filter:blur(12px);box-shadow:0 6px 30px rgba(0,0,0,.4)}
+nav .wrap{display:flex;align-items:center;gap:26px;padding:22px 28px;transition:padding .35s}
+nav.scrolled .wrap{padding:13px 28px}
+.logo{font-family:var(--head);font-size:1.55rem;font-weight:600;margin-right:auto}.logo em{color:var(--gold);font-style:italic}
+nav a{color:var(--text);text-decoration:none;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85}
+nav a:hover{color:var(--gold)}
+.lang{border:1px solid rgba(201,169,106,.5);border-radius:999px;padding:5px 12px;font-size:.72rem;cursor:pointer;background:none;color:var(--text);letter-spacing:.1em}
+.cta{background:var(--gold);color:#14141a !important;padding:11px 20px;border-radius:999px;font-weight:600}
+/* HERO with crossfade slideshow + particles */
+.hero{position:relative;height:100vh;min-height:620px;display:flex;align-items:center;overflow:hidden}
+.slides{position:absolute;inset:0}
+.slides .s{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease;transform:scale(1.05);animation:kb 8s ease-in-out infinite alternate}
+.slides .s.on{opacity:1}
+@keyframes kb{to{transform:scale(1.13)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(20,20,26,.96) 30%,rgba(20,20,26,.5) 70%,rgba(20,20,26,.2))}
+#fx{position:absolute;inset:0;z-index:2;pointer-events:none}
+.hero .wrap{position:relative;z-index:3}
+.hero .kick{color:var(--gold);letter-spacing:.32em;text-transform:uppercase;font-size:.76rem;margin-bottom:22px;opacity:0;animation:up .8s .2s forwards}
+.hero h1{font-family:var(--head);font-size:5rem;line-height:1.02;font-weight:600;margin-bottom:24px;max-width:680px;opacity:0;animation:up .9s .35s forwards}
+.hero p{color:var(--mut);max-width:480px;margin-bottom:34px;font-size:1.05rem;opacity:0;animation:up .9s .5s forwards}
+.btns{display:flex;gap:14px;flex-wrap:wrap;opacity:0;animation:up .9s .65s forwards}
+@keyframes up{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.b1{background:var(--gold);color:#14141a;padding:16px 30px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.92rem;transition:.25s}
+.b1:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(201,169,106,.4)}
+.b2{border:1px solid var(--gold);color:var(--gold);padding:16px 30px;border-radius:999px;text-decoration:none;font-size:.92rem}
+.dots{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);z-index:3;display:flex;gap:10px}
+.dots b{width:9px;height:9px;border-radius:50%;background:rgba(240,234,217,.3);cursor:pointer;transition:.3s}
+.dots b.on{background:var(--gold);width:26px;border-radius:6px}
+/* counters */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(201,169,106,.2);margin:0}
+.stats div{background:var(--bg);padding:46px 20px;text-align:center}
+.stats b{font-family:var(--head);color:var(--gold);font-size:3rem;font-weight:700;display:block;line-height:1}
+.stats span{color:var(--mut);font-size:.82rem;letter-spacing:.1em;text-transform:uppercase}
+/* marquee */
+.marq{overflow:hidden;border-block:1px solid rgba(201,169,106,.18);padding:18px 0;white-space:nowrap}
+.marq div{display:inline-block;animation:scroll 22s linear infinite}
+.marq span{font-family:var(--head);font-size:1.7rem;color:var(--gold);opacity:.8;margin:0 30px}
+.marq span::after{content:"·";margin-left:60px;color:rgba(201,169,106,.4)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+/* split feature */
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;padding:100px 0}
+.feat img{border-radius:18px;aspect-ratio:4/5;object-fit:cover;box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.feat h2{font-family:var(--head);font-size:3rem;font-weight:600;margin-bottom:20px}
+.feat .kick{color:var(--gold);letter-spacing:.3em;text-transform:uppercase;font-size:.74rem;margin-bottom:16px}
+.feat p{color:var(--mut);margin-bottom:16px}
+.tick{color:var(--text);font-size:.95rem;margin-bottom:10px;padding-left:26px;position:relative}
+.tick::before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:700}
+/* testimonial */
+.quote{text-align:center;padding:100px 0;background:var(--soft)}
+.quote p{font-family:var(--head);font-size:2.4rem;font-style:italic;max-width:820px;margin:0 auto 24px;line-height:1.3}
+.quote .who{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font-size:.78rem}
+.cta-band{text-align:center;padding:110px 28px}
+.cta-band h2{font-family:var(--head);font-size:3.4rem;font-weight:600;margin-bottom:18px}
+.cta-band p{color:var(--mut);margin-bottom:30px}
+footer{background:var(--soft);border-top:1px solid rgba(201,169,106,.18);padding:54px 0;text-align:center;color:var(--mut);font-size:.9rem}
+footer b{color:var(--gold);font-family:var(--head)}
+.note{text-align:center;color:rgba(182,176,160,.5);font-size:.72rem;padding:20px}
+.reveal{opacity:0;transform:translateY(30px);transition:.8s}.reveal.in{opacity:1;transform:none}
+@media(max-width:840px){.hero h1{font-size:3rem}.feat,.stats{grid-template-columns:1fr}.quote p,.cta-band h2{font-size:2rem}nav a:not(.cta):not(.lang){display:none}}
+</style></head>
+<body>
+<nav id="nav"><div class="wrap">
+  <span class="logo"><em>RegiNails & Lashes</em></span>
+  <a href="#feat" data-en="The salon">De salon</a>
+  <a href="#quote" data-en="Reviews">Reviews</a>
+  <a href="#book" data-en="Contact">Contact</a>
+  <button class="lang" id="lang">EN</button>
+  <a href="#book" class="cta" data-en="Book online">Afspraak maken</a>
+</div></nav>
+
+<header class="hero">
+  <div class="slides">
+    <div class="s on" style="background-image:url('https://images.pexels.com/photos/2268404/pexels-photo-2268404.jpeg?auto=compress&cs=tinysrgb&w=1280')"></div>
+    <div class="s" style="background-image:url('https://images.pexels.com/photos/4677846/pexels-photo-4677846.jpeg?auto=compress&cs=tinysrgb&w=1280')"></div>
+    <div class="s" style="background-image:url('https://images.pexels.com/photos/2600287/pexels-photo-2600287.jpeg?auto=compress&cs=tinysrgb&w=1280')"></div>
+  </div>
+  <canvas id="fx"></canvas>
+  <div class="wrap">
+    <div class="kick" data-en="Nail studio · Breda">Nagelstudio · Breda</div>
+    <h1 data-en="Styled with love and precision">Met liefde en precisie gelakt</h1>
+    <p data-en="Certified nail stylist for every style. Book online — your nails in calm, professional hands.">Gediplomeerd nagelstyliste voor elke stijl. Boek online — uw nagels worden in alle rust en met vakmanschap verwend.</p>
+    <div class="btns"><a class="b1" href="#book" data-en="Book online">Online afspraak maken</a><a class="b2" href="tel:+31631279394">06-31279394</a></div>
+  </div>
+  <div class="dots" id="dots"></div>
+</header>
+
+<section class="stats">
+  <div><b data-count="9">0</b><span data-en="years experience">jaar ervaring</span></div>
+  <div><b data-count="100">0</b><span data-en="styles welcome">% alle stijlen</span></div>
+  <div><b data-count="4.9" data-dec="1">0</b><span>★ Google</span></div>
+  <div><b data-count="2000">0</b><span data-en="happy clients">blije klanten</span></div>
+</section>
+
+<div class="marq"><div>
+  <span>Gellak</span><span>BIAB</span><span>Acryl</span><span>Pomeranian</span><span>Puppy's</span><span>Mix</span>
+  <span>Gellak</span><span>BIAB</span><span>Acryl</span><span>Pomeranian</span><span>Puppy's</span><span>Mix</span>
+</div></div>
+
+<section class="wrap feat" id="feat">
+  <img class="reveal" src="https://images.pexels.com/photos/4677846/pexels-photo-4677846.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="">
+  <div class="reveal">
+    <div class="kick" data-en="Craftsmanship">Vakmanschap</div>
+    <h2 data-en="A calm spa moment for your hands">Een rustig spa-moment voor uw handen</h2>
+    <p data-en="Every client gets time and attention. No rush, no stress — just patient, expert care from a certified nail stylist who keeps learning.">Elke klant krijgt tijd en aandacht. Geen haast, geen stress — alleen geduldig vakwerk van een gediplomeerd nagelstyliste die blijft bijscholen.</p>
+    <div class="tick" data-en="Diploma + yearly training (Purina symposium)">Gediplomeerd + jaarlijkse bijscholing (Purina-symposium)</div>
+    <div class="tick" data-en="Specialised in gel, BIAB & acrylics">Gespecialiseerd in gellak, BIAB & acryl</div>
+    <div class="tick" data-en="Honest nail advice, also for at home">Eerlijk nageladvies, ook voor thuis</div>
+  </div>
+</section>
+
+<section class="quote" id="quote">
+  <div class="wrap">
+    <p class="reveal" data-en="&ldquo;She does my nails with so much patience and care. I actually look forward to every visit — and they always look gorgeous.&rdquo;">&ldquo;Ze doet mijn nagels met zoveel geduld en aandacht. Ik kijk nu zelfs uit naar elke afspraak — en ze zien er altijd prachtig uit.&rdquo;</p>
+    <div class="who reveal">★★★★★ · Google review</div>
+  </div>
+</section>
+
+<section class="cta-band" id="book">
+  <h2 class="reveal" data-en="Book your spot">Reserveer een plekje voor uzelf</h2>
+  <p class="reveal" data-en="Choose your own moment online — confirmation straight to the agenda.">Kies online zelf uw moment — bevestiging direct in de agenda.</p>
+  <a class="b1 reveal" href="#book" data-en="Book online now">Nu online boeken</a>
+</section>
+
+<section id="over" style="background:var(--bg);color:var(--text);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px"><div><div style="color:var(--gold);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px" data-en="About us">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px" data-en="About us">Over ons</h2><p style="color:var(--mut);line-height:1.75"></p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--text)" data-en="Opening hours:">Openingstijden:</strong> Op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--gold);margin-bottom:12px" data-en="Pricing">Tarieven</h3><p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag — afgestemd op lengte en techniek. Vraag gerust een richtprijs.</p></div></div></section><footer><div class="wrap"><b>RegiNails & Lashes</b> · Breda · 06-31279394</div></footer>
+
+<script>
+// i18n
+const lb=document.getElementById('lang');let en=false;
+const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
+lb.onclick=()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));};
+// nav scroll
+const nav=document.getElementById('nav');addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40));
+// slideshow + dots
+const sl=[...document.querySelectorAll('.slides .s')],dots=document.getElementById('dots');let ci=0;
+sl.forEach((_,i)=>{const d=document.createElement('b');if(!i)d.className='on';d.onclick=()=>go(i);dots.appendChild(d)});
+const db=[...dots.children];
+function go(i){sl[ci].classList.remove('on');db[ci].classList.remove('on');ci=i;sl[ci].classList.add('on');db[ci].classList.add('on');}
+setInterval(()=>go((ci+1)%sl.length),4500);
+// reveal + counters
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.18});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+const co=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){const el=x.target,t=parseFloat(el.dataset.count),dec=+el.dataset.dec||0;let n=0;const step=t/55;const tk=setInterval(()=>{n+=step;if(n>=t){n=t;clearInterval(tk)}el.textContent=dec?n.toFixed(dec):Math.floor(n).toLocaleString('nl')},22);co.unobserve(el)}}),{threshold:.5});
+document.querySelectorAll('[data-count]').forEach(e=>co.observe(e));
+// gold particles
+const cv=document.getElementById('fx'),cx=cv.getContext('2d');let W,H,ps;
+function rs(){W=cv.width=cv.offsetWidth;H=cv.height=cv.offsetHeight;ps=Array.from({length:46},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*2+.5,s:Math.random()*.4+.1,o:Math.random()*.5+.2}))}
+rs();addEventListener('resize',rs);
+(function loop(){cx.clearRect(0,0,W,H);ps.forEach(p=>{p.y-=p.s;if(p.y<-5){p.y=H+5;p.x=Math.random()*W}cx.beginPath();cx.arc(p.x,p.y,p.r,0,7);cx.fillStyle='rgba(201,169,106,'+p.o+')';cx.fill()});requestAnimationFrame(loop)})();
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
+</script>
+</body></html>

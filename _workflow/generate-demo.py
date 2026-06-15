@@ -597,6 +597,31 @@ def render_d11_pedicure(s):
         out=out.replace(a,b)
     return out
 
+# ---- design-11 (premium nagel & hond) generators ----
+def _d11_common(s):
+    merk=s["bedrijf"]; kort=s.get("kort") or merk; plaats=s["plaats"]
+    th=s.get("tel_href",""); td=s.get("tel_display","")
+    tel = th[4:] if th.startswith("tel:") else (th or "#contact")
+    logo = merk.replace(kort,"<em>%s</em>"%kort,1) if kort and kort in merk else "<em>%s</em>"%merk
+    hours='<div class="row"><span data-en="Mon – Sat">Ma – Za</span><span data-en="By appointment">Op afspraak</span></div>'
+    return dict(merk=merk,plaats=plaats,tel=tel,td=td or "Bel of app ons",logo=logo,hours=hours)
+def _fill_d11(tpl,s,title_prefix,img):
+    if not tpl: return ""
+    d=_d11_common(s); out=tpl
+    for a,b in {"⟦TITLE⟧":"%s — %s %s"%(d["merk"],title_prefix,d["plaats"]),
+        "⟦LOGO⟧":d["logo"],"⟦NAME⟧":d["merk"],"⟦PLAATS⟧":d["plaats"],
+        "⟦PHONE⟧":d["td"],"⟦TEL⟧":d["tel"],
+        "⟦IMG_HERO⟧":img[0],"⟦IMG_ABOUT⟧":img[1],"⟦IMG_G1⟧":img[2],
+        "⟦IMG_G2⟧":img[3],"⟦IMG_G3⟧":img[4],"⟦HOURS_ROWS⟧":d["hours"]}.items():
+        out=out.replace(a,b)
+    return out
+_D11N=(ROOT/"_workflow"/"templates"/"design11-nagel.html")
+NAGEL_D11_TPL=_D11N.read_text(encoding="utf-8") if _D11N.exists() else ""
+_D11H=(ROOT/"_workflow"/"templates"/"design11-hond.html")
+HOND_D11_TPL=_D11H.read_text(encoding="utf-8") if _D11H.exists() else ""
+def render_d11_nagel(s): return _fill_d11(NAGEL_D11_TPL,s,"Nagelstudio",NAIL_IMG)
+def render_d11_hond(s):  return _fill_d11(HOND_D11_TPL,s,"Hondentrimsalon",(pick_pool(s["slug"]) if POOL_OK else AI_URLS))
+
 n=0
 for s in salons:
     dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
@@ -613,7 +638,12 @@ for s in salons:
             out=out.replace('<html lang="nl">','<html lang="en">')
             out=out.replace("</body>", '<script>addEventListener("load",function(){var b=document.getElementById("lang");if(b&&/EN/i.test(b.textContent))b.click();});</script>\n</body>',1)
         (dest/f).write_text(out,encoding="utf-8")
-    if s.get("niche")=="pedicure":
+    _nb=s.get("niche")
+    if _nb=="pedicure":
         (dest/"previews"/"design-11.html").write_text(render_d11_pedicure(s),encoding="utf-8")
+    elif _nb=="nagels":
+        (dest/"previews"/"design-11.html").write_text(render_d11_nagel(s),encoding="utf-8")
+    else:
+        (dest/"previews"/"design-11.html").write_text(render_d11_hond(s),encoding="utf-8")
     n+=1
 print(f"{n} demo's gegenereerd (met content-sectie + Cal-popup).")
