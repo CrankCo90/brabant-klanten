@@ -870,14 +870,14 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
         <p class="section-lead">Bepaal hoe de autopilot dagelijks salons benadert.</p>
         <div class="panel"><div class="panel-body">
           <div class="toolbar" style="border-top:none;border-radius:12px;background:rgba(212,176,106,.04)">
-            <div class="switch"><span class="toggle"></span> Autopilot dagelijks automatisch</div>
+            <div class="switch" id="autopilotSw3"><span class="toggle"></span> Autopilot dagelijks automatisch</div>
             <div class="cap">Dagcap <input type="number" value="50" min="1"></div>
           </div>
           <div class="form-grid mt">
             <div class="fld"><label>Start-tijd</label><input class="inp" id="apStart" value="09:00"></div>
             <div class="fld"><label>Stop-tijd</label><input class="inp" id="apStop" value="17:00"></div>
             <div class="fld"><label>Werkdagen</label><select class="inp" id="apDagen"><option>Ma–Vr</option><option>Ma–Za</option><option>Alle dagen</option></select></div>
-            <div class="fld"><label>Opvolg-interval</label><select class="inp"><option>Na 3 dagen</option><option>Na 5 dagen</option><option>Na 1 week</option></select></div>
+            <div class="fld"><label>Opvolg-interval</label><select class="inp" id="apInterval"><option>Na 3 dagen</option><option>Na 5 dagen</option><option>Na 1 week</option></select></div>
           </div>
           <div class="act-foot" style="border:none;padding:18px 0 0"><button class="btn gold" id="saveAutopilot">Opslaan</button></div>
         </div></div>
@@ -1088,6 +1088,7 @@ async function boot(){
  try{var d=await fetch((location.pathname.indexOf("/admin")===0?"/admin/":"./")+"clients.json?"+Date.now());DATA=await d.json();}catch(e){DATA=[];}
  if(CT){var st=await api("/status");if(!st.error)CTL=st;}
  rebuild();renderStats();renderCharts();renderActions();
+ applySettings();
  if($("#view-klanten").classList.contains('active'))renderKlanten();
  var c=$("#vpsStatus");if(c)c.value=CT?(CTL&&!CTL.error?"Verbonden ●":"Token ingevuld, geen antwoord"):"Niet verbonden";
 }
@@ -1302,7 +1303,20 @@ function renderKlantDetail(c){var d=buildDetail(c);var loc=c.dist?c.city+' · '+
  var ss=$("#saveStatus");if(ss)ss.addEventListener('click',function(){if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var d2m={gekocht:'ja',niet:'afgewezen'};var nv=$("#detailStatus").value;var raw=d2m[nv]||nv;toast('Status opslaan…');api('/set-status','POST',{bedrijf:c.bedrijf,status:raw}).then(function(r){toast(r.error?('Fout: '+r.error):'Status opgeslagen');setTimeout(boot,800);});});}
 
 /* ---------- Interactions ---------- */
-function setCapInputs(){document.querySelectorAll('.cap input').forEach(function(i){i.value=CAP;i.addEventListener('change',function(){CAP=parseInt(i.value||'20',10)||20;localStorage.setItem('bd_cap',CAP);document.querySelectorAll('.cap input').forEach(function(o){o.value=CAP;});});});}
+function applySettings(){
+ var s=(CTL&&CTL.settings)||{}; var on=!!(CTL&&CTL.autopilot);
+ var sc=parseInt(s.cap,10); CAP=(sc>0?sc:20);
+ try{localStorage.setItem("bd_cap",CAP);}catch(e){}
+ document.querySelectorAll(".cap input").forEach(function(i){i.value=CAP;});
+ ["autopilotSw","autopilotSw2","autopilotSw3"].forEach(function(id){var e=document.getElementById(id);if(e)e.classList.toggle("on",on);});
+ if(s.start){var a=$("#apStart");if(a)a.value=s.start;}
+ if(s.stop){var b=$("#apStop");if(b)b.value=s.stop;}
+ if(s.dagen){var d=$("#apDagen");if(d)d.value=s.dagen;}
+ if(s.interval){var iv=$("#apInterval");if(iv)iv.value=s.interval;}
+}
+function curSettings(){var sw=document.getElementById("autopilotSw");return {on:!!(sw&&sw.classList.contains("on")),cap:CAP,start:(($("#apStart")||{}).value||"09:00"),stop:(($("#apStop")||{}).value||"17:00"),dagen:(($("#apDagen")||{}).value||"Ma–Vr"),interval:(($("#apInterval")||{}).value||"")};}
+function saveSettings(){if(CT)return api("/autopilot-settings","POST",curSettings());}
+function setCapInputs(){document.querySelectorAll('.cap input').forEach(function(i){i.value=CAP;i.addEventListener('change',function(){CAP=parseInt(i.value||'20',10)||20;try{localStorage.setItem('bd_cap',CAP);}catch(e){}document.querySelectorAll('.cap input').forEach(function(o){o.value=CAP;});saveSettings();});});}
 function bindUI(){
  // nav
  document.querySelectorAll('.nav-item').forEach(function(it){it.addEventListener('click',function(){if(it.dataset.target){go(it.dataset.target);return;}var sn=it.nextElementSibling;var open=!sn.classList.contains('open');it.classList.toggle('open',open);sn.classList.toggle('open',open);});});
@@ -1316,7 +1330,7 @@ function bindUI(){
  var rf=$("#refreshBtn");if(rf)rf.addEventListener('click',function(){toast('Status vernieuwd');boot();});
  document.querySelectorAll('[data-act="refresh"]').forEach(function(b){b.addEventListener('click',function(){toast('Status vernieuwd');boot();});});
  // autopilot toggles -> /autopilot
- document.querySelectorAll('.switch').forEach(function(sw){sw.addEventListener('click',function(){var on=sw.classList.toggle('on');if(sw.id==='autopilotSw'||sw.id==='autopilotSw2'){if(CT)api('/autopilot','POST',{on:on});toast(on?'Autopilot ingeschakeld':'Autopilot gepauzeerd');}});});
+ ['autopilotSw','autopilotSw2','autopilotSw3'].forEach(function(id){var sw=document.getElementById(id);if(!sw)return;sw.addEventListener('click',function(){var on=!sw.classList.contains('on');['autopilotSw','autopilotSw2','autopilotSw3'].forEach(function(j){var e=document.getElementById(j);if(e)e.classList.toggle('on',on);});if(CT){api('/autopilot','POST',{on:on});saveSettings();}toast(on?'Autopilot ingeschakeld':'Autopilot gepauzeerd');});});
  // select all
  var sa=$("#selAll");if(sa)sa.addEventListener('change',function(e){document.querySelectorAll('#actionList .chk:not([disabled])').forEach(function(c){c.checked=e.target.checked;});updateSel();});
  var so=$("#sendOutreach");if(so)so.addEventListener('click',function(){if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var names=selectedNames();if(!names.length){toast('Selecteer eerst klanten');return;}toast('Outreach versturen naar '+names.length+'…');api('/send-outreach','POST',{only:names,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):('Outreach verstuurd ('+names.length+')'));setTimeout(boot,1500);});});
@@ -1332,7 +1346,7 @@ function bindUI(){
  // nieuw
  var f=$("#addClientForm");if(f)f.addEventListener('submit',function(e){e.preventDefault();if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var p={bedrijf:$("#nc_bedrijf").value.trim(),niche:$("#nc_niche").value.trim(),regio:$("#nc_regio").value.trim(),land:($("#nc_land")?$("#nc_land").value:"NL"),link:$("#nc_link").value.trim(),telefoon:($("#nc_tel")?$("#nc_tel").value.trim():""),notitie:$("#nc_not").value.trim()};if(!p.bedrijf){toast('Bedrijfsnaam is vereist');return;}toast('\''+p.bedrijf+'\' wordt verwerkt op de VPS…');api('/new-client','POST',p).then(function(r){toast(r.error?('Fout: '+r.error):'Aangemeld — Claude bouwt de demo');f.reset();setTimeout(boot,6000);});});
  // autopilot settings save
- var as=$("#saveAutopilot");if(as)as.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}api('/autopilot-settings','POST',{start:$("#apStart").value,stop:$("#apStop").value,dagen:$("#apDagen").value,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):'Instellingen opgeslagen');});});
+ var as=$("#saveAutopilot");if(as)as.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}api('/autopilot-settings','POST',curSettings()).then(function(r){toast(r.error?('Fout: '+r.error):'Instellingen opgeslagen');});});
  // instellingen control-token
  var cb=$("#ctlConnect");if(cb)cb.addEventListener('click',function(){CT=$("#ctlToken").value.trim();localStorage.setItem('bd_ctl',CT);toast('Verbinden…');boot();});
  document.querySelectorAll('[data-toast]').forEach(function(b){b.addEventListener('click',function(){toast(b.dataset.toast);});});
