@@ -255,7 +255,7 @@ footer b{color:#c9a96a;font-family:'Playfair Display',serif}
     <h2>Spreekt een ontwerp u aan?</h2>
     <p>Laat het ons weten — ook als u twijfelt of functies wilt combineren. We denken vrijblijvend met u mee en passen alles aan naar uw wensen.</p>
     <div class="ctas">
-      <a class="wa" href="https://wa.me/31850608471" target="_blank" rel="noopener">💬 WhatsApp 085-0608471</a>
+      <a class="wa" href="https://wa.me/31850608491" target="_blank" rel="noopener">💬 WhatsApp 085-0608491</a>
       <a class="mail" href="mailto:aanbod@brabantdigital.nl">✉️ aanbod@brabantdigital.nl</a>
     </div>
     <form id="contactform" style="max-width:480px;margin:30px auto 0;text-align:left;display:grid;gap:12px">
@@ -297,7 +297,7 @@ document.querySelectorAll('.card[data-src]').forEach(card=>{
       var res=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)});
       if(res.ok){st.textContent='✓ Bedankt! Uw bericht is verzonden — we reageren binnen 1 werkdag.';st.style.background='rgba(201,169,106,.15)';st.style.color='#c9a96a';st.style.border='1px solid #c9a96a';f.querySelectorAll('input:not([type=hidden]),textarea').forEach(function(el){el.value='';});}
       else{throw new Error();}
-    }catch(err){st.textContent='Versturen lukte niet. Probeer het nog eens, of app ons op 085-0608471.';st.style.background='rgba(220,80,80,.12)';st.style.color='#e09090';st.style.border='1px solid #e09090';}
+    }catch(err){st.textContent='Versturen lukte niet. Probeer het nog eens, of app ons op 085-0608491.';st.style.background='rgba(220,80,80,.12)';st.style.color='#e09090';st.style.border='1px solid #e09090';}
     st.style.display='block';btn.disabled=false;btn.textContent='Versturen';
   });
 })();
