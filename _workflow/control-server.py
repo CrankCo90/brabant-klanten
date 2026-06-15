@@ -84,7 +84,9 @@ class H(BaseHTTPRequestHandler):
             ap=_ap(); ap["on"]=bool(body.get("on")); json.dump(ap,open(APJSON,"w"))
             return self._s(200,{"autopilot":ap["on"]})
         if self.path=="/api/autopilot-settings":
-            ap={k:body.get(k) for k in ("on","cap","start","stop","dagen","interval")}
+            ap=_ap()
+            for k in ("on","cap","start","stop","dagen","interval"):
+                if body.get(k) is not None: ap[k]=body.get(k)
             json.dump(ap,open(APJSON,"w"))
             return self._s(200,{"ok":True,"log":"Autopilot-instellingen opgeslagen.","settings":ap})
         if self.path=="/api/set-status":
