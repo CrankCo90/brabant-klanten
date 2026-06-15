@@ -61,6 +61,7 @@ zet ze live op een VPS, en pitcht ze. Doel: klant koopt website + maandelijkse h
   groene (#25D366) pil + officieel WhatsApp-logo → opent `wa.me/31850608491`. Zit ook in de brontemplate
   (`hondentrimsalonscott/03-designs/index.html`), dus nieuwe demo's krijgen 'm automatisch.
 - BD-contact (WhatsApp/tel) hoort ALLEEN op de coverpagina (de pitch), NIET in de 11 ontwerpen zelf.
+- **Vaste WhatsApp-tekst (dashboard `waText`):** "Hoi {voornaam}! 👋 Ik ben Leroy van Brabant Digital……voor {bedrijf} … 30 seconden: 👉 {demo_url} … En zo niet, dan hoor ik dat ook graag eerlijk 😊 — Groetjes van Leroy". Bij `mailDone` aangepaste opening ("Ik had je net een mailtje gestuurd…"). Voornaam via `waName`; EN-variant aanwezig.
 
 ## Prospect-contactregel (VASTE AFSPRAAK — aangescherpt 15-06-2026)
 Een prospect mag in de lijst/gebouwd worden als hij MINSTENS ÉÉN van deze heeft:
