@@ -117,6 +117,7 @@ def main():
         msg["Reply-To"] = env["FROM_EMAIL"]
         msg["Date"]       = formatdate(localtime=True)
         msg["Message-ID"] = make_msgid(domain=(env["FROM_EMAIL"].split("@")[-1]))
+        msg["List-Unsubscribe"]="<mailto:%s?subject=Uitschrijven>"%env["FROM_EMAIL"]
         _intro=os.environ.get("OUTREACH_INTRO","").strip()
         if _intro: body=_intro+"\n\n"+body
         msg.set_content(body)
