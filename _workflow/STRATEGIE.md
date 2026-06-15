@@ -77,7 +77,7 @@ Hoge webscore = niet benaderen.
 - Auto-deploy: GitHub-repo CrankCo90/brabant-klanten → VPS-cron elke 15 min.
 - Outreach: e-mail via aanbod@brabantdigital.nl (SMTP), autonoom met dagcap + dedupe + afmeldregel,
   alleen na demo. Warme, persoonlijke mail (outreach/template-nl.txt). WhatsApp niet automatisch.
-- Merk/contact: Brabant Digital · aanbod@brabantdigital.nl · 085-0608471.
+- Merk/contact: Brabant Digital · aanbod@brabantdigital.nl · 085-0608491.
 
 ## Openstaande beslissingen
 - [ ] Infrastructuur bevestigen (1 VPS, git-gedreven = aanbeveling).

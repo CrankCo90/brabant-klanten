@@ -28,7 +28,7 @@ zet ze live op een VPS, en pitcht ze. Doel: klant koopt website + maandelijkse h
 - **Hosting:** VPS `93.190.187.213`, webserver **Caddy** (HTTPS automatisch).
 - **Demo-URL per klant:** `KLANT.demo.brabantdigital.nl` (wildcard `*.demo` staat al in DNS).
 - **Mapstructuur per klant:** zie `_workflow/WORKFLOW.md`. Demo = de map `03-designs/` (alle 10 designs onder 1 subdomein).
-- **Contact/merk:** Brabant Digital · aanbod@brabantdigital.nl · WhatsApp wa.me/31850608471.
+- **Contact/merk:** Brabant Digital · aanbod@brabantdigital.nl · WhatsApp wa.me/31850608491.
 - **Formulieren:** Web3Forms-sleutel `ef050157-d2a3-43ce-89c2-6088aa1b8bf2` (mailt naar aanbod@brabantdigital.nl). Herbruikbaar in elke demo.
 
 ## Deploy (Caddy) — standaard stappen
