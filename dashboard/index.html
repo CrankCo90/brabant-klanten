@@ -1141,7 +1141,7 @@ function renderWhatsapp(){var wrap=$("#waList");if(!wrap)return;
 }
 function renderActions(){
  var lists=document.querySelectorAll('#actionList');if(!lists.length)return;
- var subset=CLIENTS.filter(function(c){return c.em && c.es!=='verzonden' && c.st!=='gekocht' && c.st!=='afgewezen';}).sort(function(a,b){return b.score-a.score;});
+ var subset=CLIENTS.filter(function(c){return c.em && c.es!=='verzonden' && c.st!=='benaderd' && c.st!=='gekocht' && c.st!=='afgewezen';}).sort(function(a,b){return b.score-a.score;});
  var html=subset.map(function(c){
    var es=c.es==='verzonden'?'<span class="badge b-verzonden">verzonden</span>':c.es==='klaar'?'<span class="badge b-klaar">klaar</span>':'<span class="badge b-geen">geen e-mail · bel/app</span>';
    var em=c.em?'<span class="em">'+c.em+'</span>':'<span class="em">geen e-mailadres</span>';

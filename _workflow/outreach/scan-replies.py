@@ -2,7 +2,8 @@
 """Scant de mailbox (IMAP) op antwoorden van prospects en schrijft replies.json:
 {email: {"status":"nee|ja|reactie","datum":"...","laatste":"onderwerp/snippet"}}.
 Leest IMAP-gegevens uit /root/outreach-data/.smtp-env (IMAP_HOST, IMAP_PORT, SMTP_USER, SMTP_PASS)."""
-import imaplib, email, json, os, re, datetime
+import imaplib, email, json, os, re, datetime, subprocess
+from pathlib import Path
 from email.header import decode_header
 DATA=os.environ.get("OUTREACH_DATA","/root/outreach-data")
 env={}
@@ -41,3 +42,32 @@ for num in data[0].split():
     out[frm]={"status":st,"datum":datetime.date.today().isoformat(),"laatste":subj[:120]}
 json.dump(out,open(os.path.join(DATA,"replies.json"),"w"),ensure_ascii=False,indent=1)
 print("replies bijgewerkt:",len(out))
+
+# --- "nee"-reacties automatisch verwerken: klant -> afgewezen, demo offline, nooit meer mailen ---
+try:
+    ROOT=Path(__file__).resolve().parents[2]
+    P=json.load(open(ROOT/"_workflow/outreach/prospects.json"))
+    email2bedr={(p.get("email") or "").lower():p.get("bedrijf") for p in P if p.get("email")}
+    cf=ROOT/"dashboard/clients.json"; C=json.load(open(cf))
+    nd=ROOT/"_workflow/niet-deployen.txt"
+    nd_set=set(x.strip() for x in nd.read_text().split()) if nd.exists() else set()
+    changed=False
+    for em,info in out.items():
+        if (info or {}).get("status")!="nee": continue
+        bedr=email2bedr.get(em.lower())
+        if not bedr: continue
+        for c in C:
+            if c.get("bedrijf")==bedr and c.get("status")!="afgewezen":
+                c["status"]="afgewezen"; changed=True
+                m=re.search(r"https://([^.]+)\.demo", c.get("demo_url") or "")
+                if m: nd_set.add(m.group(1))
+    if changed:
+        json.dump(C,open(cf,"w"),ensure_ascii=False,indent=1)
+        nd.write_text("\n".join(sorted(nd_set))+"\n")
+        subprocess.run(["bash","-lc","cd %s && git add -A && git -c user.email=vps@brabantdigital.nl -c user.name=BD-VPS commit -q -m 'auto: nee-reacties -> afgewezen'"%ROOT])
+        if os.path.exists("/root/outreach-data/.git-token"):
+            tok=open("/root/outreach-data/.git-token").read().strip()
+            subprocess.run(["bash","-lc","cd %s && git push -q https://%s@github.com/CrankCo90/brabant-klanten.git HEAD:main"%(ROOT,tok)])
+        print("nee-reacties -> afgewezen verwerkt")
+except Exception as e:
+    print("reply-verwerking fout:",e)

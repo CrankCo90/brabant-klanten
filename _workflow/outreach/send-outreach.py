@@ -65,6 +65,24 @@ def log_send(email, bedrijf):
         if new: w.writerow(["datum", "email", "bedrijf"])
         w.writerow([datetime.datetime.now().isoformat(timespec="seconds"), email, bedrijf])
 
+ROOT_DIR = REPO_DIR.parent.parent
+
+def clients_skip():
+    """Bedrijven die NIET (meer) gemaild mogen worden: al benaderd/gekocht/afgewezen in clients.json."""
+    try:
+        C=json.loads((ROOT_DIR/"dashboard"/"clients.json").read_text(encoding="utf-8"))
+        return {c.get("bedrijf") for c in C if c.get("status") in ("benaderd","gekocht","afgewezen")}
+    except Exception:
+        return set()
+
+def blocked_emails():
+    """E-mails die 'nee' hebben geantwoord -> nooit meer mailen (uit replies.json)."""
+    try:
+        R=json.loads((DATA_DIR/"replies.json").read_text(encoding="utf-8"))
+        return {e.lower() for e,v in R.items() if (v or {}).get("status")=="nee"}
+    except Exception:
+        return set()
+
 def main():
     env = load_env(ENV_FILE)
     need = ["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS","FROM_NAME","FROM_EMAIL"]
@@ -88,17 +106,26 @@ def main():
         srv = smtplib.SMTP(env["SMTP_HOST"], port); srv.starttls(context=ssl.create_default_context())
     srv.login(env["SMTP_USER"], env["SMTP_PASS"])
 
+    skip_bedr = clients_skip()
+    block = blocked_emails()
+    all_mode = os.environ.get("OUTREACH_ALL","").strip()=="1"
+    batch = int(os.environ.get("OUTREACH_BATCH","0") or 0)   # max per run (0 = onbeperkt)
+    _only=os.environ.get("OUTREACH_ONLY","").strip()
+    _onlyset=set(x.strip() for x in _only.split("|") if x.strip()) if _only else None
     sent = 0
     for p in prospects:
         if sent >= left: break
-        _only=os.environ.get("OUTREACH_ONLY","").strip()
-        _onlyset=set(x.strip() for x in _only.split("|") if x.strip()) if _only else None
+        if batch and sent >= batch: break
         if _onlyset is not None:
-            if p.get("bedrijf") not in _onlyset: continue     # expliciete selectie uit dashboard -> stuur ongeacht concept/klaar
-        elif p.get("status") != "klaar":
-            continue                                          # autopilot / bulk-alles -> alleen status 'klaar' 
+            if p.get("bedrijf") not in _onlyset: continue     # expliciete selectie -> stuur ongeacht concept/klaar
+        else:
+            if all_mode:
+                if p.get("status")=="afgewezen": continue     # autopilot: alle e-mailbare behalve afgewezen
+            elif p.get("status") != "klaar":
+                continue                                      # bulk-alles zonder all-mode -> alleen 'klaar'
+            if p.get("bedrijf") in skip_bedr: continue        # al gemaild/benaderd/gekocht/afgewezen -> overslaan
         email = (p.get("email") or "").strip()
-        if "@" not in email or email.lower() in done: continue
+        if "@" not in email or email.lower() in done or email.lower() in block: continue
         verb = p.get("verbeteringen") or []
         verb_txt = "\n".join("- " + v for v in verb) if verb else "- Online afspraken, betere vindbaarheid in Google en een snelle, moderne uitstraling."
         afmelder = p.get("afmelder") or (("You received this message once because I help local businesses get online. Not interested? Just reply 'no' and you will never hear from me again.") if p.get("taal")=="en" else ("Je krijgt dit bericht eenmalig omdat ik lokale ondernemers in de buurt help. Geen interesse? Eén woordje \"nee\" terug en je hoort nooit meer iets van me."))
