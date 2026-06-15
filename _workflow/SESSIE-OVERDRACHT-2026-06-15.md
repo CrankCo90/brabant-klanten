@@ -49,8 +49,7 @@ ook in `CLAUDE.md` (laadt elke sessie automatisch). Lees bij opstart éérst `CL
   automatisch uit (via `sent-log.csv`). Geen dubbele mails meer. Test-mail telt niet mee.
 - **"Publiceer demo's"-knop verwijderd** (beide plekken + handler): autodeploy publiceert al elke minuut.
 
-## Openstaande punten
-- **Mailrelay** opzetten voor betere aflevering (wachten op keuze provider; dan pas ik `.smtp-env` +
-  DNS-records aan).
-- Klant **"Trimsalon by Fem"** mist een `prospects.json`-regel → test-mail faalt voor díé klant.
-- Een paar eerder verwijderde vaste-lijn-pedicures hadden in het oorspronkelijke onderzoek tóch e
+## 8. Outreach/autopilot gerepareerd + volledig geautomatiseerd
+- **Bugs gefixt:** niets werd verstuurd (status-gate `klaar` terwijl alles `concept`); 13 e-mails ontbraken
+  in prospects.json (gesynct vanuit clients.json); bulk-knop sprak verkeerde sleutel aan (`only` vs
+  `prospects`); "Status verversen"-knop had geen handler; settings-ops
