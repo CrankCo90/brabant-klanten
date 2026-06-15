@@ -44,13 +44,13 @@ ook in `CLAUDE.md` (laadt elke sessie automatisch). Lees bij opstart éérst `CL
   DKIM op brabantdigital.nl i.p.v. het VPS-IP. Plus: "geen spam" markeren + warm-up (laag volume).
 - `wa.me` kan als "verkorte URL" gezien worden; desnoods `api.whatsapp.com/send?phone=31850608491`.
 
+## 7. Dashboard — Acties & autopilot opgeschoond
+- Outreach-wachtrij toont nu alleen **e-mailbare, nog-niet-gemailde** klanten; gemailde vallen er
+  automatisch uit (via `sent-log.csv`). Geen dubbele mails meer. Test-mail telt niet mee.
+- **"Publiceer demo's"-knop verwijderd** (beide plekken + handler): autodeploy publiceert al elke minuut.
+
 ## Openstaande punten
 - **Mailrelay** opzetten voor betere aflevering (wachten op keuze provider; dan pas ik `.smtp-env` +
   DNS-records aan).
 - Klant **"Trimsalon by Fem"** mist een `prospects.json`-regel → test-mail faalt voor díé klant.
-- Een paar eerder verwijderde vaste-lijn-pedicures hadden in het oorspronkelijke onderzoek tóch een 06
-  (in de samenvatting verloren gegaan) — terug te halen door het mobiele nummer op te vissen.
-
-## Alles staat op GitHub (CrankCo90/brabant-klanten, main); VPS pullt elke minuut.
-Laatste commits o.a.: demo-build 168, contactregel + 35 vervangers, mail-fix, List-Unsubscribe,
-nieuw nummer + WhatsApp-link, meelopende App-ons-knop, tip-zin.
+- Een paar eerder verwijderde vaste-lijn-pedicures hadden in het oorspronkelijke onderzoek tóch e
