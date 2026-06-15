@@ -569,6 +569,13 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
 .qa.done{background:rgba(127,208,131,.10);color:var(--st-gekocht);border-color:rgba(127,208,131,.3);cursor:default;opacity:.9}
 .qa.muted{background:none;border:1px solid var(--line-soft);color:var(--muted-2)}
 
+
+/* ===== Mobiel menu: backdrop + sluitknop ===== */
+.sidebar-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(2px);z-index:19;opacity:0;visibility:hidden;transition:opacity .25s}
+.sidebar-backdrop.show{opacity:1;visibility:visible}
+.sb-close{display:none;position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:9px;border:1px solid var(--line-soft);background:var(--panel);color:var(--text);font-size:17px;line-height:1;cursor:pointer;align-items:center;justify-content:center}
+@media(min-width:1181px){.sidebar-backdrop{display:none}}
+@media(max-width:1180px){.sidebar{z-index:21}.sb-close{display:inline-flex}}
 </style>
 </head>
 <body data-theme="obsidian">
@@ -588,6 +595,7 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
 <div class="shell">
   <!-- ===== Sidebar ===== -->
   <aside class="sidebar">
+    <button class="sb-close" id="sbClose" aria-label="Menu sluiten">✕</button>
     <div class="brand">
       <div class="brand-mark">B</div>
       <div>
@@ -667,6 +675,7 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
       </div>
     </div>
   </aside>
+  <div class="sidebar-backdrop" id="sbBackdrop"></div>
 
   <!-- ===== Main ===== -->
   <div class="main">
@@ -1086,6 +1095,7 @@ async function boot(){
 /* ---------- Routing ---------- */
 var PAGE_META={overzicht:{c:"Beheer",t:"Overzicht"},acties:{c:"Outreach",t:"Acties & autopilot"},campagne:{c:"Outreach",t:"Campagne versturen"},testkopie:{c:"Outreach",t:"Testkopie sturen"},klanten:{c:"Klanten",t:"Alle klanten"},nieuw:{c:"Klanten",t:"Nieuwe klant toevoegen"},status:{c:"Statistieken",t:"Status-verdeling"},niche:{c:"Statistieken",t:"Klanten per regio"},claude:{c:"Claude AI",t:"Vrije opdracht"},autopilot:{c:"Claude AI",t:"Autopilot instellingen"},whatsapp:{c:"Outreach",t:"WhatsApp appjes"},instellingen:{c:"Account",t:"Instellingen"}};
 function go(page){
+ if(window.closeSidebar)closeSidebar();
  document.querySelectorAll('.view').forEach(function(v){v.classList.toggle('active',v.id==='view-'+page);});
  document.querySelectorAll('.nav-item,.sub-item').forEach(function(el){el.classList.remove('active');});
  document.querySelectorAll('.sub-item,.nav-item[data-target]').forEach(function(el){if(el.dataset.target===page)el.classList.add('active');});
@@ -1298,7 +1308,11 @@ function bindUI(){
  document.querySelectorAll('.nav-item').forEach(function(it){it.addEventListener('click',function(){if(it.dataset.target){go(it.dataset.target);return;}var sn=it.nextElementSibling;var open=!sn.classList.contains('open');it.classList.toggle('open',open);sn.classList.toggle('open',open);});});
  document.querySelectorAll('.sub-item').forEach(function(si){si.addEventListener('click',function(){go(si.dataset.target);});});
  document.querySelectorAll('[data-go]').forEach(function(b){b.addEventListener('click',function(){go(b.dataset.go);});});
- var ham=$("#hamb");if(ham)ham.addEventListener('click',function(){document.querySelector('.sidebar').classList.toggle('open');});
+ function closeSidebar(){var sb=document.querySelector('.sidebar');if(sb)sb.classList.remove('open');var bd=$("#sbBackdrop");if(bd)bd.classList.remove('show');}
+ window.closeSidebar=closeSidebar;
+ var ham=$("#hamb");if(ham)ham.addEventListener('click',function(){var sb=document.querySelector('.sidebar');var open=sb.classList.toggle('open');var bd=$("#sbBackdrop");if(bd)bd.classList.toggle('show',open);});
+ var sbBd=$("#sbBackdrop");if(sbBd)sbBd.addEventListener('click',closeSidebar);
+ var sbCl=$("#sbClose");if(sbCl)sbCl.addEventListener('click',closeSidebar);
  var rf=$("#refreshBtn");if(rf)rf.addEventListener('click',function(){toast('Status vernieuwd');boot();});
  document.querySelectorAll('[data-act="refresh"]').forEach(function(b){b.addEventListener('click',function(){toast('Status vernieuwd');boot();});});
  // autopilot toggles -> /autopilot
