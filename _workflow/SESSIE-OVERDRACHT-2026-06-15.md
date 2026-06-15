@@ -53,3 +53,7 @@ ook in `CLAUDE.md` (laadt elke sessie automatisch). Lees bij opstart éérst `CL
 - **Bugs gefixt:** niets werd verstuurd (status-gate `klaar` terwijl alles `concept`); 13 e-mails ontbraken
   in prospects.json (gesynct vanuit clients.json); bulk-knop sprak verkeerde sleutel aan (`only` vs
   `prospects`); "Status verversen"-knop had geen handler; settings-ops
+## 9. Outreach-engine extra fixes (laatste ronde)
+- "Verstuur outreach naar geselecteerde" in de Acties-sectie werkte niet (`data-act="send-sel"` had geen
+  handler) → gekoppeld. Vereist wel `sudo systemctl restart bd-control` voor de `only`-fix.
+- Dagrapport-test: `daily-report.py` handmatig draaibaar (naar leroyb@home.nl). Testmodus niet gewenst.

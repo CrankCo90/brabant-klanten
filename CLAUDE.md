@@ -54,3 +54,72 @@ zet ze live op een VPS, en pitcht ze. Doel: klant koopt website + maandelijkse h
 - **Demo-URL per klant:** `KLANT.demo.brabantdigital.nl` (wildcard `*.demo` staat al in DNS).
 - **Mapstructuur per klant:** zie `_workflow/WORKFLOW.md`. Demo = de map `03-designs/` (alle 10 designs onder 1 subdomein).
 - **Contact/merk:** Brabant Digital · aanbod@brabantdigital.nl · telefoon **085-0608491** · WhatsApp **wa.me/31850608491** (én appbaar). Oud nummer 0608471 is overal vervangen (mails, demo-coverpagina'
+## Telefoon & WhatsApp (VASTE FEITEN — 15-06-2026)
+- **Nieuw nummer:** `085-0608491`. WhatsApp-link: `https://wa.me/31850608491` (0 weg, 31 ervoor).
+- Staat in: outreach-mails (template-nl/kort/herinnering), de demo-**coverpagina** (index.html) en BD-site/onboarding.
+- **Meelopende 'App ons'-knop** op elke demo-coverpagina: vaste WhatsApp-pil rechtsonder, `id="bd-wa-float"`,
+  groene (#25D366) pil + officieel WhatsApp-logo → opent `wa.me/31850608491`. Zit ook in de brontemplate
+  (`hondentrimsalonscott/03-designs/index.html`), dus nieuwe demo's krijgen 'm automatisch.
+- BD-contact (WhatsApp/tel) hoort ALLEEN op de coverpagina (de pitch), NIET in de 11 ontwerpen zelf.
+
+## Prospect-contactregel (VASTE AFSPRAAK — aangescherpt 15-06-2026)
+Een prospect mag in de lijst/gebouwd worden als hij MINSTENS ÉÉN van deze heeft:
+**e-mail OF social (IG/FB/TikTok) OF een 06-MOBIEL nummer.**
+- Een **vaste lijn** (040/030/073/013/0162/0492 enz.) telt NIET als bereikbaar contact.
+- Geen van de drie → verwijderen + vervangen door een prospect die wél voldoet.
+
+## Outreach-mail (opbouw & regels — VASTE AFSPRAAK)
+- Template: `_workflow/outreach/template-nl.txt`. Placeholders uit `prospects.json`: `compliment`,
+  `gratis_tip`, `verbeteringen` (+ aanhef/bedrijf/demo_url). NOOIT website-status of fouten in die velden.
+- `compliment` = nette opener (niche+plaats), `gratis_tip` = echte tip, `verbeteringen` = VOORDELEN.
+- **List-Unsubscribe (mailto) header** in send-one.py + send-outreach.py. Status `concept` wordt niet gemaild.
+- Afleverbaarheid: mail-tester 10/10 ≠ inbox; grootste hefboom = mailrelay (Postmark/Brevo) i.p.v. VPS-IP.
+
+## Design-11 voor ALLE niches (generator — 15-06-2026)
+- `generate-demo.py` bouwt design-11 voor pedicure, nagels én hond (`render_d11_pedicure/nagel/hond` +
+  templates `_workflow/templates/design11-{pedicure,nagel,hond}.html`). Cal.eu-blok 1-op-1 uit de generator-`CAL`.
+
+## Dashboard — Acties & autopilot (VASTE AFSPRAAK — 15-06-2026)
+- Outreach-wachtrij toont ALLEEN klanten die per e-mail bereikbaar zijn én nog niet gemaild/benaderd
+  (`c.em && c.es!=='verzonden' && niet benaderd/gekocht/afgewezen`). Gemailde vallen automatisch weg (sent-log.csv).
+- "Publiceer demo's"-knop is verwijderd (autodeploy publiceert elke minuut). Niet terugzetten.
+
+## Autopilot & outreach-engine (VASTE WERKING — 15-06-2026)
+- Autopilot mailt ALLE e-mailbare, niet-benaderde klanten: `OUTREACH_ALL=1` + `OUTREACH_BATCH=1` +
+  `OUTREACH_CAP`=daglimiet. Cron elke 2 min, alleen binnen kantooruren/werkdagen → 1 mail/2 min tot daglimiet.
+- "nee"-reacties → `scan-replies.py` zet klant op afgewezen + demo offline + blocklist + commit/push.
+- `daily-report.py` mailt elke werkdag 17:35 naar leroyb@home.nl (# gemaild + reacties).
+- Statuswijzigingen worden gecommit+gepusht (token in `/root/outreach-data/.git-token`).
+- Na control-server.py-wijziging: `sudo systemctl restart bd-control`.
+
+## Outreach — VPS-commando's (cron-installers + test)
+```bash
+sudo systemctl restart bd-control
+( crontab -l 2>/dev/null | grep -v autopilot-run.sh; echo '*/2 * * * * bash /root/klanten/_workflow/autopilot-run.sh' ) | crontab -
+( crontab -l 2>/dev/null | grep -v scan-replies.py; echo '*/15 * * * * cd /root/klanten && OUTREACH_DATA=/root/outreach-data /usr/bin/python3 _workflow/outreach/scan-replies.py >> /root/outreach-data/replies.log 2>&1' ) | crontab -
+( crontab -l 2>/dev/null | grep -v daily-report.py; echo '35 17 * * 1-5 cd /root/klanten && OUTREACH_DATA=/root/outreach-data /usr/bin/python3 _workflow/outreach/daily-report.py >> /root/outreach-data/report.log 2>&1' ) | crontab -
+```
+- Dagrapport handmatig testen: `cd /root/klanten && git pull -q && OUTREACH_DATA=/root/outreach-data python3 _workflow/outreach/daily-report.py`.
+- Testmodus NIET gewenst. Reply-scan + rapport vereisen IMAP_HOST/IMAP_PORT in `.smtp-env`.
+
+## "Afspraak maken" → ALTIJD de cal.eu demo-planner (VASTE AFSPRAAK — mag NOOIT fout)
+- Elke "Afspraak maken"-knop in ELKE demo (10 designs ÉN design-11) MOET de cal.eu demo-planner openen:
+  `data-cal-link="brabantdigital/demo-planner"`, namespace `demo-planner`, origin `https://cal.eu`.
+  NOOIT uitkomen op `#contact`/`#book`. Cal-blok 1-op-1 uit een werkende demo of de generator-`CAL`.
+- Check na elke build: knop heeft ná laden GÉÉN `href` meer maar wél `data-cal-link`, 0 JS-fouten.
+
+## Nieuwe niche = nieuwe content (VASTE AFSPRAAK)
+Eigen teksten/diensten/iconen/beelden per vak + eigen content-mapping in `generate-demo.py` + eigen design-11.
+Nooit content van een andere niche hergebruiken.
+
+## Prospect-onderzoek (VASTE WERKWIJZE)
+Volg ALTIJD `05-marktonderzoek/prospect-onderzoek-werkwijze.md` (7 stappen, keten doorvolgen, max 10 bronnen).
+
+## Beeldgebruik in demo's
+Werkende site/openbare social met 2+ foto's → eigen foto's; anders AI. Eén losse afbeelding = meestal logo, niet gebruiken.
+
+## Stijlregels voor de sites
+Statische HTML/CSS/JS, responsive, snel, NL met NL/EN-knop, SEO ingebakken, geen AI-/interne verwijzingen op klantpagina's.
+
+## Afgewezen klanten NOOIT deployen
+Map-slug in `_workflow/niet-deployen.txt`; `vps-autodeploy.sh` slaat die over én haalt een live exemplaar offline.
