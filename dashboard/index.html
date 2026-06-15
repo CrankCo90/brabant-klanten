@@ -1306,6 +1306,7 @@ function bindUI(){
  // select all
  var sa=$("#selAll");if(sa)sa.addEventListener('change',function(e){document.querySelectorAll('#actionList .chk:not([disabled])').forEach(function(c){c.checked=e.target.checked;});updateSel();});
  var so=$("#sendOutreach");if(so)so.addEventListener('click',function(){if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var names=selectedNames();if(!names.length){toast('Selecteer eerst klanten');return;}toast('Outreach versturen naar '+names.length+'…');api('/send-outreach','POST',{only:names,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):('Outreach verstuurd ('+names.length+')'));setTimeout(boot,1500);});});
+ document.querySelectorAll('[data-act="send-sel"]').forEach(function(b){b.addEventListener('click',function(){if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var names=selectedNames();if(!names.length){toast('Selecteer eerst klanten');return;}toast('Outreach versturen naar '+names.length+'…');api('/send-outreach','POST',{only:names,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):('Outreach verstuurd ('+names.length+')'));setTimeout(boot,1500);});});});
  // generic outreach send buttons in acties view
  document.querySelectorAll('[data-act="send-all"]').forEach(function(b){b.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}toast('Outreach versturen…');api('/send-outreach','POST',{cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):'Outreach verstuurd');setTimeout(boot,1500);});});});
  // testkopie
