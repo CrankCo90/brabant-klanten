@@ -5032,5 +5032,145 @@
   "telefoon": "06-10422264",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Melis",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Roermond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-melis.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Rozely",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Roermond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-rozely.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Graciël",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Schinveld",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-graciel.demo.brabantdigital.nl",
+  "waarom": "Verouderde/zwakke webaanwezigheid (alleen Facebook / oude pagina).",
+  "fouten": [
+   "Verouderde/zwakke webaanwezigheid (alleen Facebook / oude pagina)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Kroes Control",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Simpelveld",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-kroes-control.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (oude .eu-pagina).",
+  "fouten": [
+   "Verouderde website (oude .eu-pagina)"
+  ],
+  "contact": "06-17500027",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-17500027",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapper Valuas",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Tegelen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondenkapper-valuas.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-30706474",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-30706474",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Pluto",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Eygelshoven",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-pluto.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding in gidsen).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding in gidsen)"
+  ],
+  "contact": "06-30012720",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-30012720",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Bonito",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Venlo",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-bonito.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/social).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/social)"
+  ],
+  "contact": "06-45558685",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-45558685",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
