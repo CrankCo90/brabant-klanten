@@ -720,7 +720,6 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
           <div class="toolbar">
             <div class="switch" id="autopilotSw"><span class="toggle"></span> Autopilot (dagelijks automatisch)</div>
             <div class="cap">Dagcap <input type="number" value="50" min="1"></div>
-            <button class="btn sm" data-act="publish">Publiceer demo's</button>
             <button class="btn sm" data-go="acties">Open acties</button>
           </div>
           <div class="alist" id="actionList"></div>
@@ -740,7 +739,6 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
             <div class="switch" id="autopilotSw2"><span class="toggle"></span> Autopilot</div>
             <div class="cap">Dagcap <input type="number" value="50" min="1"></div>
             <button class="btn sm" data-act="refresh">Status verversen</button>
-            <button class="btn sm" data-act="publish">Publiceer demo's</button>
           </div>
           <div class="alist" style="max-height:420px" id="actionList"></div>
           <div class="act-foot">
@@ -1143,13 +1141,13 @@ function renderWhatsapp(){var wrap=$("#waList");if(!wrap)return;
 }
 function renderActions(){
  var lists=document.querySelectorAll('#actionList');if(!lists.length)return;
- var subset=CLIENTS.filter(function(c){return ['demo','benaderd','prospect'].includes(c.st);}).sort(function(a,b){return b.score-a.score;});
+ var subset=CLIENTS.filter(function(c){return c.em && c.es!=='verzonden' && c.st!=='gekocht' && c.st!=='afgewezen';}).sort(function(a,b){return b.score-a.score;});
  var html=subset.map(function(c){
    var es=c.es==='verzonden'?'<span class="badge b-verzonden">verzonden</span>':c.es==='klaar'?'<span class="badge b-klaar">klaar</span>':'<span class="badge b-geen">geen e-mail · bel/app</span>';
    var em=c.em?'<span class="em">'+c.em+'</span>':'<span class="em">geen e-mailadres</span>';
    var dis=(c.es==='geen'||c.es==='verzonden')?'disabled':'';
    return '<div class="arow"><input type="checkbox" class="chk" data-b="'+encodeURIComponent(c.bedrijf)+'" '+dis+'><span class="grow"><span class="nm">'+c.n+'</span>'+em+'</span>'+es+'</div>';
- }).join('')||'<div class="empty">Geen prospects in de wachtrij.</div>';
+ }).join('')||'<div class="empty">Alle e-mailbare klanten zijn gemaild — wachtrij is leeg.</div>';
  lists.forEach(function(list){list.innerHTML=html;list.querySelectorAll('.chk').forEach(function(ch){ch.addEventListener('change',updateSel);});});
  updateSel();}
 function updateSel(){var n=document.querySelectorAll('#actionList .chk:checked').length;var e=$("#selCount");if(e)e.textContent=n;}
@@ -1309,7 +1307,6 @@ function bindUI(){
  var so=$("#sendOutreach");if(so)so.addEventListener('click',function(){if(!CT){toast('Verbind eerst met de VPS (Instellingen).');return;}var names=selectedNames();if(!names.length){toast('Selecteer eerst klanten');return;}toast('Outreach versturen naar '+names.length+'…');api('/send-outreach','POST',{only:names,cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):('Outreach verstuurd ('+names.length+')'));setTimeout(boot,1500);});});
  // generic outreach send buttons in acties view
  document.querySelectorAll('[data-act="send-all"]').forEach(function(b){b.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}toast('Outreach versturen…');api('/send-outreach','POST',{cap:CAP}).then(function(r){toast(r.error?('Fout: '+r.error):'Outreach verstuurd');setTimeout(boot,1500);});});});
- document.querySelectorAll('[data-act="publish"]').forEach(function(b){b.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}toast('Demo’s publiceren…');api('/deploy','POST',{}).then(function(r){toast(r.error?('Fout: '+r.error):'Demo’s gepubliceerd');});});});
  // testkopie
  var st=$("#sendTest");if(st)st.addEventListener('click',function(){if(!CT){toast('Verbind eerst (Instellingen).');return;}var b=$("#testKlant").value,to=$("#testTo").value.trim();if(!to){toast('Vul een ontvanger in');return;}toast('Testkopie versturen…');api('/test-mail','POST',{bedrijf:b,to:to}).then(function(r){toast(r.error?('Fout: '+r.error):'Testkopie verstuurd naar '+to);});});
  // claude
