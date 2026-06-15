@@ -91,9 +91,12 @@ def main():
     sent = 0
     for p in prospects:
         if sent >= left: break
-        if p.get("status") != "klaar": continue
         _only=os.environ.get("OUTREACH_ONLY","").strip()
-        if _only and p.get("bedrijf") not in set(x.strip() for x in _only.split("|") if x.strip()): continue          # alleen prospects met klaarstaande demo
+        _onlyset=set(x.strip() for x in _only.split("|") if x.strip()) if _only else None
+        if _onlyset is not None:
+            if p.get("bedrijf") not in _onlyset: continue     # expliciete selectie uit dashboard -> stuur ongeacht concept/klaar
+        elif p.get("status") != "klaar":
+            continue                                          # autopilot / bulk-alles -> alleen status 'klaar' 
         email = (p.get("email") or "").strip()
         if "@" not in email or email.lower() in done: continue
         verb = p.get("verbeteringen") or []

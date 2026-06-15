@@ -58,7 +58,7 @@ class H(BaseHTTPRequestHandler):
         try: body=json.loads(self.rfile.read(n) or b"{}")
         except: body={}
         if self.path=="/api/send-outreach":
-            cap=int(body.get("cap",20)); sel=body.get("prospects") or []
+            cap=int(body.get("cap",20)); sel=body.get("prospects") or body.get("only") or []
             env={"OUTREACH_DATA":DATA,"OUTREACH_CAP":str(cap)}
             if sel: env["OUTREACH_ONLY"]="|".join(sel)
             _intro=(body.get("intro") or "").strip()

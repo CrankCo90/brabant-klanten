@@ -1300,6 +1300,7 @@ function bindUI(){
  document.querySelectorAll('[data-go]').forEach(function(b){b.addEventListener('click',function(){go(b.dataset.go);});});
  var ham=$("#hamb");if(ham)ham.addEventListener('click',function(){document.querySelector('.sidebar').classList.toggle('open');});
  var rf=$("#refreshBtn");if(rf)rf.addEventListener('click',function(){toast('Status vernieuwd');boot();});
+ document.querySelectorAll('[data-act="refresh"]').forEach(function(b){b.addEventListener('click',function(){toast('Status vernieuwd');boot();});});
  // autopilot toggles -> /autopilot
  document.querySelectorAll('.switch').forEach(function(sw){sw.addEventListener('click',function(){var on=sw.classList.toggle('on');if(sw.id==='autopilotSw'||sw.id==='autopilotSw2'){if(CT)api('/autopilot','POST',{on:on});toast(on?'Autopilot ingeschakeld':'Autopilot gepauzeerd');}});});
  // select all
