@@ -1067,7 +1067,7 @@ function phoneOf(d){var m=String(d.contact||'').match(/0\d[\d\s-]{6,}\d/);return
 var SENT_E,SENT_N;
 function buildSent(){SENT_E=new Set();SENT_N=new Set();(CTL.sent||[]).forEach(function(x){if(typeof x==='string')SENT_E.add(x.toLowerCase());else if(x){if(x.email)SENT_E.add(String(x.email).toLowerCase());if(x.bedrijf)SENT_N.add(x.bedrijf);}});}
 function isSent(d){var e=emailOf(d);return SENT_N.has(d.bedrijf)||(e&&SENT_E.has(e.toLowerCase()));}
-function replyOf(d){var r=CTL.replies||{};var e=(emailOf(d)||'').toLowerCase();return r[e]||r[d.bedrijf]||'';}
+function replyOf(d){var r=CTL.replies||{};var e=(emailOf(d)||'').toLowerCase();var v=r[e]||r[d.bedrijf]||'';return (v&&typeof v==='object')?(v.status||''):v;}
 function effStatus(d){var s=d.status||'prospect';var rep=replyOf(d);if(rep==='ja')return 'ja';if(rep==='nee')return 'nee';if(isSent(d)&&(s==='prospect'||s==='demo'))return 'benaderd';return s;}
 function esOf(d){if(isSent(d))return 'verzonden';return emailOf(d)?'klaar':'geen';}
 
@@ -1268,7 +1268,9 @@ function buildDetail(c){
  if(c.es==='verzonden'||c.st==='benaderd')act.unshift({t:"Outreach-mail verzonden",d:"recent",ic:"mail",tone:"benaderd"});
  if(c.st==='benaderd')act.unshift({t:"Wacht op reactie",d:"nu",ic:"clock",tone:"muted"});
  if(c.st==='gekocht')act.unshift({t:"Klant geworden",d:"recent",ic:"check",tone:"gekocht"});
- if(c.st==='nee')act.unshift({t:"Afgewezen — geen interesse",d:"recent",ic:"x",tone:"nee"});
+ var _rmap=CTL.replies||{};var _rv=(c.em&&_rmap[c.em.toLowerCase()])||_rmap[c.bedrijf]||null;var rep=(_rv&&typeof _rv==='object')?_rv:(_rv?{status:String(_rv)}:null);
+ if(c.st==='nee'&&!rep)act.unshift({t:"Afgewezen — geen interesse",d:"recent",ic:"x",tone:"nee"});
+ if(rep){var _rs=rep.status||'reactie';var _rt=(_rs==='nee')?'nee':((_rs==='ja')?'gekocht':'benaderd');var _rl=(_rs==='nee')?'Reactie: géén interesse':((_rs==='ja')?'Reactie: interesse!':'Reactie ontvangen');act.unshift({t:_rl+(rep.laatste?(' — “'+rep.laatste+'”'):''),d:(relDay(rep.datum)||rep.datum||'recent'),ic:(_rs==='nee'?'x':(_rs==='ja'?'check':'mail')),tone:_rt});}
  return {hasWeb:hasWeb,why:why,tips:tips,breakdown:breakdown,activity:act,demoReady:demoReady,demoUrl:stripProto(c.demo_url),portal:PORTAL[key]};
 }
 function openKlant(c){renderKlantDetail(c);

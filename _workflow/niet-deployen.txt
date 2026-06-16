@@ -1,43 +1,13 @@
-#
-(1
-=
-Klanten
-NOOIT
-Regel
-Regels
-al-live
+# Klanten die NOOIT gepubliceerd mogen worden (1 map-slug per regel).
+# vps-autodeploy.sh slaat deze over en haalt een eventueel al-live exemplaar offline.
+# Regel weghalen = klant mag weer gedeployed worden. Regels met # worden genegeerd.
 beautypoint-helmond
-deze
-die
 doggroomer
-een
-en
 esthetika-helmond
-eventueel
-exemplaar
-gedeployed
-genegeerd.
-gepubliceerd
-haalt
 just4dogs
-klant
 lachicanails
 lynns
-mag
-map-slug
-met
-mogen
 mooie-hondjes
 nagelstudio-marielle
-offline.
-over
-per
-regel).
-slaat
 trimsalon-elite
 trimsalon-oss
-vps-autodeploy.sh
-weer
-weghalen
-worden
-worden.

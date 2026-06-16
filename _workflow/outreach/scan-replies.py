@@ -50,7 +50,7 @@ try:
     email2bedr={(p.get("email") or "").lower():p.get("bedrijf") for p in P if p.get("email")}
     cf=ROOT/"dashboard/clients.json"; C=json.load(open(cf))
     nd=ROOT/"_workflow/niet-deployen.txt"
-    nd_set=set(x.strip() for x in nd.read_text().split()) if nd.exists() else set()
+    nd_set=set(l.strip() for l in nd.read_text().splitlines() if l.strip() and not l.strip().startswith("#")) if nd.exists() else set()
     changed=False
     for em,info in out.items():
         if (info or {}).get("status")!="nee": continue
@@ -63,7 +63,7 @@ try:
                 if m: nd_set.add(m.group(1))
     if changed:
         json.dump(C,open(cf,"w"),ensure_ascii=False,indent=1)
-        nd.write_text("\n".join(sorted(nd_set))+"\n")
+        nd.write_text("# Klanten die NOOIT gepubliceerd mogen worden (1 map-slug per regel).\n# vps-autodeploy.sh slaat deze over en haalt een eventueel al-live exemplaar offline.\n# Regel weghalen = klant mag weer gedeployed worden. Regels met # worden genegeerd.\n"+"\n".join(sorted(nd_set))+"\n")
         subprocess.run(["bash","-lc","cd %s && git add -A && git -c user.email=vps@brabantdigital.nl -c user.name=BD-VPS commit -q -m 'auto: nee-reacties -> afgewezen'"%ROOT])
         if os.path.exists("/root/outreach-data/.git-token"):
             tok=open("/root/outreach-data/.git-token").read().strip()
