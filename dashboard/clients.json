@@ -6450,5 +6450,45 @@
   "telefoon": "06-10366713",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Roxanne Kort",
+  "niche": "Hondentrimsalons",
+  "regio": "Overijssel",
+  "plaats": "Zwolle",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-roxanne-kort-zwolle.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Zwolle",
+  "niche": "Hondentrimsalons",
+  "regio": "Overijssel",
+  "plaats": "Zwolle",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-zwolle.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

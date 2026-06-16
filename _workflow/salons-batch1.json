@@ -6687,5 +6687,53 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Roxanne Kort",
+  "kort": "Roxanne Kort",
+  "slug": "hondentrimsalon-roxanne-kort-zwolle",
+  "plaats": "Zwolle",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Roxanne Kort in Zwolle verzorgt honden van alle rassen, met bijzondere aandacht voor herdershonden. Vakkundig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Zwolle",
+  "kort": "Zwolle",
+  "slug": "hondentrimsalon-zwolle",
+  "plaats": "Zwolle",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Zwolle verzorgt de complete vacht van uw hond met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
