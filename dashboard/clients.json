@@ -6590,5 +6590,65 @@
   "telefoon": "06-41672759",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Joos Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Uitgeest",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://joos-trimsalon-uitgeest.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-18272346",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-18272346",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Joepie",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Heerhugowaard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-joepie-heerhugowaard.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-28374040",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-28374040",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Dribbel In",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Gorinchem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-dribbel-in-gorinchem.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-52391687",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52391687",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
