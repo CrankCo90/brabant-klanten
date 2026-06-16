@@ -21,3 +21,10 @@
 - Elk: geverifieerd contact (06-mobiel, e-mail of IG/FB), zwakke/geen eigen site, 11-design demo + cal.eu, status concept. clients.json 248 → 274.
 - **Skip-regel toegepast:** kandidaten met eigen, werkende multi-page site of klantenstop NIET toegevoegd (bv. Kelby, Kim Bloemen, Make-It-Easy, Tilly, Happy Puppy, diverse pedicures met eigen site). Pedicure-yield is laag in Limburg (veel eigen sites) — daar valt met meer tijd nog te halen via pedicure-info.nl.
 - **Nog te doen richting 200/niche:** Limburg verder (Heerlen/Kerkrade/Geleen hond+nagel, meer pedicure), daarna Zeeland; daarna terug-checken van de overgeslagen eigen-site-kandidaten op verouderdheid.
+
+### Demo-publicatie kapot gevonden + gefixt (deels) + Limburg uitgebreid
+- **Oorzaak demo's offline:** (1) `vps-autodeploy.sh` brak af op `set -e` → caddy nooit herladen; gefixt (robuust). (2) Echte blokkade: **Let's Encrypt rate-limit** (50 certs/week per domein) — honderden losse `*.demo`-certs. Caddy-log bevestigt "too many certificates (50)".
+- **Oplossing ingericht (wacht op uitvoering ~13:10 UTC):** wildcard-cert `*.demo.brabantdigital.nl` via DNS-challenge (Vimexx/ZXCS, handmatige TXT). Scripts klaar: `caddy-wildcard.sh` (1 wildcard-blok) + autodeploy synct alleen nog bestanden (geen losse certs meer). LE-venster open vanaf 16-06 13:10 UTC.
+- **niet-deployen.txt** hersteld (was corrupt).
+- **Limburg prospects deze sessie: 39** (22 hond, 14 nagel, 3 pedicure). Pedicure laag-renderend via zoekopdrachten (veel eigen sites/ProVoet) — volgende keer via pedicure-info.nl-gids minen.
+- **LET OP:** autopilot pas AAN zetten als wildcard-cert live is, anders krijgen gemailde prospects dode demo-links. (Meeste nieuwe Limburg-prospects zijn social-only → WhatsApp-wachtrij, geen mail.)
