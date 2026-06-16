@@ -9330,5 +9330,125 @@
   "telefoon": "06-27119062",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Melly's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Gorredijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://mellys-trimsalon-gorredijk.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-38362442",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-38362442",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimskuorre de Dôlle",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Triemen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimskuorre-de-dolle-triemen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-27521354",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-27521354",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon DOKS",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Dokkum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-doks-dokkum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-47871226",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-47871226",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Benzel",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "St.-Jacobiparochie",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-benzel-st-jacobiparochie.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-13568643",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13568643",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Furry Buddy",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Hoogezand",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-furry-buddy-hoogezand.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-13924265",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13924265",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon JS",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Kropswolde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-js-kropswolde.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-83198017",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-83198017",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
