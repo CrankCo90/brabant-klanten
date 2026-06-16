@@ -7937,5 +7937,341 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Furry Friends",
+  "kort": "Furry Friends",
+  "slug": "trimsalon-furry-friends-gouda",
+  "plaats": "Gouda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Furry Friends in Gouda krijgt elke hond rustig de tijd en persoonlijke aandacht. Van wassen en knippen tot een complete trimbeurt: je viervoeter gaat er weer fris en verzorgd vandaan.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Brokken & Zo",
+  "kort": "Brokken & Zo",
+  "slug": "brokken-en-zo-gouda",
+  "plaats": "Gouda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Brokken & Zo in Gouda verzorgt honden van alle rassen met vakwerk en liefde voor het dier. Een ontspannen plek waar de vacht weer helemaal in topconditie komt.",
+   "specialisaties": [
+    "Complete trimbeurt",
+    "Wassen & drogen",
+    "Vacht ontklitten",
+    "Oor- en nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Fluffy Dogs",
+  "kort": "Fluffy Dogs",
+  "slug": "hondentrimsalon-fluffy-dogs-zoetermeer",
+  "plaats": "Zoetermeer",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Fluffy Dogs in Zoetermeer biedt een rustige trimervaring voor honden van alle maten. Elke hond wordt met geduld en zorg behandeld voor een mooi en gezond resultaat.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Trimmen & plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pom's Trimsalon",
+  "kort": "Pom's Trimsalon",
+  "slug": "poms-trimsalon-zoetermeer",
+  "plaats": "Zoetermeer",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Pom's Trimsalon in Zoetermeer is een kleinschalige salon waar jouw hond persoonlijke aandacht krijgt. Van een snelle wasbeurt tot een volledige trimbeurt, alles met oog voor het welzijn van het dier.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & modelleren",
+    "Ontklitten",
+    "Nagels & oren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "HondenTrimsalon Paradise",
+  "kort": "Paradise",
+  "slug": "hondentrimsalon-paradise-spijkenisse",
+  "plaats": "Spijkenisse",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "HondenTrimsalon Paradise in Spijkenisse verzorgt honden van klein tot groot in een rustige omgeving. Met aandacht voor een gezonde vacht en een ontspannen dier.",
+   "specialisaties": [
+    "Complete trimbeurt",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Nissewaard",
+  "kort": "Nissewaard",
+  "slug": "trimsalon-nissewaard",
+  "plaats": "Spijkenisse",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Nissewaard in Spijkenisse en omgeving biedt vakkundige vachtverzorging voor honden. Elke beurt is afgestemd op het ras en het karakter van je hond.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Vacht ontklitten",
+    "Oor- en nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Bruce",
+  "kort": "Bruce",
+  "slug": "hondentrimsalon-bruce-spijkenisse",
+  "plaats": "Spijkenisse",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Bruce in Spijkenisse staat voor betaalbare en kwalitatieve vachtverzorging. Je hond wordt met rust en aandacht behandeld voor een verzorgd resultaat.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Dog à la Bock",
+  "kort": "Dog à la Bock",
+  "slug": "dog-a-la-bock-spijkenisse",
+  "plaats": "Spijkenisse",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Dog à la Bock in Spijkenisse staat het welzijn van je hond voorop. Van wasbeurt tot complete trimbeurt: vakwerk in een rustige, vertrouwde sfeer.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & modelleren",
+    "Ontklitten",
+    "Nagels & oren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Gentle Grooming",
+  "kort": "Gentle Grooming",
+  "slug": "trimsalon-gentle-grooming-spijkenisse",
+  "plaats": "Spijkenisse",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Gentle Grooming in Spijkenisse werkt rustig en met respect voor elke hond. Een fijne plek waar ook gevoelige honden op hun gemak worden getrimd.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Trimmen & plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon El Capitano",
+  "kort": "El Capitano",
+  "slug": "trimsalon-el-capitano-vlaardingen",
+  "plaats": "Vlaardingen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon El Capitano in Vlaardingen verzorgt honden met vakmanschap en persoonlijke aandacht. Je viervoeter gaat er weer fris, schoon en goed gemodelleerd vandaan.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & scheren",
+    "Vacht ontklitten",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Domenie",
+  "kort": "Domenie",
+  "slug": "hondentrimsalon-domenie-vlaardingen",
+  "plaats": "Vlaardingen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Domenie is een kleinschalige, gezellige trimsalon aan huis in Vlaardingen. Met ruime ervaring krijgt elke hond hier rustig de aandacht die hij verdient.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Plukken",
+    "Oor- en nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Dog's Barbershop",
+  "kort": "Dog's Barbershop",
+  "slug": "trimsalon-dogs-barbershop-vlaardingen",
+  "plaats": "Vlaardingen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Dog's Barbershop in Vlaardingen wordt elke hond met liefde en vakkennis verzorgd. Van een frisse wasbeurt tot een strakke knipbeurt op maat.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & modelleren",
+    "Ontklitten",
+    "Nagels & oren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Beauty of Paws",
+  "kort": "Beauty of Paws",
+  "slug": "trimsalon-beauty-of-paws-vlaardingen",
+  "plaats": "Vlaardingen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Beauty of Paws in Vlaardingen verzorgt honden met vakkennis en geduld. Elke hond krijgt een behandeling die past bij zijn vacht en karakter.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Trimmen & plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nessi's Hondentrimsalon",
+  "kort": "Nessi's",
+  "slug": "nessis-hondentrimsalon-spijkenisse",
+  "plaats": "Spijkenisse",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Nessi's Hondentrimsalon in Spijkenisse biedt persoonlijke vachtverzorging voor honden van alle rassen. Rustig, zorgvuldig en altijd met oog voor het dier.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Vacht ontklitten",
+    "Oor- en nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
