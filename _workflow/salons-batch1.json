@@ -7119,5 +7119,79 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Joos Trimsalon",
+  "kort": "Joos",
+  "slug": "joos-trimsalon-uitgeest",
+  "plaats": "Uitgeest",
+  "tel_display": "06-18272346",
+  "tel_href": "tel:+31618272346",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Joos Trimsalon in Uitgeest verzorgt honden van alle rassen met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Joepie",
+  "kort": "Joepie",
+  "slug": "hondentrimsalon-joepie-heerhugowaard",
+  "plaats": "Heerhugowaard",
+  "tel_display": "06-28374040",
+  "tel_href": "tel:+31628374040",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Joepie in Heerhugowaard verzorgt honden van alle rassen met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Dribbel In",
+  "kort": "Dribbel In",
+  "slug": "hondentrimsalon-dribbel-in-gorinchem",
+  "plaats": "Gorinchem",
+  "tel_display": "06-52391687",
+  "tel_href": "tel:+31652391687",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Dribbel In in Gorinchem is sinds 1993 gespecialiseerd in West Highland White Terriers, andere terriërs en teckels — vakkundig handgeplukt en geknipt, op afspraak.",
+   "specialisaties": [
+    "Terriërs & teckels",
+    "Handmatig plukken",
+    "Knippen & scheren",
+    "Alle rassen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
