@@ -453,6 +453,124 @@ PEDICURE_MAP = [
 ]
 
 # per design: (bg-var, text-var, accent-var) zodat de sectie de kleuren overneemt
+# ===== Kapper (kapsalon) — eigen content, zelfde keys als NAIL_MAP =====
+KAPPER_IMG = ["https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151809_65126f44-8710-49f6-84b8-47350cc8868d.png", "https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151811_2493dc60-0682-4320-9d05-8978c565aac6.png", "https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_81603210-c65e-4327-b49f-fb0f9281e955.png", "https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_5a723566-f3db-4b5b-8d19-8acb222a8565.png", "https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151810_e684e8f1-0375-4c83-9819-4fdff5d6f117.png", "https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151810_adbf5ded-a32e-4d1f-9cc5-0856b9974e6d.png", "https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_e9deb4fb-f709-4212-8689-2109fffe1e68.png", "https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_73c5c071-d4f6-4f14-9e56-4fc686311843.png"]
+KAPPER_EMOJI = [("\U0001F415\u200d\U0001F9BA","\u2702\uFE0F"),("\U0001F415","\u2702\uFE0F"),
+    ("\U0001F9AE","\u2702\uFE0F"),("\U0001F429","\u2728"),("\U0001F43E","\u2702\uFE0F"),
+    ("\U0001F9F9","\U0001F488"),("\U0001F98A","\U0001F488")]
+KAPPER_MAP = [
+ ('data-en="Small">Klein','data-en="Short">Kort'),
+ ('data-en="Large">Groot','data-en="Long">Lang'),
+ ('data-en="Short / smooth">Kort / glad','data-en="Wash & cut">Wassen &amp; knippen'),
+ ('data-en="Long / doodle">Lang / doodle','data-en="Cut & blow-dry">Knippen &amp; föhnen'),
+ ('data-en="Wire-haired">Ruwharig','data-en="Color">Kleuren'),
+ ('data-en="Double coat">Double coat','data-en="Highlights">Highlights'),
+ ('data-en="Wash & blow-dry">Wassen &amp; föhnen','data-en="Wash & blow-dry">Wassen &amp; föhnen'),
+ ('data-en="Full grooming">Volledige trimbeurt','data-en="Cut & color">Knippen &amp; kleuren'),
+ ('data-en="Tidy-up">Bijwerken','data-en="Fringe trim">Pony bijknippen'),
+ ('data-en="Short & smooth">Kort &amp; glad','data-en="Wash & cut">Wassen &amp; knippen'),
+ ('data-rec="Volledige trimbeurt|Full grooming"','data-rec="Knippen & kleuren|Cut & color"'),
+ ('data-rec="Plukbeurt (ruwharig)|Hand-stripping"','data-rec="Highlights|Highlights"'),
+ ('data-rec="Ontwol-behandeling|De-shed treatment"','data-rec="Balayage|Balayage"'),
+ ("recVal=['Volledige trimbeurt','Full grooming']","recVal=['Knippen & kleuren','Cut & color']"),
+ ('Certified dog groomer for all breeds — from doodle to Pomeranian. Book online and your dog is pampered in all peace and quiet.',
+  'Certified hairstylist for every look — from a sharp cut to full colour. Book online and enjoy your new look in all peace and quiet.'),
+ ('Certified dog grooming salon in Amsterdam Osdorp. All breeds, groomed with love and patience.',
+  'Certified hair salon in Amsterdam Osdorp. Every style, cut with care and craftsmanship.'),
+ ('Certified groomer for all breeds. Book online — your dog is pampered in calm, professional hands.',
+  'Certified hairstylist for every style. Book online — your hair in calm, professional hands.'),
+ ('Certified groomer for all breeds. Calm, careful and always with an eye for your dog.',
+  'Certified hairstylist for every style. Calm, careful and always with an eye for you.'),
+ ('A certified groomer who treats every coat as a craft. All breeds, with love and patience.',
+  'A certified hairstylist who treats every cut as a craft. Every style, with care and craftsmanship.'),
+ ('Every dog gets time and attention. No rush, no stress — just patient, expert care from a certified groomer who keeps learning.',
+  'Every client gets time and attention. No rush, no stress — just patient, expert care from a certified hairstylist who keeps learning.'),
+ ('A personal grooming salon. Love, patience and craftsmanship — for every coat, every breed.',
+  'A personal hair salon. Care, attention and craftsmanship — for every cut, every style.'),
+ ('A gentle wash and careful drying, tailored to the coat.','A gentle wash and careful blow-dry, tailored to your hair.'),
+ ('Trimming, stripping or clipping — exactly what the breed needs.','Cut, colour or styling — exactly what your hair needs.'),
+ ('Gentle products, tailored to skin and coat.','Gentle products, tailored to scalp and hair.'),
+ ('No more calling during grooming. Pick a treatment, a day and a time — done.',
+  'No more calling during work. Pick a treatment, a day and a time — done.'),
+ ('All breeds welcome, groomed with love and patience.','Every style welcome, cut with care and craftsmanship.'),
+ ('Book online or call directly. Your dog will thank you.','Book online or call directly. You will love the result.'),
+ ('She trims our doodle with so much patience. He actually loves going now — and he comes back gorgeous.',
+  'She does my hair with so much care and attention. I actually look forward to every visit — and it always looks gorgeous.'),
+ ('Gediplomeerd hondentrimster voor alle rassen — van doodle tot pomeriaan. Boek online en uw hond wordt in alle rust verwend.',
+  'Gediplomeerd kapper voor elke look — van een strakke coupe tot complete kleuring. Boek online en u wordt in alle rust verwend.'),
+ ('Gediplomeerde hondentrimsalon in Amsterdam Osdorp. Alle rassen, met liefde en geduld getrimd.',
+  'Gediplomeerde kapsalon in Amsterdam Osdorp. Elke stijl, met zorg en vakmanschap geknipt.'),
+ ('Gediplomeerd trimster voor alle rassen. Boek online — uw hond wordt in alle rust en met vakmanschap verwend.',
+  'Gediplomeerd kapper voor elke stijl. Boek online — u wordt in alle rust en met vakmanschap verwend.'),
+ ('Gediplomeerd trimster voor alle rassen. Rustig, zorgvuldig en altijd met oog voor uw hond.',
+  'Gediplomeerd kapper voor elke stijl. Rustig, zorgvuldig en altijd met oog voor u.'),
+ ('Een gediplomeerd trimster die elke vacht als vakwerk behandelt. Alle rassen, met liefde en geduld.',
+  'Een gediplomeerd kapper die elke coupe als vakwerk behandelt. Elke stijl, met zorg en vakmanschap.'),
+ ('Elke hond krijgt tijd en aandacht. Geen haast, geen stress — alleen geduldig vakwerk van een gediplomeerd trimster die blijft bijscholen.',
+  'Elke klant krijgt tijd en aandacht. Geen haast, geen stress — alleen geduldig vakwerk van een gediplomeerd kapper die blijft bijscholen.'),
+ ('Een persoonlijke trimsalon. Liefde, geduld en vakmanschap — voor elke vacht, elk ras.',
+  'Een persoonlijke kapsalon. Zorg, aandacht en vakmanschap — voor elke coupe, elke stijl.'),
+ ('Een zachte wasbeurt en zorgvuldig drogen, afgestemd op de vacht.',
+  'Een zachte wasbeurt en zorgvuldig föhnen, afgestemd op uw haar.'),
+ ('Knippen, plukken of scheren — precies wat het ras nodig heeft.',
+  'Knippen, kleuren of stylen — precies wat uw haar nodig heeft.'),
+ ('Zachte producten, afgestemd op huid en vacht.','Zachte producten, afgestemd op hoofdhuid en haar.'),
+ ('Niet meer bellen tijdens het trimmen. Kies een behandeling, een dag en een tijd — klaar.',
+  'Niet meer bellen tijdens het werk. Kies een behandeling, een dag en een tijd — klaar.'),
+ ('Alle rassen welkom, met liefde en geduld getrimd.','Elke stijl welkom, met zorg en vakmanschap geknipt.'),
+ ('Ze trimt onze doodle met zoveel geduld. Hij vindt het nu zelfs leuk — en hij komt er prachtig uit.',
+  'Ze doet mijn haar met zoveel zorg en aandacht. Ik kijk nu zelfs uit naar elke afspraak — en het ziet er altijd prachtig uit.'),
+ ('Dog grooming · Amsterdam Osdorp','Hair salon · Amsterdam Osdorp'),
+ ('Hondentrimsalon · Amsterdam Osdorp','Kapsalon · Amsterdam Osdorp'),
+ ('Groomed with love and patience','Cut with care and craftsmanship'),
+ ('Met liefde en geduld getrimd','Met zorg en vakmanschap geknipt'),
+ ('Plan a grooming session','Plan an appointment'),
+ ('Plan een trimbeurt','Plan een afspraak'),
+ ('Treat your dog','Treat yourself'),
+ ('Verwen uw hond','Verwen uzelf'),
+ ('Time and patience for every dog','Time and attention for every client'),
+ ('Tijd en geduld voor elke hond','Tijd en aandacht voor elke klant'),
+ ('The art of grooming','The art of hairdressing'),
+ ('De kunst van het trimmen','De kunst van het kappen'),
+ ('What does grooming cost?','What does an appointment cost?'),
+ ('Wat kost een trimbeurt?','Wat kost een behandeling?'),
+ ('Which treatment suits your dog?','Which treatment suits you?'),
+ ('Welke behandeling past bij uw hond?','Welke behandeling past bij u?'),
+ ('Free trim advice','Free hair advice'),
+ ('Gratis trimadvies','Gratis haaradvies'),
+ ('Trim-quiz','Haar-quiz'),
+ ('Volledige trimbeurt','Knippen &amp; kleuren'),
+ ('Wassen &amp; verzorgen','Wassen &amp; föhnen'),
+ ('Where your dog is <em>pampered</em>','Where you are <em>pampered</em>'),
+ ('Waar uw hond wordt','Waar u wordt'),
+ ("What's your dog's size?","How long is your hair?"),
+ ('Wat is de grootte van uw hond?','Hoe lang is uw haar?'),
+ ("What's the coat like?",'Which treatment do you want?'),
+ ('Wat voor vacht heeft uw hond?','Welke behandeling wilt u?'),
+ ('How often is your dog groomed?','How often do you visit a salon?'),
+ ('Hoe vaak wordt uw hond getrimd?','Hoe vaak gaat u naar de kapper?'),
+ ('Vers getrimde hond','Vers geknipt haar'),
+ # --- woord-vangnet (langste eerst) ---
+ ('Hondentrimsalon','Kapsalon'),('hondentrimsalon','kapsalon'),
+ ('Hondenkapsalon','Kapsalon'),('hondenkapsalon','kapsalon'),
+ ('Trimsalon','Kapsalon'),('trimsalon','kapsalon'),
+ ('getrimd','geknipt'),('Getrimd','Geknipt'),
+ ('trimbeurt','knipbeurt'),('Trimbeurt','Knipbeurt'),
+ ('trimmen','knippen'),('Trimmen','Knippen'),
+ ('trimster','kapper'),('trimmer','kapper'),('groomer','hairstylist'),
+ ('vachtverzorging','haarverzorging'),('Vachtverzorging','Haarverzorging'),
+ ('vacht','haar'),('Vacht','Haar'),
+ ('baasjes','klanten'),('baasje','klant'),
+ ('viervoeter','klant'),('Viervoeter','Klant'),
+ ('honden','klanten'),('Honden','Klanten'),('hond','klant'),('Hond','Klant'),
+ ('alle rassen','elke stijl'),('Alle rassen','Elke stijl'),('rassen','stijlen'),('Rassen','Stijlen'),
+ ('all breeds','every style'),('All breeds','Every style'),('breeds','styles'),
+ ('doodle','coupe'),('Doodle','Coupe'),('pomeriaan','model'),('Pomeriaan','Model'),('Pomeranian','model'),
+ ('ruwharig','krullend haar'),('Ruwharig','Krullend haar'),
+ ('double coat','dik haar'),('Double coat','Dik haar'),
+ ('ontwollen','föhnen'),('Plukken','Föhnen'),('plukken','föhnen'),
+]
+
 VARMAP = {
  "previews/design-01.html":("--bg","--text","--gold"),
  "previews/design-02.html":("--bg","--text","--gold"),
@@ -493,6 +611,9 @@ def transform(text, s):
     elif s.get("niche")=="pedicure":
         for a,b in PEDICURE_MAP: text=text.replace(a,b)
         for a,b in PEDI_EMOJI: text=text.replace(a,b)
+    elif s.get("niche")=="kapper":
+        for a,b in KAPPER_MAP: text=text.replace(a,b)
+        for a,b in KAPPER_EMOJI: text=text.replace(a,b)
     text = re.sub(r'Trimsalon (<em[^>]*>)Scott</em>', r'\1'+kort+'</em>', text)
     for a,b in [("Scott's","uw"),("Hondentrimsalon Scott",merk),("Trimsalon Scott",merk),
         ("Sloterpark Groen","Parkgroen"),("Verwijst naar de Sloterplas om de hoek.","Rustig, natuurlijk en gevestigd."),
@@ -505,7 +626,7 @@ def transform(text, s):
         text=text.replace(a,b)
     fotos=s.get("fotos") or []
     own = fotos if len(fotos)>=2 else []
-    sel = NAIL_IMG if s.get("niche")=="nagels" else (PEDI_IMG if s.get("niche")=="pedicure" else (pick_pool(s["slug"]) if POOL_OK else AI_URLS))
+    sel = NAIL_IMG if s.get("niche")=="nagels" else (PEDI_IMG if s.get("niche")=="pedicure" else (KAPPER_IMG if s.get("niche")=="kapper" else (pick_pool(s["slug"]) if POOL_OK else AI_URLS)))
     for i,u in enumerate(AI_URLS):
         repl = own[i] if i < len(own) else sel[i]
         if repl != u: text=text.replace(u, repl)
@@ -540,7 +661,7 @@ def info_section(fname, s):
         cols='column-count:2;column-gap:34px;' if len(tar)>6 else ''
         tar_html='<ul style="list-style:none;font-size:.9rem;%s">%s</ul>'%(cols,lis)
     else:
-        _afg = "afgestemd op lengte en techniek" if s.get("niche")=="nagels" else ("afgestemd op uw voeten en wensen" if s.get("niche")=="pedicure" else "afgestemd op ras en vacht")
+        _afg = "afgestemd op lengte en techniek" if s.get("niche")=="nagels" else ("afgestemd op uw voeten en wensen" if s.get("niche")=="pedicure" else ("afgestemd op uw haar en wensen" if s.get("niche")=="kapper" else "afgestemd op ras en vacht"))
         tar_html='<p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag \u2014 %s. Vraag gerust een richtprijs.</p>'%_afg
     over=('<section id="over" style="background:var(%s);color:var(%s);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)">'%(bg,text)
       +'<div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px">'
@@ -643,6 +764,8 @@ for s in salons:
         (dest/"previews"/"design-11.html").write_text(render_d11_pedicure(s),encoding="utf-8")
     elif _nb=="nagels":
         (dest/"previews"/"design-11.html").write_text(render_d11_nagel(s),encoding="utf-8")
+    elif _nb=="kapper":
+        (dest/"previews"/"design-11.html").write_text((dest/"previews"/"design-01.html").read_text(encoding="utf-8"),encoding="utf-8")
     else:
         (dest/"previews"/"design-11.html").write_text(render_d11_hond(s),encoding="utf-8")
     n+=1
