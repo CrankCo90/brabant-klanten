@@ -7070,5 +7070,205 @@
   "telefoon": "06-81298001",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Lianne",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Lemmer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-lianne-lemmer.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-51066337",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-51066337",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Belle",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Midlum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-belle-midlum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-24717677",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-24717677",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Wilma",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Drachten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-wilma-drachten.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-27152221",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-27152221",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Vaya",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Onstwedde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-vaya-onstwedde.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-15838600",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-15838600",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon High Five",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Oude Pekela",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-high-five-oude-pekela.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-43423171",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-43423171",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hinke's Trimhuske",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Drogeham",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hinkes-trimhuske-drogeham.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-83702856",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-83702856",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Blij",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Veendam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-blij-veendam.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Instagram).",
+  "fouten": [
+   "Geen eigen website (alleen Instagram)"
+  ],
+  "contact": "06-11751432",
+  "bron": null,
+  "social": "IG",
+  "telefoon": "06-11751432",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Artisan",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Wildervank",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-artisan-wildervank.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-52786034",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-52786034",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Vasti",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Surhuisterveen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-vasti-surhuisterveen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Riemkje",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Oudwoude",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-riemkje-oudwoude.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
