@@ -5589,5 +5589,223 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Welten",
+  "kort": "Welten",
+  "slug": "hondentrimsalon-welten",
+  "plaats": "Heerlen",
+  "tel_display": "06-41749707",
+  "tel_href": "tel:+31641749707",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Welten in Heerlen verzorgt honden van alle rassen met aandacht en geduld. Rustig, vakkundig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Monique Heerlen",
+  "kort": "Monique",
+  "slug": "hondentrimsalon-monique-heerlen",
+  "plaats": "Heerlen",
+  "tel_display": "06-40299334",
+  "tel_href": "tel:+31640299334",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Monique in Heerlen biedt vakkundige vachtverzorging voor uw hond, met persoonlijke aandacht en rust. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon A Dogs Work of Art",
+  "kort": "A Dogs Work of Art",
+  "slug": "trimsalon-a-dogs-work-of-art",
+  "plaats": "Kerkrade",
+  "tel_display": "06-28543537",
+  "tel_href": "tel:+31628543537",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon A Dogs Work of Art in Kerkrade behandelt elke vacht als vakwerk — zorgvuldig, diervriendelijk en met oog voor detail. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Knippen & effileren",
+    "Handmatig plukken",
+    "Wassen & föhnen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Doggy's Paradise",
+  "kort": "Doggy's Paradise",
+  "slug": "trimsalon-doggys-paradise",
+  "plaats": "Kerkrade",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Doggy's Paradise in Kerkrade verzorgt honden van alle rassen, met liefde en geduld. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden Trimsalon Ginger",
+  "kort": "Ginger",
+  "slug": "honden-trimsalon-ginger",
+  "plaats": "Sittard",
+  "tel_display": "06-43690788",
+  "tel_href": "tel:+31643690788",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Honden Trimsalon Ginger in Sittard verzorgt honden van alle rassen met aandacht en vakmanschap. Persoonlijk en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Brando's Place",
+  "kort": "Brando's Place",
+  "slug": "hondentrimsalon-brandos-place",
+  "plaats": "Weert",
+  "tel_display": "06-12408905",
+  "tel_href": "tel:+31612408905",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Brando's Place in Weert biedt vakkundige vachtverzorging voor uw hond, rustig en met aandacht. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nina's Hondentrimsalon",
+  "kort": "Nina's",
+  "slug": "ninas-hondentrimsalon-nederweert",
+  "plaats": "Nederweert",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Nina's Hondentrimsalon in Nederweert is een gediplomeerde trimsalon voor alle rassen, met persoonlijke aandacht voor elke hond.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Inge",
+  "kort": "Inge",
+  "slug": "hondentrimsalon-inge-weert",
+  "plaats": "Weert",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Inge in Weert verzorgt honden van alle rassen met liefde en geduld. Rustig, persoonlijk en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dierenkapper Venray",
+  "kort": "Dierenkapper Venray",
+  "slug": "dierenkapper-venray",
+  "plaats": "Venray",
+  "tel_display": "06-43016379",
+  "tel_href": "tel:+31643016379",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dierenkapper Venray verzorgt de complete vacht van uw hond — wassen, knippen, plukken en scheren. Vakkundig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & knippen",
+    "Plukken & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
