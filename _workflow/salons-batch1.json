@@ -8273,5 +8273,221 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondensalon Cell",
+  "kort": "Cell",
+  "slug": "hondensalon-cell-dronten",
+  "plaats": "Dronten",
+  "tel_display": "06-52363058",
+  "tel_href": "tel:+31652363058",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondensalon Cell in Dronten trimt alle rassen en kruisingen, groot en klein. Persoonlijke aandacht en een rustige behandeling staan voorop.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Vacht ontklitten",
+    "Oor- en nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Huisdierservice Marknesse",
+  "kort": "Marknesse",
+  "slug": "huisdierservice-marknesse",
+  "plaats": "Marknesse",
+  "tel_display": "06-13837534",
+  "tel_href": "tel:+31613837534",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Huisdierservice Marknesse staat de individuele zorg voor je hond centraal. Er is alle tijd voor een rustige, zorgvuldige behandeling, ook voor wenbeurten.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken & ontwollen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Doggy's Delight",
+  "kort": "Doggy's Delight",
+  "slug": "trimsalon-doggys-delight-smilde",
+  "plaats": "Smilde",
+  "tel_display": "06-19830556",
+  "tel_href": "tel:+31619830556",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Doggy's Delight in Smilde is een gediplomeerde trimsalon met jarenlange ervaring. Gespecialiseerd in terriërs, tekkels, poedels en doodles, met een gratis haal- en brengservice in de buurt.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Majorie",
+  "kort": "Majorie",
+  "slug": "hondentrimsalon-majorie-pesse",
+  "plaats": "Pesse",
+  "tel_display": "06-23720367",
+  "tel_href": "tel:+31623720367",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Majorie in Pesse is een kleinschalige, gediplomeerde salon met veel vakkennis. Er is alle aandacht voor je hond en een rustige behandeling.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken & ontwollen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Marleen Koopman",
+  "kort": "Marleen Koopman",
+  "slug": "trimsalon-marleen-koopman-stuifzand",
+  "plaats": "Stuifzand",
+  "tel_display": "06-23752860",
+  "tel_href": "tel:+31623752860",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Marleen Koopman in Stuifzand is een gediplomeerde trimsalon voor de volledige vachtverzorging van je hond. Persoonlijk contact en een zorgvuldige behandeling staan voorop.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Mieke",
+  "kort": "Mieke",
+  "slug": "trimsalon-mieke-assen",
+  "plaats": "Assen",
+  "tel_display": "06-27510339",
+  "tel_href": "tel:+31627510339",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Mieke in Assen staat voor liefdevolle vachtverzorging van je hond. Een rustige salon waar elke hond met geduld en zorg wordt behandeld.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken & ontwollen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Annet's Trimsalon",
+  "kort": "Annet's",
+  "slug": "annets-trimsalon-de-punt",
+  "plaats": "De Punt",
+  "tel_display": "06-42748108",
+  "tel_href": "tel:+31642748108",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Annet's Trimsalon in De Punt is een gezellige, professionele salon in de kop van Drenthe. Alle honden, groot en klein, zijn welkom voor een complete of losse behandeling.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Flandres",
+  "kort": "Flandres",
+  "slug": "trimsalon-flandres-hooghalen",
+  "plaats": "Hooghalen",
+  "tel_display": "06-11407979",
+  "tel_href": "tel:+31611407979",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Flandres in Hooghalen verzorgt de vacht van honden van alle rassen. Een vakkundige salon met aandacht voor het welzijn van elke hond.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & scheren",
+    "Plukken & ontwollen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Dazzling Spark",
+  "kort": "Dazzling Spark",
+  "slug": "hondentrimsalon-dazzling-spark-smilde",
+  "plaats": "Smilde",
+  "tel_display": "06-37203727",
+  "tel_href": "tel:+31637203727",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Dazzling Spark in Smilde biedt de complete vachtverzorging voor je hond. Een rustige salon, ook 's avonds geopend, met oog voor elke hond.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

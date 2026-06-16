@@ -7770,5 +7770,185 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondensalon Cell",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Dronten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondensalon-cell-dronten.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-52363058",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52363058",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Huisdierservice Marknesse",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Marknesse",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://huisdierservice-marknesse.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-13837534",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13837534",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Doggy's Delight",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Smilde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-doggys-delight-smilde.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-19830556",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-19830556",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Majorie",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Pesse",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-majorie-pesse.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-23720367",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23720367",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Marleen Koopman",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Stuifzand",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-marleen-koopman-stuifzand.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-23752860",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23752860",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Mieke",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Assen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-mieke-assen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-27510339",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-27510339",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Annet's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "De Punt",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://annets-trimsalon-de-punt.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-42748108",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-42748108",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Flandres",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Hooghalen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-flandres-hooghalen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-11407979",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11407979",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Dazzling Spark",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Smilde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-dazzling-spark-smilde.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-37203727",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-37203727",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
