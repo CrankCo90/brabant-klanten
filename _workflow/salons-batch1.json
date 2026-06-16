@@ -8993,5 +8993,221 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapsalon De Linde",
+  "kort": "Gezellige hondentrimsalon in 's-Heer Hendrikskinderen",
+  "slug": "hondenkapsalon-de-linde-sheer-hendrikskinderen",
+  "plaats": "'s-Heer Hendrikskinderen",
+  "tel_display": "06-28936677",
+  "tel_href": "tel:+31628936677",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Een gezellige, kleine trimsalon waar elke hond rustig en met aandacht wordt verzorgd. Met ruime ervaring zorgt de gediplomeerde trimster voor een verzorgde vacht en een ontspannen hond.",
+   "specialisaties": [
+    "Knippen en scheren op maat",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Ramona",
+  "kort": "Volledige vachtverzorging in Vlissingen",
+  "slug": "trimsalon-ramona-vlissingen",
+  "plaats": "Vlissingen",
+  "tel_display": "06-46311786",
+  "tel_href": "tel:+31646311786",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Ramona",
+   "verhaal": "Bij Trimsalon Ramona staat een volledige, vakkundige en liefdevolle verzorging van kleine tot grote honden voorop. Elke hond krijgt rustig en op afspraak de aandacht die hij verdient.",
+   "specialisaties": [
+    "Knippen en modelleren",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Trimmerman",
+  "kort": "Stressvrij trimmen in Zuidhorn",
+  "slug": "trimmerman-zuidhorn",
+  "plaats": "Zuidhorn",
+  "tel_display": "06-45422888",
+  "tel_href": "tel:+31645422888",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Violetta",
+   "verhaal": "Werken met dieren is altijd de passie geweest van deze gecertificeerde hondentrimmer. Met een stressvrije aanpak en professionele, anti-allergische producten wordt elke hond rustig en vakkundig verzorgd.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Super snel ontharen (deshedding)",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Mon Ami",
+  "kort": "Gediplomeerde trimsalon in Norg",
+  "slug": "trimsalon-mon-ami-norg",
+  "plaats": "Norg",
+  "tel_display": "06-50830692",
+  "tel_href": "tel:+31650830692",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Mon Ami is een fijne salon met een gediplomeerde trimster die ook kennis heeft van hondengedrag. De hond moet zich veilig voelen in de salon, en daar wordt met geduld aan gewerkt.",
+   "specialisaties": [
+    "Knippen en modelleren",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Josiena",
+  "kort": "Trimsalon voor hond en huisdier in Winsum",
+  "slug": "trimsalon-josiena-winsum",
+  "plaats": "Winsum",
+  "tel_display": "06-22724974",
+  "tel_href": "tel:+31622724974",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Josiena wordt elke hond met alle liefde en geduld behandeld en getrimd. Als eigenaar bent u welkom om bij de behandeling aanwezig te zijn.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Karin Solle",
+  "kort": "Vachtverzorging met puppy-uurtje in Tolbert",
+  "slug": "trimsalon-karin-solle-tolbert",
+  "plaats": "Tolbert",
+  "tel_display": "06-39545132",
+  "tel_href": "tel:+31639545132",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Karin",
+   "verhaal": "U bent hier welkom voor een volledige behandeling of voor alleen wassen of nagels knippen. Er is zelfs een gratis puppy-uurtje, zodat jonge honden rustig kunnen wennen aan de salon.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Abcoude",
+  "kort": "Stressvrij trimmen in Abcoude",
+  "slug": "trimsalon-abcoude-abcoude",
+  "plaats": "Abcoude",
+  "tel_display": "06-51124232",
+  "tel_href": "tel:+31651124232",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Een trimsalon waar honden geen stress ervaren. Met ruime ervaring zijn zowel kleine als grote honden hier in goede, rustige handen.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Tante Woef",
+  "kort": "Stressarm trimmen in Hilversum",
+  "slug": "trimsalon-tante-woef-hilversum",
+  "plaats": "Hilversum",
+  "tel_display": "06-40764012",
+  "tel_href": "tel:+31640764012",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Met kennis van hondengedrag zorgt deze gediplomeerde trimster dat honden hun trimbeurt zo rustig en positief mogelijk beleven. Er wordt op afspraak gewerkt, met alle aandacht voor uw hond.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marika",
+  "kort": "Hondentrimsalon voor elk ras in Dinteloord",
+  "slug": "hondentrimsalon-marika-dinteloord",
+  "plaats": "Dinteloord",
+  "tel_display": "06-21454610",
+  "tel_href": "tel:+31621454610",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Een hondentrimsalon waar elk ras terecht kan voor een complete vachtverzorging. Er wordt op afspraak gewerkt, zodat er rustig de tijd genomen wordt voor uw hond.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
