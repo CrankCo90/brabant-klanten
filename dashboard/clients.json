@@ -5812,5 +5812,85 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon La Woeff",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Beesel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-la-woeff.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding)"
+  ],
+  "contact": "06-46232554",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-46232554",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Knipperij",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Gennep",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-knipperij-gennep.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding)"
+  ],
+  "contact": "06-22838341",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22838341",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "BIAB Sittard",
+  "niche": "Nagelstudio's",
+  "regio": "Limburg",
+  "plaats": "Sittard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://biab-sittard.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Instagram).",
+  "fouten": [
+   "Geen eigen website (alleen Instagram)"
+  ],
+  "contact": "Alleen IG",
+  "bron": null,
+  "social": "IG",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "N.N. Nails & Beauty",
+  "niche": "Nagelstudio's",
+  "regio": "Limburg",
+  "plaats": "Sittard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://nn-nails-en-beauty-sittard.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen boekpagina).",
+  "fouten": [
+   "Geen eigen website (alleen boekpagina)"
+  ],
+  "contact": "Alleen Salonized",
+  "bron": null,
+  "social": "Salonized",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

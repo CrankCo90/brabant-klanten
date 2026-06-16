@@ -5903,5 +5903,101 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon La Woeff",
+  "kort": "La Woeff",
+  "slug": "hondentrimsalon-la-woeff",
+  "plaats": "Beesel",
+  "tel_display": "06-46232554",
+  "tel_href": "tel:+31646232554",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon La Woeff in Beesel verzorgt honden van alle rassen met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Knipperij",
+  "kort": "De Knipperij",
+  "slug": "trimsalon-de-knipperij-gennep",
+  "plaats": "Gennep",
+  "tel_display": "06-22838341",
+  "tel_href": "tel:+31622838341",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon De Knipperij in Gennep verzorgt de vacht van uw hond — wassen, knippen en plukken — voor Gennep, Mook en omgeving. Vakkundig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & knippen",
+    "Plukken & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "BIAB Sittard",
+  "kort": "BIAB Sittard",
+  "slug": "biab-sittard",
+  "plaats": "Sittard",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "BIAB Sittard is een nagelsalon gespecialiseerd in BIAB en natuurlijke nagelverzorging. Sterke, verzorgde nagels met een persoonlijke aanpak — op afspraak.",
+   "specialisaties": [
+    "BIAB",
+    "Gellak",
+    "Manicure",
+    "Nailart"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "N.N. Nails & Beauty",
+  "kort": "N.N. Nails",
+  "slug": "nn-nails-en-beauty-sittard",
+  "plaats": "Sittard",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "N.N. Nails & Beauty in Sittard verzorgt frisse manicures met BIAB en gellak. Verzorgde nagels, eenvoudig online te boeken.",
+   "specialisaties": [
+    "BIAB",
+    "Gellak",
+    "Manicure",
+    "Nailart"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
