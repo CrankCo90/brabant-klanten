@@ -6192,5 +6192,23 @@
   "telefoon": "06-41897988",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "kapsalonasya",
+  "niche": "kappers",
+  "regio": "Den Haag",
+  "plaats": "Den Haag",
+  "status": "demo",
+  "score": 0,
+  "werkdag": "2026-06-16",
+  "demo_url": "https://kapsalonasya.demo.brabantdigital.nl",
+  "waarom": "Via dashboard aangemeld. www.kapsalonasya.nl\n\nverouderde website",
+  "fouten": [],
+  "contact": "https://www.instagram.com/kapsalonasya/",
+  "bron": "https://www.instagram.com/kapsalonasya/",
+  "social": null,
+  "telefoon": null,
+  "land": "NL",
+  "taal": "nl"
  }
 ]

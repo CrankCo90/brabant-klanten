@@ -6389,5 +6389,14 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "kapsalonasya",
+  "kort": "kapsalonasya",
+  "slug": "kapsalonasya",
+  "plaats": "Den Haag",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "taal": "nl"
  }
 ]
