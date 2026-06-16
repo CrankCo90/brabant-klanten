@@ -5492,5 +5492,65 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Voetverzorgingspraktijk Edith Elissen",
+  "niche": "Pedicures",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://voetverzorging-edith-elissen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding)"
+  ],
+  "contact": "06-26646316",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-26646316",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Podosanos Medisch Pedicure",
+  "niche": "Pedicures",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://podosanos-medisch-pedicure.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding)"
+  ],
+  "contact": "06-11077358",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11077358",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Medisch pedicure Sandra Middeldorp",
+  "niche": "Pedicures",
+  "regio": "Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://medisch-pedicure-sandra-middeldorp.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

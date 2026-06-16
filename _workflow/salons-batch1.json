@@ -5511,5 +5511,83 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Voetverzorgingspraktijk Edith Elissen",
+  "kort": "Edith Elissen",
+  "slug": "voetverzorging-edith-elissen",
+  "plaats": "Maastricht",
+  "tel_display": "06-26646316",
+  "tel_href": "tel:+31626646316",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "Edith",
+   "verhaal": "Voetverzorgingspraktijk Edith Elissen in Maastricht biedt vakkundige medische voetverzorging — van een complete pedicure tot zorg voor de diabetische en reumatische voet. Persoonlijk en op afspraak.",
+   "specialisaties": [
+    "Medische pedicure",
+    "Diabetische voet",
+    "Reumatische voet",
+    "Ambulant"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Podosanos Medisch Pedicure",
+  "kort": "Podosanos",
+  "slug": "podosanos-medisch-pedicure",
+  "plaats": "Maastricht",
+  "tel_display": "06-11077358",
+  "tel_href": "tel:+31611077358",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Podosanos Medisch Pedicure in Maastricht is gespecialiseerd in de diabetische en reumatische voet, met onder meer orthesiologie, nagelbeugels en nagelreparatie. Deskundige voetzorg op afspraak.",
+   "specialisaties": [
+    "Medische pedicure",
+    "Diabetische voet",
+    "Nagelbeugel",
+    "Orthesiologie"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Medisch pedicure Sandra Middeldorp",
+  "kort": "Sandra Middeldorp",
+  "slug": "medisch-pedicure-sandra-middeldorp",
+  "plaats": "Heerlen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "pedicure",
+  "content": {
+   "eigenaar": "Sandra",
+   "verhaal": "Medisch pedicure Sandra Middeldorp in Heerlen biedt medische voetverzorging, ook bij u aan huis, met specialisatie in de diabetische en reumatische voet. Persoonlijke aandacht voor gezonde voeten.",
+   "specialisaties": [
+    "Medische pedicure",
+    "Diabetische voet",
+    "Reumatische voet",
+    "Aan huis"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
