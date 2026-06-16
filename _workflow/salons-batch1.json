@@ -5122,5 +5122,149 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon De Viervoeter",
+  "kort": "De Viervoeter",
+  "slug": "hondentrimsalon-de-viervoeter",
+  "plaats": "Roermond",
+  "tel_display": "06-13733033",
+  "tel_href": "tel:+31613733033",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon De Viervoeter in Roermond verzorgt de complete vacht van uw hond of kat. Vakkundig, rustig en met aandacht — op afspraak.",
+   "specialisaties": [
+    "Honden & katten",
+    "Complete vachtverzorging",
+    "Wassen & föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Akyla",
+  "kort": "Akyla",
+  "slug": "trimsalon-akyla",
+  "plaats": "Maasbree",
+  "tel_display": "06-29181242",
+  "tel_href": "tel:+31629181242",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Akyla is al ruim 5 jaar een begrip in Maasbree en omgeving, voor alle hondenrassen en hun verschillende vachten. Persoonlijke, vakkundige verzorging op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Alle vachttypes",
+    "Wassen & föhnen",
+    "Knippen & effileren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Caninity",
+  "kort": "Caninity",
+  "slug": "trimsalon-caninity",
+  "plaats": "Baarlo",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Caninity in Baarlo biedt vakkundige vachtverzorging voor honden, uitsluitend op afspraak. Persoonlijke aandacht voor elke hond.",
+   "specialisaties": [
+    "Alle rassen",
+    "Vachtverzorging",
+    "Op afspraak",
+    "Wassen & föhnen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimshop Tom Rademakers",
+  "kort": "Tom Rademakers",
+  "slug": "hondentrimshop-tom-rademakers",
+  "plaats": "Grevenbicht",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Tom",
+   "verhaal": "Hondentrimshop Tom Rademakers in Grevenbicht verzorgt het trimmen, knippen en wassen van uw hond, met daarnaast een ruim assortiment dierbenodigdheden. Vakkundig en persoonlijk.",
+   "specialisaties": [
+    "Alle rassen",
+    "Knippen & wassen",
+    "Vachtverzorging",
+    "Dierbenodigdheden"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Peggy",
+  "kort": "Peggy",
+  "slug": "hondentrimsalon-peggy-montfort",
+  "plaats": "Montfort",
+  "tel_display": "06-50283046",
+  "tel_href": "tel:+31650283046",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Peggy",
+   "verhaal": "Peggy's Hondentrimsalon in Montfort is al 19 jaar het adres voor vakkundig knippen en effileren van kleine honden, op de meest diervriendelijke manier. Gespecialiseerd in poedels.",
+   "specialisaties": [
+    "Kleine honden",
+    "Poedels",
+    "Knippen & effileren",
+    "Diervriendelijk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sammy's Trimsalon",
+  "kort": "Sammy's",
+  "slug": "sammys-trimsalon-berg",
+  "plaats": "Berg en Terblijt",
+  "tel_display": "06-52544242",
+  "tel_href": "tel:+31652544242",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Sammy's Trimsalon in Berg en Terblijt verzorgt honden van alle rassen, uitsluitend op afspraak. Vakkundige vachtverzorging met rust en aandacht voor uw hond.",
+   "specialisaties": [
+    "Alle rassen",
+    "Vachtverzorging",
+    "Op afspraak",
+    "Wassen & föhnen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

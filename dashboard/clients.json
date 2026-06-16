@@ -5172,5 +5172,125 @@
   "telefoon": "06-45558685",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon De Viervoeter",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Roermond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-de-viervoeter.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/social).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/social)"
+  ],
+  "contact": "06-13733033",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13733033",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Akyla",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Maasbree",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-akyla.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-29181242",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-29181242",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Caninity",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Baarlo",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-caninity.demo.brabantdigital.nl",
+  "waarom": "Zwakke website (gratis Webnode-bouwer) + Facebook.",
+  "fouten": [
+   "Zwakke website (gratis Webnode-bouwer) + Facebook"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimshop Tom Rademakers",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Grevenbicht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimshop-tom-rademakers.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Peggy",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Montfort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-peggy-montfort.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (http, geen beveiliging).",
+  "fouten": [
+   "Verouderde website (http, geen beveiliging)"
+  ],
+  "contact": "06-50283046",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-50283046",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sammy's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Berg en Terblijt",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://sammys-trimsalon-berg.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (oude http .htm-pagina's).",
+  "fouten": [
+   "Verouderde website (oude http .htm-pagina's)"
+  ],
+  "contact": "06-52544242",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52544242",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
