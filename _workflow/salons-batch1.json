@@ -5999,5 +5999,395 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Salon Mera",
+  "kort": "Mera",
+  "slug": "salon-mera-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Mera",
+   "verhaal": "Salon Mera in Tilburg-Noord verzorgt knippen, kleuren en stylen voor dames, heren en kinderen — met bijna 20 jaar ervaring en oog voor kwaliteit.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kapsalon Bij Nienke",
+  "kort": "Bij Nienke",
+  "slug": "kapsalon-bij-nienke",
+  "plaats": "Tilburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Nienke",
+   "verhaal": "Kapsalon Bij Nienke aan de Trouwlaan in Tilburg: persoonlijk, rustig en vakkundig knippen en kleuren, op afspraak.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Touch Hairstyle",
+  "kort": "Touch Hairstyle",
+  "slug": "touch-hairstyle-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Touch Hairstyle aan de Besterdring in Tilburg verzorgt moderne coupes, kleuringen en stylings met oog voor detail.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Different Hair Skin Body",
+  "kort": "Different",
+  "slug": "different-hair-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Different Hair Skin Body in Tilburg combineert vakkundig knip- en kleurwerk met een verzorgde, persoonlijke aanpak.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Balayage",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Beauty Hair Ewa Szulc",
+  "kort": "Ewa",
+  "slug": "beauty-hair-ewa-szulc",
+  "plaats": "Tilburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Ewa",
+   "verhaal": "Beauty Hair by Ewa Szulc in Tilburg (Hasselt) verzorgt knippen, kleuren en highlights met vakmanschap en aandacht.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "The Perfect Luxury",
+  "kort": "The Perfect Luxury",
+  "slug": "the-perfect-luxury-breda",
+  "plaats": "Breda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "The Perfect Luxury in Breda is een warme, professionele kapsalon waar iedereen welkom is — knippen, kleuren en styling op niveau.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Balayage",
+    "Styling"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bassaclane",
+  "kort": "Bassaclane",
+  "slug": "bassaclane-breda",
+  "plaats": "Breda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bassaclane in Breda is een moderne kapsalon waar zorg en comfort centraal staan — stijlvol en professioneel knip- en kleurwerk.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Luxury with Hair",
+  "kort": "Luxury with Hair",
+  "slug": "luxury-with-hair-breda",
+  "plaats": "Breda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Luxury with Hair in Breda verzorgt verzorgde coupes, kleuringen en stylings met een persoonlijke, luxe aanpak.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Jessica van Oorschot",
+  "kort": "Jessica",
+  "slug": "jessica-van-oorschot-breda",
+  "plaats": "Breda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Jessica",
+   "verhaal": "Kapsalon Jessica van Oorschot in de Bredase binnenstad: persoonlijk knippen, kleuren en stylen met vakmanschap.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Coiffure de Milano",
+  "kort": "de Milano",
+  "slug": "coiffure-de-milano-breda",
+  "plaats": "Breda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Coiffure de Milano in Breda verzorgt klassiek en modern knip- en kleurwerk voor dames en heren, op afspraak.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Shiva's Kapsalon",
+  "kort": "Shiva",
+  "slug": "shivas-kapsalon-helmond",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Shiva",
+   "verhaal": "Shiva's Kapsalon in Helmond: na 16 jaar saloervaring knipt en kleurt Shiva nu vanuit een persoonlijke thuissalon, met alle aandacht voor jou.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Haarmode Moniek",
+  "kort": "Moniek",
+  "slug": "haarmode-moniek-helmond",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Moniek",
+   "verhaal": "Haarmode Moniek in Helmond verzorgt knippen, kleuren en stylen met een persoonlijke aanpak, op afspraak.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hair by Daisy",
+  "kort": "Daisy",
+  "slug": "hair-by-daisy-helmond",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Daisy",
+   "verhaal": "Hair by Daisy in Helmond verzorgt moderne coupes, kleuringen en stylings met oog voor detail en een persoonlijke touch.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Gentleman Hairstudio",
+  "kort": "Gentleman",
+  "slug": "gentleman-hairstudio-oss",
+  "plaats": "Oss",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Gentleman Hairstudio in Oss is dé herenkapper voor een strakke coupe, baardverzorging en klassiek vakwerk — online te boeken.",
+   "specialisaties": [
+    "Heren knippen",
+    "Baardverzorging",
+    "Fade & coupe",
+    "Styling"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Asya's Haarsalon",
+  "kort": "Asya",
+  "slug": "asyas-haarsalon-veghel",
+  "plaats": "Veghel",
+  "tel_display": "06-41897988",
+  "tel_href": "tel:+31641897988",
+  "niche": "kapper",
+  "content": {
+   "eigenaar": "Asya",
+   "verhaal": "Asya's Haarsalon in Veghel verzorgt knippen, kleuren en stylen met persoonlijke aandacht voor elke klant, op afspraak.",
+   "specialisaties": [
+    "Knippen",
+    "Kleuren",
+    "Highlights",
+    "Wassen & föhnen"
+   ],
+   "certificering": [
+    "Gediplomeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
