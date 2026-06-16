@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gentleman Hairstudio — Kapsalon Oss</title>
+<meta name="description" content="Gentleman Hairstudio — kapsalon in Oss. Persoonlijk advies, eerlijk vakwerk, uitsluitend op afspraak. Online een afspraak maken.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+:root{--bg:#faf6f0;--cream:#f3ece1;--card:#fffdf9;--ink:#2c2620;--mut:#7a7065;--line:#e7ddcd;--acc:#b0815b;--acc2:#caa57c;--head:'Fraunces',Georgia,serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--head);font-weight:600;line-height:1.12}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 26px}
+.eyebrow{color:var(--acc);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;font-weight:600}
+.btn{display:inline-flex;align-items:center;gap:9px;border-radius:999px;padding:14px 26px;font-weight:600;font-size:.92rem;cursor:pointer;border:1px solid transparent;transition:.2s}
+.btn-acc{background:var(--acc);color:#fff}.btn-acc:hover{background:#9a6e4c}
+.btn-out{border-color:var(--acc);color:var(--acc)}.btn-out:hover{background:rgba(176,129,91,.08)}
+header{position:fixed;top:0;left:0;right:0;z-index:40;transition:.3s}
+header.scrolled{background:rgba(250,246,240,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.logo{font-family:var(--head);font-size:1.45rem;font-weight:700}.logo em{color:var(--acc);font-style:normal}
+.nav-links{display:flex;gap:28px}.nav-links a{font-size:.9rem;color:var(--mut)}.nav-links a:hover{color:var(--ink)}
+.nav-right{display:flex;gap:12px;align-items:center}
+.lang{background:none;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:6px 12px;font:inherit;font-size:.78rem;cursor:pointer}
+.burger{display:none;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--ink)}
+.hero{position:relative;min-height:92vh;display:flex;align-items:center;overflow:hidden}
+.hero .bg{position:absolute;inset:0;z-index:0}
+.hero .bg img{width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(250,246,240,.96) 0%,rgba(250,246,240,.82) 42%,rgba(250,246,240,.4) 100%);z-index:1}
+.hero .wrap{position:relative;z-index:2;padding-top:90px}
+.hero h1{font-size:clamp(2.6rem,6.5vw,4.8rem);margin:14px 0 14px;max-width:14ch}
+.hero p.sub{color:#5c5349;font-size:clamp(1rem,2vw,1.2rem);max-width:540px;margin-bottom:28px}
+.cta{display:flex;gap:13px;flex-wrap:wrap}
+.trust{margin-top:24px;color:var(--mut);font-size:.86rem}
+section.blk{padding:92px 0}
+section.alt{background:var(--cream)}
+.eyebrow.c{display:block;text-align:center}
+h2.sec{font-size:clamp(1.9rem,4.2vw,2.8rem);margin-top:8px}
+.lead{color:var(--mut);max-width:640px}
+.center{text-align:center}.center .lead{margin:14px auto 0}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}
+.about-grid img{width:100%;border-radius:16px;aspect-ratio:4/5;object-fit:cover}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px}
+.svc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.svc .ic{font-size:1.7rem}.svc .k{color:var(--acc);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin:12px 0 6px}
+.svc h3{font-size:1.35rem;margin-bottom:8px}.svc p{color:var(--mut);font-size:.92rem}
+.reasons{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}
+.reason .big{font-family:var(--head);font-size:2.4rem;color:var(--acc)}
+.reason .k{color:var(--mut);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;margin:6px 0 8px}
+.reason h3{font-size:1.18rem;margin-bottom:6px}.reason p{color:var(--mut);font-size:.9rem}
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.rev .st{color:var(--acc2)}.rev p{font-style:italic;margin:10px 0 12px}.rev .who{color:var(--acc);font-weight:600;font-size:.88rem}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:40px}
+.info .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);color:var(--mut);font-size:.92rem}
+.info h4{font-family:var(--head);font-size:1.15rem;margin:18px 0 6px}
+.form input,.form textarea{width:100%;background:var(--card);border:1px solid var(--line);border-radius:10px;color:var(--ink);font:inherit;padding:13px 14px;margin-bottom:11px}
+.form textarea{min-height:110px;resize:vertical}
+.mapwrap{margin-top:30px;border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+.mapwrap iframe{width:100%;height:300px;border:0;display:block}
+footer{background:#efe6d8;border-top:1px solid var(--line);padding:40px 0;color:var(--mut);font-size:.86rem}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;align-items:center}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:50;display:inline-flex;align-items:center;gap:9px;background:#25D366;color:#063;border-radius:999px;padding:12px 18px;font-weight:700;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.wa-float svg{width:20px;height:20px}
+@media(max-width:900px){.nav-links{display:none}.burger{display:block}.about-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.cards,.reasons{grid-template-columns:1fr 1fr}.revs{grid-template-columns:1fr}
+ .nav-links.open{display:flex;position:absolute;top:74px;left:0;right:0;flex-direction:column;background:var(--bg);padding:18px 26px;gap:16px;border-bottom:1px solid var(--line)}}
+@media(max-width:560px){.cards,.reasons{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header id="hdr"><div class="wrap nav">
+ <a class="logo" href="#top"><em>Gentleman</em> Hairstudio</a>
+ <nav class="nav-links" id="navlinks">
+  <a href="#over" data-en="About">Over ons</a><a href="#behandelingen" data-en="Treatments">Behandelingen</a>
+  <a href="#reviews" data-en="Reviews">Reviews</a><a href="#contact" data-en="Contact">Contact</a>
+ </nav>
+ <div class="nav-right"><button class="lang" id="lang">EN</button>
+  <a class="btn btn-acc book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book now">Afspraak maken</a>
+  <button class="burger" id="burger" aria-label="Menu">☰</button></div>
+</div></header>
+
+<section class="hero" id="top">
+ <div class="bg"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151811_2493dc60-0682-4320-9d05-8978c565aac6.png" alt=""></div>
+ <div class="wrap">
+  <div class="eyebrow" data-en="By appointment — exclusive &amp; personal">Op afspraak — exclusief &amp; persoonlijk</div>
+  <h1 data-en="Your hair, perfectly in shape.">Jouw haar, perfect in vorm.</h1>
+  <p class="sub" data-en="Personal advice, honest craftsmanship and full attention — at Gentleman Hairstudio you're always in good hands. For women, men and children.">Persoonlijk advies, eerlijk vakwerk en pure aandacht — bij Gentleman Hairstudio zit je altijd goed. Voor dames, heren én kinderen.</p>
+  <div class="cta">
+   <a class="btn btn-acc book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book your appointment">Reserveer je afspraak</a>
+   <a class="btn btn-out" href="#contact" data-en="Call or message us">Bel of app ons</a>
+  </div>
+  <p class="trust" data-en="Free consultation · No obligations · Oss">Gratis consultatie · Geen verplichtingen · Oss</p>
+ </div>
+</section>
+
+<section class="blk" id="over"><div class="wrap about-grid">
+ <div>
+  <div class="eyebrow" data-en="About us">Over ons</div>
+  <h2 class="sec">Een salon waar je écht gehoord wordt</h2>
+  <p class="lead" style="margin-top:14px">Gentleman Hairstudio in Oss is dé herenkapper voor een strakke coupe, baardverzorging en klassiek vakwerk — online te boeken.</p>
+  <p class="lead" style="margin-top:14px" data-en="Women, men, children — everyone is welcome. And because we work strictly by appointment, you can be sure all attention goes to you.">Dames, heren, kinderen — iedereen is welkom. En omdat we uitsluitend op afspraak werken, weet je zeker dat alle aandacht naar jou uitgaat.</p>
+  <p style="margin-top:22px"><a class="btn btn-out book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book an appointment">Afspraak maken</a></p>
+ </div>
+ <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_81603210-c65e-4327-b49f-fb0f9281e955.png" alt="Gentleman Hairstudio">
+</div></section>
+
+<section class="blk alt" id="behandelingen"><div class="wrap">
+ <div class="center"><div class="eyebrow c" data-en="Treatments">Behandelingen</div>
+  <h2 class="sec" data-en="Craftsmanship you see and feel">Vakwerk dat je ziet en voelt</h2>
+  <p class="lead" data-en="From a sharp cut to a complete transformation — every treatment is done with attention and precision.">Van een strakke coupe tot een complete transformatie — elke behandeling met aandacht en precisie.</p></div>
+ <div class="cards">
+  <div class="svc"><div class="ic">✂️</div><div class="k" data-en="Women, men &amp; children">Dames, heren &amp; kinderen</div><h3 data-en="Cut">Knippen</h3><p data-en="A perfect cut that suits you — honest advice, expertly cut, for every age and hair type.">Een perfecte coupe die bij jou past — eerlijk advies, vakkundig geknipt, voor elke leeftijd en elk haartype.</p></div>
+  <div class="svc"><div class="ic">🎨</div><div class="k" data-en="Colour that suits you">Kleur die bij je past</div><h3 data-en="Colour">Kleuren</h3><p data-en="From natural tones to bold transformations — we advise what strengthens your look and keeps hair healthy.">Van natuurlijke tinten tot gedurfde transformaties — we adviseren wat je uitstraling versterkt en je haar gezond houdt.</p></div>
+  <div class="svc"><div class="ic">✨</div><div class="k" data-en="For every occasion">Voor elke gelegenheid</div><h3 data-en="Styling">Styling</h3><p data-en="Bridal styles, festive updos or a sleek blow-out — we style you for every moment that counts.">Bruidskapsels, feestelijke opsteekkapsels of een strakke blow-out — we stylen je voor elk moment dat telt.</p></div>
+  <div class="svc"><div class="ic">💆</div><div class="k" data-en="Deep nourishment &amp; repair">Diepe voeding &amp; herstel</div><h3 data-en="Care">Verzorging</h3><p data-en="Intensive treatments that strengthen, hydrate and add shine — from keratin to nourishing masks.">Intensieve behandelingen die je haar versterken, hydrateren en laten stralen — van keratine tot voedende maskers.</p></div>
+ </div>
+</div></section>
+
+<section class="blk"><div class="wrap">
+ <div class="center"><div class="eyebrow c" data-en="Why us">Waarom Gentleman Hairstudio</div>
+  <h2 class="sec" data-en="Four reasons clients keep coming back">Vier redenen waarom klanten blijven terugkomen</h2></div>
+ <div class="reasons">
+  <div class="reason"><div class="big">100%</div><div class="k" data-en="Personal attention">Persoonlijke aandacht</div><h3 data-en="Personal &amp; honest advice">Persoonlijk &amp; eerlijk advies</h3><p data-en="We really listen and tell you what works for your hair — no sales talk, just honest advice.">We luisteren écht en vertellen je wat werkt voor jouw haar — geen verkooppraatjes, wel oprecht advies.</p></div>
+  <div class="reason"><div class="big">15+</div><div class="k" data-en="Years experience">Jaar ervaring</div><h3 data-en="Experienced professionals">Ervaren vakmensen</h3><p data-en="Our stylists know the craft inside out — from classic cuts to the latest colour techniques.">Onze stylisten kennen het vak tot in de puntjes — van klassieke snitten tot de nieuwste kleurtechnieken.</p></div>
+  <div class="reason"><div class="big">1-op-1</div><div class="k" data-en="No rush">Geen gehaast</div><h3 data-en="By appointment — calm &amp; focus">Op afspraak — rust &amp; aandacht</h3><p data-en="No walk-ins, no queue. Your time is reserved and all focus is on you.">Geen inloop, geen wachtrij. Jouw tijd is gereserveerd en alle focus ligt op jou.</p></div>
+  <div class="reason"><div class="big">★★★★★</div><div class="k" data-en="Client rating">Klantwaardering</div><h3 data-en="Beautiful result">Prachtig resultaat</h3><p data-en="You leave glowing and confident. That's not a promise — it's our daily work.">Je loopt hier stralend en zelfverzekerd de deur uit. Dat is geen belofte — dat is ons dagelijks werk.</p></div>
+ </div>
+</div></section>
+
+<section class="blk alt" id="reviews"><div class="wrap">
+ <div class="center"><div class="eyebrow c" data-en="Reviews">Reviews</div>
+  <h2 class="sec" data-en="What our clients say">Wat onze klanten zeggen</h2></div>
+ <div class="revs"><div class="rev"><div class="st">★★★★★</div><p>“Eindelijk een kapper die écht luistert. Ik ga elke keer met een topgevoel naar buiten.”</p><div class="who">— Sanne</div></div><div class="rev"><div class="st">★★★★★</div><p>“Eerlijk advies en vakwerk — mijn haar zat nog nooit zo goed.”</p><div class="who">— Lisa</div></div><div class="rev"><div class="st">★★★★★</div><p>“Heerlijke persoonlijke aandacht doordat het op afspraak is. Geen gehaast, geen wachtrij.”</p><div class="who">— Marjolein</div></div><div class="rev"><div class="st">★★★★★</div><p>“Al jaren mijn vaste kapper. Aangeraden aan mijn hele vriendengroep.”</p><div class="who">— Demi</div></div><div class="rev"><div class="st">★★★★★</div><p>“Mooie kleur, perfecte coupe en een fijne sfeer. Hier voel je je meteen op je gemak.”</p><div class="who">— Fatima</div></div></div>
+</div></section>
+
+<section class="blk" id="contact"><div class="wrap">
+ <div class="center"><div class="eyebrow c" data-en="Make an appointment">Afspraak maken</div>
+  <h2 class="sec" data-en="Ready for your perfect look?">Klaar voor jouw perfecte look?</h2>
+  <p class="lead" data-en="Call us, send a message or drop by. We'd love to reserve your moment — exclusive and without rush.">Bel ons, stuur een bericht of kom langs. We reserveren graag jouw moment — exclusief en zonder haast.</p></div>
+ <div class="contact-grid">
+  <div class="info">
+   <h4 data-en="Location">Locatie</h4><div class="row"><span>Oss</span></div>
+   <h4 data-en="Phone">Telefoon</h4><div class="row"><span>Bel of app ons</span></div>
+   <h4 data-en="Email">E-mail</h4><div class="row"><span>Op aanvraag</span></div>
+   <h4 data-en="Opening hours">Openingstijden</h4>
+   <div class="row"><span data-en="Mon">Ma</span><span data-en="Closed">Gesloten</span></div>
+   <div class="row"><span data-en="Tue">Di</span><span>09:00 – 18:00</span></div>
+   <div class="row"><span data-en="Wed">Wo</span><span>09:00 – 18:00</span></div>
+   <div class="row"><span data-en="Thu">Do</span><span>09:00 – 20:00</span></div>
+   <div class="row"><span data-en="Fri">Vr</span><span>09:00 – 18:00</span></div>
+   <div class="row"><span data-en="Sat">Za</span><span>08:00 – 16:00</span></div>
+   <p class="trust" style="margin-top:8px" data-en="* Example hours — we work strictly by appointment.">* Voorbeeldtijden — we werken uitsluitend op afspraak.</p>
+   <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap">
+    <a class="btn btn-acc book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book an appointment">Afspraak maken</a>
+    
+   </div>
+  </div>
+  <div><form class="form" id="cform">
+   <input name="naam" placeholder="Naam" data-en-ph="Name" required>
+   <input name="email" type="email" placeholder="E-mail" data-en-ph="Email" required>
+   <input name="tel" placeholder="Telefoon" data-en-ph="Phone">
+   <textarea name="bericht" placeholder="Waarmee kunnen we je helpen? (optioneel)" data-en-ph="How can we help you? (optional)"></textarea>
+   <button class="btn btn-acc" type="submit" style="width:100%;justify-content:center" data-en="Send your request">Verstuur je aanvraag</button>
+  </form>
+  <p class="trust" style="margin-top:10px" data-en="We usually reply within a few hours — within 24 hours at the latest.">We reageren meestal binnen een paar uur — uiterlijk binnen 24 uur.</p></div>
+ </div>
+ <div class="mapwrap"><iframe loading="lazy" src="https://maps.google.com/maps?q=Oss%2C%20Nederland&z=13&output=embed"></iframe></div>
+</div></section>
+
+<footer><div class="wrap foot">
+ <div class="logo"><em>Gentleman</em> Hairstudio</div><div>Gentleman Hairstudio · Oss · Bel of app ons</div><div>© <span id="yr"></span> Gentleman Hairstudio</div>
+</div></footer>
+
+
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+</script>
+<script>
+var hdr=document.getElementById('hdr');addEventListener('scroll',function(){hdr.classList.toggle('scrolled',scrollY>40);});
+var bg=document.getElementById('burger'),nl=document.getElementById('navlinks');
+if(bg)bg.addEventListener('click',function(){nl.classList.toggle('open');});
+nl&&nl.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nl.classList.remove('open');});});
+document.getElementById('yr').textContent=new Date().getFullYear();
+(function(){var en=false;var btn=document.getElementById('lang');if(!btn)return;
+ var nodes=[].slice.call(document.querySelectorAll('[data-en]'));nodes.forEach(function(n){n.setAttribute('data-nl',n.textContent);});
+ var phs=[].slice.call(document.querySelectorAll('[data-en-ph]'));phs.forEach(function(n){n.setAttribute('data-nl-ph',n.getAttribute('placeholder')||'');});
+ btn.addEventListener('click',function(){en=!en;btn.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';
+  nodes.forEach(function(n){n.textContent=en?n.getAttribute('data-en'):n.getAttribute('data-nl');});
+  phs.forEach(function(n){n.setAttribute('placeholder',en?n.getAttribute('data-en-ph'):n.getAttribute('data-nl-ph'));});});
+})();
+(function(){var f=document.getElementById('cform');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();
+ var to="";var n=f.naam.value,em=f.email.value,t=f.tel.value,b=f.bericht.value;
+ var subj=encodeURIComponent("Afspraak/aanvraag via website — "+n);
+ var body=encodeURIComponent((b||"")+"\n\nNaam: "+n+"\nE-mail: "+em+"\nTelefoon: "+t);
+ if(to){location.href="mailto:"+to+"?subject="+subj+"&body="+body;}else{f.querySelector('button').textContent="Bedankt! We nemen contact op.";}
+});})();
+</script>
+</body>
+</html>

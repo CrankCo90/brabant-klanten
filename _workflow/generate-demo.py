@@ -788,6 +788,43 @@ def render_d11_kapper(s):
     for a,b in repl.items(): out=out.replace(a,b)
     return out
 
+_D12K=(ROOT/"_workflow"/"templates"/"design12-kapper.html")
+KAPPER_D12_TPL=_D12K.read_text(encoding="utf-8") if _D12K.exists() else ""
+KAPPER_REV5=[("Eindelijk een kapper die écht luistert. Ik ga elke keer met een topgevoel naar buiten.","Sanne"),
+ ("Eerlijk advies en vakwerk — mijn haar zat nog nooit zo goed.","Lisa"),
+ ("Heerlijke persoonlijke aandacht doordat het op afspraak is. Geen gehaast, geen wachtrij.","Marjolein"),
+ ("Al jaren mijn vaste kapper. Aangeraden aan mijn hele vriendengroep.","Demi"),
+ ("Mooie kleur, perfecte coupe en een fijne sfeer. Hier voel je je meteen op je gemak.","Fatima")]
+def render_d12_kapper(s):
+    if not KAPPER_D12_TPL: return render_d11_kapper(s)
+    merk=s["bedrijf"]; kort=s.get("kort") or merk; plaats=s["plaats"]
+    th=s.get("tel_href","") or ""; td=s.get("tel_display","") or ""
+    logo = merk.replace(kort,"<em>%s</em>"%kort,1) if kort and kort in merk else "<em>%s</em>"%merk
+    c=s.get("content") or {}; email=(s.get("email") or "").strip()
+    about_title="Een salon waar je \u00e9cht gehoord wordt"
+    about=c.get("verhaal") or ("Bij %s draait het niet om snel even knippen en wegwezen. Wij nemen de tijd, luisteren naar wat jij wilt en geven eerlijk, deskundig advies over wat bij jouw gezicht, stijl en haartype past."%merk)
+    revs=[((r.get("tekst") or "").strip(),(r.get("naam") or "Klant").strip()) for r in (c.get("reviews") or []) if (r.get("tekst") or "").strip()][:5]
+    if not revs: revs=KAPPER_REV5
+    rev_html="".join('<div class="rev"><div class="st">\u2605\u2605\u2605\u2605\u2605</div><p>\u201c%s\u201d</p><div class="who">\u2014 %s</div></div>'%(tk,nm) for tk,nm in revs)
+    digits=th.replace("tel:","").replace("+","").replace(" ","").replace("-","")
+    if th.startswith("tel:") and digits:
+        bel_btn='<a class="btn btn-out" href="%s" data-en="Call directly">Bel direct \u2014 %s</a>'%(th,td)
+    else:
+        bel_btn='<a class="btn btn-out" href="#contact" data-en="Call or message us">Bel of app ons</a>'
+    wa_btn=""; wa_float=""
+    if digits.startswith("316") and len(digits)>=11:
+        wl="https://wa.me/%s"%digits
+        wa_btn='<a class="btn btn-out" href="%s" target="_blank" rel="noopener" data-en="WhatsApp">WhatsApp</a>'%wl
+        wa_float='<a class="wa-float" href="%s" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> App ons</a>'%wl
+    import urllib.parse as _u
+    repl={"\u27e6TITLE\u27e7":"%s \u2014 Kapsalon %s"%(merk,plaats),"\u27e6NAME\u27e7":merk,"\u27e6LOGO\u27e7":logo,"\u27e6PLAATS\u27e7":plaats,
+      "\u27e6IMG_HERO\u27e7":KAPPER_IMG[1],"\u27e6IMG_ABOUT\u27e7":KAPPER_IMG[2],"\u27e6ABOUT_TITLE\u27e7":about_title,"\u27e6ABOUT\u27e7":about,
+      "\u27e6REVIEWS\u27e7":rev_html,"\u27e6PHONE\u27e7":(td or "Bel of app ons"),"\u27e6EMAILTXT\u27e7":(email or "Op aanvraag"),"\u27e6EMAILRAW\u27e7":email,
+      "\u27e6MAPS_Q\u27e7":_u.quote(plaats+", Nederland"),"\u27e6BEL_BTN\u27e7":bel_btn,"\u27e6WA_BTN\u27e7":wa_btn,"\u27e6WA_FLOAT\u27e7":wa_float}
+    out=KAPPER_D12_TPL
+    for a,b in repl.items(): out=out.replace(a,b)
+    return out
+
 n=0
 for s in salons:
     dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
@@ -811,6 +848,18 @@ for s in salons:
         (dest/"previews"/"design-11.html").write_text(render_d11_nagel(s),encoding="utf-8")
     elif _nb=="kapper":
         (dest/"previews"/"design-11.html").write_text(render_d11_kapper(s),encoding="utf-8")
+        (dest/"previews"/"design-12.html").write_text(render_d12_kapper(s),encoding="utf-8")
+        _idx=dest/"index.html"
+        try:
+            _h=_idx.read_text(encoding="utf-8"); _an='<div class="cat"><h2>Tijdloos'
+            if "previews/design-12.html" not in _h and _an in _h:
+                _card=('<div class="card" data-src="previews/design-12.html">\n'
+                  '    <div class="head"><span class="num">\u2605</span><h3>Premium 2 \u2014 Warm &amp; Persoonlijk</h3>\n'
+                  '      <div class="tags"><span class="tag">nieuw</span><span class="tag">persoonlijk</span><span class="tag">op afspraak</span></div></div>\n'
+                  '    <p class="desc">Lichte, warme one-pager met de nadruk op persoonlijk advies en exclusief-op-afspraak: behandelingen, redenen om te kiezen, reviews en een direct boekings- en contactblok.</p>\n'
+                  '  </div>\n\n')
+                _h=_h.replace(_an,_card+_an,1); _idx.write_text(_h,encoding="utf-8")
+        except Exception: pass
     else:
         (dest/"previews"/"design-11.html").write_text(render_d11_hond(s),encoding="utf-8")
     n+=1
