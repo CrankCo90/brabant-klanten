@@ -6735,5 +6735,125 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Soulmate",
+  "kort": "Soulmate",
+  "slug": "hondentrimsalon-soulmate-emmen",
+  "plaats": "Emmen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Soulmate in Emmen verzorgt de complete vacht van honden én katten met aandacht en geduld. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon de Waterpoort",
+  "kort": "de Waterpoort",
+  "slug": "trimsalon-de-waterpoort-sneek",
+  "plaats": "Sneek",
+  "tel_display": "06-21866513",
+  "tel_href": "tel:+31621866513",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon de Waterpoort in het centrum van Sneek verzorgt honden van alle rassen, vakkundig en met aandacht. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Pochi",
+  "kort": "Pochi",
+  "slug": "trimsalon-pochi-amersfoort",
+  "plaats": "Amersfoort",
+  "tel_display": "06-43445604",
+  "tel_href": "tel:+31643445604",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Pochi in Amersfoort (eigenaar Yvonne) verzorgt honden van alle rassen met persoonlijke aandacht. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimkwartier",
+  "kort": "Trimkwartier",
+  "slug": "trimkwartier-amersfoort",
+  "plaats": "Amersfoort",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimkwartier in het Soesterkwartier in Amersfoort verzorgt honden van alle rassen, vakkundig en met aandacht. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Gouden Staart",
+  "kort": "De Gouden Staart",
+  "slug": "trimsalon-de-gouden-staart-middelburg",
+  "plaats": "Middelburg",
+  "tel_display": "06-41672759",
+  "tel_href": "tel:+31641672759",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon De Gouden Staart in Middelburg verzorgt honden van alle rassen, vakkundig en met persoonlijke aandacht. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

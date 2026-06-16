@@ -6490,5 +6490,105 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Soulmate",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Emmen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-soulmate-emmen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon de Waterpoort",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Sneek",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-waterpoort-sneek.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen social/06).",
+  "fouten": [
+   "Geen eigen website (alleen social/06)"
+  ],
+  "contact": "06-21866513",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21866513",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Pochi",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Amersfoort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-pochi-amersfoort.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen social/06).",
+  "fouten": [
+   "Geen eigen website (alleen social/06)"
+  ],
+  "contact": "06-43445604",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-43445604",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimkwartier",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Amersfoort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimkwartier-amersfoort.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Gouden Staart",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Middelburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-gouden-staart-middelburg.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-41672759",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41672759",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
