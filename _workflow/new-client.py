@@ -7,6 +7,26 @@ ROOT=Path("/root/klanten")
 def slug(n): 
     s=re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-'); return (s[:40] or "klant")
 def run(c): return subprocess.run(c,cwd=str(ROOT),capture_output=True,text=True)
+def _outreach(nk,plaats,bedrijf,taal):
+    SEARCH={"hond":"hondentrimsalon","nagels":"nagelstudio","pedicure":"pedicure","kapper":"kapper"}
+    WORDNL={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons"}
+    WORDEN={"hond":"dog grooming salons","nagels":"nail studios","pedicure":"pedicures","kapper":"hair salons"}
+    pl=plaats or ("de buurt" if taal!="en" else "your area"); sw=SEARCH.get(nk,"")
+    if taal=="en":
+        w=WORDEN.get(nk,"local businesses")
+        comp="I came across %s while looking for %s in %s \u2014 and noticed a modern website of your own is still missing or a bit dated."%(bedrijf,w,pl)
+        tip="make sure you're easy to find on Google with a (free) Google Business profile, your opening hours and a clickable phone number."
+        verb=["Book online, 24/7 \u2014 fewer calls and missed bookings.","Easier to find on Google for '%s %s'."%(sw,pl),"Your treatments and prices clearly listed, with photos.","Clickable WhatsApp & call button, Dutch/English with one tap.","Fast, modern look on phone, tablet and desktop."]
+    else:
+        w=WORDNL.get(nk,"lokale ondernemers")
+        comp="Ik kwam %s tegen toen ik in %s naar %s zocht \u2014 en het viel me op dat een eigen, moderne website nog ontbreekt of wat verouderd is."%(bedrijf,pl,w)
+        TIP={"kapper":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio en in je Google-profiel \u2014 zo boeken klanten met \u00e9\u00e9n tik, ook 's avonds.",
+             "nagels":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio \u2014 zo boeken klanten met \u00e9\u00e9n tik, ook 's avonds.",
+             "pedicure":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel met je openingstijden en een klikbaar telefoonnummer.",
+             "hond":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel, met je openingstijden en een klikbaar telefoonnummer."}
+        tip=TIP.get(nk,"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel met je openingstijden en een klikbaar telefoonnummer.")
+        verb=["Online een afspraak maken, 24/7 \u2014 minder telefoon en gemiste boekingen.","Beter vindbaar in Google op '%s %s'."%(sw or "jouw vak",pl),"Je behandelingen en prijzen netjes op een rij, met foto's.","Klikbare WhatsApp- en belknop, en Nederlands/Engels met \u00e9\u00e9n knop.","Snelle, moderne uitstraling op telefoon, tablet en computer."]
+    return comp,tip,verb
 def main():
     raw=sys.argv[1] if len(sys.argv)>1 else sys.stdin.read()
     d=json.loads(raw)
@@ -45,10 +65,11 @@ def main():
                   "bron":(link if link.lower().startswith("http") else None),"social":None,"telefoon":(telefoon or None),"land":land,"taal":taal})
         cf.write_text(json.dumps(C,ensure_ascii=False,indent=1),encoding="utf-8")
     pf=ROOT/"_workflow/outreach/prospects.json"; P=json.loads(pf.read_text(encoding="utf-8"))
+    _comp,_tip,_verb=_outreach(nk2,regio,bedrijf,taal)
     if not any(p["bedrijf"]==bedrijf for p in P):
         P.append({"bedrijf":bedrijf,"aanhef":("Hi," if taal=="en" else "Hoi,"),"plaats":regio,"email":"","status":"concept","demo_url":url,"land":land,"taal":taal,
                   "deadline":"","onderwerp":(("I already built a website for %s (take a look)"%bedrijf) if taal=="en" else ("Ik heb alvast een website voor %s gemaakt (kijk even mee)"%bedrijf)),
-                  "compliment":"","gratis_tip":notitie,"verbeteringen":[]})
+                  "compliment":_comp,"gratis_tip":_tip,"verbeteringen":_verb})
         pf.write_text(json.dumps(P,ensure_ascii=False,indent=1),encoding="utf-8")
     run(["git","add","-A"]); run(["git","-c","user.email=vps@brabantdigital.nl","-c","user.name=BD-VPS","commit","-q","-m","Nieuwe klant via dashboard: "+bedrijf])
     tokf=Path("/root/outreach-data/.git-token")

@@ -132,3 +132,24 @@ Statische HTML/CSS/JS, responsive, snel, NL met NL/EN-knop, SEO ingebakken, geen
 
 ## Afgewezen klanten NOOIT deployen
 Map-slug in `_workflow/niet-deployen.txt`; `vps-autodeploy.sh` slaat die over én haalt een live exemplaar offline.
+
+## Kappers-niche + premium-designs (VASTE FEIT — 16-06-2026)
+- **Kapper is een volwaardige niche** in `generate-demo.py` (`niche:"kapper"`): eigen `KAPPER_MAP` (kapsalon-content, geen honden-/nagel-resten) + eigen Higgsfield-beelden (`_workflow/niche-images.json` → key `kapper`). Clients-label = **"Kappers"**.
+- **Twee eigen premium-ontwerpen, beide bovenaan op de cover (vóór Champagne & Charcoal):**
+  - **design-11** = donker/luxe à la haaratelier Mari (`_workflow/templates/design11-kapper.html`): **video-hero** (Higgsfield-clip `…b972a3a9….mp4`, met still als terugval), merkenregel, over-blok, voorbeeld-prijzen (alleen als prospect zelf geen prijzen heeft; label "* richtprijs"), 5★ voorbeeldreviews, openingstijden, Maps op plaats.
+  - **design-12** = licht/warm à la kapsalon-asya.landingsite (`_workflow/templates/design12-kapper.html`): hero "op afspraak", 4 behandelingen, 4 redenen, 5 reviews, contactblok + openingstijden-week (voorbeeld).
+  - Beide met **onze vaste eisen**: prominente **cal.eu**-boeking (`brabantdigital/demo-planner`), **contactformulier** (mailto bij bekend e-mailadres), **WhatsApp-knop + zwevende "App ons"-pil** (alleen als een **mobiel** nummer bekend is), **NL/EN-knop**, Maps op plaatsniveau, mobielvriendelijk.
+- design-12 wordt als 12e kaart in de coverpagina geïnjecteerd door de generator (alleen voor niche kapper).
+- **Per niche een eigen premium**: voor nieuwe niches (barber/lash/beauty…) maken we op dezelfde manier eigen demo-content + (waar nodig) eigen premium-designs. Beelden via **Higgsfield** (generate_image/generate_video), vastgelegd in `niche-images.json`.
+
+## new-client.py — niche-herkenning + outreach-velden (VASTE AFSPRAAK — 16-06-2026)
+- De "Nieuwe klant"-upload herkent de niche uit de ingetypte tekst en koppelt die aan zowel de **generator-niche** als het **canonieke categorie-label**:
+  pedicure/voet→`pedicure`/"Pedicures" · nagel/nail→`nagels`/"Nagelstudio's" · **kapper/kapsalon/barber/haar→`kapper`/"Kappers"** · hond/trim/dog→`hond`/"Hondentrimsalons". Anders → hond-fallback (let op).
+- **Outreach-velden worden nette, niche-gerichte teksten** (compliment opent op niche+plaats en loopt door op "Daarom schrijf ik je."; `gratis_tip` = echte niche-tip; `verbeteringen` = voordelen). **NOOIT** de notitie of website-status in `gratis_tip`/`compliment` zetten (anders krijg je "Hoi, Daarom schrijf ik je." + "verouderde website" in de tip).
+
+## Dashboard & deploy — fixes (VASTE FEIT — 16-06-2026)
+- **Mobiel-menu**: sidebar sluit nu (backdrop + ✕ + sluit bij navigatie).
+- **Autopilot aan/uit + dagcap**: server-persistent (laadt uit `/api/status`, slaat alle wijzigingen op); overal identiek. 3e schakelaar gewired; "Opslaan" wist `on` niet meer.
+- **Replies in "Activiteit"**: elke reply (uit `replies.json`) verschijnt bij de klant in de Activiteit-tijdlijn (onderwerp + datum). `replyOf()` object-fix.
+- **scan-replies.py** corrumpeert `niet-deployen.txt` niet meer (leest regel-voor-regel, schrijft met header terug).
+- **vps-autodeploy.sh** is robuust (geen abort bij 1 klant-fout, `flock -w 50`) en synct nu ook de **hoofdsite** (`brabantdigital/site` → `/var/www/brabantdigital`). Caddy serveert demo's via één **wildcard-cert** (zie cert-sectie); autodeploy vraagt géén losse certs meer aan.
