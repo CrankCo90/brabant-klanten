@@ -11009,5 +11009,149 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Essie's",
+  "kort": "Hondentrimsalon in Terneuzen",
+  "slug": "hondentrimsalon-essies-terneuzen",
+  "plaats": "Terneuzen",
+  "tel_display": "06-42652632",
+  "tel_href": "tel:+31642652632",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Esther",
+   "verhaal": "Bij Essie's Hondentrimsalon in Terneuzen wordt elke hond met rust en aandacht behandeld, in een kleinschalige salon zonder tijdsdruk. Van een complete trimbeurt tot wassen, knippen en nagels: jouw hond gaat er weer verzorgd en blij de deur uit.",
+   "specialisaties": [
+    "Complete trimbeurt",
+    "Wassen & föhnen",
+    "Knippen & plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Knipsels",
+  "kort": "Hondentrimsalon in Arnemuiden",
+  "slug": "trimsalon-knipsels-arnemuiden",
+  "plaats": "Arnemuiden",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Knipsels in Arnemuiden is een kleinschalige salon waar nooit meer dan twee honden tegelijk worden behandeld, zodat elke hond alle aandacht krijgt. Van chihuahua tot wolfshond: iedere vacht krijgt de behandeling die erbij past.",
+   "specialisaties": [
+    "Knippen op maat",
+    "Wassen & föhnen",
+    "Plukken/trimmen",
+    "Vacht- & nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marjet",
+  "kort": "Hondentrimsalon in Zeewolde",
+  "slug": "hondentrimsalon-marjet-zeewolde",
+  "plaats": "Zeewolde",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Hondentrimsalon Marjet in Zeewolde staat een rustige, persoonlijke behandeling van jouw hond voorop. Met aandacht voor de vacht en het karakter van elke hond gaat je viervoeter er weer netjes verzorgd uit.",
+   "specialisaties": [
+    "Complete trimbeurt",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels & oren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Twenterand",
+  "kort": "Hondentrimsalon in Vriezenveen",
+  "slug": "trimsalon-twenterand-vriezenveen",
+  "plaats": "Vriezenveen",
+  "tel_display": "06-51438141",
+  "tel_href": "tel:+31651438141",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Twenterand in Vriezenveen biedt complete vachtverzorging voor je hond: wassen, föhnen, knippen, plukken en verzorging van oren en nagels. Met aandacht en zonder haast krijgt elke hond de behandeling die past bij zijn vacht.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen/trimmen",
+    "Plukken",
+    "Oren & nagels"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Carolien",
+  "kort": "Hondentrimsalon in Steenwijk",
+  "slug": "hondentrimsalon-carolien-steenwijk",
+  "plaats": "Steenwijk",
+  "tel_display": "06-23317635",
+  "tel_href": "tel:+31623317635",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Carolien",
+   "verhaal": "Hondentrimsalon Carolien in Steenwijk verzorgt honden van alle rassen met vakkennis en geduld. Van wassen en knippen tot het bijwerken van de vacht en nagels: jouw hond wordt op zijn gemak en compleet verzorgd.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen & föhnen",
+    "Plukken/trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon A la Professionnelle",
+  "kort": "Hondentrimsalon in Anna Paulowna",
+  "slug": "trimsalon-a-la-professionnelle-anna-paulowna",
+  "plaats": "Anna Paulowna",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon A la Professionnelle in Anna Paulowna verzorgt honden van alle rassen met vakmanschap en een persoonlijke aanpak. Van wassen en föhnen tot knippen, plukken en nagels: elke hond krijgt een behandeling op maat.",
+   "specialisaties": [
+    "Knippen op maat",
+    "Wassen & föhnen",
+    "Trimmen/plukken",
+    "Oren & nagels"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
