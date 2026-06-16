@@ -6591,5 +6591,101 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden Trimsalon Joshua",
+  "kort": "Joshua",
+  "slug": "honden-trimsalon-joshua-nijmegen",
+  "plaats": "Nijmegen",
+  "tel_display": "06-52609949",
+  "tel_href": "tel:+31652609949",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Honden Trimsalon Joshua in Nijmegen verzorgt honden van alle rassen met aandacht en vakmanschap. Boeken kan via bel of WhatsApp; op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Apeldoorn",
+  "kort": "Apeldoorn",
+  "slug": "hondentrimsalon-apeldoorn",
+  "plaats": "Apeldoorn",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Apeldoorn is gespecialiseerd in knippen, scheren, plukken, ontklitten en wassen — vakkundige vachtverzorging voor elke hond.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Hondentrimsalon",
+  "kort": "De Hondentrimsalon",
+  "slug": "de-hondentrimsalon-apeldoorn",
+  "plaats": "Apeldoorn",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "De Hondentrimsalon in Apeldoorn is een vriendelijke, gediplomeerde trimsalon waar uw hond veilig en met zorg wordt verzorgd.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Doggydogtrim",
+  "kort": "Doggydogtrim",
+  "slug": "doggydogtrim-tiel",
+  "plaats": "Tiel",
+  "tel_display": "06-10366713",
+  "tel_href": "tel:+31610366713",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondenschool & trimsalon Doggydogtrim in Tiel verzorgt honden van alle rassen — vakkundig trimmen met aandacht, op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

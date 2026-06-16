@@ -6370,5 +6370,85 @@
   "telefoon": "06-42302905",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden Trimsalon Joshua",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Nijmegen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://honden-trimsalon-joshua-nijmegen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen social/06).",
+  "fouten": [
+   "Geen eigen website (alleen social/06)"
+  ],
+  "contact": "06-52609949",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-52609949",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Apeldoorn",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Apeldoorn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-apeldoorn.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Apeldoorn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://de-hondentrimsalon-apeldoorn.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Doggydogtrim",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Tiel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://doggydogtrim-tiel.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen social/06).",
+  "fouten": [
+   "Geen eigen website (alleen social/06)"
+  ],
+  "contact": "06-10366713",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-10366713",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
