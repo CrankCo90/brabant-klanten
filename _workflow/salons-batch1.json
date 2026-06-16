@@ -6399,5 +6399,197 @@
   "tel_href": "#contact",
   "taal": "nl",
   "niche": "kapper"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Jody",
+  "kort": "Jody",
+  "slug": "hondentrimsalon-jody-valkenburg",
+  "plaats": "Valkenburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Jody in Valkenburg verzorgt honden van alle rassen met aandacht en geduld. Rustig, vakkundig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Dog Spa",
+  "kort": "Dog Spa",
+  "slug": "trimsalon-dog-spa-valkenburg",
+  "plaats": "Valkenburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Dog Spa in Valkenburg biedt professionele vachtverzorging voor uw hond — wassen, knippen en verzorgen in een rustige sfeer.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stacey's Trimsalon",
+  "kort": "Stacey's",
+  "slug": "staceys-trimsalon-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "06-40735499",
+  "tel_href": "tel:+31640735499",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stacey's Trimsalon in Brunssum verzorgt honden van alle rassen, vakkundig en met persoonlijke aandacht. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Top Grooming",
+  "kort": "Top Grooming",
+  "slug": "top-grooming-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Top Grooming in Brunssum verzorgt honden én katten met vakmanschap en zorg. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Hond & Haar",
+  "kort": "Hond & Haar",
+  "slug": "trimsalon-hond-en-haar-panningen",
+  "plaats": "Panningen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Hond & Haar in Panningen verzorgt de complete vacht van uw hond met aandacht en geduld. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Happy Dog",
+  "kort": "Happy Dog",
+  "slug": "trimsalon-happy-dog-susteren",
+  "plaats": "Susteren",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Happy Dog in Susteren verzorgt honden van alle rassen, vakkundig en liefdevol. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nellie Hondentrimsalon",
+  "kort": "Nellie",
+  "slug": "nellie-hondentrimsalon-reuver",
+  "plaats": "Reuver",
+  "tel_display": "06-47888990",
+  "tel_href": "tel:+31647888990",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Nellie Hondentrimsalon in Reuver verzorgt honden van alle rassen met jarenlange ervaring, aandacht en geduld. Op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Tamara's Trimsalon",
+  "kort": "Tamara's",
+  "slug": "tamaras-trimsalon-tegelen",
+  "plaats": "Tegelen",
+  "tel_display": "06-42302905",
+  "tel_href": "tel:+31642302905",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Tamara's Trimsalon in Tegelen verzorgt de vacht van uw hond vakkundig en met zorg. Rustig, persoonlijk en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

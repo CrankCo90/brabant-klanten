@@ -6210,5 +6210,165 @@
   "telefoon": null,
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Jody",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Valkenburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-jody-valkenburg.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Dog Spa",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Valkenburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-dog-spa-valkenburg.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stacey's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://staceys-trimsalon-brunssum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-40735499",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-40735499",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Top Grooming",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://top-grooming-brunssum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Hond & Haar",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Panningen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-hond-en-haar-panningen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Happy Dog",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Susteren",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-happy-dog-susteren.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nellie Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Reuver",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://nellie-hondentrimsalon-reuver.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-47888990",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-47888990",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Tamara's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Tegelen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://tamaras-trimsalon-tegelen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-42302905",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-42302905",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
