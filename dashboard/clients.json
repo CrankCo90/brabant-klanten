@@ -5732,5 +5732,85 @@
   "telefoon": "06-43016379",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Nailcare Nathalie",
+  "niche": "Nagelstudio's",
+  "regio": "Limburg",
+  "plaats": "Kerkrade",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://nailcare-nathalie.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Instagram).",
+  "fouten": [
+   "Geen eigen website (alleen Instagram)"
+  ],
+  "contact": "Alleen IG/FB",
+  "bron": null,
+  "social": "IG/FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Claws by J",
+  "niche": "Nagelstudio's",
+  "regio": "Limburg",
+  "plaats": "Geleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://claws-by-j-geleen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Instagram).",
+  "fouten": [
+   "Geen eigen website (alleen Instagram)"
+  ],
+  "contact": "Alleen IG",
+  "bron": null,
+  "social": "IG",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Glamboetiek",
+  "niche": "Nagelstudio's",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://glamboetiek-brunssum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Instagram).",
+  "fouten": [
+   "Geen eigen website (alleen Instagram)"
+  ],
+  "contact": "Alleen IG",
+  "bron": null,
+  "social": "IG",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Fairytale Nails Brunssum",
+  "niche": "Nagelstudio's",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://fairytale-nails-brunssum.demo.brabantdigital.nl",
+  "waarom": "Zwakke website (gratis Jimdo) + Facebook.",
+  "fouten": [
+   "Zwakke website (gratis Jimdo) + Facebook"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -5807,5 +5807,101 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Nailcare Nathalie",
+  "kort": "Nailcare Nathalie",
+  "slug": "nailcare-nathalie",
+  "plaats": "Kerkrade",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "Nathalie",
+   "verhaal": "Nailcare Nathalie in Kerkrade is nagelstyliste, gespecialiseerd in BIAB en gellak. Persoonlijke aandacht voor sterke, verzorgde nagels — op afspraak.",
+   "specialisaties": [
+    "BIAB",
+    "Gellak",
+    "Dualforms",
+    "Manicure"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Claws by J",
+  "kort": "Claws by J",
+  "slug": "claws-by-j-geleen",
+  "plaats": "Geleen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Nagelsalon Claws by J in het centrum van Geleen verzorgt gelnagels, BIAB en Russian manicure. Strak, verzorgd en met oog voor detail.",
+   "specialisaties": [
+    "Gelnagels",
+    "BIAB",
+    "Russian manicure",
+    "Nailart"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Glamboetiek",
+  "kort": "Glamboetiek",
+  "slug": "glamboetiek-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "Yassmine",
+   "verhaal": "Glamboetiek in Brunssum is gespecialiseerd in BIAB, acryl en gellak. Verzorgde nagels met een persoonlijke touch — op afspraak.",
+   "specialisaties": [
+    "BIAB",
+    "Acryl",
+    "Gellak",
+    "Nailart"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Fairytale Nails Brunssum",
+  "kort": "Fairytale Nails",
+  "slug": "fairytale-nails-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "nagels",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Fairytale Nails in Brunssum verzorgt gel- en acrylnagels, nagelversteviging en gellak — professioneel en betaalbaar, voor een compleet verzorgde look.",
+   "specialisaties": [
+    "Gelnagels",
+    "Acryl",
+    "Gellak",
+    "Nailart"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
