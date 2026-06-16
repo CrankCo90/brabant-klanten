@@ -13,14 +13,18 @@ def main():
     bedrijf=(d.get("bedrijf") or "").strip()
     if not bedrijf: print("Geen bedrijfsnaam."); return 1
     niche=(d.get("niche") or "Onbekend").strip(); regio=(d.get("regio") or "").strip()
+    _nlc=niche.lower()
+    if "pedicure" in _nlc or "voet" in _nlc: nk2,nlabel="pedicure","Pedicures"
+    elif "nagel" in _nlc or "nail" in _nlc: nk2,nlabel="nagels","Nagelstudio's"
+    elif "kapper" in _nlc or "kapsalon" in _nlc or "barber" in _nlc or "haar" in _nlc: nk2,nlabel="kapper","Kappers"
+    elif "hond" in _nlc or "trim" in _nlc or "dog" in _nlc: nk2,nlabel="hond","Hondentrimsalons"
+    else: nk2,nlabel=None,niche
     link=(d.get("link") or "").strip(); notitie=(d.get("notitie") or "").strip(); telefoon=(d.get("telefoon") or "").strip()
     land=(d.get("land") or "NL").strip().upper(); taal=("nl" if land=="NL" else "en")
     sg=slug(bedrijf)
     sf=ROOT/"_workflow/salons-batch1.json"; S=json.loads(sf.read_text(encoding="utf-8"))
     if not any(x["slug"]==sg for x in S):
         kort=re.sub(r'^(hondentrimsalon|trimsalon|dogsalon|pedicuresalon|pedicurepraktijk|pedicure|nagelstudio|nagelsalon|salon)\s+','',bedrijf,flags=re.I).strip() or bedrijf
-        nlc=niche.lower()
-        nk2 = "pedicure" if "pedicure" in nlc else ("nagels" if ("nagel" in nlc or "nail" in nlc) else None)
         _tel=re.sub(r'[^0-9]','',telefoon)
         if _tel.startswith("0"): _tel="+31"+_tel[1:]
         elif _tel and not _tel.startswith("31"): _tel="+31"+_tel
@@ -35,7 +39,7 @@ def main():
     url="https://%s.demo.brabantdigital.nl"%sg
     cf=ROOT/"dashboard/clients.json"; C=json.loads(cf.read_text(encoding="utf-8"))
     if not any(c["bedrijf"]==bedrijf for c in C):
-        C.append({"bedrijf":bedrijf,"niche":niche,"regio":regio,"plaats":regio,"status":"demo","score":0,
+        C.append({"bedrijf":bedrijf,"niche":nlabel,"regio":regio,"plaats":regio,"status":"demo","score":0,
                   "werkdag":datetime.date.today().isoformat(),"demo_url":url,
                   "waarom":"Via dashboard aangemeld. "+notitie,"fouten":[],"contact":link,
                   "bron":(link if link.lower().startswith("http") else None),"social":None,"telefoon":(telefoon or None),"land":land,"taal":taal})

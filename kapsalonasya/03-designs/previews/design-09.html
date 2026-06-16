@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>kapsalonasya · Modern Mint — Trim-quiz</title>
+<title>kapsalonasya · Modern Mint — Haar-quiz</title>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#e9f6f2;--soft:#fff;--ink:#16332c;--mut:#5d8077;--mint:#10a18a;--coral:#ff7a59;--head:'Sora',sans-serif;--body:'DM Sans',sans-serif}
@@ -43,40 +43,40 @@ footer{text-align:center;color:var(--mut);font-size:.9rem;padding-bottom:14px}fo
 </style></head>
 <body>
 <nav><div class="wrap">
-  <span class="logo"><em>kapsalonasya</em></span>
+  <span class="logo">Kapsalon <em>kapsalonasya</em></span>
   <a href="#book" data-en="Contact">Contact</a>
   <button class="lang" id="lang">EN</button>
   <a href="#book" class="cta" data-en="Book">Afspraak maken</a>
 </div></nav>
 
 <header class="hero"><div class="wrap">
-  <div class="kick" data-en="Free trim advice">Gratis trimadvies</div>
-  <h1 data-en="Which treatment suits your dog?">Welke behandeling past bij uw hond?</h1>
+  <div class="kick" data-en="Free hair advice">Gratis haaradvies</div>
+  <h1 data-en="Which treatment suits you?">Welke behandeling past bij u?</h1>
   <p data-en="Answer 3 quick questions and get a personal recommendation — plus a direct booking link.">Beantwoord 3 korte vragen en krijg een persoonlijk advies — met een directe boekingslink.</p>
 </div></header>
 
 <div class="quiz" id="quiz">
   <div class="bar"><i id="bar"></i></div>
   <div class="step on" data-step="0">
-    <h2 data-en="What's your dog's size?">Wat is de grootte van uw hond?</h2>
+    <h2 data-en="How long is your hair?">Hoe lang is uw haar?</h2>
     <div class="choices">
-      <button data-next><span class="e">🐕‍🦺</span><span data-en="Small">Klein</span></button>
-      <button data-next><span class="e">🐕</span><span data-en="Medium">Middel</span></button>
-      <button data-next><span class="e">🦮</span><span data-en="Large">Groot</span></button>
-      <button data-next><span class="e">🐩</span><span data-en="No idea">Geen idee</span></button>
+      <button data-next><span class="e">✂️</span><span data-en="Short">Kort</span></button>
+      <button data-next><span class="e">✂️</span><span data-en="Medium">Middel</span></button>
+      <button data-next><span class="e">✂️</span><span data-en="Long">Lang</span></button>
+      <button data-next><span class="e">✨</span><span data-en="No idea">Geen idee</span></button>
     </div>
   </div>
   <div class="step" data-step="1">
-    <h2 data-en="What's the coat like?">Wat voor vacht heeft uw hond?</h2>
+    <h2 data-en="Which treatment do you want?">Welke behandeling wilt u?</h2>
     <div class="choices">
-      <button data-next data-rec="Wassen & föhnen|Wash & blow-dry"><span class="e">✨</span><span data-en="Short & smooth">Kort &amp; glad</span></button>
-      <button data-next data-rec="Volledige trimbeurt|Full grooming"><span class="e">🌀</span><span data-en="Long / doodle">Lang / doodle</span></button>
-      <button data-next data-rec="Plukbeurt (ruwharig)|Hand-stripping"><span class="e">🧹</span><span data-en="Wire-haired">Ruwharig</span></button>
-      <button data-next data-rec="Ontwol-behandeling|De-shed treatment"><span class="e">🦊</span><span data-en="Double coat">Double coat</span></button>
+      <button data-next data-rec="Wassen & föhnen|Wash & blow-dry"><span class="e">✨</span><span data-en="Wash & cut">Wassen &amp; knippen</span></button>
+      <button data-next data-rec="Knippen & kleuren|Cut & color"><span class="e">🌀</span><span data-en="Cut & blow-dry">Knippen &amp; föhnen</span></button>
+      <button data-next data-rec="Highlights|Highlights"><span class="e">💈</span><span data-en="Color">Kleuren</span></button>
+      <button data-next data-rec="Balayage|Balayage"><span class="e">💈</span><span data-en="Highlights">Highlights</span></button>
     </div>
   </div>
   <div class="step" data-step="2">
-    <h2 data-en="How often is your dog groomed?">Hoe vaak wordt uw hond getrimd?</h2>
+    <h2 data-en="How often do you visit a salon?">Hoe vaak gaat u naar de kapper?</h2>
     <div class="choices">
       <button data-next><span class="e">🆕</span><span data-en="First time">Eerste keer</span></button>
       <button data-next><span class="e">📅</span><span data-en="Now and then">Af en toe</span></button>
@@ -85,23 +85,23 @@ footer{text-align:center;color:var(--mut);font-size:.9rem;padding-bottom:14px}fo
     </div>
   </div>
   <div class="step result" data-step="3">
-    <span class="em">🐾</span>
+    <span class="em">✂️</span>
     <h2 data-en="Our advice:">Ons advies:</h2>
-    <div class="rec" id="rec">Volledige trimbeurt</div>
+    <div class="rec" id="rec">Knippen &amp; kleuren</div>
     <p data-en="Based on your answers this treatment fits best. kapsalonasya confirms everything in the salon — with love and patience.">Op basis van uw antwoorden past deze behandeling het beste. kapsalonasya bevestigt alles in de salon — met liefde en geduld.</p>
     <a href="#book" data-en="Book this appointment">Deze afspraak boeken</a>
     <button class="restart" id="restart" data-en="Start over">Opnieuw beginnen</button>
   </div>
 </div>
 
-<footer id="book"><div class="wrap"><b>kapsalonasya</b> · Den Haag · Bel of app ons</div></footer>
+<footer id="book"><div class="wrap"><b>Kapsalon kapsalonasya</b> · Den Haag · Bel of app ons</div></footer>
 
 <script>
 const lb=document.getElementById('lang');let en=false;
 const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
 function tr(){document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));}
 lb.onclick=()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';tr();applyRec();};
-const steps=[...document.querySelectorAll('.step')],bar=document.getElementById('bar'),rec=document.getElementById('rec');let cur=0,recVal=['Volledige trimbeurt','Full grooming'];
+const steps=[...document.querySelectorAll('.step')],bar=document.getElementById('bar'),rec=document.getElementById('rec');let cur=0,recVal=['Knippen & kleuren','Cut & color'];
 function show(i){steps.forEach(s=>s.classList.remove('on'));steps[i].classList.add('on');bar.style.width=((i)/(steps.length-1)*100)+'%';cur=i;}
 function applyRec(){rec.textContent=en?recVal[1]:recVal[0];}
 document.querySelectorAll('[data-next]').forEach(b=>b.onclick=()=>{if(b.dataset.rec){recVal=b.dataset.rec.split('|');applyRec();}show(cur+1);});
