@@ -8550,5 +8550,105 @@
   "telefoon": "06-21454610",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Pronte hond",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Heerenveen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-pronte-hond-heerenveen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Mosy",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Stadskanaal",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-mosy-stadskanaal.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Ellen",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Vlagtwedde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-ellen-vlagtwedde.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Nova",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Oude Pekela",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-nova-oude-pekela.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Max",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Winschoten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-max-winschoten.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (niet mobielvriendelijk).",
+  "fouten": [
+   "Verouderde website (niet mobielvriendelijk)"
+  ],
+  "contact": "06-10893487",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-10893487",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

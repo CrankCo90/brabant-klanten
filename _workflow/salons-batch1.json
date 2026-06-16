@@ -9209,5 +9209,125 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Pronte hond",
+  "kort": "Trimsalon De Pronte hond",
+  "slug": "trimsalon-de-pronte-hond-heerenveen",
+  "plaats": "Heerenveen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon De Pronte hond in Heerenveen is je hond in vertrouwde handen voor een complete vachtbeurt. Met aandacht en geduld wordt elke hond, groot of klein, netjes en ontspannen getrimd.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Mosy",
+  "kort": "Hondentrimsalon Mosy",
+  "slug": "hondentrimsalon-mosy-stadskanaal",
+  "plaats": "Stadskanaal",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Mosy in Stadskanaal verzorgt de vacht van je hond met persoonlijke aandacht in een rustige omgeving. Elke hond krijgt de tijd en zorg die hij nodig heeft.",
+   "specialisaties": [
+    "Wassen en drogen",
+    "Knippen en scheren",
+    "Vacht plukken",
+    "Nagels en oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Ellen",
+  "kort": "Trimsalon Ellen",
+  "slug": "trimsalon-ellen-vlagtwedde",
+  "plaats": "Vlagtwedde",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Ellen in Vlagtwedde draait alles om een verzorgde, gezonde vacht en een hond die zich op zijn gemak voelt. Van wasbeurt tot complete trimbeurt, alles met aandacht en geduld.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Nova",
+  "kort": "Trimsalon Nova",
+  "slug": "trimsalon-nova-oude-pekela",
+  "plaats": "Oude Pekela",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Nova in Oude Pekela biedt liefdevolle vachtverzorging voor honden van elk formaat. In een rustige sfeer wordt je hond vakkundig en ontspannen getrimd.",
+   "specialisaties": [
+    "Wassen en drogen",
+    "Knippen en scheren",
+    "Vacht plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Max",
+  "kort": "Hondentrimsalon Max",
+  "slug": "hondentrimsalon-max-winschoten",
+  "plaats": "Winschoten",
+  "tel_display": "06-10893487",
+  "tel_href": "tel:+31610893487",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Hondentrimsalon Max in Winschoten wordt je hond door een gediplomeerd trimmer vakkundig en met aandacht verzorgd. Voor elk ras, groot of klein, een complete en rustige trimbeurt.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
