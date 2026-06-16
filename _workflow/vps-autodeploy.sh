@@ -34,6 +34,7 @@ for d in */ ; do
 done
 # admin-dashboard + onboarding publiceren (eigen vhosts, bestaan al in Caddyfile)
 [ -f "$REPO_DIR/dashboard/index.html" ] && { mkdir -p /var/www/admin; rsync -a --delete "$REPO_DIR/dashboard/" /var/www/admin/ 2>>"$LOG"; chmod -R a+rX /var/www/admin 2>>"$LOG" || true; }
+[ -f "$REPO_DIR/brabantdigital/site/index.html" ] && { mkdir -p /var/www/brabantdigital; rsync -a --delete "$REPO_DIR/brabantdigital/site/" /var/www/brabantdigital/ 2>>"$LOG"; chmod -R a+rX /var/www/brabantdigital 2>>"$LOG" || true; }
 [ -f "$REPO_DIR/onboarding/index.html" ] && { mkdir -p /var/www/onboarding; rsync -a --delete --exclude="*.txt" "$REPO_DIR/onboarding/" /var/www/onboarding/ 2>>"$LOG"; chmod -R a+rX /var/www/onboarding 2>>"$LOG" || true; }
 echo "$(date '+%F %T') sync klaar ($after)" >>"$LOG"
 exit 0
