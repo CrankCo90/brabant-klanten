@@ -1,119 +1,260 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Perfect Luxury · Champagne & Charcoal — Simpel</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Perfect Luxury — Kapsalon Breda</title>
+<meta name="description" content="The Perfect Luxury — kapsalon in Breda. Knippen, kleuren en styling. Online een afspraak maken.">
 <style>
-:root{--bg:#14141a;--soft:#1d1d25;--text:#f0ead9;--mut:#b6b0a0;--gold:#c9a96a;--head:'Cormorant Garamond',serif;--body:'Montserrat',sans-serif}
-*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0e0d0c;--panel:#16140f;--panel2:#1d1a14;--line:#2a2620;--text:#f4efe6;--mut:#b6ab98;--gold:#c9a86a;--gold2:#e6cf9e;--head:'Cormorant Garamond',Georgia,serif}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:var(--body);font-weight:300;line-height:1.6}
-img{display:block;max-width:100%}
-.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
-nav{position:sticky;top:0;z-index:30;background:rgba(20,20,26,.86);backdrop-filter:blur(10px);border-bottom:1px solid rgba(201,169,106,.18)}
-nav .wrap{display:flex;align-items:center;gap:26px;padding:18px 28px}
-.logo{font-family:var(--head);font-size:1.5rem;font-weight:600;letter-spacing:.02em;margin-right:auto}
-.logo em{color:var(--gold);font-style:italic}
-nav a{color:var(--text);text-decoration:none;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;opacity:.82}
-nav a:hover{opacity:1;color:var(--gold)}
-.lang{border:1px solid rgba(201,169,106,.5);border-radius:999px;padding:5px 12px;font-size:.72rem;cursor:pointer;background:none;color:var(--text);letter-spacing:.1em}
-.cta{background:var(--gold);color:#14141a !important;padding:11px 20px;border-radius:999px;font-weight:600;opacity:1 !important}
-.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;padding:80px 0 70px}
-.kick{color:var(--gold);font-size:.74rem;letter-spacing:.3em;text-transform:uppercase;margin-bottom:20px}
-.hero h1{font-family:var(--head);font-size:4rem;line-height:1.04;font-weight:600;margin-bottom:22px}
-.hero p{color:var(--mut);max-width:440px;margin-bottom:32px;font-size:1.02rem}
-.btns{display:flex;gap:14px;flex-wrap:wrap}
-.b1{background:var(--gold);color:#14141a;padding:15px 28px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.9rem}
-.b2{border:1px solid var(--gold);color:var(--gold);padding:15px 28px;border-radius:999px;text-decoration:none;font-size:.9rem}
-.hero-img{position:relative}
-.hero-img img{border-radius:16px;width:100%;aspect-ratio:16/11;object-fit:cover;box-shadow:0 30px 70px rgba(0,0,0,.5)}
-.hero-img .tag{position:absolute;bottom:-18px;left:-18px;background:var(--gold);color:#14141a;padding:14px 20px;border-radius:12px;font-family:var(--head);font-size:1.2rem;font-weight:600}
-.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(201,169,106,.2);border-radius:14px;overflow:hidden;margin:24px 0 90px}
-.strip div{background:var(--soft);padding:30px 28px}
-.strip b{font-family:var(--head);color:var(--gold);font-size:1.4rem;font-weight:600;display:block;margin-bottom:8px}
-.strip span{color:var(--mut);font-size:.9rem}
-.sec-h{text-align:center;margin-bottom:46px}
-.sec-h .kick{margin-bottom:14px}
-.sec-h h2{font-family:var(--head);font-size:2.8rem;font-weight:600}
-.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:90px}
-.gal img{border-radius:12px;aspect-ratio:1;object-fit:cover;transition:transform .4s,filter .4s;filter:grayscale(.15)}
-.gal img:hover{transform:scale(1.03);filter:grayscale(0)}
-footer{background:var(--soft);border-top:1px solid rgba(201,169,106,.18);padding:60px 0}
-.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
-.fgrid h4{font-family:var(--head);color:var(--gold);font-size:1.3rem;margin-bottom:14px;font-weight:600}
-.fgrid p,.fgrid a{color:var(--mut);font-size:.92rem;text-decoration:none;display:block;margin-bottom:6px}
-.note{text-align:center;color:rgba(182,176,160,.5);font-size:.72rem;padding:22px;letter-spacing:.05em}
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
-.reveal.in{opacity:1;transform:none}
-@media(max-width:840px){.hero{grid-template-columns:1fr;padding:48px 0}.hero h1{font-size:2.9rem}.strip,.gal,.fgrid{grid-template-columns:1fr}nav a:not(.cta):not(.lang){display:none}}
-</style></head>
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--head);font-weight:600;line-height:1.1}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+.eyebrow{color:var(--gold);letter-spacing:.32em;text-transform:uppercase;font-size:.72rem;font-weight:600}
+.btn{display:inline-flex;align-items:center;gap:9px;border-radius:999px;padding:14px 26px;font-weight:600;font-size:.93rem;cursor:pointer;border:1px solid transparent;transition:.2s}
+.btn-gold{background:linear-gradient(120deg,var(--gold2),var(--gold));color:#1a1408}
+.btn-gold:hover{filter:brightness(1.07)}
+.btn-ghost{border-color:rgba(201,168,106,.5);color:var(--gold2)}
+.btn-ghost:hover{background:rgba(201,168,106,.1)}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:40;transition:.3s;border-bottom:1px solid transparent}
+header.scrolled{background:rgba(14,13,12,.92);backdrop-filter:blur(10px);border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{font-family:var(--head);font-size:1.5rem;font-weight:700;letter-spacing:.02em}
+.logo em{color:var(--gold);font-style:normal}
+.nav-links{display:flex;gap:30px;align-items:center}
+.nav-links a{font-size:.9rem;color:var(--mut)}
+.nav-links a:hover{color:var(--text)}
+.nav-right{display:flex;gap:14px;align-items:center}
+.lang{background:none;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:6px 12px;font:inherit;font-size:.78rem;cursor:pointer}
+.burger{display:none;background:none;border:0;color:var(--text);font-size:1.6rem;cursor:pointer}
+/* hero */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden}
+.hero video,.hero .heroimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,7,6,.86) 0%,rgba(8,7,6,.6) 45%,rgba(8,7,6,.35) 100%);z-index:1}
+.hero .wrap{position:relative;z-index:2;padding-top:90px;padding-bottom:60px}
+.hero h1{font-size:clamp(2.8rem,7vw,5.4rem);margin:14px 0 10px}
+.hero p.sub{color:#e9e2d4;font-size:clamp(1rem,2.2vw,1.25rem);max-width:560px;margin-bottom:30px}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+.stars{margin-top:26px;color:var(--gold2);font-size:.95rem;letter-spacing:.02em}
+.stars b{color:#fff}
+/* sections */
+section.blk{padding:96px 0;border-top:1px solid var(--line)}
+.lead{color:var(--mut);max-width:620px;margin-top:14px}
+h2.sec{font-size:clamp(2rem,4.5vw,3rem);margin-top:10px}
+/* merken */
+.merken{background:var(--panel);text-align:center;padding:30px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.merken .wrap{display:flex;flex-wrap:wrap;gap:14px 34px;align-items:center;justify-content:center;color:var(--mut);font-size:.86rem;letter-spacing:.04em}
+.merken span{opacity:.85}
+.merken .m-lbl{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;width:100%;margin-bottom:4px}
+/* about */
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+.about-grid img{width:100%;border-radius:14px;aspect-ratio:4/5;object-fit:cover}
+/* prices */
+.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 48px;margin-top:30px}
+.price-row{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.price-row .pn{font-weight:500}
+.price-row .pp{color:var(--gold2);white-space:nowrap;font-weight:600}
+.note{color:var(--mut);font-size:.82rem;margin-top:16px;font-style:italic}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+.gal img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:12px}
+/* reviews */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.rev{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+.rev .st{color:var(--gold);letter-spacing:3px;margin-bottom:10px}
+.rev p{font-style:italic;color:#e9e2d4}
+.rev .who{margin-top:14px;color:var(--gold2);font-size:.85rem;font-weight:600}
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:34px}
+.kv{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);color:var(--mut)}
+.kv b{color:var(--text);min-width:120px;font-weight:600}
+.form input,.form textarea{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:10px;color:var(--text);font:inherit;padding:13px 14px;margin-bottom:12px}
+.form textarea{min-height:120px;resize:vertical}
+.mapwrap{margin-top:30px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+.mapwrap iframe{width:100%;height:320px;border:0;display:block;filter:grayscale(.3) contrast(.95)}
+/* cta band */
+.band{background:linear-gradient(120deg,#17130b,#221b0f);text-align:center}
+.band h2{margin-bottom:18px}
+/* footer */
+footer{background:#0a0908;border-top:1px solid var(--line);padding:46px 0;color:var(--mut);font-size:.86rem}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center}
+/* wa float */
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:50;display:inline-flex;align-items:center;gap:9px;background:#25D366;color:#063;border-radius:999px;padding:12px 18px;font-weight:700;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.wa-float svg{width:20px;height:20px}
+@media(max-width:880px){
+ .nav-links{display:none}.burger{display:block}
+ .about-grid,.price-grid,.contact-grid{grid-template-columns:1fr;gap:28px}
+ .gal,.revs{grid-template-columns:1fr 1fr}
+ .nav-links.open{display:flex;position:absolute;top:76px;left:0;right:0;flex-direction:column;background:rgba(14,13,12,.98);padding:20px 26px;gap:18px;border-bottom:1px solid var(--line)}
+}
+@media(max-width:560px){.gal,.revs{grid-template-columns:1fr}}
+</style>
+</head>
 <body>
-<nav><div class="wrap">
-  <span class="logo">Kapsalon <em>The Perfect Luxury</em></span>
-  <a href="#diensten" data-en="Services">Diensten</a>
-  <a href="#galerij" data-en="Gallery">Galerij</a>
-  <a href="#contact" data-en="Contact">Contact</a>
-  <button class="lang" id="lang">EN</button>
-  <a href="#contact" class="cta" data-en="Book online">Afspraak maken</a>
-</div></nav>
-
-<header class="hero wrap">
-  <div>
-    <div class="kick" data-en="Hair salon · Breda">Kapsalon · Breda</div>
-    <h1 data-en="Cut with care and craftsmanship">Met zorg en vakmanschap geknipt</h1>
-    <p data-en="Certified hairstylist for every look — from a sharp cut to full colour. Book online and enjoy your new look in all peace and quiet.">Gediplomeerd kapper voor elke look — van een strakke coupe tot complete kleuring. Boek online en u wordt in alle rust verwend.</p>
-    <div class="btns">
-      <a class="b1" href="#contact" data-en="Book online">Online afspraak maken</a>
-      <a class="b2" href="#contact">Bel of app ons</a>
-    </div>
+<header id="hdr">
+ <div class="wrap nav">
+  <a class="logo" href="#top"><em>The Perfect Luxury</em></a>
+  <nav class="nav-links" id="navlinks">
+   <a href="#behandelingen" data-en="Treatments">Behandelingen</a>
+   <a href="#over" data-en="About">Over ons</a>
+   <a href="#reviews" data-en="Reviews">Reviews</a>
+   <a href="#contact" data-en="Contact">Contact</a>
+  </nav>
+  <div class="nav-right">
+   <button class="lang" id="lang">EN</button>
+   <a class="btn btn-gold book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book now">Afspraak maken</a>
+   <button class="burger" id="burger" aria-label="Menu">☰</button>
   </div>
-  <div class="hero-img">
-    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151809_65126f44-8710-49f6-84b8-47350cc8868d.png" alt="Vers geknipt haar">
-    <span class="tag">4,9 ★</span>
-  </div>
+ </div>
 </header>
 
-<section class="wrap" id="diensten">
-  <div class="strip">
-    <div><b data-en="Every style">Elke stijl</b><span data-en="Specialist in coupes, wire-haired and dik haared.">Specialist in coupes, krullend haar en dik haared.</span></div>
-    <div><b data-en="Certified">Gediplomeerd</b><span data-en="And re-trained every year — knowledge stays current.">En jaarlijks bijgeschoold — vakkennis blijft actueel.</span></div>
-    <div><b data-en="Book online">Online boeken</b><span data-en="Choose your own moment, instant confirmation.">Kies zelf uw moment, bevestiging direct.</span></div>
+<section class="hero" id="top">
+ <video autoplay muted loop playsinline poster="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_81603210-c65e-4327-b49f-fb0f9281e955.png">
+  <source src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_181032_b972a3a9-1980-4adc-b865-ce27e40bb1d7.mp4" type="video/mp4">
+ </video>
+ <img class="heroimg" src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_81603210-c65e-4327-b49f-fb0f9281e955.png" alt="" style="display:none">
+ <div class="wrap">
+  <div class="eyebrow" data-en="Hair salon · Breda">Kapsalon · Breda</div>
+  <h1>The Perfect Luxury</h1>
+  <p class="sub" data-en="Cut, colour and styling with care and craftsmanship. Book your appointment online, 24/7.">Knippen, kleuren en styling met zorg en vakmanschap. Maak online een afspraak, 24/7.</p>
+  <div class="cta">
+   <a class="btn btn-gold book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book an appointment">Afspraak maken</a>
+   <a class="btn btn-ghost" href="#behandelingen" data-en="View treatments">Bekijk behandelingen</a>
   </div>
+  <div class="stars">★★★★★ &nbsp;<b data-en="Loyal clients across Breda">Vaste klanten in Breda en omgeving</b></div>
+ </div>
 </section>
 
-<section class="wrap" id="galerij">
-  <div class="sec-h reveal">
-    <div class="kick" data-en="Gallery">Galerij</div>
-    <h2 data-en="Result you can see">Resultaat om te zien</h2>
+<div class="merken">
+ <div class="wrap">
+  <span class="m-lbl" data-en="What we work with">Waar wij mee werken</span>
+  <span data-en="Professional hair products">Professionele haarproducten</span><span>·</span>
+  <span data-en="Colour specialists">Kleurspecialisten</span><span>·</span>
+  <span data-en="Cut &amp; styling">Knippen &amp; styling</span><span>·</span>
+  <span data-en="Care treatments">Verzorgingsbehandelingen</span>
+ </div>
+</div>
+
+<section class="blk" id="over">
+ <div class="wrap about-grid">
+  <div>
+   <div class="eyebrow" data-en="About us">Over ons</div>
+   <h2 class="sec">Welkom bij The Perfect Luxury</h2>
+   <p class="lead">The Perfect Luxury in Breda is een warme, professionele kapsalon waar iedereen welkom is — knippen, kleuren en styling op niveau.</p>
+   <p style="margin-top:22px"><a class="btn btn-gold book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book an appointment">Afspraak maken</a></p>
   </div>
-  <div class="gal reveal">
-    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_e9deb4fb-f709-4212-8689-2109fffe1e68.png" alt="">
-    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151810_e684e8f1-0375-4c83-9819-4fdff5d6f117.png" alt="">
-    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151810_adbf5ded-a32e-4d1f-9cc5-0856b9974e6d.png" alt="">
-  </div>
+  <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151807_e9deb4fb-f709-4212-8689-2109fffe1e68.png" alt="The Perfect Luxury">
+ </div>
 </section>
 
-<section id="over" style="background:var(--bg);color:var(--text);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px"><div><div style="color:var(--gold);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px" data-en="About us">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px" data-en="About us">Over ons</h2><p style="color:var(--mut);line-height:1.75">The Perfect Luxury in Breda is een warme, professionele kapsalon waar iedereen welkom is — knippen, kleuren en styling op niveau.</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:18px"><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Knippen</span><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Kleuren</span><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Balayage</span><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Styling</span></div><p style="color:var(--mut);font-size:.85rem;margin-top:16px">✓ Gediplomeerd</p><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--text)" data-en="Opening hours:">Openingstijden:</strong> Op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--gold);margin-bottom:12px" data-en="Pricing">Tarieven</h3><p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag — afgestemd op uw haar en wensen. Vraag gerust een richtprijs.</p></div></div></section><footer id="contact"><div class="wrap fgrid">
-  <div><h4>Kapsalon The Perfect Luxury</h4><p data-en="Certified hair salon in Breda. Every style, cut with care and craftsmanship.">Gediplomeerde kapsalon in Breda. Elke stijl, met zorg en vakmanschap geknipt.</p></div>
-  <div><h4 data-en="Contact">Contact</h4><a href="#contact">Bel of app ons</a><p>Breda</p></div>
-  <div><h4 data-en="Opening hours">Openingstijden</h4><p data-en="Mon–Fri 09:00–17:00">ma–vr 09:00–17:00</p><p data-en="Sat 09:00–13:00">za 09:00–13:00</p></div>
-</div></footer>
+<section class="blk" id="behandelingen">
+ <div class="wrap">
+  <div class="eyebrow" data-en="Our treatments">Onze behandelingen</div>
+  <h2 class="sec" data-en="Discover what suits you">Ontdek wat bij u past</h2>
+  <div class="price-grid"><div class="price-row"><span class="pn">Knippen dames</span><span class="pp">€ 39</span></div><div class="price-row"><span class="pn">Knippen heren</span><span class="pp">€ 27</span></div><div class="price-row"><span class="pn">Wassen, knippen & föhnen</span><span class="pp">€ 49</span></div><div class="price-row"><span class="pn">Kinderen (t/m 12 jr)</span><span class="pp">€ 22</span></div><div class="price-row"><span class="pn">Kleuren (uitgroei)</span><span class="pp">vanaf € 55</span></div><div class="price-row"><span class="pn">Highlights / folies</span><span class="pp">vanaf € 75</span></div><div class="price-row"><span class="pn">Balayage</span><span class="pp">vanaf € 95</span></div><div class="price-row"><span class="pn">Föhnen / opsteken</span><span class="pp">vanaf € 30</span></div></div>
+  <p class="note">* Voorbeeld-richtprijzen ter illustratie — definitieve tarieven stemmen we samen af.</p>
+ </div>
+</section>
 
-<script>
-// i18n
-const lb=document.getElementById('lang');let en=false;
-const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
-lb.onclick=()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';
- document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));};
-// reveal
-const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.15});
-document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
-</script>
+<section class="blk">
+ <div class="wrap">
+  <div class="eyebrow" data-en="Our work">Ons werk</div>
+  <h2 class="sec" data-en="A look inside">Een kijkje binnen</h2>
+  <div class="gal">
+   <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151809_65126f44-8710-49f6-84b8-47350cc8868d.png" alt=""><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151811_2493dc60-0682-4320-9d05-8978c565aac6.png" alt=""><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_151810_adbf5ded-a32e-4d1f-9cc5-0856b9974e6d.png" alt="">
+  </div>
+ </div>
+</section>
+
+<section class="blk" id="reviews">
+ <div class="wrap">
+  <div class="eyebrow" data-en="Reviews">Reviews</div>
+  <h2 class="sec" data-en="What clients say">Wat klanten zeggen</h2>
+  <div class="revs"><div class="rev"><div class="st">★★★★★</div><p>“Altijd top geholpen — ze luisteren echt en denken mee. Mijn vaste kapper!”</p><div class="who">— Sanne</div></div><div class="rev"><div class="st">★★★★★</div><p>“Strakke coupe en een fijne sfeer. Online boeken is zo makkelijk.”</p><div class="who">— Mark</div></div><div class="rev"><div class="st">★★★★★</div><p>“Eindelijk een kleuring waar ik blij van word. Echt vakwerk.”</p><div class="who">— Lisa</div></div></div>
+ </div>
+</section>
+
+<section class="blk" id="contact">
+ <div class="wrap">
+  <div class="eyebrow" data-en="Contact">Contact</div>
+  <h2 class="sec" data-en="Visit us or book online">Kom langs of boek online</h2>
+  <div class="contact-grid">
+   <div>
+    <div class="kv"><b data-en="Address">Adres</b><span>Breda</span></div>
+    <div class="kv"><b data-en="Phone">Telefoon</b><span>Bel of app ons</span></div>
+    <div class="kv"><b>E-mail</b><span>Op aanvraag</span></div>
+    <div class="kv"><b data-en="Opening hours">Openingstijden</b><span>Di–Vr 09:00–18:00 · Za 09:00–17:00 · overig op afspraak</span></div>
+    <div style="margin-top:22px;display:flex;gap:12px;flex-wrap:wrap">
+     <a class="btn btn-gold book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book an appointment">Afspraak maken</a>
+     
+    </div>
+   </div>
+   <div>
+    <form class="form" id="cform">
+     <input name="naam" placeholder="Uw naam" data-en-ph="Your name" required>
+     <input name="email" type="email" placeholder="Uw e-mail" data-en-ph="Your email" required>
+     <textarea name="bericht" placeholder="Uw vraag of gewenste behandeling…" data-en-ph="Your question or desired treatment…"></textarea>
+     <button class="btn btn-gold" type="submit" style="width:100%;justify-content:center" data-en="Send">Versturen</button>
+    </form>
+   </div>
+  </div>
+  <div class="mapwrap"><iframe loading="lazy" src="https://maps.google.com/maps?q=Breda%2C%20Nederland&z=13&output=embed"></iframe></div>
+ </div>
+</section>
+
+<section class="blk band">
+ <div class="wrap">
+  <h2 class="sec" data-en="Ready for a new look?">Klaar voor een nieuwe look?</h2>
+  <a class="btn btn-gold book" data-cal-namespace="demo-planner" data-cal-link="brabantdigital/demo-planner" data-cal-config='{"layout":"month_view"}' data-en="Book an appointment">Afspraak maken</a>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap foot">
+  <div class="logo"><em>The Perfect Luxury</em></div>
+  <div>The Perfect Luxury · Breda · Bel of app ons</div>
+  <div>© <span id="yr"></span> The Perfect Luxury</div>
+ </div>
+</footer>
+
+
 <script type="text/javascript">
 (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
 Cal("init", "demo-planner", {origin:"https://cal.eu"});
 Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
-document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
 </script>
-</body></html>
+<script>
+// header scroll
+var hdr=document.getElementById('hdr');addEventListener('scroll',function(){hdr.classList.toggle('scrolled',scrollY>40);});
+// burger
+var bg=document.getElementById('burger'),nl=document.getElementById('navlinks');
+if(bg)bg.addEventListener('click',function(){nl.classList.toggle('open');});
+nl&&nl.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nl.classList.remove('open');});});
+// year
+document.getElementById('yr').textContent=new Date().getFullYear();
+// video fallback -> image if video fails/missing
+(function(){var v=document.querySelector('.hero video');var im=document.querySelector('.hero .heroimg');if(!v)return;function fb(){v.style.display='none';if(im)im.style.display='block';}v.addEventListener('error',fb);var sc=v.querySelector('source');if(sc)sc.addEventListener('error',fb);setTimeout(function(){if(v.readyState<2)fb();},4000);})();
+// NL/EN toggle
+(function(){var en=false;var btn=document.getElementById('lang');if(!btn)return;
+ var nodes=[].slice.call(document.querySelectorAll('[data-en]'));nodes.forEach(function(n){n.setAttribute('data-nl',n.textContent);});
+ var phs=[].slice.call(document.querySelectorAll('[data-en-ph]'));phs.forEach(function(n){n.setAttribute('data-nl-ph',n.getAttribute('placeholder')||'');});
+ btn.addEventListener('click',function(){en=!en;btn.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';
+  nodes.forEach(function(n){n.textContent=en?n.getAttribute('data-en'):n.getAttribute('data-nl');});
+  phs.forEach(function(n){n.setAttribute('placeholder',en?n.getAttribute('data-en-ph'):n.getAttribute('data-nl-ph'));});});
+})();
+// contact form -> mailto (demo)
+(function(){var f=document.getElementById('cform');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();
+ var to="";var n=f.naam.value,em=f.email.value,b=f.bericht.value;
+ var subj=encodeURIComponent("Afspraak/vraag via website — "+n);
+ var body=encodeURIComponent((b||"")+"\n\nNaam: "+n+"\nE-mail: "+em);
+ if(to){location.href="mailto:"+to+"?subject="+subj+"&body="+body;}
+ else{var b2=f.querySelector('button');b2.textContent="Bedankt! We nemen contact op.";}
+});})();
+</script>
+</body>
+</html>

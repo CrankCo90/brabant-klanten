@@ -6,6 +6,7 @@
 - Cal-planner popup op de 'Afspraak maken'-knoppen
 """
 import json, re, random
+import urllib.parse as _ul
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC  = ROOT / "hondentrimsalonscott" / "03-designs"
@@ -742,6 +743,50 @@ _D11H=(ROOT/"_workflow"/"templates"/"design11-hond.html")
 HOND_D11_TPL=_D11H.read_text(encoding="utf-8") if _D11H.exists() else ""
 def render_d11_nagel(s): return _fill_d11(NAGEL_D11_TPL,s,"Nagelstudio",NAIL_IMG)
 def render_d11_hond(s):  return _fill_d11(HOND_D11_TPL,s,"Hondentrimsalon",(pick_pool(s["slug"]) if POOL_OK else AI_URLS))
+_D11K=(ROOT/"_workflow"/"templates"/"design11-kapper.html")
+KAPPER_D11_TPL=_D11K.read_text(encoding="utf-8") if _D11K.exists() else ""
+KAPPER_VIDEO="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260616_181032_b972a3a9-1980-4adc-b865-ce27e40bb1d7.mp4"
+KAPPER_PRICE_EX=[("Knippen dames","€ 39"),("Knippen heren","€ 27"),("Wassen, knippen & föhnen","€ 49"),("Kinderen (t/m 12 jr)","€ 22"),("Kleuren (uitgroei)","vanaf € 55"),("Highlights / folies","vanaf € 75"),("Balayage","vanaf € 95"),("Föhnen / opsteken","vanaf € 30")]
+KAPPER_REV_EX=[("Altijd top geholpen — ze luisteren echt en denken mee. Mijn vaste kapper!","Sanne"),("Strakke coupe en een fijne sfeer. Online boeken is zo makkelijk.","Mark"),("Eindelijk een kleuring waar ik blij van word. Echt vakwerk.","Lisa")]
+def render_d11_kapper(s):
+    if not KAPPER_D11_TPL: return _fill_d11(HOND_D11_TPL,s,"Kapsalon",KAPPER_IMG)
+    merk=s["bedrijf"]; kort=s.get("kort") or merk; plaats=s["plaats"]
+    th=s.get("tel_href","") or ""; td=s.get("tel_display","") or ""
+    logo = merk.replace(kort,"<em>%s</em>"%kort,1) if kort and kort in merk else "<em>%s</em>"%merk
+    c=s.get("content") or {}; eig=(c.get("eigenaar") or "").strip(); email=(s.get("email") or "").strip()
+    verhaal=c.get("verhaal") or ("%s is een kapsalon in %s voor knippen, kleuren en styling — met zorg, vakmanschap en persoonlijke aandacht voor dames, heren en kinderen."%(merk,plaats))
+    about_title=("Over %s"%eig) if eig else ("Welkom bij %s"%merk)
+    tar=c.get("tarieven") or []; rows=[]; note=""
+    if tar:
+        for t in tar[:12]:
+            t=t.replace("\u2014","—")
+            if "—" in t: n,pr=t.rsplit("—",1)
+            else: n,pr=t,""
+            rows.append((n.strip(),pr.strip()))
+    else:
+        rows=KAPPER_PRICE_EX; note="* Voorbeeld-richtprijzen ter illustratie — definitieve tarieven stemmen we samen af."
+    prices_html="".join('<div class="price-row"><span class="pn">%s</span><span class="pp">%s</span></div>'%(n,pr) for n,pr in rows)
+    revs=[((r.get("tekst") or "").strip(),(r.get("naam") or "Klant").strip()) for r in (c.get("reviews") or []) if (r.get("tekst") or "").strip()][:3]
+    if not revs: revs=KAPPER_REV_EX
+    rev_html="".join('<div class="rev"><div class="st">★★★★★</div><p>“%s”</p><div class="who">— %s</div></div>'%(tk,nm) for tk,nm in revs)
+    hours="Di–Vr 09:00–18:00 · Za 09:00–17:00 · overig op afspraak"
+    digits=th.replace("tel:","").replace("+","").replace(" ","").replace("-","")
+    wa_btn=""; wa_float=""
+    if digits.startswith("316") and len(digits)>=11:
+        wlink="https://wa.me/%s"%digits
+        wa_btn='<a class="btn btn-ghost" href="%s" target="_blank" rel="noopener" data-en="WhatsApp">WhatsApp</a>'%wlink
+        wa_float='<a class="wa-float" href="%s" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> App ons</a>'%wlink
+    maps_q=_ul.quote(plaats+", Nederland")
+    repl={"⟦TITLE⟧":"%s — Kapsalon %s"%(merk,plaats),"⟦NAME⟧":merk,"⟦LOGO⟧":logo,"⟦PLAATS⟧":plaats,
+      "⟦VIDEO⟧":KAPPER_VIDEO,"⟦POSTER⟧":KAPPER_IMG[2],"⟦IMG_ABOUT⟧":KAPPER_IMG[6],
+      "⟦IMG_G1⟧":KAPPER_IMG[0],"⟦IMG_G2⟧":KAPPER_IMG[1],"⟦IMG_G3⟧":KAPPER_IMG[5],
+      "⟦ABOUT_TITLE⟧":about_title,"⟦ABOUT⟧":verhaal,"⟦PRICES⟧":prices_html,"⟦PRICE_NOTE⟧":note,
+      "⟦REVIEWS⟧":rev_html,"⟦HOURS⟧":hours,"⟦PHONE⟧":(td or "Bel of app ons"),
+      "⟦EMAILTXT⟧":(email or "Op aanvraag"),"⟦EMAILRAW⟧":email,"⟦MAPS_Q⟧":maps_q,
+      "⟦WA_BTN⟧":wa_btn,"⟦WA_FLOAT⟧":wa_float}
+    out=KAPPER_D11_TPL
+    for a,b in repl.items(): out=out.replace(a,b)
+    return out
 
 n=0
 for s in salons:
@@ -765,7 +810,7 @@ for s in salons:
     elif _nb=="nagels":
         (dest/"previews"/"design-11.html").write_text(render_d11_nagel(s),encoding="utf-8")
     elif _nb=="kapper":
-        (dest/"previews"/"design-11.html").write_text((dest/"previews"/"design-01.html").read_text(encoding="utf-8"),encoding="utf-8")
+        (dest/"previews"/"design-11.html").write_text(render_d11_kapper(s),encoding="utf-8")
     else:
         (dest/"previews"/"design-11.html").write_text(render_d11_hond(s),encoding="utf-8")
     n+=1
