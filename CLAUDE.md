@@ -54,6 +54,14 @@ zet ze live op een VPS, en pitcht ze. Doel: klant koopt website + maandelijkse h
 - **Demo-URL per klant:** `KLANT.demo.brabantdigital.nl` (wildcard `*.demo` staat al in DNS).
 - **Mapstructuur per klant:** zie `_workflow/WORKFLOW.md`. Demo = de map `03-designs/` (alle 10 designs onder 1 subdomein).
 - **Contact/merk:** Brabant Digital · aanbod@brabantdigital.nl · telefoon **085-0608491** · WhatsApp **wa.me/31850608491** (én appbaar). Oud nummer 0608471 is overal vervangen (mails, demo-coverpagina'
+## ⚠️ TLS-wildcardcert demo's (VASTE FEIT + HERINNERING — verloopt 14-09-2026)
+- Alle demo-subdomeinen (`*.demo.brabantdigital.nl`) draaien op **ÉÉN wildcard-certificaat** (Let's Encrypt, DNS-challenge), niet meer per subdomein. Reden: losse per-subdomein-certs liepen tegen de LE-limiet (50/week per domein) → nieuwe demo's bleven offline.
+- **Cert verloopt 14-09-2026 en moet HANDMATIG verlengd worden** (geen auto-renew bij `--manual`). Doe dit vóór die datum, anders vallen ALLE demo's offline. Stappen op de VPS-terminal:
+  1. `sudo certbot certonly --manual --preferred-challenges dns --agree-tos -m aanbod@brabantdigital.nl --no-eff-email -d '*.demo.brabantdigital.nl'` → de NIEUWE TXT-waarde in Vimexx zetten op record `_acme-challenge.demo`, ~1-2 min wachten, dan Enter.
+  2. `cd /root/klanten && git pull -q && sudo bash _workflow/caddy-wildcard.sh` (kopieert cert naar `/etc/caddy/certs`, herstart Caddy, met automatische terugval bij fout).
+- Caddy serveert demo's via één wildcard-blok (`*.demo.brabantdigital.nl` → `root * /var/www/demos/{labels.3}`). **`vps-autodeploy.sh` voegt GEEN losse Caddy-blokken of -certs meer toe** (alleen bestanden syncen). Niet terugdraaien naar losse certs.
+- Er staat ook een geplande herinnering (5 sep 2026) in de Cowork-app.
+
 ## Telefoon & WhatsApp (VASTE FEITEN — 15-06-2026)
 - **Nieuw nummer:** `085-0608491`. WhatsApp-link: `https://wa.me/31850608491` (0 weg, 31 ervoor).
 - Staat in: outreach-mails (template-nl/kort/herinnering), de demo-**coverpagina** (index.html) en BD-site/onboarding.
