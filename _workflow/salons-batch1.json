@@ -6855,5 +6855,269 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Lot's Hondentrimsalon",
+  "kort": "Lot's Hondentrimsalon",
+  "slug": "lots-hondentrimsalon-groningen",
+  "plaats": "Groningen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Lot's Hondentrimsalon in Groningen krijgt iedere hond rustig de tijd en persoonlijke aandacht die hij verdient. Met oog voor de juiste vachtverzorging gaat elke viervoeter er weer fris en verzorgd vandoor.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Vacht ontklitten",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Care4Dogs Hondentrimsalon",
+  "kort": "Care4Dogs Hondentrimsalon",
+  "slug": "care4dogs-hondentrimsalon-groningen",
+  "plaats": "Groningen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Care4Dogs in Groningen is een kleinschalige hondentrimsalon waar het welzijn van de hond altijd voorop staat. Elke vacht wordt met zorg en geduld behandeld, afgestemd op het ras en het karakter van de hond.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Trimmen & plukken",
+    "Scheren",
+    "Oren & nagels verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Marley",
+  "kort": "Trimsalon Marley",
+  "slug": "trimsalon-marley-assen",
+  "plaats": "Assen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Marley in Assen verzorgt honden, katten en konijnen met vakkennis en een rustige aanpak. Elk dier wordt in alle rust behandeld, zodat het ontspannen en goed verzorgd weer naar huis gaat.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Ontklitten",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Hoogeveen",
+  "kort": "Trimsalon Hoogeveen",
+  "slug": "trimsalon-hoogeveen",
+  "plaats": "Hoogeveen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Hoogeveen draait alles om het welzijn van je hond en een gezonde, goed verzorgde vacht. Met aandacht voor elk ras gaat iedere hond er fris en netjes getrimd weer vandoor.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Vacht ontklitten",
+    "Nagels & oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bianca's Trimsalon",
+  "kort": "Bianca's Trimsalon",
+  "slug": "biancas-trimsalon-wolvega",
+  "plaats": "Wolvega",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Bianca",
+   "verhaal": "Bianca's Trimsalon in Wolvega verzorgt al jaren honden en katten met ervaring en een persoonlijke aanpak. Elk dier wordt rustig en met aandacht behandeld voor een mooi en gezond resultaat.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken",
+    "Nagels & oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "HollyWoof Spa & Salon",
+  "kort": "HollyWoof Spa & Salon",
+  "slug": "hollywoof-enschede",
+  "plaats": "Enschede",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "HollyWoof Spa & Salon in Enschede is een hondentrimsalon waar verzorging en ontspanning samenkomen. Elke hond wordt met aandacht gewassen, getrimd en verwend voor een fris en verzorgd resultaat.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Vachtverzorging",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Hondenland Twente",
+  "kort": "Trimsalon Hondenland Twente",
+  "slug": "hondenland-twente-geesteren",
+  "plaats": "Geesteren",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Hondenland Twente in Geesteren verzorgt honden van alle rassen met vakkennis en een rustige aanpak. Iedere vacht wordt zorgvuldig behandeld zodat je hond er weer netjes en fris uitziet.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Ontklitten",
+    "Nagels & oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Haanakker",
+  "kort": "Hondentrimsalon Haanakker",
+  "slug": "hondentrimsalon-haanakker-oldenzaal",
+  "plaats": "Oldenzaal",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Haanakker in Oldenzaal biedt persoonlijke vachtverzorging in een rustige omgeving. Met aandacht voor elke hond gaat iedere viervoeter er verzorgd en ontspannen weer vandoor.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Vacht ontklitten",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Oldenzaal",
+  "kort": "Trimsalon Oldenzaal",
+  "slug": "trimsalon-oldenzaal",
+  "plaats": "Oldenzaal",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Oldenzaal verzorgt honden van klein tot groot met vakkennis en geduld. Elke vacht wordt afgestemd op het ras behandeld, zodat je hond er fris en goed verzorgd weer bij hoort.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Plukken",
+    "Nagels & oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Dog Palace",
+  "kort": "Trimsalon Dog Palace",
+  "slug": "trimsalon-dog-palace-almelo",
+  "plaats": "Almelo",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Dog Palace in Almelo verzorgt honden in een rustige, vertrouwde omgeving. Met persoonlijke aandacht voor elke hond gaat iedere viervoeter er weer fris en netjes getrimd vandoor.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & trimmen",
+    "Ontklitten",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Acacia",
+  "kort": "Trimsalon Acacia",
+  "slug": "trimsalon-acacia-almelo",
+  "plaats": "Almelo",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Acacia in Almelo biedt zorgzame vachtverzorging voor honden van alle rassen. Elke hond wordt met geduld en aandacht behandeld voor een mooi, gezond en verzorgd resultaat.",
+   "specialisaties": [
+    "Wassen & drogen",
+    "Knippen & trimmen",
+    "Vachtverzorging",
+    "Nagels & oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
