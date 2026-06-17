@@ -18499,5 +18499,81 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Almere Buiten",
+  "kort": "Hondentrimsalon Almere Buiten",
+  "slug": "hondentrimsalon-almere-buiten-almere",
+  "plaats": "Almere",
+  "tel_display": "06-29281184",
+  "tel_href": "tel:+31629281184",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Almere Buiten waar alle hondenrassen en rasloze honden welkom zijn. 's Avonds en in het weekend geopend.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Avond- en weekendafspraken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapperij Elburg",
+  "kort": "Hondenkapperij Elburg",
+  "slug": "hondenkapperij-elburg-elburg",
+  "plaats": "Elburg",
+  "tel_display": "06-23321468",
+  "tel_href": "tel:+31623321468",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Gediplomeerd hondentrimster in Elburg waar ook katten en konijnen welkom zijn. Verkoop van verzorgingsproducten.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Verkoop verzorgingsproducten"
+   ],
+   "certificering": [
+    "Aangesloten bij AVVT"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Hattem",
+  "kort": "Hondentrimsalon Hattem",
+  "slug": "hondentrimsalon-hattem-hattem",
+  "plaats": "Hattem",
+  "tel_display": "06-22252216",
+  "tel_href": "tel:+31622252216",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Anneke",
+   "verhaal": "Anneke Doevendans is gediplomeerd hondentrimster in Hattem en aangesloten bij de AVVT. Op afspraak voor een complete trimbeurt.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtverzorging alle rassen"
+   ],
+   "certificering": [
+    "Aangesloten bij AVVT"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

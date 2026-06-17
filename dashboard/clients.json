@@ -16290,5 +16290,65 @@
   "telefoon": "06-12226818",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Almere Buiten",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Almere",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-almere-buiten-almere.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Almere zonder eigen website, alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Hondentrimsalon in Almere zonder eigen website, alleen telefonisch bereikbaar"
+  ],
+  "contact": "06-29281184",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-29281184",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapperij Elburg",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Elburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondenkapperij-elburg-elburg.demo.brabantdigital.nl",
+  "waarom": "Hondenkapperij in Elburg zonder eigen website, alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Hondenkapperij in Elburg zonder eigen website, alleen telefonisch bereikbaar"
+  ],
+  "contact": "06-23321468",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23321468",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Hattem",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Hattem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-hattem-hattem.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Hattem zonder eigen website, alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Hondentrimsalon in Hattem zonder eigen website, alleen telefonisch bereikbaar"
+  ],
+  "contact": "06-22252216",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22252216",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
