@@ -16230,5 +16230,65 @@
   "telefoon": "06-23166347",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimmerije Marije",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Ruinen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "demo_url": "https://trimmerije-marije-ruinen.demo.brabantdigital.nl",
+  "waarom": "Nog geen eigen website, alleen vindbaar via een trimsalon-gids.",
+  "fouten": [
+   "Nog geen eigen website, alleen vindbaar via een trimsalon-gids"
+  ],
+  "contact": "06-43932848",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-43932848",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Robbedoes",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Wachtum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "demo_url": "https://hondentrimsalon-robbedoes-wachtum.demo.brabantdigital.nl",
+  "waarom": "Nog geen eigen website, alleen vindbaar via een trimsalon-gids.",
+  "fouten": [
+   "Nog geen eigen website, alleen vindbaar via een trimsalon-gids"
+  ],
+  "contact": "06-46234373",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-46234373",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Goofy Coevorden",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Coevorden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "demo_url": "https://trimsalon-goofy-coevorden-dr.demo.brabantdigital.nl",
+  "waarom": "Nog geen eigen website, alleen vindbaar via een trimsalon-gids.",
+  "fouten": [
+   "Nog geen eigen website, alleen vindbaar via een trimsalon-gids"
+  ],
+  "contact": "06-12226818",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-12226818",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -18427,5 +18427,77 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimmerije Marije",
+  "kort": "Vakkundige vachtverzorging in Ruinen",
+  "slug": "trimmerije-marije-ruinen",
+  "plaats": "Ruinen",
+  "tel_display": "06-43932848",
+  "tel_href": "tel:+31643932848",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimmerije Marije in Ruinen is aangesloten bij de ABHB, ook in het weekend geopend en verkoopt verzorgingsproducten. Hier krijgt je hond een vakkundige vachtverzorging.",
+   "specialisaties": [
+    "Aangesloten bij ABHB",
+    "In het weekend geopend",
+    "Verkoop verzorgingsproducten",
+    "Op afspraak"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Robbedoes",
+  "kort": "Optimale vachtverzorging in Wachtum",
+  "slug": "hondentrimsalon-robbedoes-wachtum",
+  "plaats": "Wachtum",
+  "tel_display": "06-46234373",
+  "tel_href": "tel:+31646234373",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Robbedoes in Wachtum staat voor een optimale vachtverzorging van je hond en is aangesloten bij de ABHB.",
+   "specialisaties": [
+    "Optimale vachtverzorging",
+    "Aangesloten bij ABHB",
+    "Alle rassen welkom",
+    "Op afspraak"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Goofy Coevorden",
+  "kort": "Vachtverzorging met aandacht in Coevorden",
+  "slug": "trimsalon-goofy-coevorden-dr",
+  "plaats": "Coevorden",
+  "tel_display": "06-12226818",
+  "tel_href": "tel:+31612226818",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Goofy in Coevorden verzorgt de vacht van je hond met persoonlijke aandacht. Een afspraak maak je eenvoudig telefonisch.",
+   "specialisaties": [
+    "Persoonlijke aandacht",
+    "Complete vachtverzorging",
+    "Alle rassen welkom",
+    "Op afspraak"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
