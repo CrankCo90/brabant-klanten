@@ -16170,5 +16170,65 @@
   "telefoon": "06-16118093",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Trim & Go",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Meppel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trim-en-go-meppel.demo.brabantdigital.nl",
+  "waarom": "Actief via social media, maar nog geen eigen website voor online afspraken en betere vindbaarheid.",
+  "fouten": [
+   "Actief via social media, maar nog geen eigen website voor online afspraken en betere vindbaarheid"
+  ],
+  "contact": "06-42958311",
+  "bron": null,
+  "social": "https://www.facebook.com/trimsalontrimengomeppel",
+  "telefoon": "06-42958311",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Eline’s Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Grolloo",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://elines-hondentrimsalon-grolloo.demo.brabantdigital.nl",
+  "waarom": "Goed bereikbaar via mobiel, maar nog geen eigen website om online afspraken en vindbaarheid te versterken.",
+  "fouten": [
+   "Goed bereikbaar via mobiel, maar nog geen eigen website om online afspraken en vindbaarheid te versterken"
+  ],
+  "contact": "06-41875871",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41875871",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Snuffel",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Putten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-snuffel-putten.demo.brabantdigital.nl",
+  "waarom": "Werkt met mobiel en een eenvoudige bouwpagina; een eigen, moderne site versterkt boeken en vindbaarheid.",
+  "fouten": [
+   "Werkt met mobiel en een eenvoudige bouwpagina; een eigen, moderne site versterkt boeken en vindbaarheid"
+  ],
+  "contact": "06-23166347",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23166347",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

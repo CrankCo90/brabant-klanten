@@ -18355,5 +18355,77 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Trim & Go",
+  "kort": "Hondentrimsalon in Meppel",
+  "slug": "trim-en-go-meppel",
+  "plaats": "Meppel",
+  "tel_display": "06-42958311",
+  "tel_href": "tel:+31642958311",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Trim & Go is een kleinschalige hondentrimsalon in Meppel waar iedere hond met liefde wordt behandeld. Er is een toegankelijke basistrimbehandeling en uitgebreidere beurten met wassen en föhnen, altijd op afspraak.",
+   "specialisaties": [
+    "Volledige vachtverzorging",
+    "Knippen en scheren",
+    "Nagels knippen",
+    "Wassen en drogen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Eline’s Hondentrimsalon",
+  "kort": "Hondentrimsalon in Grolloo",
+  "slug": "elines-hondentrimsalon-grolloo",
+  "plaats": "Grolloo",
+  "tel_display": "06-41875871",
+  "tel_href": "tel:+31641875871",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Eline",
+   "verhaal": "Eline’s Hondentrimsalon in Grolloo is een gecertificeerde salon voor alle rassen, groot en klein. Met een geduldige en vertrouwde aanpak voelt elke hond zich er op zijn gemak.",
+   "specialisaties": [
+    "Volledige vachtverzorging",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Wassen en drogen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Snuffel",
+  "kort": "Kleinschalige hondentrimsalon in Putten",
+  "slug": "hondentrimsalon-snuffel-putten",
+  "plaats": "Putten",
+  "tel_display": "06-23166347",
+  "tel_href": "tel:+31623166347",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Snuffel is een kleinschalige salon in Putten waar alle honden welkom zijn, groot of klein, lang- of kortharig. Elke hond krijgt rustig de tijd die nodig is.",
+   "specialisaties": [
+    "Volledige vachtverzorging",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Wassen en drogen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

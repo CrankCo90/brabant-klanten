@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hondentrimsalon in Grolloo · Champagne & Charcoal — Simpel</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#14141a;--soft:#1d1d25;--text:#f0ead9;--mut:#b6b0a0;--gold:#c9a96a;--head:'Cormorant Garamond',serif;--body:'Montserrat',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-weight:300;line-height:1.6}
+img{display:block;max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+nav{position:sticky;top:0;z-index:30;background:rgba(20,20,26,.86);backdrop-filter:blur(10px);border-bottom:1px solid rgba(201,169,106,.18)}
+nav .wrap{display:flex;align-items:center;gap:26px;padding:18px 28px}
+.logo{font-family:var(--head);font-size:1.5rem;font-weight:600;letter-spacing:.02em;margin-right:auto}
+.logo em{color:var(--gold);font-style:italic}
+nav a{color:var(--text);text-decoration:none;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;opacity:.82}
+nav a:hover{opacity:1;color:var(--gold)}
+.lang{border:1px solid rgba(201,169,106,.5);border-radius:999px;padding:5px 12px;font-size:.72rem;cursor:pointer;background:none;color:var(--text);letter-spacing:.1em}
+.cta{background:var(--gold);color:#14141a !important;padding:11px 20px;border-radius:999px;font-weight:600;opacity:1 !important}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;padding:80px 0 70px}
+.kick{color:var(--gold);font-size:.74rem;letter-spacing:.3em;text-transform:uppercase;margin-bottom:20px}
+.hero h1{font-family:var(--head);font-size:4rem;line-height:1.04;font-weight:600;margin-bottom:22px}
+.hero p{color:var(--mut);max-width:440px;margin-bottom:32px;font-size:1.02rem}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.b1{background:var(--gold);color:#14141a;padding:15px 28px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.9rem}
+.b2{border:1px solid var(--gold);color:var(--gold);padding:15px 28px;border-radius:999px;text-decoration:none;font-size:.9rem}
+.hero-img{position:relative}
+.hero-img img{border-radius:16px;width:100%;aspect-ratio:16/11;object-fit:cover;box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.hero-img .tag{position:absolute;bottom:-18px;left:-18px;background:var(--gold);color:#14141a;padding:14px 20px;border-radius:12px;font-family:var(--head);font-size:1.2rem;font-weight:600}
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(201,169,106,.2);border-radius:14px;overflow:hidden;margin:24px 0 90px}
+.strip div{background:var(--soft);padding:30px 28px}
+.strip b{font-family:var(--head);color:var(--gold);font-size:1.4rem;font-weight:600;display:block;margin-bottom:8px}
+.strip span{color:var(--mut);font-size:.9rem}
+.sec-h{text-align:center;margin-bottom:46px}
+.sec-h .kick{margin-bottom:14px}
+.sec-h h2{font-family:var(--head);font-size:2.8rem;font-weight:600}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:90px}
+.gal img{border-radius:12px;aspect-ratio:1;object-fit:cover;transition:transform .4s,filter .4s;filter:grayscale(.15)}
+.gal img:hover{transform:scale(1.03);filter:grayscale(0)}
+footer{background:var(--soft);border-top:1px solid rgba(201,169,106,.18);padding:60px 0}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+.fgrid h4{font-family:var(--head);color:var(--gold);font-size:1.3rem;margin-bottom:14px;font-weight:600}
+.fgrid p,.fgrid a{color:var(--mut);font-size:.92rem;text-decoration:none;display:block;margin-bottom:6px}
+.note{text-align:center;color:rgba(182,176,160,.5);font-size:.72rem;padding:22px;letter-spacing:.05em}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:840px){.hero{grid-template-columns:1fr;padding:48px 0}.hero h1{font-size:2.9rem}.strip,.gal,.fgrid{grid-template-columns:1fr}nav a:not(.cta):not(.lang){display:none}}
+</style></head>
+<body>
+<nav><div class="wrap">
+  <span class="logo"><em>Hondentrimsalon in Grolloo</em></span>
+  <a href="#diensten" data-en="Services">Diensten</a>
+  <a href="#galerij" data-en="Gallery">Galerij</a>
+  <a href="#contact" data-en="Contact">Contact</a>
+  <button class="lang" id="lang">EN</button>
+  <a href="#contact" class="cta" data-en="Book online">Afspraak maken</a>
+</div></nav>
+
+<header class="hero wrap">
+  <div>
+    <div class="kick" data-en="Dog grooming · Grolloo">Hondentrimsalon · Grolloo</div>
+    <h1 data-en="Groomed with love and patience">Met liefde en geduld getrimd</h1>
+    <p data-en="Certified dog groomer for all breeds — from doodle to Pomeranian. Book online and your dog is pampered in all peace and quiet.">Gediplomeerd hondentrimster voor alle rassen — van doodle tot pomeriaan. Boek online en uw hond wordt in alle rust verwend.</p>
+    <div class="btns">
+      <a class="b1" href="#contact" data-en="Book online">Online afspraak maken</a>
+      <a class="b2" href="tel:+31641875871">06-41875871</a>
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202536_44a63800-4be5-4689-a79f-0dee638587f0.png" alt="Vers getrimde hond">
+    <span class="tag">4,9 ★</span>
+  </div>
+</header>
+
+<section class="wrap" id="diensten">
+  <div class="strip">
+    <div><b data-en="All breeds">Alle rassen</b><span data-en="Specialist in doodles, wire-haired and double coated.">Specialist in doodles, ruwharig en double coated.</span></div>
+    <div><b data-en="Certified">Gediplomeerd</b><span data-en="And re-trained every year — knowledge stays current.">En jaarlijks bijgeschoold — vakkennis blijft actueel.</span></div>
+    <div><b data-en="Book online">Online boeken</b><span data-en="Choose your own moment, instant confirmation.">Kies zelf uw moment, bevestiging direct.</span></div>
+  </div>
+</section>
+
+<section class="wrap" id="galerij">
+  <div class="sec-h reveal">
+    <div class="kick" data-en="Gallery">Galerij</div>
+    <h2 data-en="Result you can see">Resultaat om te zien</h2>
+  </div>
+  <div class="gal reveal">
+    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202532_de80f31e-2edf-4639-a7f9-1bbbe17c38b0.png" alt="">
+    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202531_a4dbf38b-aa08-4fca-af24-2b43edc0503f.png" alt="">
+    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202547_ed1b1c81-c842-4466-b383-0e5e9bd8c50e.png" alt="">
+  </div>
+</section>
+
+<section id="over" style="background:var(--bg);color:var(--text);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px"><div><div style="color:var(--gold);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px" data-en="About us">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px" data-en="About Eline">Over Eline</h2><p style="color:var(--mut);line-height:1.75">Eline’s Hondentrimsalon in Grolloo is een gecertificeerde salon voor alle rassen, groot en klein. Met een geduldige en vertrouwde aanpak voelt elke hond zich er op zijn gemak.</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:18px"><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Volledige vachtverzorging</span><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Knippen en scheren</span><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Plukken en effileren</span><span style="border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:.78rem">Wassen en drogen</span></div><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--text)" data-en="Opening hours:">Openingstijden:</strong> Op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--gold);margin-bottom:12px" data-en="Pricing">Tarieven</h3><p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag — afgestemd op ras en vacht. Vraag gerust een richtprijs.</p></div></div></section><footer id="contact"><div class="wrap fgrid">
+  <div><h4>Eline’s Hondentrimsalon</h4><p data-en="Certified dog grooming salon in Grolloo. All breeds, groomed with love and patience.">Gediplomeerde hondentrimsalon in Grolloo. Alle rassen, met liefde en geduld getrimd.</p></div>
+  <div><h4 data-en="Contact">Contact</h4><a href="tel:+31641875871">06-41875871</a><p>Grolloo</p></div>
+  <div><h4 data-en="Opening hours">Openingstijden</h4><p data-en="Mon–Fri 09:00–17:00">ma–vr 09:00–17:00</p><p data-en="Sat 09:00–13:00">za 09:00–13:00</p></div>
+</div></footer>
+
+<script>
+// i18n
+const lb=document.getElementById('lang');let en=false;
+const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
+lb.onclick=()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';
+ document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));};
+// reveal
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
+</script>
+</body></html>
