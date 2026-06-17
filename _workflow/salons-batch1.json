@@ -20951,5 +20951,53 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Rachel Epe",
+  "kort": "Gediplomeerde hondentrimsalon in Epe",
+  "slug": "hondentrimsalon-rachel-epe-epe",
+  "plaats": "Epe",
+  "tel_display": "06-48065972",
+  "tel_href": "tel:+31648065972",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Rachel",
+   "verhaal": "Hondentrimsalon Rachel Epe wordt gerund door Rachel Trip, gediplomeerd hondentrimster die ook gecertificeerd is voor chippen en registreren; elke trimbeurt is inclusief oren, nagels en wassen.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Knip & Soapy trimsalon",
+  "kort": "Moderne hondentrimsalon in Apeldoorn",
+  "slug": "knip-en-soapy-trimsalon-apeldoorn",
+  "plaats": "Apeldoorn",
+  "tel_display": "06-15003043",
+  "tel_href": "tel:+31615003043",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Charlotte",
+   "verhaal": "Knip & Soapy is een moderne trimsalon in de Apeldoornse wijk Zevenhuizen van Charlotte, waar alle honden, ook de grote, een goede trimbeurt krijgen.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen",
+    "Effileren",
+    "Scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

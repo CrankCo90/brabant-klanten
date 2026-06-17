@@ -18342,5 +18342,49 @@
   "telefoon": "06-42526055",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Rachel Epe",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Epe",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T21:21:09",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-rachel-epe-epe.demo.brabantdigital.nl",
+  "waarom": "Actieve trimsalon zonder eigen website — sterke kandidaat voor een eigen demo-site.",
+  "fouten": [
+   "Actieve trimsalon zonder eigen website — sterke kandidaat voor een eigen demo-site"
+  ],
+  "contact": "06-48065972",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-48065972",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Knip & Soapy trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Apeldoorn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T21:21:09",
+  "laatste_post": "",
+  "demo_url": "https://knip-en-soapy-trimsalon-apeldoorn.demo.brabantdigital.nl",
+  "waarom": "Actieve trimsalon zonder eigen website — sterke kandidaat voor een eigen demo-site.",
+  "fouten": [
+   "Actieve trimsalon zonder eigen website — sterke kandidaat voor een eigen demo-site"
+  ],
+  "contact": "06-15003043",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-15003043",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
