@@ -1,0 +1,10 @@
+{
+ "_doc": "Per niche meerdere zoekwoorden/synoniemen. De research-agent zoekt per stad ELK zoekwoord via meerdere bronnen — niet vasthouden aan één term.",
+ "bronnen": ["Google web", "Google Maps", "branchegids (hondentrimsalon-info.nl / nagelstudio-info.nl / pedicure.nl)", "Treatwell / Salonized / Fresha", "Instagram / Facebook", "telefoonboek.nl / goudengids.nl / cylex.nl / doggo.nl", "KvK"],
+ "niches": {
+  "hond": {"label": "Hondentrimsalons", "generator": "hond", "zoekwoorden": ["hondentrimsalon","honden trimsalon","trimsalon hond","trimsalon honden","trimsalon","hondenkapsalon","hondenkapper","dierenkapper","kapper voor honden","hondensalon","hondentrimster","hondentrimservice","dog grooming","trimsalon aan huis"]},
+  "nagels": {"label": "Nagelstudio's", "generator": "nagels", "zoekwoorden": ["nagelstudio","nagelsalon","nailstudio","nail salon","nagelstyliste","gellak","biab nagels","acrylnagels","manicure","nail art","nagels"]},
+  "pedicure": {"label": "Pedicures", "generator": "pedicure", "zoekwoorden": ["pedicure","medisch pedicure","voetverzorging","voetzorg","pedicurepraktijk","pedicuresalon","pedicure aan huis","voetreflexologie","schoonheidssalon voeten"]},
+  "kapper": {"label": "Kappers", "generator": "kapper", "zoekwoorden": ["kapper","kapsalon","haarsalon","hairstylist","barbershop","barber","herenkapper","dameskapper","kapper aan huis","haarstudio"]}
+ }
+}
