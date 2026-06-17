@@ -13339,5 +13339,29 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Sanne's Black Label",
+  "kort": "Hondentrimsalon in Bathmen",
+  "slug": "sannes-black-label-bathmen",
+  "plaats": "Bathmen",
+  "tel_display": "06-23804047",
+  "tel_href": "tel:+31623804047",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Sanne",
+   "verhaal": "Sanne's Black Label in Bathmen verzorgt honden met aandacht en rust en biedt daarnaast een hondenuitlaatservice. Een vertrouwd adres voor een complete vachtverzorging van je hond.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

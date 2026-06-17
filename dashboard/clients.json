@@ -11990,5 +11990,25 @@
   "telefoon": "06-23563873",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Sanne's Black Label",
+  "niche": "Hondentrimsalons",
+  "regio": "Overijssel",
+  "plaats": "Bathmen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://sannes-black-label-bathmen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-23804047",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23804047",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
