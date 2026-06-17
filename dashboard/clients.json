@@ -16110,5 +16110,65 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon t'Stalletje",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Steenbergen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-tstalletje-steenbergen.demo.brabantdigital.nl",
+  "waarom": "Aangesloten bij de VVTN, maar nog geen eigen website.",
+  "fouten": [
+   "Aangesloten bij de VVTN, maar nog geen eigen website"
+  ],
+  "contact": "06-13160335",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13160335",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Doerak",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Roosendaal",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-doerak-roosendaal.demo.brabantdigital.nl",
+  "waarom": "Actief in Roosendaal, maar nog geen eigen website.",
+  "fouten": [
+   "Actief in Roosendaal, maar nog geen eigen website"
+  ],
+  "contact": "06-49814531",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-49814531",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ut Trimsalonneke",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Sint Willebrord",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://ut-trimsalonneke-sint-willebrord.demo.brabantdigital.nl",
+  "waarom": "Werkt 1-op-1 op afspraak, maar de trimsalon heeft nog geen eigen website.",
+  "fouten": [
+   "Werkt 1-op-1 op afspraak, maar de trimsalon heeft nog geen eigen website"
+  ],
+  "contact": "06-16118093",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-16118093",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

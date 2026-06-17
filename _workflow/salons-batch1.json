@@ -18283,5 +18283,77 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon t'Stalletje",
+  "kort": "Honden- en kattentrimsalon in Steenbergen.",
+  "slug": "hondentrimsalon-tstalletje-steenbergen",
+  "plaats": "Steenbergen",
+  "tel_display": "06-13160335",
+  "tel_href": "tel:+31613160335",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon t'Stalletje in Steenbergen verzorgt zowel honden als katten. Aangesloten bij de VVTN voor een vakkundige behandeling.",
+   "specialisaties": [
+    "Honden trimmen",
+    "Katten trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Doerak",
+  "kort": "Hondentrimsalon in Roosendaal.",
+  "slug": "hondentrimsalon-doerak-roosendaal",
+  "plaats": "Roosendaal",
+  "tel_display": "06-49814531",
+  "tel_href": "tel:+31649814531",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Doerak in Roosendaal biedt de complete vachtverzorging voor je hond, van knippen en scheren tot wassen en nagels knippen.",
+   "specialisaties": [
+    "Honden trimmen",
+    "Scheren en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ut Trimsalonneke",
+  "kort": "Hondentrimsalon 1-op-1 in Sint Willebrord.",
+  "slug": "ut-trimsalonneke-sint-willebrord",
+  "plaats": "Sint Willebrord",
+  "tel_display": "06-16118093",
+  "tel_href": "tel:+31616118093",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Ut Trimsalonneke verzorgt honden 1-op-1 in het centrum van Sint Willebrord, in alle rust en uitsluitend op afspraak. Daarnaast is er een gezellige hondenboetiek.",
+   "specialisaties": [
+    "Honden trimmen",
+    "Scheren en effileren",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
