@@ -15979,5 +15979,293 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Was- en Trimsalon Benjy Gorinchem",
+  "kort": "Hondentrimsalon in Gorinchem",
+  "slug": "was-en-trimsalon-benjy-gorinchem",
+  "plaats": "Gorinchem",
+  "tel_display": "0634823158",
+  "tel_href": "tel:+31634823158",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Was- en Trimsalon Benjy in Gorinchem verzorgt honden van wasbeurt tot volledige trimbeurt. Werken gebeurt op afspraak.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Rianne Budel-Dorplein",
+  "kort": "Hondentrimsalon in Budel-Dorplein",
+  "slug": "trimsalon-rianne-budel",
+  "plaats": "Budel-Dorplein",
+  "tel_display": "0651510989",
+  "tel_href": "tel:+31651510989",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Rianne",
+   "verhaal": "Trimsalon Rianne in Budel-Dorplein verzorgt de algehele vachtverzorging van kleine en middelgrote honden, uitsluitend op afspraak.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "That's My Dog Valkenswaard",
+  "kort": "Hondentrimsalon in Valkenswaard",
+  "slug": "thats-my-dog-valkenswaard",
+  "plaats": "Valkenswaard",
+  "tel_display": "0623361094",
+  "tel_href": "tel:+31623361094",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij That's My Dog in Valkenswaard staat het welzijn van de hond op nummer een. Grote en kleine honden zijn welkom voor een trimbeurt met volle aandacht.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Tweet Bergeijk",
+  "kort": "Hondentrimsalon in Bergeijk",
+  "slug": "trimsalon-tweet-bergeijk",
+  "plaats": "Bergeijk",
+  "tel_display": "0639307385",
+  "tel_href": "tel:+31639307385",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Tweet in Bergeijk staan kwaliteit en welzijn van je huisdier voorop. Er wordt vacht- en huidvriendelijk en hygienisch gewerkt, met aandacht voor elke hond.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Effileren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Fikkie Eersel",
+  "kort": "Hondentrimsalon in Eersel",
+  "slug": "hondentrimsalon-fikkie-eersel",
+  "plaats": "Eersel",
+  "tel_display": "0615466685",
+  "tel_href": "tel:+31615466685",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Fikkie in Eersel wordt gerund door twee gediplomeerde hondentrimsters die je hond zo stressvrij mogelijk trimmen.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Leende",
+  "kort": "Hondentrimsalon in Leende",
+  "slug": "trimsalon-leende-leende",
+  "plaats": "Leende",
+  "tel_display": "0619038751",
+  "tel_href": "tel:+31619038751",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Leende kun je terecht voor het professioneel laten trimmen van je hond. De salon is ook in het weekend op afspraak open.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Heeze",
+  "kort": "Hondentrimsalon in Heeze",
+  "slug": "hondentrimsalon-heeze-heeze",
+  "plaats": "Heeze",
+  "tel_display": "0625356689",
+  "tel_href": "tel:+31625356689",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Heeze is een gediplomeerde salon voor de juiste vachtverzorging van je hond, van knippen tot wassen en nagels knippen.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken en effileren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Diablo Lage Mierde",
+  "kort": "Hondentrimsalon in Lage Mierde",
+  "slug": "trimsalon-diablo-lage-mierde",
+  "plaats": "Lage Mierde",
+  "tel_display": "0630426070",
+  "tel_href": "tel:+31630426070",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Diablo in Lage Mierde verzorgt honden en katten van klein tot groot. Er wordt een op een gewerkt, zodat elk dier alle aandacht en rust krijgt.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dog Treatment Shop Son",
+  "kort": "Hondentrimsalon in Son",
+  "slug": "dog-treatment-shop-son",
+  "plaats": "Son",
+  "tel_display": "0630130175",
+  "tel_href": "tel:+31630130175",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Roxane Roestenburg",
+   "verhaal": "Bij Dog Treatment Shop in Son staat het belang van de hond voorop. Roxane neemt alle tijd voor een complete trimbehandeling op maat van de vacht.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bemellow Hondentrimsalon Helmond",
+  "kort": "Hondentrimsalon in Helmond",
+  "slug": "bemellow-hondentrimsalon-helmond",
+  "plaats": "Helmond",
+  "tel_display": "0652024869",
+  "tel_href": "tel:+31652024869",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bemellow in Helmond is de spa onder de hondensalons: een moderne, stijlvolle salon met een breed aanbod, van een snelle wasbeurt tot een luxe totaalbehandeling.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Spa-arrangement"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon HippeKnip Aarle-Rixtel",
+  "kort": "Hondentrimsalon in Aarle-Rixtel",
+  "slug": "trimsalon-hippeknip-aarle-rixtel",
+  "plaats": "Aarle-Rixtel",
+  "tel_display": "0646876553",
+  "tel_href": "tel:+31646876553",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon HippeKnip in Aarle-Rixtel krijgt elke viervoeter een eigen trimbehandeling. Er wordt gekeken naar het gedrag van de hond en geluisterd naar de wensen van de klant.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Ala Pluto Nuenen",
+  "kort": "Hondentrimsalon in Nuenen",
+  "slug": "hondentrimsalon-ala-pluto-nuenen",
+  "plaats": "Nuenen",
+  "tel_display": "0653307830",
+  "tel_href": "tel:+31653307830",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Ala Pluto in Nuenen biedt vakkundige vachtverzorging met aandacht voor je hond, verzorgd door een professioneel gediplomeerd trimster.",
+   "specialisaties": [
+    "Volledige trimbeurt",
+    "Wassen en fohnen",
+    "Nagels knippen",
+    "Plukken of scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
