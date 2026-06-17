@@ -66,7 +66,12 @@ def main():
     log.parent.mkdir(parents=True, exist_ok=True)
     lines = ["# %s — n8n ingest (+%d prospects)" % (d, len(quals)), ""]
     for (reg, nch), n in sorted(by.items()): lines.append("- %s / %s: +%d" % (reg, nch, n))
+    lines += ["", "## Toegevoegd"]
+    for q in quals:
+        contact = (" · " + q["tel"]) if q.get("tel") else ((" · " + q["social"]) if q.get("social") else "")
+        lines.append("- %s — %s (%s)%s" % (q["bedrijf"], q["plaats"], q["niche"], contact))
     lines += ["", "Totalen na ingest: " + ", ".join("%s: %d" % (k, v) for k, v in tot.items()), ""]
     with open(log, "a", encoding="utf-8") as f: f.write("\n".join(lines) + "\n")
-    print("ingest: +%d toegevoegd; totalen %s" % (len(quals), dict(tot)))
+    namen = "; ".join("%s (%s)" % (q["bedrijf"], q["plaats"]) for q in quals)
+    print("ingest: +%d toegevoegd -> %s | totalen %s" % (len(quals), (namen or "geen nieuwe"), dict(tot)))
 main()
