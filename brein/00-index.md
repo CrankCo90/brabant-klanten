@@ -10,7 +10,7 @@
 ## 📌 Kern-documenten
 - [Projectgeheugen & vaste afspraken (CLAUDE.md)](../CLAUDE.md) — laadt elke sessie automatisch; dé bron van afspraken.
 - [Systeemplan — Jarvis + workflow-automation](../_workflow/SYSTEM-PLAN.md) — architectuur + fasen 0-5.
-- [Laatste sessie-overdracht](../_workflow/SESSIE-OVERDRACHT-2026-06-16.md) — wat er recent gedaan/gewijzigd is.
+- [Laatste sessie-overdracht](../_workflow/SESSIE-OVERDRACHT-2026-06-17.md) — wat er recent gedaan/gewijzigd is (17-06: multi-bron v3, steden-JSON gekoppeld, 50/uur-limiet).
 
 ## 🗺️ Werkwijze & data
 - [SOP — Prospect research (stap voor stap)](sop/prospect-research.md)
