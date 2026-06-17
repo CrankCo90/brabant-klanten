@@ -20999,5 +20999,245 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Bobbie",
+  "kort": "Trimsalon Bobbie",
+  "slug": "trimsalon-bobbie-nunspeet",
+  "plaats": "Nunspeet",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Kleinschalige hondentrimsalon in Nunspeet waar elke hond rustig en met persoonlijke aandacht wordt getrimd. Alle rassen en kruisingen zijn welkom.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon De Zandhof",
+  "kort": "De Zandhof",
+  "slug": "hondentrimsalon-de-zandhof-lichtenvoorde",
+  "plaats": "Lichtenvoorde",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Lichtenvoorde met daarnaast een verkooppunt van verse en gedroogde vleessnacks voor honden. Persoonlijke verzorging voor elk ras.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Verkoop hondensnacks"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Leonie",
+  "kort": "Hondentrimsalon Leonie",
+  "slug": "hondentrimsalon-leonie-dalfsen",
+  "plaats": "Dalfsen",
+  "tel_display": "06-14172169",
+  "tel_href": "tel:+31614172169",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Leonie",
+   "verhaal": "Gediplomeerd hondentrimster in Dalfsen, aangesloten bij de AVVT. Elke hond wordt één-op-één en met veel geduld behandeld.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Marjoleins Trimsalon",
+  "kort": "Marjoleins Trimsalon",
+  "slug": "marjoleins-trimsalon-staphorst",
+  "plaats": "Staphorst",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Marjolein",
+   "verhaal": "Trimsalon in Staphorst, gerund door Marjolein. Met een opleiding aan het Huisdier Kennis Instituut wordt elke hond vakkundig en liefdevol verzorgd.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Le Chien Hondentrimsalon",
+  "kort": "Le Chien",
+  "slug": "le-chien-wassenaar",
+  "plaats": "Wassenaar",
+  "tel_display": "06-42579901",
+  "tel_href": "tel:+31642579901",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon en uitlaatservice in Wassenaar, al sinds 2005 actief. Vertrouwd adres voor complete vachtverzorging in de regio.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Teugelhof",
+  "kort": "De Teugelhof",
+  "slug": "trimsalon-de-teugelhof-hellendoorn",
+  "plaats": "Hellendoorn",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Hellendoorn waar honden in een rustige omgeving worden getrimd. Alle rassen en kruisingen zijn welkom.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Perfect Dog",
+  "kort": "Perfect Dog",
+  "slug": "trimsalon-perfect-dog-borculo",
+  "plaats": "Borculo",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Borculo met persoonlijke aandacht voor elke hond. Zowel rashonden als kruisingen worden vakkundig verzorgd.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Perro",
+  "kort": "Trimsalon Perro",
+  "slug": "trimsalon-perro-bodegraven",
+  "plaats": "Bodegraven",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Bodegraven waar elke hond rustig en met aandacht wordt getrimd. Alle rassen zijn welkom.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Aurely's Doggy Haircare",
+  "kort": "Aurely's Doggy Haircare",
+  "slug": "aurelys-doggy-haircare-grou",
+  "plaats": "Grou",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Grou met professionele en liefdevolle vachtverzorging. Persoonlijke aandacht voor elke hond staat voorop.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Heiloo",
+  "kort": "Hondentrimsalon Heiloo",
+  "slug": "hondentrimsalon-heiloo",
+  "plaats": "Heiloo",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Heiloo voor complete vachtverzorging. Elke hond wordt met rust en aandacht behandeld.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
