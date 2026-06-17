@@ -15379,5 +15379,101 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "EL-CI-JO",
+  "kort": "Hondentrimsalon in Terneuzen",
+  "slug": "trimsalon-el-ci-jo-terneuzen",
+  "plaats": "Terneuzen",
+  "tel_display": "0624283911",
+  "tel_href": "tel:+31624283911",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij EL-CI-JO in Terneuzen kun je terecht voor knippen, plukken en scheren, of alleen wassen en borstelen. Er wordt op afspraak gewerkt, ook 's avonds.",
+   "specialisaties": [
+    "Knippen en plukken",
+    "Wassen en borstelen",
+    "Scheren",
+    "Voetzolen en oogjes vrij"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon cHiENNY",
+  "kort": "Hondentrimsalon in Muiderberg",
+  "slug": "hondentrimsalon-chienny-muiderberg",
+  "plaats": "Muiderberg",
+  "tel_display": "0621565917",
+  "tel_href": "tel:+31621565917",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon cHiENNY in Muiderberg is een erkende trimsalon met alle aandacht voor je hond. Je kunt er terecht voor complete vachtverzorging, nagels knippen en het nakijken van de anaalklieren.",
+   "specialisaties": [
+    "Complete vachtverzorging",
+    "Wassen",
+    "Nagels knippen",
+    "Anaalklieren nakijken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Heidi",
+  "kort": "Hondentrimsalon in Putten",
+  "slug": "hondentrimsalon-heidi-putten",
+  "plaats": "Putten",
+  "tel_display": "0627390850",
+  "tel_href": "tel:+31627390850",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Heidi",
+   "verhaal": "Hondentrimsalon Heidi is een kleinschalige trimsalon in Putten waar je hond op afspraak wordt verzorgd.",
+   "specialisaties": [
+    "Volledige vachtverzorging",
+    "Wassen",
+    "Nagels knippen",
+    "Plukken en scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Odie Hondentrimsalon",
+  "kort": "Hondentrimsalon in Putten",
+  "slug": "odie-hondentrimsalon-putten",
+  "plaats": "Putten",
+  "tel_display": "0614523789",
+  "tel_href": "tel:+31614523789",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Odie Hondentrimsalon is een hondentrimsalon in Putten waar je hond met zorg wordt getrimd. Werken gebeurt op afspraak.",
+   "specialisaties": [
+    "Volledige vachtverzorging",
+    "Wassen",
+    "Nagels knippen",
+    "Plukken en scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

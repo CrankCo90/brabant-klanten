@@ -13690,5 +13690,85 @@
   "telefoon": "06-12093349",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "EL-CI-JO",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Terneuzen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-el-ci-jo-terneuzen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website; alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Geen eigen website; alleen telefonisch bereikbaar"
+  ],
+  "contact": "0624283911",
+  "bron": null,
+  "social": "",
+  "telefoon": "0624283911",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon cHiENNY",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Muiderberg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-chienny-muiderberg.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website; alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Geen eigen website; alleen telefonisch bereikbaar"
+  ],
+  "contact": "0621565917",
+  "bron": null,
+  "social": "",
+  "telefoon": "0621565917",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Heidi",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Putten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-heidi-putten.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website; alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Geen eigen website; alleen telefonisch bereikbaar"
+  ],
+  "contact": "0627390850",
+  "bron": null,
+  "social": "",
+  "telefoon": "0627390850",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Odie Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Putten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://odie-hondentrimsalon-putten.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website; alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Geen eigen website; alleen telefonisch bereikbaar"
+  ],
+  "contact": "0614523789",
+  "bron": null,
+  "social": "",
+  "telefoon": "0614523789",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
