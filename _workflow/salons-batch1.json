@@ -20807,5 +20807,77 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Diemer Doggies",
+  "kort": "Hondentrimsalon in Diemen",
+  "slug": "diemer-doggies-diemen",
+  "plaats": "Diemen",
+  "tel_display": "06-46487679",
+  "tel_href": "tel:+31646487679",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Diemer Doggies is een kleinschalige trimsalon aan huis in Diemen, waar elke hond een-op-een en met uitsluitend vegan producten wordt verzorgd.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Posh Dogs Paradise",
+  "kort": "Hondentrimsalon in Amsterdam",
+  "slug": "hondentrimsalon-posh-dogs-paradise-amsterdam",
+  "plaats": "Amsterdam",
+  "tel_display": "06-25587076",
+  "tel_href": "tel:+31625587076",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Posh Dogs Paradise is een hondenboetiek en trimsalon in Amsterdam Nieuw-Sloten, gespecialiseerd in kleine tot middelgrote honden met individuele aandacht.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Baluca",
+  "kort": "Mobiele hondentrimsalon regio Amsterdam",
+  "slug": "hondentrimsalon-baluca-boesingheliede",
+  "plaats": "Boesingheliede",
+  "tel_display": "06-51669917",
+  "tel_href": "tel:+31651669917",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Baluca is een mobiele, gediplomeerde trimsalon die honden verzorgt in de regio Amsterdam-Sloten, Badhoevedorp en Zwanenburg.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen",
+    "Scheren",
+    "Plukken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

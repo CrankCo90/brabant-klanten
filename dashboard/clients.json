@@ -18210,5 +18210,71 @@
   "telefoon": "06 52391687",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Diemer Doggies",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Diemen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T20:19:11",
+  "laatste_post": "",
+  "demo_url": "https://diemer-doggies-diemen.demo.brabantdigital.nl",
+  "waarom": "Actief aan huis, maar nog zonder eigen website",
+  "fouten": [
+   "Actief aan huis, maar nog zonder eigen website"
+  ],
+  "contact": "06-46487679",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-46487679",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Posh Dogs Paradise",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Amsterdam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T20:19:11",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-posh-dogs-paradise-amsterdam.demo.brabantdigital.nl",
+  "waarom": "Gevestigde salon, maar nog zonder eigen website",
+  "fouten": [
+   "Gevestigde salon, maar nog zonder eigen website"
+  ],
+  "contact": "06-25587076",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-25587076",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Baluca",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Boesingheliede",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T20:19:11",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-baluca-boesingheliede.demo.brabantdigital.nl",
+  "waarom": "Mobiele service, maar nog zonder eigen website",
+  "fouten": [
+   "Mobiele service, maar nog zonder eigen website"
+  ],
+  "contact": "06-51669917",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51669917",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
