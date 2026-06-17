@@ -13770,5 +13770,425 @@
   "telefoon": "0614523789",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Zara Ridderkerk",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Ridderkerk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-zara-ridderkerk.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "0610506734",
+  "bron": null,
+  "social": "facebook.com/TrimsalonZaraRidderkerk",
+  "telefoon": "0610506734",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Woef Ridderkerk",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Ridderkerk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-woef-ridderkerk.demo.brabantdigital.nl",
+  "waarom": "Alleen op social media (Instagram/Facebook/TikTok), nog geen eigen website.",
+  "fouten": [
+   "Alleen op social media (Instagram/Facebook/TikTok), nog geen eigen website"
+  ],
+  "contact": "Alleen instagram.com/trimsalon_woefridderkerk",
+  "bron": null,
+  "social": "instagram.com/trimsalon_woefridderkerk",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Doodle Trimsalon Ridderkerk",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Ridderkerk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://doodle-trimsalon-ridderkerk.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/doodletrimsalonridderkerk",
+  "bron": null,
+  "social": "facebook.com/doodletrimsalonridderkerk",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Lesley's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Naaldwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://lesleys-trimsalon-naaldwijk.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/Lesleystrimsalon",
+  "bron": null,
+  "social": "facebook.com/Lesleystrimsalon",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Suzanne",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Naaldwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-suzanne-naaldwijk.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/trimsalonsuzanne",
+  "bron": null,
+  "social": "facebook.com/trimsalonsuzanne",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Schollevaar",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Capelle aan den IJssel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-schollevaar-capelle.demo.brabantdigital.nl",
+  "waarom": "Alleen op social media en WhatsApp, nog geen eigen website.",
+  "fouten": [
+   "Alleen op social media en WhatsApp, nog geen eigen website"
+  ],
+  "contact": "0651631799",
+  "bron": null,
+  "social": "facebook en instagram",
+  "telefoon": "0651631799",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Kynostyle",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Alphen aan den Rijn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-kynostyle-alphen.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/Kynostyle",
+  "bron": null,
+  "social": "facebook.com/Kynostyle",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Fluffy & Fluff Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Vlaardingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://fluffy-en-fluff-vlaardingen.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/61553224963623",
+  "bron": null,
+  "social": "facebook.com/61553224963623",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Petra Schiedam",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Schiedam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-petra-schiedam.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/p/Trimsalon-Petra-100063680587961",
+  "bron": null,
+  "social": "facebook.com/p/Trimsalon-Petra-100063680587961",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Caroline Lubbers",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Schiedam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-caroline-lubbers-schiedam.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/HondentrimsalonCarolineLubbers",
+  "bron": null,
+  "social": "facebook.com/HondentrimsalonCarolineLubbers",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nina's Trimsalon Schiedam",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Schiedam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://ninas-trimsalon-schiedam.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/NinasTrimsalon",
+  "bron": null,
+  "social": "facebook.com/NinasTrimsalon",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Merlin Pet Grooming Salon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Schiedam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://merlin-pet-grooming-schiedam.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/MerlinHondentrimsalon",
+  "bron": null,
+  "social": "facebook.com/MerlinHondentrimsalon",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Perfect Trim Katwijk",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Katwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-perfect-trim-katwijk.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook en WhatsApp, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook en WhatsApp, nog geen eigen website"
+  ],
+  "contact": "0651555997",
+  "bron": null,
+  "social": "facebook.com/p/Trimsalon-Perfect-Trim-Katwijk-100036605836810",
+  "telefoon": "0651555997",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Yentl",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Katwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-yentl-katwijk.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/HondentrimsalonYentl",
+  "bron": null,
+  "social": "facebook.com/HondentrimsalonYentl",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Claudia Katwijk",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Katwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-claudia-katwijk.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/trimsalonclaudia",
+  "bron": null,
+  "social": "facebook.com/trimsalonclaudia",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Perro",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Hellevoetsluis",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-perro-hellevoetsluis.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/hondentrimsalonperro",
+  "bron": null,
+  "social": "facebook.com/hondentrimsalonperro",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimster Monique Hellevoetsluis",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Hellevoetsluis",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimster-monique-hellevoetsluis.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/p/Hondentrimster-Monique-100063537581744",
+  "bron": null,
+  "social": "facebook.com/p/Hondentrimster-Monique-100063537581744",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Waggy Tails Delft",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Delft",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-waggy-tails-delft.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "0638030995",
+  "bron": null,
+  "social": "facebook.com/waggytailstrimsalon",
+  "telefoon": "0638030995",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Leiden",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Leiden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-leiden-stad.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/HondentrimsalonLeiden",
+  "bron": null,
+  "social": "facebook.com/HondentrimsalonLeiden",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Kwispel Dordrecht",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Dordrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-kwispel-dordrecht.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/p/Hondentrimsalon-Kwispel-100042370011055",
+  "bron": null,
+  "social": "facebook.com/p/Hondentrimsalon-Kwispel-100042370011055",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "San's Trimsalon Dordrecht",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Dordrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://sans-trimsalon-dordrecht.demo.brabantdigital.nl",
+  "waarom": "Alleen op Facebook te vinden, nog geen eigen website.",
+  "fouten": [
+   "Alleen op Facebook te vinden, nog geen eigen website"
+  ],
+  "contact": "Alleen facebook.com/sanstrimsalon",
+  "bron": null,
+  "social": "facebook.com/sanstrimsalon",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
