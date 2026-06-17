@@ -14750,5 +14750,125 @@
   "telefoon": "06-40232656",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Pasja",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Silvolde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-pasja-silvolde.demo.brabantdigital.nl",
+  "waarom": "Vakkundige trimsalon, maar nog zonder eigen moderne website.",
+  "fouten": [
+   "Vakkundige trimsalon, maar nog zonder eigen moderne website"
+  ],
+  "contact": "06-51062882",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51062882",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marion Kilder",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Kilder",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-marion-kilder.demo.brabantdigital.nl",
+  "waarom": "Ervaren trimster, maar online lastig te vinden zonder eigen site.",
+  "fouten": [
+   "Ervaren trimster, maar online lastig te vinden zonder eigen site"
+  ],
+  "contact": "06-15452872",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-15452872",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon 4feet",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Didam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-4feet-didam.demo.brabantdigital.nl",
+  "waarom": "Aangesloten bij de ABHB, maar nog geen eigen website.",
+  "fouten": [
+   "Aangesloten bij de ABHB, maar nog geen eigen website"
+  ],
+  "contact": "06-13628382",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13628382",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Hattem",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Hattem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-hattem.demo.brabantdigital.nl",
+  "waarom": "Gediplomeerd en aangesloten bij de AVVT, maar nog zonder eigen website.",
+  "fouten": [
+   "Gediplomeerd en aangesloten bij de AVVT, maar nog zonder eigen website"
+  ],
+  "contact": "06-22252216",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22252216",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bobbers of Beauty",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Wehl",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://bobbers-of-beauty-wehl.demo.brabantdigital.nl",
+  "waarom": "Sympathieke salon met eigen fokkerij, maar nog geen eigen website.",
+  "fouten": [
+   "Sympathieke salon met eigen fokkerij, maar nog geen eigen website"
+  ],
+  "contact": "06-21484792",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21484792",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Woeff",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Wehl",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-woeff-wehl.demo.brabantdigital.nl",
+  "waarom": "Ruime openingstijden, maar nog zonder eigen website.",
+  "fouten": [
+   "Ruime openingstijden, maar nog zonder eigen website"
+  ],
+  "contact": "06-13307720",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13307720",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

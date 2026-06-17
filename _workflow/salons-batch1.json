@@ -16651,5 +16651,149 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Pasja",
+  "kort": "Trimsalon in Silvolde",
+  "slug": "hondentrimsalon-pasja-silvolde",
+  "plaats": "Silvolde",
+  "tel_display": "06-51062882",
+  "tel_href": "tel:+31651062882",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Pasja in Silvolde verzorgt alle rassen en kruisingen met vakkundige aandacht. De salon is ook 's avonds geopend en verkoopt verzorgingsproducten.",
+   "specialisaties": [
+    "Alle rassen en kruisingen",
+    "Vakkundige vachtverzorging",
+    "'s Avonds op afspraak",
+    "Verkoop verzorgingsproducten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marion Kilder",
+  "kort": "Trimsalon in Kilder",
+  "slug": "hondentrimsalon-marion-kilder",
+  "plaats": "Kilder",
+  "tel_display": "06-15452872",
+  "tel_href": "tel:+31615452872",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Marion",
+   "verhaal": "Bij Hondentrimsalon Marion in Kilder krijgt elke hond ruim de tijd, zodat de behandeling met plezier wordt ondergaan. Er wordt getrimd volgens de rasstandaard of naar wens van de klant.",
+   "specialisaties": [
+    "Trimmen volgens rasstandaard",
+    "Knippen & effileren",
+    "Scheren & wassen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon 4feet",
+  "kort": "Trimsalon in Didam",
+  "slug": "trimsalon-4feet-didam",
+  "plaats": "Didam",
+  "tel_display": "06-13628382",
+  "tel_href": "tel:+31613628382",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon 4feet in Didam is een bij de ABHB aangesloten trimsalon voor de complete vachtverzorging van uw hond.",
+   "specialisaties": [
+    "Aangesloten bij de ABHB",
+    "Knippen & scheren",
+    "Wassen & effileren",
+    "Persoonlijke aandacht"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Hattem",
+  "kort": "Trimsalon in Hattem",
+  "slug": "hondentrimsalon-hattem",
+  "plaats": "Hattem",
+  "tel_display": "06-22252216",
+  "tel_href": "tel:+31622252216",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Anneke Doevendans",
+   "verhaal": "Anneke Doevendans is gediplomeerd hondentrimster in Hattem en aangesloten bij de AVVT. Honden worden uitsluitend op afspraak en met persoonlijke aandacht behandeld.",
+   "specialisaties": [
+    "Gediplomeerd trimster",
+    "Aangesloten bij de AVVT",
+    "Alle rassen welkom",
+    "Uitsluitend op afspraak"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bobbers of Beauty",
+  "kort": "Trimsalon in Wehl",
+  "slug": "bobbers-of-beauty-wehl",
+  "plaats": "Wehl",
+  "tel_display": "06-21484792",
+  "tel_href": "tel:+31621484792",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Bobbers of Beauty in Wehl staat persoonlijke aandacht voor uw hond voorop. Daarnaast zijn de eigenaren fokker van de Old English Sheepdog (bobtail).",
+   "specialisaties": [
+    "Persoonlijke aandacht",
+    "Knippen & plukken",
+    "Scheren & wassen",
+    "In het weekend geopend"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Woeff",
+  "kort": "Trimsalon in Wehl",
+  "slug": "trimsalon-woeff-wehl",
+  "plaats": "Wehl",
+  "tel_display": "06-13307720",
+  "tel_href": "tel:+31613307720",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Woeff in Wehl verzorgt alle honden met aandacht. De salon is 's avonds en in het weekend geopend en verkoopt ook verzorgingsproducten.",
+   "specialisaties": [
+    "Knippen & effileren",
+    "Scheren & wassen",
+    "Nagels knippen",
+    "'s Avonds en weekend geopend"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
