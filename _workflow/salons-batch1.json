@@ -19031,5 +19031,197 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapsalon Knip & Hip",
+  "kort": "Knip & Hip",
+  "slug": "hondenkapsalon-knip-en-hip-nieuwegein",
+  "plaats": "Nieuwegein",
+  "tel_display": "06-22861199",
+  "tel_href": "tel:+31622861199",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondenkapsalon Knip & Hip in Nieuwegein verzorgt honden op afspraak, van wassen en knippen tot nagels knippen.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bekkies Hondentrimsalon",
+  "kort": "Bekkies",
+  "slug": "bekkies-hondentrimsalon-zeist",
+  "plaats": "Zeist",
+  "tel_display": "06-41228223",
+  "tel_href": "tel:+31641228223",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bekkies Hondentrimsalon in Zeist verzorgt honden op afspraak, met aandacht voor knippen, plukken en wassen.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Oscar",
+  "kort": "Hondentrimsalon Oscar",
+  "slug": "hondentrimsalon-oscar-leusden",
+  "plaats": "Leusden",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Oscar in Leusden verzorgt honden op afspraak, met aandacht voor knippen, scheren en wassen.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sandy's Trimsalon",
+  "kort": "Sandy's Trimsalon",
+  "slug": "sandys-trimsalon-bilthoven",
+  "plaats": "Bilthoven",
+  "tel_display": "06-41673602",
+  "tel_href": "tel:+31641673602",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Sandy",
+   "verhaal": "Sandy's Trimsalon in Bilthoven verzorgt honden op afspraak, met aandacht voor wassen, knippen en plukken.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Amaranth",
+  "kort": "Trimsalon Amaranth",
+  "slug": "trimsalon-amaranth-ijsselstein",
+  "plaats": "IJsselstein",
+  "tel_display": "06-42649126",
+  "tel_href": "tel:+31642649126",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Amaranth in IJsselstein verzorgt honden op afspraak, met aandacht voor een nette vacht en een rustige behandeling.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Marlinde",
+  "kort": "Trimsalon Marlinde",
+  "slug": "trimsalon-marlinde-benschop",
+  "plaats": "Benschop",
+  "tel_display": "06-14485465",
+  "tel_href": "tel:+31614485465",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Marlinde",
+   "verhaal": "Trimsalon Marlinde in Benschop verzorgt honden op afspraak, met aandacht voor wassen, knippen en plukken.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Molly's Mobiel",
+  "kort": "Molly's Mobiel",
+  "slug": "mollys-mobiel-utrecht",
+  "plaats": "Utrecht",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Molly's Mobiel is een mobiele hondentrimsalon rond Utrecht die honden aan huis verzorgt, op afspraak.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Carla's Hondentrimsalon",
+  "kort": "Carla's Hondentrimsalon",
+  "slug": "carlas-hondentrimsalon-maarssen",
+  "plaats": "Maarssen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Carla",
+   "verhaal": "Carla's Hondentrimsalon in Maarssen verzorgt honden, knaagdieren en katten op afspraak, met aandacht voor de vacht.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

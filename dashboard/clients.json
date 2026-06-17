@@ -16730,5 +16730,165 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapsalon Knip & Hip",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Nieuwegein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondenkapsalon-knip-en-hip-nieuwegein.demo.brabantdigital.nl",
+  "waarom": "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "06-22861199",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22861199",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bekkies Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Zeist",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://bekkies-hondentrimsalon-zeist.demo.brabantdigital.nl",
+  "waarom": "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "06-41228223",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41228223",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Oscar",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Leusden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-oscar-leusden.demo.brabantdigital.nl",
+  "waarom": "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "Alleen facebook.com/hondentrimsalonoscar",
+  "bron": null,
+  "social": "facebook.com/hondentrimsalonoscar",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sandy's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Bilthoven",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://sandys-trimsalon-bilthoven.demo.brabantdigital.nl",
+  "waarom": "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "06-41673602",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41673602",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Amaranth",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "IJsselstein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-amaranth-ijsselstein.demo.brabantdigital.nl",
+  "waarom": "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "06-42649126",
+  "bron": null,
+  "social": "facebook.com/trimsalonamaranth",
+  "telefoon": "06-42649126",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Marlinde",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Benschop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-marlinde-benschop.demo.brabantdigital.nl",
+  "waarom": "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel telefonisch vindbaar, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "06-14485465",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-14485465",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Molly's Mobiel",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Utrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://mollys-mobiel-utrecht.demo.brabantdigital.nl",
+  "waarom": "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "Alleen facebook.com/trimsalonaanhuis",
+  "bron": null,
+  "social": "facebook.com/trimsalonaanhuis",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Carla's Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Maarssen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://carlas-hondentrimsalon-maarssen.demo.brabantdigital.nl",
+  "waarom": "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken.",
+  "fouten": [
+   "Wel actief op Facebook, maar nog geen eigen moderne website met online afspraken maken"
+  ],
+  "contact": "Alleen facebook.com/p/Trimsalon-Carlas-Hondentrimsalon-en-knaagdieren-en-katten-100063761550585",
+  "bron": null,
+  "social": "facebook.com/p/Trimsalon-Carlas-Hondentrimsalon-en-knaagdieren-en-katten-100063761550585",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
