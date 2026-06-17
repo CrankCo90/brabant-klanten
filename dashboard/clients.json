@@ -15330,5 +15330,25 @@
   "telefoon": "0651510989",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Knippies Honden- en Kattentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Sint Pancras",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://knippies-sint-pancras.demo.brabantdigital.nl",
+  "waarom": "Nog geen eigen website",
+  "fouten": [
+   "Nog geen eigen website"
+  ],
+  "contact": "06-22440490",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22440490",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

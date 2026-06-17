@@ -17347,5 +17347,29 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Knippies Honden- en Kattentrimsalon",
+  "kort": "Honden- en kattentrimsalon in Sint Pancras, al sinds 1979 gediplomeerd en aangesloten bij de ABHB.",
+  "slug": "knippies-sint-pancras",
+  "plaats": "Sint Pancras",
+  "tel_display": "06-22440490",
+  "tel_href": "tel:+31622440490",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Marian Leijen",
+   "verhaal": "Marian Leijen verzorgt al sinds 1979 honden en katten van alle rassen in Sint Pancras. Ze werkt volledig op afspraak en geeft elk dier rustig de aandacht die het nodig heeft.",
+   "specialisaties": [
+    "Honden en katten welkom",
+    "Alle rassen, werken op afspraak",
+    "Ruim 40 jaar ervaring",
+    "Aangesloten bij de ABHB"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
