@@ -18276,5 +18276,71 @@
   "telefoon": "06-51669917",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Oudorp",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Alkmaar",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T21:05:07",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-oudorp-alkmaar.demo.brabantdigital.nl",
+  "waarom": "Heeft alleen een hele basale website en is goed bereikbaar via mobiel en WhatsApp; kansrijk voor een moderne demo.",
+  "fouten": [
+   "Heeft alleen een hele basale website en is goed bereikbaar via mobiel en WhatsApp; kansrijk voor een moderne demo"
+  ],
+  "contact": "06-25115460",
+  "bron": null,
+  "social": "https://www.facebook.com/HondentrimsalonOudorp/",
+  "telefoon": "06-25115460",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Liesbeth's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Aalsmeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T21:05:07",
+  "laatste_post": "",
+  "demo_url": "https://liesbeths-trimsalon-aalsmeer.demo.brabantdigital.nl",
+  "waarom": "Werkt met een sterk verouderde website; ruimte voor een frisse, moderne uitstraling.",
+  "fouten": [
+   "Werkt met een sterk verouderde website; ruimte voor een frisse, moderne uitstraling"
+  ],
+  "contact": "06-46141170",
+  "bron": null,
+  "social": "https://www.facebook.com/Liesbethstrimsalon/",
+  "telefoon": "06-46141170",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Miranda uw Hondenkapster",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Den Haag",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-17",
+  "aangemaakt": "2026-06-17T21:05:07",
+  "laatste_post": "",
+  "demo_url": "https://miranda-uw-hondenkapster-den-haag.demo.brabantdigital.nl",
+  "waarom": "Heeft een sterk verouderde website en is goed bereikbaar via mobiel; kansrijk voor een moderne demo.",
+  "fouten": [
+   "Heeft een sterk verouderde website en is goed bereikbaar via mobiel; kansrijk voor een moderne demo"
+  ],
+  "contact": "06-42526055",
+  "bron": null,
+  "social": "https://www.facebook.com/mirandauwhondenkapster/",
+  "telefoon": "06-42526055",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

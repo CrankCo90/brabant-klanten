@@ -20879,5 +20879,77 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Oudorp",
+  "kort": "Hondentrimsalon in Alkmaar (Oudorp)",
+  "slug": "hondentrimsalon-oudorp-alkmaar",
+  "plaats": "Alkmaar",
+  "tel_display": "06-25115460",
+  "tel_href": "tel:+31625115460",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Linda",
+   "verhaal": "Hondentrimsalon Oudorp in Alkmaar wordt gerund door Linda en Marlou, twee gediplomeerde trimsters. Zij verzorgen met aandacht en geduld de vacht van alle hondenrassen in de regio Alkmaar.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Liesbeth's Trimsalon",
+  "kort": "Hondentrimsalon in Aalsmeer",
+  "slug": "liesbeths-trimsalon-aalsmeer",
+  "plaats": "Aalsmeer",
+  "tel_display": "06-46141170",
+  "tel_href": "tel:+31646141170",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Liesbeth",
+   "verhaal": "Liesbeth's Trimsalon in Aalsmeer wordt gerund door Liesbeth Smit, met ruim achttien jaar ervaring in het trimmen en wassen van honden en katten. Alle rassen zijn welkom, op afspraak.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen",
+    "Borstelen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Miranda uw Hondenkapster",
+  "kort": "Hondentrimsalon in Den Haag",
+  "slug": "miranda-uw-hondenkapster-den-haag",
+  "plaats": "Den Haag",
+  "tel_display": "06-42526055",
+  "tel_href": "tel:+31642526055",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Miranda",
+   "verhaal": "Miranda uw Hondenkapster in Den Haag wordt gerund door Miranda de Ridder, al sinds 1988 actief als trimster. Honden en katten worden er met veel zorg en zo min mogelijk stress behandeld.",
+   "specialisaties": [
+    "Knippen",
+    "Wassen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
