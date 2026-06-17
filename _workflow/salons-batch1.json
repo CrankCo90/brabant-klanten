@@ -17851,5 +17851,149 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Emma",
+  "kort": "Hondentrimsalon in hartje Utrecht",
+  "slug": "trimsalon-emma-utrecht",
+  "plaats": "Utrecht",
+  "tel_display": "06-45677973",
+  "tel_href": "tel:+31645677973",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Emma",
+   "verhaal": "Emma runt sinds 2012 haar trimsalon aan de Koningsweg in Utrecht. Alle rassen zijn welkom voor een rustige, vakkundige behandeling.",
+   "specialisaties": [
+    "Knippen & scheren",
+    "Wassen en föhnen",
+    "Vachtverzorging alle rassen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon de Meern",
+  "kort": "Gediplomeerd hondentrimster in De Meern/Vleuten",
+  "slug": "hondentrimsalon-de-meern-vleuten",
+  "plaats": "Vleuten",
+  "tel_display": "06-49909759",
+  "tel_href": "tel:+31649909759",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Linda",
+   "verhaal": "Linda is gediplomeerd hondentrimster en biedt elk hondenras een passende behandeling. De salon is ook 's avonds en onder schooltijden geopend.",
+   "specialisaties": [
+    "Knippen & scheren",
+    "Wassen en drogen",
+    "Effileren & plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Selina",
+  "kort": "Hondentrimsalon op Tholen",
+  "slug": "trimsalon-selina-sint-maartensdijk",
+  "plaats": "Sint-Maartensdijk",
+  "tel_display": "06-83719680",
+  "tel_href": "tel:+31683719680",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Selina",
+   "verhaal": "Selina heeft sinds 2013 haar eigen trimsalon op Tholen. Met aandacht en geduld verzorgt ze de vacht van elke hond.",
+   "specialisaties": [
+    "Knippen & scheren",
+    "Wassen en drogen",
+    "Vachtverzorging",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Oes4fun Hondentrimsalon",
+  "kort": "Hondentrimsalon in Oostburg",
+  "slug": "oes4fun-hondentrimsalon-oostburg",
+  "plaats": "Oostburg",
+  "tel_display": "06-22278940",
+  "tel_href": "tel:+31622278940",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Elly",
+   "verhaal": "Elly verzorgt in Oostburg honden van alle rassen, van een wasbeurt tot een complete trimbeurt. Persoonlijke aandacht staat voorop.",
+   "specialisaties": [
+    "Knippen & scheren",
+    "Wassen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon A-kyra",
+  "kort": "Hondentrimsalon in Zeeuws-Vlaanderen",
+  "slug": "hondentrimsalon-a-kyra-biervliet",
+  "plaats": "Biervliet",
+  "tel_display": "06-53671778",
+  "tel_href": "tel:+31653671778",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon A-kyra verzorgt honden in Biervliet en op een tweede locatie in Heinkenszand. Ook konijnen en katten zijn welkom voor verzorging.",
+   "specialisaties": [
+    "Knippen & scheren",
+    "Wassen",
+    "Vachtverzorging hond en kat",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Free Spirit Dogs",
+  "kort": "Trimsalon & hondenschool in Kruiningen",
+  "slug": "free-spirit-dogs-kruiningen",
+  "plaats": "Kruiningen",
+  "tel_display": "06-21454610",
+  "tel_href": "tel:+31621454610",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Free Spirit Dogs in Kruiningen combineert een trimsalon met hondenschool en opvang. Honden worden er met rust en vakkennis verzorgd.",
+   "specialisaties": [
+    "Knippen & scheren",
+    "Wassen",
+    "Vachtverzorging",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

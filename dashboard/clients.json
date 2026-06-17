@@ -15750,5 +15750,125 @@
   "telefoon": "06 43233747",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Emma",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Utrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-emma-utrecht.demo.brabantdigital.nl",
+  "waarom": "Alleen een lege placeholder-website en Instagram; nog geen moderne eigen site.",
+  "fouten": [
+   "Alleen een lege placeholder-website en Instagram; nog geen moderne eigen site"
+  ],
+  "contact": "06-45677973",
+  "bron": null,
+  "social": "https://www.instagram.com/trimstagramemma/",
+  "telefoon": "06-45677973",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon de Meern",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Vleuten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-de-meern-vleuten.demo.brabantdigital.nl",
+  "waarom": "Zeer basale website en vooral een branchegids-vermelding.",
+  "fouten": [
+   "Zeer basale website en vooral een branchegids-vermelding"
+  ],
+  "contact": "06-49909759",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-49909759",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Selina",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Sint-Maartensdijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-selina-sint-maartensdijk.demo.brabantdigital.nl",
+  "waarom": "Eenvoudige, verouderde website; beperkt online vindbaar.",
+  "fouten": [
+   "Eenvoudige, verouderde website; beperkt online vindbaar"
+  ],
+  "contact": "06-83719680",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-83719680",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Oes4fun Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Oostburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://oes4fun-hondentrimsalon-oostburg.demo.brabantdigital.nl",
+  "waarom": "Verouderde eigen website; vooral via branchegids vindbaar.",
+  "fouten": [
+   "Verouderde eigen website; vooral via branchegids vindbaar"
+  ],
+  "contact": "06-22278940",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22278940",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon A-kyra",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Biervliet",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-a-kyra-biervliet.demo.brabantdigital.nl",
+  "waarom": "Vooral actief via Facebook; slechts een eenvoudige eigen site.",
+  "fouten": [
+   "Vooral actief via Facebook; slechts een eenvoudige eigen site"
+  ],
+  "contact": "06-53671778",
+  "bron": null,
+  "social": "https://www.facebook.com/HondentrimsalonAKyra/",
+  "telefoon": "06-53671778",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Free Spirit Dogs",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Kruiningen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://free-spirit-dogs-kruiningen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen moderne website; vindbaar via losse vermeldingen.",
+  "fouten": [
+   "Geen eigen moderne website; vindbaar via losse vermeldingen"
+  ],
+  "contact": "06-21454610",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21454610",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
