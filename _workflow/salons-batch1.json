@@ -13171,5 +13171,173 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Rachel",
+  "kort": "Complete trimbeurt met liefde en geduld",
+  "slug": "hondentrimsalon-rachel-epe",
+  "plaats": "Epe",
+  "tel_display": "06-48065972",
+  "tel_href": "tel:+31648065972",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Rachel",
+   "verhaal": "Rachel is gediplomeerd hondentrimster in Epe. Een volledige trimbeurt is altijd inclusief oren, nagels, ogen en wassen en föhnen, met veel liefde en geduld voor je hond.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen & oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Favoriet",
+  "kort": "Hondvriendelijke vachtverzorging",
+  "slug": "hondentrimsalon-favoriet-heerhugowaard",
+  "plaats": "Heerhugowaard",
+  "tel_display": "06-24415745",
+  "tel_href": "tel:+31624415745",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Favoriet in Heerhugowaard staat voor een hondvriendelijke vachtverzorging, met aandacht en geduld voor elke hond.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen & oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Ghies",
+  "kort": "Voor kleine en grote honden",
+  "slug": "trimsalon-ghies-elburg",
+  "plaats": "Elburg",
+  "tel_display": "06-12468700",
+  "tel_href": "tel:+31612468700",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Ghies in Elburg kun je terecht voor het trimmen van kleine en grote honden. Ook 's avonds en in het weekend geopend, met verkoop van bijpassende verzorgingsproducten.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen & oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapperij Elburg",
+  "kort": "Gediplomeerd, alle rassen welkom",
+  "slug": "hondenkapperij-elburg",
+  "plaats": "Elburg",
+  "tel_display": "06-23321468",
+  "tel_href": "tel:+31623321468",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondenkapperij Elburg is een gediplomeerde trimsalon waar naast honden ook katten en konijnen welkom zijn. Alle rassen kunnen er terecht voor een vakkundige vachtverzorging.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen & oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Knip",
+  "kort": "Vachtverzorging voor alle rassen",
+  "slug": "trimsalon-de-knip-heemskerk",
+  "plaats": "Heemskerk",
+  "tel_display": "06-12538427",
+  "tel_href": "tel:+31612538427",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon De Knip in Heemskerk verzorgt de vacht van alle hondenrassen, van wassen en knippen tot plukken en nagels. Een vertrouwd adres met aandacht voor je hond.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen & oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Lucky Bastard",
+  "kort": "Specialist in de kleinere hond",
+  "slug": "trimsalon-lucky-bastard-haarlem",
+  "plaats": "Haarlem",
+  "tel_display": "06-22623203",
+  "tel_href": "tel:+31622623203",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Lucky Bastard in Haarlem is gespecialiseerd in de kleinere ras- en bastaardhond. Er wordt één-op-één gewerkt, met volledige vachtverzorging en zelfs een puppy-wenbeurt.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen & oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Oostzaan",
+  "kort": "Gespecialiseerd in grote honden",
+  "slug": "trimsalon-oostzaan-amsterdam",
+  "plaats": "Amsterdam",
+  "tel_display": "06-23563873",
+  "tel_href": "tel:+31623563873",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Oostzaan in Amsterdam is gespecialiseerd in het trimmen en plukken van grote honden, en neemt ook doodles aan. Er wordt steeds gekeken naar de beste behandeling voor jouw hond.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen & oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

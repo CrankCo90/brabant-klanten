@@ -11850,5 +11850,145 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Rachel",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Epe",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-rachel-epe.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-48065972",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-48065972",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Favoriet",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Heerhugowaard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-favoriet-heerhugowaard.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-24415745",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24415745",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Ghies",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Elburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-ghies-elburg.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-12468700",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-12468700",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapperij Elburg",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Elburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondenkapperij-elburg.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-23321468",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23321468",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Knip",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Heemskerk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-knip-heemskerk.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-12538427",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-12538427",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Lucky Bastard",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Haarlem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-lucky-bastard-haarlem.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-22623203",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22623203",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Oostzaan",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Amsterdam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-oostzaan-amsterdam.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-23563873",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23563873",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
