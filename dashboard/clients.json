@@ -13130,5 +13130,65 @@
   "telefoon": "06-29129087",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "De Hondentrimsalon van Zutphen",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Zutphen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-van-zutphen-zutphen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook en 06).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook en 06)"
+  ],
+  "contact": "06-24458118",
+  "bron": null,
+  "social": "facebook.com/hondentrimsalonvanzutphen",
+  "telefoon": "06-24458118",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Yvon",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Beuningen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-yvon-beuningen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen facebook.com/yvon.hondentrimsalonyvon",
+  "bron": null,
+  "social": "facebook.com/yvon.hondentrimsalonyvon",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon de Trouwe Makker",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Heerde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-trouwe-makker-heerde.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook en 06).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook en 06)"
+  ],
+  "contact": "06-28679657",
+  "bron": null,
+  "social": "facebook.com/trimsalondetrouwemakker",
+  "telefoon": "06-28679657",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

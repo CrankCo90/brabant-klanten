@@ -14707,5 +14707,77 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "De Hondentrimsalon van Zutphen",
+  "kort": "Trimsalon van Zutphen",
+  "slug": "hondentrimsalon-van-zutphen-zutphen",
+  "plaats": "Zutphen",
+  "tel_display": "06-24458118",
+  "tel_href": "tel:+31624458118",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "De Hondentrimsalon van Zutphen is een ruime, moderne trimsalon in het centrum van Zutphen waar honden van alle rassen en maten terecht kunnen. Er wordt gewerkt met natuurlijke verzorgingsproducten en uitsluitend op afspraak.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Yvon",
+  "kort": "Trimsalon Yvon",
+  "slug": "hondentrimsalon-yvon-beuningen",
+  "plaats": "Beuningen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Yvon in Beuningen verzorgt met aandacht de vacht van kleine en middelgrote honden. Je hond wordt er rustig en vakkundig getrimd, helemaal op afspraak.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon de Trouwe Makker",
+  "kort": "Trouwe Makker",
+  "slug": "trimsalon-de-trouwe-makker-heerde",
+  "plaats": "Heerde",
+  "tel_display": "06-28679657",
+  "tel_href": "tel:+31628679657",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon de Trouwe Makker in Heerde biedt complete vachtverzorging voor hond en kat. In een rustige salon wordt elke viervoeter met geduld en aandacht getrimd, op afspraak.",
+   "specialisaties": [
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
