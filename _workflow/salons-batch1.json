@@ -19343,5 +19343,197 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Vachtastisch",
+  "kort": "Vachtastisch",
+  "slug": "hondentrimsalon-vachtastisch-emmen",
+  "plaats": "Emmen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Vachtastisch in Emmen verzorgt honden van alle rassen en vachttypes. Bellen of appen kan voor een afspraak; er wordt rustig en op afspraak gewerkt.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon La Kingma",
+  "kort": "La Kingma",
+  "slug": "trimsalon-la-kingma-heerenveen",
+  "plaats": "Heerenveen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon La Kingma verzorgt honden in en rond Heerenveen met aandacht voor elke vacht. Op afspraak en in alle rust.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Dog a la Bock",
+  "kort": "Dog a la Bock",
+  "slug": "trimsalon-dog-a-la-bock-spijkenisse",
+  "plaats": "Spijkenisse",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Dog a la Bock in Spijkenisse wordt gerund door de zussen Mabella en Carlotta. Elke hond wordt met liefde en aandacht getrimd.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Canis Lupus",
+  "kort": "Canis Lupus",
+  "slug": "hondentrimsalon-canis-lupus-den-helder",
+  "plaats": "Den Helder",
+  "tel_display": "06-18644394",
+  "tel_href": "tel:+31618644394",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Canis Lupus in Den Helder verzorgt honden van alle rassen en vachttypes. Bellen, appen of mailen kan voor een afspraak.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Melanie Sondervan Trimsalon",
+  "kort": "Melanie Sondervan",
+  "slug": "melanie-sondervan-trimsalon-lelystad",
+  "plaats": "Lelystad",
+  "tel_display": "06-35666408",
+  "tel_href": "tel:+31635666408",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Melanie Sondervan",
+   "verhaal": "Bij Melanie Sondervan Trimsalon in Lelystad wordt je hond met aandacht en geduld verzorgd. Bellen of appen kan voor een afspraak.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden- en kattentrimsalon Woofff",
+  "kort": "Trimsalon Woofff",
+  "slug": "trimsalon-woofff-roosendaal",
+  "plaats": "Roosendaal",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Honden- en kattentrimsalon Woofff in Roosendaal verzorgt honden en katten van alle rassen. Er wordt rustig en op afspraak gewerkt.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Beau Doetinchem",
+  "kort": "Trimsalon Beau",
+  "slug": "trimsalon-beau-doetinchem",
+  "plaats": "Doetinchem",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Beau in Doetinchem verzorgt honden van alle rassen met aandacht en geduld. Op afspraak en in alle rust.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Shine Bright",
+  "kort": "Shine Bright",
+  "slug": "trimsalon-shine-bright-goes",
+  "plaats": "Goes",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Shine Bright in Goes verzorgt honden van alle rassen en vachttypes. Er wordt rustig en op afspraak gewerkt.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
