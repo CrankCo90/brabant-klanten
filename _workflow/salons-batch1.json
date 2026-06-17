@@ -15259,5 +15259,125 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Damwoude",
+  "kort": "Hondentrimsalon in Damwâld",
+  "slug": "hondentrimsalon-damwoude-damwoude",
+  "plaats": "Damwoude",
+  "tel_display": "06-81971804",
+  "tel_href": "tel:+31681971804",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Damwoude verzorgt op afspraak alle rassen in Damwâld. Er is alle tijd voor een rustige, persoonlijke behandeling.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken",
+    "Wassen en drogen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon by Nienke",
+  "kort": "Hondentrimsalon in Drachten",
+  "slug": "trimsalon-by-nienke-drachten",
+  "plaats": "Drachten",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Nienke",
+   "verhaal": "Trimsalon by Nienke in Drachten biedt persoonlijke vachtverzorging voor alle hondenrassen, groot en klein.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sa-ba-dé Hondentrimsalon",
+  "kort": "Hondentrimsalon in Buitenpost",
+  "slug": "sa-ba-de-hondentrimsalon-buitenpost",
+  "plaats": "Buitenpost",
+  "tel_display": "06-29107105",
+  "tel_href": "tel:+31629107105",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Sa-ba-dé Hondentrimsalon in Buitenpost verzorgt honden van alle rassen met geduld en vakmanschap.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken",
+    "Wassen en drogen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "AB Fab Hondentrimsalon",
+  "kort": "Hondentrimsalon in Doezum",
+  "slug": "ab-fab-hondentrimsalon-doezum",
+  "plaats": "Doezum",
+  "tel_display": "06-20320725",
+  "tel_href": "tel:+31620320725",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "AB Fab is een kleinschalige hondentrimsalon in Doezum waar elke hond rustig en met persoonlijke aandacht wordt verzorgd.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken",
+    "Wassen en drogen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenthuiskapper Marum",
+  "kort": "Hondentrimsalon in Marum",
+  "slug": "hondenthuiskapper-marum",
+  "plaats": "Marum",
+  "tel_display": "06-12093349",
+  "tel_href": "tel:+31612093349",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondenthuiskapper in Marum biedt rustige, persoonlijke vachtverzorging voor honden van alle rassen.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Plukken",
+    "Wassen en drogen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

@@ -13590,5 +13590,105 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Damwoude",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Damwoude",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-damwoude-damwoude.demo.brabantdigital.nl",
+  "waarom": "Alleen telefonisch (mobiel) bereikbaar, geen vindbare website.",
+  "fouten": [
+   "Alleen telefonisch (mobiel) bereikbaar, geen vindbare website"
+  ],
+  "contact": "06-81971804",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-81971804",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon by Nienke",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Drachten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-by-nienke-drachten.demo.brabantdigital.nl",
+  "waarom": "Alleen aanwezig op Facebook, geen eigen website.",
+  "fouten": [
+   "Alleen aanwezig op Facebook, geen eigen website"
+  ],
+  "contact": "Alleen FB Trimsalon by Nienke",
+  "bron": null,
+  "social": "FB Trimsalon by Nienke",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sa-ba-dé Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Buitenpost",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://sa-ba-de-hondentrimsalon-buitenpost.demo.brabantdigital.nl",
+  "waarom": "Alleen telefonisch (mobiel) bereikbaar, geen eigen website.",
+  "fouten": [
+   "Alleen telefonisch (mobiel) bereikbaar, geen eigen website"
+  ],
+  "contact": "06-29107105",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-29107105",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "AB Fab Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Doezum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://ab-fab-hondentrimsalon-doezum.demo.brabantdigital.nl",
+  "waarom": "Alleen telefonisch (mobiel) bereikbaar, geen eigen website.",
+  "fouten": [
+   "Alleen telefonisch (mobiel) bereikbaar, geen eigen website"
+  ],
+  "contact": "06-20320725",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-20320725",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenthuiskapper Marum",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Marum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondenthuiskapper-marum.demo.brabantdigital.nl",
+  "waarom": "Alleen telefonisch (mobiel) bereikbaar, geen eigen website.",
+  "fouten": [
+   "Alleen telefonisch (mobiel) bereikbaar, geen eigen website"
+  ],
+  "contact": "06-12093349",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-12093349",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
