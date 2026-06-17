@@ -12307,5 +12307,149 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Belinda",
+  "kort": "Trimsalon Belinda",
+  "slug": "trimsalon-belinda-sellingen",
+  "plaats": "Sellingen",
+  "tel_display": "06-52690394",
+  "tel_href": "tel:+31652690394",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Belinda is een diervriendelijke, kleinschalige salon voor hond en kat in Sellingen. Er wordt rustig en met persoonlijke aandacht gewerkt, zodat elke viervoeter ontspannen weer naar huis gaat.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Spikkel",
+  "kort": "Trimsalon Spikkel",
+  "slug": "trimsalon-spikkel-gasselte",
+  "plaats": "Gasselte",
+  "tel_display": "06-13023143",
+  "tel_href": "tel:+31613023143",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Spikkel in Gasselte is een kleinschalige salon voor de complete vachtverzorging van uw hond. Elke hond wordt rustig en met aandacht behandeld.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Furfection by Denise",
+  "kort": "Furfection by Denise",
+  "slug": "furfection-by-denise-wilp",
+  "plaats": "Wilp",
+  "tel_display": "06-21573749",
+  "tel_href": "tel:+31621573749",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Denise",
+   "verhaal": "Furfection by Denise in Wilp is een trimsalon van gediplomeerd paraveterinair en hondentrimster Denise. Elke hond wordt met rust en liefde tot in de puntjes verzorgd, altijd in overleg met de eigenaar.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "del Prado Hondentrimsalon",
+  "kort": "del Prado Hondentrimsalon",
+  "slug": "del-prado-hondentrimsalon-holten",
+  "plaats": "Holten",
+  "tel_display": "06-13012913",
+  "tel_href": "tel:+31613012913",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "del Prado Hondentrimsalon in Holten heeft ruim dertig jaar ervaring en behandelt alle rassen. Er wordt uitsluitend met natuurproducten gewerkt, met veel aandacht voor het welzijn van de hond.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Pluk Apeldoorn",
+  "kort": "Trimsalon Pluk",
+  "slug": "trimsalon-pluk-apeldoorn",
+  "plaats": "Apeldoorn",
+  "tel_display": "06-30503994",
+  "tel_href": "tel:+31630503994",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Pluk in Apeldoorn verzorgt honden met liefde en aandacht. Elke hond krijgt een rustige, vakkundige trimbeurt op maat.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Rocko's",
+  "kort": "Trimsalon Rocko's",
+  "slug": "trimsalon-rockos-eerbeek",
+  "plaats": "Eerbeek",
+  "tel_display": "06-53915987",
+  "tel_href": "tel:+31653915987",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Rocko's in Eerbeek is een rijksgediplomeerde trimsalon met passie voor honden. Alle rassen zijn welkom en er wordt uitgebreid de tijd genomen, met individuele aandacht en zonder stress.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

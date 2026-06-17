@@ -11130,5 +11130,125 @@
   "telefoon": "06-10315845",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Belinda",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Sellingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-belinda-sellingen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-52690394",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52690394",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Spikkel",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Gasselte",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-spikkel-gasselte.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-13023143",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13023143",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Furfection by Denise",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Wilp",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://furfection-by-denise-wilp.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-21573749",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21573749",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "del Prado Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Overijssel",
+  "plaats": "Holten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://del-prado-hondentrimsalon-holten.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-13012913",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13012913",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Pluk Apeldoorn",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Apeldoorn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-pluk-apeldoorn.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-30503994",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-30503994",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Rocko's",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Eerbeek",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-rockos-eerbeek.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-53915987",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53915987",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
