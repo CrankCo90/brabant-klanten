@@ -24,7 +24,7 @@
 - [research/](research/) — losse research-notities en bronnen.
 
 ## 🔧 Status van het systeem (kort)
-- **Fase 0** Fundament ✅ · **Fase 1** Dekkingskaart ✅ · **Fase 2** Research-workflow in n8n (v1) ✅ · **Fase 2b** publicatie-koppeling (volgt) · **Fase 3** Telegram-Jarvis · **Fase 4** geheugen/brein · **Fase 5** nieuwe niches + chat/spraak.
+- **Fase 0** Fundament ✅ · **Fase 1** Dekkingskaart ✅ · **Fase 2** Research-workflow n8n: v1 (gids) ✅ · v2 multi-bron + verifieer-agent ✅ (testen) · **Fase 2b** publicatie-koppeling (volgt) · **Fase 3** Telegram-Jarvis · **Fase 4** geheugen/brein · **Fase 5** nieuwe niches + chat/spraak.
 - Niches live: Hondentrimsalons, Nagelstudio's, Pedicures, Kappers (met 2 premium-designs).
 - Demo's: `*.demo.brabantdigital.nl` op één wildcard-cert (handmatig verlengen vóór **14-09-2026**).
 

@@ -2,6 +2,11 @@
 
 > Belangrijke keuzes en het waarom. Nieuwste bovenaan. Houd het kort: beslissing → reden.
 
+## 2026-06-17 (bronnen-uitbreiding)
+- **Hybride multi-bron research gekozen** (gratis/goedkoop bronnen + één verifieer-agent). Geen dure API's (geen Apify/Google Places); KvK gratis-zoek mag erbij (key nog aanmaken).
+- **n8n workflow v2 gebouwd:** "Prospect Research — Multi-bron (v2)" (id hw5AtjJX3Lu38FtM). Per stad parallel: branchegids + OpenStreetMap (Overpass) → samenvoegen → verifieer-agent (Claude) kruist/dedupet/verrijkt + regels (06/e-mail/actieve social, recency 2026+, cross-source betrouwbaarheid) → bundel → POST naar /api/add-prospects. v1 (alleen gids) blijft tot v2 is getest.
+- **Bron-landschap vastgelegd:** gratis = branchegidsen, cylex/telefoonboek/openingstijden/doggo, OpenStreetMap, branche-ledenlijsten (ABHB/ProVoet/ANBOS). Betaald/niet nu = Apify (Maps/IG-recency), Google Places. IG/FB nooit met eigen login scrapen (ToS/ban).
+
 ## 2026-06-17
 - **Social-recency-criterium toegevoegd.** Social telt alleen als bereikbaar contact bij een laatste post in 2026+. Stale profielen (bv. niets sinds 2022) = verspilde energie → niet kwalificeren als social-only. Onbekend = voordeel van de twijfel. Ingebouwd in `ingest-prospects.py` (MIN_POST_YEAR=2026) + n8n-extractieprompt (veld `laatste_post`).
 - **Logged-in IG/FB NIET aan n8n koppelen.** Persoonlijk ingelogd account automatiseren = tegen de ToS van Meta + bankrisico (ban/CAPTCHA). Compliant alternatief: Apify-actors (eigen sessies/proxies) of Google-bedrijfsprofiel (recente foto's/posts met datum) voor recency-signaal. Niet onze eigen login als scraper gebruiken.
