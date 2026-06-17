@@ -15290,5 +15290,25 @@
   "telefoon": "06-55274499",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Chinky Doggy's Spa",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Bergen op Zoom",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://chinky-doggys-spa-bergen-op-zoom.demo.brabantdigital.nl",
+  "waarom": "Nog geen eigen website; beter online vindbaar maken kan veel nieuwe klanten opleveren.",
+  "fouten": [
+   "Nog geen eigen website; beter online vindbaar maken kan veel nieuwe klanten opleveren"
+  ],
+  "contact": "06-57645165",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-57645165",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

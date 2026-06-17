@@ -17299,5 +17299,29 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Chinky Doggy's Spa",
+  "kort": "Hondentrimsalon in Bergen op Zoom",
+  "slug": "chinky-doggys-spa-bergen-op-zoom",
+  "plaats": "Bergen op Zoom",
+  "tel_display": "06-57645165",
+  "tel_href": "tel:+31657645165",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Een gediplomeerd hondentrimster in Bergen op Zoom waar elk ras, groot en klein, welkom is. Honden gaan er kwispelend weer naar huis en hun baasje met een glimlach.",
+   "specialisaties": [
+    "Alle hondenrassen",
+    "Wassen en drogen",
+    "Nagels knippen",
+    "Knippen, scheren en plukken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
