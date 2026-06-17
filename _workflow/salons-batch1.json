@@ -12451,5 +12451,221 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ina's Walk Out",
+  "kort": "Ina's Walk Out",
+  "slug": "inas-walk-out-westerlee",
+  "plaats": "Westerlee",
+  "tel_display": "06-28027000",
+  "tel_href": "tel:+31628027000",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Ina",
+   "verhaal": "Ina's Walk Out in Westerlee is een trimsalon waar alle honden, van groot tot klein, welkom zijn. De salon beschikt over moderne apparatuur en er wordt bewust rust gecreeerd, want het welzijn van de hond staat altijd voorop.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Ontwollen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapsalon Poedelpret",
+  "kort": "Poedelpret",
+  "slug": "hondenkapsalon-poedelpret-zwolle",
+  "plaats": "Zwolle",
+  "tel_display": "06-26423022",
+  "tel_href": "tel:+31626423022",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondenkapsalon Poedelpret in Zwolle is een kleine, gediplomeerde trimsalon met veel aandacht voor uw wensen en het welzijn van de hond. Er wordt een-op-een en huid- en vachtvriendelijk gewerkt, met een persoonlijk behandelplan voor elke hond.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Knip & Soapy Trimsalon",
+  "kort": "Knip & Soapy",
+  "slug": "knip-en-soapy-apeldoorn",
+  "plaats": "Apeldoorn",
+  "tel_display": "06-15003043",
+  "tel_href": "tel:+31615003043",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Charlotte",
+   "verhaal": "Knip & Soapy is een mooie, moderne trimsalon in de Apeldoornse wijk Zevenhuizen, waar alle honden welkom zijn, ook de grotere rassen. Iedere hond verdient een goede trimbeurt en krijgt hier rustig de aandacht die hij verdient.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon The Generation's",
+  "kort": "The Generation's",
+  "slug": "trimsalon-the-generations-voorthuizen",
+  "plaats": "Voorthuizen",
+  "tel_display": "06-43988336",
+  "tel_href": "tel:+31643988336",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon The Generation's in Voorthuizen biedt complete vachtverzorging en is gespecialiseerd in doodles, al zijn alle honden, groot of klein, van harte welkom. Er wordt rustig en alleen op afspraak gewerkt.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Happy Hound Hondentrimsalon",
+  "kort": "Happy Hound",
+  "slug": "happy-hound-apeldoorn",
+  "plaats": "Apeldoorn",
+  "tel_display": "06-17504124",
+  "tel_href": "tel:+31617504124",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Happy Hound in Apeldoorn staat voor 'Happy Hounds, Happy People': een vrolijke trimsalon waar uw hond met aandacht en plezier wordt verzorgd. Alle rassen zijn welkom voor een complete vachtbehandeling.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Van Chayoek",
+  "kort": "Van Chayoek",
+  "slug": "trimsalon-van-chayoek-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-81292344",
+  "tel_href": "tel:+31681292344",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Van Chayoek in Arnhem is een honden- en kattentrimsalon voor de complete vachtverzorging van uw huisdier. Elke hond krijgt een vakkundige en rustige behandeling.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Rijdende Trimsalon",
+  "kort": "De Rijdende Trimsalon",
+  "slug": "de-rijdende-trimsalon-amersfoort",
+  "plaats": "Amersfoort",
+  "tel_display": "06-41494593",
+  "tel_href": "tel:+31641494593",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Marjo",
+   "verhaal": "De Rijdende Trimsalon van Marjo Manten is een gezellige hondentrimsalon aan huis in Amersfoort. Op afspraak wordt uw hond opgehaald en na de behandeling weer thuisgebracht, maar u kunt uw hond uiteraard ook zelf brengen en halen.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Kynotrim",
+  "kort": "Kynotrim",
+  "slug": "trimsalon-kynotrim-nijmegen",
+  "plaats": "Nijmegen",
+  "tel_display": "06-24892390",
+  "tel_href": "tel:+31624892390",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Kynotrim in Nijmegen is het adres voor het vakkundig trimmen van uw hond in de regio Nijmegen, Wijchen en Beuningen. U kunt er terecht voor scheren, knippen, effileren, plukken, wassen en een complete vachtverzorging.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Woezel",
+  "kort": "Trimsalon Woezel",
+  "slug": "trimsalon-woezel-groesbeek",
+  "plaats": "Groesbeek",
+  "tel_display": "06-11137951",
+  "tel_href": "tel:+31611137951",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Woezel in Groesbeek wordt gerund door een gediplomeerd trimster en dierenartsassistente. Er wordt alleen op afspraak en altijd een-op-een gewerkt, zodat er alle tijd en aandacht is voor uw viervoeter.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
