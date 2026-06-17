@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Saar · Blush & Velvet — Pootjes</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Mulish:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8eef1;--soft:#fbf6f7;--text:#42283a;--mut:#8a6f80;--plum:#7a3f5e;--rose:#c98aa0;--head:'Fraunces',serif;--body:'Mulish',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-weight:300;line-height:1.65;overflow-x:hidden}
+img{display:block;max-width:100%}
+#paws{position:fixed;inset:0;z-index:0;pointer-events:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 28px;position:relative;z-index:2}
+nav{position:sticky;top:0;z-index:40;background:rgba(248,238,241,.85);backdrop-filter:blur(10px)}
+nav .wrap{display:flex;align-items:center;gap:24px;padding:18px 28px}
+.logo{font-family:var(--head);font-size:1.5rem;font-weight:600;margin-right:auto}.logo em{color:var(--plum);font-style:italic}
+nav a{color:var(--text);text-decoration:none;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;opacity:.8}
+nav a:hover{color:var(--plum)}
+.lang{border:1px solid var(--rose);border-radius:999px;padding:5px 12px;font-size:.7rem;cursor:pointer;background:none;color:var(--plum)}
+.cta{background:var(--plum);color:#fff !important;padding:11px 20px;border-radius:999px;font-weight:600}
+.hero{text-align:center;padding:96px 0 80px}
+.hero .kick{color:var(--plum);letter-spacing:.3em;text-transform:uppercase;font-size:.76rem;margin-bottom:22px}
+.hero h1{font-family:var(--head);font-size:4.4rem;line-height:1.05;font-weight:600;max-width:880px;margin:0 auto 22px}
+.hero h1 em{font-style:italic;color:var(--plum)}
+.hero p{color:var(--mut);max-width:520px;margin:0 auto 32px;font-size:1.05rem}
+.btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.b1{background:var(--plum);color:#fff;padding:15px 30px;border-radius:999px;text-decoration:none;font-weight:600;transition:.25s}.b1:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(122,63,94,.3)}
+.b2{border:1px solid var(--plum);color:var(--plum);padding:15px 30px;border-radius:999px;text-decoration:none}
+.heroimg{max-width:760px;margin:50px auto 0;position:relative}
+.heroimg img{width:100%;border-radius:24px;aspect-ratio:16/9;object-fit:cover;box-shadow:0 30px 70px rgba(122,63,94,.25)}
+.heroimg .pill{position:absolute;background:#fff;border-radius:14px;padding:12px 18px;box-shadow:0 12px 30px rgba(122,63,94,.18);font-size:.85rem;font-weight:600}
+.heroimg .p1{top:24px;left:-20px}.heroimg .p2{bottom:30px;right:-16px;color:var(--plum)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding:90px 0}
+.card{background:var(--soft);border-radius:20px;padding:38px 30px;text-align:center;transition:.35s}
+.card:hover{transform:translateY(-8px);box-shadow:0 22px 50px rgba(122,63,94,.16)}
+.card .em{font-size:2.4rem;display:block;margin-bottom:14px}
+.card h3{font-family:var(--head);font-size:1.4rem;font-weight:600;margin-bottom:10px}
+.card p{color:var(--mut);font-size:.92rem}
+.cta-band{text-align:center;padding:100px 0}
+.cta-band h2{font-family:var(--head);font-size:3rem;font-weight:600;margin-bottom:16px}
+.cta-band p{color:var(--mut);margin-bottom:28px}
+footer{padding:48px 0;text-align:center;color:var(--mut);font-size:.9rem;border-top:1px solid rgba(122,63,94,.14)}
+footer b{color:var(--plum);font-family:var(--head)}
+.note{text-align:center;color:rgba(138,111,128,.6);font-size:.72rem;padding:18px}
+.reveal{opacity:0;transform:translateY(30px);transition:.8s}.reveal.in{opacity:1;transform:none}
+@media(max-width:840px){.hero h1{font-size:2.8rem}.cards{grid-template-columns:1fr}.heroimg .pill{display:none}nav a:not(.cta):not(.lang){display:none}}
+</style></head>
+<body>
+<canvas id="paws"></canvas>
+<nav><div class="wrap">
+  <span class="logo"><em>Saar</em></span>
+  <a href="#diensten" data-en="Services">Diensten</a>
+  <a href="#book" data-en="Contact">Contact</a>
+  <button class="lang" id="lang">EN</button>
+  <a href="#book" class="cta" data-en="Book">Afspraak maken</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="kick" data-en="Dog grooming · Assendelft">Hondentrimsalon · Assendelft</div>
+  <h1 data-en="Where your dog is <em>pampered</em>">Waar uw hond wordt <em>verwend</em></h1>
+  <p data-en="A personal grooming salon. Love, patience and craftsmanship — for every coat, every breed.">Een persoonlijke trimsalon. Liefde, geduld en vakmanschap — voor elke vacht, elk ras.</p>
+  <div class="btns"><a class="b1" href="#book" data-en="Plan an appointment">Plan een afspraak</a><a class="b2" href="#diensten" data-en="View services">Bekijk diensten</a></div>
+  <div class="heroimg">
+    <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202535_aef9ea13-c29c-497d-af4f-b611909888d6.png" alt="">
+    <span class="pill p1">🐾 <span data-en="All breeds">Alle rassen</span></span>
+    <span class="pill p2">★ 4,9 Google</span>
+  </div>
+</div></header>
+
+<section class="wrap" id="diensten"><div class="cards">
+  <div class="card reveal"><span class="em">🛁</span><h3 data-en="Wash & blow-dry">Wassen &amp; föhnen</h3><p data-en="A gentle wash and careful drying, tailored to the coat.">Een zachte wasbeurt en zorgvuldig drogen, afgestemd op de vacht.</p></div>
+  <div class="card reveal"><span class="em">✂️</span><h3 data-en="Full grooming">Volledige trimbeurt</h3><p data-en="Trimming, stripping or clipping — exactly what the breed needs.">Knippen, plukken of scheren — precies wat het ras nodig heeft.</p></div>
+  <div class="card reveal"><span class="em">💕</span><h3 data-en="Puppy intro">Puppy-kennismaking</h3><p data-en="A relaxed first visit so grooming stays fun for life.">Een ontspannen eerste keer zodat trimmen een leven lang leuk blijft.</p></div>
+</div></section>
+
+<section class="cta-band" id="book"><div class="wrap">
+  <h2 class="reveal" data-en="Treat your dog">Verwen uw hond</h2>
+  <p class="reveal" data-en="Book online whenever it suits you — even in the evening.">Boek online wanneer het u uitkomt — ook 's avonds.</p>
+  <a class="b1 reveal" href="#book" data-en="Book online">Online afspraak maken</a>
+</div></section>
+
+<section id="over" style="background:var(--bg);color:var(--text);padding:74px 0;border-top:1px solid rgba(128,128,128,.18)"><div style="max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:46px"><div><div style="color:var(--plum);letter-spacing:.26em;text-transform:uppercase;font-size:.72rem;margin-bottom:14px" data-en="About us">Over ons</div><h2 style="font-family:var(--head);font-size:2rem;margin-bottom:16px" data-en="About us">Over ons</h2><p style="color:var(--mut);line-height:1.75">Sinds 2024 runt deze trimster een salon aan huis in Assendelft, vernoemd naar hond Saar, waar telkens maar één hond tegelijk in alle rust wordt behandeld.</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:18px"><span style="border:1px solid var(--plum);color:var(--plum);border-radius:999px;padding:5px 12px;font-size:.78rem">Wassen & föhnen</span><span style="border:1px solid var(--plum);color:var(--plum);border-radius:999px;padding:5px 12px;font-size:.78rem">Knippen & scheren</span><span style="border:1px solid var(--plum);color:var(--plum);border-radius:999px;padding:5px 12px;font-size:.78rem">Plukken & effileren</span><span style="border:1px solid var(--plum);color:var(--plum);border-radius:999px;padding:5px 12px;font-size:.78rem">Nagels knippen</span></div><p style="color:var(--mut);margin-top:14px"><strong style="color:var(--text)" data-en="Opening hours:">Openingstijden:</strong> Op afspraak</p></div><div><h3 style="font-family:var(--head);font-size:1.4rem;color:var(--plum);margin-bottom:12px" data-en="Pricing">Tarieven</h3><p style="color:var(--mut)" data-en="Price on request — tailored to your needs. Feel free to ask for a quote.">Prijs op aanvraag — afgestemd op ras en vacht. Vraag gerust een richtprijs.</p></div></div></section><footer><div class="wrap"><b>Honden Trimsalon Saar</b> · Assendelft · 06-20623338</div></footer>
+
+<script>
+const lb=document.getElementById('lang');let en=false;
+const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
+lb.onclick=()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));};
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.16});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+// floating paws
+const cv=document.getElementById('paws'),cx=cv.getContext('2d');let W,H,P;
+function paw(x,y,s,r,o){cx.save();cx.translate(x,y);cx.rotate(r);cx.scale(s,s);cx.fillStyle='rgba(122,63,94,'+o+')';
+ [[0,-9,5],[-9,-4,4.2],[9,-4,4.2],[0,7,7.5]].forEach(([px,py,pr])=>{cx.beginPath();cx.ellipse(px,py,pr,pr*1.2,0,0,7);cx.fill()});cx.restore();}
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight;P=Array.from({length:18},()=>({x:Math.random()*W,y:Math.random()*H,s:Math.random()*.9+.5,sp:Math.random()*.35+.12,r:Math.random()*6,o:Math.random()*.06+.03}))}
+rs();addEventListener('resize',rs);
+(function loop(){cx.clearRect(0,0,W,H);P.forEach(p=>{p.y-=p.sp;p.r+=.002;if(p.y<-30){p.y=H+30;p.x=Math.random()*W}paw(p.x,p.y,p.s,p.r,p.o)});requestAnimationFrame(loop)})();
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
+</script>
+</body></html>
