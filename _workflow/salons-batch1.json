@@ -17323,5 +17323,29 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Rianne",
+  "kort": "Trimsalon Budel-Dorplein",
+  "slug": "trimsalon-rianne-budel-dorplein",
+  "plaats": "Budel-Dorplein",
+  "tel_display": "0651510989",
+  "tel_href": "tel:+31651510989",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Rianne",
+   "verhaal": "Trimsalon Rianne in Budel-Dorplein verzorgt de algehele vachtverzorging van kleine en middelgrote honden. Er wordt uitsluitend op afspraak gewerkt, met rust en aandacht voor elke hond.",
+   "specialisaties": [
+    "Kleine en middelgrote honden",
+    "Complete vachtverzorging",
+    "Knippen & scheren",
+    "Op afspraak"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

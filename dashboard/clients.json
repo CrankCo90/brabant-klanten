@@ -15310,5 +15310,25 @@
   "telefoon": "06-57645165",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Rianne",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Budel-Dorplein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-rianne-budel-dorplein.demo.brabantdigital.nl",
+  "waarom": "Trimster in Budel-Dorplein zonder eigen website, alleen mobiel bereikbaar",
+  "fouten": [
+   "Trimster in Budel-Dorplein zonder eigen website, alleen mobiel bereikbaar"
+  ],
+  "contact": "0651510989",
+  "bron": null,
+  "social": "",
+  "telefoon": "0651510989",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
