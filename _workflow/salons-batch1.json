@@ -19223,5 +19223,125 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Tyco",
+  "kort": "Trimsalon Tyco",
+  "slug": "trimsalon-tyco-workum",
+  "plaats": "Workum",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Tyco in Workum verzorgt honden van alle rassen, groot en klein. Er wordt op afspraak gewerkt met aandacht voor een rustige, complete vachtverzorging.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Harlingen",
+  "kort": "Trimsalon Harlingen",
+  "slug": "trimsalon-harlingen",
+  "plaats": "Harlingen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Harlingen biedt complete vachtverzorging voor honden van klein tot groot. Klanten kunnen op afspraak terecht voor een vakkundige trimbeurt.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden trimsalon Anna",
+  "kort": "Honden trimsalon Anna",
+  "slug": "honden-trimsalon-anna-harlingen",
+  "plaats": "Harlingen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Anna",
+   "verhaal": "Honden trimsalon Anna in Harlingen trimt honden van alle rassen met persoonlijke aandacht. Er wordt rustig en op afspraak gewerkt.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marian",
+  "kort": "Hondentrimsalon Marian",
+  "slug": "hondentrimsalon-marian-stiens",
+  "plaats": "Stiens",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Marian",
+   "verhaal": "Hondentrimsalon Marian in Stiens verzorgt de vacht van honden van alle maten. Er wordt op afspraak gewerkt, met aandacht voor een ontspannen bezoek.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon TimeLess",
+  "kort": "Trimsalon TimeLess",
+  "slug": "trimsalon-timeless-makkum",
+  "plaats": "Makkum",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon TimeLess in Makkum is er voor honden van alle rassen en vachttypes. De vachtverzorging gebeurt rustig en op afspraak.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

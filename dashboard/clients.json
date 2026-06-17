@@ -16890,5 +16890,105 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Tyco",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Workum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-tyco-workum.demo.brabantdigital.nl",
+  "waarom": "Actief op Facebook, maar nog geen eigen moderne website.",
+  "fouten": [
+   "Actief op Facebook, maar nog geen eigen moderne website"
+  ],
+  "contact": "Alleen https://www.facebook.com/TrimsalonTyco/",
+  "bron": null,
+  "social": "https://www.facebook.com/TrimsalonTyco/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Harlingen",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Harlingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-harlingen.demo.brabantdigital.nl",
+  "waarom": "Actief op Facebook, maar nog geen eigen moderne website.",
+  "fouten": [
+   "Actief op Facebook, maar nog geen eigen moderne website"
+  ],
+  "contact": "Alleen https://www.facebook.com/trimsalonharlingen/",
+  "bron": null,
+  "social": "https://www.facebook.com/trimsalonharlingen/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden trimsalon Anna",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Harlingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://honden-trimsalon-anna-harlingen.demo.brabantdigital.nl",
+  "waarom": "Actief op Facebook, maar nog geen eigen moderne website.",
+  "fouten": [
+   "Actief op Facebook, maar nog geen eigen moderne website"
+  ],
+  "contact": "Alleen https://www.facebook.com/Trimsalonanna/",
+  "bron": null,
+  "social": "https://www.facebook.com/Trimsalonanna/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marian",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Stiens",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-marian-stiens.demo.brabantdigital.nl",
+  "waarom": "Actief op Facebook, maar nog geen eigen moderne website.",
+  "fouten": [
+   "Actief op Facebook, maar nog geen eigen moderne website"
+  ],
+  "contact": "Alleen https://www.facebook.com/hondentrimsalonmarian/",
+  "bron": null,
+  "social": "https://www.facebook.com/hondentrimsalonmarian/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon TimeLess",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Makkum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-timeless-makkum.demo.brabantdigital.nl",
+  "waarom": "Actief op Facebook, maar nog geen eigen moderne website.",
+  "fouten": [
+   "Actief op Facebook, maar nog geen eigen moderne website"
+  ],
+  "contact": "Alleen https://www.facebook.com/p/Trimsalon-TimeLess-61560681158121/",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Trimsalon-TimeLess-61560681158121/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
