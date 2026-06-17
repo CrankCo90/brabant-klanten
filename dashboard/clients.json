@@ -11530,5 +11530,125 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden trimsalon De stijlvolle-4voeter",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Almere",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-stijlvolle-4voeter-almere.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-24656907",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24656907",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Berna's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Winschoten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://bernas-trimsalon-winschoten.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Karin Solle Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Tolbert",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://karin-solle-trimsalon-tolbert.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-39545132",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-39545132",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "HondenKapsalon Trim-Art",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Roswinkel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondenkapsalon-trim-art-roswinkel.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-33704606",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-33704606",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon de Hondenpoot",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Emmen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-hondenpoot-emmen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-57149365",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-57149365",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Happy",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Klazienaveen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-happy-klazienaveen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-46346147",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-46346147",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

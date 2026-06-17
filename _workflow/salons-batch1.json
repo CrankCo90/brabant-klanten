@@ -12787,5 +12787,149 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden trimsalon De stijlvolle-4voeter",
+  "kort": "Hondentrimsalon in Almere",
+  "slug": "trimsalon-de-stijlvolle-4voeter-almere",
+  "plaats": "Almere",
+  "tel_display": "06-24656907",
+  "tel_href": "tel:+31624656907",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij De Stijlvolle 4-voeter wordt elke hond individueel behandeld, zonder andere honden in de salon. Zo krijgt jouw hond in alle rust een volledige vachtverzorging; ook puppy's zijn van harte welkom.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en ontwollen",
+    "Puppybehandeling"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Berna's Trimsalon",
+  "kort": "Hondentrimsalon in Winschoten",
+  "slug": "bernas-trimsalon-winschoten",
+  "plaats": "Winschoten",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Berna's Trimsalon in Winschoten is gespecialiseerd in de vachtverzorging van kleine honden. Elke hond krijgt rustig en met aandacht een mooie, frisse trimbeurt.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en ontwollen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Karin Solle Trimsalon",
+  "kort": "Hondentrimsalon in Tolbert",
+  "slug": "karin-solle-trimsalon-tolbert",
+  "plaats": "Tolbert",
+  "tel_display": "06-39545132",
+  "tel_href": "tel:+31639545132",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Karin",
+   "verhaal": "Bij Karin Solle in Tolbert kun je terecht voor een volledige trimbehandeling, maar ook voor alleen wassen of nagels knippen. Er is zelfs een gratis puppy-uurtje, zodat je pup rustig kan wennen aan de salon.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "HondenKapsalon Trim-Art",
+  "kort": "Hondentrimsalon in Roswinkel",
+  "slug": "hondenkapsalon-trim-art-roswinkel",
+  "plaats": "Roswinkel",
+  "tel_display": "06-33704606",
+  "tel_href": "tel:+31633704606",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "HondenKapsalon Trim-Art in Roswinkel is een kleinschalige salon met tijd en aandacht voor jouw hond. Tijdens de trimbeurt is er geen ander dier aanwezig, zodat jouw hond rustig wordt behandeld.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon de Hondenpoot",
+  "kort": "Hondentrimsalon in Emmen",
+  "slug": "trimsalon-de-hondenpoot-emmen",
+  "plaats": "Emmen",
+  "tel_display": "06-57149365",
+  "tel_href": "tel:+31657149365",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon de Hondenpoot in Emmen wordt elke hond met veel passie, liefde en geduld behandeld, op een vacht- en kindvriendelijke manier. De salon is daarnaast gespecialiseerd in doodles.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Happy",
+  "kort": "Hondentrimsalon in Klazienaveen",
+  "slug": "hondentrimsalon-happy-klazienaveen",
+  "plaats": "Klazienaveen",
+  "tel_display": "06-46346147",
+  "tel_href": "tel:+31646346147",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Happy in Klazienaveen is een kleine salon voor de complete vachtverzorging van jouw hond. Voor puppy's is er een gratis verwenbehandeling, zodat ze rustig kunnen wennen.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en ontwollen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
