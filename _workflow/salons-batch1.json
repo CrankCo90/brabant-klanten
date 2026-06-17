@@ -12161,5 +12161,151 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Enjoy",
+  "kort": "Trimsalon Enjoy",
+  "slug": "trimsalon-enjoy-zwolle",
+  "plaats": "Zwolle",
+  "tel_display": "06-27452400",
+  "tel_href": "tel:+31627452400",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Enjoy in Zwolle krijgt uw hond een lieve, professionele trimbehandeling. Er wordt rustig en zonder strakke planning gewerkt, met steeds maar één hond tegelijk in de salon.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon-Jits",
+  "kort": "Hondentrimsalon-Jits",
+  "slug": "hondentrimsalon-jits-zwolle",
+  "plaats": "Zwolle",
+  "tel_display": "06-41667075",
+  "tel_href": "tel:+31641667075",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Jitske Baarsma",
+   "verhaal": "Hondentrimsalon-Jits in Zwolle wordt gerund door Jitske Baarsma, gediplomeerd hondentrimster. Alle rassen en vachten zijn welkom voor een vakkundige en betaalbare trimbehandeling.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [
+    "HKI-gediplomeerd hondentrimmer"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Joyce",
+  "kort": "Trimsalon Joyce",
+  "slug": "trimsalon-joyce-hengelo",
+  "plaats": "Hengelo",
+  "tel_display": "06-51892328",
+  "tel_href": "tel:+31651892328",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Joyce in Hengelo is hét adres voor de complete vachtverzorging van uw hond. Er wordt op afspraak gewerkt, ook 's avonds en in het weekend.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Scheren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Twente",
+  "kort": "Trimsalon Twente",
+  "slug": "trimsalon-twente-hengelo",
+  "plaats": "Hengelo",
+  "tel_display": "06-54938305",
+  "tel_href": "tel:+31654938305",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Twente in Hengelo verzorgt alle hondenrassen met aandacht en vakmanschap. Er wordt op afspraak gewerkt en er is verkoop van verzorgingsproducten voor thuis.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Plukken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Marije's trimhokske",
+  "kort": "Marije's trimhokske",
+  "slug": "marijes-trimhokske-eibergen",
+  "plaats": "Eibergen",
+  "tel_display": "06-53686232",
+  "tel_href": "tel:+31653686232",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Marije's trimhökske in Eibergen is een erkende trimsalon waar alle hondenrassen welkom zijn. Samen met u bepalen we hoe uw hond er op zijn mooist uit komt te zien.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Uw Hippe Hond",
+  "kort": "Uw Hippe Hond",
+  "slug": "uw-hippe-hond-winterswijk",
+  "plaats": "Winterswijk",
+  "tel_display": "06-10315845",
+  "tel_href": "tel:+31610315845",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Uw Hippe Hond in Winterswijk staan twee gediplomeerde trimsters klaar voor honden, konijnen en cavia's. Er wordt gewerkt met professionele, milieuvriendelijke producten en veel liefdevolle aandacht.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Effileren",
+    "Plukken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
