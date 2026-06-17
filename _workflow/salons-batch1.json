@@ -12667,5 +12667,125 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon De Knipperie",
+  "kort": "De Knipperie",
+  "slug": "de-knipperie-sirjansland",
+  "plaats": "Sirjansland",
+  "tel_display": "06-55069636",
+  "tel_href": "tel:+31655069636",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon De Knipperie in Sirjansland verzorgt met aandacht de vacht van alle hondenrassen. In een rustige salon wordt elke hond op zijn gemak gewassen, geknipt en netjes in model gebracht.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Haartjes en Staartjes",
+  "kort": "Haartjes en Staartjes",
+  "slug": "haartjes-en-staartjes-bruinisse",
+  "plaats": "Bruinisse",
+  "tel_display": "06-53986694",
+  "tel_href": "tel:+31653986694",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Hondentrimsalon Haartjes en Staartjes in Bruinisse is je hond in vertrouwde handen voor een complete trimbeurt. Van wassen tot knippen en plukken gebeurt alles met rust en persoonlijke aandacht.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Effileren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Mara's Trimsalon Honden en Katten",
+  "kort": "Mara's Trimsalon",
+  "slug": "maras-trimsalon-poortvliet",
+  "plaats": "Poortvliet",
+  "tel_display": "06-82501028",
+  "tel_href": "tel:+31682501028",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Mara van Tiggele",
+   "verhaal": "Mara's Trimsalon in Poortvliet is de salon van Mara van Tiggele, gediplomeerd hondentrimster. Honden en katten worden er met veel liefde en geduld verzorgd.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Stalland",
+  "kort": "Trimsalon Stalland",
+  "slug": "trimsalon-stalland-sint-annaland",
+  "plaats": "Sint Annaland",
+  "tel_display": "06-14153448",
+  "tel_href": "tel:+31614153448",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Stalland in Sint Annaland verzorgt honden van klein tot groot in een rustige, vertrouwde omgeving. Elke hond krijgt een complete trimbeurt op maat.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Zoeteweij Hondentrimsalon",
+  "kort": "Zoeteweij",
+  "slug": "zoeteweij-hondentrimsalon-yerseke",
+  "plaats": "Yerseke",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Zoeteweij Hondentrimsalon in Yerseke verzorgt honden van alle rassen met aandacht en geduld. Je hond wordt er rustig gewassen, geknipt en netjes afgewerkt.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

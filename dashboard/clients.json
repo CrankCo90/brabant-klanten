@@ -11430,5 +11430,105 @@
   "telefoon": "06-11137951",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon De Knipperie",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Sirjansland",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://de-knipperie-sirjansland.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-55069636",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-55069636",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Haartjes en Staartjes",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Bruinisse",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://haartjes-en-staartjes-bruinisse.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-53986694",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-53986694",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Mara's Trimsalon Honden en Katten",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Poortvliet",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://maras-trimsalon-poortvliet.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-82501028",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-82501028",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Stalland",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Sint Annaland",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-stalland-sint-annaland.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-14153448",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-14153448",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Zoeteweij Hondentrimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Yerseke",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://zoeteweij-hondentrimsalon-yerseke.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "(contact nog nodig)",
+  "bron": null,
+  "social": "",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
