@@ -14430,5 +14430,325 @@
   "telefoon": "0653307830",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Lisanne de Haan",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Leeuwarden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-lisanne-de-haan-leeuwarden.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-10170000",
+  "bron": null,
+  "social": "https://www.facebook.com/HondentrimsalonLisanneDeHaan/",
+  "telefoon": "06-10170000",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "The Dog Spa",
+  "niche": "Hondentrimsalons",
+  "regio": "Utrecht",
+  "plaats": "Bunschoten-Spakenburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://the-dog-spa-bunschoten-spakenburg.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-15180721",
+  "bron": null,
+  "social": "https://www.facebook.com/TheDogSpatrimsalon/",
+  "telefoon": "06-15180721",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Hondengeluk",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Hoevelaken",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-hondengeluk-hoevelaken.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "Alleen https://www.instagram.com/trimsalon_hondengeluk/",
+  "bron": null,
+  "social": "https://www.instagram.com/trimsalon_hondengeluk/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Perro's",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Lelystad",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-perro-s-lelystad.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "Alleen https://www.facebook.com/TrimsalonPerros/",
+  "bron": null,
+  "social": "https://www.facebook.com/TrimsalonPerros/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon No stress",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Goes",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-no-stress-goes.demo.brabantdigital.nl",
+  "waarom": "Geen eigen of verouderde website; alleen telefonisch/social bereikbaar.",
+  "fouten": [
+   "Geen eigen of verouderde website; alleen telefonisch/social bereikbaar"
+  ],
+  "contact": "06-40847648",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-40847648",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Karin's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Enkhuizen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://karin-s-trimsalon-enkhuizen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen of verouderde website; alleen telefonisch/social bereikbaar.",
+  "fouten": [
+   "Geen eigen of verouderde website; alleen telefonisch/social bereikbaar"
+  ],
+  "contact": "06-20832221",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-20832221",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marijke",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-marijke-brunssum.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-15414820",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Hondentrimsalon-marijke-100057480938315/",
+  "telefoon": "06-15414820",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon bij Peet",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Nuenen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-bij-peet-nuenen.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-24681558",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Trimsalon-bij-Peet-61553596917630/",
+  "telefoon": "06-24681558",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon TopTrim",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Heesch",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-toptrim-heesch.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-46242933",
+  "bron": null,
+  "social": "https://www.facebook.com/toptrimheesch/",
+  "telefoon": "06-46242933",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Trees",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Bellingwolde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-trees-bellingwolde.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-25373296",
+  "bron": null,
+  "social": "https://www.facebook.com/people/Hondentrimsalon-Trees/100057656191455/",
+  "telefoon": "06-25373296",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Annika",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Middelstum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-annika-middelstum.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-22773325",
+  "bron": null,
+  "social": "https://www.facebook.com/profile.php?id=61564140702248",
+  "telefoon": "06-22773325",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Petite Perle",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Grootegast",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-petite-perle-grootegast.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-10978332",
+  "bron": null,
+  "social": "https://www.facebook.com/trimsalonpetiteperle/",
+  "telefoon": "06-10978332",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalonjordy",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Wagenborgen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalonjordy-wagenborgen.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "Alleen https://www.facebook.com/people/Trimsalonjordy/100039758365691/",
+  "bron": null,
+  "social": "https://www.facebook.com/people/Trimsalonjordy/100039758365691/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon De Blauwe Hond",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Finsterwolde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-de-blauwe-hond-finsterwolde.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "Alleen https://www.facebook.com/TrimsalonDeBlauweHond/",
+  "bron": null,
+  "social": "https://www.facebook.com/TrimsalonDeBlauweHond/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Gretha's doggy wellness",
+  "niche": "Hondentrimsalons",
+  "regio": "Friesland",
+  "plaats": "Aldeboarn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://gretha-s-doggy-wellness-aldeboarn.demo.brabantdigital.nl",
+  "waarom": "Alleen via social media aanwezig, geen eigen website.",
+  "fouten": [
+   "Alleen via social media aanwezig, geen eigen website"
+  ],
+  "contact": "06-29175055",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Grethas-doggy-wellness-100090668343808/",
+  "telefoon": "06-29175055",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stefanie's Honden Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Drenthe",
+  "plaats": "Peize",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://stefanie-s-honden-trimsalon-peize.demo.brabantdigital.nl",
+  "waarom": "Geen eigen of verouderde website; alleen telefonisch/social bereikbaar.",
+  "fouten": [
+   "Geen eigen of verouderde website; alleen telefonisch/social bereikbaar"
+  ],
+  "contact": "06-40232656",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-40232656",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
