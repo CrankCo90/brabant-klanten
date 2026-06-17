@@ -1132,7 +1132,7 @@ function toClient(d,i){
  return {id:i,bedrijf:d.bedrijf,n:d.bedrijf,city:cityOf(d),dist:distOf(d),region:d.regio||cityOf(d),
    nicheLabel:label,niche:nk(label),st:st,score:d.score||0,em:emailOf(d),es:esOf(d),
    web:d.bron?stripProto(d.bron):null,weburl:d.bron||'',social:d.social||null,phone:(d.telefoon||phoneOf(d)),address:d.plaats||cityOf(d),
-   demo_url:d.demo_url||'',waarom:d.waarom||'',fouten:d.fouten||[],werkdag:d.werkdag||'',wa:d.wa_tekst||'',land:d.land||'NL',taal:d.taal||'nl'};
+   demo_url:d.demo_url||'',waarom:d.waarom||'',fouten:d.fouten||[],werkdag:d.werkdag||'',aangemaakt:d.aangemaakt||d.werkdag||'',laatste_post:d.laatste_post||'',wa:d.wa_tekst||'',land:d.land||'NL',taal:d.taal||'nl'};
 }
 function rebuild(){buildSent();CLIENTS=DATA.map(toClient);}
 
@@ -1309,6 +1309,7 @@ function bindFilters(){var sb=$("#klantSort");if(sb)sb.addEventListener('change'
 
 var ACT_ICONS={plus:'<path d="M12 5v14M5 12h14"/>',sparkle:'<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/>',mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',check:'<path d="M20 6L9 17l-5-5"/>',x:'<path d="M6 6l12 12M18 6L6 18"/>'};
 function relDay(iso){if(!iso)return '';var t=Date.parse(iso);if(isNaN(t))return '';var dd=Math.round((Date.now()-t)/86400000);if(dd<=0)return 'vandaag';if(dd===1)return 'gisteren';if(dd<14)return dd+' dagen geleden';return Math.round(dd/7)+' weken geleden';}
+function fmtDT(iso){if(!iso)return '';var t=Date.parse(iso);if(isNaN(t))return '';var x=new Date(t);var M=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];var s=x.getDate()+' '+M[x.getMonth()]+' '+x.getFullYear();if(String(iso).indexOf('T')>-1||String(iso).indexOf(':')>-1){var p=function(n){return ('0'+n).slice(-2);};s+=' \u00b7 '+p(x.getHours())+':'+p(x.getMinutes());}return s;}
 function clamp(v){return Math.max(1,Math.min(5,Math.round(v)));}
 function shotUrl(u,w){if(!u)return "";var full=/^https?:/.test(u)?u:("https://"+stripProto(u));return "https://s.wordpress.com/mshots/v1/"+encodeURIComponent(full)+"?w="+(w||720);}
 function bframe(label,url,tone){var img=url?'<img class="bshot" loading="lazy" src="'+shotUrl(url,900)+'" alt="'+label+'" onerror="this.remove();var p=this.parentNode.querySelector(\'.bscreen\');if(p)p.style.display=\'grid\'">':'';return '<div class="bframe '+(tone||'')+'"><div class="bbar"><span class="bdot"></span><span class="bdot"></span><span class="bdot"></span><span class="burl">'+(url||'—')+'</span></div><div class="bscreen-wrap">'+img+'<div class="bscreen" style="'+(url?'display:none':'')+'"><span class="bscreen-lbl">'+label+'</span></div></div></div>';}
@@ -1318,9 +1319,9 @@ function buildDetail(c){
  var tips=(c.fouten&&c.fouten.length)?c.fouten.slice():[];
  if(!tips.length){tips=hasWeb?['Verouderde site zonder online afspraken of prijzen']:['Geen eigen website, alleen een vermelding online'];tips.push('Geen vindbare prijzen, openingstijden of reviews');if(!c.em)tips.push('Geen e-mailadres gevonden — benaderen via bel/app');}
  var breakdown=[{k:"Kans op verbetering web",v:hasWeb?clamp(c.score-1):5},{k:"Bereikbaarheid",v:c.em?5:(c.phone?3:1)},{k:"Vindbaarheid (Google)",v:clamp(c.score-1)},{k:"Reviews aanwezig",v:clamp(c.score-2)},{k:"Activiteit social media",v:clamp(c.score)}];
- var act=[{t:"Toegevoegd door Claude",d:relDay(c.werkdag)||'—',ic:"plus",tone:"gold"}];
+ var _added=c.aangemaakt||c.werkdag||'';var _addLbl=fmtDT(_added);var _addRel=relDay(_added);var act=[{t:"Toegevoegd door Claude",d:(_addLbl?(_addLbl+(_addRel?' ('+_addRel+')':'')):'—'),ic:"plus",tone:"gold"}];
  var demoReady=!!c.demo_url;
- if(demoReady)act.unshift({t:"Demo-website gebouwd",d:relDay(c.werkdag)||'—',ic:"sparkle",tone:"demo"});
+ if(demoReady)act.unshift({t:"Demo-website gebouwd",d:(_addLbl?(_addLbl+(_addRel?' ('+_addRel+')':'')):'—'),ic:"sparkle",tone:"demo"});
  if(c.es==='verzonden'||c.st==='benaderd')act.unshift({t:"Outreach-mail verzonden",d:"recent",ic:"mail",tone:"benaderd"});
  if(c.st==='benaderd')act.unshift({t:"Wacht op reactie",d:"nu",ic:"clock",tone:"muted"});
  if(c.st==='gekocht')act.unshift({t:"Klant geworden",d:"recent",ic:"check",tone:"gekocht"});
@@ -1353,7 +1354,7 @@ function renderKlantDetail(c){var d=buildDetail(c);var loc=c.dist?c.city+' · '+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Gevonden punten <span class="amp">/ pitch-tips</span></span></div><div class="panel-body"><ul class="tips">'+d.tips.map(function(t){return '<li>'+t+'</li>';}).join('')+'</ul></div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Activiteit</span></div><div class="panel-body"><div class="timeline">'+d.activity.map(function(a){return '<div class="tl-item '+a.tone+'"><span class="tl-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+(ACT_ICONS[a.ic]||ACT_ICONS.plus)+'</svg></span><div class="tl-body"><span class="tl-t">'+a.t+'</span><span class="tl-d">'+a.d+'</span></div></div>';}).join('')+'</div></div></div>'+
  '</div><div class="detail-side">'+
- '<div class="panel"><div class="panel-head"><span class="panel-title">Bedrijfsgegevens</span></div><div class="panel-body kvlist">'+kv('Niche',c.nicheLabel)+kv('Telefoon',c.phone)+kv('E-mail',c.em?'<a class="link" href="mailto:'+c.em+'">'+c.em+'</a>':'')+kv('Website',c.web?'<a class="link" href="'+(c.weburl||('https://'+c.web))+'" target="_blank" rel="noopener">'+c.web+'</a>':'')+kv('Bron',srcLinks(c))+kv('Plaats',c.address)+kv('Regio',c.region)+'</div></div>'+
+ '<div class="panel"><div class="panel-head"><span class="panel-title">Bedrijfsgegevens</span></div><div class="panel-body kvlist">'+kv('Niche',c.nicheLabel)+kv('Telefoon',c.phone)+kv('E-mail',c.em?'<a class="link" href="mailto:'+c.em+'">'+c.em+'</a>':'')+kv('Website',c.web?'<a class="link" href="'+(c.weburl||('https://'+c.web))+'" target="_blank" rel="noopener">'+c.web+'</a>':'')+kv('Bron',srcLinks(c))+(c.laatste_post?kv('Laatste social-post',c.laatste_post):'')+kv('Plaats',c.address)+kv('Regio',c.region)+'</div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Status &amp; opvolging</span></div><div class="panel-body"><label class="fld-label">Status wijzigen</label><div class="status-row"><select class="inp" id="detailStatus">'+statusOpts+'</select><button class="btn gold" id="saveStatus">Opslaan</button></div></div></div>'+
  '<div class="panel"><div class="panel-head"><span class="panel-title">Lead-score <span class="amp">opbouw</span></span></div><div class="panel-body"><div class="scorebars">'+d.breakdown.map(function(b){return '<div class="sb-row"><span class="sb-k">'+b.k+'</span><span class="sb-dots">'+[1,2,3,4,5].map(function(n){return '<i class="'+(n<=b.v?'on':'')+'"></i>';}).join('')+'</span></div>';}).join('')+'</div></div></div>'+
  '</div></div>';

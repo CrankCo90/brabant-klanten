@@ -76,6 +76,7 @@ Een prospect mag in de lijst/gebouwd worden als hij MINSTENS ÉÉN van deze heef
 **e-mail OF social (IG/FB/TikTok) OF een 06-MOBIEL nummer.**
 - Een **vaste lijn** (040/030/073/013/0162/0492 enz.) telt NIET als bereikbaar contact.
 - Geen van de drie → verwijderen + vervangen door een prospect die wél voldoet.
+- **Social-recency (15-06→17-06-2026):** social telt ALLEEN als bereikbaar contact als het profiel **recent actief** is — **laatste post in 2026 of later**. Laatste post vóór 2026 (bv. Canis Lupus, niets sinds 2022) → social telt niet mee (verspilde energie). Onbekende recency = voordeel van de twijfel (wél meenemen, `laatste_post` leeg). Heeft de prospect óók 06-mobiel of e-mail, dan maakt social-recency niet uit.
 
 ## Outreach-mail (opbouw & regels — VASTE AFSPRAAK)
 - Template: `_workflow/outreach/template-nl.txt`. Placeholders uit `prospects.json`: `compliment`,
@@ -87,6 +88,9 @@ Een prospect mag in de lijst/gebouwd worden als hij MINSTENS ÉÉN van deze heef
 ## Design-11 voor ALLE niches (generator — 15-06-2026)
 - `generate-demo.py` bouwt design-11 voor pedicure, nagels én hond (`render_d11_pedicure/nagel/hond` +
   templates `_workflow/templates/design11-{pedicure,nagel,hond}.html`). Cal.eu-blok 1-op-1 uit de generator-`CAL`.
+
+## Activiteit-tijdlijn & timestamp (VASTE FEIT — 17-06-2026)
+- Nieuwe clients krijgen een **`aangemaakt`** (ISO datum+tijd, Europe/Amsterdam) van `add-prospects.py`; `werkdag` = datum-only (dynamisch = dag van toevoegen, niet meer hardcoded). Dashboard-klantdetail → **Activiteit** toont nu de **exacte datum + tijd** ("17 jun 2026 · 14:32 (vandaag)") bij "Toegevoegd door Claude" en "Demo-website gebouwd". "Laatste social-post" verschijnt in Bedrijfsgegevens als bekend.
 
 ## Dashboard — Acties & autopilot (VASTE AFSPRAAK — 15-06-2026)
 - Outreach-wachtrij toont ALLEEN klanten die per e-mail bereikbaar zijn én nog niet gemaild/benaderd

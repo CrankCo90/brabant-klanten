@@ -18,6 +18,13 @@ NICHE = {
  "kapper":   {"spec":["Knippen","Kleuren","Highlights","Wassen & föhnen"], "verhaal":"%s in %s verzorgt knippen, kleuren en styling met zorg en vakmanschap. Op afspraak."},
 }
 PREFIX = re.compile(r'^(hondentrimsalon|trimsalon|hondenkapsalon|hondenkapper|dierenkapper|kapsalon|kapper|nagelstudio|nagelsalon|nailstudio|pedicuresalon|pedicurepraktijk|pedicure|haarsalon|salon)\s+', re.I)
+MIN_POST_YEAR = 2026  # social telt alleen als bereikbaar contact bij een post in dit jaar of later
+def post_year(v):
+    """Haal het jaartal uit een 'laatste post'-veld (bv '2022', '2022-05', 'mei 2024', ''). Onbekend -> None."""
+    import re as _re
+    m = _re.search(r"(20[12]\d)", str(v or ""))
+    return int(m.group(1)) if m else None
+
 def telhref(tel):
     d = re.sub(r"[^0-9]", "", tel or "")
     if d.startswith("0"): d = "+31" + d[1:]
@@ -41,7 +48,10 @@ def main():
         tel = (r.get("telefoon") or "").strip(); dd = re.sub(r"[^0-9]", "", tel)
         is_mobile = dd.startswith("06") or dd.startswith("316")
         social = (r.get("social") or "").strip(); email = (r.get("email") or "").strip()
-        if not (is_mobile or email or social): continue  # bereikbaarheidsregel
+        lp = (r.get("laatste_post") or r.get("last_post") or "").strip(); ly = post_year(lp)
+        # social telt alleen mee als 'recent actief': geen bekend jaar OF jaar >= 2026 (onbekend = voordeel van de twijfel)
+        social_active = bool(social) and (ly is None or ly >= MIN_POST_YEAR)
+        if not (is_mobile or email or social_active): continue  # bereikbaarheidsregel + social-recency
         slug = slugify(bedrijf)
         if slug in slugs: slug = slugify(bedrijf + "-" + plaats)
         if not slug or slug in slugs: continue
@@ -50,7 +60,7 @@ def main():
         defv = NICHE[niche]
         waarom = "Geen eigen website (alleen Facebook)." if (social and not is_mobile and "facebook" in social.lower()) else ("Geen eigen website (alleen social)." if social and not is_mobile else "Geen eigen website (alleen vermelding/06).")
         quals.append({"bedrijf":bedrijf,"kort":kort,"slug":slug,"plaats":plaats,"regio":(r.get("provincie") or ""),
-            "niche":niche,"tel":(tel if is_mobile else ""),"social":social,"email":email,"eigenaar":"",
+            "niche":niche,"tel":(tel if is_mobile else ""),"social":social,"email":email,"laatste_post":lp,"eigenaar":"",
             "verhaal": defv["verhaal"] % (bedrijf, plaats or "de regio"),
             "spec": defv["spec"], "cert": [], "waarom": waarom})
     json.dump(quals, open("/tmp/new_quals.json","w"), ensure_ascii=False)

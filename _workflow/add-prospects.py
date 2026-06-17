@@ -1,9 +1,13 @@
-import json,sys
+import json,sys,datetime
+try:
+    from zoneinfo import ZoneInfo; _NOW=datetime.datetime.now(ZoneInfo("Europe/Amsterdam"))
+except Exception:
+    _NOW=datetime.datetime.utcnow()+datetime.timedelta(hours=2)
 SB='_workflow/salons-batch1.json'; CL='dashboard/clients.json'; PR='_workflow/outreach/prospects.json'
 sb=json.load(open(SB)); cl=json.load(open(CL)); pr=json.load(open(PR))
 quals=json.load(open('/tmp/new_quals.json'))
 existing={s['slug'] for s in sb}
-DEADLINE="vrijdag 26 juni 2026"; WERKDAG="2026-06-15"
+DEADLINE="vrijdag 26 juni 2026"; WERKDAG=_NOW.strftime("%Y-%m-%d"); AANGEMAAKT=_NOW.strftime("%Y-%m-%dT%H:%M:%S")
 NL={"hond":"Hondentrimsalons","nagels":"Nagelstudio's","pedicure":"Pedicures","kapper":"Kappers"}
 WORD={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons"}
 TIP={
@@ -55,7 +59,7 @@ for p in quals:
         "certificering":p.get("cert",[]),"tarieven":[],"openingstijden":"Op afspraak","reviews":[]},
       "taal":"nl"})
     cl.append({"bedrijf":p["bedrijf"],"niche":NL[niche],"regio":p.get("regio","Limburg"),"plaats":plaats,
-      "status":"demo","score":4,"werkdag":WERKDAG,"demo_url":demo,
+      "status":"demo","score":4,"werkdag":WERKDAG,"aangemaakt":AANGEMAAKT,"laatste_post":p.get("laatste_post",""),"demo_url":demo,
       "waarom":p["waarom"],"fouten":[p["waarom"].rstrip('.')],"contact":(tel or (p.get("social") and "Alleen "+p["social"]) or "(contact nog nodig)"),
       "bron":None,"social":p.get("social",""),"telefoon":tel,"land":"NL","taal":"nl"})
     pr.append({"bedrijf":p["bedrijf"],"aanhef":aanhef,"plaats":plaats,"email":p.get("email",""),

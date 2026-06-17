@@ -10,7 +10,7 @@ Per stad × niche echte, **bereikbare** prospects vinden met een **zwakke/geen/a
 1. **Zoekwoorden** — meerdere per niche (zie `_workflow/niche-zoekwoorden.json`). Niet vasthouden aan één term (hond: hondentrimsalon, trimsalon, dierenkapper, hondenkapper, hondensalon…).
 2. **Plaats** — volgende stad uit `dashboard/nl-provincies-steden.json`. Rond grote steden én juist kleine plaatsen. Houd coverage bij (zie Dekkingskaart).
 3. **Zoeken** — per stad × zoekwoord via: Google, Google Maps, branchegidsen (hondentrimsalon-info.nl / nagelstudio-info.nl / pedicure.nl), Treatwell/Salonized/Fresha, Instagram/Facebook, telefoonboek/goudengids/cylex/doggo, KvK.
-4. **Kwalificeren** — bereikbaar contact = **06-mobiel óf e-mail óf social**; vaste-lijn-only telt NIET. Zwakke/geen/alleen-social site = prospect; goede eigen site valt af. **Nooit verzinnen.**
+4. **Kwalificeren** — bereikbaar contact = **06-mobiel óf e-mail óf ACTIEVE social**; vaste-lijn-only telt NIET. **Social-recency:** social-only kwalificeert alleen bij **laatste post in 2026+** (onbekend = voordeel van de twijfel); stale profiel (bv. niets sinds 2022) valt af. Zwakke/geen/alleen-social site = prospect; goede eigen site valt af. **Nooit verzinnen.**
 5. **Dedupe** — tegen `dashboard/clients.json` (bedrijf) + `_workflow/salons-batch1.json` (slug).
 6. **Content + beeld** — per niche eigen teksten/diensten + Higgsfield-beelden (`niche-images.json`). Nieuwe niche = eigen vertaalmap + premium-designs.
 7. **Bouwen** — `add-prospects.py` + `generate-demo.py` (11 designs + cal.eu).

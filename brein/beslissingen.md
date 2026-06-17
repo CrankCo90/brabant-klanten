@@ -3,6 +3,11 @@
 > Belangrijke keuzes en het waarom. Nieuwste bovenaan. Houd het kort: beslissing → reden.
 
 ## 2026-06-17
+- **Social-recency-criterium toegevoegd.** Social telt alleen als bereikbaar contact bij een laatste post in 2026+. Stale profielen (bv. niets sinds 2022) = verspilde energie → niet kwalificeren als social-only. Onbekend = voordeel van de twijfel. Ingebouwd in `ingest-prospects.py` (MIN_POST_YEAR=2026) + n8n-extractieprompt (veld `laatste_post`).
+- **Logged-in IG/FB NIET aan n8n koppelen.** Persoonlijk ingelogd account automatiseren = tegen de ToS van Meta + bankrisico (ban/CAPTCHA). Compliant alternatief: Apify-actors (eigen sessies/proxies) of Google-bedrijfsprofiel (recente foto's/posts met datum) voor recency-signaal. Niet onze eigen login als scraper gebruiken.
+- **Activiteit-tijdlijn met exacte datum+tijd.** Nieuw veld `aangemaakt` (datum+tijd) op clients; dashboard toont precies wanneer een bedrijf is toegevoegd.
+
+## 2026-06-17 (eerder)
 - **Obsidian als mens-brein, niet als machine-geheugen.** Obsidian heeft geen officiële hosted MCP en vereist een draaiende app/pc → te fragiel als ruggengraat. We gebruiken het bovenop onze Git-versiebeheerde Markdown (`brein/`). Machine-geheugen blijft in JSON/Data Tables/Postgres.
 - **n8n is de automation-ruggengraat.** Al gekoppeld; Anthropic + OpenAI credentials aanwezig. Eerste research-workflow (v1) gebouwd: gids → Claude extract+kwalificeer → prospects.
 - **Kaart-view = Fase 1 af.** Dekkingskaart in dashboard (NL-provinciekaart, heatmap naar voortgang, filter per niche).
