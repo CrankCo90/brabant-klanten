@@ -1,0 +1,17 @@
+{
+ "_doc": "Provincies + steden/plaatsen van NL. Voedt de systematische zoek-workflow (per stad) EN de kaart-view in het dashboard. Start Noord-Brabant; werk daarna de rest af.",
+ "provincies": {
+  "Noord-Brabant": ["Eindhoven","Tilburg","Breda","'s-Hertogenbosch","Helmond","Roosendaal","Oss","Bergen op Zoom","Oosterhout","Waalwijk","Veghel","Uden","Etten-Leur","Best","Valkenswaard","Boxtel","Dongen","Goirle","Kaatsheuvel","Veldhoven","Geldrop","Gemert","Cuijk","Schijndel","Deurne","Someren","Asten","Drunen","Rijen","Zundert"],
+  "Limburg": ["Maastricht","Venlo","Sittard","Geleen","Heerlen","Roermond","Weert","Kerkrade","Landgraaf","Brunssum","Venray","Echt","Stein","Beek","Panningen","Horst","Gennep","Valkenburg","Tegelen","Reuver","Nederweert","Susteren","Maasbracht","Schinveld","Simpelveld","Eijsden","Gulpen","Voerendaal"],
+  "Gelderland": ["Nijmegen","Arnhem","Apeldoorn","Ede","Doetinchem","Zutphen","Harderwijk","Tiel","Wageningen","Wijchen","Culemborg","Zevenaar","Winterswijk","Barneveld","Nunspeet","Elburg","Velp","Duiven","Westervoort","Aalten","Lochem","Epe","Vaassen","Beuningen","Groesbeek","Zaltbommel","Geldermalsen"],
+  "Utrecht": ["Utrecht","Amersfoort","Veenendaal","Nieuwegein","Zeist","Houten","Woerden","IJsselstein","Soest","Baarn","Bunschoten","Maarssen","Bilthoven","Leusden","Wijk bij Duurstede","Nijkerk","Vianen"],
+  "Overijssel": ["Zwolle","Enschede","Hengelo","Deventer","Almelo","Kampen","Oldenzaal","Hardenberg","Steenwijk","Raalte","Rijssen","Nijverdal","Borne","Dalfsen","Wierden","Haaksbergen","Losser","Goor","Ommen","Tubbergen"],
+  "Flevoland": ["Almere","Lelystad","Dronten","Emmeloord","Zeewolde","Urk","Biddinghuizen"],
+  "Drenthe": ["Assen","Emmen","Hoogeveen","Meppel","Coevorden","Roden","Beilen","Klazienaveen","Gieten","Dwingeloo"],
+  "Groningen": ["Groningen","Hoogezand","Veendam","Winschoten","Delfzijl","Stadskanaal","Appingedam","Leek","Haren","Ten Boer","Zuidhorn","Grootegast"],
+  "Friesland": ["Leeuwarden","Drachten","Sneek","Heerenveen","Harlingen","Franeker","Dokkum","Bolsward","Wolvega","Joure","Lemmer","Burgum","Buitenpost","Gorredijk"],
+  "Noord-Holland": ["Amsterdam","Haarlem","Zaandam","Hoofddorp","Alkmaar","Hilversum","Amstelveen","Purmerend","Hoorn","Den Helder","Heerhugowaard","IJmuiden","Beverwijk","Castricum","Uitgeest","Heemskerk","Enkhuizen","Bussum","Weesp","Schagen","Wormerveer","Volendam"],
+  "Zuid-Holland": ["Rotterdam","Den Haag","Leiden","Dordrecht","Zoetermeer","Delft","Gouda","Schiedam","Spijkenisse","Vlaardingen","Alphen aan den Rijn","Capelle aan den IJssel","Katwijk","Rijswijk","Gorinchem","Ridderkerk","Barendrecht","Sliedrecht","Naaldwijk","Hellevoetsluis","Papendrecht","Maassluis"],
+  "Zeeland": ["Middelburg","Vlissingen","Goes","Terneuzen","Zierikzee","Tholen","Hulst","Kapelle","Oostburg","Domburg","Kruiningen","Axel"]
+ }
+}
