@@ -124,6 +124,15 @@ class H(BaseHTTPRequestHandler):
             env["OUTREACH_CAP"]=str(int(body.get("cap",20)))
             rc,out=run("git pull -q; python3 _workflow/outreach/send-outreach.py",env)
             return self._s(200,{"ok":rc==0,"log":out})
+        if self.path=="/api/add-prospects":
+            pros=body.get("prospects") or []
+            json.dump(pros,open("/tmp/ingest_in.json","w"))
+            rc,out=run("git pull -q; python3 _workflow/ingest-prospects.py /tmp/ingest_in.json")
+            run("git add -A && git -c user.email=vps@brabantdigital.nl -c user.name=BD-VPS commit -q -m 'n8n ingest prospects'")
+            if os.path.exists("/root/outreach-data/.git-token"):
+                tk=open("/root/outreach-data/.git-token").read().strip()
+                run("git push -q https://%s@github.com/CrankCo90/brabant-klanten.git HEAD:main"%tk)
+            return self._s(200,{"ok":rc==0,"log":out[-1500:]})
         self._s(404,{"error":"not found"})
 
 if __name__=="__main__":
