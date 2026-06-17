@@ -2,6 +2,12 @@
 
 > Belangrijke keuzes en het waarom. Nieuwste bovenaan. Houd het kort: beslissing → reden.
 
+## 2026-06-17 (v3 + koppeling)
+- **Steden-JSON gekoppeld aan de workflow.** `dashboard/nl-provincies-steden.json` (nu 736 plaatsen, publiek op brabantdigital.nl/admin/nl-provincies-steden.json) wordt door de workflow opgehaald en uitgevouwen. Eén bron voor kaart én research; plaatsen toevoegen = alleen de JSON bijwerken.
+- **Workflow v3** ("Prospect Research — Multi-bron (v3)", id uY6wxWKFIWJOCkfT) vervangt v1/v2: 3 parallelle bronnen (branchegids + OpenStreetMap + DuckDuckGo-webzoek) → verifieer-agent (Claude) → VPS. v2 gearchiveerd; v1 mag uit zodra v3 getest is.
+- **Google zonder API kan niet betrouwbaar** (consent-muur + bot-detectie/CAPTCHA, niet omzeilen). Gratis alternatief = html.duckduckgo.com (server-rendered, geen API/CAPTCHA); evt. later Bing erbij.
+- **Volgorde/throughput:** de workflow loopt de hele plaatsenlijst elke run af (geen per-uur cap), in JSON-volgorde (Noord-Brabant→…→Zeeland); dedupe downstream, dus eerste run levert het meest.
+
 ## 2026-06-17 (bronnen-uitbreiding)
 - **Hybride multi-bron research gekozen** (gratis/goedkoop bronnen + één verifieer-agent). Geen dure API's (geen Apify/Google Places); KvK gratis-zoek mag erbij (key nog aanmaken).
 - **n8n workflow v2 gebouwd:** "Prospect Research — Multi-bron (v2)" (id hw5AtjJX3Lu38FtM). Per stad parallel: branchegids + OpenStreetMap (Overpass) → samenvoegen → verifieer-agent (Claude) kruist/dedupet/verrijkt + regels (06/e-mail/actieve social, recency 2026+, cross-source betrouwbaarheid) → bundel → POST naar /api/add-prospects. v1 (alleen gids) blijft tot v2 is getest.
