@@ -20279,5 +20279,77 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimshop Swiftvalley",
+  "kort": "Trimshop Swiftvalley",
+  "slug": "trimshop-swiftvalley-swifterbant",
+  "plaats": "Swifterbant",
+  "tel_display": "06-16359900",
+  "tel_href": "tel:+31616359900",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Lida",
+   "verhaal": "Trimshop Swiftvalley in Swifterbant is gespecialiseerd in de verzorging van kleine en middelgrote honden, met bijzondere aandacht voor terriërs. Lida trimt met vakmanschap en oog voor de vacht.",
+   "specialisaties": [
+    "Trimmen van terriërs",
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Yiyi's Trimsalon",
+  "kort": "Yiyi's Trimsalon",
+  "slug": "yiyis-trimsalon-yerseke",
+  "plaats": "Yerseke",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Yiyi's Trimsalon is een trimsalon in Yerseke waar honden met aandacht en geduld worden verzorgd. Van wassen tot knippen: alles voor een verzorgde en blije hond.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Vacht- en nagelverzorging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon BlingBling",
+  "kort": "Trimsalon BlingBling",
+  "slug": "trimsalon-blingbling-axel",
+  "plaats": "Axel",
+  "tel_display": "06-20153597",
+  "tel_href": "tel:+31620153597",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon BlingBling in Axel verzorgt honden van alle soorten en maten met een vakkundige, persoonlijke aanpak. Elke hond krijgt rustig de tijd voor een mooie, verzorgde vacht.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en trimmen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

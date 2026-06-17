@@ -17770,5 +17770,65 @@
   "telefoon": "06-40119182",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimshop Swiftvalley",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Swifterbant",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimshop-swiftvalley-swifterbant.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06-16359900",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-16359900",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Yiyi's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Yerseke",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://yiyis-trimsalon-yerseke.demo.brabantdigital.nl",
+  "waarom": "Alleen social media, geen eigen website.",
+  "fouten": [
+   "Alleen social media, geen eigen website"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon BlingBling",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Axel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-blingbling-axel.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Facebook).",
+  "fouten": [
+   "Geen eigen website (alleen Facebook)"
+  ],
+  "contact": "06-20153597",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-20153597",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
