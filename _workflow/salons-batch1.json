@@ -11657,5 +11657,269 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Dogland",
+  "kort": "Hondentrimsalon in Hoorn",
+  "slug": "dogland-hoorn",
+  "plaats": "Hoorn",
+  "tel_display": "06-87327189",
+  "tel_href": "tel:+31687327189",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Dogland in Hoorn draait alles om een rustige, vakkundige trimbeurt voor elke hond. Van een complete knipbeurt tot ontklitten en een frisse wasbeurt: jouw viervoeter wordt met aandacht en geduld verzorgd.",
+   "specialisaties": [
+    "Complete knip- en trimbeurt",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Ontklitten en vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondensalon BARK",
+  "kort": "Hondentrimsalon in Schagen",
+  "slug": "hondensalon-bark-schagen",
+  "plaats": "Schagen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondensalon BARK in Schagen is de kapper voor je viervoeter. Elke hond krijgt hier een persoonlijke behandeling, met een mooie coupe en een vacht die er weer fris en verzorgd uitziet.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Trimmen en plukken",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Spaw",
+  "kort": "Hondentrimsalon in Schagen",
+  "slug": "hondentrimsalon-spaw-schagen",
+  "plaats": "Schagen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Hondentrimsalon Spaw in Schagen staat het welzijn van je hond voorop. In een rustige omgeving wordt elke vacht vakkundig verzorgd, afgestemd op het ras en het karakter van je viervoeter.",
+   "specialisaties": [
+    "Complete trimbeurt",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud per ras"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Judith",
+  "kort": "Hondentrimsalon in Beverwijk",
+  "slug": "hondentrimsalon-judith-beverwijk",
+  "plaats": "Beverwijk",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Judith in Beverwijk verzorgt honden van alle rassen en maten met veel liefde en geduld. Een ontspannen trimbeurt waarbij jouw hond zich op zijn gemak voelt staat altijd centraal.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Ontklitten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Honden Trimsalon Charmed",
+  "kort": "Hondentrimsalon in Heemskerk",
+  "slug": "trimsalon-charmed-heemskerk",
+  "plaats": "Heemskerk",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Honden Trimsalon Charmed in Heemskerk wordt elke hond met zorg en vakmanschap getrimd. Een nette coupe, een schone vacht en een hond die er weer stralend uitziet: daar draait het hier om.",
+   "specialisaties": [
+    "Complete knip- en trimbeurt",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Golden Dogs Trimsalon",
+  "kort": "Hondentrimsalon in Heemskerk",
+  "slug": "golden-dogs-trimsalon-heemskerk",
+  "plaats": "Heemskerk",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Golden Dogs Trimsalon in Heemskerk is gespecialiseerd in een liefdevolle, vakkundige vachtverzorging. Of je hond nu een korte opfrisbeurt of een complete knipbeurt nodig heeft, alles gebeurt rustig en met aandacht.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud per ras"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "HondenTrimsalon Moby",
+  "kort": "Hondentrimsalon in Volendam",
+  "slug": "hondentrimsalon-moby-volendam",
+  "plaats": "Volendam",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "HondenTrimsalon Moby in Volendam verzorgt honden van alle soorten en maten. In een rustige sfeer krijgt elke viervoeter een vakkundige trimbeurt, helemaal afgestemd op de vacht en de wensen van het baasje.",
+   "specialisaties": [
+    "Complete trimbeurt",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Ontklitten en plukken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Texelse Trimsalon",
+  "kort": "Hondentrimsalon in Den Burg (Texel)",
+  "slug": "de-texelse-trimsalon-texel",
+  "plaats": "Den Burg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "De Texelse Trimsalon in Den Burg verzorgt de vacht van je hond met aandacht en vakmanschap. Van een frisse wasbeurt tot een complete knipbeurt: je viervoeter gaat er weer verzorgd en blij vandoor.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Doodles & Co",
+  "kort": "Hondentrimsalon in Koog aan de Zaan",
+  "slug": "trimsalon-doodles-en-co-koog",
+  "plaats": "Koog aan de Zaan",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Doodles & Co in Koog aan de Zaan is gespecialiseerd in doodles en andere krullenbollen. Elke hond krijgt een rustige, vakkundige trimbeurt met oog voor een mooie, gezonde vacht.",
+   "specialisaties": [
+    "Doodles en krulvachten",
+    "Knippen en scheren",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Bella Donna",
+  "kort": "Hondentrimsalon in Heerhugowaard",
+  "slug": "hondentrimsalon-bella-donna-heerhugowaard",
+  "plaats": "Heerhugowaard",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Bella Donna in Heerhugowaard biedt professionele vachtverzorging voor honden van klein tot groot. In een rustige omgeving wordt elke trimbeurt met geduld en aandacht uitgevoerd.",
+   "specialisaties": [
+    "Complete knip- en trimbeurt",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Ontklitten en vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon La Villa Basta",
+  "kort": "Hondentrimsalon in Zaandam",
+  "slug": "trimsalon-la-villa-basta-zaandam",
+  "plaats": "Zaandam",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon La Villa Basta in Zaandam krijgen honden en katten een verzorgde vacht en alle aandacht die ze verdienen. Elke behandeling gebeurt rustig, netjes en helemaal op maat van je huisdier.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

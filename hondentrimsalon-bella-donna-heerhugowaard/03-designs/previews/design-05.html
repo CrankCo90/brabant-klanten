@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hondentrimsalon in Heerhugowaard · Navy & Koper — Cinematic</title>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0f2236;--text:#eef2f6;--mut:#a9bccf;--copper:#cf7a45;--head:'Marcellus',serif;--body:'Lato',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--navy);color:var(--text);font-family:var(--body);font-weight:300;line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%}
+.scroller{height:100vh;overflow-y:scroll;scroll-snap-type:y mandatory}
+.scroller::-webkit-scrollbar{display:none}
+nav{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;gap:24px;padding:24px 42px}
+.logo{font-family:var(--head);font-size:1.4rem;letter-spacing:.04em;margin-right:auto}.logo em{color:var(--copper)}
+nav a{color:var(--text);text-decoration:none;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+nav a:hover{color:var(--copper)}
+.lang{border:1px solid rgba(207,122,69,.6);border-radius:999px;padding:5px 12px;font-size:.7rem;cursor:pointer;background:none;color:var(--text)}
+.cta{background:var(--copper);color:#0f2236 !important;padding:10px 18px;border-radius:4px;font-weight:700}
+.scene{position:relative;height:100vh;scroll-snap-align:start;display:flex;align-items:center;overflow:hidden}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.12);transition:transform 9s ease}
+.scene.active .bg{transform:scale(1)}
+.scene::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,34,54,.92),rgba(15,34,54,.55) 60%,rgba(15,34,54,.3))}
+.scene .wrap{position:relative;z-index:3;max-width:1140px;margin:0 auto;padding:0 42px;width:100%}
+.scene .inner{max-width:600px;opacity:0;transform:translateY(40px);transition:.9s .2s}
+.scene.active .inner{opacity:1;transform:none}
+.kick{color:var(--copper);letter-spacing:.34em;text-transform:uppercase;font-size:.76rem;margin-bottom:22px}
+.scene h1{font-family:var(--head);font-size:4.6rem;line-height:1.08;margin-bottom:22px}
+.scene h2{font-family:var(--head);font-size:3.4rem;line-height:1.12;margin-bottom:20px}
+.scene p{color:var(--mut);font-size:1.08rem;max-width:480px;margin-bottom:30px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.b1{background:var(--copper);color:var(--navy);padding:15px 30px;border-radius:4px;text-decoration:none;font-weight:700;transition:.25s}.b1:hover{transform:translateY(-3px)}
+.b2{border:1px solid var(--copper);color:var(--copper);padding:15px 30px;border-radius:4px;text-decoration:none}
+.prog{position:fixed;right:30px;top:50%;transform:translateY(-50%);z-index:50;display:flex;flex-direction:column;gap:12px}
+.prog b{width:9px;height:9px;border-radius:50%;background:rgba(238,242,246,.3);transition:.3s;cursor:pointer}
+.prog b.on{background:var(--copper);transform:scale(1.5)}
+.feats{display:flex;gap:34px;margin-top:8px;flex-wrap:wrap}
+.feats div{max-width:150px}.feats b{font-family:var(--head);color:var(--copper);font-size:1.1rem;display:block;margin-bottom:4px}
+.feats span{color:var(--mut);font-size:.86rem}
+.note{position:absolute;bottom:14px;left:42px;color:rgba(169,188,207,.5);font-size:.7rem;z-index:3}
+@media(max-width:840px){.scene h1{font-size:2.8rem}.scene h2{font-size:2.2rem}.prog{display:none}nav a:not(.cta):not(.lang){display:none}}
+</style></head>
+<body>
+<nav>
+  <span class="logo"><em>Hondentrimsalon in Heerhugowaard</em></span>
+  <a href="#" data-scene="1" data-en="Salon">Salon</a>
+  <a href="#" data-scene="2" data-en="Craft">Vakwerk</a>
+  <a href="#" data-scene="3" data-en="Book">Boeken</a>
+  <button class="lang" id="lang">EN</button>
+  <a href="#" data-scene="3" class="cta" data-en="Book">Afspraak</a>
+</nav>
+<div class="prog" id="prog"></div>
+
+<div class="scroller" id="scr">
+  <section class="scene active">
+    <div class="bg" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202529_572f56a2-b606-4643-b4b9-e463e0dea254.png')"></div>
+    <div class="wrap"><div class="inner">
+      <div class="kick" data-en="Dog grooming · Heerhugowaard">Hondentrimsalon · Heerhugowaard</div>
+      <h1 data-en="Craft that owners rely on">Vakwerk waar baasjes op rekenen</h1>
+      <p data-en="Certified groomer for all breeds. Calm, careful and always with an eye for your dog.">Gediplomeerd trimster voor alle rassen. Rustig, zorgvuldig en altijd met oog voor uw hond.</p>
+      <div class="btns"><a class="b1" href="#" data-scene="3" data-en="Book online">Online boeken</a><a class="b2" href="#contact">Bel of app ons</a></div>
+    </div></div>
+  </section>
+
+  <section class="scene">
+    <div class="bg" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202551_bd6eeadf-6461-4537-b5c5-61a45df49ade.png')"></div>
+    <div class="wrap"><div class="inner">
+      <div class="kick" data-en="Craftsmanship">Vakmanschap</div>
+      <h2 data-en="Time and patience for every dog">Tijd en geduld voor elke hond</h2>
+      <p data-en="Diploma plus yearly training. Specialised in doodles, wire-haired and double coats.">Gediplomeerd plus jaarlijkse bijscholing. Gespecialiseerd in doodles, ruwharig en double coats.</p>
+      <div class="feats">
+        <div><b data-en="All breeds">Alle rassen</b><span data-en="From doodle to Pomeranian">Van doodle tot pomeriaan</span></div>
+        <div><b data-en="Certified">Gediplomeerd</b><span data-en="Knowledge stays current">Kennis blijft actueel</span></div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="scene">
+    <div class="bg" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202545_57f477b0-57d0-412c-a2f4-b3042bb43659.png')"></div>
+    <div class="wrap"><div class="inner">
+      <div class="kick" data-en="Plan your visit">Plan uw bezoek</div>
+      <h2 data-en="Book online in under a minute">Boek online binnen een minuut</h2>
+      <p data-en="Pick your own time — confirmation straight into the agenda. Your Instagram stays the window; this is the front door.">Kies zelf uw moment — bevestiging direct in de agenda. Uw Instagram blijft de etalage; dit wordt de winkeldeur.</p>
+      <div class="btns"><a class="b1" href="#" data-scene="3" data-en="Book online">Online afspraak maken</a></div>
+    </div></div>
+  </section>
+</div>
+
+<script>
+const lb=document.getElementById('lang');let en=false;
+const nl=new Map();document.querySelectorAll('[data-en]').forEach(e=>nl.set(e,e.innerHTML));
+lb.onclick=()=>{en=!en;lb.textContent=en?'NL':'EN';document.documentElement.lang=en?'en':'nl';document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=en?e.getAttribute('data-en'):nl.get(e));};
+const scr=document.getElementById('scr'),scenes=[...document.querySelectorAll('.scene')],prog=document.getElementById('prog');
+scenes.forEach((_,i)=>{const b=document.createElement('b');if(!i)b.classList.add('on');b.onclick=()=>scr.scrollTo({top:i*innerHeight,behavior:'smooth'});prog.appendChild(b)});
+const pb=[...prog.children];
+const so=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){const i=scenes.indexOf(x.target);scenes.forEach(s=>s.classList.remove('active'));x.target.classList.add('active');pb.forEach((b,j)=>b.classList.toggle('on',j===i))}}),{root:scr,threshold:.6});
+scenes.forEach(s=>so.observe(s));
+document.querySelectorAll('[data-scene]').forEach(a=>a.onclick=e=>{e.preventDefault();scr.scrollTo({top:(+a.dataset.scene)*innerHeight,behavior:'smooth'})});
+</script>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.eu/embed/embed.js", "init");
+Cal("init", "demo-planner", {origin:"https://cal.eu"});
+Cal.ns["demo-planner"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+document.querySelectorAll("a").forEach(function(el){var t=(el.textContent||"").toLowerCase();if(/afspraak|online boeken|boek online|plan een afspraak|boek deze|deze afspraak|online afspraak/.test(t)||/^\s*boek/.test(t)){el.setAttribute("data-cal-namespace","demo-planner");el.setAttribute("data-cal-link","brabantdigital/demo-planner");el.setAttribute("data-cal-config",'{"layout":"month_view"}');el.removeAttribute("href");el.style.cursor="pointer";}});
+</script>
+</body></html>
