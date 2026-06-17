@@ -17830,5 +17830,45 @@
   "telefoon": "06-20153597",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "YoYo's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Doetinchem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://yoyos-trimsalon-doetinchem.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website.",
+  "fouten": [
+   "Geen eigen website"
+  ],
+  "contact": "06-43119072",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-43119072",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondensalon Trimgemak",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Arnhem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondensalon-trimgemak-arnhem.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website.",
+  "fouten": [
+   "Geen eigen website"
+  ],
+  "contact": "06-41284523",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41284523",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

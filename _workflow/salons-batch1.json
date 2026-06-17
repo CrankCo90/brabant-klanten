@@ -20351,5 +20351,53 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "YoYo's Trimsalon",
+  "kort": "YoYo's Trimsalon",
+  "slug": "yoyos-trimsalon-doetinchem",
+  "plaats": "Doetinchem",
+  "tel_display": "06-43119072",
+  "tel_href": "tel:+31643119072",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "YoYo's Trimsalon werkt een-op-een, zodat jouw huisdier in een rustige sfeer alle aandacht krijgt. De salon is voorzien van moderne apparatuur.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondensalon Trimgemak",
+  "kort": "Hondensalon Trimgemak",
+  "slug": "hondensalon-trimgemak-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-41284523",
+  "tel_href": "tel:+31641284523",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondensalon Trimgemak in Arnhem is een gediplomeerde salon waar iedere hond de vakkundige aandacht krijgt die hij verdient, van een volledige trimbeurt tot een tussentijdse wasbeurt.",
+   "specialisaties": [
+    "Wassen",
+    "Knippen",
+    "Plukken & effileren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
