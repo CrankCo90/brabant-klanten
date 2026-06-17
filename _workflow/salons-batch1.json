@@ -11921,5 +11921,245 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Tissy",
+  "kort": "Hondentrimsalon in Delfzijl",
+  "slug": "hondentrimsalon-tissy-delfzijl",
+  "plaats": "Delfzijl",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Hondentrimsalon Tissy in Delfzijl krijgt elke hond rustig en met aandacht een verzorgde vacht. Van kleine tot grote rassen: alles gebeurt op het tempo van je hond.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Quinto",
+  "kort": "Hondentrimsalon in Veendam",
+  "slug": "hondentrimsalon-quinto-veendam",
+  "plaats": "Veendam",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Quinto in Veendam is het verwenadres voor je hond. Elke behandeling is rustig en helemaal afgestemd op je viervoeter.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Plukken",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "SheZum-dog Hondentrimsalon",
+  "kort": "Hondentrimsalon in Lelystad",
+  "slug": "shezum-dog-lelystad",
+  "plaats": "Lelystad",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij SheZum-dog in Lelystad staat het welzijn van je hond voorop. Elke vacht wordt met zorg en geduld onder handen genomen.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dog House Hondentrimsalon",
+  "kort": "Hondentrimsalon in Emmeloord",
+  "slug": "dog-house-hondentrimsalon-emmeloord",
+  "plaats": "Emmeloord",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dog House Hondentrimsalon in Emmeloord verzorgt honden van klein tot groot met veel aandacht en geduld. Je hond gaat er weer fris en netvachtig naar huis.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Hondnhaar",
+  "kort": "Hondentrimsalon in Almere",
+  "slug": "trimsalon-hondnhaar-almere",
+  "plaats": "Almere",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Hondnhaar in Almere krijgt je hond een verzorgde vacht in een rustige, vertrouwde omgeving. Elke behandeling is op maat van je viervoeter.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Marina",
+  "kort": "Hondentrimsalon in Middelburg",
+  "slug": "hondentrimsalon-marina-middelburg",
+  "plaats": "Middelburg",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Marina in Middelburg verzorgt alle rassen met een rustige, persoonlijke aanpak. Je hond krijgt er alle tijd en aandacht die hij verdient.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Vagebond",
+  "kort": "Hondentrimsalon in Axel",
+  "slug": "hondentrimsalon-vagebond-axel",
+  "plaats": "Axel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Hondentrimsalon Vagebond in Axel wordt elke hond rustig en met aandacht getrimd. Van wassen tot knippen: alles gebeurt op het tempo van je hond.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Astrid",
+  "kort": "Hondentrimsalon in Meppel",
+  "slug": "hondentrimsalon-astrid-meppel",
+  "plaats": "Meppel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Astrid in Meppel geeft elke hond een verzorgde vacht met veel rust en aandacht. Kleine en grote rassen zijn er allemaal welkom.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Plukken",
+    "Wassen en föhnen",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Boebes",
+  "kort": "Hondentrimsalon in Enkhuizen",
+  "slug": "hondentrimsalon-boebes-enkhuizen",
+  "plaats": "Enkhuizen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Boebes in Enkhuizen verzorgt zowel rashonden als kruisingen met aandacht en vakmanschap. Je hond gaat er weer fris en goed verzorgd naar huis.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Canis Lupus",
+  "kort": "Hondentrimsalon in Den Helder",
+  "slug": "canis-lupus-den-helder",
+  "plaats": "Den Helder",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Canis Lupus in Den Helder krijgt je hond een rustige, persoonlijke trimbeurt. Elke vacht wordt met zorg en geduld onder handen genomen.",
+   "specialisaties": [
+    "Knippen en trimmen",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtonderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
