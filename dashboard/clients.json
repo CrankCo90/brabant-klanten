@@ -16350,5 +16350,45 @@
   "telefoon": "06-22252216",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "'t Trimschuurtje",
+  "niche": "Hondentrimsalons",
+  "regio": "Limburg",
+  "plaats": "Well",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://t-trimschuurtje-well.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Well zonder eigen website, alleen mobiel/telefonisch bereikbaar.",
+  "fouten": [
+   "Hondentrimsalon in Well zonder eigen website, alleen mobiel/telefonisch bereikbaar"
+  ],
+  "contact": "0636113830",
+  "bron": null,
+  "social": "",
+  "telefoon": "0636113830",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Nudos",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Holland",
+  "plaats": "Heerhugowaard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-nudos-heerhugowaard.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Heerhugowaard zonder eigen website, alleen mobiel/telefonisch bereikbaar.",
+  "fouten": [
+   "Hondentrimsalon in Heerhugowaard zonder eigen website, alleen mobiel/telefonisch bereikbaar"
+  ],
+  "contact": "0610004661",
+  "bron": null,
+  "social": "",
+  "telefoon": "0610004661",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -18575,5 +18575,53 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "'t Trimschuurtje",
+  "kort": "'t Trimschuurtje",
+  "slug": "t-trimschuurtje-well",
+  "plaats": "Well",
+  "tel_display": "0636113830",
+  "tel_href": "tel:+31636113830",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "'t Trimschuurtje is een kleinschalige hondentrimsalon in Well voor de complete vachtverzorging van uw hond.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Vachtverzorging alle rassen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Nudos",
+  "kort": "Hondentrimsalon Nudos",
+  "slug": "hondentrimsalon-nudos-heerhugowaard",
+  "plaats": "Heerhugowaard",
+  "tel_display": "0610004661",
+  "tel_href": "tel:+31610004661",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Karen",
+   "verhaal": "Hondentrimsalon Nudos in Heerhugowaard wordt gerund door Karen Wolder, al sinds 1998 gespecialiseerd in onder meer spaniels, setters en creatieve doodle-modellen. Zij werkt altijd één-op-één met rustmomenten.",
+   "specialisaties": [
+    "Knippen en scheren",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Creatieve modellen & showtrim"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
