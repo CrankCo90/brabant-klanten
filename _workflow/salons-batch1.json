@@ -20711,5 +20711,101 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimmerman (Violetta Malenko)",
+  "kort": "Trimmerman (Violetta Malenko)",
+  "slug": "trimmerman-violetta-malenko",
+  "plaats": "Zuidhorn",
+  "tel_display": "06 45422888",
+  "tel_href": "tel:+31645422888",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimmerman (Violetta Malenko) in Zuidhorn verzorgt honden van alle rassen met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon \"Mon Ami\"",
+  "kort": "\"Mon Ami\"",
+  "slug": "trimsalon-mon-ami",
+  "plaats": "Norg",
+  "tel_display": "0650830692",
+  "tel_href": "tel:+31650830692",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon \"Mon Ami\" in Norg verzorgt honden van alle rassen met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dierverzorgingbedrijf Zuiderhout",
+  "kort": "Dierverzorgingbedrijf Zuiderhout",
+  "slug": "dierverzorgingbedrijf-zuiderhout",
+  "plaats": "Zundert",
+  "tel_display": "0645521294",
+  "tel_href": "tel:+31645521294",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dierverzorgingbedrijf Zuiderhout in Zundert verzorgt honden van alle rassen met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon \"DRIBBEL IN\"",
+  "kort": "\"DRIBBEL IN\"",
+  "slug": "hondentrimsalon-dribbel-in",
+  "plaats": "Gorinchem",
+  "tel_display": "06 52391687",
+  "tel_href": "tel:+31652391687",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon \"DRIBBEL IN\" in Gorinchem verzorgt honden van alle rassen met aandacht en vakmanschap. Rustig en op afspraak.",
+   "specialisaties": [
+    "Alle rassen",
+    "Wassen & föhnen",
+    "Knippen & scheren",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

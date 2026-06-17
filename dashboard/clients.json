@@ -18130,5 +18130,85 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimmerman (Violetta Malenko)",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Zuidhorn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimmerman-violetta-malenko.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06 45422888",
+  "bron": null,
+  "social": "https://www.facebook.com/BarberHond",
+  "telefoon": "06 45422888",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon \"Mon Ami\"",
+  "niche": "Hondentrimsalons",
+  "regio": "Groningen",
+  "plaats": "Norg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://trimsalon-mon-ami.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "0650830692",
+  "bron": null,
+  "social": "http://Facebook.com/trimsalonmonamie",
+  "telefoon": "0650830692",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dierverzorgingbedrijf Zuiderhout",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Zundert",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://dierverzorgingbedrijf-zuiderhout.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "0645521294",
+  "bron": null,
+  "social": "facebook stalbrugel",
+  "telefoon": "0645521294",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon \"DRIBBEL IN\"",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Gorinchem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-15",
+  "demo_url": "https://hondentrimsalon-dribbel-in.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding/06).",
+  "fouten": [
+   "Geen eigen website (alleen vermelding/06)"
+  ],
+  "contact": "06 52391687",
+  "bron": null,
+  "social": "",
+  "telefoon": "06 52391687",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
