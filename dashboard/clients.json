@@ -18848,5 +18848,137 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Wendy's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Kloosterzande",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T17:15:22",
+  "laatste_post": "",
+  "demo_url": "https://wendys-trimsalon-kloosterzande.demo.brabantdigital.nl",
+  "waarom": "Trimsalon in Kloosterzande met mobiel nummer en Facebook, nog zonder eigen website.",
+  "fouten": [
+   "Trimsalon in Kloosterzande met mobiel nummer en Facebook, nog zonder eigen website"
+  ],
+  "contact": "06-39111531",
+  "bron": null,
+  "social": "facebook.com/Wendyshondentrimsaon",
+  "telefoon": "06-39111531",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Sterre",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Oostkapelle",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T17:15:22",
+  "laatste_post": "",
+  "demo_url": "https://trimsalon-sterre-oostkapelle.demo.brabantdigital.nl",
+  "waarom": "Gediplomeerde trimsalon op Walcheren met mobiel nummer; de huidige website is sterk verouderd.",
+  "fouten": [
+   "Gediplomeerde trimsalon op Walcheren met mobiel nummer; de huidige website is sterk verouderd"
+  ],
+  "contact": "06-10532705",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-10532705",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Schoonenburg",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Oost-Souburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T17:15:22",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-schoonenburg-oost-souburg.demo.brabantdigital.nl",
+  "waarom": "Trimsalon in Oost-Souburg met mobiel nummer, nog zonder eigen website.",
+  "fouten": [
+   "Trimsalon in Oost-Souburg met mobiel nummer, nog zonder eigen website"
+  ],
+  "contact": "06-41792489",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41792489",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Renate's Doggy Care",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Middelburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T17:15:22",
+  "laatste_post": "",
+  "demo_url": "https://renates-doggy-care-middelburg.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Middelburg met mobiel nummer, nog zonder eigen website.",
+  "fouten": [
+   "Hondentrimsalon in Middelburg met mobiel nummer, nog zonder eigen website"
+  ],
+  "contact": "06-13865020",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13865020",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Howlin' Dog Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Koewacht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T17:15:22",
+  "laatste_post": "",
+  "demo_url": "https://howlin-dog-trimsalon-koewacht.demo.brabantdigital.nl",
+  "waarom": "Trimsalon in Koewacht dat alleen via Facebook bereikbaar is, zonder eigen website.",
+  "fouten": [
+   "Trimsalon in Koewacht dat alleen via Facebook bereikbaar is, zonder eigen website"
+  ],
+  "contact": "Alleen facebook.com/howlindogtrimsalon",
+  "bron": null,
+  "social": "facebook.com/howlindogtrimsalon",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon het Vachtje",
+  "niche": "Hondentrimsalons",
+  "regio": "Zeeland",
+  "plaats": "Oud-Vossemeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T17:15:22",
+  "laatste_post": "",
+  "demo_url": "https://trimsalon-het-vachtje-oud-vossemeer.demo.brabantdigital.nl",
+  "waarom": "Gediplomeerde trimsalon in Oud-Vossemeer (Tholen), bereikbaar via Facebook/WhatsApp, zonder eigen website.",
+  "fouten": [
+   "Gediplomeerde trimsalon in Oud-Vossemeer (Tholen), bereikbaar via Facebook/WhatsApp, zonder eigen website"
+  ],
+  "contact": "Alleen facebook.com/trimsalonhetvachtje",
+  "bron": null,
+  "social": "facebook.com/trimsalonhetvachtje",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -21503,5 +21503,149 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Wendy's Trimsalon",
+  "kort": "Hondentrimsalon in Kloosterzande",
+  "slug": "wendys-trimsalon-kloosterzande",
+  "plaats": "Kloosterzande",
+  "tel_display": "06-39111531",
+  "tel_href": "tel:+31639111531",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Wendy",
+   "verhaal": "Wendy verzorgt in haar trimsalon in Kloosterzande alle hondenrassen met veel persoonlijke aandacht en rust. Elke hond gaat er weer fris en goed verzorgd de deur uit.",
+   "specialisaties": [
+    "Complete vachtverzorging",
+    "Wassen en föhnen",
+    "Knippen, scheren en plukken",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Sterre",
+  "kort": "Hondentrimsalon in Oostkapelle",
+  "slug": "trimsalon-sterre-oostkapelle",
+  "plaats": "Oostkapelle",
+  "tel_display": "06-10532705",
+  "tel_href": "tel:+31610532705",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Trimsalon Sterre in Oostkapelle is uw hond in handen van een gediplomeerd trimster, met een geduldige en diervriendelijke aanpak. Het welzijn van de hond staat tijdens elke behandeling voorop.",
+   "specialisaties": [
+    "Gediplomeerd trimster",
+    "Knippen, scheren en plukken",
+    "Wassen en föhnen",
+    "Behandeling op afspraak"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Schoonenburg",
+  "kort": "Hondentrimsalon in Oost-Souburg",
+  "slug": "hondentrimsalon-schoonenburg-oost-souburg",
+  "plaats": "Oost-Souburg",
+  "tel_display": "06-41792489",
+  "tel_href": "tel:+31641792489",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Schoonenburg in Oost-Souburg biedt rustige, persoonlijke vachtverzorging voor alle rassen. Er is alle tijd en aandacht voor elke hond.",
+   "specialisaties": [
+    "Vachtverzorging op maat",
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Nagels en oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Renate's Doggy Care",
+  "kort": "Hondentrimsalon in Middelburg",
+  "slug": "renates-doggy-care-middelburg",
+  "plaats": "Middelburg",
+  "tel_display": "06-13865020",
+  "tel_href": "tel:+31613865020",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Renate",
+   "verhaal": "Renate verzorgt bij Renate's Doggy Care in Middelburg honden van klein tot groot met liefde en vakkennis. Iedere hond krijgt een persoonlijke behandeling op maat.",
+   "specialisaties": [
+    "Complete trimbeurt",
+    "Wassen en föhnen",
+    "Knippen, scheren en effileren",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Howlin' Dog Trimsalon",
+  "kort": "Hondentrimsalon in Koewacht",
+  "slug": "howlin-dog-trimsalon-koewacht",
+  "plaats": "Koewacht",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij Howlin' Dog Trimsalon in Koewacht draait alles om een goed verzorgde vacht en een ontspannen hond. Alle rassen zijn er welkom voor een complete trimbeurt.",
+   "specialisaties": [
+    "Complete vachtverzorging",
+    "Wassen en föhnen",
+    "Knippen, scheren en plukken",
+    "Nagels en oren verzorgen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon het Vachtje",
+  "kort": "Honden- en kattentrimsalon in Oud-Vossemeer",
+  "slug": "trimsalon-het-vachtje-oud-vossemeer",
+  "plaats": "Oud-Vossemeer",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon het Vachtje in Oud-Vossemeer is een gediplomeerde honden- en kattentrimsalon waar dieren met zorg en geduld worden behandeld. Voor elke vacht de juiste aanpak.",
+   "specialisaties": [
+    "Honden- en kattentrim",
+    "Wassen en föhnen",
+    "Knippen, scheren en plukken",
+    "Nagels knippen en oren reinigen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
