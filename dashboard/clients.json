@@ -19024,5 +19024,49 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Flinnies Trimcorner",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Lelystad",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T23:25:24",
+  "laatste_post": "",
+  "demo_url": "https://flinnies-trimcorner-lelystad.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Lelystad, alleen actief via Facebook en op afspraak, zonder eigen website.",
+  "fouten": [
+   "Hondentrimsalon in Lelystad, alleen actief via Facebook en op afspraak, zonder eigen website"
+  ],
+  "contact": "Alleen facebook.com/Flinnies",
+  "bron": null,
+  "social": "facebook.com/Flinnies",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Lilly's trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Lelystad",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T23:25:24",
+  "laatste_post": "",
+  "demo_url": "https://lillys-trimsalon-lelystad.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Lelystad, alleen vindbaar via Facebook en zonder eigen website.",
+  "fouten": [
+   "Hondentrimsalon in Lelystad, alleen vindbaar via Facebook en zonder eigen website"
+  ],
+  "contact": "Alleen facebook.com/61552295276963",
+  "bron": null,
+  "social": "facebook.com/61552295276963",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

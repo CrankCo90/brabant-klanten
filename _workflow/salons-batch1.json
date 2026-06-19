@@ -21695,5 +21695,53 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Flinnies Trimcorner",
+  "kort": "Honden- en kattentrimsalon met gratis haal- en brengservice",
+  "slug": "flinnies-trimcorner-lelystad",
+  "plaats": "Lelystad",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Honden- en kattentrimsalon in Lelystad met een gratis haal- en brengservice. Honden worden op afspraak verzorgd.",
+   "specialisaties": [
+    "Honden trimmen",
+    "Katten trimmen",
+    "Gratis haal- en brengservice",
+    "Vachtverzorging op afspraak"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Lilly's trimsalon",
+  "kort": "Kleinschalige hondentrimsalon in Lelystad",
+  "slug": "lillys-trimsalon-lelystad",
+  "plaats": "Lelystad",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon in Lelystad waar honden op afspraak persoonlijk worden verzorgd. De salon is te vinden via Facebook.",
+   "specialisaties": [
+    "Honden trimmen",
+    "Persoonlijke aandacht",
+    "Op afspraak",
+    "Alle rassen welkom"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]
