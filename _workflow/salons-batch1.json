@@ -21647,5 +21647,29 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Misty",
+  "kort": "Hondentrimsalon in Zevenaar",
+  "slug": "hondentrimsalon-misty-zevenaar",
+  "plaats": "Zevenaar",
+  "tel_display": "0624378360",
+  "tel_href": "tel:+31624378360",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Denise van Eekeren",
+   "verhaal": "Denise van Eekeren is sinds 2015 gediplomeerd hondentrimster en runt Hondentrimsalon Misty in Zevenaar. Ze doet haar vak met passie en plezier, en dat is terug te zien in het resultaat.",
+   "specialisaties": [
+    "Wassen en föhnen",
+    "Knippen en scheren",
+    "Plukken en effileren",
+    "In model brengen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

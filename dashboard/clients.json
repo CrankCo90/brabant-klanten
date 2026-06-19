@@ -18980,5 +18980,27 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Misty",
+  "niche": "Hondentrimsalons",
+  "regio": "Gelderland",
+  "plaats": "Zevenaar",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T17:25:36",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-misty-zevenaar.demo.brabantdigital.nl",
+  "waarom": "Gediplomeerde hondentrimster in Zevenaar (sinds 2015), bereikbaar via mobiel, zonder eigen website.",
+  "fouten": [
+   "Gediplomeerde hondentrimster in Zevenaar (sinds 2015), bereikbaar via mobiel, zonder eigen website"
+  ],
+  "contact": "0624378360",
+  "bron": null,
+  "social": "",
+  "telefoon": "0624378360",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
