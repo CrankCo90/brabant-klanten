@@ -21671,5 +21671,29 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Jofel",
+  "kort": "Hondentrimsalon in Lelystad",
+  "slug": "hondentrimsalon-jofel-lelystad",
+  "plaats": "Lelystad",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondentrimsalon Jofel verzorgt honden in Lelystad en omgeving, volledig op afspraak. Nieuwe baasjes kunnen rekenen op een gratis puppy-kennismaking.",
+   "specialisaties": [
+    "Trimmen op afspraak",
+    "Gratis puppybehandeling",
+    "Alle rassen welkom",
+    "Persoonlijke aandacht"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "taal": "nl"
  }
 ]

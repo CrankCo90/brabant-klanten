@@ -19002,5 +19002,27 @@
   "telefoon": "0624378360",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon Jofel",
+  "niche": "Hondentrimsalons",
+  "regio": "Flevoland",
+  "plaats": "Lelystad",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-19",
+  "aangemaakt": "2026-06-19T23:12:22",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-jofel-lelystad.demo.brabantdigital.nl",
+  "waarom": "Hondentrimsalon in Lelystad, alleen actief via Facebook en op afspraak, zonder eigen website.",
+  "fouten": [
+   "Hondentrimsalon in Lelystad, alleen actief via Facebook en op afspraak, zonder eigen website"
+  ],
+  "contact": "Alleen facebook.com/hondentrimsalonjofel",
+  "bron": null,
+  "social": "facebook.com/hondentrimsalonjofel",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
