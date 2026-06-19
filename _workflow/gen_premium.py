@@ -51,7 +51,7 @@ THEMES=[
    trust='&#9733; 4.9/5 klantbeoordeling &nbsp;&bull;&nbsp; Garantie op al het werk',
    rating='<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>4.9 / 5</b> - 200+ tevreden klanten', promo='', topbar=''),
  # 3 Licht editorial & Goud (serif italic)
- dict(css=":root{--bg:#fbf8f2;--band:#f3ebdd;--surface:#fff;--ink:#23201a;--text:#4b463d;--muted:#867d6f;--accent:#b0883a;--accent2:#b0883a1c;--ct:#fff;--line:#e8dccb;--hbg:#23201a;--hfg:#fff;--ov:linear-gradient(rgba(28,24,18,.42),rgba(28,24,18,.6));--himg:url('%s');--whyimg:url('%s');--fh:'Cormorant Garamond',Georgia,serif;--rad:4px}.hero h1{font-size:clamp(2.6rem,6vw,4.4rem)}.hero h1 .ac,.sec-head h2 .ac,.offer h2 .ac{font-style:italic}#lang{background:#ffffff22}"%(IMG%"2235698324",IMG%"2223733287"),
+ dict(css=":root{--bg:#fbf8f2;--band:#f3ebdd;--surface:#fff;--ink:#23201a;--text:#4b463d;--muted:#867d6f;--accent:#b0883a;--accent2:#b0883a1c;--ct:#fff;--line:#e8dccb;--hbg:#23201a;--hfg:#fff;--ov:linear-gradient(rgba(28,24,18,.42),rgba(28,24,18,.6));--himg:url('%s');--whyimg:url('%s');--fh:'Cormorant Garamond',Georgia,serif;--rad:4px}.hero h1{font-size:clamp(2.6rem,6vw,4.4rem)}.hero h1 .ac,.sec-head h2 .ac,.offer h2 .ac{font-style:italic}#lang{background:#ffffff22}"%(IMG%"2206957489",IMG%"2223733287"),
    bodyclass="t3", heroclass="",
    kicker='&mdash; Vakmanschap sinds jaar en dag',
    title='Strak schilder- en stucwerk <span class="ac">met een luxe uitstraling</span>',
@@ -67,7 +67,7 @@ THEMES=[
    trust='&#10003; Gratis en vrijblijvend &nbsp;&bull;&nbsp; Reactie binnen 24 uur &nbsp;&bull;&nbsp; Heldere prijsopgave',
    rating='<b>Klanten die houden van perfectie</b>', promo='', topbar=''),
  # 5 Corporate blauw (WordPress-stijl)
- dict(css=":root{--bg:#fff;--band:#f3f6fb;--surface:#fff;--ink:#12294b;--text:#3a4254;--muted:#6b7384;--accent:#1a5fb4;--accent2:#1a5fb414;--ct:#fff;--line:#e2e8f1;--hbg:#fff;--hfg:#12294b;--ov:linear-gradient(rgba(12,30,60,.5),rgba(12,30,60,.62));--himg:url('%s');--whyimg:url('%s');--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--rad:6px}#lang{background:#12294b12;color:var(--hfg);border-color:#12294b22}.menu a{opacity:.95}"%(IMG%"2206957489",IMG%"2223733287"),
+ dict(css=":root{--bg:#fff;--band:#f3f6fb;--surface:#fff;--ink:#12294b;--text:#3a4254;--muted:#6b7384;--accent:#1a5fb4;--accent2:#1a5fb414;--ct:#fff;--line:#e2e8f1;--hbg:#fff;--hfg:#12294b;--ov:linear-gradient(rgba(12,30,60,.5),rgba(12,30,60,.62));--himg:url('%s');--whyimg:url('%s');--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--rad:6px}#lang{background:#12294b12;color:var(--hfg);border-color:#12294b22}.menu a{opacity:.95}"%(IMG%"2217702678",IMG%"2223733287"),
    bodyclass="t5", heroclass="",
    kicker='Stukadoors- &amp; afbouwbedrijf',
    title='Stukadoors- en afbouwwerk met <span class="ac">vakmanschap &amp; netheid</span>',
