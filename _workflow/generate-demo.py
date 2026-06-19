@@ -12,6 +12,10 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC  = ROOT / "hondentrimsalonscott" / "03-designs"
 FILES = ["index.html"] + [f"previews/design-{i:02d}.html" for i in range(1,11)]
 salons = json.loads((ROOT/"_workflow"/"salons-batch1.json").read_text(encoding="utf-8"))
+import sys as _sys
+_sys.path.insert(0, str(ROOT/"_workflow"))
+import gen_premium as _gp
+
 
 _pp = ROOT/"_workflow"/"ai-pool.json"
 POOL = json.loads(_pp.read_text(encoding="utf-8")) if _pp.exists() else {"clean":[],"dirty":[],"salon":[]}
@@ -827,6 +831,12 @@ def render_d12_kapper(s):
 
 n=0
 for s in salons:
+    if s.get("niche")=="schilder":
+        dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
+        (dest/"index.html").write_text(_gp.render_cover(s),encoding="utf-8")
+        for _i in range(1,7):
+            (dest/"previews"/("design-%d.html"%_i)).write_text(_gp.render_premium(s,_i),encoding="utf-8")
+        n+=1; continue
     dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
     for f in FILES:
         out=transform((SRC/f).read_text(encoding="utf-8"), s)

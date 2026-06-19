@@ -8,13 +8,14 @@ sb=json.load(open(SB)); cl=json.load(open(CL)); pr=json.load(open(PR))
 quals=json.load(open('/tmp/new_quals.json'))
 existing={s['slug'] for s in sb}
 DEADLINE="vrijdag 26 juni 2026"; WERKDAG=_NOW.strftime("%Y-%m-%d"); AANGEMAAKT=_NOW.strftime("%Y-%m-%dT%H:%M:%S")
-NL={"hond":"Hondentrimsalons","nagels":"Nagelstudio's","pedicure":"Pedicures","kapper":"Kappers"}
-WORD={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons"}
+NL={"hond":"Hondentrimsalons","nagels":"Nagelstudio's","pedicure":"Pedicures","kapper":"Kappers","schilder":"Schilders & Stukadoors"}
+WORD={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons","schilder":"schilders- en stukadoorsbedrijven"}
 TIP={
  "hond":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel, met je openingstijden en een klikbaar telefoonnummer — daar zoeken baasjes als eerste naar een trimsalon.",
  "nagels":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio — zo boeken klanten met één tik, ook 's avonds.",
  "pedicure":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel met je openingstijden en een klikbaar telefoonnummer — daar zoeken klanten als eerste naar een pedicure.",
- "kapper":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio en in je Google-profiel — zo boeken klanten met één tik, ook 's avonds."}
+ "kapper":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio en in je Google-profiel — zo boeken klanten met één tik, ook 's avonds.",
+ "schilder":"zet duidelijke voor/na-foto's van je projecten online met je werkgebied erbij — zo zien nieuwe klanten meteen je vakmanschap en vinden ze je in Google."}
 def benefits(niche,plaats):
     if niche=="hond":
         return ["Online een afspraak maken, 24/7 — geen telefoontjes meer tijdens het trimmen.",
@@ -32,6 +33,12 @@ def benefits(niche,plaats):
         return ["Online een afspraak maken, 24/7 — minder telefoon en gemiste boekingen.",
          "Beter vindbaar in Google op 'kapper %s'."%plaats,
          "Je behandelingen en prijzen netjes op een rij, met foto's van je werk.",
+         "Klikbare WhatsApp- en belknop, en Nederlands/Engels met één knop.",
+         "Snelle, moderne uitstraling op telefoon, tablet en computer."]
+    if niche=="schilder":
+        return ["Offertes 24/7 online aanvragen via een duidelijk formulier — minder telefoon, meer aanvragen.",
+         "Beter vindbaar in Google op 'stukadoor %s' en 'schilder %s'."%(plaats,plaats),
+         "Je projecten en reviews netjes op een rij, met voor/na-foto's die vakmanschap tonen.",
          "Klikbare WhatsApp- en belknop, en Nederlands/Engels met één knop.",
          "Snelle, moderne uitstraling op telefoon, tablet en computer."]
     return ["Online een afspraak maken, 24/7 — geen telefoontjes meer tijdens een behandeling.",
@@ -57,7 +64,7 @@ for p in quals:
       "tel_display":td,"tel_href":th,"niche":niche,
       "content":{"eigenaar":p.get("eigenaar",""),"verhaal":p["verhaal"],"specialisaties":p["spec"],
         "certificering":p.get("cert",[]),"tarieven":[],"openingstijden":"Op afspraak","reviews":[]},
-      "taal":"nl"})
+      "email":p.get("email",""),"social":p.get("social",""),"taal":"nl"})
     cl.append({"bedrijf":p["bedrijf"],"niche":NL[niche],"regio":p.get("regio","Limburg"),"plaats":plaats,
       "status":"demo","score":4,"werkdag":WERKDAG,"aangemaakt":AANGEMAAKT,"laatste_post":p.get("laatste_post",""),"demo_url":demo,
       "waarom":p["waarom"],"fouten":[p["waarom"].rstrip('.')],"contact":(tel or (p.get("social") and "Alleen "+p["social"]) or "(contact nog nodig)"),

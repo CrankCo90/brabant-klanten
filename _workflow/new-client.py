@@ -8,9 +8,9 @@ def slug(n):
     s=re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-'); return (s[:40] or "klant")
 def run(c): return subprocess.run(c,cwd=str(ROOT),capture_output=True,text=True)
 def _outreach(nk,plaats,bedrijf,taal):
-    SEARCH={"hond":"hondentrimsalon","nagels":"nagelstudio","pedicure":"pedicure","kapper":"kapper"}
-    WORDNL={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons"}
-    WORDEN={"hond":"dog grooming salons","nagels":"nail studios","pedicure":"pedicures","kapper":"hair salons"}
+    SEARCH={"hond":"hondentrimsalon","nagels":"nagelstudio","pedicure":"pedicure","kapper":"kapper","schilder":"stukadoor"}
+    WORDNL={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons","schilder":"schilders- en stukadoorsbedrijven"}
+    WORDEN={"hond":"dog grooming salons","nagels":"nail studios","pedicure":"pedicures","kapper":"hair salons","schilder":"painting and plastering companies"}
     pl=plaats or ("de buurt" if taal!="en" else "your area"); sw=SEARCH.get(nk,"")
     if taal=="en":
         w=WORDEN.get(nk,"local businesses")
@@ -23,7 +23,8 @@ def _outreach(nk,plaats,bedrijf,taal):
         TIP={"kapper":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio en in je Google-profiel \u2014 zo boeken klanten met \u00e9\u00e9n tik, ook 's avonds.",
              "nagels":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio \u2014 zo boeken klanten met \u00e9\u00e9n tik, ook 's avonds.",
              "pedicure":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel met je openingstijden en een klikbaar telefoonnummer.",
-             "hond":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel, met je openingstijden en een klikbaar telefoonnummer."}
+             "hond":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel, met je openingstijden en een klikbaar telefoonnummer.",
+             "schilder":"zet duidelijke voor/na-foto's van je projecten online met je werkgebied erbij — zo zien nieuwe klanten je vakmanschap en vinden ze je in Google."}
         tip=TIP.get(nk,"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel met je openingstijden en een klikbaar telefoonnummer.")
         verb=["Online een afspraak maken, 24/7 \u2014 minder telefoon en gemiste boekingen.","Beter vindbaar in Google op '%s %s'."%(sw or "jouw vak",pl),"Je behandelingen en prijzen netjes op een rij, met foto's.","Klikbare WhatsApp- en belknop, en Nederlands/Engels met \u00e9\u00e9n knop.","Snelle, moderne uitstraling op telefoon, tablet en computer."]
     return comp,tip,verb
@@ -36,6 +37,7 @@ def main():
     _nlc=niche.lower()
     if "pedicure" in _nlc or "voet" in _nlc: nk2,nlabel="pedicure","Pedicures"
     elif "nagel" in _nlc or "nail" in _nlc: nk2,nlabel="nagels","Nagelstudio's"
+    elif "stukadoor" in _nlc or "stucadoor" in _nlc or "stuc" in _nlc or "schilder" in _nlc or "pleister" in _nlc or "afbouw" in _nlc: nk2,nlabel="schilder","Schilders & Stukadoors"
     elif "kapper" in _nlc or "kapsalon" in _nlc or "barber" in _nlc or "haar" in _nlc: nk2,nlabel="kapper","Kappers"
     elif "hond" in _nlc or "trim" in _nlc or "dog" in _nlc: nk2,nlabel="hond","Hondentrimsalons"
     else: nk2,nlabel=None,niche
@@ -44,7 +46,7 @@ def main():
     sg=slug(bedrijf)
     sf=ROOT/"_workflow/salons-batch1.json"; S=json.loads(sf.read_text(encoding="utf-8"))
     if not any(x["slug"]==sg for x in S):
-        kort=re.sub(r'^(hondentrimsalon|trimsalon|dogsalon|pedicuresalon|pedicurepraktijk|pedicure|nagelstudio|nagelsalon|salon)\s+','',bedrijf,flags=re.I).strip() or bedrijf
+        kort=re.sub(r'^(hondentrimsalon|trimsalon|dogsalon|pedicuresalon|pedicurepraktijk|pedicure|nagelstudio|nagelsalon|stukadoorsbedrijf|stucadoorsbedrijf|stukadoor|stucadoor|schildersbedrijf|schilderbedrijf|schilder|salon)\s+','',bedrijf,flags=re.I).strip() or bedrijf
         _tel=re.sub(r'[^0-9]','',telefoon)
         if _tel.startswith("0"): _tel="+31"+_tel[1:]
         elif _tel and not _tel.startswith("31"): _tel="+31"+_tel

@@ -22439,5 +22439,135 @@
    "reviews": []
   },
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Rom Stucadoorsbedrijf",
+  "kort": "Rom",
+  "slug": "rom-stucadoorsbedrijf-oss",
+  "plaats": "Oss",
+  "tel_display": "0626822284",
+  "tel_href": "tel:+31626822284",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf in Oss en omgeving voor strak stuc- en pleisterwerk, met persoonlijke aandacht en een eerlijke prijs.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Sierpleister & betonlook",
+    "Schilderwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/stukadoorbdrijf",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hoti Stukadoor",
+  "kort": "Hoti",
+  "slug": "hoti-stukadoor-oss",
+  "plaats": "Oss",
+  "tel_display": "0631781224",
+  "tel_href": "tel:+31631781224",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoor in Oss voor vakkundig stuc- en pleisterwerk, van strakke muren en plafonds tot complete afwerking.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Spuitwerk",
+    "Sierpleister & betonlook",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kramer & van Osch Stukadoorsbedrijf",
+  "kort": "Kramer & van Osch",
+  "slug": "kramer-van-osch-stukadoorsbedrijf-kerkdriel",
+  "plaats": "Kerkdriel",
+  "tel_display": "0418631611",
+  "tel_href": "tel:0418631611",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf in Kerkdriel voor compleet stuc-, pleister- en afbouwwerk, netjes en vakkundig uitgevoerd.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Spuitwerk",
+    "Sierpleister & betonlook",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "J. van Buul Stucwerken",
+  "kort": "van Buul",
+  "slug": "j-van-buul-stucwerken-heesch",
+  "plaats": "Heesch",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Jong stukadoorsbedrijf in Heesch (sinds 2021) voor strak stuc- en pleisterwerk met persoonlijke aandacht.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Sierpleister & betonlook",
+    "Schilderwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Adriaansen Stucwerken",
+  "kort": "Adriaansen",
+  "slug": "adriaansen-stucwerken",
+  "plaats": "uw regio",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Net gestart stukadoorsbedrijf voor strak stuc- en pleisterwerk met persoonlijke aandacht en scherpe prijzen.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Sierpleister & betonlook",
+    "Schilderwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
