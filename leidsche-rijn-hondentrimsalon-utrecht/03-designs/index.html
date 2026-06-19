@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Websitevoorstel — Leidsche Rijn Hondentrimsalon · Brabant Digital</title>
+<meta name="description" content="Tien complete websiteontwerpen voor Leidsche Rijn Hondentrimsalon, gemaakt door Brabant Digital.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:#0f0f12;color:#ece9e2;font-weight:300;line-height:1.65}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+/* topbar */
+.top{position:sticky;top:0;z-index:50;background:rgba(15,15,18,.88);backdrop-filter:blur(10px);border-bottom:1px solid rgba(201,169,106,.18)}
+.top .wrap{display:flex;align-items:center;gap:18px;padding:16px 28px}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.brand .mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#c9a96a,#9c7a3f);display:grid;place-items:center;color:#15151a;font-weight:700;font-family:'Playfair Display',serif}
+.brand b{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;letter-spacing:.01em}
+.brand span{display:block;font-size:.68rem;color:#8d887e;letter-spacing:.14em;text-transform:uppercase;margin-top:-2px}
+.top a.cta{background:#c9a96a;color:#15151a;padding:9px 16px;border-radius:999px;font-weight:600;font-size:.82rem;text-decoration:none}
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(201,169,106,.15)}
+.hero .bgimg{position:absolute;inset:0;background:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260613_202534_a8141287-b891-490e-aecd-095cfe0e6616.png') center/cover;opacity:.22;filter:saturate(.9)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,15,18,.4),rgba(15,15,18,.9))}
+.hero .wrap{position:relative;z-index:2;padding:84px 28px 70px}
+.kick{color:#c9a96a;letter-spacing:.28em;text-transform:uppercase;font-size:.74rem;margin-bottom:18px;font-weight:600}
+.hero h1{font-family:'Playfair Display',serif;font-size:3.2rem;line-height:1.08;font-weight:700;max-width:740px;margin-bottom:20px}
+.hero p{color:#c4bfb4;max-width:600px;font-size:1.08rem}
+.hero p b{color:#ece9e2}
+/* secties */
+section{padding:70px 0}
+.sec-head{max-width:680px;margin-bottom:40px}
+.sec-head h2{font-family:'Playfair Display',serif;font-size:2.1rem;font-weight:700;margin-bottom:10px}
+.sec-head p{color:#a9a499}
+/* voordelen */
+.benefits{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.benefit{background:#17171c;border:1px solid rgba(201,169,106,.16);border-radius:16px;padding:30px 28px}
+.benefit .ic{width:46px;height:46px;border-radius:12px;background:rgba(201,169,106,.14);display:grid;place-items:center;font-size:1.4rem;margin-bottom:16px}
+.benefit h3{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:600;margin-bottom:8px;color:#f3eddf}
+.benefit p{color:#a9a499;font-size:.95rem}
+/* designs */
+.cat{margin:46px auto 0}
+.cat h2{font-family:'Playfair Display',serif;font-size:1.45rem;color:#c9a96a;border-bottom:1px solid rgba(201,169,106,.25);padding-bottom:12px;margin-bottom:6px}
+.cat .sub{color:#8d887e;font-size:.92rem}
+.card{margin:30px auto}
+.head{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:12px}
+.num{font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:#c9a96a;line-height:1}
+.head h3{font-size:1.25rem;font-weight:600}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-left:auto}
+.tag{font-size:.7rem;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);padding:4px 10px;border-radius:999px;color:#c4bfb4}
+.desc{color:#a9a499;font-size:.92rem;margin:0 0 14px;max-width:760px}
+.frame{position:relative;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.1);box-shadow:0 20px 50px rgba(0,0,0,.4);background:#000}
+.frame iframe{width:100%;height:600px;border:0;display:block}
+.bar{display:flex;align-items:center;gap:10px;padding:12px 16px;background:#17171c;border-top:1px solid rgba(255,255,255,.08)}
+.bar .dot{width:10px;height:10px;border-radius:50%;background:#c9a96a;opacity:.5}
+.bar .lbl{font-size:.8rem;color:#8d887e;margin-right:auto}
+.btn{background:#c9a96a;color:#15151a;border:none;border-radius:8px;padding:9px 16px;font-size:.82rem;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px;font-family:inherit}
+.btn.ghost{background:none;border:1px solid rgba(201,169,106,.5);color:#c9a96a}
+.btn:hover{opacity:.88}
+/* mix & match */
+.mix{background:linear-gradient(160deg,#1b160d,#15151a);border:1px solid rgba(201,169,106,.3);border-radius:20px;padding:46px 40px}
+.mix h2{font-family:'Playfair Display',serif;font-size:2rem;color:#f3eddf;margin-bottom:12px}
+.mix>p{color:#c4bfb4;max-width:680px;margin-bottom:24px}
+.feats{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+.feats span{background:rgba(201,169,106,.12);border:1px solid rgba(201,169,106,.3);color:#e7dcc2;border-radius:999px;padding:9px 16px;font-size:.88rem}
+.mix .ex{background:rgba(0,0,0,.25);border-left:3px solid #c9a96a;border-radius:8px;padding:16px 20px;color:#cfc8ba;font-size:.95rem}
+.mix .ex b{color:#f3eddf}
+/* pakketten */
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.plan{background:#17171c;border:1px solid rgba(201,169,106,.18);border-radius:18px;padding:34px 30px;position:relative}
+.plan.feat{border-color:#c9a96a}
+.plan .label{position:absolute;top:-12px;left:30px;background:#c9a96a;color:#15151a;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+.plan h3{font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:6px;color:#f3eddf}
+.plan .price{font-size:2.2rem;font-weight:600;color:#c9a96a;margin-bottom:4px;font-family:'Playfair Display',serif}
+.plan .price small{font-size:1rem;color:#8d887e;font-weight:400}
+.plan .pre{font-size:.82rem;color:#8d887e;margin-bottom:18px}
+.plan ul{list-style:none}
+.plan li{padding:7px 0 7px 26px;position:relative;color:#cfc8ba;font-size:.92rem;border-bottom:1px solid rgba(255,255,255,.06)}
+.plan li:last-child{border:none}
+.plan li::before{content:"✓";position:absolute;left:0;color:#c9a96a;font-weight:700}
+.plannote{color:#8d887e;font-size:.85rem;margin-top:16px;text-align:center}
+/* contact */
+.contact{background:#17171c;border:1px solid rgba(201,169,106,.2);border-radius:20px;padding:48px 40px;text-align:center}
+.contact h2{font-family:'Playfair Display',serif;font-size:2.2rem;color:#f3eddf;margin-bottom:10px}
+.contact p{color:#a9a499;max-width:560px;margin:0 auto 28px}
+.ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.ctas a{display:inline-flex;align-items:center;gap:9px;padding:15px 26px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.95rem}
+.ctas .wa{background:#25d366;color:#06310f}
+.ctas .mail{background:#c9a96a;color:#15151a}
+.ctas .form{border:1px solid rgba(201,169,106,.5);color:#c9a96a}
+footer{border-top:1px solid rgba(201,169,106,.15);padding:40px 0;color:#7d786e;font-size:.88rem;text-align:center}
+footer b{color:#c9a96a;font-family:'Playfair Display',serif}
+@media(max-width:760px){.hero h1{font-size:2.2rem}.benefits,.plans{grid-template-columns:1fr}.frame iframe{height:480px}.mix,.contact{padding:32px 24px}}
+</style></head>
+<body>
+
+<div class="top"><div class="wrap">
+  <span class="brand"><span class="mark">B</span><span><b>Brabant Digital</b><span>Websites die klanten opleveren</span></span></span>
+  <a class="cta" href="#contact">Reageren</a>
+</div></div>
+
+<header class="hero">
+  <div class="bgimg"></div>
+  <div class="wrap">
+    <div class="kick">Persoonlijk websitevoorstel</div>
+    <h1>Een eigen website voor Leidsche Rijn Hondentrimsalon</h1>
+    <p>U heeft een prachtig vak, mooie resultaten en trouwe klanten — maar nog geen eigen website. Hieronder ziet u hoe die eruit zou kunnen zien: <b>tien complete richtingen</b>, speciaal gemaakt voor uw salon. Bekijk ze rustig en laat weten welke u aanspreekt.</p>
+  </div>
+</header>
+
+<section class="wrap">
+  <div class="sec-head">
+    <h2>Wat een eigen website u oplevert</h2>
+    <p>Uw Instagram is een mooie etalage. Een eigen website is de winkeldeur waar nieuwe klanten daadwerkelijk binnenkomen.</p>
+  </div>
+  <div class="benefits">
+    <div class="benefit"><div class="ic">🔍</div><h3>Gevonden worden in Google</h3><p>Wie zoekt op "hondentrimsalon Utrecht" vindt nu uw concurrenten. Met een eigen website verschijnt u in Google — elke dag nieuwe klanten die u nu misloopt.</p></div>
+    <div class="benefit"><div class="ic">📅</div><h3>Klanten boeken zelf, 24/7</h3><p>Mensen plannen zelf een afspraak, ook 's avonds. Die verschijnt direct in uw agenda — u wordt niet meer gestoord tijdens het trimmen.</p></div>
+    <div class="benefit"><div class="ic">✨</div><h3>Een professionele uitstraling</h3><p>Een verzorgde, eigen plek online met eigen domein en e-mailadres. U oogt gevestigd en betrouwbaar, naast uw Instagram.</p></div>
+    <div class="benefit"><div class="ic">⭐</div><h3>Vertrouwen op één plek</h3><p>Uw diploma, bijscholing, reviews en voor/na-foto's overzichtelijk bij elkaar. Nieuwe klanten kiezen sneller voor u.</p></div>
+  </div>
+</section>
+
+<section class="wrap" style="padding-top:10px">
+  <div class="sec-head">
+    <h2>Elf richtingen om uit te kiezen</h2>
+    <p>Elk ontwerp is een complete, werkende voorproef — met een Nederlands/Engels-knop en een duidelijke "Afspraak maken". Klik op <b>⛶ Fullscreen</b> of <b>↗ Nieuw tabblad</b> om een ontwerp echt te beleven.</p>
+  </div>
+
+    <div class="cat"><h2>★ Nieuw — ons premium-ontwerp</h2><p class="sub">Ons nieuwste en meest complete ontwerp — warm, luxe en helder. Begin hier.</p></div>
+
+  <div class="card" data-src="previews/design-11.html">
+    <div class="head"><span class="num">★</span><h3>Premium — Warm &amp; Luxe</h3>
+      <div class="tags"><span class="tag">nieuw</span><span class="tag">premium</span><span class="tag">compleet</span></div></div>
+    <p class="desc">Ons meest complete ontwerp: een warme, luxe uitstraling met grote hero-foto, diensten, galerij, reviews, openingstijden en een duidelijk boekingsformulier. Cream, goud en espresso — rustig en high-end.</p>
+  </div>
+
+<div class="cat"><h2>Tijdloos &amp; luxe</h2><p class="sub">Twee elegante richtingen — één rustig, één met meer beweging.</p></div>
+
+  <div class="card" data-src="previews/design-01.html">
+    <div class="head"><span class="num">01</span><h3>Champagne &amp; Charcoal — Rustig</h3>
+      <div class="tags"><span class="tag">clean</span><span class="tag">snel</span><span class="tag">tijdloos</span></div></div>
+    <p class="desc">Strak en rustig: een heldere hero-foto, nette dienstenstrook en een kleine galerij. Maximale duidelijkheid, laadt razendsnel.</p>
+  </div>
+
+  <div class="card" data-src="previews/design-02.html">
+    <div class="head"><span class="num">02</span><h3>Champagne &amp; Charcoal — Sfeervol</h3>
+      <div class="tags"><span class="tag">foto-slideshow</span><span class="tag">subtiele animatie</span><span class="tag">cijfers</span></div></div>
+    <p class="desc">Dezelfde luxe stijl, maar levendiger: een wisselende fotoslideshow, zachte beweging, meetellende cijfers en secties die elegant in beeld komen.</p>
+  </div>
+
+  <div class="cat"><h2>Sfeervol &amp; verzorgd</h2><p class="sub">Vier richtingen met elk een eigen visueel accent en kleur.</p></div>
+
+  <div class="card" data-src="previews/design-03.html">
+    <div class="head"><span class="num">03</span><h3>Parkgroen</h3>
+      <div class="tags"><span class="tag">natuurlijk</span><span class="tag">diepte bij scrollen</span><span class="tag">groen + goud</span></div></div>
+    <p class="desc">Rustig, natuurlijk en gevestigd, met lagen die zachtjes meebewegen tijdens het scrollen. Rustig, natuurlijk en gevestigd.</p>
+  </div>
+
+  <div class="card" data-src="previews/design-04.html">
+    <div class="head"><span class="num">04</span><h3>Blush &amp; Velvet</h3>
+      <div class="tags"><span class="tag">licht &amp; warm</span><span class="tag">speels</span><span class="tag">roze + plum</span></div></div>
+    <p class="desc">Een licht, vriendelijk ontwerp met zachtjes zwevende pootjes op de achtergrond. Speels maar elegant — past bij "met liefde en geduld".</p>
+  </div>
+
+  <div class="card" data-src="previews/design-05.html">
+    <div class="head"><span class="num">05</span><h3>Navy &amp; Koper</h3>
+      <div class="tags"><span class="tag">filmisch</span><span class="tag">beeldvullend</span><span class="tag">navy + koper</span></div></div>
+    <p class="desc">Beeldvullende vlakken die als een filmintro in elkaar overvloeien. Indrukwekkend en premium — uw werk groot in beeld.</p>
+  </div>
+
+  <div class="card" data-src="previews/design-06.html">
+    <div class="head"><span class="num">06</span><h3>Editorial Wit</h3>
+      <div class="tags"><span class="tag">licht &amp; modern</span><span class="tag">beweegt met de muis</span><span class="tag">wit + terracotta</span></div></div>
+    <p class="desc">Strak magazine-ontwerp op wit. Beweeg met de muis over de foto en de kaarten en ze komen subtiel tot leven. Modern en high-end.</p>
+  </div>
+
+  <div class="cat"><h2>Interactief — uw bezoeker doet mee</h2><p class="sub">Vier richtingen waarin de bezoeker zelf iets kan doen.</p></div>
+
+  <div class="card" data-src="previews/design-07.html">
+    <div class="head"><span class="num">07</span><h3>Mint Spa — Voor/na-slider</h3>
+      <div class="tags"><span class="tag">sleep-slider</span><span class="tag">voor → na</span><span class="tag">spa-groen</span></div></div>
+    <p class="desc">Sleep de slider over de foto en zie een ongekamde vacht veranderen in een verzorgd resultaat. Uw vakwerk meteen zichtbaar.</p>
+  </div>
+
+  <div class="card" data-src="previews/design-08.html">
+    <div class="head"><span class="num">08</span><h3>Honing &amp; Mokka — Prijsindicatie</h3>
+      <div class="tags"><span class="tag">directe richtprijs</span><span class="tag">grootte/vacht/dienst</span><span class="tag">warm bruin</span></div></div>
+    <p class="desc">De bezoeker kiest grootte, vachttype en behandeling en ziet meteen een richtprijs — duidelijk, zonder dat u vastzit aan een vast bedrag.</p>
+  </div>
+
+  <div class="card" data-src="previews/design-09.html">
+    <div class="head"><span class="num">09</span><h3>Modern Mint — Trim-keuzehulp</h3>
+      <div class="tags"><span class="tag">korte keuzehulp</span><span class="tag">persoonlijk advies</span><span class="tag">fris + coral</span></div></div>
+    <p class="desc">Een korte, vriendelijke keuzehulp: "welke behandeling past bij mijn hond?" met persoonlijk advies en een directe boekingsknop.</p>
+  </div>
+
+  <div class="card" data-src="previews/design-10.html">
+    <div class="head"><span class="num">10</span><h3>Houtskool &amp; Hout — Online boeken</h3>
+      <div class="tags"><span class="tag">werkende agenda</span><span class="tag">dag + tijd</span><span class="tag">3 stappen</span></div></div>
+    <p class="desc">Een echt klikbare boeking: kies behandeling, een dag in de agenda en een tijd. Zo boeken klanten 's avonds zelf — direct in uw agenda.</p>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="mix">
+    <h2>Alles is mogelijk — en zit in de prijs</h2>
+    <p>U hoeft niet te kiezen tussen mooi óf handig. Kies de stijl die u het mooist vindt en combineer er vrij functies bij. Wij bouwen het op maat, <b>zonder meerprijs per functie</b>.</p>
+    <div class="feats">
+      <span>Online afspraken 24/7</span><span>Voor/na-slider</span><span>Prijsindicatie</span><span>Trim-keuzehulp</span><span>Nederlands &amp; Engels</span><span>Vindbaar in Google</span><span>WhatsApp-knop</span><span>Reviews &amp; galerij</span><span>Mobielvriendelijk</span><span>Supersnel</span>
+    </div>
+    <div class="ex">Voorbeeld: u vindt de stijl van <b>ontwerp 02</b> het mooist, maar wilt ook de <b>voor/na-slider</b> en de <b>prijsindicatie</b> erbij? Geen probleem — dat bouwen we gewoon in uw website, inbegrepen in de prijs.</div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="sec-head"><h2>Wat het kost</h2><p>Eén keer bouwen, daarna van u. <strong>Eenmalig — geen abonnement, geen maandelijkse kosten, u zit nergens aan vast.</strong> Hosting kunt u optioneel aan ons uitbesteden, maar dat hoeft niet.</p></div>
+  <div class="plans">
+    <div class="plan feat"><span class="label">Compleet</span>
+      <h3>Uw website</h3>
+      <div class="price"><span style="text-decoration:line-through;color:#7d786e;font-size:1.4rem">€ 499</span> € 199 <small>eenmalig</small></div>
+      <div class="pre" style="color:#c9a96a">Introductieaanbod — eenmalig, geen abonnement</div>
+      <ul>
+        <li>Ontwerp naar keuze, volledig uitgewerkt</li>
+        <li>Alle gewenste functies inbegrepen (voor/na, prijsindicatie, keuzehulp)</li>
+        <li>Online boekingssysteem gekoppeld aan uw agenda</li>
+        <li>Nederlands &amp; Engels, mobielvriendelijk, supersnel</li>
+        <li>Vindbaar in Google + reviews en foto's netjes op een rij</li>
+        <li>Uw eigen foto's verwerkt</li>
+        <li><strong>Eén maand gratis kleine aanpassingen</strong> na oplevering</li>
+        <li>Daarna geen verplichtingen — de website is van u</li>
+      </ul>
+    </div>
+    <div class="plan"><span class="label">Optioneel</span>
+      <h3>Hosting &amp; onderhoud</h3>
+      <div class="price">vanaf € 19 <small>per maand</small></div>
+      <div class="pre">100% optioneel — alleen als u het wilt</div>
+      <ul>
+        <li>Hosting op een snelle, beveiligde server (HTTPS)</li>
+        <li>Eigen domein &amp; e-mailadres</li>
+        <li>Updates en kleine wijzigingen</li>
+        <li>Boekingssysteem en agenda blijven werken</li>
+        <li>Hulp wanneer u het nodig heeft</li>
+        <li><strong>12 maanden vooruit = 25% korting</strong></li>
+        <li>Niet verplicht bij uw website</li>
+      </ul>
+    </div>
+  </div>
+  <p class="plannote">Geen verrassingen achteraf: de €199 is eenmalig en compleet. Hosting is een losse, optionele service — u beslist.</p>
+</section>
+
+<section class="wrap" id="contact">
+  <div class="contact">
+    <h2>Spreekt een ontwerp u aan?</h2>
+    <p>Laat het ons weten — ook als u twijfelt of functies wilt combineren. We denken vrijblijvend met u mee en passen alles aan naar uw wensen.</p>
+    <div class="ctas">
+      <a class="wa" href="https://wa.me/31850608491" target="_blank" rel="noopener">💬 WhatsApp 085-0608491</a>
+      <a class="mail" href="mailto:aanbod@brabantdigital.nl">✉️ aanbod@brabantdigital.nl</a>
+    </div>
+    <form id="contactform" style="max-width:480px;margin:30px auto 0;text-align:left;display:grid;gap:12px">
+      <input type="hidden" name="access_key" value="ef050157-d2a3-43ce-89c2-6088aa1b8bf2">
+      <input type="hidden" name="subject" value="Reactie op websitevoorstel — Leidsche Rijn Hondentrimsalon">
+      <input type="text" name="name" required placeholder="Uw naam" style="background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:10px;padding:13px 16px;color:#ece9e2;font-family:inherit;font-size:.95rem">
+      <input type="text" name="contactgegevens" required placeholder="E-mail of 06-nummer" style="background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:10px;padding:13px 16px;color:#ece9e2;font-family:inherit;font-size:.95rem">
+      <textarea name="message" rows="3" placeholder="Welk ontwerp spreekt u aan? Of stel gerust een vraag." style="background:#0f0f12;border:1px solid rgba(201,169,106,.3);border-radius:10px;padding:13px 16px;color:#ece9e2;font-family:inherit;font-size:.95rem;resize:vertical"></textarea>
+      <button type="submit" id="formbtn" class="btn" style="justify-content:center;padding:14px">Versturen</button>
+      <p id="formstatus" style="display:none;margin:0;padding:13px 16px;border-radius:8px;font-size:.9rem"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p><b>Brabant Digital</b> — websites die klanten opleveren</p>
+  <p style="margin-top:6px">Voorstel voor Leidsche Rijn Hondentrimsalon · Utrecht</p>
+</footer>
+
+<script>
+document.querySelectorAll('.card[data-src]').forEach(card=>{
+  const src=card.dataset.src;
+  const frame=document.createElement('div');frame.className='frame';
+  frame.innerHTML='<iframe loading="lazy" src="'+src+'"></iframe>'+
+    '<div class="bar"><span class="dot"></span><span class="lbl">Voorproef — klik Fullscreen voor het volledige effect</span>'+
+    '<button class="btn" data-fs>⛶ Fullscreen</button>'+
+    '<a class="btn ghost" href="'+src+'" target="_blank" rel="noopener">↗ Nieuw tabblad</a></div>';
+  card.appendChild(frame);
+  frame.querySelector('[data-fs]').onclick=()=>{const el=frame.querySelector('iframe');(el.requestFullscreen||el.webkitRequestFullscreen||(()=>window.open(src,'_blank'))).call(el);};
+});
+</script>
+<script>
+(function(){
+  var f=document.getElementById('contactform');if(!f)return;
+  f.addEventListener('submit',async function(e){
+    e.preventDefault();var btn=document.getElementById('formbtn'),st=document.getElementById('formstatus');
+    btn.disabled=true;btn.textContent='Versturen…';
+    try{
+      var res=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)});
+      if(res.ok){st.textContent='✓ Bedankt! Uw bericht is verzonden — we reageren binnen 1 werkdag.';st.style.background='rgba(201,169,106,.15)';st.style.color='#c9a96a';st.style.border='1px solid #c9a96a';f.querySelectorAll('input:not([type=hidden]),textarea').forEach(function(el){el.value='';});}
+      else{throw new Error();}
+    }catch(err){st.textContent='Versturen lukte niet. Probeer het nog eens, of app ons op 085-0608491.';st.style.background='rgba(220,80,80,.12)';st.style.color='#e09090';st.style.border='1px solid #e09090';}
+    st.style.display='block';btn.disabled=false;btn.textContent='Versturen';
+  });
+})();
+</script>
+<a id="bd-wa-float" href="https://wa.me/31850608491" target="_blank" rel="noopener" aria-label="App ons via WhatsApp" style="position:fixed;bottom:22px;right:22px;z-index:99999;display:flex;align-items:center;gap:9px;background:#25D366;color:#fff;text-decoration:none;padding:12px 18px;border-radius:999px;font-family:inherit;font-weight:700;font-size:.95rem;box-shadow:0 6px 20px rgba(0,0,0,.28)"><svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg><span data-en="Message us">App ons</span></a>
+</body></html>
