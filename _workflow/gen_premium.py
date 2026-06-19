@@ -33,7 +33,7 @@ def _ctx(s):
                 emailtxt=(email or "Op aanvraag"),logo=logo,initials=_initials(merk),wa=wa)
 
 # 6 thema's (kleuren/fonts/hero) — content komt uit de gedeelde template
-IMG="https://images.pexels.com/photos/%s/pexels-photo-%s.jpeg?auto=compress&cs=tinysrgb&w=1600"
+IMG="https://assets.ls-assets.com/provider/istock/%s.jpg?w=1600"
 THEMES=[
  # 1 Charcoal & Oranje
  dict(css="", bodyclass="t1", heroclass="",
@@ -43,7 +43,7 @@ THEMES=[
    trust='&#10003; Gratis &amp; vrijblijvend - binnen 24 uur een eerlijke offerte',
    rating='<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>9.6</b> uit 50+ reviews', promo='', topbar=''),
  # 2 Zwart & Goud
- dict(css=":root{--bg:#0e0d0b;--band:#15130f;--surface:#181510;--ink:#fff;--text:#cdc5b4;--muted:#9a9race;--accent:#c8a24a;--accent2:#c8a24a22;--ct:#1a1609;--line:#2b271f;--hbg:#0a0908;--hfg:#fff;--ov:linear-gradient(rgba(8,7,6,.74),rgba(8,7,6,.86));--himg:url('%s');--revbg:#181510;--revtx:#cdc5b4;--rad:6px;--fh:'Playfair Display',serif}"%(IMG%("6473998","6473998")),
+ dict(css=":root{--bg:#0e0d0b;--band:#15130f;--surface:#181510;--ink:#fff;--text:#cdc5b4;--muted:#9a9race;--accent:#c8a24a;--accent2:#c8a24a22;--ct:#1a1609;--line:#2b271f;--hbg:#0a0908;--hfg:#fff;--ov:linear-gradient(rgba(8,7,6,.74),rgba(8,7,6,.86));--himg:url('%s');--whyimg:url('%s');--revbg:#181510;--revtx:#cdc5b4;--rad:6px;--fh:'Playfair Display',serif}"%(IMG%"2223733287",IMG%"2250749192"),
    bodyclass="t2", heroclass="center",
    kicker='&#10022; Premium vakmanschap',
    title='Schilder- &amp; <span class="ac">Stucadoorsbedrijf</span> {{NAME}}',
@@ -51,7 +51,7 @@ THEMES=[
    trust='&#9733; 4.9/5 klantbeoordeling &nbsp;&bull;&nbsp; Garantie op al het werk',
    rating='<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>4.9 / 5</b> - 200+ tevreden klanten', promo='', topbar=''),
  # 3 Licht editorial & Goud (serif italic)
- dict(css=":root{--bg:#fbf8f2;--band:#f3ebdd;--surface:#fff;--ink:#23201a;--text:#4b463d;--muted:#867d6f;--accent:#b0883a;--accent2:#b0883a1c;--ct:#fff;--line:#e8dccb;--hbg:#23201a;--hfg:#fff;--ov:linear-gradient(rgba(28,24,18,.42),rgba(28,24,18,.6));--himg:url('%s');--fh:'Cormorant Garamond',Georgia,serif;--rad:4px}.hero h1{font-size:clamp(2.6rem,6vw,4.4rem)}.hero h1 .ac,.sec-head h2 .ac,.offer h2 .ac{font-style:italic}#lang{background:#ffffff22}"%(IMG%("5691660","5691660")),
+ dict(css=":root{--bg:#fbf8f2;--band:#f3ebdd;--surface:#fff;--ink:#23201a;--text:#4b463d;--muted:#867d6f;--accent:#b0883a;--accent2:#b0883a1c;--ct:#fff;--line:#e8dccb;--hbg:#23201a;--hfg:#fff;--ov:linear-gradient(rgba(28,24,18,.42),rgba(28,24,18,.6));--himg:url('%s');--whyimg:url('%s');--fh:'Cormorant Garamond',Georgia,serif;--rad:4px}.hero h1{font-size:clamp(2.6rem,6vw,4.4rem)}.hero h1 .ac,.sec-head h2 .ac,.offer h2 .ac{font-style:italic}#lang{background:#ffffff22}"%(IMG%"2235698324",IMG%"2223733287"),
    bodyclass="t3", heroclass="",
    kicker='&mdash; Vakmanschap sinds jaar en dag',
    title='Strak schilder- en stucwerk <span class="ac">met een luxe uitstraling</span>',
@@ -59,7 +59,7 @@ THEMES=[
    trust='Vrijblijvende offerte &nbsp;&bull;&nbsp; Persoonlijk advies &nbsp;&bull;&nbsp; Snelle reactie',
    rating='<b>Vertrouwd</b> door tevreden klanten', promo='', topbar=''),
  # 4 Licht & Goud, donkere hero links
- dict(css=":root{--bg:#fcfaf6;--band:#f4efe6;--surface:#fff;--ink:#1f1c17;--text:#48433b;--muted:#837b6d;--accent:#b8924e;--accent2:#b8924e1c;--ct:#fff;--line:#e9e0d2;--hbg:#1c1915;--hfg:#fff;--ov:linear-gradient(rgba(18,16,12,.6),rgba(18,16,12,.74));--himg:url('%s');--fh:'Playfair Display',serif;--rad:6px}"%(IMG%("8961149","8961149")),
+ dict(css=":root{--bg:#fcfaf6;--band:#f4efe6;--surface:#fff;--ink:#1f1c17;--text:#48433b;--muted:#837b6d;--accent:#b8924e;--accent2:#b8924e1c;--ct:#fff;--line:#e9e0d2;--hbg:#1c1915;--hfg:#fff;--ov:linear-gradient(rgba(18,16,12,.6),rgba(18,16,12,.74));--himg:url('%s');--whyimg:url('%s');--fh:'Playfair Display',serif;--rad:6px}"%(IMG%"1368933301",IMG%"2206957489"),
    bodyclass="t4", heroclass="",
    kicker='Schilder &amp; Stukadoorsbedrijf',
    title='Vakwerk dat je ziet, <span class="ac">voelt en jarenlang vertrouwt</span>',
@@ -67,7 +67,7 @@ THEMES=[
    trust='&#10003; Gratis en vrijblijvend &nbsp;&bull;&nbsp; Reactie binnen 24 uur &nbsp;&bull;&nbsp; Heldere prijsopgave',
    rating='<b>Klanten die houden van perfectie</b>', promo='', topbar=''),
  # 5 Corporate blauw (WordPress-stijl)
- dict(css=":root{--bg:#fff;--band:#f3f6fb;--surface:#fff;--ink:#12294b;--text:#3a4254;--muted:#6b7384;--accent:#1a5fb4;--accent2:#1a5fb414;--ct:#fff;--line:#e2e8f1;--hbg:#fff;--hfg:#12294b;--ov:linear-gradient(rgba(12,30,60,.5),rgba(12,30,60,.62));--himg:url('%s');--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--rad:6px}#lang{background:#12294b12;color:var(--hfg);border-color:#12294b22}.menu a{opacity:.95}"%(IMG%("6474343","6474343")),
+ dict(css=":root{--bg:#fff;--band:#f3f6fb;--surface:#fff;--ink:#12294b;--text:#3a4254;--muted:#6b7384;--accent:#1a5fb4;--accent2:#1a5fb414;--ct:#fff;--line:#e2e8f1;--hbg:#fff;--hfg:#12294b;--ov:linear-gradient(rgba(12,30,60,.5),rgba(12,30,60,.62));--himg:url('%s');--whyimg:url('%s');--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--rad:6px}#lang{background:#12294b12;color:var(--hfg);border-color:#12294b22}.menu a{opacity:.95}"%(IMG%"2206957489",IMG%"2223733287"),
    bodyclass="t5", heroclass="",
    kicker='Stukadoors- &amp; afbouwbedrijf',
    title='Stukadoors- en afbouwwerk met <span class="ac">vakmanschap &amp; netheid</span>',
@@ -76,7 +76,7 @@ THEMES=[
    rating='<b>UITSTEKEND</b> - gebaseerd op tientallen recensies',
    promo='', topbar='<div class="topbar"><div class="wrap"><span>&#9742; {{PHONE}} &nbsp; &#9993; {{EMAILTXT}}</span><span>Vakwerk in {{PLAATS}} en omgeving</span></div></div>'),
  # 6 Modern blauw + oranje, nieuwbouw
- dict(css=":root{--bg:#fff;--band:#f2f7fb;--surface:#fff;--ink:#0f2b46;--text:#3a4658;--muted:#6e7888;--accent:#1f9bd6;--accent2:#1f9bd614;--ct:#fff;--line:#e3eaf2;--hbg:#0f1d2e;--hfg:#fff;--ov:linear-gradient(rgba(10,20,34,.76),rgba(10,20,34,.84));--himg:url('%s');--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--rad:10px}.btn-pri{background:#ef7d22;color:#fff}.svc .ic{color:#ef7d22;background:#ef7d2218}"%(IMG%("7218525","7218525")),
+ dict(css=":root{--bg:#fff;--band:#f2f7fb;--surface:#fff;--ink:#0f2b46;--text:#3a4658;--muted:#6e7888;--accent:#1f9bd6;--accent2:#1f9bd614;--ct:#fff;--line:#e3eaf2;--hbg:#0f1d2e;--hfg:#fff;--ov:linear-gradient(rgba(10,20,34,.76),rgba(10,20,34,.84));--himg:url('%s');--whyimg:url('%s');--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--rad:10px}.btn-pri{background:#ef7d22;color:#fff}"%(IMG%"2250749192",IMG%"2235698324"),
    bodyclass="t6", heroclass="",
    kicker='&#9733;&#9733;&#9733;&#9733;&#9733; Top beoordeeld - 300+ reviews',
    title='Specialist in strak <span class="ac">stuc- en spuitwerk</span>',

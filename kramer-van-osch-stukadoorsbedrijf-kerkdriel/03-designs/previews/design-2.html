@@ -4,8 +4,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f1ea;--band:#efe8dd;--surface:#fff;--ink:#1c1b19;--text:#2b2926;--muted:#6f6a64;--accent:#e2641e;--accent2:#e2641e22;--ct:#fff;--line:#e7ddd0;--hbg:#1c1b19;--hfg:#fff;--ov:linear-gradient(rgba(20,18,16,.7),rgba(20,18,16,.78));--himg:url('https://images.pexels.com/photos/8092430/pexels-photo-8092430.jpeg?auto=compress&cs=tinysrgb&w=1600');--rad:12px;--fh:'Playfair Display',Georgia,serif;--fb:'Inter',system-ui,sans-serif;--revbg:#fff;--revtx:#2b2926}
-:root{--bg:#0e0d0b;--band:#15130f;--surface:#181510;--ink:#fff;--text:#cdc5b4;--muted:#9a9race;--accent:#c8a24a;--accent2:#c8a24a22;--ct:#1a1609;--line:#2b271f;--hbg:#0a0908;--hfg:#fff;--ov:linear-gradient(rgba(8,7,6,.74),rgba(8,7,6,.86));--himg:url('https://images.pexels.com/photos/6473998/pexels-photo-6473998.jpeg?auto=compress&cs=tinysrgb&w=1600');--revbg:#181510;--revtx:#cdc5b4;--rad:6px;--fh:'Playfair Display',serif}
+:root{--bg:#f6f1ea;--band:#efe8dd;--surface:#fff;--ink:#1c1b19;--text:#2b2926;--muted:#6f6a64;--accent:#e2641e;--accent2:#e2641e22;--ct:#fff;--line:#e7ddd0;--hbg:#1c1b19;--hfg:#fff;--ov:linear-gradient(rgba(20,18,16,.7),rgba(20,18,16,.78));--himg:url('https://assets.ls-assets.com/provider/istock/2252318798.jpg?w=1600');--whyimg:url('https://assets.ls-assets.com/provider/istock/2223733287.jpg?w=1100');--rad:12px;--fh:'Playfair Display',Georgia,serif;--fb:'Inter',system-ui,sans-serif;--revbg:#fff;--revtx:#2b2926}
+:root{--bg:#0e0d0b;--band:#15130f;--surface:#181510;--ink:#fff;--text:#cdc5b4;--muted:#9a9race;--accent:#c8a24a;--accent2:#c8a24a22;--ct:#1a1609;--line:#2b271f;--hbg:#0a0908;--hfg:#fff;--ov:linear-gradient(rgba(8,7,6,.74),rgba(8,7,6,.86));--himg:url('https://assets.ls-assets.com/provider/istock/2223733287.jpg?w=1600');--whyimg:url('https://assets.ls-assets.com/provider/istock/2250749192.jpg?w=1600');--revbg:#181510;--revtx:#cdc5b4;--rad:6px;--fh:'Playfair Display',serif}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
 body{font-family:var(--fb);color:var(--text);background:var(--bg);line-height:1.6}
 h1,h2,h3{font-family:var(--fh);font-weight:700;line-height:1.13;color:var(--ink)}
@@ -52,7 +52,7 @@ section{padding:82px 0}
 .sec-head p{color:var(--muted)}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.svc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:30px 26px;transition:.2s}
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.2s}.svc-img{height:188px;background-size:cover;background-position:center}.svc-b{padding:24px 26px 28px}
 .svc:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,0,0,.09)}
 .svc .ic{width:50px;height:50px;border-radius:12px;background:var(--accent2);display:grid;place-items:center;color:var(--accent);font-size:1.4rem;margin-bottom:16px}
 .svc h3{font-size:1.25rem;margin-bottom:8px}.svc p{color:var(--muted);font-size:.94rem}
@@ -61,7 +61,7 @@ section{padding:82px 0}
 .feat{display:flex;gap:15px;margin-bottom:22px}
 .feat .ic{flex:none;width:44px;height:44px;border-radius:50%;background:var(--accent2);color:var(--accent);display:grid;place-items:center;font-size:1.1rem}
 .feat h3{font-family:var(--fb);font-size:1.04rem;font-weight:700;color:var(--ink);margin-bottom:2px}.feat p{color:var(--muted);font-size:.92rem}
-.why-img{position:relative;border-radius:18px;overflow:hidden;min-height:430px;background:#ccc var(--himg) center/cover}
+.why-img{position:relative;border-radius:18px;overflow:hidden;min-height:430px;background:#ccc var(--whyimg) center/cover}
 .badge{position:absolute;left:18px;bottom:18px;background:var(--ink);color:#fff;border-radius:14px;padding:16px 20px;text-align:center}
 .badge b{font-family:var(--fh);color:var(--accent);font-size:1.7rem;display:block}.badge span{font-size:.78rem;color:#e6e0d8}
 /* steps */
@@ -131,12 +131,12 @@ footer a{color:#cfc7bd;font-size:.9rem;line-height:1.95}footer a:hover{color:#ff
     <h2 data-en="Craftsmanship for every surface">Vakwerk voor <span class="ac">elk oppervlak</span></h2>
     <p data-en="From smooth plastered walls to perfectly painted frames - quality that lasts for years.">Van glad gestukte muren tot perfect geschilderd houtwerk - kwaliteit waar u jarenlang plezier van heeft.</p></div>
   <div class="grid3">
-    <div class="svc"><div class="ic">&#129521;</div><h3 data-en="Plastering">Stucwerk &amp; pleisterwerk</h3><p data-en="Mirror-smooth walls and ceilings. The perfect base for any interior.">Spiegelgladde muren en plafonds door vakkundig pleister- en spuitwerk. De perfecte basis voor elk interieur.</p></div>
-    <div class="svc"><div class="ic">&#128396;&#65039;</div><h3 data-en="Interior painting">Binnenschilderwerk</h3><p data-en="Sharp, even painting for walls, ceilings and woodwork. Dust-free and detailed.">Strak en egaal schilderwerk voor muren, plafonds en houtwerk. Stofvrij en met oog voor detail.</p></div>
-    <div class="svc"><div class="ic">&#127968;</div><h3 data-en="Exterior painting">Buitenschilderwerk</h3><p data-en="Durable painting for facades, frames and trim. Protection against the elements.">Duurzaam schilderwerk voor gevels, kozijnen en boeidelen. Bescherming tegen weer en wind.</p></div>
-    <div class="svc"><div class="ic">&#10024;</div><h3 data-en="Decorative / Beton cire">Sierpleister &amp; betonlook</h3><p data-en="Decorative finishes and beton cire for a unique, modern look.">Decoratieve structuren, spachtelputz en betonlook (beton cire) voor een unieke, moderne uitstraling.</p></div>
-    <div class="svc"><div class="ic">&#127777;&#65039;</div><h3 data-en="Facade insulation">Gevelisolatie</h3><p data-en="Energy-efficient solutions for a comfortable, durable home.">Energiezuinige buitengevelisolatie voor een duurzaam en comfortabel huis, strak afgewerkt.</p></div>
-    <div class="svc"><div class="ic">&#128736;&#65039;</div><h3 data-en="Renovation &amp; finishing">Renovatie &amp; afwerking</h3><p data-en="Complete renovation and finishing of your home or business - all from one hand.">Complete renovatie en afwerking van uw woning of bedrijfspand. Alles uit een hand, tot in de puntjes.</p></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://assets.ls-assets.com/provider/istock/2223733287.jpg?w=800')"></div><div class="svc-b"><h3 data-en="Plastering">Stucwerk &amp; pleisterwerk</h3><p data-en="Mirror-smooth walls and ceilings. The perfect base for any interior.">Spiegelgladde muren en plafonds door vakkundig pleister- en spuitwerk. De perfecte basis voor elk interieur.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://assets.ls-assets.com/provider/istock/2235698324.jpg?w=800')"></div><div class="svc-b"><h3 data-en="Interior painting">Binnenschilderwerk</h3><p data-en="Sharp, even painting for walls, ceilings and woodwork. Dust-free and detailed.">Strak en egaal schilderwerk voor muren, plafonds en houtwerk. Stofvrij en met oog voor detail.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://assets.ls-assets.com/provider/istock/1368933301.jpg?w=800')"></div><div class="svc-b"><h3 data-en="Exterior painting">Buitenschilderwerk</h3><p data-en="Durable painting for facades, frames and trim. Protection against the elements.">Duurzaam schilderwerk voor gevels, kozijnen en boeidelen. Bescherming tegen weer en wind.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://assets.ls-assets.com/provider/istock/2250749192.jpg?w=800')"></div><div class="svc-b"><h3 data-en="Decorative / Beton cire">Sierpleister &amp; betonlook</h3><p data-en="Decorative finishes and beton cire for a unique, modern look.">Decoratieve structuren, spachtelputz en betonlook (beton cire) voor een unieke, moderne uitstraling.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://assets.ls-assets.com/provider/istock/2206957489.jpg?w=800')"></div><div class="svc-b"><h3 data-en="Facade insulation">Gevelisolatie</h3><p data-en="Energy-efficient solutions for a comfortable, durable home.">Energiezuinige buitengevelisolatie voor een duurzaam en comfortabel huis, strak afgewerkt.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://assets.ls-assets.com/provider/istock/2217702678.jpg?w=800')"></div><div class="svc-b"><h3 data-en="Renovation &amp; finishing">Renovatie &amp; afwerking</h3><p data-en="Complete renovation and finishing of your home or business - all from one hand.">Complete renovatie en afwerking van uw woning of bedrijfspand. Alles uit een hand, tot in de puntjes.</p></div></div>
   </div>
 </div></section>
 
