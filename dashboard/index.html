@@ -1140,7 +1140,7 @@ function rebuild(){buildSent();CLIENTS=DATA.map(toClient);}
 async function api(path,method,body){try{var r=await fetch(API+path,{method:method||"GET",headers:{"Authorization":"Bearer "+CT,"Content-Type":"application/json"},body:body?JSON.stringify(body):undefined});var j=await r.json().catch(function(){return{error:"geen antwoord"};});if(!r.ok)j.error=j.error||("HTTP "+r.status);return j;}catch(e){return{error:"geen verbinding met /api"};}}
 
 async function boot(){
- try{var d=await fetch((location.pathname.indexOf("/admin")===0?"/admin/":"./")+"clients.json?"+Date.now());DATA=await d.json();}catch(e){DATA=[];}
+ var _base=(location.pathname.indexOf("/admin")===0?"/admin/":"./");for(var _try=0;_try<4;_try++){try{var d=await fetch(_base+"clients.json?"+Date.now(),{cache:"no-store"});if(!d.ok)throw new Error("HTTP "+d.status);var _j=await d.json();if(!Array.isArray(_j)||!_j.length)throw new Error("leeg");DATA=_j;break;}catch(e){if(_try<3){await new Promise(function(r){setTimeout(r,700);});continue;}if(!(DATA&&DATA.length)){try{toast("Klanten laden mislukt \u2014 ververs de pagina (Ctrl+Shift+R).");}catch(_){}}}}
  if(CT){var st=await api("/status");if(!st.error)CTL=st;}
  rebuild();renderStats();renderCharts();renderActions();
  applySettings();
