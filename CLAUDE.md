@@ -153,3 +153,32 @@ Map-slug in `_workflow/niet-deployen.txt`; `vps-autodeploy.sh` slaat die over é
 - **Replies in "Activiteit"**: elke reply (uit `replies.json`) verschijnt bij de klant in de Activiteit-tijdlijn (onderwerp + datum). `replyOf()` object-fix.
 - **scan-replies.py** corrumpeert `niet-deployen.txt` niet meer (leest regel-voor-regel, schrijft met header terug).
 - **vps-autodeploy.sh** is robuust (geen abort bij 1 klant-fout, `flock -w 50`) en synct nu ook de **hoofdsite** (`brabantdigital/site` → `/var/www/brabantdigital`). Caddy serveert demo's via één **wildcard-cert** (zie cert-sectie); autodeploy vraagt géén losse certs meer aan.
+
+## Niche Schilders & Stukadoors — PREMIUM-ONLY (VASTE FEIT — 20-06-2026)
+- **Eén niche** `niche:"schilder"` voor schilders én stukadoors (slimme labeling per prospect). Clients-label = **"Schilders & Stukadoors"**. Zoektermen: "stukadoor", "schilder", "stukadoorsbedrijf", "schildersbedrijf", "stukadoor en schilderbedrijf" (+ synoniemen).
+- **Alleen premium-demo's** (GEEN 10 standaarddesigns). De generator (`generate-demo.py`) heeft een schilder-tak die `gen_premium.py` aanroept: schrijft eigen coverpagina (`index.html`) + 6 previews (`previews/design-1..6.html`) per slug. Templates in `_workflow/templates/premium{1..6}-schilder.html`.
+- **GEEN cal.eu in deze niche** — uitsluitend een **contactformulier** (mailto naar prospect-e-mail indien bekend, anders demo-bedankmelding). Prijscalculator mogelijk later.
+- Voor/na-slider ALLEEN in design 1 ("Charcoal & Oranje") en design 2 ("Zwart & Goud"). Eigen foto's van Pro4Never in `assets/voornaa/`. Higgsfield-beelden per design (elk een eigen stijl, niet op elkaar lijkend).
+- WhatsApp 'App ons'-pil alleen als een **mobiel** nummer bekend is. NL/EN-knop, Maps op plaatsniveau, mobielvriendelijk.
+- Volledige bron-analyse + designspecs: `_workflow/premium-schilder-spec.md`.
+
+## Werven — credit-zuinige engine + HANDMATIGE scheduled taken (VASTE AFSPRAAK — 20-06-2026)
+- **Werving/verrijking draait HANDMATIG**, niet via cron. De scheduled taken zijn "ad-hoc" (alleen "Run now" in de Scheduled-balk) zodat er NOOIT automatisch credits verbranden. Er is geen API om een taak te triggeren — Pro4Never start ze zelf met **Run now** (draait in vers geheugen, doet ~25/run + creditrapport). Taken: `schilders-stukadoors-werven-nl`, `trimsalons-werven-nl`, `trimsalons-verrijken-100-handmatig`, `sandbox-opruimen` (allen handmatig) + `wildcard-cert-verlengen-demo` (one-time 05-09-2026).
+- **Credit-zuinig (HARD):** per kandidaat eerst `firecrawl_search` (±2 cr — snippets bevatten vaak e-mail/telefoon), pas `firecrawl_scrape` markdown (1 cr) als de eigen site écht ingezien moet worden, `screenshot` (1 cr) alleen bij twijfel over site-kwaliteit. **NOOIT** json-scrape (5 cr) of `firecrawl_extract` tenzij echt nodig. Houd een creditteller bij, **STOP zodra een run > 1200 credits** gebruikt, **NOOIT upgraden** (Smart Upgrade staat uit / moet uit blijven), **waarschuw bij < 250 resterende credits**.
+- **Gratis lokale pass eerst** (0 cr): bij verrijking e-mail/telefoon/social uit het bestaande `contact`-veld halen voordat je Firecrawl inzet.
+- **Dubbel werk voorkomen bij verrijking:** `verrijkt`-datumvlag op elke klant; alleen klanten zónder vlag oppakken, en na verwerking de vlag zetten (ook als niets gevonden). Commit+push, anders is voortgang niet bewaard.
+
+## Prospect-kwalificatie — 10-punts site-rubric (VASTE AFSPRAAK — 20-06-2026)
+- Werkwijze-docs: `05-marktonderzoek/prospect-werkplan.md` (run-niveau) + `prospect-onderzoek-werkwijze.md` (per bedrijf, 7 stappen).
+- **Bereikbaar contact VEREIST:** 06-mobiel OF e-mail OF social. Een **vaste lijn telt NIET**.
+- **Prospect = zwakke/verouderde site**: geen HTTPS, oud copyright of `last-modified` (bv. WordPress 2018), geen offerteformulier, JouwWeb/Wix, fax-tijdperk, niet mobiel, alleen social, of geen site. Een goede moderne site valt af, tenzij Pro4Never 'm als redesign-kans aanwijst.
+- **"Leeg ≠ afwezig"** + altijd Google Bedrijfsprofiel checken vóór een conclusie. Bij eigen site: meerdere pagina's crawlen (home + contact). **Nooit bedrijven of contactgegevens verzinnen** — altijd verifiëren met bron-URL.
+
+## Bouwen + pushen — operationele valkuilen (VASTE FEIT — 20-06-2026)
+- Git werkt NIET in de Cowork-map → altijd een **verse sandbox-clone** in /tmp (token uit `_workflow/.deploy-token`), eerst `git pull`.
+- **`/tmp/new_quals.json` is van een andere uid → Permission denied.** Schrijf je quals-array naar een schrijfbaar pad in de clone en pas het pad in add-prospects.py aan met sed: `sed "s#/tmp/new_quals.json#mijnpad.json#" _workflow/add-prospects.py > _run_add.py && python3 _run_add.py`.
+- **Quals-entry-schema** (per prospect): `slug, bedrijf, kort, plaats, regio, niche, eigenaar, tel, email, social, verhaal, spec[], cert[], waarom`. `add-prospects.py` vult hieruit `salons-batch1.json` + `dashboard/clients.json` + `outreach/prospects.json`; daarna `python3 _workflow/generate-demo.py`.
+- **Pushen:** gebruik `git push -q origin HEAD:main` — NIET `git push HEAD:main` (git parst dan `HEAD` als remotenaam → "ssh: Could not resolve hostname head").
+- **Check na build:** geen onvervulde `{{tokens}}` in de HTML (grep-treffers in binaire jpg's negeren), naam/telefoon/mailto correct gevuld, 6 designs aanwezig, schilder = géén cal.eu. Ruim scratch op vóór commit. VPS publiceert binnen ~1 min.
+- **Mount-valkuil (NIEUW 20-06-2026):** de bash-sandbox kan een door de Edit/Write-tool bijgewerkt bestand in de Cowork-map verouderd/afgekapt teruglezen. Sync naar git daarom door de wijziging **direct in de clone** te schrijven, niet door uit de mount te kopiëren.
+- **Recent toegevoegd (20-06-2026):** `antoonvandenbergstucadoors` (Breda — http/geen HTTPS, ©2015) en `mtstukadoors` (Oosterhout — WordPress, last-modified 2018, geen formulier).
