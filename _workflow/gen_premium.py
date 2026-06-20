@@ -43,7 +43,7 @@ THEMES=[
    trust='&#10003; Gratis &amp; vrijblijvend - binnen 24 uur een eerlijke offerte',
    rating='<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>9.6</b> uit 50+ reviews', promo='', topbar=''),
  # 2 Zwart & Goud
- dict(css=":root{--bg:#0e0d0b;--band:#15130f;--surface:#181510;--ink:#fff;--text:#cdc5b4;--muted:#9a9race;--accent:#c8a24a;--accent2:#c8a24a22;--ct:#1a1609;--line:#2b271f;--hbg:#0a0908;--hfg:#fff;--ov:linear-gradient(rgba(8,7,6,.74),rgba(8,7,6,.86));--himg:url('%s');--whyimg:url('%s');--revbg:#181510;--revtx:#cdc5b4;--rad:6px;--fh:'Playfair Display',serif}"%(IMG%"2223733287",IMG%"2250749192"),
+ dict(css=":root{--bg:#0e0d0b;--band:#15130f;--surface:#181510;--ink:#fff;--text:#cdc5b4;--muted:#9a9race;--accent:#c8a24a;--accent2:#c8a24a22;--ct:#1a1609;--line:#2b271f;--hbg:#0a0908;--hfg:#fff;--ov:linear-gradient(rgba(8,7,6,.74),rgba(8,7,6,.86));--himg:url('%s');--whyimg:url('%s');--revbg:#181510;--revtx:#cdc5b4;--rad:6px;--fh:'Playfair Display',serif}"%("../assets/voornaa/hero/hero8.jpg","../assets/voornaa/hero/hero5.jpg"),
    bodyclass="t2", heroclass="center",
    kicker='&#10022; Premium vakmanschap',
    title='Schilder- &amp; <span class="ac">Stucadoorsbedrijf</span> {{NAME}}',
@@ -51,7 +51,7 @@ THEMES=[
    trust='&#9733; 4.9/5 klantbeoordeling &nbsp;&bull;&nbsp; Garantie op al het werk',
    rating='<span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>4.9 / 5</b> - 200+ tevreden klanten', promo='', topbar=''),
  # 3 Licht editorial & Goud (serif italic)
- dict(css=":root{--bg:#fbf8f2;--band:#f3ebdd;--surface:#fff;--ink:#23201a;--text:#4b463d;--muted:#867d6f;--accent:#b0883a;--accent2:#b0883a1c;--ct:#fff;--line:#e8dccb;--hbg:#23201a;--hfg:#fff;--ov:linear-gradient(rgba(28,24,18,.42),rgba(28,24,18,.6));--himg:url('%s');--whyimg:url('%s');--fh:'Cormorant Garamond',Georgia,serif;--rad:4px}.hero h1{font-size:clamp(2.6rem,6vw,4.4rem)}.hero h1 .ac,.sec-head h2 .ac,.offer h2 .ac{font-style:italic}#lang{background:#ffffff22}"%(IMG%"2206957489",IMG%"2223733287"),
+ dict(css=":root{--bg:#fbf8f2;--band:#f3ebdd;--surface:#fff;--ink:#23201a;--text:#4b463d;--muted:#867d6f;--accent:#b0883a;--accent2:#b0883a1c;--ct:#fff;--line:#e8dccb;--hbg:#23201a;--hfg:#fff;--ov:linear-gradient(rgba(28,24,18,.42),rgba(28,24,18,.6));--himg:url('%s');--whyimg:url('%s');--fh:'Cormorant Garamond',Georgia,serif;--rad:4px}.hero h1{font-size:clamp(2.6rem,6vw,4.4rem)}.hero h1 .ac,.sec-head h2 .ac,.offer h2 .ac{font-style:italic}#lang{background:#ffffff22}"%("../assets/voornaa/hero/hero5.jpg","../assets/voornaa/kamer03.jpg"),
    bodyclass="t3", heroclass="",
    kicker='&mdash; Vakmanschap sinds jaar en dag',
    title='Strak schilder- en stucwerk <span class="ac">met een luxe uitstraling</span>',
@@ -59,7 +59,7 @@ THEMES=[
    trust='Vrijblijvende offerte &nbsp;&bull;&nbsp; Persoonlijk advies &nbsp;&bull;&nbsp; Snelle reactie',
    rating='<b>Vertrouwd</b> door tevreden klanten', promo='', topbar=''),
  # 4 Licht & Goud, donkere hero links
- dict(css=":root{--bg:#fcfaf6;--band:#f4efe6;--surface:#fff;--ink:#1f1c17;--text:#48433b;--muted:#837b6d;--accent:#b8924e;--accent2:#b8924e1c;--ct:#fff;--line:#e9e0d2;--hbg:#1c1915;--hfg:#fff;--ov:linear-gradient(rgba(18,16,12,.6),rgba(18,16,12,.74));--himg:url('%s');--whyimg:url('%s');--fh:'Playfair Display',serif;--rad:6px}"%(IMG%"1368933301",IMG%"2206957489"),
+ dict(css=":root{--bg:#fcfaf6;--band:#f4efe6;--surface:#fff;--ink:#1f1c17;--text:#48433b;--muted:#837b6d;--accent:#b8924e;--accent2:#b8924e1c;--ct:#fff;--line:#e9e0d2;--hbg:#1c1915;--hfg:#fff;--ov:linear-gradient(rgba(18,16,12,.6),rgba(18,16,12,.74));--himg:url('%s');--whyimg:url('%s');--fh:'Playfair Display',serif;--rad:6px}"%("../assets/voornaa/hero/hero7.jpg","../assets/voornaa/hero/hero5.jpg"),
    bodyclass="t4", heroclass="",
    kicker='Schilder &amp; Stukadoorsbedrijf',
    title='Vakwerk dat je ziet, <span class="ac">voelt en jarenlang vertrouwt</span>',
