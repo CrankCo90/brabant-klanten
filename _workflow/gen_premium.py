@@ -89,8 +89,8 @@ THEMES=[
 
 import shutil as _shutil
 VN_DIR = ROOT/"_workflow"/"assets"/"voornaa"
-VN_PAIRS=[("kamer7a.jpg","kamer7.jpg","Woonkamer - van ruwbouw naar strak afgewerkt"),
-          ("kamer8a.jpg","kamer8.jpg","Slaapkamer - compleet gestukt en geschilderd")]
+VN_PAIRS=[("kamer7.jpg","kamer7a.jpg","Woonkamer - van ruwbouw naar strak afgewerkt"),
+          ("kamer8.jpg","kamer8a.jpg","Slaapkamer - compleet gestukt en geschilderd")]
 def _vn_have():
     return [(v,n,c) for (v,n,c) in VN_PAIRS if (VN_DIR/v).exists() and (VN_DIR/n).exists()]
 def voorna_section():
@@ -138,7 +138,8 @@ def render_premium(s, i):
                     ("{{LOGO}}",c["logo"]),("{{NAME}}",html.escape(c["merk"])),("{{INITIALS}}",c["initials"]),
                     ("{{PHONE}}",html.escape(c["phone"])),("{{TEL_HREF}}",c["href"]),
                     ("{{EMAILTXT}}",html.escape(c["emailtxt"])),("{{EMAILRAW}}",c["email"]),
-                    ("{{PLAATS}}",html.escape(c["plaats"])),("{{WA_FLOAT}}",c["wa"]),("{{VOORNA}}",voorna_grid())]:
+                    ("{{PLAATS}}",html.escape(c["plaats"])),("{{WA_FLOAT}}",c["wa"]),("{{VOORNA}}",voorna_grid()),
+                    ("{{TOPMAIL}}",(' of mail naar <a href="mailto:%s">%s</a>'%(c["email"],html.escape(c["email"])) if c["email"] else ""))]:
             out=out.replace(k,v)
         return out
     out=TPL
