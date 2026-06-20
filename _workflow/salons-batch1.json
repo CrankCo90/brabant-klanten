@@ -25733,5 +25733,201 @@
   "email": "miekstrimsalon@outlook.com",
   "social": "IG @miekstrimsalon · FB",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Slotboom Stucadoors",
+  "kort": "Slotboom",
+  "slug": "slotboom-stucadoors-tiel",
+  "plaats": "Tiel",
+  "tel_display": "06-54225705",
+  "tel_href": "tel:+31654225705",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "All-round stucadoorsbedrijf uit Tiel, gespecialiseerd in decoratieve wandafwerking zoals beton ciré, betonlook en leemstuc, naast strak regulier stucwerk voor wanden en plafonds.",
+   "specialisaties": [
+    "Beton ciré",
+    "Betonlook",
+    "Leemstuc",
+    "Sierpleister",
+    "Stucwerk wanden & plafonds"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@slotboomstucadoors.nl",
+  "social": "https://www.facebook.com/SlotboomStucadoors/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schraven Schilderwerken",
+  "kort": "Schraven",
+  "slug": "schraven-schilderwerken-wijchen",
+  "plaats": "Wijchen",
+  "tel_display": "06-48626875",
+  "tel_href": "tel:+31648626875",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit Wijchen voor binnen- en buitenschilderwerk en duurzaam onderhoud, voor particulieren, bedrijven, VvE's en vastgoedbeheerders.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Renovatie",
+    "Stucwerk",
+    "Houtrot reparatie",
+    "Airless latex spuiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "schravenschilderwerken@outlook.com",
+  "social": "https://www.facebook.com/schravenschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf van Driel",
+  "kort": "van Driel",
+  "slug": "schildersbedrijf-van-driel-culemborg",
+  "plaats": "Culemborg",
+  "tel_display": "0345-510425",
+  "tel_href": "tel:0345510425",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Erkend schilders- en afwerkingsbedrijf uit Culemborg, al sinds 1969 actief in onderhoud, renovatie, behang en wandafwerking, met ervaring in monumentale panden.",
+   "specialisaties": [
+    "Onderhoud & renovatie",
+    "Behang & wandafwerking",
+    "Onderhoudscontract",
+    "Kleuradvies",
+    "Monumentaal schilderwerk",
+    "Beglazing"
+   ],
+   "certificering": [
+    "OnderhoudNL Garantie"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vandriel-schildersbedrijf.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilderscentrum Gameren",
+  "kort": "Gameren",
+  "slug": "schilderscentrum-gameren",
+  "plaats": "Gameren",
+  "tel_display": "06-51502667",
+  "tel_href": "tel:+31651502667",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Allround schildersbedrijf met eigen verf- en behangspeciaalzaak in Gameren (gemeente Zaltbommel), sinds 1990 actief voor particulieren en bedrijven in de Bommelerwaard.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behang & wandafwerking",
+    "Beglazing / glasservice",
+    "Kleuradvies",
+    "Verf- & behangspeciaalzaak"
+   ],
+   "certificering": [
+    "Wijzonol vakverfservicepunt"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@scgameren.nl",
+  "social": "https://www.facebook.com/SchilderscentrumGameren",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "SH Meesterschilder",
+  "kort": "SH",
+  "slug": "sh-meesterschilder-zaltbommel",
+  "plaats": "Zaltbommel",
+  "tel_display": "06-51664677",
+  "tel_href": "tel:+31651664677",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Sietse Heijman",
+   "verhaal": "Meesterschilder Sietse Heijman levert al ruim 10 jaar hoogwaardig binnen- en buitenschilderwerk in Zaltbommel en omstreken, met oog voor detail en restauratie van monumentale panden.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrot reparatie",
+    "Decoratie & restauratie",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@shmeesterschilder.nl",
+  "social": "https://www.facebook.com/shmeesterschilder",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Vernooij Schilderwerken",
+  "kort": "Vernooij",
+  "slug": "vernooij-schilderwerken-culemborg",
+  "plaats": "Culemborg",
+  "tel_display": "06-22372216",
+  "tel_href": "tel:+31622372216",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Rick Vernooij",
+   "verhaal": "Jong en ambitieus schildersbedrijf uit Culemborg, opgericht door Rick Vernooij, voor vakkundig binnen- en buitenschilderwerk, beglazing en houtrenovatie bij particulieren, bedrijven en VvE's.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Beglazing",
+    "Houtrenovatie",
+    "Spuitwerk",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vernooijschilderwerken.nl",
+  "social": "https://www.facebook.com/Vernooijschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hommerson Schilderwerken",
+  "kort": "Hommerson",
+  "slug": "hommerson-schilderwerken-ochten",
+  "plaats": "Ochten",
+  "tel_display": "0344-642375",
+  "tel_href": "tel:0344642375",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Gert & Marjo Hommerson",
+   "verhaal": "Familiebedrijf van Gert en Marjo Hommerson uit Ochten, al meer dan dertig jaar actief in de Betuwe met binnen- en buitenschilderwerk, onderhoud, wandafwerking en beglazing.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoud",
+    "Wandafwerking",
+    "Beglazing"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@hommerson-schilderwerken.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
