@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hoti Stukadoor - Schilder &amp; Stukadoor Oss</title>
+<title>{{TITLE}}</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--blue:#1f9bd6;--blue2:#1280b5;--orange:#ef7d22;--orange2:#d96a12;--dark:#0f1d2e;--dark2:#16273b;--ink:#0f2b46;--text:#41506a;--muted:#7c899c;--soft:#f2f7fb;--line:#e3eaf2}
@@ -102,7 +102,7 @@ footer{background:#0a1524;color:#9fb0c4;padding:54px 0 26px}
   <span class="tp">Top beoordeeld <span class="s">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 300+ reviews</span>
 </div></div>
 <header><div class="wrap nav">
-  <a href="#" class="brand"><span class="mk">HS</span><b>Hoti Stukadoor</b></a>
+  <a href="#" class="brand"><span class="mk">{{INITIALS}}</span><b>{{NAME}}</b></a>
   <nav class="menu" id="menu">
     <a href="#diensten" data-en="Newbuild">Nieuwbouw</a>
     <a href="#diensten">Diensten</a>
@@ -170,7 +170,7 @@ footer{background:#0a1524;color:#9fb0c4;padding:54px 0 26px}
     <div class="proj" style="background-image:url('../assets/voornaa/betonlook.jpg')"><span>Betonlook</span></div>
     <div class="proj" style="background-image:url('../assets/voornaa/hero/hero7.jpg')"><span data-en="Newbuild delivery">Nieuwbouw oplevering</span></div>
   </div>
-  <div class="ba-grid"><div class="ba"><div class="ba-wrap"><img class="ba-after" src="../assets/voornaa/kamer7a.jpg" alt="Na"><img class="ba-before" src="../assets/voornaa/kamer7.jpg" alt="Voor"><input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Voor en na"><div class="ba-handle"><span>&#8596;</span></div><span class="ba-lbl ba-l" data-en="Before">Voor</span><span class="ba-lbl ba-r" data-en="After">Na</span></div><div class="ba-cap">Woonkamer - van ruwbouw naar strak afgewerkt</div></div><div class="ba"><div class="ba-wrap"><img class="ba-after" src="../assets/voornaa/kamer8a.jpg" alt="Na"><img class="ba-before" src="../assets/voornaa/kamer8.jpg" alt="Voor"><input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Voor en na"><div class="ba-handle"><span>&#8596;</span></div><span class="ba-lbl ba-l" data-en="Before">Voor</span><span class="ba-lbl ba-r" data-en="After">Na</span></div><div class="ba-cap">Slaapkamer - compleet gestukt en geschilderd</div></div></div>
+  {{VOORNA}}
 </div></section>
 
 <section id="reviews" class="soft"><div class="wrap">
@@ -185,8 +185,8 @@ footer{background:#0a1524;color:#9fb0c4;padding:54px 0 26px}
 
 <section id="over" class="dark"><div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
   <div><span class="eyebrow" data-en="About us">Over ons</span>
-    <h2 style="color:#fff;font-size:clamp(1.8rem,3.2vw,2.4rem);margin:8px 0 14px">Hoti Stukadoor</h2>
-    <p style="color:#aebccd">Specialist in strak stuc- en spuitwerk voor nieuwbouw en renovatie in Oss en omgeving. Wij werken met vaste prijzen per m&sup2;, leveren scheurvrij op en komen onze afspraken na.</p>
+    <h2 style="color:#fff;font-size:clamp(1.8rem,3.2vw,2.4rem);margin:8px 0 14px">{{NAME}}</h2>
+    <p style="color:#aebccd">Specialist in strak stuc- en spuitwerk voor nieuwbouw en renovatie in {{PLAATS}} en omgeving. Wij werken met vaste prijzen per m&sup2;, leveren scheurvrij op en komen onze afspraken na.</p>
     <p style="color:#aebccd;margin-top:12px">Van dunpleister en spuitwerk tot betonlook en vloeren &mdash; alles vakkundig en netjes uitgevoerd.</p>
     <a href="#contact" class="btn btn-or" style="margin-top:20px" data-en="Request a quote">Offerte aanvragen</a></div>
   <div style="border-radius:18px;overflow:hidden;min-height:320px;background:#223 url('../assets/voornaa/hero/hero5.jpg') center/cover"></div>
@@ -195,11 +195,11 @@ footer{background:#0a1524;color:#9fb0c4;padding:54px 0 26px}
 <section id="contact"><div class="wrap cwrap">
   <div class="cinfo"><span class="eyebrow">Contact</span>
     <h2 style="font-size:clamp(1.7rem,3vw,2.2rem);margin:8px 0 20px" data-en="Within 1 working day a quote">Binnen 1 werkdag een offerte</h2>
-    <div class="row"><div class="ic">&#128222;</div><div><h4 data-en="Call us">Bel ons</h4><a href="tel:+31631781224">0631781224</a></div></div>
-    <div class="row"><div class="ic">&#9993;</div><div><h4>E-mail</h4><a href="mailto:">Op aanvraag</a></div></div>
-    <div class="row"><div class="ic">&#128205;</div><div><h4 data-en="Service area">Werkgebied</h4><span>Oss en omstreken</span></div></div>
+    <div class="row"><div class="ic">&#128222;</div><div><h4 data-en="Call us">Bel ons</h4><a href="{{TEL_HREF}}">{{PHONE}}</a></div></div>
+    <div class="row"><div class="ic">&#9993;</div><div><h4>E-mail</h4><a href="mailto:{{EMAILRAW}}">{{EMAILTXT}}</a></div></div>
+    <div class="row"><div class="ic">&#128205;</div><div><h4 data-en="Service area">Werkgebied</h4><span>{{PLAATS}} en omstreken</span></div></div>
   </div>
-  <form class="card" id="qform" data-mailto="">
+  <form class="card" id="qform" data-mailto="{{EMAILRAW}}">
     <h3 data-en="Request a free quote">Offerte aanvragen</h3>
     <label data-en="Name">Naam *</label><input name="naam" required placeholder="Uw naam">
     <label>E-mail *</label><input type="email" name="email" required placeholder="uw@email.nl">
@@ -214,13 +214,13 @@ footer{background:#0a1524;color:#9fb0c4;padding:54px 0 26px}
 
 <footer><div class="wrap">
   <div class="fg">
-    <div><div class="brand" style="margin-bottom:12px"><span class="mk">HS</span><b>Hoti Stukadoor</b></div><p style="max-width:36ch">Specialist in strak stuc- en spuitwerk. Nieuwbouw, renovatie en afwerking in Oss en omgeving.</p></div>
+    <div><div class="brand" style="margin-bottom:12px"><span class="mk">{{INITIALS}}</span><b>{{NAME}}</b></div><p style="max-width:36ch">Specialist in strak stuc- en spuitwerk. Nieuwbouw, renovatie en afwerking in {{PLAATS}} en omgeving.</p></div>
     <div><h4 data-en="Services">Diensten</h4><a href="#diensten">Dunpleister</a><br><a href="#diensten" data-en="Spray work">Spuitwerk</a><br><a href="#diensten">Betonlook</a><br><a href="#prijzen" data-en="Prices">Prijzen</a></div>
-    <div><h4>Contact</h4><a href="tel:+31631781224">0631781224</a><br><a href="mailto:">Op aanvraag</a><br><span>Oss</span></div>
+    <div><h4>Contact</h4><a href="{{TEL_HREF}}">{{PHONE}}</a><br><a href="mailto:{{EMAILRAW}}">{{EMAILTXT}}</a><br><span>{{PLAATS}}</span></div>
   </div>
-  <div class="copy">&copy; <span id="yr"></span> Hoti Stukadoor, Oss. <span data-en="All rights reserved.">Alle rechten voorbehouden.</span></div>
+  <div class="copy">&copy; <span id="yr"></span> {{NAME}}, {{PLAATS}}. <span data-en="All rights reserved.">Alle rechten voorbehouden.</span></div>
 </div></footer>
-<a class="wa-float" href="https://wa.me/31631781224" target="_blank" rel="noopener"><svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> App ons</a>
+{{WA_FLOAT}}
 <script>
 document.getElementById('yr').textContent=new Date().getFullYear();
 document.getElementById('burger').onclick=function(){document.getElementById('menu').classList.toggle('open')};
