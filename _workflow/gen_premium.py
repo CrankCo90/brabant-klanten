@@ -28,7 +28,8 @@ def _ctx(s):
     if digits.startswith("06") or digits.startswith("316"):
         d2="31"+digits[1:] if digits.startswith("06") else digits
         wa=('<a class="wa-float" href="https://wa.me/%s" target="_blank" rel="noopener">'
-            '<svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> App ons</a>')%d2
+            '<svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> App ons</a>'
+            '<script>if(window.self!==window.top){document.querySelectorAll(".wa-float").forEach(function(e){e.style.display="none"})}</script>')%d2
     return dict(merk=merk,kort=kort,plaats=plaats,phone=phone,href=href,email=email,
                 emailtxt=(email or "Op aanvraag"),logo=logo,initials=_initials(merk),wa=wa)
 
