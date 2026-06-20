@@ -947,7 +947,7 @@ textarea.inp{width:100%;resize:vertical;min-height:90px;line-height:1.5}
             <div class="fld"><label>Aanbod-mailbox</label><input class="inp" value="aanbod@brabantdigital.nl"></div>
             <div class="fld"><label>VPS-status</label><input class="inp" id="vpsStatus" readonly value="Niet verbonden" style="color:var(--gold)"></div>
             <div class="fld"><label>Standaard niche</label><input class="inp" value="Hondentrimsalons"></div>
-            <div class="fld full"><label>VPS control-token</label><div class="status-row"><input class="inp" id="ctlToken" type="password" placeholder="Plak je control-token"><button class="btn gold" id="ctlConnect">Verbinden</button></div></div>
+            <!-- VPS control-token verwijderd: token wordt automatisch uit je login afgeleid -->
           </div>
           <div class="act-foot" style="border:none;padding:18px 0 0"><button class="btn gold" data-toast="Opgeslagen">Opslaan</button></div>
         </div></div>
@@ -1437,7 +1437,7 @@ async function sha256(s){var b=await crypto.subtle.digest('SHA-256',new TextEnco
 function startApp(){$("#login").style.display='none';$("#app").style.display='';bindFilters();bindUI();var t=$("#ctlToken");if(t)t.value=CT;boot();go('overzicht');}
 (function login(){
  if(sessionStorage.getItem('bd_auth')==='1'){startApp();return;}
- var go2=function(){var pw=$("#pw").value;sha256(pw).then(function(h){if(h===PWHASH){sessionStorage.setItem('bd_auth','1');startApp();}else{$("#lerr").textContent='Onjuist wachtwoord.';}});};
+ var go2=function(){var pw=$("#pw").value;sha256(pw).then(function(h){if(h===PWHASH){sessionStorage.setItem('bd_auth','1');CT=h;localStorage.setItem('bd_ctl',h);startApp();}else{$("#lerr").textContent='Onjuist wachtwoord.';}});};
  $("#go").addEventListener('click',go2);
  $("#pw").addEventListener('keydown',function(e){if(e.key==='Enter')go2();});
 })();
