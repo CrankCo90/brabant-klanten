@@ -25565,5 +25565,113 @@
   "email": "info@pezoafbouw.nl",
   "social": "https://www.instagram.com/pezo_afbouw/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Ronald Joosten",
+  "kort": "Ronald Joosten",
+  "slug": "stukadoorsbedrijf-ronald-joosten-deurne",
+  "plaats": "Deurne",
+  "tel_display": "0651192314",
+  "tel_href": "tel:+31651192314",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ronald Joosten",
+   "verhaal": "Stukadoorsbedrijf Ronald Joosten is dé stukadoor voor Deurne en omgeving. Met oog voor detail en jarenlange ervaring zorgen we voor strak stucwerk dat jarenlang mooi blijft — van badkamers en plafonds tot complete renovaties. Kwaliteit staat bij ons altijd voorop en we komen graag vrijblijvend langs.",
+   "specialisaties": [
+    "Glad stucwerk binnen",
+    "Sierpleister & spachtelputz",
+    "Plafonds en wanden afwerken",
+    "Badkamers strak afwerken",
+    "Stucwerk bij renovatie en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijf-ronaldjoosten.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Engel Stukadoorsbedrijf",
+  "kort": "Engel",
+  "slug": "engel-stukadoorsbedrijf-deurne",
+  "plaats": "Deurne",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Engel Stukadoorsbedrijf staat in Deurne klaar voor al uw stukadoorswerkzaamheden. De vakman is dichterbij dan u denkt: van glad pleisterwerk tot sierpleister en het strak afwerken van wanden en plafonds. Persoonlijk, betrouwbaar en met een nette oplevering.",
+   "specialisaties": [
+    "Glad stucwerk binnen",
+    "Pleisterwerk",
+    "Sierpleister",
+    "Plafonds en wanden afwerken",
+    "Stucwerk bij verbouwing"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/p/Engel-stukadoorsbedrijf-61573809422229",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf van Otterdijk",
+  "kort": "van Otterdijk",
+  "slug": "schildersbedrijf-van-otterdijk-someren",
+  "plaats": "Someren",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf van Otterdijk realiseert met enthousiasme uw schilderwerk in Someren, Asten, Deurne en omgeving. Of het nu gaat om binnen- of buitenschilderwerk, behangen of het herstellen van houtrot: u kunt rekenen op maatwerk en 100% tevredenheid, netjes en vakkundig uitgevoerd.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behangwerk",
+    "Houtrotreparatie",
+    "Lak- en sauswerk",
+    "Onderhoudsschilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/schildersbedrijfvanotterdijk",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Marco Spang",
+  "kort": "Marco Spang",
+  "slug": "stukadoorsbedrijf-marco-spang-asten",
+  "plaats": "Asten",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Marco Spang",
+   "verhaal": "Met meer dan 30 jaar ervaring is Stukadoorsbedrijf Marco Spang een vertrouwd adres in Asten. Voor al uw stukadoorswerken — van verbouwingen tot een compleet huis. Uw huis, onze zorg: vakwerk, strakke afwerking en heldere afspraken.",
+   "specialisaties": [
+    "Glad stucwerk binnen",
+    "Pleisterwerk",
+    "Plafonds en wanden afwerken",
+    "Stucwerk bij verbouwing",
+    "Sausklaar opleveren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/p/Stukadoors-bedrijf-Marco-Spang-100054583833708",
+  "taal": "nl"
  }
 ]
