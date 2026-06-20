@@ -26604,5 +26604,237 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf van Delft",
+  "kort": "van Delft",
+  "slug": "stucadoorsbedrijfvandelft",
+  "plaats": "Eindhoven",
+  "tel_display": "06-51785966",
+  "tel_href": "tel:+31651785966",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf van Delft is een jong en dynamisch stukadoorsbedrijf uit Eindhoven met ruim 15 jaar ervaring. Gespecialiseerd in glad pleisterwerk en sierstucwerk voor nieuwbouw en woningen in het luxe segment, met een nette afwerking en eerlijke prijzen.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Sierstucwerk",
+    "Raapwerk",
+    "Spuitwerk",
+    "Nieuwbouw",
+    "Renovatie"
+   ],
+   "certificering": [
+    "Erkend leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stuccenbeter.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Patrick Wasser Stucadoorswerken",
+  "kort": "Patrick Wasser",
+  "slug": "patrickwasserstucadoor",
+  "plaats": "Eindhoven",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Patrick",
+   "verhaal": "Patrick Wasser Stucadoorswerken heeft ruim 22 jaar ervaring in alle disciplines van het stukadoorsvak. Specialist in verbouwing en renovatie - van raap- en pleisterwerk tot sierpleister en buitenwerk - voor woningen, bedrijfspanden en monumentale panden in Eindhoven en omgeving.",
+   "specialisaties": [
+    "Raapwerk",
+    "Pleisterwerk",
+    "Schuurwerk",
+    "Sierpleister",
+    "Buitenwerk",
+    "Sierlijsten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@patrickwasser.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Sabour Stukadoorsbedrijf",
+  "kort": "Sabour",
+  "slug": "sabourstukadoors",
+  "plaats": "Geldrop",
+  "tel_display": "06-43882828",
+  "tel_href": "tel:+31643882828",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Sabour Stukadoorsbedrijf levert met 25 jaar ervaring hoogwaardig stucwerk in Noord-Brabant en Limburg, tot circa 40 km rond Eindhoven. Van texklaar wanden en spachtelputz tot raapwerk en decoratieve wand- en plafondafwerkingen, met persoonlijke aandacht en maatwerk.",
+   "specialisaties": [
+    "Texklaar wanden",
+    "Spachtelputz",
+    "Raapwerk en uitvlakken",
+    "Decoratieve afwerking",
+    "Binnen stucwerk",
+    "Buiten stucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@sabourstukadoors.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "RDP Stukadoorsbedrijf",
+  "kort": "RDP",
+  "slug": "rdpstukadoorsbedrijf",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-50204139",
+  "tel_href": "tel:+31650204139",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ruud de Proost",
+   "verhaal": "RDP Stukadoorsbedrijf van Ruud de Proost is een stukadoor uit Valkenswaard voor al uw stucwerkzaamheden - van strak pleisterwerk tot decoratieve afwerking - met persoonlijke aandacht en een nette oplevering.",
+   "specialisaties": [
+    "Pleisterwerk",
+    "Sierpleister",
+    "Raapwerk",
+    "Spuitwerk",
+    "Decoratief stucwerk",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "ruuddeproost92@gmail.com",
+  "social": "https://www.facebook.com/RDP-Stukadoorsbedrijf",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Davidson Stucwerken",
+  "kort": "Davidson",
+  "slug": "davidsonstucwerken",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-83984946",
+  "tel_href": "tel:+31683984946",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Davidson Stucwerken is een ervaren stukadoor uit Valkenswaard, gespecialiseerd in strak stucwerk en betonlook & design. Al ruim negen jaar het vertrouwde adres voor een gladde, duurzame afwerking van wanden en plafonds.",
+   "specialisaties": [
+    "Stucwerk",
+    "Betonlook",
+    "Sierpleister",
+    "Raapwerk",
+    "Spuitwerk",
+    "Decoratieve afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "M. Verschuren Schilderwerken",
+  "kort": "M. Verschuren",
+  "slug": "mverschurenschilderwerken",
+  "plaats": "Geldrop",
+  "tel_display": "06-57580506",
+  "tel_href": "tel:+31657580506",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Martijn Verschuren",
+   "verhaal": "M. Verschuren Schilderwerken is het eenmansbedrijf van vakschilder Martijn Verschuren uit Geldrop. Sinds 2019 zelfstandig, met 14 jaar ervaring en specialisatie in houtrotsanering, binnen- en buitenschilderwerk, glaszetten, wandbekleding en dakcoating.",
+   "specialisaties": [
+    "Binnen schilderwerk",
+    "Buiten schilderwerk",
+    "Houtrotsanering",
+    "Glaszetten",
+    "Wandbekleding",
+    "Dakcoating"
+   ],
+   "certificering": [
+    "De Betere Schilder",
+    "Sigma Eigen Zaak",
+    "Specialist houtrotsanering"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@mverschurenschilderwerken.nl",
+  "social": "https://www.facebook.com/MVerschurenschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Derks Stucwerken",
+  "kort": "Derks",
+  "slug": "derksstucwerken",
+  "plaats": "Geldrop",
+  "tel_display": "06-44326447",
+  "tel_href": "tel:+31644326447",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mitch Derks",
+   "verhaal": "Derks Stucwerken van Mitch Derks is een stukadoor uit Geldrop met meer dan 15 jaar ervaring, werkzaam in Geldrop, Nuenen, Mierlo, Helmond, Eindhoven en omgeving. Voor pleisterwerk, raapwerk, schuurwerk, sierlijsten en sierpleister.",
+   "specialisaties": [
+    "Pleisterwerk",
+    "Raapwerk",
+    "Schuurwerk",
+    "Sierlijsten",
+    "Sierpleister",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@derksstucwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van der Meeren Schilderwerken",
+  "kort": "Van der Meeren",
+  "slug": "vandermeerenschilderwerken",
+  "plaats": "Nuenen",
+  "tel_display": "06-14023085",
+  "tel_href": "tel:+31614023085",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Van der Meeren Schilderwerken is een betrokken, VCA-gecertificeerd schildersbedrijf uit Nuenen voor particulieren en bedrijven. Van binnen- en buitenschilderwerk tot latex spuiten, wandafwerking en houtrotreparatie - met persoonlijk advies en een strak eindresultaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Latex spuiten",
+    "Wandafwerking",
+    "Houtrotreparatie",
+    "Kleuradvies"
+   ],
+   "certificering": [
+    "VCA-gecertificeerd"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vandermeerenschilderwerken.nl",
+  "social": "https://instagram.com/vandermeerenschilderwerken040",
+  "taal": "nl"
  }
 ]
