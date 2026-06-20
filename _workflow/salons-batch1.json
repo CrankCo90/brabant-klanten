@@ -26127,5 +26127,173 @@
   "email": "jeroen@gruijtersschilderwerken.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Arjan Verhoef",
+  "kort": "Arjan Verhoef Drunen",
+  "slug": "stucadoorsbedrijf-arjan-verhoef-drunen",
+  "plaats": "Drunen",
+  "tel_display": "06-55720278",
+  "tel_href": "tel:+31655720278",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Arjan",
+   "verhaal": "Stucadoorsbedrijf Arjan Verhoef uit Drunen staat voor strak, professioneel stucwerk met een goede prijs-kwaliteitverhouding. Arjan denkt graag mee, werkt netjes en komt afspraken na — vakwerk met plezier uitgevoerd voor particulier en kleinbedrijf in Drunen en omgeving.",
+   "specialisaties": [
+    "Latexspuitwerk",
+    "Pleisterwerk (glad & sausklaar)",
+    "Spachtelputz",
+    "Raapwerk",
+    "Schuur- en herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@arjan-verhoef.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Peter Meijers",
+  "kort": "Peter Meijers Kaatsheuvel",
+  "slug": "schildersbedrijf-peter-meijers-kaatsheuvel",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "06-21533941",
+  "tel_href": "tel:+31621533941",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Peter",
+   "verhaal": "Schildersbedrijf Peter Meijers uit Kaatsheuvel is klein van formaat maar groots in eindresultaat. Voor particulier en bedrijf verzorgt Peter schilderwerk, wandafwerking en beglazing met kwaliteit, betrouwbaarheid en deskundigheid — afspraak is afspraak.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Wandafwerking & behangen",
+    "Beglazing & glasservice",
+    "Houtrotreparatie",
+    "Spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "W. van Eijndhoven Schilderwerken",
+  "kort": "Van Eijndhoven Loon op Zand",
+  "slug": "w-van-eijndhoven-schilderwerken-loon-op-zand",
+  "plaats": "Loon op Zand",
+  "tel_display": "06-57545589",
+  "tel_href": "tel:+31657545589",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Wout",
+   "verhaal": "W. van Eijndhoven Schilder en Totaalonderhoud uit Loon op Zand werkt voor particulier en zakelijk in de hele regio. Met een vast team schilders en samenwerking met stukadoors, timmermannen en glaszetters ontzorgt Wout van nieuwbouw tot onderhoud en renovatie. Aangesloten bij OnderhoudNL.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Onderhoud & renovatie",
+    "Nieuwbouw & verbouw",
+    "Houtrotherstel",
+    "Totaalonderhoud"
+   ],
+   "certificering": [
+    "Aangesloten bij OnderhoudNL",
+    "SBB-erkend leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@wvaneijndhoven.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Colijn Schilderwerken en Onderhoud",
+  "kort": "Colijn 's Gravenmoer",
+  "slug": "colijn-schilderwerken-s-gravenmoer",
+  "plaats": "'s Gravenmoer",
+  "tel_display": "06-51287648",
+  "tel_href": "tel:+31651287648",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Colijn Schilderwerken en Onderhoud uit 's Gravenmoer werkt al 24 jaar op een ambachtelijke manier, met een klein team ervaren vakmensen. Van regulier binnen- en buitenschilderwerk tot restauratie van karakteristieke panden — kwaliteit waar de klant waar voor zijn geld krijgt. Aangesloten bij De Betere Schilder.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Restauratie & ambachtelijk handschilderwerk",
+    "Houtreparatie",
+    "Onderhoudswerk",
+    "Advies & maatwerk"
+   ],
+   "certificering": [
+    "Aangesloten bij De Betere Schilder",
+    "4-5 jaar garantie"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Brand",
+  "kort": "Brand Tilburg",
+  "slug": "schildersbedrijf-brand-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "06-25330177",
+  "tel_href": "tel:+31625330177",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Brand is al ruim 33 jaar dé schilder, stukadoor en glaszetter in Tilburg en omstreken. Voor particulier en zakelijk verzorgt Brand schilderwerk, stucwerk en beglazing onder één dak, met kwaliteit en duurzaamheid hoog in het vaandel.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Stucwerk",
+    "Beglazing & glaszetten",
+    "Behangen",
+    "Houtrotherstel"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfbrand.nl",
+  "social": "Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bekkers Drunen Stucadoor",
+  "kort": "Bekkers Drunen",
+  "slug": "bekkers-drunen-stucadoor",
+  "plaats": "Drunen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bekkers Afbouw uit Drunen is een stukadoors- en afwerkbedrijf voor al uw stucadoorswerk en wandafwerking. Strak stucwerk voor muren en plafonds, netjes en vakkundig afgewerkt voor particulier en bedrijf in Drunen en omgeving.",
+   "specialisaties": [
+    "Stucwerk muren & plafonds",
+    "Wandafwerking",
+    "Spuitwerk",
+    "Pleisterwerk",
+    "Herstel- en afbouwwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "Facebook",
+  "taal": "nl"
  }
 ]
