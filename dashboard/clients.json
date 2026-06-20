@@ -22020,5 +22020,71 @@
   "telefoon": "06-29587196",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondensalon Aneta",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Rotterdam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T14:36:58",
+  "laatste_post": "",
+  "demo_url": "https://hondensalon-aneta.demo.brabantdigital.nl",
+  "waarom": "Heeft alleen een verouderde Wix-website zonder online afspraakmogelijkheid.",
+  "fouten": [
+   "Heeft alleen een verouderde Wix-website zonder online afspraakmogelijkheid"
+  ],
+  "contact": "06-44339091",
+  "bron": null,
+  "social": "https://www.instagram.com/hondensalon_aneta/",
+  "telefoon": "06-44339091",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapsalon van den Hoven",
+  "niche": "Hondentrimsalons",
+  "regio": "Zuid-Holland",
+  "plaats": "Rotterdam",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T14:36:58",
+  "laatste_post": "",
+  "demo_url": "https://hondenkapsalon-van-den-hoven.demo.brabantdigital.nl",
+  "waarom": "Heeft alleen een kale Wix-template-website (standaard sjabloonnaam, een pagina) zonder online afspraak.",
+  "fouten": [
+   "Heeft alleen een kale Wix-template-website (standaard sjabloonnaam, een pagina) zonder online afspraak"
+  ],
+  "contact": "010-2650806",
+  "bron": null,
+  "social": "https://www.facebook.com/hondenkapsalonvandenhoven/",
+  "telefoon": "010-2650806",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon de Smaragd",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Roosendaal",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T14:36:58",
+  "laatste_post": "",
+  "demo_url": "https://hondentrimsalon-de-smaragd.demo.brabantdigital.nl",
+  "waarom": "Bestaande website draait op sterk verouderde software en is besmet met spam, daardoor onveilig en niet meer representatief.",
+  "fouten": [
+   "Bestaande website draait op sterk verouderde software en is besmet met spam, daardoor onveilig en niet meer representatief"
+  ],
+  "contact": "06-22554200",
+  "bron": null,
+  "social": "https://www.facebook.com/100063785851597",
+  "telefoon": "06-22554200",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

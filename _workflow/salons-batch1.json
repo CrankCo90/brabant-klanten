@@ -25021,5 +25021,86 @@
   "email": "info@dannybosch.nl",
   "social": "https://www.instagram.com/dannybosch_schilders/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondensalon Aneta",
+  "kort": "Hondensalon Aneta",
+  "slug": "hondensalon-aneta",
+  "plaats": "Rotterdam",
+  "tel_display": "06-44339091",
+  "tel_href": "tel:+31644339091",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Aneta",
+   "verhaal": "Mijn naam is Aneta Josko en sinds 2015 ben ik de trotse eigenaresse van Hondensalon Aneta in Rotterdam Ommoord. Iedere hond is uniek, daarom neem ik de tijd om samen met u te bespreken wat het beste past bij uw hond en uw wensen. Bij mij staan persoonlijke aandacht, vakmanschap en het welzijn van uw hond altijd voorop.",
+   "specialisaties": [
+    "Wassen, knippen en modelleren",
+    "Rashonden volgens rasstandaard",
+    "Plukken en ontwollen",
+    "Nagels knippen en oorverzorging",
+    "Puppy rustig laten wennen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "hondensalonaneta@gmail.com",
+  "social": "https://www.instagram.com/hondensalon_aneta/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondenkapsalon van den Hoven",
+  "kort": "Hondenkapsalon van den Hoven",
+  "slug": "hondenkapsalon-van-den-hoven",
+  "plaats": "Rotterdam",
+  "tel_display": "010-2650806",
+  "tel_href": "tel:0102650806",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Hondenkapsalon van den Hoven is al vele jaren het bekende en betaalbare adres in Rotterdam-Noord voor de vachtverzorging van uw hond. Diverse ervaren trimsters staan voor u klaar voor het knippen, plukken, scheren en wassen van uw hond. Een vertrouwd familieadres met een lange geschiedenis in de stad.",
+   "specialisaties": [
+    "Knippen en modelleren",
+    "Plukken en scheren",
+    "Wassen en föhnen",
+    "Nagels knippen",
+    "Oren schoonmaken en anaalkliercontrole"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/hondenkapsalonvandenhoven/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hondentrimsalon de Smaragd",
+  "kort": "Hondentrimsalon de Smaragd",
+  "slug": "hondentrimsalon-de-smaragd",
+  "plaats": "Roosendaal",
+  "tel_display": "06-22554200",
+  "tel_href": "tel:+31622554200",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Mariella",
+   "verhaal": "Mijn naam is Mariella Timmers en sinds 2016 de trotse eigenaresse van Hondentrimsalon de Smaragd in de wijk de Dijken te Roosendaal. Bij mij wordt uw hond met veel zorg, geduld en liefde behandeld. Ik werk alleen in mijn salon, met niet meer dan een hond tegelijk, zodat ik mijn aandacht volledig aan uw viervoeter kan geven.",
+   "specialisaties": [
+    "Vachtverzorging op maat",
+    "Rustig 1-op-1 in de salon",
+    "Wellness voor de hond",
+    "Rashonden en doodles",
+    "Nagels knippen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@trimsalondesmaragd.nl",
+  "social": "https://www.facebook.com/100063785851597",
+  "taal": "nl"
  }
 ]
