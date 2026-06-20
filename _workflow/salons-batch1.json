@@ -25673,5 +25673,65 @@
   "email": "",
   "social": "facebook.com/p/Stukadoors-bedrijf-Marco-Spang-100054583833708",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Kwispel",
+  "kort": "Trimsalon Kwispel",
+  "slug": "trimsalon-kwispel-oosterhout",
+  "plaats": "Oosterhout",
+  "tel_display": "06-21443771",
+  "tel_href": "tel:+31621443771",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Trimsalon Kwispel is een kleinschalige hondentrimsalon aan de Torenstraat in Oosterhout. Hier krijgt jouw hond rustig en met persoonlijke aandacht een complete vachtverzorging — van een lekkere wasbeurt tot knippen, plukken en scheren. Werken op afspraak, zodat er alle tijd en aandacht is voor elke viervoeter.",
+   "specialisaties": [
+    "Wassen",
+    "Föhnen",
+    "Knippen",
+    "Plukken",
+    "Scheren",
+    "Nagels knippen",
+    "Alle rassen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "IG @trimsalonkwispel_ · FB",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Miek's Trimsalon",
+  "kort": "Miek's Trimsalon",
+  "slug": "mieks-trimsalon-oosterhout",
+  "plaats": "Oosterhout",
+  "tel_display": "06-81105438",
+  "tel_href": "tel:+31681105438",
+  "niche": "hond",
+  "content": {
+   "eigenaar": "Monique",
+   "verhaal": "Bij Miek's Trimsalon in Oosterhout staat het welzijn van jouw hond of konijn altijd op nummer één. Monique is HKI-gediplomeerd hondentrimster en werkt 1-op-1 in de salon, zonder bench, zodat jouw huisdier alle rust, aandacht en zorg krijgt. Met grote passie en veel plezier verzorgt zij elke vacht — van wassen en föhnen tot knippen, plukken en effileren.",
+   "specialisaties": [
+    "Wassen",
+    "Föhnen",
+    "Knippen",
+    "Plukken",
+    "Effileren",
+    "Konijnen",
+    "Alle rassen"
+   ],
+   "certificering": [
+    "HKI-gediplomeerd hondentrimmer"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "miekstrimsalon@outlook.com",
+  "social": "IG @miekstrimsalon · FB",
+  "taal": "nl"
  }
 ]

@@ -23118,5 +23118,49 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Trimsalon Kwispel",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Oosterhout",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:56:33",
+  "laatste_post": "",
+  "demo_url": "https://trimsalon-kwispel-oosterhout.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen Facebook/Instagram.",
+  "fouten": [
+   "Geen eigen website, alleen Facebook/Instagram"
+  ],
+  "contact": "06-21443771",
+  "bron": null,
+  "social": "IG @trimsalonkwispel_ · FB",
+  "telefoon": "06-21443771",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Miek's Trimsalon",
+  "niche": "Hondentrimsalons",
+  "regio": "Noord-Brabant",
+  "plaats": "Oosterhout",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:56:33",
+  "laatste_post": "",
+  "demo_url": "https://mieks-trimsalon-oosterhout.demo.brabantdigital.nl",
+  "waarom": "Verouderde Wix-website met standaardtemplate en placeholder-gegevens; niet mobielvriendelijk en geen online afspraak.",
+  "fouten": [
+   "Verouderde Wix-website met standaardtemplate en placeholder-gegevens; niet mobielvriendelijk en geen online afspraak"
+  ],
+  "contact": "06-81105438",
+  "bron": null,
+  "social": "IG @miekstrimsalon · FB",
+  "telefoon": "06-81105438",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
