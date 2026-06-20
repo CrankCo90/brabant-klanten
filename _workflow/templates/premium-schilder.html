@@ -94,10 +94,9 @@ footer a{color:#cfc7bd;font-size:.9rem;line-height:1.95}footer a:hover{color:#ff
 .copy{border-top:1px solid #ffffff14;padding-top:18px;font-size:.82rem;color:#9a948c;text-align:center}
 .ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
 .ba{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
-.ba-wrap{position:relative;aspect-ratio:4/3;overflow:hidden;user-select:none}
+.ba-wrap{position:relative;aspect-ratio:3/4;overflow:hidden;user-select:none}
 .ba-wrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.ba-before{position:absolute;inset:0;width:50%;overflow:hidden;border-right:3px solid #fff}
-.ba-before img{width:100vw;max-width:none}
+.ba-before{clip-path:inset(0 50% 0 0)}
 .ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize}
 .ba-handle{position:absolute;top:0;bottom:0;left:50%;width:40px;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;pointer-events:none}
 .ba-handle::before{content:"";position:absolute;top:0;bottom:0;width:3px;background:#fff;box-shadow:0 0 8px rgba(0,0,0,.4)}
@@ -230,6 +229,6 @@ document.getElementById('yr').textContent=new Date().getFullYear();
 document.getElementById('burger').onclick=function(){document.getElementById('menu').classList.toggle('open')};
 (function(){var en=false,b=document.getElementById('lang');b.onclick=function(){en=!en;b.textContent=en?'NL':'EN';document.querySelectorAll('[data-en]').forEach(function(el){if(en){if(el.dataset.nl===undefined)el.dataset.nl=el.innerHTML;el.innerHTML=el.getAttribute('data-en');}else if(el.dataset.nl!==undefined)el.innerHTML=el.dataset.nl;});};})();
 document.getElementById('qform').addEventListener('submit',function(e){e.preventDefault();var f=e.target,to=f.getAttribute('data-mailto');var body='Naam: '+f.naam.value+'%0D%0ATelefoon: '+f.tel.value+'%0D%0AE-mail: '+f.email.value+'%0D%0AType: '+f.type.value+'%0D%0A%0D%0A'+f.bericht.value;if(to){window.location.href='mailto:'+to+'?subject='+encodeURIComponent('Offerteaanvraag via website')+'&body='+body;}document.getElementById('okmsg').style.display='block';});
-document.querySelectorAll('.ba-range').forEach(function(r){var w=r.closest('.ba-wrap');function u(){var v=r.value;w.querySelector('.ba-before').style.width=v+'%';w.querySelector('.ba-handle').style.left=v+'%';}r.addEventListener('input',u);u();});
+document.querySelectorAll('.ba-range').forEach(function(r){var w=r.closest('.ba-wrap');function u(){var v=r.value;w.querySelector('.ba-before').style.clipPath='inset(0 '+(100-v)+'% 0 0)';w.querySelector('.ba-handle').style.left=v+'%';}r.addEventListener('input',u);u();});
 </script>
 </body></html>

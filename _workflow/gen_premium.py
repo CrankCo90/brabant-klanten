@@ -100,7 +100,7 @@ def voorna_section():
     for v,n,cap in have:
         cards+=('<div class="ba"><div class="ba-wrap">'
           '<img class="ba-after" src="../assets/voornaa/%s" alt="Na">'
-          '<div class="ba-before"><img src="../assets/voornaa/%s" alt="Voor"></div>'
+          '<img class="ba-before" src="../assets/voornaa/%s" alt="Voor">'
           '<input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Voor en na">'
           '<div class="ba-handle"><span>&#8596;</span></div>'
           '<span class="ba-lbl ba-l" data-en="Before">Voor</span><span class="ba-lbl ba-r" data-en="After">Na</span>'
@@ -117,7 +117,7 @@ def voorna_grid():
     for v,n,cap in have:
         cards+=('<div class="ba"><div class="ba-wrap">'
           '<img class="ba-after" src="../assets/voornaa/%s" alt="Na">'
-          '<div class="ba-before"><img src="../assets/voornaa/%s" alt="Voor"></div>'
+          '<img class="ba-before" src="../assets/voornaa/%s" alt="Voor">'
           '<input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Voor en na">'
           '<div class="ba-handle"><span>&#8596;</span></div>'
           '<span class="ba-lbl ba-l" data-en="Before">Voor</span><span class="ba-lbl ba-r" data-en="After">Na</span>'
