@@ -130,6 +130,8 @@ def copy_voorna(dest):
     if out.exists(): _shutil.rmtree(out)
     _shutil.copytree(VN_DIR, out)
 
+DEFAULT_SVC=["../assets/voornaa/hero/hero5.jpg","../assets/voornaa/hero/hero1.jpg","../assets/voornaa/hero/hero9.jpg","../assets/voornaa/betonlook.jpg","../assets/voornaa/kamer03.jpg","../assets/voornaa/betonlook-aanbrengen.jpg"]
+SVC_IMG={1:["https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080441_0aad400c-8e6f-4662-9594-e151c7f649a7.png","https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080537_f294e31d-cb99-4674-b622-e6a989d739b8.png","https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080540_fa2aeef9-7998-4066-a6e1-02c1db8301ce.png","../assets/voornaa/betonlook.jpg","https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080539_44b356d3-597a-4de4-8b94-6a2386c84ab6.png","../assets/voornaa/betonlook-aanbrengen.jpg"]}
 def render_premium(s, i):
     t=THEMES[i-1]; c=_ctx(s)
     _bespoke=ROOT/"_workflow"/"templates"/("premium%d-schilder.html"%i)
@@ -154,6 +156,8 @@ def render_premium(s, i):
                 ("{{EMAILTXT}}",html.escape(c["emailtxt"])),("{{EMAILRAW}}",c["email"]),
                 ("{{PLAATS}}",html.escape(c["plaats"])),("{{WA_FLOAT}}",c["wa"])]:
         out=out.replace(k,v)
+    _svc=SVC_IMG.get(i,DEFAULT_SVC)
+    for _n in range(6): out=out.replace('{{SVC%d}}'%(_n+1),_svc[_n])
     return out
 
 _CARDS=[("1","Charcoal &amp; Oranje","Krachtig en warm - donkere hero met oranje accent, serif-koppen en heldere dienstenkaarten."),
