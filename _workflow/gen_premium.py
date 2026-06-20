@@ -110,6 +110,7 @@ def voorna_section():
       '<h2 data-en="See the transformation">Zie de <span class="ac">transformatie</span></h2>'
       '<p data-en="Drag the slider to see the result of our work.">Sleep de schuif om het resultaat van ons werk te zien.</p></div>'
       '<div class="ba-grid">%s</div></div></section>')%cards
+VOORNA_DESIGNS={1,2}
 def voorna_grid():
     have=_vn_have()
     if not have: return ""
@@ -138,14 +139,14 @@ def render_premium(s, i):
                     ("{{LOGO}}",c["logo"]),("{{NAME}}",html.escape(c["merk"])),("{{INITIALS}}",c["initials"]),
                     ("{{PHONE}}",html.escape(c["phone"])),("{{TEL_HREF}}",c["href"]),
                     ("{{EMAILTXT}}",html.escape(c["emailtxt"])),("{{EMAILRAW}}",c["email"]),
-                    ("{{PLAATS}}",html.escape(c["plaats"])),("{{WA_FLOAT}}",c["wa"]),("{{VOORNA}}",voorna_grid()),
+                    ("{{PLAATS}}",html.escape(c["plaats"])),("{{WA_FLOAT}}",c["wa"]),("{{VOORNA}}",(voorna_grid() if i in VOORNA_DESIGNS else "")),
                     ("{{TOPMAIL}}",(' of mail naar <a href="mailto:%s">%s</a>'%(c["email"],html.escape(c["email"])) if c["email"] else ""))]:
             out=out.replace(k,v)
         return out
     out=TPL
     for k,v in [("{{THEME_CSS}}",t["css"]),("{{BODYCLASS}}",t["bodyclass"]),("{{HEROCLASS}}",t["heroclass"]),
                 ("{{TOPBAR}}",t["topbar"]),("{{HERO_KICKER}}",t["kicker"]),("{{HERO_TITLE}}",t["title"]),
-                ("{{HERO_SUB}}",t["sub"]),("{{TRUST}}",t["trust"]),("{{RATING}}",t["rating"]),("{{PROMO}}",t["promo"]),("{{VOORNA}}",voorna_section())]:
+                ("{{HERO_SUB}}",t["sub"]),("{{TRUST}}",t["trust"]),("{{RATING}}",t["rating"]),("{{PROMO}}",t["promo"]),("{{VOORNA}}",(voorna_section() if i in VOORNA_DESIGNS else ""))]:
         out=out.replace(k,v)
     for k,v in [("{{TITLE}}","%s - Schilder &amp; Stukadoor %s"%(html.escape(c["merk"]),html.escape(c["plaats"]))),
                 ("{{LOGO}}",c["logo"]),("{{NAME}}",html.escape(c["merk"])),("{{INITIALS}}",c["initials"]),
