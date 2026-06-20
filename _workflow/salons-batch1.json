@@ -26523,5 +26523,86 @@
   "social": "",
   "taal": "nl",
   "wa_number": "0850608471"
+ },
+ {
+  "bedrijf": "Meierijstad Stukadoors",
+  "kort": "Meierijstad Stukadoors",
+  "slug": "meierijstadstukadoors",
+  "plaats": "Schijndel",
+  "tel_display": "06-15085682",
+  "tel_href": "tel:+31615085682",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Meierijstad Stukadoors verzorgt strak stucwerk en wandafwerking in Schijndel en omgeving - van glad stucwerk en spachtelputz tot vochtbestendige afwerking en sierlijsten.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Spachtelputz",
+    "Sierlijsten",
+    "Wand- en plafondafwerking",
+    "Vochtbestendige afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "meierijstadstukadoors@gmail.com",
+  "social": "https://www.facebook.com/meierijstadstukadoors/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stipt Schilderwerken",
+  "kort": "Stipt",
+  "slug": "stiptschilderwerken",
+  "plaats": "Sprang-Capelle",
+  "tel_display": "06-14184957",
+  "tel_href": "tel:+31614184957",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Stijn",
+   "verhaal": "Stipt Schilderwerken van Stijn Verhagen staat voor nauwkeurig, exact en precies schilderwerk tegen een betaalbare prijs, voor particulier en bedrijf in Sprang-Capelle, Waalwijk, Kaatsheuvel en omgeving.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Latex spuiten",
+    "Behangwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stiptschilderwerken.nl",
+  "social": "https://www.instagram.com/stiptschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ketelaars Schilderwerken",
+  "kort": "Ketelaars",
+  "slug": "ketelaarsschilderwerken",
+  "plaats": "Erp",
+  "tel_display": "06-20247003",
+  "tel_href": "tel:+31620247003",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Ketelaars Schilderwerken is een schildersbedrijf uit Erp (regio Veghel, Meierijstad) voor binnen- en buitenschilderwerk bij particulieren en bedrijven.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtwerk en kozijnen",
+    "Onderhoudsschilderwerk",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]

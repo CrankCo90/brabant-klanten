@@ -23800,5 +23800,71 @@
   "telefoon": "0850608471",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Meierijstad Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T00:20:07",
+  "laatste_post": "",
+  "demo_url": "https://meierijstadstukadoors.demo.brabantdigital.nl",
+  "waarom": "De huidige website is een eenvoudige bouwer-template met generieke stockfoto's en zonder eigen offerteformulier; een snelle, eigen site toont het echte vakwerk en werkgebied beter.",
+  "fouten": [
+   "De huidige website is een eenvoudige bouwer-template met generieke stockfoto's en zonder eigen offerteformulier; een snelle, eigen site toont het echte vakwerk en werkgebied beter"
+  ],
+  "contact": "06-15085682",
+  "bron": null,
+  "social": "https://www.facebook.com/meierijstadstukadoors/",
+  "telefoon": "06-15085682",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stipt Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Sprang-Capelle",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T00:20:07",
+  "laatste_post": "",
+  "demo_url": "https://stiptschilderwerken.demo.brabantdigital.nl",
+  "waarom": "De huidige website is op een standaard bouwer-platform (Wix) gemaakt en oogt generiek; een snelle eigen site met projectfoto's en offerteformulier geeft een professionelere indruk.",
+  "fouten": [
+   "De huidige website is op een standaard bouwer-platform (Wix) gemaakt en oogt generiek; een snelle eigen site met projectfoto's en offerteformulier geeft een professionelere indruk"
+  ],
+  "contact": "06-14184957",
+  "bron": null,
+  "social": "https://www.instagram.com/stiptschilderwerken",
+  "telefoon": "06-14184957",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ketelaars Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Erp",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T00:20:07",
+  "laatste_post": "",
+  "demo_url": "https://ketelaarsschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Het bedrijf heeft geen eigen website en is alleen vindbaar via offerteplatforms; een eigen demo-site maakt het direct vindbaar in Google en toont het werk professioneel.",
+  "fouten": [
+   "Het bedrijf heeft geen eigen website en is alleen vindbaar via offerteplatforms; een eigen demo-site maakt het direct vindbaar in Google en toont het werk professioneel"
+  ],
+  "contact": "06-20247003",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-20247003",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
