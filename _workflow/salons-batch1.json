@@ -23089,5 +23089,57 @@
   "email": "adriaans.stucwerken@gmail.com",
   "social": "facebook.com/adriaansstucwerken.nl",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van der Heijden",
+  "kort": "Van der Heijden",
+  "slug": "stukadoorsbedrijf-van-der-heijden-eindhoven",
+  "plaats": "Eindhoven",
+  "tel_display": "0627874546",
+  "tel_href": "tel:+31627874546",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf in Eindhoven en omgeving voor strak stuc-, pleister- en spuitwerk. Betrouwbaar, stipt en netjes afgewerkt.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Spuitwerk",
+    "Sierpleister & betonlook",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf J. Krijnen",
+  "kort": "Krijnen",
+  "slug": "stucadoorsbedrijf-j-krijnen-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "0614692490",
+  "tel_href": "tel:+31614692490",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf in Tilburg voor stucwerk, pleisterwerk, sierlijsten en spiegelgladde wanden en plafonds.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Sierlijsten",
+    "Sierpleister & betonlook",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]

@@ -20256,5 +20256,49 @@
   "telefoon": "0645550437",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van der Heijden",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Eindhoven",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T11:42:07",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-van-der-heijden-eindhoven.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Eindhoven zonder eigen website; mobiel bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Stukadoor in Eindhoven zonder eigen website; mobiel bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "0627874546",
+  "bron": null,
+  "social": "",
+  "telefoon": "0627874546",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf J. Krijnen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Tilburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T11:42:07",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijf-j-krijnen-tilburg.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Tilburg met een verouderde, niet-mobielvriendelijke website (one.com, vaste breedte); mobiel bereikbaar — premium demo is een duidelijke upgrade.",
+  "fouten": [
+   "Stukadoor in Tilburg met een verouderde, niet-mobielvriendelijke website (one.com, vaste breedte); mobiel bereikbaar — premium demo is een duidelijke upgrade"
+  ],
+  "contact": "0614692490",
+  "bron": null,
+  "social": "",
+  "telefoon": "0614692490",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
