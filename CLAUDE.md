@@ -182,3 +182,8 @@ Map-slug in `_workflow/niet-deployen.txt`; `vps-autodeploy.sh` slaat die over é
 - **Check na build:** geen onvervulde `{{tokens}}` in de HTML (grep-treffers in binaire jpg's negeren), naam/telefoon/mailto correct gevuld, 6 designs aanwezig, schilder = géén cal.eu. Ruim scratch op vóór commit. VPS publiceert binnen ~1 min.
 - **Mount-valkuil (NIEUW 20-06-2026):** de bash-sandbox kan een door de Edit/Write-tool bijgewerkt bestand in de Cowork-map verouderd/afgekapt teruglezen. Sync naar git daarom door de wijziging **direct in de clone** te schrijven, niet door uit de mount te kopiëren.
 - **Recent toegevoegd (20-06-2026):** `antoonvandenbergstucadoors` (Breda — http/geen HTTPS, ©2015) en `mtstukadoors` (Oosterhout — WordPress, last-modified 2018, geen formulier).
+
+## E-mail deliverability (VAST FEIT — uitgezocht 2026-06-20, NIET opnieuw doen)
+- Verzending loopt via **mail.zxcs.nl** (465 SSL, user `aanbod@brabantdigital.nl`), outbound via zxcs `filter-out.zxcs.nl`-pool — NIET direct vanaf het VPS-IP. rDNS van de VPS is irrelevant voor e-mail.
+- **SPF ✓, DKIM ✓ (zxcs-selector `x`), DMARC ✓** (`p=quarantine`, aligned). Authenticatie is dus in orde.
+- **Spam bij Hotmail/Outlook ligt NIET aan DNS**, maar aan: gedeelde zxcs-IP-reputatie bij Microsoft, cold-outreach-filtering (SmartScreen), jong domein, geen Microsoft SNDS/JMRP. Hefbomen: SNDS+JMRP registreren/delisten, warm-up + laag volume, minder links, evt. dedicated cold-outreach-infra. Zie `_workflow/SESSIE-OVERDRACHT-2026-06-20.md`.
