@@ -25102,5 +25102,114 @@
   "email": "info@trimsalondesmaragd.nl",
   "social": "https://www.facebook.com/100063785851597",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Piotr",
+  "kort": "Piotr",
+  "slug": "stucadoorsbedrijf-piotr-venlo",
+  "plaats": "Venlo",
+  "tel_display": "06-14211547",
+  "tel_href": "tel:+31614211547",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Piotr",
+   "verhaal": "Stucadoorsbedrijf Piotr is sinds 2021 gespecialiseerd in strak stuc- en pleisterwerk voor nieuwbouw, particulieren en zakelijke projecten in Venlo en omgeving. Precisie, gladde afwerking en duurzame kwaliteit staan voorop.",
+   "specialisaties": [
+    "Binnen stucwerk",
+    "Pleisterwerk en afwerking",
+    "Egaliseren en opfrissen van muren",
+    "Sierpleister",
+    "Stucwerk voor nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stucadoorsbedrijfpiotr.nl",
+  "social": "https://www.facebook.com/profile.php?id=61570380821268",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Munckhof Schilderwerken",
+  "kort": "Munckhof",
+  "slug": "munckhof-schilderwerken-venlo",
+  "plaats": "Venlo",
+  "tel_display": "06-15310442",
+  "tel_href": "tel:+31615310442",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ludo",
+   "verhaal": "Munckhof Schilderwerken uit de bekende Noord-Limburgse schildersfamilie levert hoogwaardig binnen- en buitenschilderwerk in Venlo, Venray en Horst aan de Maas. Vakmanschap met de paplepel ingegoten en oog voor een perfecte, duurzame afwerking.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Lak- en glanswerk",
+    "Houtrotherstel",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@munckhofschilderwerken.nl",
+  "social": "https://www.instagram.com/munckhofschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilder Horst",
+  "kort": "Horst",
+  "slug": "schilderhorst-horst",
+  "plaats": "Horst",
+  "tel_display": "06-27424439",
+  "tel_href": "tel:+31627424439",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Angelo",
+   "verhaal": "Schilder Horst is het vertrouwde adres voor binnen- en buitenschilderwerk in Horst en omgeving. Werkt uitsluitend met kwaliteitsverf (Sikkens en Sigma), geeft kleuradvies en verzorgt ook glaswerk, behang en herstel na water- of brandschade.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Kleuradvies",
+    "Glas- en kitwerk",
+    "Behangwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf R. Pijpers",
+  "kort": "R. Pijpers",
+  "slug": "stukadoorsbedrijf-r-pijpers-venray",
+  "plaats": "Venray",
+  "tel_display": "06-52047390",
+  "tel_href": "tel:+31652047390",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf R. Pijpers BV in Venray is gespecialiseerd in alle vormen van binnen- en buitenstucwerk voor particulieren en bedrijven. Van traditioneel en modern stucwerk tot sierpleister, betonlook en spuitwerk - met oog voor detail en een strakke, duurzame afwerking.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Modern stucwerk",
+    "Sierpleister",
+    "Betonlook en beton cire",
+    "Spack- en spuitwerk",
+    "Buitengevelstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
