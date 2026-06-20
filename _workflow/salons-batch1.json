@@ -24882,5 +24882,144 @@
   "email": "info@mtstukadoors.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Dennis",
+  "kort": "Dennis",
+  "slug": "stukadoorsbedrijf-dennis-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "06-27843805",
+  "tel_href": "tel:+31627843805",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Dennis",
+   "verhaal": "Stukadoorsbedrijf Dennis is een stukadoor in Tilburg voor stuc-, schilder- en sauswerk bij particulieren en bedrijven. Stuur via WhatsApp een paar foto's en de hoeveelheid m2, en je krijgt snel een vrijblijvende prijsindicatie.",
+   "specialisaties": [
+    "Stucwerk",
+    "Schilderwerk",
+    "Sauswerk",
+    "Renovatie",
+    "Nieuwbouw",
+    "Vrijblijvende offerte"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stukadoorsbedrijfdennis@hotmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Biekens",
+  "kort": "Biekens",
+  "slug": "stukadoorsbedrijf-biekens-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "06-83215471",
+  "tel_href": "tel:+31683215471",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Biekens verzorgt strak stuc-, saus- en lakwerk in Tilburg en omgeving, voor zowel nieuwbouw als renovatie. Van dik raapwerk tot traditioneel pleisterwerk: het complete plaatje, altijd bezemschoon opgeleverd.",
+   "specialisaties": [
+    "Stucwerk",
+    "Pleisterwerk",
+    "Sauswerk",
+    "Lakwerk",
+    "Nieuwbouw",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Blokvoort Stukadoors",
+  "kort": "Blokvoort",
+  "slug": "blokvoort-stukadoors-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "06-39794094",
+  "tel_href": "tel:+31639794094",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Blokvoort Stukadoors uit Tilburg is gespecialiseerd in strak stucwerk: van pleister- en spachtelputz tot betonstuc, voor renovatie en restauratie in Tilburg en omgeving. 'Als het echt strak moet zijn.'",
+   "specialisaties": [
+    "Stucwerk",
+    "Pleisterwerk",
+    "Spachtelputz",
+    "Betonstuc",
+    "Renovatie",
+    "Restauratie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Niquint Onderhoud en Schilderwerken",
+  "kort": "Niquint",
+  "slug": "niquint-schildersbedrijf-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "06-14431231",
+  "tel_href": "tel:+31614431231",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Niquint Onderhoud en Schilderwerken is een schilders- en onderhoudsbedrijf in Tilburg voor binnen- en buitenschilderwerk, houtrotherstel en onderhoud, voor particulieren, bedrijven en woningcorporaties.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Onderhoud",
+    "Kleur- en verfadvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@niquint.nl",
+  "social": "https://www.facebook.com/niquint",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Danny Bosch Schilder en Afwerkingsbedrijf",
+  "kort": "Danny Bosch",
+  "slug": "danny-bosch-schilder-afwerking-goirle",
+  "plaats": "Goirle",
+  "tel_display": "06-29587196",
+  "tel_href": "tel:+31629587196",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Danny",
+   "verhaal": "Danny Bosch Schilder en Afwerkingsbedrijf uit Goirle is gespecialiseerd in schilder-, spuit- en decoratiewerk en bijzondere wandafwerking zoals beton cire, Venetiaans pleisterwerk, kaleien en leerbehang, voor particulieren en bedrijven in heel Brabant.",
+   "specialisaties": [
+    "Schilderwerk",
+    "Spuitwerk",
+    "Behang",
+    "Kaleien",
+    "Decoratiewerk",
+    "Beton cire / microcement"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@dannybosch.nl",
+  "social": "https://www.instagram.com/dannybosch_schilders/",
+  "taal": "nl"
  }
 ]
