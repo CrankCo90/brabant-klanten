@@ -144,7 +144,8 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@hondenwelzijn.nl",
-  "em": "info@hondenwelzijn.nl"
+  "em": "info@hondenwelzijn.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Tammy's Trimsalon",
@@ -239,7 +240,7 @@
   ],
   "contact": "trimsalonpeterrijswijk@hetnet.nl",
   "bron": "https://trimsalonpeterrijswijk.nl",
-  "social": null,
+  "social": "https://www.facebook.com/100047750335790/",
   "telefoon": "076-5719272",
   "land": "NL",
   "taal": "nl",
@@ -264,7 +265,7 @@
   ],
   "contact": "kwispelrosmalen@ziggo.nl",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/100042370011055/",
   "telefoon": "073-5218323",
   "land": "NL",
   "taal": "nl",
@@ -467,7 +468,8 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@mooiehondjes.nl",
-  "em": "info@mooiehondjes.nl"
+  "em": "info@mooiehondjes.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Sunshine",
@@ -511,10 +513,11 @@
   ],
   "contact": "via site/Facebook · Karel Doormanstraat 27",
   "bron": null,
-  "social": "zoek",
+  "social": "https://www.facebook.com/hondentrimsalonelite/",
   "telefoon": "06-83987478",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Just 4 Dogs",
@@ -534,10 +537,12 @@
   ],
   "contact": "06-16465335 (geen e-mail; telefoon/WhatsApp)",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/100066822574115/",
   "telefoon": "06-16465335",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@just4dogs.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Lynn's Trimsalon",
@@ -556,10 +561,11 @@
   ],
   "contact": "06-16522983 · Putstraat 66",
   "bron": null,
-  "social": null,
+  "social": "https://www.instagram.com/explore/locations/1035625529/lynns-trimsalon/",
   "telefoon": "06-16522983",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Jokes trimsalon",
@@ -604,10 +610,12 @@
   ],
   "contact": "via site/FB · Oude Kerkstraat 29",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/hondentrimsalonoss",
   "telefoon": "06-22039266",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@hondentrimsalonoss.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Doggroomer Eindhoven",
@@ -628,7 +636,9 @@
   "social": null,
   "telefoon": "06-15315966",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@doggroomereindhoven.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Studio Proud",
@@ -643,10 +653,12 @@
   "fouten": [],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/Studioproud",
   "telefoon": "06-55552993",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "klantenservice@studioproud.com",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trendy Dog",
@@ -664,7 +676,8 @@
   "social": null,
   "telefoon": "06-46192984",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Spots",
@@ -679,10 +692,12 @@
   "fouten": [],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "instagram (Trimsalon Spots)",
   "telefoon": "06-57460604",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@trimsalonspots.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Nikki",
@@ -697,10 +712,12 @@
   "fouten": [],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/p/Trimsalon-Nikki-100042897445976/",
   "telefoon": "040-8434139",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "trimsalon-nikki@hotmail.com",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Limbo",
@@ -715,10 +732,12 @@
   "fouten": [],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/mijntrimsalonlimbo/",
   "telefoon": "06-34175949",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "afspraak@trimsalonlimbo.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Renate's Hondentrimsalon",
@@ -735,10 +754,12 @@
   ],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.instagram.com/renateshondentrimsalon/",
   "telefoon": "06-11375927",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@renateshondentrimsalon.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Doggies by Diana",
@@ -758,7 +779,9 @@
   "social": null,
   "telefoon": "06-18435701",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@doggiesbydiana.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Doggy Douche",
@@ -776,7 +799,9 @@
   "social": null,
   "telefoon": "06-40339604",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "civobo@gmail.com",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Princenhage",
@@ -791,10 +816,12 @@
   "fouten": [],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.instagram.com/p/DYRNsddCsDw/",
   "telefoon": "06-36482288",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "Charmee.trimsalon@gmail.com",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon @t-Lanta",
@@ -811,10 +838,11 @@
   ],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/tLantaSluiskil/",
   "telefoon": "06-19013061",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "HondPro",
@@ -832,10 +860,12 @@
   ],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/HondentrimsalonHondPro/",
   "telefoon": "040-3041668",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@hondpro.com",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "HondenTrimsalon Tilburg (.com)",
@@ -856,7 +886,8 @@
   "social": null,
   "telefoon": null,
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Pet Styling Cecile",
@@ -871,10 +902,12 @@
   "fouten": [],
   "contact": "",
   "bron": null,
-  "social": null,
-  "telefoon": "040-7877262",
+  "social": "https://www.instagram.com/petstyling/",
+  "telefoon": "06-18455234",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@petstyling.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Furry Tails",
@@ -892,7 +925,8 @@
   "social": null,
   "telefoon": "06-24907503",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Sonja",
@@ -909,10 +943,11 @@
   ],
   "contact": "",
   "bron": null,
-  "social": null,
+  "social": "https://www.facebook.com/1908338492628039/",
   "telefoon": null,
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "La Chica Nails",
@@ -1192,7 +1227,8 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@nagelstudio-marielle.nl",
-  "em": "info@nagelstudio-marielle.nl"
+  "em": "info@nagelstudio-marielle.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Be.you.tiful by Melbis",
