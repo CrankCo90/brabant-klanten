@@ -24826,5 +24826,61 @@
   "email": "info@goodwill-stukadoors.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Antoon van den Berg",
+  "kort": "Antoon van den Berg",
+  "slug": "antoonvandenbergstucadoors",
+  "plaats": "Breda",
+  "tel_display": "06-51577581",
+  "tel_href": "tel:+31651577581",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Antoon",
+   "verhaal": "Stuc- en spuitwerk op maat in de regio Breda. Wij werken voor zowel particulieren als woning- en utiliteitsbouw, met oog voor een strakke, duurzame afwerking en heldere afspraken.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Spuitwerk & spachtelputz",
+    "Sierpleister",
+    "Betonlook & beton ciré",
+    "Renovatie & afwerking",
+    "Buitengevel & isolatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@toonberg.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MT Stukadoors en Schilders",
+  "kort": "MT Stukadoors",
+  "slug": "mtstukadoors",
+  "plaats": "Oosterhout",
+  "tel_display": "06-34930555",
+  "tel_href": "tel:+31634930555",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stuc- en schilderwerk door heel Nederland, van klassiek tot modern. Betaalbaar werk met vakkundig personeel, nette afwerking en garantie — zonder verrassingen achteraf.",
+   "specialisaties": [
+    "Stucwerk klassiek & modern",
+    "Sierlijsten & ornamenten",
+    "Binnen- en buitenschilderwerk",
+    "Spuitwerk",
+    "Pleisterwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@mtstukadoors.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]

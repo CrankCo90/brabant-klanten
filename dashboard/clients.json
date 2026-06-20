@@ -21866,5 +21866,49 @@
   "telefoon": "0651614876",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Antoon van den Berg",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Breda",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T13:55:31",
+  "laatste_post": "",
+  "demo_url": "https://antoonvandenbergstucadoors.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (uit 2015, zonder HTTPS-beveiliging) en matige vindbaarheid.",
+  "fouten": [
+   "Verouderde website (uit 2015, zonder HTTPS-beveiliging) en matige vindbaarheid"
+  ],
+  "contact": "06-51577581",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51577581",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MT Stukadoors en Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Oosterhout",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T13:55:31",
+  "laatste_post": "",
+  "demo_url": "https://mtstukadoors.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (laatst bijgewerkt in 2018, geen offerteformulier).",
+  "fouten": [
+   "Sterk verouderde website (laatst bijgewerkt in 2018, geen offerteformulier)"
+  ],
+  "contact": "06-34930555",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-34930555",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
