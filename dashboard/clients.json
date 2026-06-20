@@ -22964,5 +22964,71 @@
   "telefoon": "06 21330313",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "WM-Vakschilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Tiel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:31:11",
+  "laatste_post": "",
+  "demo_url": "https://wm-vakschilders-tiel.demo.brabantdigital.nl",
+  "waarom": "Alleen vindbaar via Facebook, nog geen eigen website.",
+  "fouten": [
+   "Alleen vindbaar via Facebook, nog geen eigen website"
+  ],
+  "contact": "06-11859344",
+  "bron": null,
+  "social": "https://www.facebook.com/61552274502166/",
+  "telefoon": "06-11859344",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kruissen Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Geldermalsen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:31:11",
+  "laatste_post": "",
+  "demo_url": "https://kruissen-stukadoors-geldermalsen.demo.brabantdigital.nl",
+  "waarom": "Alleen actief op Facebook met een Hotmail-adres, geen eigen website.",
+  "fouten": [
+   "Alleen actief op Facebook met een Hotmail-adres, geen eigen website"
+  ],
+  "contact": "06-31912026",
+  "bron": null,
+  "social": "https://www.facebook.com/kruissenstukadoors/",
+  "telefoon": "06-31912026",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pezo Afbouw",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Culemborg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:31:11",
+  "laatste_post": "",
+  "demo_url": "https://pezo-afbouw-culemborg.demo.brabantdigital.nl",
+  "waarom": "Huidige website draait op een Jimdo-bouwer en oogt verouderd; een moderne site laat het vakwerk beter zien.",
+  "fouten": [
+   "Huidige website draait op een Jimdo-bouwer en oogt verouderd; een moderne site laat het vakwerk beter zien"
+  ],
+  "contact": "06-11431153",
+  "bron": null,
+  "social": "https://www.instagram.com/pezo_afbouw/",
+  "telefoon": "06-11431153",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

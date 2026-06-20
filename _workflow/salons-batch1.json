@@ -25484,5 +25484,86 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "WM-Vakschilders",
+  "kort": "WM-Vakschilders",
+  "slug": "wm-vakschilders-tiel",
+  "plaats": "Tiel",
+  "tel_display": "06-11859344",
+  "tel_href": "tel:+31611859344",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "WM-Vakschilders is jouw vakschilder in Tiel en de hele Betuwe. Van strak binnen- en buitenschilderwerk tot professioneel spuit- en latexwerk: we leveren netjes werk met oog voor detail, binnen afspraak en zonder gedoe.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Spuitwerk en latex spuiten",
+    "Houtrotherstel",
+    "Sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@wm-vakschilders.nl",
+  "social": "https://www.facebook.com/61552274502166/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kruissen Stukadoors",
+  "kort": "Kruissen Stukadoors",
+  "slug": "kruissen-stukadoors-geldermalsen",
+  "plaats": "Geldermalsen",
+  "tel_display": "06-31912026",
+  "tel_href": "tel:+31631912026",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Kruissen Stukadoors verzorgt strak stucwerk in Geldermalsen en omstreken. Gladde wanden en plafonds, spachtelputz, sausklaar of behangklaar pleisterwerk: vakwerk dat je interieur direct een frisse, moderne uitstraling geeft.",
+   "specialisaties": [
+    "Stucwerk glad afwerken",
+    "Spachtelputz",
+    "Sausklaar en behangklaar pleisteren",
+    "Spackspuiten",
+    "Wanden en plafonds"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "kruissenstukadoors@hotmail.com",
+  "social": "https://www.facebook.com/kruissenstukadoors/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Pezo Afbouw",
+  "kort": "Pezo Afbouw",
+  "slug": "pezo-afbouw-culemborg",
+  "plaats": "Culemborg",
+  "tel_display": "06-11431153",
+  "tel_href": "tel:+31611431153",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mirza",
+   "verhaal": "Pezo Afbouw is een stukadoors- en schildersbedrijf uit Culemborg met ruim 20 jaar ervaring. Van strak stucwerk en spachtelputz tot latex spuiten, beton cire en schilderwerk: een persoonlijke aanpak en een vlekkeloze afwerking voor nieuwbouw en bestaande woningen.",
+   "specialisaties": [
+    "Stucwerk en pleisterwerk",
+    "Spackspuiten en spachtelputz",
+    "Latex spuiten",
+    "Schilderwerk binnen en buiten",
+    "Beton cire en dunpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@pezoafbouw.nl",
+  "social": "https://www.instagram.com/pezo_afbouw/",
+  "taal": "nl"
  }
 ]
