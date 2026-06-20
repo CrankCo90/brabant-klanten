@@ -23141,5 +23141,681 @@
   "email": "jurgenkrijnen@home.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van Gastel",
+  "kort": "Van Gastel",
+  "slug": "stukadoorsbedrijf-van-gastel-breda",
+  "plaats": "Breda",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Allround stuc- en schilderwerk in Breda en omgeving. Van strak pleisterwerk tot binnen- en buitenschilderwerk, met vakmanschap en een nette afwerking.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Binnen- en buitenschilderwerk",
+    "Sierpleister & spuitwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vangastelstukadoors.nl",
+  "social": "https://www.instagram.com/stukadoorsbedrijf_van_gastel_/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Antoon van den Berg",
+  "kort": "Antoon van den Berg",
+  "slug": "stucadoorsbedrijf-antoon-van-den-berg-breda",
+  "plaats": "Breda",
+  "tel_display": "0651577581",
+  "tel_href": "tel:+31651577581",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Breda en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@toonberg.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "076 Stuc",
+  "kort": "076 Stuc",
+  "slug": "076-stuc-breda",
+  "plaats": "Breda",
+  "tel_display": "0616946837",
+  "tel_href": "tel:+31616946837",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ruben Frijters",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Breda en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@076stuc.nl",
+  "social": "https://www.facebook.com/076stuc/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Sluyter",
+  "kort": "Sluyter",
+  "slug": "stucadoorsbedrijf-sluyter-s-hertogenbosch",
+  "plaats": "'s-Hertogenbosch",
+  "tel_display": "0612439439",
+  "tel_href": "tel:+31612439439",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Den Bosch en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stucadoorsbedrijfsluyter@outlook.com",
+  "social": "https://www.facebook.com/sluyterstucadoors/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf L. van Kempen",
+  "kort": "Van Kempen",
+  "slug": "stukadoorsbedrijf-l-van-kempen-bergen-op-zoom",
+  "plaats": "Bergen op Zoom",
+  "tel_display": "0613539915",
+  "tel_href": "tel:+31613539915",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Bergen op Zoom en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stukadoorsbedrijfvankempen@gmail.com",
+  "social": "https://www.facebook.com/Stukadoorsbedrijf-LvKempen-230261964121720/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Wilbers",
+  "kort": "Wilbers",
+  "slug": "schildersbedrijf-wilbers-helmond",
+  "plaats": "Helmond",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Helmond en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@wilbersbv.nl",
+  "social": "http://www.facebook.com/wilbersbv",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verhoeven's Schildersbedrijf",
+  "kort": "Verhoeven's",
+  "slug": "verhoevens-schildersbedrijf-helmond",
+  "plaats": "Helmond",
+  "tel_display": "0654928718",
+  "tel_href": "tel:+31654928718",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Helmond en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@verhoevensschildersbedrijf.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Kieboom",
+  "kort": "Kieboom",
+  "slug": "stucadoorsbedrijf-kieboom-oosterhout",
+  "plaats": "Oosterhout",
+  "tel_display": "0624565662",
+  "tel_href": "tel:+31624565662",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Oosterhout en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stucadoorsbedrijf-kieboom.nl",
+  "social": "https://www.facebook.com/stucadoorsbedrijfkieboom",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Den Ouden Schilderwerken",
+  "kort": "Den Ouden",
+  "slug": "den-ouden-schilderwerken-roosendaal",
+  "plaats": "Roosendaal",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Erik den Ouden",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Roosendaal en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@denoudenschilderwerken.nl",
+  "social": "https://www.facebook.com/denoudenschilderwerken.nl/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf F. Janssen",
+  "kort": "F. Janssen",
+  "slug": "schildersbedrijf-f-janssen-elsendorp",
+  "plaats": "Elsendorp",
+  "tel_display": "0653774800",
+  "tel_href": "tel:+31653774800",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Elsendorp en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijffjanssen.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "SBS Stucadoorsbedrijf",
+  "kort": "SBS",
+  "slug": "sbs-stucadoorsbedrijf-son",
+  "plaats": "Son",
+  "tel_display": "0618549716",
+  "tel_href": "tel:+31618549716",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Son en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@sbs-stucadoorsbedrijf.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verf & Spijkers",
+  "kort": "Verf & Spijkers",
+  "slug": "verf-spijkers-roosendaal",
+  "plaats": "Roosendaal",
+  "tel_display": "0651148262",
+  "tel_href": "tel:+31651148262",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Roosendaal en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "verfenspijkers@home.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "RVM Afbouw",
+  "kort": "RVM Afbouw",
+  "slug": "rvm-afbouw-bergen-op-zoom",
+  "plaats": "Bergen op Zoom",
+  "tel_display": "0646220530",
+  "tel_href": "tel:+31646220530",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Allround stuc- en schilderwerk in Bergen op Zoom en omgeving. Van strak pleisterwerk tot binnen- en buitenschilderwerk, met vakmanschap en een nette afwerking.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Binnen- en buitenschilderwerk",
+    "Sierpleister & spuitwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@rvmafbouw.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "J&R van Eijndhoven Stucwerken",
+  "kort": "Van Eijndhoven",
+  "slug": "jr-van-eijndhoven-stucwerken-veldhoven",
+  "plaats": "Veldhoven",
+  "tel_display": "0655770105",
+  "tel_href": "tel:+31655770105",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Veldhoven en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vaneijndhovenstucwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Thijs Schilders- en Afbouwbedrijf",
+  "kort": "Thijs Afbouw",
+  "slug": "thijs-schilders-en-afbouwbedrijf-etten-leur",
+  "plaats": "Etten-Leur",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Allround stuc- en schilderwerk in Etten-Leur en omgeving. Van strak pleisterwerk tot binnen- en buitenschilderwerk, met vakmanschap en een nette afwerking.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Binnen- en buitenschilderwerk",
+    "Sierpleister & spuitwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@thijsafbouw.nl",
+  "social": "https://www.facebook.com/Thijs-Stukadoors-en-Schildersbedrijf-1377682645798878/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Kerstens",
+  "kort": "Kerstens",
+  "slug": "stucadoorsbedrijf-kerstens-etten-leur",
+  "plaats": "Etten-Leur",
+  "tel_display": "0631498027",
+  "tel_href": "tel:+31631498027",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Etten-Leur en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stucadoorsbedrijfkerstens.nl",
+  "social": "https://www.facebook.com/stucadoorsbedrijfkerstens.nl",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Turquoise Schilderwerken",
+  "kort": "Turquoise",
+  "slug": "turquoise-schilderwerken-boxtel",
+  "plaats": "Boxtel",
+  "tel_display": "0653794947",
+  "tel_href": "tel:+31653794947",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Boxtel en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "tsboxtel@kpnmail.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Niels van Boven",
+  "kort": "Niels van Boven",
+  "slug": "schildersbedrijf-niels-van-boven-boxtel",
+  "plaats": "Boxtel",
+  "tel_display": "0619175555",
+  "tel_href": "tel:+31619175555",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Boxtel en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/SchildersbedrijfNielsvanBoven/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Glas- en Schilderwerken Boxtel",
+  "kort": "Glas- en Schilderwerken",
+  "slug": "glas-en-schilderwerken-boxtel-boxtel",
+  "plaats": "Boxtel",
+  "tel_display": "0654654072",
+  "tel_href": "tel:+31654654072",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Boxtel en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "glas-schilderwerken@home.nl",
+  "social": "https://www.facebook.com/GlasSchilderwerkenBoxtel/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Koevoets",
+  "kort": "Koevoets",
+  "slug": "schildersbedrijf-koevoets-bergen-op-zoom",
+  "plaats": "Bergen op Zoom",
+  "tel_display": "0650615557",
+  "tel_href": "tel:+31650615557",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Bergen op Zoom en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfkoevoets.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Koen van Overveld",
+  "kort": "Koen van Overveld",
+  "slug": "schildersbedrijf-koen-van-overveld-bergen-op-zoom",
+  "plaats": "Bergen op Zoom",
+  "tel_display": "0618490248",
+  "tel_href": "tel:+31618490248",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Bergen op Zoom en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfvanoverveld.nl",
+  "social": "https://www.facebook.com/Koen-van-Overveld-Schilderwerken-419695542129300/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "JVD Schilderwerken",
+  "kort": "JVD",
+  "slug": "jvd-schilderwerken-waalwijk",
+  "plaats": "Waalwijk",
+  "tel_display": "0615682059",
+  "tel_href": "tel:+31615682059",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Waalwijk en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "jvdschilderwerken@hotmail.com",
+  "social": "https://www.instagram.com/jvdschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf V.A. Burg",
+  "kort": "V.A. Burg",
+  "slug": "schildersbedrijf-va-burg-s-hertogenbosch",
+  "plaats": "'s-Hertogenbosch",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Den Bosch en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "v.a.burgbv@planet.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Interno Schilderwerken",
+  "kort": "Interno",
+  "slug": "interno-schilderwerken-s-hertogenbosch",
+  "plaats": "'s-Hertogenbosch",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Den Bosch en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@internoschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Adriaansen Schilderwerken",
+  "kort": "Adriaansen",
+  "slug": "adriaansen-schilderwerken-steenbergen",
+  "plaats": "Steenbergen",
+  "tel_display": "0648851112",
+  "tel_href": "tel:+31648851112",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig schilderwerk voor binnen en buiten in Steenbergen en omgeving. Strak afgewerkt, met aandacht voor kwaliteit en een nette oplevering.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrot- & kozijnherstel",
+    "Behang & wandafwerking",
+    "Onderhoud & spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@adriaansenschilderwerken.nl",
+  "social": "https://facebook.com/profile.php?id=100089236915456",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Lambrechts",
+  "kort": "Lambrechts",
+  "slug": "stucadoorsbedrijf-lambrechts-hoogerheide",
+  "plaats": "Hoogerheide",
+  "tel_display": "0653322359",
+  "tel_href": "tel:+31653322359",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vakkundig stucwerk voor strakke muren en plafonds in Hoogerheide en omgeving. Van glad pleisterwerk tot sierpleister, netjes opgeleverd met oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevel & spuitwerk",
+    "Renovatie & herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "Info@stucadoorsbedrijflambrechts.nl",
+  "social": "https://www.facebook.com/Stucadoorsbedrijf-Lambrechts-309972299146848/",
+  "taal": "nl"
  }
 ]
