@@ -26295,5 +26295,230 @@
   "email": "",
   "social": "Facebook",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest1",
+  "plaats": "Eindhoven",
+  "tel_display": "06-46210627",
+  "tel_href": "tel:+31646210627",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "secret17@live.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest2",
+  "plaats": "Eindhoven",
+  "tel_display": "0850608471",
+  "tel_href": "tel:0850608471",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "secret18@live.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest3",
+  "plaats": "Eindhoven",
+  "tel_display": "06-18162519",
+  "tel_href": "tel:+31618162519",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "admin@stayinfluence.eu",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest4",
+  "plaats": "Eindhoven",
+  "tel_display": "06-46210627",
+  "tel_href": "tel:+31646210627",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@donley.eu",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest5",
+  "plaats": "Eindhoven",
+  "tel_display": "06-18162519",
+  "tel_href": "tel:+31618162519",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "lbm1990@me.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest6",
+  "plaats": "Eindhoven",
+  "tel_display": "0850608471",
+  "tel_href": "tel:0850608471",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "lbm1990@icloud.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest7",
+  "plaats": "Eindhoven",
+  "tel_display": "06-46210627",
+  "tel_href": "tel:+31646210627",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "producten@donzahandel.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest8",
+  "plaats": "Eindhoven",
+  "tel_display": "06-18162519",
+  "tel_href": "tel:+31618162519",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "yorelb@live.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DONZA Test",
+  "kort": "DONZA",
+  "slug": "donzatest9",
+  "plaats": "Eindhoven",
+  "tel_display": "0850608471",
+  "tel_href": "tel:0850608471",
+  "niche": "donza",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Testprofiel van Brabant Digital om website-functionaliteiten te controleren.",
+   "specialisaties": [
+    "Testdienst A",
+    "Testdienst B",
+    "Testdienst C"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "_leroy@live.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]

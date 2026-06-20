@@ -8,14 +8,15 @@ sb=json.load(open(SB)); cl=json.load(open(CL)); pr=json.load(open(PR))
 quals=json.load(open('/tmp/new_quals.json'))
 existing={s['slug'] for s in sb}
 DEADLINE="vrijdag 26 juni 2026"; WERKDAG=_NOW.strftime("%Y-%m-%d"); AANGEMAAKT=_NOW.strftime("%Y-%m-%dT%H:%M:%S")
-NL={"hond":"Hondentrimsalons","nagels":"Nagelstudio's","pedicure":"Pedicures","kapper":"Kappers","schilder":"Schilders & Stukadoors"}
-WORD={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons","schilder":"schilders- en stukadoorsbedrijven"}
+NL={"hond":"Hondentrimsalons","nagels":"Nagelstudio's","pedicure":"Pedicures","kapper":"Kappers","schilder":"Schilders & Stukadoors","donza":"DONZA TEST"}
+WORD={"hond":"hondentrimsalons","nagels":"nagelstudio's","pedicure":"pedicures","kapper":"kapsalons","schilder":"schilders- en stukadoorsbedrijven","donza":"testbedrijven"}
 TIP={
  "hond":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel, met je openingstijden en een klikbaar telefoonnummer — daar zoeken baasjes als eerste naar een trimsalon.",
  "nagels":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio — zo boeken klanten met één tik, ook 's avonds.",
  "pedicure":"zorg dat je in Google goed vindbaar bent via een (gratis) Google-bedrijfsprofiel met je openingstijden en een klikbaar telefoonnummer — daar zoeken klanten als eerste naar een pedicure.",
  "kapper":"zet een directe link naar je online agenda of WhatsApp bovenaan je Instagram-bio en in je Google-profiel — zo boeken klanten met één tik, ook 's avonds.",
- "schilder":"zet duidelijke voor/na-foto's van je projecten online met je werkgebied erbij — zo zien nieuwe klanten meteen je vakmanschap en vinden ze je in Google."}
+ "schilder":"zet duidelijke voor/na-foto's van je projecten online met je werkgebied erbij — zo zien nieuwe klanten meteen je vakmanschap en vinden ze je in Google.",
+ "donza":"dit is een testprofiel om functionaliteiten te controleren."}
 def benefits(niche,plaats):
     if niche=="hond":
         return ["Online een afspraak maken, 24/7 — geen telefoontjes meer tijdens het trimmen.",
@@ -41,6 +42,12 @@ def benefits(niche,plaats):
          "Je projecten en reviews netjes op een rij, met voor/na-foto's die vakmanschap tonen.",
          "Klikbare WhatsApp- en belknop, en Nederlands/Engels met één knop.",
          "Snelle, moderne uitstraling op telefoon, tablet en computer."]
+    if niche=="donza":
+        return ["TEST: offerte-/contactformulier werkt 24/7.",
+         "TEST: zes premium ontwerpen onder één subdomein.",
+         "TEST: voor/na-slider in ontwerp 1 en 2.",
+         "TEST: klikbare WhatsApp- en belknop (alleen bij mobiel nummer).",
+         "TEST: responsive op telefoon, tablet en computer."]
     return ["Online een afspraak maken, 24/7 — geen telefoontjes meer tijdens een behandeling.",
      "Beter vindbaar in Google op 'pedicure %s'."%plaats,
      "Je behandelingen en tarieven netjes op een rij, met aandacht voor medische voetzorg.",

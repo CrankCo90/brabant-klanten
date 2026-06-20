@@ -831,7 +831,7 @@ def render_d12_kapper(s):
 
 n=0
 for s in salons:
-    if s.get("niche")=="schilder":
+    if s.get("niche") in ("schilder","donza"):
         dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
         (dest/"index.html").write_text(_gp.render_cover(s),encoding="utf-8")
         for _i in range(1,7):
