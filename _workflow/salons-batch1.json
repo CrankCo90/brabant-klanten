@@ -26010,5 +26010,122 @@
   "email": "",
   "social": "https://www.instagram.com/stukadoorsbedrijf.allin/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van Der Donk",
+  "kort": "Van Der Donk",
+  "slug": "stukadoorsbedrijf-van-der-donk-schijndel",
+  "plaats": "Schijndel",
+  "tel_display": "06-10892076",
+  "tel_href": "tel:+31610892076",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Patrick & Paul van der Donk",
+   "verhaal": "Stukadoorsbedrijf Van Der Donk uit Schijndel werkt sinds 2001 met een hecht team aan binnen- en buitenstucwerk: van strakke wanden en plafonds tot sierlijsten, gevelisolatie en restauratie. Voor zowel particulieren als bedrijven, met vakmanschap en oog voor detail.",
+   "specialisaties": [
+    "Binnen- en buitenstucwerk",
+    "Sierpleister & spachtelputz",
+    "Buitengevelisolatie",
+    "Sierlijsten & ornamenten",
+    "Latex spuiten & schuurwerk",
+    "Restauratie & renovatie"
+   ],
+   "certificering": [
+    "NOA-lid",
+    "Kiwa",
+    "Stichting GevelGarantie",
+    "Erkend leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vd-donk.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Laat Schilderwerken",
+  "kort": "De Laat",
+  "slug": "de-laat-schilderwerken-schijndel",
+  "plaats": "Schijndel",
+  "tel_display": "06-51745364",
+  "tel_href": "tel:+31651745364",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Hans de Laat",
+   "verhaal": "De Laat Schilderwerken is het kleinschalige schildersbedrijf van Hans de Laat, actief sinds 2006 in Schijndel en omgeving. Echt vakwerk staat voorop: gedegen schuur- en herstelwerk, kieren afkitten en strak aflakken voor een resultaat dat jaren meegaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Lakspuiten & texen",
+    "Behangen",
+    "Glaszetten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@delaatschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "JK Schilderwerken",
+  "kort": "JK",
+  "slug": "jk-schilderwerken-veghel",
+  "plaats": "Veghel",
+  "tel_display": "06-14443000",
+  "tel_href": "tel:+31614443000",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jasper Kanters",
+   "verhaal": "JK Schilderwerken van Jasper Kanters verzorgt netjes en duurzaam binnen- en buitenschilderwerk in Veghel en omgeving. Met oog voor detail, een persoonlijke aanpak en uitstekende reviews (4,9 uit 40+ beoordelingen) draait Jasper z'n hand niet om voor het hele plaatje.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Latex spuiten",
+    "Houtrotherstel",
+    "Behangen",
+    "Totaalpakket via vaste partners"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@jkschilderwerken.nl",
+  "social": "https://www.instagram.com/mooimaken.jkschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Gruijters Schilderwerken",
+  "kort": "Gruijters",
+  "slug": "gruijters-schilderwerken-erp",
+  "plaats": "Erp",
+  "tel_display": "06-53643030",
+  "tel_href": "tel:+31653643030",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jeroen Gruijters",
+   "verhaal": "Gruijters Schilderwerken uit Erp (gemeente Meierijstad) combineert vakkundig schilderwerk met stukadoren, behangen, betonlook en kleine bouwkundige klussen. Kwaliteit en duurzaamheid voorop, met een persoonlijk kleuradvies op maat.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Stukadoren",
+    "Behangen & glas plaatsen",
+    "Betonlook & decoratief stucwerk",
+    "Houtrot- & betonrotherstel",
+    "Airless spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "jeroen@gruijtersschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]

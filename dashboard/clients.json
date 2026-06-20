@@ -23382,5 +23382,93 @@
   "telefoon": "06-39129931",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van Der Donk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T22:13:31",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-van-der-donk-schijndel.demo.brabantdigital.nl",
+  "waarom": "Verouderde Joomla-website met foto's en opmaak uit 2018-2019, niet mobielvriendelijk en zonder online offerteformulier.",
+  "fouten": [
+   "Verouderde Joomla-website met foto's en opmaak uit 2018-2019, niet mobielvriendelijk en zonder online offerteformulier"
+  ],
+  "contact": "06-10892076",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-10892076",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Laat Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T22:13:31",
+  "laatste_post": "",
+  "demo_url": "https://de-laat-schilderwerken-schijndel.demo.brabantdigital.nl",
+  "waarom": "Verouderde website met achtergebleven demo-/testteksten en foto's uit 2016 - oogt onaf en weinig vertrouwenwekkend, zonder nette offerte-flow.",
+  "fouten": [
+   "Verouderde website met achtergebleven demo-/testteksten en foto's uit 2016 - oogt onaf en weinig vertrouwenwekkend, zonder nette offerte-flow"
+  ],
+  "contact": "06-51745364",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51745364",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "JK Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T22:13:31",
+  "laatste_post": "",
+  "demo_url": "https://jk-schilderwerken-veghel.demo.brabantdigital.nl",
+  "waarom": "Dunne, gedateerde website ondanks 40+ topreviews (4,9) - mist een moderne uitstraling en een duidelijke offerte-flow.",
+  "fouten": [
+   "Dunne, gedateerde website ondanks 40+ topreviews (4,9) - mist een moderne uitstraling en een duidelijke offerte-flow"
+  ],
+  "contact": "06-14443000",
+  "bron": null,
+  "social": "https://www.instagram.com/mooimaken.jkschilderwerken/",
+  "telefoon": "06-14443000",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Gruijters Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Erp",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T22:13:31",
+  "laatste_post": "",
+  "demo_url": "https://gruijters-schilderwerken-erp.demo.brabantdigital.nl",
+  "waarom": "Website op een gratis bouwer (Strato) zonder HTTPS-slot en zonder offerteformulier - verouderd en slecht vindbaar in Google.",
+  "fouten": [
+   "Website op een gratis bouwer (Strato) zonder HTTPS-slot en zonder offerteformulier - verouderd en slecht vindbaar in Google"
+  ],
+  "contact": "06-53643030",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53643030",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
