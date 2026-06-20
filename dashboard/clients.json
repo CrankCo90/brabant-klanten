@@ -390,7 +390,10 @@
   "telefoon": "06-28382312",
   "land": "NL",
   "taal": "nl",
-  "verrijkt": "2026-06-20"
+  "verrijkt": "2026-06-20",
+  "email": "dogsalonmila@hotmail.com",
+  "em": "dogsalonmila@hotmail.com",
+  "email_bron": "facebook.com (Dogsalon Mila Waalwijk, About)"
  },
  {
   "bedrijf": "Trimsalon Van Kop tot Staart",
@@ -3482,7 +3485,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "liesbeth@pedicure-elisabeth.nl",
-  "em": "liesbeth@pedicure-elisabeth.nl"
+  "em": "liesbeth@pedicure-elisabeth.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Pedicuresalon Kitty Bastiaansen",
@@ -3611,7 +3616,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "kirstensbeautyandfootcare@gmail.com",
-  "em": "kirstensbeautyandfootcare@gmail.com"
+  "em": "kirstensbeautyandfootcare@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Medische voetverzorging Faydra",
@@ -3633,7 +3640,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "mvfaydra@gmail.com",
-  "em": "mvfaydra@gmail.com"
+  "em": "mvfaydra@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Glam! nagelstudio Oss",
@@ -3655,7 +3664,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@glamnagelstudio.nl",
-  "em": "info@glamnagelstudio.nl"
+  "em": "info@glamnagelstudio.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Lakhuis & Co.",
@@ -3677,7 +3688,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "lakhuis.co@gmail.com",
-  "em": "lakhuis.co@gmail.com"
+  "em": "lakhuis.co@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Fens Nails",
@@ -3720,7 +3733,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "littlerebelsstudio@gmail.com",
-  "em": "littlerebelsstudio@gmail.com"
+  "em": "littlerebelsstudio@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Diamondnails",
@@ -3742,7 +3757,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "diamondnailsx@outlook.com",
-  "em": "diamondnailsx@outlook.com"
+  "em": "diamondnailsx@outlook.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "La Magic Nailstudio",
@@ -3765,7 +3782,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@lamagicnailstudio.nl",
-  "em": "info@lamagicnailstudio.nl"
+  "em": "info@lamagicnailstudio.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Nagelsalon Bridal Blue",
@@ -3979,7 +3998,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "trendypawsnl@gmail.com",
-  "em": "trendypawsnl@gmail.com"
+  "em": "trendypawsnl@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Amazing Dogs (Helmond-locatie)",
@@ -4001,7 +4022,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "suzanbartels87@gmail.com",
-  "em": "suzanbartels87@gmail.com"
+  "em": "suzanbartels87@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Hondentrimsalon Skon Hondjes",
@@ -4023,7 +4046,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@trimsalonskonhondjes.nl",
-  "em": "info@trimsalonskonhondjes.nl"
+  "em": "info@trimsalonskonhondjes.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Trimsalon Wonderful4dogs",
@@ -4089,7 +4114,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "hondentrimsalonmarizz@gmail.com",
-  "em": "hondentrimsalonmarizz@gmail.com"
+  "em": "hondentrimsalonmarizz@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Trimsalon So Happy",
@@ -4111,7 +4138,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "trimsalonsohappy@ziggo.nl",
-  "em": "trimsalonsohappy@ziggo.nl"
+  "em": "trimsalonsohappy@ziggo.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Hondentrimsalon Hond en Haar",
@@ -4133,7 +4162,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "inge-ipema@outlook.com",
-  "em": "inge-ipema@outlook.com"
+  "em": "inge-ipema@outlook.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Hondentrimsalon Doerak",
@@ -4177,7 +4208,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "trimsalon.woofff@gmail.com",
-  "em": "trimsalon.woofff@gmail.com"
+  "em": "trimsalon.woofff@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Hondenkapsalon Fresh by Sas",
@@ -4304,7 +4337,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "tessaspedicurepraktijk@gmail.com",
-  "em": "tessaspedicurepraktijk@gmail.com"
+  "em": "tessaspedicurepraktijk@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Voor de Voet - Pedicure Rianne",
@@ -4540,7 +4575,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@delakstudio.com",
-  "em": "info@delakstudio.com"
+  "em": "info@delakstudio.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Beauty by Jipke",
@@ -4562,7 +4599,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@beautybyjipke.nl",
-  "em": "info@beautybyjipke.nl"
+  "em": "info@beautybyjipke.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Orchid's Nails",
@@ -4668,7 +4707,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@nail-desire.nl",
-  "em": "info@nail-desire.nl"
+  "em": "info@nail-desire.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Nagelstudio Pure",
@@ -4711,7 +4752,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "trudypedicure@gmail.com",
-  "em": "trudypedicure@gmail.com"
+  "em": "trudypedicure@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Total Care 4 Your Feet",
@@ -4733,7 +4776,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "rianne4yourfeet@hotmail.com",
-  "em": "rianne4yourfeet@hotmail.com"
+  "em": "rianne4yourfeet@hotmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "La Luna Hand & Voet",
@@ -4797,7 +4842,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "pedicuremilabergman@gmail.com",
-  "em": "pedicuremilabergman@gmail.com"
+  "em": "pedicuremilabergman@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Pedicure Annette Hendriks",
@@ -4863,7 +4910,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@salonelegant.nl",
-  "em": "info@salonelegant.nl"
+  "em": "info@salonelegant.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Pedicure Dian",
@@ -4885,7 +4934,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "pedicure.dian@hotmail.com",
-  "em": "pedicure.dian@hotmail.com"
+  "em": "pedicure.dian@hotmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Wink's Pedicure",
@@ -4949,7 +5000,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@pedicure-monique.nl",
-  "em": "info@pedicure-monique.nl"
+  "em": "info@pedicure-monique.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Pedicure Aafke",
@@ -5015,7 +5068,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "hondenhuukske@gmail.com",
-  "em": "hondenhuukske@gmail.com"
+  "em": "hondenhuukske@gmail.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Trimsalon Wildebras",
@@ -5037,7 +5092,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@trimsalonwildebras.nl",
-  "em": "info@trimsalonwildebras.nl"
+  "em": "info@trimsalonwildebras.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Hondentrimsalon Von",
@@ -5122,7 +5179,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "thatsmydogtrimsalon@outlook.com",
-  "em": "thatsmydogtrimsalon@outlook.com"
+  "em": "thatsmydogtrimsalon@outlook.com",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Blitz Hondenstyling",
@@ -5165,7 +5224,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@hondentrimsalonsophie.nl",
-  "em": "info@hondentrimsalonsophie.nl"
+  "em": "info@hondentrimsalonsophie.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Trimsalon Dare To Shine",
@@ -5210,7 +5271,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@hondentrimsalonvandeklundert.nl",
-  "em": "info@hondentrimsalonvandeklundert.nl"
+  "em": "info@hondentrimsalonvandeklundert.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Riggle Nagelstudio",
@@ -5337,7 +5400,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "info@meialua.nl",
-  "em": "info@meialua.nl"
+  "em": "info@meialua.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Just Nails Valkenswaard",
@@ -5422,7 +5487,9 @@
   "land": "NL",
   "taal": "nl",
   "email": "femke@byfemz.nl",
-  "em": "femke@byfemz.nl"
+  "em": "femke@byfemz.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Nagelstudio Cindy van der Pol",
@@ -6667,7 +6734,11 @@
   "social": "IG",
   "telefoon": "06-41897988",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "asyashaarsalon@outlook.com",
+  "em": "asyashaarsalon@outlook.com",
+  "email_bron": "stagemarkt.nl (Bolkenplein 2, Veghel)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "kapsalonasya",
@@ -6880,7 +6951,8 @@
   "social": "FB",
   "telefoon": "06-52609949",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Apeldoorn",
@@ -6941,7 +7013,8 @@
   "social": "FB",
   "telefoon": "06-10366713",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Roxanne Kort",
@@ -7638,7 +7711,8 @@
   "social": "FB",
   "telefoon": "06-51066337",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Belle",
@@ -7658,7 +7732,8 @@
   "social": "FB",
   "telefoon": "06-24717677",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Wilma",
@@ -7678,7 +7753,9 @@
   "social": "FB",
   "telefoon": "06-27152221",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen vaste lijn (Drachten, infobel); geen e-mail/social gevonden",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Vaya",
@@ -7698,7 +7775,9 @@
   "social": "FB",
   "telefoon": "06-15838600",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen online treffer (Onstwedde)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon High Five",
@@ -7718,7 +7797,12 @@
   "social": "FB",
   "telefoon": "06-43423171",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "trimsalonhighfive@gmail.com",
+  "em": "trimsalonhighfive@gmail.com",
+  "email_bron": "trimsalonhighfive.jimdofree.com",
+  "verrijkt_note": "eigen Jimdo-site (zwak)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hinke's Trimhuske",
@@ -7738,7 +7822,8 @@
   "social": "FB",
   "telefoon": "06-83702856",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Blij",
@@ -7758,7 +7843,9 @@
   "social": "IG",
   "telefoon": "06-11751432",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "IG aanwezig; geen eigen e-mail gevonden",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Artisan",
@@ -7778,7 +7865,9 @@
   "social": "FB",
   "telefoon": "06-52786034",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen adres (Wildervank, infobel); geen e-mail/social gevonden",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Vasti",
@@ -8410,7 +8499,9 @@
   "social": "FB",
   "telefoon": "06-19830556",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen adres (Smilde, infobel); geen e-mail/social gevonden",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Majorie",
@@ -9034,11 +9125,13 @@
    "Geen eigen website (alleen Facebook)"
   ],
   "contact": "06-28936677",
-  "bron": null,
+  "bron": "https://www.hondenkapsalondelinde.nl",
   "social": "FB",
   "telefoon": "06-28936677",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "eigen site + FB; e-mail niet in snippet",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Ramona",
@@ -9082,7 +9175,9 @@
   "social": "FB",
   "telefoon": "06-45422888",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen online treffer (Zuidhorn)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Mon Ami",
@@ -9102,7 +9197,11 @@
   "social": "FB",
   "telefoon": "06-50830692",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "marjoleinbarkhuis@gmail.com",
+  "em": "marjoleinbarkhuis@gmail.com",
+  "email_bron": "facebook.com/trimsalonmonamie (Norg)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Josiena",
@@ -9940,7 +10039,9 @@
   "social": "06-53269387",
   "telefoon": "FB",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen online treffer (Emmen)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon De Larij",
@@ -10213,7 +10314,9 @@
   "social": "FB",
   "telefoon": "06-20484296",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "eigen site aanwezig maar geen e-mail/social gevonden (Doetinchem, tipaw)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Evelien",
@@ -10309,11 +10412,15 @@
    "Geen eigen website (alleen Facebook)"
   ],
   "contact": "06-22752752",
-  "bron": null,
+  "bron": "https://www.hondentrimsalon-diana.nl",
   "social": "FB",
   "telefoon": "06-22752752",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@hondentrimsalon-diana.nl",
+  "em": "info@hondentrimsalon-diana.nl",
+  "email_bron": "infobel.com / hondentrimsalon-diana.nl (Bennekom)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Linda's Hondentrimservice",
@@ -10528,7 +10635,9 @@
   "social": "",
   "telefoon": "06-23752860",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen mobiel (Stuifzand, hondentrimsalon-info); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondensalon Kynoknip",
@@ -10548,7 +10657,9 @@
   "social": "",
   "telefoon": "06-13983118",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen bruikbare treffer (Kampen)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Happy Home",
@@ -10568,7 +10679,9 @@
   "social": "",
   "telefoon": "06-11474444",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen mobiel (Assen, cylex); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Snoet",
@@ -10584,11 +10697,15 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-14559631",
-  "bron": null,
+  "bron": "http://www.trimsalonsnoet.nl",
   "social": "",
   "telefoon": "06-14559631",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "trimsalonsnoet@gmail.com",
+  "em": "trimsalonsnoet@gmail.com",
+  "email_bron": "stagemarkt.nl (Wildervank)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrim Jantina",
@@ -10605,10 +10722,12 @@
   ],
   "contact": "06-54253446",
   "bron": null,
-  "social": "",
+  "social": "FB /hondentrimjantina",
   "telefoon": "06-54253446",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "social_bron": "facebook.com/hondentrimjantina",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "The Dog Spa Hondentrimsalon",
@@ -10628,7 +10747,11 @@
   "social": "FB",
   "telefoon": "06-15180721",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "jolindavandenberg@hotmail.com",
+  "em": "jolindavandenberg@hotmail.com",
+  "email_bron": "thedogspatrimsalon.jimdofree.com/contact",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Labradoodle Trimsalon Spakenburg",
@@ -10648,7 +10771,9 @@
   "social": "FB",
   "telefoon": "06-81407131",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen bruikbare treffer (Bunschoten-Spakenburg)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Eva",
@@ -10748,7 +10873,9 @@
   "social": "FB",
   "telefoon": "06-81113886",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen online treffer (Vianen)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Sparkling",
@@ -10788,7 +10915,9 @@
   "social": "FB",
   "telefoon": "06-43464585",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen online treffer (Lelystad)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Carla's Hondentrimsalon",
@@ -10828,7 +10957,9 @@
   "social": "IG/FB",
   "telefoon": "06-42652632",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen adres (Terneuzen, infobel); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Knipsels",
@@ -10888,7 +11019,9 @@
   "social": "FB",
   "telefoon": "06-51438141",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen adres (Vriezenveen, infobel); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Carolien",
@@ -10908,7 +11041,9 @@
   "social": "FB",
   "telefoon": "06-23317635",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen vaste lijn 0521-517878 (De Bult/Steenwijk); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon A la Professionnelle",
@@ -10948,7 +11083,9 @@
   "social": "",
   "telefoon": "06-48833214",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen directory-placeholder (Gouda); geen betrouwbare e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Dirkie",
@@ -10964,11 +11101,16 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-58779902",
-  "bron": null,
-  "social": "",
+  "bron": "https://www.trimsalondirkie.nl",
+  "social": "IG/FB/TikTok",
   "telefoon": "06-58779902",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "Trimsalondirkie@gmail.com",
+  "em": "Trimsalondirkie@gmail.com",
+  "email_bron": "trimsalondirkie.nl",
+  "social_bron": "trimsalondirkie.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Care and Cuddles",
@@ -10984,11 +11126,15 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-46054944",
-  "bron": null,
+  "bron": "https://www.trimsaloncareandcuddles.nl",
   "social": "",
   "telefoon": "06-46054944",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@trimsaloncareandcuddles.nl",
+  "em": "info@trimsaloncareandcuddles.nl",
+  "email_bron": "trimsaloncareandcuddles.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon For The Dogs",
@@ -11008,7 +11154,9 @@
   "social": "",
   "telefoon": "06-35625991",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen Hillegom-match gevonden",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimster Lenie",
@@ -11028,7 +11176,9 @@
   "social": "",
   "telefoon": "06-36494210",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen online treffer (Moordrecht)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Pino's Trimsalon",
@@ -11045,10 +11195,12 @@
   ],
   "contact": "06-40707665",
   "bron": null,
-  "social": "",
+  "social": "IG @pinostrimsalon_lisse",
   "telefoon": "06-40707665",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "social_bron": "instagram.com/pinostrimsalon_lisse",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Dogs Beautysalon Melissa",
@@ -11064,11 +11216,13 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-33852194",
-  "bron": null,
+  "bron": "https://www.dogsbeautysalon.nl",
   "social": "",
   "telefoon": "06-33852194",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "eigen site dogsbeautysalon.nl (e-mail achter knop, niet in snippet)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Patricia Rosman",
@@ -11084,11 +11238,13 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-38312934",
-  "bron": null,
+  "bron": "https://www.patricia-rosman.nl",
   "social": "",
   "telefoon": "06-38312934",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "eigen site; alleen vaste lijn 010-4702700 in snippet",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Jack's Trimsalon",
@@ -11104,11 +11260,16 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-17718075",
-  "bron": null,
-  "social": "",
+  "bron": "https://www.jackstrimsalon.nl",
+  "social": "FB /jackstrimsalon",
   "telefoon": "06-17718075",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@jackstrimsalon.nl",
+  "em": "info@jackstrimsalon.nl",
+  "email_bron": "jackstrimsalon.nl",
+  "social_bron": "facebook.com/jackstrimsalon",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "The Ginger Groomer",
@@ -11124,11 +11285,13 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-19190606",
-  "bron": null,
-  "social": "",
+  "bron": "https://thegingergroomer.nl",
+  "social": "FB /thegingergroomer",
   "telefoon": "06-19190606",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "social_bron": "facebook.com/thegingergroomer",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Aram",
@@ -11145,10 +11308,13 @@
   ],
   "contact": "06-31522806",
   "bron": null,
-  "social": "",
+  "social": "IG (Trimsalon Aram)",
   "telefoon": "06-31522806",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "social_bron": "instagram.com (Trimsalon Aram, Capelle a/d IJssel)",
+  "verrijkt_note": "IG aanwezig; alleen vaste lijn 010-4510730",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Doggies Hair-Do Trimsalon",
@@ -11368,7 +11534,9 @@
   "social": "FB",
   "telefoon": "06-87327189",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen directory (Hoorn); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondensalon BARK",
@@ -11785,10 +11953,13 @@
   ],
   "contact": "06-27452400",
   "bron": null,
-  "social": "",
+  "social": "IG (Trimsalon Enjoy)",
   "telefoon": "06-27452400",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "social_bron": "instagram.com (Trimsalon Enjoy, Zwolle)",
+  "verrijkt_note": "IG aanwezig; geen e-mail in snippet",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon-Jits",
@@ -11808,7 +11979,9 @@
   "social": "",
   "telefoon": "06-41667075",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen KvK/adres (Zwolle); placeholder-e-mail genegeerd",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Joyce",
@@ -11828,7 +12001,9 @@
   "social": "",
   "telefoon": "06-51892328",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen adres/mobiel (Hengelo, infobel); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Twente",
@@ -11848,7 +12023,9 @@
   "social": "",
   "telefoon": "06-54938305",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen directory (Hengelo); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Marije's trimhokske",
@@ -11864,11 +12041,13 @@
    "Geen eigen website (alleen Facebook)"
   ],
   "contact": "06-53686232",
-  "bron": null,
+  "bron": "https://www.marijestrimhokske.nl",
   "social": "FB",
   "telefoon": "06-53686232",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "eigen site + IG; e-mail niet in snippet",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Uw Hippe Hond",
@@ -11885,10 +12064,15 @@
   ],
   "contact": "06-10315845",
   "bron": null,
-  "social": "",
+  "social": "FB Uw Hippe Hond",
   "telefoon": "06-10315845",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@uwhippehond.nl",
+  "em": "info@uwhippehond.nl",
+  "email_bron": "facebook.com (Uw Hippe Hond, Winterswijk)",
+  "social_bron": "facebook.com/175521925954363",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Belinda",
@@ -11908,7 +12092,9 @@
   "social": "",
   "telefoon": "06-52690394",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen adres (Sellingen, infobel); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Spikkel",
@@ -11928,7 +12114,9 @@
   "social": "",
   "telefoon": "06-13023143",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen mobiel (Gasselte, cylex); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Furfection by Denise",
@@ -11944,11 +12132,15 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-21573749",
-  "bron": null,
+  "bron": "https://www.furfectionbydenise.nl",
   "social": "",
   "telefoon": "06-21573749",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@furfectionbydenise.nl",
+  "em": "info@furfectionbydenise.nl",
+  "email_bron": "furfectionbydenise.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "del Prado Hondentrimsalon",
@@ -11964,11 +12156,15 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-13012913",
-  "bron": null,
+  "bron": "https://www.trimsalondelprado.nl",
   "social": "",
   "telefoon": "06-13012913",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "trimsalondelprado@gmail.com",
+  "em": "trimsalondelprado@gmail.com",
+  "email_bron": "infobel.com / trimsalondelprado.nl (Holten)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Pluk Apeldoorn",
@@ -11988,7 +12184,9 @@
   "social": "",
   "telefoon": "06-30503994",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "geen eenduidige Apeldoorn-match; geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Rocko's",
@@ -12008,7 +12206,9 @@
   "social": "",
   "telefoon": "06-53915987",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen Salonized-boekpagina (Eerbeek); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Ina's Walk Out",
@@ -12028,7 +12228,9 @@
   "social": "FB",
   "telefoon": "06-28027000",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "uitlaatservice (Westerlee); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondenkapsalon Poedelpret",
@@ -12044,11 +12246,16 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-26423022",
-  "bron": null,
-  "social": "",
+  "bron": "https://www.poedelpret.nl",
+  "social": "FB /HondenkapsalonPoedelpret",
   "telefoon": "06-26423022",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "info@poedelpret.nl",
+  "em": "info@poedelpret.nl",
+  "email_bron": "poedelpret.nl",
+  "social_bron": "facebook.com/HondenkapsalonPoedelpret",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Knip & Soapy Trimsalon",
@@ -12064,11 +12271,15 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-15003043",
-  "bron": null,
+  "bron": "https://www.knipensoapy.nl",
   "social": "",
   "telefoon": "06-15003043",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "email": "knipensoapy@gmail.com",
+  "em": "knipensoapy@gmail.com",
+  "email_bron": "knipensoapy.nl",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon The Generation's",
@@ -12088,7 +12299,9 @@
   "social": "",
   "telefoon": "06-43988336",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen directory-placeholder (Voorthuizen); geen betrouwbare e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Happy Hound Hondentrimsalon",
@@ -12108,7 +12321,9 @@
   "social": "",
   "telefoon": "06-17504124",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen mobiel (Apeldoorn, hondentrimsalon-info); FB-treffer was Belgisch",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Van Chayoek",
@@ -12128,7 +12343,9 @@
   "social": "",
   "telefoon": "06-81292344",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen directory-placeholder (Arnhem); geen betrouwbare e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "De Rijdende Trimsalon",
@@ -12144,11 +12361,13 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-41494593",
-  "bron": null,
-  "social": "",
+  "bron": "https://www.derijdendetrimsalon.nl",
+  "social": "FB /DeRijdendeTrimsalon",
   "telefoon": "06-41494593",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "social_bron": "facebook.com/DeRijdendeTrimsalon",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Kynotrim",
@@ -12164,11 +12383,13 @@
    "Geen eigen website (alleen vermelding/06)"
   ],
   "contact": "06-24892390",
-  "bron": null,
+  "bron": "https://www.kynotrim.nl",
   "social": "",
   "telefoon": "06-24892390",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "eigen site met contactformulier (Nijmegen); geen los e-mailadres in snippet",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Woezel",
@@ -12188,7 +12409,9 @@
   "social": "",
   "telefoon": "06-11137951",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen directory-placeholder (Groesbeek); geen betrouwbare e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon De Knipperie",
@@ -12208,7 +12431,9 @@
   "social": "FB",
   "telefoon": "06-55069636",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen 3e-partij vermelding (Sirjansland); geen eigen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Hondentrimsalon Haartjes en Staartjes",
@@ -12228,7 +12453,9 @@
   "social": "FB",
   "telefoon": "06-53986694",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen mobiel (Bruinisse, de-regiogids); FB/e-mail-treffer was Belgisch (Lier)",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Mara's Trimsalon Honden en Katten",
@@ -12248,7 +12475,9 @@
   "social": "",
   "telefoon": "06-82501028",
   "land": "NL",
-  "taal": "nl"
+  "taal": "nl",
+  "verrijkt_note": "alleen directory-listing (Poortvliet/Tholen); geen e-mail/social",
+  "verrijkt": "2026-06-20"
  },
  {
   "bedrijf": "Trimsalon Stalland",
@@ -20491,7 +20720,9 @@
   "telefoon": "0626822284",
   "land": "NL",
   "taal": "nl",
-  "email": "info@romstucadoorsbedrijf.nl"
+  "email": "info@romstucadoorsbedrijf.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Hoti Stukadoor",
@@ -21066,7 +21297,9 @@
   "telefoon": "0614692490",
   "land": "NL",
   "taal": "nl",
-  "email": "jurgenkrijnen@home.nl"
+  "email": "jurgenkrijnen@home.nl",
+  "verrijkt": "2026-06-20",
+  "verrijkt_note": "reeds e-mail aanwezig; gemarkeerd verrijkt"
  },
  {
   "bedrijf": "Stukadoorsbedrijf Van Gastel",
