@@ -20234,5 +20234,27 @@
   "telefoon": "06-18659575",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Adriaans Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Reusel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T10:34:39",
+  "laatste_post": "",
+  "demo_url": "https://adriaans-stucwerken-reusel.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Reusel met een erg basic website en slechte vindbaarheid; mobiel, e-mail en Facebook bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Stukadoor in Reusel met een erg basic website en slechte vindbaarheid; mobiel, e-mail en Facebook bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "0645550437",
+  "bron": null,
+  "social": "facebook.com/adriaansstucwerken.nl",
+  "telefoon": "0645550437",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

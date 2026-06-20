@@ -23063,5 +23063,31 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Adriaans Stucwerken",
+  "kort": "Adriaans",
+  "slug": "adriaans-stucwerken-reusel",
+  "plaats": "Reusel",
+  "tel_display": "0645550437",
+  "tel_href": "tel:+31645550437",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf in Reusel, 'de stucadoor van de Kempen', voor strak stuc-, pleister- en spackspuitwerk met A-merk materialen. Ook tegelwerk.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Spackspuiten",
+    "Tegelwerk",
+    "Renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "adriaans.stucwerken@gmail.com",
+  "social": "facebook.com/adriaansstucwerken.nl",
+  "taal": "nl"
  }
 ]
