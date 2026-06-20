@@ -1437,7 +1437,7 @@ async function sha256(s){var b=await crypto.subtle.digest('SHA-256',new TextEnco
 function startApp(){$("#login").style.display='none';$("#app").style.display='';bindFilters();bindUI();var t=$("#ctlToken");if(t)t.value=CT;boot();go('overzicht');}
 (function login(){
  if(sessionStorage.getItem('bd_auth')==='1'){startApp();return;}
- var go2=function(){var pw=$("#pw").value;sha256(pw).then(function(h){if(h===PWHASH){sessionStorage.setItem('bd_auth','1');CT=h;localStorage.setItem('bd_ctl',h);startApp();}else{$("#lerr").textContent='Onjuist wachtwoord.';}});};
+ var go2=function(){var pw=$("#pw").value;sha256(pw).then(function(h){if(h===PWHASH){sessionStorage.setItem('bd_auth','1');fetch(API+'/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pw:pw})}).then(function(r){return r.json();}).then(function(j){if(j&&j.token){CT=j.token;localStorage.setItem('bd_ctl',CT);}}).catch(function(){}).then(function(){startApp();});}else{$("#lerr").textContent='Onjuist wachtwoord.';}});};
  $("#go").addEventListener('click',go2);
  $("#pw").addEventListener('keydown',function(e){if(e.key==='Enter')go2();});
 })();

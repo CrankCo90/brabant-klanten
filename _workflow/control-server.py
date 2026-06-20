@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Brabant Digital control-server — draait op de VPS (alleen 127.0.0.1), achter Caddy /api + token.
 Voert ALLEEN vooraf bepaalde acties uit. De vrije Claude-opdracht draait via Claude Code (acceptEdits + guard-hook)."""
-import json, os, subprocess, csv, datetime
+import json, os, subprocess, csv, datetime, hashlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 ROOT="/root/klanten"; DATA="/root/outreach-data"
 TOKEN=open(os.path.join(DATA,".control-token")).read().strip()
+PWHASH_EXPECTED="64696df0eff1c7ed0db5371356e155b4279d2a260223f8a774798b9ac0654abe"
 SENTLOG=os.path.join(DATA,"sent-log.csv"); AUTO=os.path.join(DATA,".autopilot_on")
 REPLIES=os.path.join(DATA,"replies.json")
 APJSON=os.path.join(DATA,"autopilot.json")
@@ -53,10 +54,14 @@ class H(BaseHTTPRequestHandler):
         if self.path=="/api/status": return self._s(200,sent_info())
         self._s(404,{"error":"not found"})
     def do_POST(self):
-        if not self._auth(): return self._s(401,{"error":"unauthorized"})
         n=int(self.headers.get("Content-Length") or 0)
         try: body=json.loads(self.rfile.read(n) or b"{}")
         except: body={}
+        if self.path=="/api/login":
+            pw=body.get("pw") or ""
+            if hashlib.sha256(pw.encode()).hexdigest()==PWHASH_EXPECTED: return self._s(200,{"token":TOKEN})
+            return self._s(401,{"error":"unauthorized"})
+        if not self._auth(): return self._s(401,{"error":"unauthorized"})
         if self.path=="/api/send-outreach":
             cap=int(body.get("cap",20)); sel=body.get("prospects") or body.get("only") or []
             env={"OUTREACH_DATA":DATA,"OUTREACH_CAP":str(cap)}
