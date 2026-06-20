@@ -25,8 +25,10 @@ def _ctx(s):
     phone = td or ("Mail ons" if email else "Bel ons")
     logo = merk.replace(kort,"<em>%s</em>"%html.escape(kort),1) if kort and kort in merk else html.escape(merk)
     wa=""
-    if digits.startswith("06") or digits.startswith("316"):
-        d2="31"+digits[1:] if digits.startswith("06") else digits
+    _wan=re.sub(r'\D','',(s.get("wa_number") or ""))
+    if not _wan and (digits.startswith("06") or digits.startswith("316")): _wan=digits
+    if _wan:
+        d2="31"+_wan[1:] if _wan.startswith("0") else _wan
         wa=('<a class="wa-float" href="https://wa.me/%s" target="_blank" rel="noopener">'
             '<svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> App ons</a>'
             '<script>if(window.self!==window.top){document.querySelectorAll(".wa-float").forEach(function(e){e.style.display="none"})}</script>')%d2
