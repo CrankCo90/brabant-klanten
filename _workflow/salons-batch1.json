@@ -25211,5 +25211,174 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf AS",
+  "kort": "Stuc-, schilder- en spuitwerk in Geleen en omstreken",
+  "slug": "stukadoorsbedrijf-as-geleen",
+  "plaats": "Geleen",
+  "tel_display": "06-13897032",
+  "tel_href": "tel:+31613897032",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Tommy",
+   "verhaal": "Stukadoorsbedrijf AS verzorgt in Geleen en omgeving hoogwaardig stucwerk, schilderwerk en spuitwerk voor zowel nieuwbouw als bestaande woningen. Van glad pleisterwerk, sierpleister en betonlook tot airless spuiten en lakwerk — met persoonlijk advies, een vrijblijvende afspraak op locatie en spoedwerk binnen 48 uur.",
+   "specialisaties": [
+    "Glad stucwerk en pleisterwerk",
+    "Sierpleister, beton cire en betonlook",
+    "Spuitwerk (airless, spack, latex, lak)",
+    "Binnen- en buitenschilderwerk",
+    "Spoedklus binnen 48 uur"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijf-as.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Holzken",
+  "kort": "Strak stucwerk en betonlook in Sittard",
+  "slug": "stukadoorsbedrijf-holzken-sittard",
+  "plaats": "Sittard",
+  "tel_display": "06-40164993",
+  "tel_href": "tel:+31640164993",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Holzken uit Sittard staat klaar voor alle stukadoorswerken: wanden en plafonds, spachtelputz, sierpleisterwerk, cementwerk en airless- en spackspuiten. Ook gecertificeerd in betonlook voor wanden, vloeren, keukens en meubilair, voor zowel nieuwbouw als renovatie.",
+   "specialisaties": [
+    "Wanden en plafonds stucen",
+    "Spachtelputz en sierpleister",
+    "Betonlook (gecertificeerd)",
+    "Cementwerk",
+    "Airless en spack spuiten"
+   ],
+   "certificering": [
+    "Gecertificeerd in betonlook"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Bruijn Schilderwerken",
+  "kort": "Vakkundig schilder- en stucwerk in Echt en omgeving",
+  "slug": "de-bruijn-schilderwerken-echt",
+  "plaats": "Echt",
+  "tel_display": "06-43227219",
+  "tel_href": "tel:+31643227219",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Joey de Bruijn",
+   "verhaal": "Joey de Bruijn werkt met meer dan 20 jaar ervaring en twee collega's aan kwalitatief binnen- en buitenschilderwerk in Echt en omgeving. Persoonlijk contact, kleinschaligheid en oog voor detail staan centraal, met daarnaast kleuradvies, stucwerk en kleine renovaties zoals trap-, kozijn- en houtrenovatie.",
+   "specialisaties": [
+    "Binnenschilderwerk en kleuradvies",
+    "Buitenschilderwerk",
+    "Stucwerk",
+    "Trap-, kozijn- en houtrenovatie",
+    "Kleine renovatiewerkzaamheden"
+   ],
+   "certificering": [
+    "KvK 12060965",
+    "20+ jaar ervaring"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@debruijnschilderwerken.com",
+  "social": "https://www.facebook.com/profile.php?id=100002944475656",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MK-Schilderwerken",
+  "kort": "Schilder voor nieuwbouw, renovatie en restauratie in Echt-Susteren",
+  "slug": "mk-schilderwerken-echt-susteren",
+  "plaats": "Echt-Susteren",
+  "tel_display": "06-47927111",
+  "tel_href": "tel:+31647927111",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Michael Kleijderman",
+   "verhaal": "Michael Kleijderman richtte MK-Schilderwerken in 2020 op en is actief in Echt-Susteren, Leudal, Weert, Nederweert, Roermond en Peel & Maas. Hij levert binnen- en buitenschilderwerk, interieurafwerking, klein timmerwerk en klein aannemerswerk, met persoonlijke aandacht en een opname op locatie voor elke offerte.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Nieuwbouw en restauratie",
+    "Interieurafwerking en wrapping",
+    "Klein timmerwerk",
+    "Klein aannemerswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/schilderechtsusteren",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "di Stefano Schilderwerken",
+  "kort": "Ruim 30 jaar schildervakmanschap in Geleen",
+  "slug": "distefano-schilderwerken-geleen",
+  "plaats": "Geleen",
+  "tel_display": "06-27032325",
+  "tel_href": "tel:+31627032325",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ralf di Stefano",
+   "verhaal": "Ralf di Stefano begon in 2012 zijn eigen schildersbedrijf met op dat moment al 30 jaar ervaring. Vanuit Geleen verzorgt hij professioneel binnen- en buitenschilderwerk voor particulieren in de regio Sittard-Geleen, snel, vakkundig en tegen een aantrekkelijk tarief.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Particulier schilderwerk",
+    "Kleuradvies",
+    "Onderhoudsschilderwerk"
+   ],
+   "certificering": [
+    "30+ jaar ervaring"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@distefano-schilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Cabo",
+  "kort": "Al uw schilderwerk in Nieuwstadt en regio Echt-Susteren",
+  "slug": "schildersbedrijf-cabo-nieuwstadt",
+  "plaats": "Nieuwstadt",
+  "tel_display": "06-17554072",
+  "tel_href": "tel:+31617554072",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Cabo uit Nieuwstadt verzorgt binnen- en buitenschilderwerk voor particulieren en bedrijven in de regio Echt-Susteren en Sittard-Geleen. Persoonlijk, netjes en met vakmanschap, van een enkele deur tot het complete schilderonderhoud van uw woning.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtwerk en kozijnen",
+    "Onderhoudsschilderwerk",
+    "Particulier en zakelijk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfcabo.nl",
+  "social": "https://www.facebook.com/SchildersbedrijfCabo/",
+  "taal": "nl"
  }
 ]
