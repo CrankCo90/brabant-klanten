@@ -23316,5 +23316,71 @@
   "telefoon": "0344-642375",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Verbo Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Eindhoven",
+  "plaats": "Best",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T21:17:33",
+  "laatste_post": "",
+  "demo_url": "https://verbo-schildersbedrijf-best.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vermeldingen in bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen in bedrijvengidsen"
+  ],
+  "contact": "06-53948896",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53948896",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Rosanne Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Eindhoven",
+  "plaats": "Veldhoven",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T21:17:33",
+  "laatste_post": "",
+  "demo_url": "https://rosanne-schilderwerken-veldhoven.demo.brabantdigital.nl",
+  "waarom": "Alleen actief op Facebook, geen eigen website.",
+  "fouten": [
+   "Alleen actief op Facebook, geen eigen website"
+  ],
+  "contact": "Alleen https://www.facebook.com/p/Rosanne-Schilderwerken-61573176723831/",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Rosanne-Schilderwerken-61573176723831/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Allin",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Eindhoven",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T21:17:33",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-allin-geldrop.demo.brabantdigital.nl",
+  "waarom": "Verouderde website, sinds 2019 niet meer vernieuwd.",
+  "fouten": [
+   "Verouderde website, sinds 2019 niet meer vernieuwd"
+  ],
+  "contact": "06-39129931",
+  "bron": null,
+  "social": "https://www.instagram.com/stukadoorsbedrijf.allin/",
+  "telefoon": "06-39129931",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

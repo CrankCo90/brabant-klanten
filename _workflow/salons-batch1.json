@@ -25929,5 +25929,86 @@
   "email": "info@hommerson-schilderwerken.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Verbo Schildersbedrijf",
+  "kort": "Verbo",
+  "slug": "verbo-schildersbedrijf-best",
+  "plaats": "Best",
+  "tel_display": "06-53948896",
+  "tel_href": "tel:+31653948896",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Verbo Schildersbedrijf is een schildersbedrijf uit Best dat al jaren binnen- en buitenschilderwerk verzorgt voor particulieren en bedrijven in Best en de regio Eindhoven. Vakwerk, nette afwerking en duidelijke afspraken staan voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Spuitwerk en latexspuiten",
+    "Wandafwerking en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Rosanne Schilderwerken",
+  "kort": "Rosanne",
+  "slug": "rosanne-schilderwerken-veldhoven",
+  "plaats": "Veldhoven",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Rosanne",
+   "verhaal": "Rosanne Schilderwerken is het eenmansbedrijf van Rosanne uit Veldhoven. Na haar schildersvakopleiding maakte zij van haar passie haar werk en verzorgt zij met oog voor detail binnen- en buitenschilderwerk voor woningen in Veldhoven en omgeving.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Sauswerk en wandafwerking",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/p/Rosanne-Schilderwerken-61573176723831/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Allin",
+  "kort": "Allin",
+  "slug": "stukadoorsbedrijf-allin-geldrop",
+  "plaats": "Geldrop",
+  "tel_display": "06-39129931",
+  "tel_href": "tel:+31639129931",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Allin uit Geldrop is een klein stukadoorsbedrijf met ruim 20 jaar ervaring, actief in heel zuidoost-Brabant. Van strak binnenstucwerk en texklaar opleveren van nieuwbouw tot buitenstucwerk: altijd scherp geprijsd en netjes afgewerkt.",
+   "specialisaties": [
+    "Binnenstucwerk (glad en sausklaar)",
+    "Nieuwbouw texklaar maken",
+    "Buitenstucwerk en gevels",
+    "Sierpleister en spachtelputz",
+    "Dunpleister en renovatiestucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/stukadoorsbedrijf.allin/",
+  "taal": "nl"
  }
 ]
