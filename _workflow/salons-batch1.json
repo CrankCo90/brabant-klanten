@@ -24058,5 +24058,187 @@
   "email": "Info@stucadoorsbedrijflambrechts.nl",
   "social": "https://www.facebook.com/Stucadoorsbedrijf-Lambrechts-309972299146848/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Remco Houbraken",
+  "kort": "Houbraken",
+  "slug": "stukadoorhoubraken-uden",
+  "plaats": "Uden",
+  "tel_display": "06-54232454",
+  "tel_href": "tel:+31654232454",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Remco",
+   "verhaal": "Stukadoorsbedrijf Remco Houbraken levert al jaren strak pleister-, schuur- en sierwerk voor woningen in Uden en omgeving. Vakwerk met oog voor een nette afwerking, van glad stucwerk tot decoratieve wanden.",
+   "specialisaties": [
+    "Glad pleisterwerk (binnen)",
+    "Schuurwerk & raapwerk",
+    "Sierpleister & spachtelputz",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijfuden.nl",
+  "social": "Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Donkers Stukadoorsbedrijf",
+  "kort": "Donkers",
+  "slug": "donkers-stukadoor-volkel",
+  "plaats": "Volkel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Donkers Stukadoorsbedrijf is een familiebedrijf uit Volkel dat met vakmanschap zorgt voor strak binnen- en buitenstucwerk in de hele regio Uden. Van glad pleisterwerk tot sierpleister, elk project netjes afgewerkt.",
+   "specialisaties": [
+    "Binnen stucwerk",
+    "Buitenstucwerk",
+    "Sierpleister & spachtelputz",
+    "Texwerk & decoratieve afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "donkersvof@icloud.com",
+  "social": "Instagram @Donkersvof_uden",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "I-R Schilderwerken",
+  "kort": "I-R Schilderwerken",
+  "slug": "ir-schilderwerken-uden",
+  "plaats": "Uden",
+  "tel_display": "06-47085325",
+  "tel_href": "tel:+31647085325",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "I-R Schilderwerken uit Uden verzorgt vakkundig binnen- en buitenschilderwerk voor particulieren en bedrijven, inclusief houtrotherstel en glaszetten. Kwaliteit en een nette uitvoering staan voorop.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotreparatie",
+    "Glaszetten & beglazing",
+    "Wandafwerking & behangen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "irschilderwerken@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "PUNT NL Schilder & Stukadoor",
+  "kort": "PUNT NL",
+  "slug": "punt-nl-nuenen",
+  "plaats": "Nuenen",
+  "tel_display": "06-84554112",
+  "tel_href": "tel:+31684554112",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "PUNT NL uit Nuenen is uw vakschilder en stukadoor voor strak schilder- en stucwerk, binnen en buiten. Van een frisse verflaag tot glad pleisterwerk, met oog voor detail.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Wand- en plafondstucwerk",
+    "Aquastuc voor badkamers",
+    "Houtreparatie & kozijnen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "puntnlstukadoor@gmail.com",
+  "social": "Facebook · Instagram @puntnlstukadoor",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "GS Glas- en Schilderwerken",
+  "kort": "GS Rijen",
+  "slug": "gs-schilderwerken-rijen",
+  "plaats": "Rijen",
+  "tel_display": "06-22710500",
+  "tel_href": "tel:+31622710500",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "GS Glas- en Schilderwerken uit Rijen levert maatwerk in schilder- en glaswerk voor woning en bedrijf. Van binnen- en buitenschilderwerk tot het vakkundig plaatsen van glas.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Glaszetten & beglazing",
+    "Houtrotherstel",
+    "Spuitwerk deuren & kozijnen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@gsrijen.nl",
+  "social": "Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Toine Schilder Schilderwerken",
+  "kort": "Toine Schilder",
+  "slug": "toine-schilder-sint-oedenrode",
+  "plaats": "Sint-Oedenrode",
+  "tel_display": "06-52427549",
+  "tel_href": "tel:+31652427549",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Toine",
+   "verhaal": "Toine Schilder Schilderwerken uit Sint-Oedenrode staat voor verzorgd binnen- en buitenschilderwerk voor woningen en bedrijfspanden. Een vakman die zijn werk netjes en met aandacht oplevert.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Latex spuiten wanden & plafonds"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@toineschilder-schilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Accent Schilderwerk",
+  "kort": "Accent",
+  "slug": "accent-schilderwerk-hilvarenbeek",
+  "plaats": "Hilvarenbeek",
+  "tel_display": "06-55894480",
+  "tel_href": "tel:+31655894480",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Accent Schilderwerk is al ruim twintig jaar de vertrouwde schilder in Hilvarenbeek, Goirle en de regio Tilburg. Voor binnen- en buitenschilderwerk met vakmanschap en een nette afwerking.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Spuitwerk",
+    "Houtrotreparatie",
+    "Behang- en wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "WhatsApp",
+  "taal": "nl"
  }
 ]
