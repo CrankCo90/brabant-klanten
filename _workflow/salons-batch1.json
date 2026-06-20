@@ -25380,5 +25380,109 @@
   "email": "info@schildersbedrijfcabo.nl",
   "social": "https://www.facebook.com/SchildersbedrijfCabo/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Dayan Stukadoorsbedrijf",
+  "kort": "Strak glad stucwerk voor muren en plafonds in Maastricht",
+  "slug": "dayan-stukadoorsbedrijf-maastricht",
+  "plaats": "Maastricht",
+  "tel_display": "06 47283971",
+  "tel_href": "tel:+31647283971",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dayan Stukadoorsbedrijf is een Maastrichts stukadoorsbedrijf dat zich richt op strak, glad stucwerk voor muren en plafonds - klaar voor iedere afwerking. Klanten roemen het professionele, nette werk, de duidelijke communicatie en het perfecte eindresultaat (10 uit 10 op basis van zeventien beoordelingen).",
+   "specialisaties": [
+    "Glad pleisterwerk voor muren en plafonds",
+    "Stucwerk klaar voor sausen of behangen",
+    "Renovatie- en herstelstucwerk",
+    "Decoratieve afwerking en sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/dayanstukadoorsbedrijf/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf D. Quix",
+  "kort": "Vakkundig stuc- en dunpleisterwerk in Geleen",
+  "slug": "stukadoorsbedrijf-d-quix-geleen",
+  "plaats": "Geleen",
+  "tel_display": "06 55366076",
+  "tel_href": "tel:+31655366076",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Dimy",
+   "verhaal": "Stukadoorsbedrijf D. Quix uit Geleen is het eenmansbedrijf van Dimy, een vakman die graag meedenkt en strak stucwerk aflevert met oog voor de nieuwste technieken. Met een 9,6 uit achtentwintig Google-reviews staat hij bekend om duidelijke afspraken en een net opgeleverd resultaat.",
+   "specialisaties": [
+    "Glad stucwerk en dunpleister",
+    "Muren en plafonds sausklaar",
+    "Renovatie- en herstelstucwerk",
+    "Advies over de beste afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://facebook.com/Stukadoorsbedrijf-D-Quix-400543054133347",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Deco Plaster",
+  "kort": "Strak stucwerk, spachtelputz en spackspuitwerk in Geleen",
+  "slug": "deco-plaster-geleen",
+  "plaats": "Geleen",
+  "tel_display": "06 34140024",
+  "tel_href": "tel:+31634140024",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Leeroy",
+   "verhaal": "Deco Plaster is het stukadoorsbedrijf van Leeroy uit Geleen, gespecialiseerd in strak stucwerk en fijne spachtelputz en spackspuitwerk. Klanten waarderen het secure, nette werk en de prettige communicatie - goed voor een 9,6 uit zeventien Google-reviews.",
+   "specialisaties": [
+    "Glad stucwerk (raapwerk)",
+    "Spachtelputz en sierpleister",
+    "Spackspuitwerk",
+    "Muren en plafonds sausklaar"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Demiri Stukadoor en Klussenbedrijf",
+  "kort": "Stucwerk en kluswerk in en om het huis in Kerkrade",
+  "slug": "demiri-stukadoor-kerkrade",
+  "plaats": "Kerkrade",
+  "tel_display": "06 21330313",
+  "tel_href": "tel:+31621330313",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Demiri Stukadoor en Klussenbedrijf uit Kerkrade is al zeven jaar actief en combineert vakkundig stucwerk met klus- en afbouwwerk in en om het huis. Klanten zijn lovend over het resultaat, ook in oudere woningen, en geven het bedrijf een 10.",
+   "specialisaties": [
+    "Glad stucwerk voor muren, plafonds en trapgat",
+    "Stucwerk in oudere en renovatiewoningen",
+    "Klus- en afbouwwerk",
+    "Herstel- en reparatiestucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]

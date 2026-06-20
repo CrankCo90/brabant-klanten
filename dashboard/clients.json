@@ -22876,5 +22876,93 @@
   "telefoon": "06-17554072",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Dayan Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:17:51",
+  "laatste_post": "",
+  "demo_url": "https://dayan-stukadoorsbedrijf-maastricht.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen op social media te vinden, terwijl klanten in Google zoeken naar een stukadoor in Maastricht.",
+  "fouten": [
+   "Geen eigen website - alleen op social media te vinden, terwijl klanten in Google zoeken naar een stukadoor in Maastricht"
+  ],
+  "contact": "06 47283971",
+  "bron": null,
+  "social": "https://www.instagram.com/dayanstukadoorsbedrijf/",
+  "telefoon": "06 47283971",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf D. Quix",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Geleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:17:51",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-d-quix-geleen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - vindbaarheid hangt volledig op losse vermeldingen en een Facebookpagina.",
+  "fouten": [
+   "Geen eigen website - vindbaarheid hangt volledig op losse vermeldingen en een Facebookpagina"
+  ],
+  "contact": "06 55366076",
+  "bron": null,
+  "social": "https://facebook.com/Stukadoorsbedrijf-D-Quix-400543054133347",
+  "telefoon": "06 55366076",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Deco Plaster",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Geleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:17:51",
+  "laatste_post": "",
+  "demo_url": "https://deco-plaster-geleen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen telefonisch en via Google te vinden, terwijl klanten online zoeken en vergelijken.",
+  "fouten": [
+   "Geen eigen website - alleen telefonisch en via Google te vinden, terwijl klanten online zoeken en vergelijken"
+  ],
+  "contact": "06 34140024",
+  "bron": null,
+  "social": "",
+  "telefoon": "06 34140024",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Demiri Stukadoor en Klussenbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Kerkrade",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-20",
+  "aangemaakt": "2026-06-20T19:17:51",
+  "laatste_post": "",
+  "demo_url": "https://demiri-stukadoor-kerkrade.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen via directory's en telefoon bereikbaar, terwijl klanten in Google zoeken naar een stukadoor in Kerkrade.",
+  "fouten": [
+   "Geen eigen website - alleen via directory's en telefoon bereikbaar, terwijl klanten in Google zoeken naar een stukadoor in Kerkrade"
+  ],
+  "contact": "06 21330313",
+  "bron": null,
+  "social": "",
+  "telefoon": "06 21330313",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
