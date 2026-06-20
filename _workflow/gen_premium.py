@@ -86,12 +86,43 @@ THEMES=[
    promo='<div class="promo"><h3>Vaste prijzen per m&sup2;</h3><p>Binnen 1 werkdag een heldere offerte in uw mail - geen verrassingen.</p></div>', topbar=''),
 ]
 
+
+import shutil as _shutil
+VN_DIR = ROOT/"_workflow"/"assets"/"voornaa"
+VN_PAIRS=[("foto7a.jpg","foto7.jpg","Woonkamer - compleet gestukt en geschilderd"),
+          ("foto8a.jpg","foto8.jpg","Slaapkamer - van ruwbouw naar strak afgewerkt")]
+def _vn_have():
+    return [(v,n,c) for (v,n,c) in VN_PAIRS if (VN_DIR/v).exists() and (VN_DIR/n).exists()]
+def voorna_section():
+    have=_vn_have()
+    if not have: return ""
+    cards=""
+    for v,n,cap in have:
+        cards+=('<div class="ba"><div class="ba-wrap">'
+          '<img class="ba-after" src="../assets/voornaa/%s" alt="Na">'
+          '<div class="ba-before"><img src="../assets/voornaa/%s" alt="Voor"></div>'
+          '<input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Voor en na">'
+          '<div class="ba-handle"><span>&#8596;</span></div>'
+          '<span class="ba-lbl ba-l" data-en="Before">Voor</span><span class="ba-lbl ba-r" data-en="After">Na</span>'
+          '</div><div class="ba-cap">%s</div></div>')%(n,v,cap)
+    return ('<section id="voorna" class="band"><div class="wrap"><div class="sec-head">'
+      '<span class="eyebrow" data-en="Before &amp; after">Voor &amp; na</span>'
+      '<h2 data-en="See the transformation">Zie de <span class="ac">transformatie</span></h2>'
+      '<p data-en="Drag the slider to see the result of our work.">Sleep de schuif om het resultaat van ons werk te zien.</p></div>'
+      '<div class="ba-grid">%s</div></div></section>')%cards
+def copy_voorna(dest):
+    have=_vn_have()
+    if not have: return
+    out=dest/"assets"/"voornaa"; out.mkdir(parents=True,exist_ok=True)
+    for v,n,_ in have:
+        _shutil.copy(VN_DIR/v,out/v); _shutil.copy(VN_DIR/n,out/n)
+
 def render_premium(s, i):
     t=THEMES[i-1]; c=_ctx(s)
     out=TPL
     for k,v in [("{{THEME_CSS}}",t["css"]),("{{BODYCLASS}}",t["bodyclass"]),("{{HEROCLASS}}",t["heroclass"]),
                 ("{{TOPBAR}}",t["topbar"]),("{{HERO_KICKER}}",t["kicker"]),("{{HERO_TITLE}}",t["title"]),
-                ("{{HERO_SUB}}",t["sub"]),("{{TRUST}}",t["trust"]),("{{RATING}}",t["rating"]),("{{PROMO}}",t["promo"])]:
+                ("{{HERO_SUB}}",t["sub"]),("{{TRUST}}",t["trust"]),("{{RATING}}",t["rating"]),("{{PROMO}}",t["promo"]),("{{VOORNA}}",voorna_section())]:
         out=out.replace(k,v)
     for k,v in [("{{TITLE}}","%s - Schilder &amp; Stukadoor %s"%(html.escape(c["merk"]),html.escape(c["plaats"]))),
                 ("{{LOGO}}",c["logo"]),("{{NAME}}",html.escape(c["merk"])),("{{INITIALS}}",c["initials"]),

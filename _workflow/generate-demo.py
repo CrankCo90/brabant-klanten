@@ -836,6 +836,7 @@ for s in salons:
         (dest/"index.html").write_text(_gp.render_cover(s),encoding="utf-8")
         for _i in range(1,7):
             (dest/"previews"/("design-%d.html"%_i)).write_text(_gp.render_premium(s,_i),encoding="utf-8")
+        _gp.copy_voorna(dest)
         n+=1; continue
     dest=ROOT/s["slug"]/"03-designs"; (dest/"previews").mkdir(parents=True,exist_ok=True)
     for f in FILES:
