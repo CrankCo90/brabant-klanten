@@ -24702,5 +24702,71 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Linders Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T11:12:08",
+  "laatste_post": "",
+  "demo_url": "https://linders-schilderwerken-veghel.demo.brabantdigital.nl",
+  "waarom": "Website draait op de gratis bouwer JouwWeb met een verouderde uitstraling; een eigen, professionele site oogt veel betrouwbaarder.",
+  "fouten": [
+   "Website draait op de gratis bouwer JouwWeb met een verouderde uitstraling; een eigen, professionele site oogt veel betrouwbaarder"
+  ],
+  "contact": "06-13891993",
+  "bron": null,
+  "social": "instagram.com/lindersschilderwerken",
+  "telefoon": "06-13891993",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Roel van Zutven Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Boekel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T11:12:08",
+  "laatste_post": "",
+  "demo_url": "https://roel-van-zutven-stucwerken-boekel.demo.brabantdigital.nl",
+  "waarom": "Verouderde one-page WordPress-site uit 2021 zonder offerteformulier; een frisse, complete demo laat het vakmanschap veel beter zien.",
+  "fouten": [
+   "Verouderde one-page WordPress-site uit 2021 zonder offerteformulier; een frisse, complete demo laat het vakmanschap veel beter zien"
+  ],
+  "contact": "06-23563141",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23563141",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf van Driel",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Boekel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T11:12:08",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-van-driel-boekel.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website met achterhaalde informatie (nog 6% btw genoemd) en geen offerteformulier, toe aan een moderne en mobielvriendelijke site.",
+  "fouten": [
+   "Sterk verouderde website met achterhaalde informatie (nog 6% btw genoemd) en geen offerteformulier, toe aan een moderne en mobielvriendelijke site"
+  ],
+  "contact": "06-22218862",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22218862",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

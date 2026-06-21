@@ -27640,5 +27640,90 @@
   "email": "",
   "social": "https://www.instagram.com/ra_afbouw_service/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Linders Schilderwerken",
+  "kort": "Linders",
+  "slug": "linders-schilderwerken-veghel",
+  "plaats": "Veghel",
+  "tel_display": "06-13891993",
+  "tel_href": "tel:+31613891993",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mike",
+   "verhaal": "Linders Schilderwerken & Onderhoud is een jong, flexibel schildersbedrijf in Veghel, gerund door Mike en Kevin Linders. Ze staan voor betrouwbaarheid, kwaliteit en vakmanschap en verzorgen binnen- en buitenschilderwerk, texwerk, houtrotreparatie, behang en kleuradvies voor particulieren in Veghel en omgeving.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Texwerk / latex spuiten",
+    "Houtrotreparatie",
+    "Behangwerk",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@lindersschilderwerken.nl",
+  "social": "instagram.com/lindersschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Roel van Zutven Stucwerken",
+  "kort": "Roel van Zutven",
+  "slug": "roel-van-zutven-stucwerken-boekel",
+  "plaats": "Boekel",
+  "tel_display": "06-23563141",
+  "tel_href": "tel:+31623563141",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roel",
+   "verhaal": "Roel van Zutven is al ruim twaalf jaar zelfstandig stukadoor in Boekel en werkt sinds 2018 samen met Bart van Erp. Met passie voor het vak levert hij alles van raapwerk en glad pleisterwerk tot sierpleister, beton cire en buitengevelbepleistering, altijd strak afgewerkt en op maat.",
+   "specialisaties": [
+    "Raap- en glad pleisterwerk",
+    "Schuurwerk en sierpleister",
+    "Beton cire (betonlook)",
+    "Buitenstucwerk / crepi",
+    "Airless latex spuitwerk",
+    "Sierlijsten en ornamenten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@roelvanzutven.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf van Driel",
+  "kort": "van Driel",
+  "slug": "stukadoorsbedrijf-van-driel-boekel",
+  "plaats": "Boekel",
+  "tel_display": "06-22218862",
+  "tel_href": "tel:+31622218862",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Chris",
+   "verhaal": "Stukadoorsbedrijf van Driel uit Boekel is een familiebedrijf met meer dan 30 jaar ervaring, opgericht door Chris van Driel en samen met zijn twee zonen uitgegroeid tot een vast adres voor vakwerk in de regio. Netheid en strakke planning staan voorop, van traditioneel stucwerk tot akoestische plafonds.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Tex en latex spuitwerk",
+    "Akoestisch naadloos plafond",
+    "Sierpleister",
+    "Renovatie en nieuwbouw",
+    "Bouwdroger te huur"
+   ],
+   "certificering": [
+    "Aangesloten bij NOA"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "sbvdriel@gmail.com",
+  "social": "",
+  "taal": "nl"
  }
 ]
