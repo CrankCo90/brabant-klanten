@@ -25670,5 +25670,71 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "J Maas Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T22:15:03",
+  "laatste_post": "",
+  "demo_url": "https://jmaasstucwerken.demo.brabantdigital.nl",
+  "waarom": "Huidige website is niet beveiligd (geen HTTPS) en staat op een verouderde bouwer, niet mobielvriendelijk.",
+  "fouten": [
+   "Huidige website is niet beveiligd (geen HTTPS) en staat op een verouderde bouwer, niet mobielvriendelijk"
+  ],
+  "contact": "06-43830306",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-43830306",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verbo Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Best",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T22:15:03",
+  "laatste_post": "",
+  "demo_url": "https://verboschildersbedrijf.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermeldingen in bedrijvengidsen); wel mobiel bereikbaar.",
+  "fouten": [
+   "Geen eigen website (alleen vermeldingen in bedrijvengidsen); wel mobiel bereikbaar"
+  ],
+  "contact": "06-53948896",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53948896",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "E. Steenbakkers Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T22:15:03",
+  "laatste_post": "",
+  "demo_url": "https://steenbakkersschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen branche-/directoryvermeldingen); wel mobiel bereikbaar.",
+  "fouten": [
+   "Geen eigen website (alleen branche-/directoryvermeldingen); wel mobiel bereikbaar"
+  ],
+  "contact": "06-14894643",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-14894643",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

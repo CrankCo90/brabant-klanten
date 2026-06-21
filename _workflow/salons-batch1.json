@@ -28840,5 +28840,85 @@
   "email": "info@destukadoor.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "J Maas Stucwerken",
+  "kort": "Stukadoor in Geldrop",
+  "slug": "jmaasstucwerken",
+  "plaats": "Geldrop",
+  "tel_display": "06-43830306",
+  "tel_href": "tel:+31643830306",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Joeri Maas",
+   "verhaal": "J Maas Stucwerken is de vertrouwde stukadoor in Geldrop, met 25 jaar ervaring in strak pleisterwerk. Joeri Maas levert glad stucwerk voor muren en plafonds, sierpleister en een nette, duurzame afwerking voor zowel nieuwbouw als renovatie.",
+   "specialisaties": [
+    "Glad pleisterwerk, sausklaar opgeleverd",
+    "Sierpleister en spachtelputz",
+    "Schuurwerk en plafondafwerking",
+    "Vocht- en scheurherstel"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@jmaasstucwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verbo Schildersbedrijf",
+  "kort": "Schilder in Best",
+  "slug": "verboschildersbedrijf",
+  "plaats": "Best",
+  "tel_display": "06-53948896",
+  "tel_href": "tel:+31653948896",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Verbo Schildersbedrijf uit Best verzorgt vakkundig binnen- en buitenschilderwerk voor woningen en bedrijfspanden. Met oog voor detail en een nette afwerking zorgen wij voor een frisse, beschermde uitstraling die jaren meegaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtwerk en kozijnen",
+    "Onderhoudsschilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "E. Steenbakkers Schilderwerken",
+  "kort": "Schildersbedrijf in Geldrop",
+  "slug": "steenbakkersschilderwerken",
+  "plaats": "Geldrop",
+  "tel_display": "06-14894643",
+  "tel_href": "tel:+31614894643",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Eveline Steenbakkers",
+   "verhaal": "E. Steenbakkers Schilderwerken is een traditioneel schildersbedrijf uit Geldrop en een van de weinige vrouwelijke schildersbedrijven in de regio. Wij leveren uitstekend binnen- en buitenschilderwerk, houtrotherstel en gevelrenovatie, met persoonlijke aandacht en vakmanschap.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Gevelrenovatie"
+   ],
+   "certificering": [
+    "Erkend leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
