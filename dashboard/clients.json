@@ -25428,5 +25428,115 @@
   "telefoon": "0618831814",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "K&B schilder- en onderhoudsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Someren",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T19:17:10",
+  "laatste_post": "",
+  "demo_url": "https://kbschildersomeren.demo.brabantdigital.nl",
+  "waarom": "Eigen website (schilderwerkensomeren.nl) is sterk verouderd: tabel-layout met copyright 2011, niet mobielvriendelijk en zonder offerteformulier. Mobiel en e-mail wel bereikbaar - duidelijke redesign-kans.",
+  "fouten": [
+   "Eigen website (schilderwerkensomeren.nl) is sterk verouderd: tabel-layout met copyright 2011, niet mobielvriendelijk en zonder offerteformulier. Mobiel en e-mail wel bereikbaar - duidelijke redesign-kans"
+  ],
+  "contact": "06-16100336",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-16100336",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Slegers & van Lierop Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T19:17:10",
+  "laatste_post": "",
+  "demo_url": "https://slegersvanlieropschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Eigen website (vanlieropschilderwerken.nl) geeft op de homepage een HTTP 500-fout (kapot/deels offline), terwijl mobiel, e-mail en een actieve Facebook wel werken. Sterke nieuwe-site-/redesign-kans.",
+  "fouten": [
+   "Eigen website (vanlieropschilderwerken.nl) geeft op de homepage een HTTP 500-fout (kapot/deels offline), terwijl mobiel, e-mail en een actieve Facebook wel werken. Sterke nieuwe-site-/redesign-kans"
+  ],
+  "contact": "06-54337101",
+  "bron": null,
+  "social": "https://www.facebook.com/slegersvanlieropschilderwerken/",
+  "telefoon": "06-54337101",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MSD schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T19:17:10",
+  "laatste_post": "",
+  "demo_url": "https://msdschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Huidige site (msdschilderwerken.nl) draait op een goedkope template-bouwer: dun, weinig content en alleen een nieuwsbriefformulier in plaats van een echte offertemodule. Mobiel en e-mail bereikbaar - duidelijke upgrade-kans.",
+  "fouten": [
+   "Huidige site (msdschilderwerken.nl) draait op een goedkope template-bouwer: dun, weinig content en alleen een nieuwsbriefformulier in plaats van een echte offertemodule. Mobiel en e-mail bereikbaar - duidelijke upgrade-kans"
+  ],
+  "contact": "06-26031792",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-26031792",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Jeroen van Doorn Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Someren",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T19:17:10",
+  "laatste_post": "",
+  "demo_url": "https://jeroenvandoornschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Huidige website draait op de gratis JouwWeb-bouwer (jwwb.nl): dun (3 paginas) en zonder echte offertemodule. Mobiel en e-mail bereikbaar - sterke upgrade-/redesign-kans.",
+  "fouten": [
+   "Huidige website draait op de gratis JouwWeb-bouwer (jwwb.nl): dun (3 paginas) en zonder echte offertemodule. Mobiel en e-mail bereikbaar - sterke upgrade-/redesign-kans"
+  ],
+  "contact": "06-57650006",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-57650006",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Ronald Joosten",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T19:17:10",
+  "laatste_post": "",
+  "demo_url": "https://ronaldjoostenstukadoor.demo.brabantdigital.nl",
+  "waarom": "Eigen website is een verouderde one-pager (WordPress 4.8, content en fotos uit 2017), zonder dienstenstructuur of offertemodule. Mobiel en e-mail bereikbaar - duidelijke redesign-kans.",
+  "fouten": [
+   "Eigen website is een verouderde one-pager (WordPress 4.8, content en fotos uit 2017), zonder dienstenstructuur of offertemodule. Mobiel en e-mail bereikbaar - duidelijke redesign-kans"
+  ],
+  "contact": "06-51192314",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51192314",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -28541,5 +28541,139 @@
   "email": "info@rg-onderhoud.nl",
   "social": "https://www.facebook.com/p/RG-Schilderwerken-Onderhoud-61553613417753/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "K&B schilder- en onderhoudsbedrijf",
+  "kort": "K&B Schilders",
+  "slug": "kbschildersomeren",
+  "plaats": "Someren",
+  "tel_display": "06-16100336",
+  "tel_href": "tel:+31616100336",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Erik & Tom",
+   "verhaal": "Schilder- en onderhoudsbedrijf uit Someren van Erik v/d Boomen en Tom Kusters. Kwaliteit en betrouwbaarheid staan voorop, voor particulier en bedrijf in Someren en omgeving.",
+   "specialisaties": [
+    "Schilderwerk binnen & buiten",
+    "Behangen",
+    "Latex spuitwerk",
+    "Houtrot- en betonrotherstel",
+    "Beglazing",
+    "Vloercoating"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schilderwerkensomeren.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Slegers & van Lierop Schilderwerken",
+  "kort": "Slegers & van Lierop",
+  "slug": "slegersvanlieropschilderwerken",
+  "plaats": "Deurne",
+  "tel_display": "06-54337101",
+  "tel_href": "tel:+31654337101",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Deurns schildersbedrijf voor hoge kwaliteit tegen scherpe prijzen, binnen en buiten. Actief in Deurne en omgeving, bereikbaar via mobiel, e-mail en Facebook.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Latex spuitwerk",
+    "Behangen",
+    "Decoratieve wandtechnieken",
+    "Houtrotreparatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vanlieropschilderwerken.nl",
+  "social": "https://www.facebook.com/slegersvanlieropschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MSD schilderwerken",
+  "kort": "MSD Schilderwerken",
+  "slug": "msdschilderwerken",
+  "plaats": "Deurne",
+  "tel_display": "06-26031792",
+  "tel_href": "tel:+31626031792",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit Deurne voor schilderwerk binnen en buiten, houtrotreparatie, behangen (glasvlies) en beglazing. Persoonlijk en nauwkeurig, voor particulier en bedrijf.",
+   "specialisaties": [
+    "Schilderwerk binnen & buiten",
+    "Houtrotreparatie",
+    "Behangen (glasvlies)",
+    "Beglazing"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@msdschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Jeroen van Doorn Schilderwerken",
+  "kort": "Van Doorn Schilderwerken",
+  "slug": "jeroenvandoornschilderwerken",
+  "plaats": "Someren",
+  "tel_display": "06-57650006",
+  "tel_href": "tel:+31657650006",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jeroen",
+   "verhaal": "Schildersbedrijf van Jeroen van Doorn in Someren, met ruim 10 jaar ervaring. Binnen- en buitenschilderwerk, glasweefsel, houtrotreparatie en glaszetten, met oog voor detail.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Glasweefsel / behang",
+    "Houtrotreparatie",
+    "Glas zetten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "jeroen@vdoornschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Ronald Joosten",
+  "kort": "Ronald Joosten Stukadoor",
+  "slug": "ronaldjoostenstukadoor",
+  "plaats": "Deurne",
+  "tel_display": "06-51192314",
+  "tel_href": "tel:+31651192314",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ronald",
+   "verhaal": "Stukadoorsbedrijf van Ronald Joosten in Deurne en omgeving. Vakwerk in stucwerk voor badkamer, plafonds, zolders en wanden - snel geregeld en zonder zorgen.",
+   "specialisaties": [
+    "Stucwerk wanden & plafonds",
+    "Badkamer stucwerk",
+    "Sierpleister",
+    "Renovatie- en nieuwbouwstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijf-ronaldjoosten.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
