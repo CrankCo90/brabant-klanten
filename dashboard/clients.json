@@ -24658,5 +24658,49 @@
   "telefoon": "0497-381348",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Fejza Interieur & Afwerkingstechniek",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Sittard-Geleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T10:23:02",
+  "laatste_post": "",
+  "demo_url": "https://fejza-interieur-afwerkingstechniek-sittard-geleen.demo.brabantdigital.nl",
+  "waarom": "Heeft alleen een Wix-website (gratis bouwer) zonder eigen maatwerk. Bereikbaar via 06-mobiel en e-mail. Een eigen, professionele site met offerteformulier en voor/na-foto's zou Fejza beter laten opvallen in Google voor klanten in Sittard-Geleen en omgeving.",
+  "fouten": [
+   "Heeft alleen een Wix-website (gratis bouwer) zonder eigen maatwerk. Bereikbaar via 06-mobiel en e-mail. Een eigen, professionele site met offerteformulier en voor/na-foto's zou Fejza beter laten opvallen in Google voor klanten in Sittard-Geleen en omgeving"
+  ],
+  "contact": "06-18251690",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-18251690",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "RA Afbouw Service",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Beek",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T10:23:02",
+  "laatste_post": "",
+  "demo_url": "https://ra-afbouw-service-beek.demo.brabantdigital.nl",
+  "waarom": "Afbouwbedrijf zonder eigen website - alleen actief op Instagram. Bereikbaar via Instagram. Een eigen, professionele site met offerteformulier en voor/na-foto's zou RA Afbouw direct vindbaar maken in Google voor klanten in Beek en omgeving.",
+  "fouten": [
+   "Afbouwbedrijf zonder eigen website - alleen actief op Instagram. Bereikbaar via Instagram. Een eigen, professionele site met offerteformulier en voor/na-foto's zou RA Afbouw direct vindbaar maken in Google voor klanten in Beek en omgeving"
+  ],
+  "contact": "Alleen https://www.instagram.com/ra_afbouw_service/",
+  "bron": null,
+  "social": "https://www.instagram.com/ra_afbouw_service/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

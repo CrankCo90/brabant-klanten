@@ -27587,5 +27587,58 @@
   "email": "info@lemmenshapert.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Fejza Interieur & Afwerkingstechniek",
+  "kort": "Fejza",
+  "slug": "fejza-interieur-afwerkingstechniek-sittard-geleen",
+  "plaats": "Sittard-Geleen",
+  "tel_display": "06-18251690",
+  "tel_href": "tel:+31618251690",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Fejza Interieur & Afwerkingstechniek is een vakkundig afbouwbedrijf in Sittard-Geleen, gespecialiseerd in strak stucwerk, sierpleister, schilderwerk en complete renovaties. Persoonlijk advies en een hoogwaardige, duurzame afwerking staan altijd voorop.",
+   "specialisaties": [
+    "Strak stuc- en pleisterwerk",
+    "Sierpleister & betonlook",
+    "Binnen- en buitenschilderwerk",
+    "Plafondafwerking",
+    "Complete verbouwingen & renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@fejzabouw.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "RA Afbouw Service",
+  "kort": "RA Afbouw",
+  "slug": "ra-afbouw-service-beek",
+  "plaats": "Beek",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "RA Afbouw Service uit Beek is een afbouwbedrijf voor strak stucwerk, latex spuitwerk en de afwerking van wanden en plafonds. Vakwerk met oog voor detail, voor zowel particulier als bedrijf in Beek en omgeving.",
+   "specialisaties": [
+    "Strak stucwerk",
+    "Latex spuitwerk",
+    "Wand- en plafondafwerking",
+    "Renovatie & afbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/ra_afbouw_service/",
+  "taal": "nl"
  }
 ]
