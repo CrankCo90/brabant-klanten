@@ -27725,5 +27725,109 @@
   "email": "sbvdriel@gmail.com",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Es Stukadoor",
+  "kort": "Stukadoor in Veenendaal voor glad pleisterwerk, sierpleister en spackspuiten.",
+  "slug": "vanesstukadoor",
+  "plaats": "Veenendaal",
+  "tel_display": "06-41581588",
+  "tel_href": "tel:+31641581588",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Van Es Stukadoor is een lokaal stukadoorsbedrijf uit Veenendaal. Met oog voor detail verzorgen we strak stucwerk voor woningen en bedrijfspanden in Veenendaal en omgeving, van gladde wanden en plafonds tot sierpleister en spackspuitwerk.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Sierpleister",
+    "Spackspuiten",
+    "Renovatiestucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vanesstukadoor.nl",
+  "social": "https://www.instagram.com/vanesstukadoor/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Blotenburg Stukadoors",
+  "kort": "Stukadoor uit Lunteren voor strak stucwerk op wanden en plafonds.",
+  "slug": "blotenburgstukadoors",
+  "plaats": "Lunteren",
+  "tel_display": "06-52117739",
+  "tel_href": "tel:+31652117739",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ruben",
+   "verhaal": "Blotenburg Stukadoors uit Lunteren levert vakkundig stucwerk voor particulieren en aannemers. Van nieuwbouw tot renovatie zorgen we voor een nette, strakke afwerking van wanden en plafonds, klaar voor sausen, behang of tegels.",
+   "specialisaties": [
+    "Stucwerk wanden en plafonds",
+    "Nieuwbouw",
+    "Renovatiestucwerk",
+    "Voorbereiding voor saus- en schilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@blotenburgstukadoors.nl",
+  "social": "https://www.instagram.com/Blotenburgstukadoors",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stuc Holland",
+  "kort": "Stukadoor in Ede voor stucwerk binnen en buiten, beton cire en dunpleister.",
+  "slug": "stucholland",
+  "plaats": "Ede",
+  "tel_display": "06-83949564",
+  "tel_href": "tel:+31683949564",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Resul",
+   "verhaal": "Stuc Holland uit Ede is met passie en vakmanschap gespecialiseerd in hoogwaardig stucwerk. Of het nu gaat om gladde wanden, sierpleister, beton cire of dunpleister voor nieuwbouw: wij transformeren elke ruimte met een strakke, duurzame afwerking.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Buitenstucwerk",
+    "Beton cire",
+    "Nieuwbouw dunpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stucholland.nl",
+  "social": "https://www.instagram.com/stucholland/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Gekleurde Wereld",
+  "kort": "Schilder en klussenbedrijf in Wageningen voor schilderwerk binnen en buiten, glaszetten en wandafwerking.",
+  "slug": "gekleurdewereld",
+  "plaats": "Wageningen",
+  "tel_display": "06-85354700",
+  "tel_href": "tel:+31685354700",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Gekleurde Wereld uit Wageningen levert professioneel en duurzaam schilderwerk voor particulieren, bedrijven en non-profit. Van binnen- en buitenschilderwerk en glaszetten tot wandafwerking, behang en kleine renovaties: geen klus is ons te gek.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Glaszetten",
+    "Wandafwerking en behang",
+    "Stucwerk en renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "davarm78@hotmail.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]

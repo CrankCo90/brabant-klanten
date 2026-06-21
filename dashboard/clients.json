@@ -24768,5 +24768,93 @@
   "telefoon": "06-22218862",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Es Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Veenendaal",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T12:24:55",
+  "laatste_post": "",
+  "demo_url": "https://vanesstukadoor.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen vindbaar via Instagram en bedrijvengidsen, met een klikbaar mobiel nummer.",
+  "fouten": [
+   "Geen eigen website - alleen vindbaar via Instagram en bedrijvengidsen, met een klikbaar mobiel nummer"
+  ],
+  "contact": "06-41581588",
+  "bron": null,
+  "social": "https://www.instagram.com/vanesstukadoor/",
+  "telefoon": "06-41581588",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Blotenburg Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Lunteren",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T12:24:55",
+  "laatste_post": "",
+  "demo_url": "https://blotenburgstukadoors.demo.brabantdigital.nl",
+  "waarom": "Half-afgemaakte template-website met Engelse demo-teksten en nep-awards - oogt onprofessioneel en niet vertrouwenwekkend.",
+  "fouten": [
+   "Half-afgemaakte template-website met Engelse demo-teksten en nep-awards - oogt onprofessioneel en niet vertrouwenwekkend"
+  ],
+  "contact": "06-52117739",
+  "bron": null,
+  "social": "https://www.instagram.com/Blotenburgstukadoors",
+  "telefoon": "06-52117739",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stuc Holland",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Ede",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T12:24:55",
+  "laatste_post": "",
+  "demo_url": "https://stucholland.demo.brabantdigital.nl",
+  "waarom": "Verouderde one-page site uit 2023 met een kapotte belknop en een Hotmail-adres - niet professioneel en nauwelijks mobielvriendelijk.",
+  "fouten": [
+   "Verouderde one-page site uit 2023 met een kapotte belknop en een Hotmail-adres - niet professioneel en nauwelijks mobielvriendelijk"
+  ],
+  "contact": "06-83949564",
+  "bron": null,
+  "social": "https://www.instagram.com/stucholland/",
+  "telefoon": "06-83949564",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Gekleurde Wereld",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Wageningen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T12:24:55",
+  "laatste_post": "",
+  "demo_url": "https://gekleurdewereld.demo.brabantdigital.nl",
+  "waarom": "Gratis JouwWeb-site met een Hotmail-adres en een kapotte Facebook-link - verouderd en niet professioneel.",
+  "fouten": [
+   "Gratis JouwWeb-site met een Hotmail-adres en een kapotte Facebook-link - verouderd en niet professioneel"
+  ],
+  "contact": "06-85354700",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-85354700",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
