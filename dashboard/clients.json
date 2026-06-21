@@ -24548,5 +24548,115 @@
   "telefoon": "06-10847852",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ronnie Vennix Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Hoogeloon",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T09:17:50",
+  "laatste_post": "",
+  "demo_url": "https://ronnie-vennix-stukadoorsbedrijf-hoogeloon.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen een Facebook-pagina.",
+  "fouten": [
+   "Geen eigen website, alleen een Facebook-pagina"
+  ],
+  "contact": "06-55691293",
+  "bron": null,
+  "social": "Facebook",
+  "telefoon": "06-55691293",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Mijland Stukadoorswerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bladel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T09:17:50",
+  "laatste_post": "",
+  "demo_url": "https://mijland-stukadoorswerken-bladel.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vermeldingen op vergelijkingssites.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen op vergelijkingssites"
+  ],
+  "contact": "06-27574055",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-27574055",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bodeco Schilders- & Stucadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bergeijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T09:17:50",
+  "laatste_post": "",
+  "demo_url": "https://bodeco-schilders-stucadoors-bergeijk.demo.brabantdigital.nl",
+  "waarom": "Verouderde, niet-werkende website en een oud e-mailadres.",
+  "fouten": [
+   "Verouderde, niet-werkende website en een oud e-mailadres"
+  ],
+  "contact": "040-2075997",
+  "bron": null,
+  "social": "",
+  "telefoon": "040-2075997",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Willems Stucadoor- & Afbouwbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Duizel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T09:17:50",
+  "laatste_post": "",
+  "demo_url": "https://willems-stucadoor-afbouwbedrijf-duizel.demo.brabantdigital.nl",
+  "waarom": "Verouderde JouwWeb-website zonder online offertemogelijkheid.",
+  "fouten": [
+   "Verouderde JouwWeb-website zonder online offertemogelijkheid"
+  ],
+  "contact": "0497-682818",
+  "bron": null,
+  "social": "",
+  "telefoon": "0497-682818",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Lemmens",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Hapert",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T09:17:50",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-lemmens-hapert.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website met oude template en zonder online offerte.",
+  "fouten": [
+   "Sterk verouderde website met oude template en zonder online offerte"
+  ],
+  "contact": "0497-381348",
+  "bron": null,
+  "social": "",
+  "telefoon": "0497-381348",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
