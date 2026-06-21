@@ -25120,5 +25120,93 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Albert Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Roermond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T16:21:20",
+  "laatste_post": "",
+  "demo_url": "https://albert-stukadoorsbedrijf-roermond.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Roermond, mobiel en per e-mail bereikbaar; bestaande website is verouderd (geen HTTPS, uit 2016) - premium demo gebouwd.",
+  "fouten": [
+   "Stukadoorsbedrijf in Roermond, mobiel en per e-mail bereikbaar; bestaande website is verouderd (geen HTTPS, uit 2016) - premium demo gebouwd"
+  ],
+  "contact": "0685200429",
+  "bron": null,
+  "social": "facebook.com/yusein.ferad",
+  "telefoon": "0685200429",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Piet van Hoef",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Weert",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T16:21:20",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-piet-van-hoef-weert.demo.brabantdigital.nl",
+  "waarom": "Schildersbedrijf in Weert, mobiel en per e-mail bereikbaar; bestaande website is sterk verouderd (geen HTTPS, oude opbouw) - premium demo gebouwd.",
+  "fouten": [
+   "Schildersbedrijf in Weert, mobiel en per e-mail bereikbaar; bestaande website is sterk verouderd (geen HTTPS, oude opbouw) - premium demo gebouwd"
+  ],
+  "contact": "0646662328",
+  "bron": null,
+  "social": "",
+  "telefoon": "0646662328",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Alfa Stucadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Roermond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T16:21:20",
+  "laatste_post": "",
+  "demo_url": "https://alfa-stucadoorsbedrijf-roermond.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Roermond, mobiel en per e-mail bereikbaar; huidige website draait op een verouderde bouwer (Mobirise) - premium demo gebouwd.",
+  "fouten": [
+   "Stukadoorsbedrijf in Roermond, mobiel en per e-mail bereikbaar; huidige website draait op een verouderde bouwer (Mobirise) - premium demo gebouwd"
+  ],
+  "contact": "0684151610",
+  "bron": null,
+  "social": "",
+  "telefoon": "0684151610",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Tomek Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Swalmen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T16:21:20",
+  "laatste_post": "",
+  "demo_url": "https://tomek-stukadoorsbedrijf-swalmen.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Swalmen, telefonisch (mobiel) bereikbaar en zonder eigen website - premium demo gebouwd.",
+  "fouten": [
+   "Stukadoor in Swalmen, telefonisch (mobiel) bereikbaar en zonder eigen website - premium demo gebouwd"
+  ],
+  "contact": "0614741783",
+  "bron": null,
+  "social": "",
+  "telefoon": "0614741783",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

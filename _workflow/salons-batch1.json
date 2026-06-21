@@ -28157,5 +28157,115 @@
   "email": "",
   "social": "facebook.com/rdmstucwerken",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Albert Stukadoorsbedrijf",
+  "kort": "Stukadoor in Roermond voor sierpleister, spuitwerk en strak stucwerk",
+  "slug": "albert-stukadoorsbedrijf-roermond",
+  "plaats": "Roermond",
+  "tel_display": "0685200429",
+  "tel_href": "tel:+31685200429",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Yusein",
+   "verhaal": "Albert Stukadoorsbedrijf in Roermond verzorgt al jaren strak stuc- en sierpleisterwerk voor particulieren en bedrijven. Van glad pleisterwerk en schuurwerk tot spuitwerk, raapwerk en sierpleister in kleur - met kwalitatief hoogwaardige materialen en een nette, duurzame afwerking.",
+   "specialisaties": [
+    "Sierpleister in diverse kleuren en structuren",
+    "Glad pleister- en schuurwerk",
+    "Spuitwerk (spackspuiten)",
+    "Raapwerk en spachtelputz",
+    "Lijstwerk en ornamenten",
+    "Ook tegel- en schilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@albertstukadoorsbedrijf.com",
+  "social": "facebook.com/yusein.ferad",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Piet van Hoef",
+  "kort": "Allround schildersbedrijf in Weert voor binnen- en buitenschilderwerk",
+  "slug": "schildersbedrijf-piet-van-hoef-weert",
+  "plaats": "Weert",
+  "tel_display": "0646662328",
+  "tel_href": "tel:+31646662328",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Piet van Hoef uit Weert staat voor vakschilderwerk met geduld, zorg en aandacht voor elk project. Een allround schildersbedrijf voor nieuwbouw, onderhoud, wandafwerking en kleuradvies - binnen en buiten.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Nieuwbouw en onderhoud",
+    "Wandafwerking",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildervanhoef.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Alfa Stucadoorsbedrijf",
+  "kort": "Stukadoor in Roermond voor afbouw, renovatie en sierpleister",
+  "slug": "alfa-stucadoorsbedrijf-roermond",
+  "plaats": "Roermond",
+  "tel_display": "0684151610",
+  "tel_href": "tel:+31684151610",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Alfa Stucadoorsbedrijf in Roermond-Maasniel is gespecialiseerd in afbouw en renovatie. Met een team van vakmensen verzorgen wij gedegen stucwerk - van glad pleisterwerk en spackspuitwerk tot designputz en sierpleister, met een duurzaam en esthetisch resultaat.",
+   "specialisaties": [
+    "Stukadoors- en sierpleisterwerk",
+    "Spackspuitwerk",
+    "Designputz",
+    "Lijsten en ornamenten",
+    "Gipsplaatwerk en tegelwerk",
+    "Renovatie en onderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@alfastucadoorsbedrijf.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Tomek Stukadoorsbedrijf",
+  "kort": "Stukadoor in Swalmen voor glad stucwerk en sierpleister",
+  "slug": "tomek-stukadoorsbedrijf-swalmen",
+  "plaats": "Swalmen",
+  "tel_display": "0614741783",
+  "tel_href": "tel:+31614741783",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Tomek Stukadoorsbedrijf is een ervaren stukadoor uit Swalmen (gemeente Roermond) voor particulieren en bedrijven. Van strak glad pleisterwerk tot sierpleister en renovatie - vakwerk met een persoonlijke aanpak.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Sierpleister",
+    "Renovatiestucwerk",
+    "Spuitwerk",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
