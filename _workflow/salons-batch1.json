@@ -28403,5 +28403,143 @@
   "email": "info@bijsterveld-schilderwerken.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Wouter van de Sanden Schilderwerken",
+  "kort": "Schilderwerk & airless spuitwerk uit Kaatsheuvel",
+  "slug": "wouter-van-de-sanden-schilderwerken-kaatsheuvel",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "0612816113",
+  "tel_href": "tel:+31612816113",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Wouter van de Sanden",
+   "verhaal": "Wouter van de Sanden is een jonge, gedreven zzp-schilder uit Kaatsheuvel. Hij verzorgt strak binnen- en buitenschilderwerk en is gespecialiseerd in airless latex- en lakspuiten voor een vlekkeloze afwerking van wanden, plafonds en houtwerk.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Airless latex spuiten",
+    "Airless lak spuiten",
+    "Houtwerk aflakken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "woutervandesandenschilder@gmail.com",
+  "social": "https://www.instagram.com/vandesandenschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilderwerken Marco van Berkel",
+  "kort": "Schilderwerk binnen & buiten in Sprang-Capelle",
+  "slug": "schilderwerken-marco-van-berkel-sprang-capelle",
+  "plaats": "Sprang-Capelle",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Marco van Berkel",
+   "verhaal": "Schilderwerken Marco van Berkel uit Sprang-Capelle staat voor vakmanschap en kwaliteit tegen een betaalbare prijs. Marco klaart elke schilderklus binnens- en buitenshuis, van frisse muren tot duurzaam buitenwerk en houtonderhoud.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtwerk & onderhoud",
+    "Sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/p/Schilderwerken-Marco-van-Berkel-100063888650498/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Geffen Schilders & Afwerkingsbedrijf",
+  "kort": "Erkend schilders- & afwerkingsbedrijf regio Tilburg",
+  "slug": "van-geffen-schilders-tilburg",
+  "plaats": "Tilburg",
+  "tel_display": "0621281947",
+  "tel_href": "tel:+31621281947",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jeroen van Geffen",
+   "verhaal": "Van Geffen Schilders & Afwerkingsbedrijf levert sinds 2011 vakmanschap in onderhoud, renovatie en nieuwbouw. Jeroen van Geffen en zijn team verzorgen schilderwerk, behangen, glasweefsel, muur- en plafondafwerking, houtrotreparatie en spuitwerk voor particulieren, bedrijven en VvE's in de regio Tilburg.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Behangen & wandafwerking",
+    "Muurverf spuiten",
+    "Vloer- en gevelafwerking"
+   ],
+   "certificering": [
+    "Sikkens Quality Painter",
+    "AF-erkend (OnderhoudNL)"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vangeffenschilderwerken.nl",
+  "social": "https://www.facebook.com/pages/Van-Geffen-Schilderwerken/1583193108630417",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MasterSjef Schilderwerken",
+  "kort": "Schilderwerk in Sprang-Capelle en omgeving",
+  "slug": "mastersjef-schilderwerken-sprang-capelle",
+  "plaats": "Sprang-Capelle",
+  "tel_display": "0652721822",
+  "tel_href": "tel:+31652721822",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "MasterSjef Schilderwerken uit Sprang-Capelle verzorgt vakkundig binnen- en buitenschilderwerk en onderhoud voor woningen in de Langstraat. Met oog voor detail en een nette afwerking zorgt MasterSjef dat elk pand er weer jaren strak bijstaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoudsschilderwerk",
+    "Houtwerk aflakken"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "RG Schilderwerken & Onderhoud",
+  "kort": "Meester-schilder & onderhoud (30+ jaar) in Sprang-Capelle",
+  "slug": "rg-schilderwerken-onderhoud-sprang-capelle",
+  "plaats": "Sprang-Capelle",
+  "tel_display": "0618831814",
+  "tel_href": "tel:+31618831814",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roland",
+   "verhaal": "RG Schilderwerken & Onderhoud uit Sprang-Capelle is sinds 1991 actief als meester-schilder. Eigenaar Roland verzorgt met meer dan 30 jaar ervaring schilderwerk binnen en buiten, houtrotrenovatie, klein timmerwerk, glaszetten en behangen, met persoonlijk advies en korte lijnen.",
+   "specialisaties": [
+    "Schilderwerk binnen & buiten",
+    "Houtrotrenovatie",
+    "Klein timmerwerk",
+    "Glaszetten",
+    "Behangen",
+    "Meerjarig onderhoudsadvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@rg-onderhoud.nl",
+  "social": "https://www.facebook.com/p/RG-Schilderwerken-Onderhoud-61553613417753/",
+  "taal": "nl"
  }
 ]
