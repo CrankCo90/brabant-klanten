@@ -28267,5 +28267,141 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Leo van de Mortel Schilderwerken",
+  "kort": "Leo van de Mortel Schilderwerken",
+  "slug": "leo-van-de-mortel-schilderwerken-asten",
+  "plaats": "Asten",
+  "tel_display": "06-10202668",
+  "tel_href": "tel:+31610202668",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Leo",
+   "verhaal": "Leo van de Mortel Schilderwerken uit Asten is een eenmansbedrijf met ruim 39 jaar ervaring in binnen- en buitenschilderwerk. Naast schilderwerk verzorgt Leo ook texwerk, behangen, glaszetten en betonlook-afwerking voor particulieren in Asten, Deurne en omgeving.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangen",
+    "Texwerk",
+    "Glaszetten",
+    "Betonlook"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@lvdmschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "E. Steenbakkers Schilderwerken",
+  "kort": "Steenbakkers Schilderwerken",
+  "slug": "steenbakkers-schilderwerken-geldrop",
+  "plaats": "Geldrop",
+  "tel_display": "06-14894643",
+  "tel_href": "tel:+31614894643",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Eveline",
+   "verhaal": "E. Steenbakkers Schilderwerken uit Geldrop wordt gerund door twee vakvrouwen en is gespecialiseerd in spuitwerk van wanden, plafonds, deuren en kozijnen. Voor particulieren en bedrijven verzorgen ze strak schilder- en onderhoudswerk in Geldrop-Mierlo en omgeving.",
+   "specialisaties": [
+    "Spuitwerk wanden & plafonds",
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Lakwerk deuren & kozijnen",
+    "Onderhoudswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/SteenbakkersSchilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoors- en afbouwbedrijf Van den Bosch",
+  "kort": "Van den Bosch Stukadoors",
+  "slug": "van-den-bosch-stukadoors-schijndel",
+  "plaats": "Schijndel",
+  "tel_display": "06-42169460",
+  "tel_href": "tel:+31642169460",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoors- en afbouwbedrijf Van den Bosch uit Schijndel kent een rijke historie en is al generaties lang actief in het stukadoorsvak. Het bedrijf verzorgt alle voorkomende stuc- en afbouwwerkzaamheden voor particulieren en bedrijven in Schijndel en de regio Meierijstad.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Buitengevelisolatie",
+    "Spachtelputz",
+    "Renovatie & afbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Dirks Deurne",
+  "kort": "Schildersbedrijf Dirks Deurne",
+  "slug": "schildersbedrijf-dirks-deurne",
+  "plaats": "Deurne",
+  "tel_display": "0493-312425",
+  "tel_href": "tel:0493312425",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Dirks Deurne is al meer dan 60 jaar een vertrouwde naam in Deurne. Met drie disciplines — schilderwerk, beglazing en wandafwerking — verzorgt het ervaren team binnen- en buitenschilderwerk voor particulieren en bedrijven.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Beglazing",
+    "Wandafwerking",
+    "Onderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@dirksdeurne.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bijsterveld Schilder- en Decoratiewerken",
+  "kort": "Bijsterveld Schilderwerken",
+  "slug": "bijsterveld-schilderwerken-heeze",
+  "plaats": "Heeze",
+  "tel_display": "06-11927715",
+  "tel_href": "tel:+31611927715",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bijsterveld Schilder- en Decoratiewerken uit Heeze is gespecialiseerd in schilderwerk en decoratieve wandafwerking, waaronder Marrakech kalkverf. Voor particulieren in Heeze, Mierlo en omgeving verzorgt het bedrijf strak en sfeervol binnen- en buitenwerk.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Decoratieve wandafwerking",
+    "Marrakech kalkverf",
+    "Spuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@bijsterveld-schilderwerken.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
