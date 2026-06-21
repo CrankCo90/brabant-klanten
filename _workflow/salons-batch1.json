@@ -27052,5 +27052,113 @@
   "email": "info@duostukadoors.com",
   "social": "Instagram/Facebook: @duostukadoors",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Behang- en Schildersbedrijf Bouwmans",
+  "kort": "Behang- en schildersbedrijf in Schijndel",
+  "slug": "behang-en-schildersbedrijf-bouwmans-schijndel",
+  "plaats": "Schijndel",
+  "tel_display": "06-13356424",
+  "tel_href": "tel:+31613356424",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Behang- en Schildersbedrijf Bouwmans verzorgt binnen- en buitenschilderwerk en behangwerk voor particulieren en bedrijven in Schijndel en omgeving. Vakwerk met persoonlijke aandacht en oog voor een nette, strakke afwerking.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Houtrotherstel",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@bsbouwmans.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Alwin van Roosmalen",
+  "kort": "Stukadoorsbedrijf in Schijndel",
+  "slug": "stukadoorsbedrijf-van-roosmalen-schijndel",
+  "plaats": "Schijndel",
+  "tel_display": "06-18557379",
+  "tel_href": "tel:+31618557379",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Alwin",
+   "verhaal": "Stukadoorsbedrijf Alwin van Roosmalen levert strak stucwerk en latex- en texspuitwerk voor woningen en nieuwbouw in Schijndel en omgeving. Een vakman die staat voor een net en strak eindresultaat.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Latex spuiten",
+    "Tex spuiten",
+    "Sierpleister",
+    "Stucwerk herstellen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/p/Stukadoorsbedrijf-Alwin-van-roosmalen-100065716530235",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf H. van Heertum & Zn",
+  "kort": "Schildersbedrijf in Schijndel",
+  "slug": "schildersbedrijf-van-heertum-schijndel",
+  "plaats": "Schijndel",
+  "tel_display": "06-51551696",
+  "tel_href": "tel:+31651551696",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf H. van Heertum & Zn is een familiebedrijf uit Schijndel dat al jaren binnen- en buitenschilderwerk, behang- en glaswerk verzorgt voor particulieren en bedrijven. Vakmanschap dat van vader op zoon wordt doorgegeven.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Glaszetten",
+    "Houtrotherstel"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/vanheertumschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Den Dort Schilderwerken",
+  "kort": "Schildersbedrijf in Heeswijk-Dinther",
+  "slug": "den-dort-schilderwerken-heeswijk-dinther",
+  "plaats": "Heeswijk-Dinther",
+  "tel_display": "0413-291290",
+  "tel_href": "tel:0413291290",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Dennis",
+   "verhaal": "Den Dort Schilderwerken is opgericht door Dennis Dortmans in Heeswijk-Dinther. Met jarenlange ervaring verzorgt hij schilderwerk voor nieuwbouw, onderhoud en renovatie, plus wandafwerking en glaszetten — altijd met duidelijke, schriftelijke afspraken.",
+   "specialisaties": [
+    "Nieuwbouw schilderwerk",
+    "Onderhoudsschilderwerk",
+    "Renovatie",
+    "Wandafwerking",
+    "Glaszetten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@dendortschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
