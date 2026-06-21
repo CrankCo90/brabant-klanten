@@ -27351,5 +27351,32 @@
   "email": "info@schilderboxmeer.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Tylski",
+  "kort": "Tylski",
+  "slug": "stucadoorsbedrijf-tylski-landgraaf",
+  "plaats": "Landgraaf",
+  "tel_display": "06-39177950",
+  "tel_href": "tel:+31639177950",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf Tylski is een zelfstandig stukadoor uit Landgraaf. Na vele jaren ervaring zette de eigenaar de stap naar een eigen bedrijf, gespecialiseerd in traditioneel stucwerk en wandafwerking. Naast strak sausklaar stucwerk voor wanden en plafonds verzorgt Tylski ook schilderwerk binnen en buiten - van lakwerk tot het sauzen van muren en plafonds - voor particulieren in Landgraaf en omgeving.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Sausklaar stucwerk (wanden & plafonds)",
+    "Schilderwerk binnen & buiten",
+    "Latex spuiten en rollen",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/stucadoorsbedrijf_tylski/",
+  "taal": "nl"
  }
 ]
