@@ -26918,5 +26918,139 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Carree Schilderwerken",
+  "kort": "Carree",
+  "slug": "carreeschilderwerken",
+  "plaats": "Maastricht",
+  "tel_display": "06-16012866",
+  "tel_href": "tel:+31616012866",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Carree Schilderwerken is een kleinschalig schildersbedrijf in Maastricht voor al uw binnen- en buitenschilderwerk. Met gediplomeerde, ervaren schilders en oog voor detail leveren ze hoogwaardig werk voor particulier en zakelijk, inclusief kleuradvies.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Kozijnen schilderen",
+    "Renovlies & glasvezelbehang",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@carreeschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nuiten Schilderwerken",
+  "kort": "Nuiten",
+  "slug": "nuitenschilderwerken",
+  "plaats": "Maastricht",
+  "tel_display": "06-41739911",
+  "tel_href": "tel:+31641739911",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Nuiten Schilderwerken is gevestigd in Maastricht en levert binnen- en buitenschilderwerk, houtrotreparaties, behangwerk en muurschilderingen voor zowel particulier als zakelijk, met jarenlange ervaring en hoogwaardige verfproducten.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Behangen",
+    "Muurschilderingen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@nuitenschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Heijnders Schilderwerken",
+  "kort": "Heijnders",
+  "slug": "heijndersschilderwerken",
+  "plaats": "Maastricht",
+  "tel_display": "06-21581368",
+  "tel_href": "tel:+31621581368",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Daniël Heijnders",
+   "verhaal": "Heijnders Schilderwerken is een schildersbedrijf in Maastricht met ruim 20 jaar ervaring (sinds 2002 zelfstandig). Naast binnen- en buitenschilderwerk verzorgt het onderhoud aan o.a. monumentale panden, VvE's, scholen en kantoren, en bouwt het standen voor beurzen.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoud VvE & zakelijk",
+    "Kleuradvies",
+    "Standbouw / expo"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@heijndersschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Oros Schilders",
+  "kort": "Oros",
+  "slug": "orosschilders",
+  "plaats": "Heerlen",
+  "tel_display": "06-84446907",
+  "tel_href": "tel:+31684446907",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Oros Schilders is een schildersbedrijf uit Heerlen (Parkstad) voor binnen- en buitenschilderwerk, met onder meer airless latex spuiten. Persoonlijk, met vrijblijvend advies op maat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Airless latex spuiten",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@orosschilders.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Duo Stukadoors",
+  "kort": "Duo Stukadoors",
+  "slug": "duostukadoors",
+  "plaats": "Brunssum",
+  "tel_display": "06-15462411",
+  "tel_href": "tel:+31615462411",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Duo Stukadoors is een jong stukadoorsbedrijf uit Brunssum voor strak wand- en plafondstucwerk, beton ciré en sierpleister, binnen én buiten. Persoonlijk, met duidelijke afspraken en garantie op het werk.",
+   "specialisaties": [
+    "Wand- en plafondstucwerk",
+    "Beton ciré",
+    "Sierpleister / kalk-cement",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@duostukadoors.com",
+  "social": "Instagram/Facebook: @duostukadoors",
+  "taal": "nl"
  }
 ]

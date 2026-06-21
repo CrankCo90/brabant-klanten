@@ -24108,5 +24108,115 @@
   "telefoon": "06-81429304",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Carree Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T03:12:37",
+  "laatste_post": "",
+  "demo_url": "https://carreeschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Verouderde, onafgemaakte WordPress-site met nog zichtbare Lorem-ipsum-placeholders en nepreviews; niet representatief voor het vakwerk.",
+  "fouten": [
+   "Verouderde, onafgemaakte WordPress-site met nog zichtbare Lorem-ipsum-placeholders en nepreviews; niet representatief voor het vakwerk"
+  ],
+  "contact": "06-16012866",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-16012866",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nuiten Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T03:12:37",
+  "laatste_post": "",
+  "demo_url": "https://nuitenschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Site draait op een gratis one-page-bouwer (onepage.website); geen eigen, moderne uitstraling of nette mobielvriendelijke offertepagina.",
+  "fouten": [
+   "Site draait op een gratis one-page-bouwer (onepage.website); geen eigen, moderne uitstraling of nette mobielvriendelijke offertepagina"
+  ],
+  "contact": "06-41739911",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41739911",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Heijnders Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T03:12:37",
+  "laatste_post": "",
+  "demo_url": "https://heijndersschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (opbouw uit 2011, niet mobielvriendelijk, kapotte metagegevens) zonder online offerteaanvraag.",
+  "fouten": [
+   "Sterk verouderde website (opbouw uit 2011, niet mobielvriendelijk, kapotte metagegevens) zonder online offerteaanvraag"
+  ],
+  "contact": "06-21581368",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21581368",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Oros Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T03:12:37",
+  "laatste_post": "",
+  "demo_url": "https://orosschilders.demo.brabantdigital.nl",
+  "waarom": "Website op een gratis bouwer (One.com) met nog zichtbare standaard-placeholders ('Dubbelklik hier…') en niet mobielvriendelijk.",
+  "fouten": [
+   "Website op een gratis bouwer (One.com) met nog zichtbare standaard-placeholders ('Dubbelklik hier…') en niet mobielvriendelijk"
+  ],
+  "contact": "06-84446907",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-84446907",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Duo Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T03:12:37",
+  "laatste_post": "",
+  "demo_url": "https://duostukadoors.demo.brabantdigital.nl",
+  "waarom": "Site op een gratis bouwer (JouwWeb) en vooral actief op social; mist een eigen, professionele en mobielvriendelijke uitstraling.",
+  "fouten": [
+   "Site op een gratis bouwer (JouwWeb) en vooral actief op social; mist een eigen, professionele en mobielvriendelijke uitstraling"
+  ],
+  "contact": "06-15462411",
+  "bron": null,
+  "social": "Instagram/Facebook: @duostukadoors",
+  "telefoon": "06-15462411",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
