@@ -26836,5 +26836,87 @@
   "email": "info@vandermeerenschilderwerken.nl",
   "social": "https://instagram.com/vandermeerenschilderwerken040",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Roy van den Berkmortel",
+  "kort": "Roy van den Berkmortel",
+  "slug": "stukadoorsbedrijf-roy-van-den-berkmortel-deurne",
+  "plaats": "Deurne",
+  "tel_display": "06-10019741",
+  "tel_href": "tel:+31610019741",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roy van den Berkmortel",
+   "verhaal": "Stukadoorsbedrijf Roy van den Berkmortel is een vakkundig stukadoorsbedrijf in Deurne en omgeving. Roy verzorgt strak stuc- en pleisterwerk, spachtelputz en buitenwerk voor particulieren en aannemers, met oog voor detail en een nette, opgeruimde oplevering.",
+   "specialisaties": [
+    "Stuc- en pleisterwerk",
+    "Spachtelputz",
+    "Binnen- en buitenstucwerk",
+    "Renovatie en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/p/Stukadoorsbedrijf-Roy-van-den-Berkmortel-100029350347017/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Peters",
+  "kort": "Stukadoorsbedrijf Peters",
+  "slug": "stukadoorsbedrijf-peters-haps",
+  "plaats": "Haps",
+  "tel_display": "06-22370947",
+  "tel_href": "tel:+31622370947",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Peters uit Haps verzorgt al ruim 20 jaar hoogwaardig stuc- en pleisterwerk voor particulieren, aannemers en ondernemers in de regio Land van Cuijk, Nijmegen en Oss. Een erkend leerbedrijf dat staat voor vakwerk, een nauwkeurige planning en een nette oplevering.",
+   "specialisaties": [
+    "Stuc- en pleisterwerk",
+    "Spachtelputz en spackspuiten",
+    "Sierlijsten",
+    "Renovatie en verbouw",
+    "Buitenstucwerk"
+   ],
+   "certificering": [
+    "Erkend leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Orlando Jacobs",
+  "kort": "Orlando Jacobs",
+  "slug": "stukadoorsbedrijf-orlando-jacobs-cuijk",
+  "plaats": "Cuijk",
+  "tel_display": "06-81429304",
+  "tel_href": "tel:+31681429304",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Orlando Jacobs",
+   "verhaal": "Stucadoorsbedrijf Orlando Jacobs uit Cuijk heeft ruim 15 jaar ervaring in traditioneel en modern stucwerk voor particulieren en zakelijke opdrachtgevers. Kwaliteit, goede materialen en een duidelijke samenwerking staan voorop, van kleine reparaties tot grote projecten.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Sierpleister en spachtelputz",
+    "Betonlook en decoratief stucwerk",
+    "Renovatie",
+    "Binnen- en buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
