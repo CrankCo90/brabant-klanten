@@ -24394,5 +24394,71 @@
   "telefoon": "06-51551696",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf van den Burg",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Someren",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T06:14:34",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorvandenburg.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (2015-template, niet mobielvriendelijk) zonder online offerte; bereikbaar via mobiel en e-mail.",
+  "fouten": [
+   "Verouderde website (2015-template, niet mobielvriendelijk) zonder online offerte; bereikbaar via mobiel en e-mail"
+  ],
+  "contact": "06-54992585",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54992585",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Zwam Glas- en Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Grave",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T06:14:34",
+  "laatste_post": "",
+  "demo_url": "https://vanzwamschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde, niet-responsive website (een pagina, geen mobiele weergave) zonder online offerte; bereikbaar via e-mail.",
+  "fouten": [
+   "Sterk verouderde, niet-responsive website (een pagina, geen mobiele weergave) zonder online offerte; bereikbaar via e-mail"
+  ],
+  "contact": "0486-421333",
+  "bron": null,
+  "social": "",
+  "telefoon": "0486-421333",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Wijk Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Boxmeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T06:14:34",
+  "laatste_post": "",
+  "demo_url": "https://vanwijkschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Dunne, generieke een-pagina website met stockfotos en zonder online offerte; bereikbaar via mobiel, e-mail en WhatsApp.",
+  "fouten": [
+   "Dunne, generieke een-pagina website met stockfotos en zonder online offerte; bereikbaar via mobiel, e-mail en WhatsApp"
+  ],
+  "contact": "06-51796373",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51796373",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -27268,5 +27268,88 @@
   "email": "",
   "social": "https://www.facebook.com/vanheertumschilderwerken/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf van den Burg",
+  "kort": "Van den Burg Stucadoors",
+  "slug": "stucadoorvandenburg",
+  "plaats": "Someren",
+  "tel_display": "06-54992585",
+  "tel_href": "tel:+31654992585",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf van den Burg is sinds 2005 actief in de regio Deurne, Asten en Someren. Het bedrijf voert alle stukadoorswerkzaamheden uit en is gespecialiseerd in decoratieve afwerkingen als beton cire, betonlook, frescolori en marmerpleister - van complete badkamers tot sfeervolle schouwen en strakke wanden en plafonds.",
+   "specialisaties": [
+    "Stucwerk",
+    "Pleisterwerk",
+    "Beton cire",
+    "Betonlook",
+    "Sierlijsten & ornamenten",
+    "Badkamers"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@burgstuc.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Zwam Glas- en Schilderwerken",
+  "kort": "Van Zwam Schilderwerken",
+  "slug": "vanzwamschilderwerken",
+  "plaats": "Grave",
+  "tel_display": "0486-421333",
+  "tel_href": "tel:0486421333",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Van Zwam Glas- en Schilderwerken is een familiebedrijf uit Grave dat al sinds 1918 actief is in schilderwerk en beglazing. Naast binnen- en buitenschilderwerk verzorgt Van Zwam ook behangwerk, gevelreiniging, houtrotherstel en (isolatie)glas - voor particulieren en bedrijven in Noord-Brabant en Gelderland, altijd met gratis kleuradvies.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Beglazing & isolatieglas",
+    "Behangwerk",
+    "Gevelreiniging",
+    "Houtrotherstel",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vanzwam.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Wijk Schilderwerken",
+  "kort": "Van Wijk Schilderwerken",
+  "slug": "vanwijkschilderwerken",
+  "plaats": "Boxmeer",
+  "tel_display": "06-51796373",
+  "tel_href": "tel:+31651796373",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Donny",
+   "verhaal": "Van Wijk Schilderwerken is het schildersbedrijf van Donny van Wijk uit Boxmeer. Voor binnen- en buitenschilderwerk, glas zetten, behang en kleuradvies bij particulieren in de regio Boxmeer - persoonlijk, met oog voor detail en altijd een net afgewerkt resultaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Glas zetten",
+    "Behang & wandafwerking",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schilderboxmeer.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
