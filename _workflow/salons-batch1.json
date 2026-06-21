@@ -27378,5 +27378,84 @@
   "email": "",
   "social": "https://www.instagram.com/stucadoorsbedrijf_tylski/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf K. Hoefs",
+  "kort": "K. Hoefs",
+  "slug": "stukadoorsbedrijf-khoefs-utrecht",
+  "plaats": "Utrecht",
+  "tel_display": "06-14240516",
+  "tel_href": "tel:+31614240516",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Kevin Hoefs",
+   "verhaal": "Stukadoorsbedrijf K. Hoefs uit Utrecht verzorgt stucwerk, sausen, betoncire, spachtelputz en latex spuiten voor wanden en plafonds, inclusief sierlijsten en ornamenten. Werkzaam in Utrecht en Amsterdam met scherpe all-in tarieven en duidelijke afspraken.",
+   "specialisaties": [
+    "stucwerk",
+    "sausen",
+    "betoncire",
+    "spachtelputz",
+    "latex spuiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/stukadoorsbedrijf_k.hoefs/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Spaan",
+  "kort": "Spaan",
+  "slug": "stukadoorsbedrijf-spaan-nieuwegein",
+  "plaats": "Nieuwegein",
+  "tel_display": "06-42645511",
+  "tel_href": "tel:+31642645511",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Spaan uit Nieuwegein staat klaar voor al uw stucwerk: strakke wanden en plafonds, wandafwerking en sierpleister. Persoonlijk en bereikbaar via mobiel, e-mail, Instagram en Facebook.",
+   "specialisaties": [
+    "stucwerk",
+    "wandafwerking",
+    "plafonds",
+    "sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stukadoorsbedrijf.spaan@hotmail.com",
+  "social": "https://www.instagram.com/stukadoorsbedrijfspaan/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Vlint",
+  "kort": "Vlint",
+  "slug": "stukadoorsbedrijf-vlint-houten",
+  "plaats": "Houten",
+  "tel_display": "06-10847852",
+  "tel_href": "tel:+31610847852",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Vlint uit Houten is gespecialiseerd in beton cire, Italiaans stucwerk en raapwerk. Elk project wordt vooraf opgenomen en met uiterste zorg en heldere afspraken afgewerkt.",
+   "specialisaties": [
+    "beton cire",
+    "italiaans stucwerk",
+    "raapwerk",
+    "stucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijfvlint.nl",
+  "social": "https://www.facebook.com/p/Stukadoorsbedrijf-Vlint-100064344032121/",
+  "taal": "nl"
  }
 ]

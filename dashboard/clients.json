@@ -24482,5 +24482,71 @@
   "telefoon": "06-39177950",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf K. Hoefs",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Utrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T08:15:02",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-khoefs-utrecht.demo.brabantdigital.nl",
+  "waarom": "Verouderde Divi/WordPress-site (content en foto's uit 2019, WordPress 6.0) met mobiele zoom uitgeschakeld en geen online offerte- of contactformulier; wel mobiel (06) en social bereikbaar. Sterke redesign-kans.",
+  "fouten": [
+   "Verouderde Divi/WordPress-site (content en foto's uit 2019, WordPress 6.0) met mobiele zoom uitgeschakeld en geen online offerte- of contactformulier; wel mobiel (06) en social bereikbaar. Sterke redesign-kans"
+  ],
+  "contact": "06-14240516",
+  "bron": null,
+  "social": "https://www.instagram.com/stukadoorsbedrijf_k.hoefs/",
+  "telefoon": "06-14240516",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Spaan",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Nieuwegein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T08:15:02",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-spaan-nieuwegein.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen aanwezig op social media (Instagram en Facebook) en in bedrijvengidsen, terwijl mobiel en e-mail wel werken. 'Alleen social = prospect'.",
+  "fouten": [
+   "Geen eigen website - alleen aanwezig op social media (Instagram en Facebook) en in bedrijvengidsen, terwijl mobiel en e-mail wel werken. 'Alleen social = prospect'"
+  ],
+  "contact": "06-42645511",
+  "bron": null,
+  "social": "https://www.instagram.com/stukadoorsbedrijfspaan/",
+  "telefoon": "06-42645511",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Vlint",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Houten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T08:15:02",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-vlint-houten.demo.brabantdigital.nl",
+  "waarom": "Zeer dunne, gedateerde website (laatst bijgewerkt 2021, slechts een korte alinea, geen projecten/reviews en geen online offerteformulier); wel mobiel (06), e-mail en Facebook bereikbaar. Duidelijke redesign-kans.",
+  "fouten": [
+   "Zeer dunne, gedateerde website (laatst bijgewerkt 2021, slechts een korte alinea, geen projecten/reviews en geen online offerteformulier); wel mobiel (06), e-mail en Facebook bereikbaar. Duidelijke redesign-kans"
+  ],
+  "contact": "06-10847852",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Stukadoorsbedrijf-Vlint-100064344032121/",
+  "telefoon": "06-10847852",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
