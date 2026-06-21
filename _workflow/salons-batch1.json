@@ -27965,5 +27965,89 @@
   "email": "",
   "social": "https://www.facebook.com/schilderservicebrunssum/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ton de Brouwer Stucadoorsbedrijf",
+  "kort": "Stukadoorsbedrijf Ton de Brouwer",
+  "slug": "tondebrouwerstucadoors",
+  "plaats": "Oirschot",
+  "tel_display": "06-52665745",
+  "tel_href": "tel:+31652665745",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ton de Brouwer",
+   "verhaal": "Ton de Brouwer Stucadoorsbedrijf uit Oirschot heeft ruim 26 jaar ervaring en richt zich op zowel particulieren als aannemers. Kwaliteit, service en vakmanschap staan voorop, met veel stuc-technieken in huis - waaronder het moderne, stofvrije stucen voor een schoner en gezonder werkresultaat.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Sierpleister en spachtelputz",
+    "Schuurwerk",
+    "Latex spuiten",
+    "Stofvrij stucen",
+    "Betonlook"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@tdb-stucadoorsbedrijf.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Mark",
+  "kort": "Schildersbedrijf Mark",
+  "slug": "schildersbedrijfmarkoirschot",
+  "plaats": "Oirschot",
+  "tel_display": "06-11102654",
+  "tel_href": "tel:+31611102654",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Mark is een eenmanszaak uit Oirschot (Spoordonk) met ruim 17 jaar ervaring in binnen- en buitenschilderwerk. Van wand- en plafondafwerking tot glaszetten, behangen en houtrotreparatie - met persoonlijk kleuradvies voor particulieren en bedrijven in Oirschot en omgeving.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Glaszetten",
+    "Behangen",
+    "Wandafwerking en plafondafwerking",
+    "Latex spuiten en sauswerk",
+    "Houtrotreparatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Taher Schilder en Stukadoor",
+  "kort": "Taher Schilder en Stukadoor",
+  "slug": "taherschilderstukadoor",
+  "plaats": "Oirschot",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Taher Schilder en Stukadoor uit Oirschot bogt op ruim 50 jaar ervaring in schilder- en stukadoorswerk, decoratie en ornamenten. Van strak schilderwerk binnen en buiten tot sierpleister en decoratieve afwerkingen voor woning en bedrijfspand.",
+   "specialisaties": [
+    "Schilderwerk binnen en buiten",
+    "Stucwerk",
+    "Sierpleister",
+    "Decoratie en ornamenten",
+    "Behangen",
+    "Latex spuiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/p/TAHER-Schilder-en-Stukadoor-100067336742395/",
+  "taal": "nl"
  }
 ]

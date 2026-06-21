@@ -24966,5 +24966,71 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ton de Brouwer Stucadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Oirschot",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T14:20:52",
+  "laatste_post": "",
+  "demo_url": "https://tondebrouwerstucadoors.demo.brabantdigital.nl",
+  "waarom": "Verouderde website met foto's uit 2016 en zonder online offerteformulier (alleen telefonisch bereikbaar), terwijl het bedrijf al 26 jaar ervaring heeft.",
+  "fouten": [
+   "Verouderde website met foto's uit 2016 en zonder online offerteformulier (alleen telefonisch bereikbaar), terwijl het bedrijf al 26 jaar ervaring heeft"
+  ],
+  "contact": "06-52665745",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52665745",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Mark",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Oirschot",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T14:20:52",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfmarkoirschot.demo.brabantdigital.nl",
+  "waarom": "Heeft geen eigen website en is alleen vindbaar via een branchegids, terwijl het schildersbedrijf al 17 jaar actief is in Oirschot en omgeving.",
+  "fouten": [
+   "Heeft geen eigen website en is alleen vindbaar via een branchegids, terwijl het schildersbedrijf al 17 jaar actief is in Oirschot en omgeving"
+  ],
+  "contact": "06-11102654",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11102654",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Taher Schilder en Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Oirschot",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T14:20:52",
+  "laatste_post": "",
+  "demo_url": "https://taherschilderstukadoor.demo.brabantdigital.nl",
+  "waarom": "Heeft geen eigen website en is uitsluitend bereikbaar via een Facebook-pagina, terwijl het bedrijf ruim 50 jaar ervaring heeft.",
+  "fouten": [
+   "Heeft geen eigen website en is uitsluitend bereikbaar via een Facebook-pagina, terwijl het bedrijf ruim 50 jaar ervaring heeft"
+  ],
+  "contact": "Alleen https://www.facebook.com/p/TAHER-Schilder-en-Stukadoor-100067336742395/",
+  "bron": null,
+  "social": "https://www.facebook.com/p/TAHER-Schilder-en-Stukadoor-100067336742395/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
