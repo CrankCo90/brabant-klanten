@@ -27829,5 +27829,141 @@
   "email": "davarm78@hotmail.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Heilmann",
+  "kort": "Schildersbedrijf Heilmann",
+  "slug": "schildersbedrijf-heilmann-hoensbroek",
+  "plaats": "Hoensbroek",
+  "tel_display": "06-21542521",
+  "tel_href": "tel:+31621542521",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Heilmann is een vertrouwd schildersbedrijf in Hoensbroek met een geschiedenis die teruggaat tot 1930. Voor particulieren en bedrijven in Heerlen en omgeving verzorgt Heilmann vakkundig binnen- en buitenschilderwerk, behangwerk en houtrotreparatie - met oog voor een nette voorbereiding en een duurzaam resultaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Houtrotreparatie",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MK Stucadoorsbedrijf",
+  "kort": "MK Stucadoorsbedrijf",
+  "slug": "mk-stucadoorsbedrijf-heerlen",
+  "plaats": "Heerlen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "MK Stucadoorsbedrijf is een stukadoor uit Heerlen die staat voor meer dan alleen stucwerk. Van glad pleisterwerk en spachtelputz tot complete plafonds en wanden - MK levert strak stucwerk voor renovatie en nieuwbouw in Heerlen en omgeving.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Pleisterwerk",
+    "Plafonds stucen",
+    "Wanden stucen",
+    "Sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/p/MK-Stucadoorsbedrijf-61559511277096/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Luckerhof Stukadoors en Schilderwerken",
+  "kort": "Luckerhof Stukadoors",
+  "slug": "luckerhof-stukadoors-maastricht",
+  "plaats": "Maastricht",
+  "tel_display": "06-10083065",
+  "tel_href": "tel:+31610083065",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Luckerhof Stukadoors en Schilderwerken is sinds 2012 actief in Maastricht en omgeving. Dit stukadoors- en schildersbedrijf, aangesloten bij de NOA, neemt particulieren en kleine aannemers het werk volledig uit handen: van glad stucwerk en plafondafwerking tot spuitwerk, betonlook en compleet schilderwerk.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Plafondafwerking",
+    "Wanden stucen",
+    "Spuitwerk",
+    "Betonlook",
+    "Schilderwerk"
+   ],
+   "certificering": [
+    "Aangesloten bij NOA (Nederlandse Ondernemersvereniging voor Afbouwbedrijven)"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@luckerhof-stukadoors.nl",
+  "social": "https://www.facebook.com/luckerhofstukadoors/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dox Schilderwerken",
+  "kort": "Dox Schilderwerken",
+  "slug": "dox-schilderwerken-heerlen",
+  "plaats": "Heerlen",
+  "tel_display": "06-27230071",
+  "tel_href": "tel:+31627230071",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dox Schilderwerken is een modern schildersbedrijf actief in Parkstad en Zuid-Limburg. Met vakbekwaam personeel, hoogwaardige materialen en heldere offertes verzorgt Dox binnen- en buitenschilderwerk, behangwerk en houtrotreparaties - kort maar krachtig, met korte lijnen.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Houtrotreparatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "doxschilderwerken@hotmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilder Service Brunssum",
+  "kort": "Schilder Service Brunssum",
+  "slug": "schilder-service-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schilder Service Brunssum is een schildersbedrijf uit Brunssum waarvan de eigenaar al meer dan 30 jaar ervaring heeft in het schildersvak. Voor particulieren in Brunssum en omgeving verzorgt Schilder Service Brunssum vakkundig binnen- en buitenschilderwerk, sauswerk en behangwerk.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Sauswerk",
+    "Behangwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/schilderservicebrunssum/",
+  "taal": "nl"
  }
 ]

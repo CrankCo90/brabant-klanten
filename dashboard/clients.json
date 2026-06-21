@@ -24856,5 +24856,115 @@
   "telefoon": "06-85354700",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Heilmann",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Hoensbroek",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T13:16:32",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-heilmann-hoensbroek.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen vindbaar via vergelijkingssites en branchegidsen, waardoor een eigen moderne uitstraling en directe offerteaanvraag ontbreken.",
+  "fouten": [
+   "Geen eigen website - alleen vindbaar via vergelijkingssites en branchegidsen, waardoor een eigen moderne uitstraling en directe offerteaanvraag ontbreken"
+  ],
+  "contact": "06-21542521",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21542521",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MK Stucadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T13:16:32",
+  "laatste_post": "",
+  "demo_url": "https://mk-stucadoorsbedrijf-heerlen.demo.brabantdigital.nl",
+  "waarom": "Alleen actief op Facebook, zonder eigen website - daardoor lastig vindbaar in Google en geen plek waar klanten projecten kunnen bekijken of direct een offerte kunnen aanvragen.",
+  "fouten": [
+   "Alleen actief op Facebook, zonder eigen website - daardoor lastig vindbaar in Google en geen plek waar klanten projecten kunnen bekijken of direct een offerte kunnen aanvragen"
+  ],
+  "contact": "Alleen https://www.facebook.com/p/MK-Stucadoorsbedrijf-61559511277096/",
+  "bron": null,
+  "social": "https://www.facebook.com/p/MK-Stucadoorsbedrijf-61559511277096/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Luckerhof Stukadoors en Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T13:16:32",
+  "laatste_post": "",
+  "demo_url": "https://luckerhof-stukadoors-maastricht.demo.brabantdigital.nl",
+  "waarom": "De huidige website is een gedateerde, generieke bouwer-template met weinig content, geen projectgalerij en een verouderde uitstraling - een moderne site met portfolio en offerteformulier levert duidelijk meer aanvragen op.",
+  "fouten": [
+   "De huidige website is een gedateerde, generieke bouwer-template met weinig content, geen projectgalerij en een verouderde uitstraling - een moderne site met portfolio en offerteformulier levert duidelijk meer aanvragen op"
+  ],
+  "contact": "06-10083065",
+  "bron": null,
+  "social": "https://www.facebook.com/luckerhofstukadoors/",
+  "telefoon": "06-10083065",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dox Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T13:16:32",
+  "laatste_post": "",
+  "demo_url": "https://dox-schilderwerken-heerlen.demo.brabantdigital.nl",
+  "waarom": "De huidige website is gebouwd met een eenvoudige websitebuilder, is niet mobielvriendelijk (vaste breedte) en gebruikt een hotmail-adres - een snelle, responsive site met offerteformulier oogt professioneler en werkt op elk apparaat.",
+  "fouten": [
+   "De huidige website is gebouwd met een eenvoudige websitebuilder, is niet mobielvriendelijk (vaste breedte) en gebruikt een hotmail-adres - een snelle, responsive site met offerteformulier oogt professioneler en werkt op elk apparaat"
+  ],
+  "contact": "06-27230071",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-27230071",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilder Service Brunssum",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T13:16:32",
+  "laatste_post": "",
+  "demo_url": "https://schilder-service-brunssum.demo.brabantdigital.nl",
+  "waarom": "Alleen aanwezig op Facebook en in branchegidsen, zonder eigen website - daardoor matig vindbaar in Google en geen plek voor projecten, reviews of een online offerteaanvraag.",
+  "fouten": [
+   "Alleen aanwezig op Facebook en in branchegidsen, zonder eigen website - daardoor matig vindbaar in Google en geen plek voor projecten, reviews of een online offerteaanvraag"
+  ],
+  "contact": "Alleen https://www.facebook.com/schilderservicebrunssum/",
+  "bron": null,
+  "social": "https://www.facebook.com/schilderservicebrunssum/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
