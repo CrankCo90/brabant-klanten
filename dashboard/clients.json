@@ -24306,5 +24306,93 @@
   "telefoon": "0413-291290",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Groenendaal",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T05:12:01",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfgroenendaal.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (WordPress 5.2.21, content uit 2017), één lange pagina zonder online offerteformulier",
+  "fouten": [
+   "Sterk verouderde website (WordPress 5.2.21, content uit 2017), één lange pagina zonder online offerteformulier"
+  ],
+  "contact": "06-13072642",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13072642",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Behang- en Schildersbedrijf Bouwmans",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T05:12:01",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfbouwmans.demo.brabantdigital.nl",
+  "waarom": "Verouderde WordPress-website (opmaak en beeld uit 2016) met minimale inhoud, geen online offerteformulier",
+  "fouten": [
+   "Verouderde WordPress-website (opmaak en beeld uit 2016) met minimale inhoud, geen online offerteformulier"
+  ],
+  "contact": "06-13356424",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13356424",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Laat Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Eerde",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T05:12:01",
+  "laatste_post": "",
+  "demo_url": "https://delaatschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Verouderde website met placeholder/test-content ('Dit is een test-tekst') en Engelse demo-knoppen, geen werkende projectenpagina of online offerteformulier",
+  "fouten": [
+   "Verouderde website met placeholder/test-content ('Dit is een test-tekst') en Engelse demo-knoppen, geen werkende projectenpagina of online offerteformulier"
+  ],
+  "contact": "06-51745364",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51745364",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf H. van Heertum & Zn",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T05:12:01",
+  "laatste_post": "",
+  "demo_url": "https://vanheertumschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website; alleen aanwezig op Facebook en in bedrijvengidsen",
+  "fouten": [
+   "Geen eigen website; alleen aanwezig op Facebook en in bedrijvengidsen"
+  ],
+  "contact": "06-51551696",
+  "bron": null,
+  "social": "https://www.facebook.com/vanheertumschilderwerken/",
+  "telefoon": "06-51551696",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

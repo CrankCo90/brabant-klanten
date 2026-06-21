@@ -27160,5 +27160,113 @@
   "email": "info@dendortschilderwerken.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Groenendaal",
+  "kort": "Zelfstandig schilder uit Schijndel — kwaliteit en service voorop",
+  "slug": "schildersbedrijfgroenendaal",
+  "plaats": "Schijndel",
+  "tel_display": "06-13072642",
+  "tel_href": "tel:+31613072642",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Peter Groenendaal",
+   "verhaal": "Peter Groenendaal werkt sinds 2003 als zelfstandig schilder in en rondom Schijndel. Hij richt zich vooral op particulieren en verzorgt binnen- en buitenschilderwerk, behangwerk en het spuiten van wanden en plafonds, met kwaliteit en persoonlijke service voorop.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behangwerk",
+    "Latex spuiten van wanden en plafonds",
+    "Onderhoudsschilderwerk",
+    "Schilderwerk nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schilders-schijndel.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Behang- en Schildersbedrijf Bouwmans",
+  "kort": "Behang- en schilderwerk uit Schijndel sinds 1998",
+  "slug": "schildersbedrijfbouwmans",
+  "plaats": "Schijndel",
+  "tel_display": "06-13356424",
+  "tel_href": "tel:+31613356424",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Behang- en Schildersbedrijf Bouwmans uit Schijndel is opgericht in 1998 en verzorgt binnen- en buitenschilderwerk en behangwerk voor particulieren in Schijndel en omgeving.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Onderhoudsschilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@bsbouwmans.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Laat Schilderwerken",
+  "kort": "Kleinschalig schildersbedrijf — puur vakwerk uit Eerde",
+  "slug": "delaatschilderwerken",
+  "plaats": "Eerde",
+  "tel_display": "06-51745364",
+  "tel_href": "tel:+31651745364",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Hans de Laat",
+   "verhaal": "Hans de Laat is in 2006 als zelfstandig schildersbedrijf gestart en staat voor kwalitatief hoogstaand vakwerk. De Laat Schilderwerken verzorgt binnen- en buitenschilderwerk, lakspuiten, texen, behangen, glaszetten en houtrotreparatie in de omgeving van Schijndel en Veghel.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Lakspuiten",
+    "Texen / tex-spuiten",
+    "Behangen",
+    "Glaszetten",
+    "Houtrotreparatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@delaatschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf H. van Heertum & Zn",
+  "kort": "Schilder-, behang- en glaswerk uit Schijndel",
+  "slug": "vanheertumschilderwerken",
+  "plaats": "Schijndel",
+  "tel_display": "06-51551696",
+  "tel_href": "tel:+31651551696",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf H. van Heertum & Zn uit Schijndel is een familiebedrijf voor binnen- en buitenschilderwerk, behangwerk en glaszetten voor particulieren en bedrijven in Schijndel en omgeving.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Glaszetten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/vanheertumschilderwerken/",
+  "taal": "nl"
  }
 ]
