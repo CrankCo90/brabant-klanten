@@ -25604,5 +25604,71 @@
   "telefoon": "0620773725",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Verheul Vakschilder",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Arnhem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T21:17:25",
+  "laatste_post": "",
+  "demo_url": "https://verheul-vakschilder-arnhem.demo.brabantdigital.nl",
+  "waarom": "Verouderde website uit 2017 met een oude paginabouwer, toe aan een moderne, mobielvriendelijke uitstraling",
+  "fouten": [
+   "Verouderde website uit 2017 met een oude paginabouwer, toe aan een moderne, mobielvriendelijke uitstraling"
+  ],
+  "contact": "06-52393652",
+  "bron": null,
+  "social": "https://www.facebook.com/Verheul-uw-vakschilder-102818926786345/",
+  "telefoon": "06-52393652",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoor Van der Wal",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Doetinchem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T21:17:25",
+  "laatste_post": "",
+  "demo_url": "https://stukadoor-van-der-wal-doetinchem.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (laatst bijgewerkt in 2021, oude paginabouwer) zonder moderne, mobielvriendelijke uitstraling",
+  "fouten": [
+   "Verouderde website (laatst bijgewerkt in 2021, oude paginabouwer) zonder moderne, mobielvriendelijke uitstraling"
+  ],
+  "contact": "(contact nog nodig)",
+  "bron": null,
+  "social": "",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf M. ten Tije",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Apeldoorn",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T21:17:25",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-ten-tije-apeldoorn.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (Joomla-template met onafgemaakte voorbeeldteksten), toe aan een professionele, moderne site",
+  "fouten": [
+   "Sterk verouderde website (Joomla-template met onafgemaakte voorbeeldteksten), toe aan een professionele, moderne site"
+  ],
+  "contact": "(contact nog nodig)",
+  "bron": null,
+  "social": "",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -28757,5 +28757,88 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Verheul Vakschilder",
+  "kort": "Verheul",
+  "slug": "verheul-vakschilder-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-52393652",
+  "tel_href": "tel:+31652393652",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ruben",
+   "verhaal": "Ruben Verheul begon in 2009 met schilderen bij een groot schildersbedrijf in Arnhem, rondde zijn vakopleidingen af en ging daarna voor zichzelf verder. Traditioneel vakmanschap, kwaliteit en duidelijke communicatie staan centraal: goed luisteren naar de wensen van de klant, een passend aanbod en een zorgvuldige afwerking met oog voor detail. Geen klus is Verheul te klein of te groot, van nieuwbouw en restauratie tot groter onderhoud en decoratief werk.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Moderne spuittechnieken",
+    "Decoratief schilderwerk",
+    "Restauratie en onderhoud"
+   ],
+   "certificering": [
+    "Afgeronde vakopleidingen schilderen"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijf-verheul.nl",
+  "social": "https://www.facebook.com/Verheul-uw-vakschilder-102818926786345/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoor Van der Wal",
+  "kort": "Van der Wal",
+  "slug": "stukadoor-van-der-wal-doetinchem",
+  "plaats": "Doetinchem",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoor Van der Wal is sinds 1995 actief in en rond Doetinchem en is uw specialist in stucwerk, zowel binnen als buiten, voor wand- en plafondafwerking. Van strak glad pleisterwerk en spachtelputz tot sierlijsten en spackspuiten: alles wordt vakkundig en met oog voor detail uitgevoerd. Daarnaast verzorgt Van der Wal ook schilderwerk binnen en buiten voor een prachtig eindresultaat.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Decoratief stucwerk",
+    "Spachtelputz",
+    "Sierlijsten en spackspuiten",
+    "Binnen- en buitenschilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorvanderwal.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf M. ten Tije",
+  "kort": "ten Tije",
+  "slug": "stukadoorsbedrijf-ten-tije-apeldoorn",
+  "plaats": "Apeldoorn",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Michel",
+   "verhaal": "Stukadoorsbedrijf M. ten Tije uit Apeldoorn levert al ruim 30 jaar kwalitatief stukadoorswerk voor particulier en bedrijf. Met een innovatieve kijk op het vak en uitsluitend A-merk materialen verzorgt Michel ten Tije alles van glad pleisterwerk en raapwerk tot sierpleister, spachtelputz, spackspuiten en sierlijsten. Betaalbaar, ambachtelijk en modern, met gedegen advies over de beste stucmethode voor elke klus.",
+   "specialisaties": [
+    "Pleisterwerk",
+    "Sierpleister en spachtelputz",
+    "Raapwerk",
+    "Spackspuiten",
+    "Lijsten en ornamenten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@destukadoor.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
