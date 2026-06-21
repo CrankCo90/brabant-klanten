@@ -28049,5 +28049,113 @@
   "email": "",
   "social": "https://www.facebook.com/p/TAHER-Schilder-en-Stukadoor-100067336742395/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "M. van Logten Schilder- en Spuitwerk",
+  "kort": "van Logten",
+  "slug": "m-van-logten-schilderwerken-drunen",
+  "plaats": "Drunen",
+  "tel_display": "06-23667181",
+  "tel_href": "tel:+31623667181",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mark",
+   "verhaal": "Schilder- en spuitwerk uit Drunen met oog voor een keurig en strak resultaat. Naast binnen- en buitenschilderwerk gespecialiseerd in spuittechnieken: muren en plafonds texen, en kozijnen, deuren, radiatoren en meubels lakken in een professionele spuitcabine. Vakwerk, vakkennis en 100% tevredenheid voor particulier en bedrijf.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Latex spuiten van wanden, plafonds en gevels",
+    "Lakspuiten van kozijnen, deuren, radiatoren en keukens",
+    "Brandwerend spuiten met certificaat",
+    "Montage- en afwerkwerk (plinten, lijsten, vloeren)"
+   ],
+   "certificering": [
+    "Professionele spuitcabine voor strak lakwerk",
+    "Brandwerend coaten met certificaat"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Harry van Bladel Schilderwerken",
+  "kort": "van Bladel",
+  "slug": "harry-van-bladel-schilderwerken-drunen",
+  "plaats": "Drunen",
+  "tel_display": "06-28415858",
+  "tel_href": "tel:+31628415858",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Harry",
+   "verhaal": "Harry van Bladel Schilderwerken uit Drunen is specialist in behang- en schilderwerk en in spuit- en texwerk. Met oog voor een nette afwerking worden klussen binnen en buiten vakkundig uitgevoerd, van wandafwerking tot complete schilderprojecten.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behangwerk",
+    "Spuit- en texwerk",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "harry@vanbladelschilderwerken.nl",
+  "social": "instagram.com/harryvbladelschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Den Oetelaar Stukadoors & Afbouwbedrijf",
+  "kort": "van den Oetelaar",
+  "slug": "van-den-oetelaar-stukadoors-waalwijk",
+  "plaats": "Waalwijk",
+  "tel_display": "06-22088784",
+  "tel_href": "tel:+31622088784",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Van Den Oetelaar Stukadoors & Afbouwbedrijf uit Waalwijk verzorgt complete afbouw onder één dak: stucwerk van muren en plafonds, kitwerk, lak- en schilderwerk. Vakwerk waar het bedrijf trots op is, met aandacht voor kwaliteit en een nette afronding.",
+   "specialisaties": [
+    "Stucwerk van muren en plafonds",
+    "Kitwerk",
+    "Lak- en schilderwerk",
+    "Afbouwwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vdoetelaarstucenafbouw.nl",
+  "social": "facebook.com/61566903887802",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ralph de Man Stucwerken",
+  "kort": "Ralph de Man",
+  "slug": "ralph-de-man-stucwerken-kaatsheuvel",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ralph",
+   "verhaal": "Ralph de Man Stucwerken is een zelfstandig stukadoorsbedrijf uit Kaatsheuvel met vele jaren ervaring. Gespecialiseerd in het stucadoren van wanden, plafonds en buitengevels met diverse afwerklagen zoals pleisterwerk, schuurwerk en spachtelputz.",
+   "specialisaties": [
+    "Stucwerk van wanden en plafonds",
+    "Pleister- en schuurwerk",
+    "Spachtelputz",
+    "Buitengevels stucadoren"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/rdmstucwerken",
+  "taal": "nl"
  }
 ]
