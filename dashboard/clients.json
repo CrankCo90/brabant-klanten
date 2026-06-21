@@ -25538,5 +25538,71 @@
   "telefoon": "06-51192314",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ralph de Man Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Kaatsheuvel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T20:21:26",
+  "laatste_post": "",
+  "demo_url": "https://ralph-de-man-stucwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vindbaar via Facebook.",
+  "fouten": [
+   "Geen eigen website, alleen vindbaar via Facebook"
+  ],
+  "contact": "Alleen https://www.facebook.com/rdmstucwerken",
+  "bron": null,
+  "social": "https://www.facebook.com/rdmstucwerken",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nick van Dongen Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Dongen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T20:21:26",
+  "laatste_post": "",
+  "demo_url": "https://nick-van-dongen-schilderwerken.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (geen HTTPS, WordPress uit 2015) die niet meer meekan.",
+  "fouten": [
+   "Sterk verouderde website (geen HTTPS, WordPress uit 2015) die niet meer meekan"
+  ],
+  "contact": "0630724888",
+  "bron": null,
+  "social": "",
+  "telefoon": "0630724888",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dzinio Stukadoors & Schilder",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Venray",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-21",
+  "aangemaakt": "2026-06-21T20:21:26",
+  "laatste_post": "",
+  "demo_url": "https://dzinio-stukadoors-schilder.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vindbaar via social media en klusplatforms.",
+  "fouten": [
+   "Geen eigen website, alleen vindbaar via social media en klusplatforms"
+  ],
+  "contact": "0620773725",
+  "bron": null,
+  "social": "",
+  "telefoon": "0620773725",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

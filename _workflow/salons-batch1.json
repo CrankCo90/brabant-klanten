@@ -28675,5 +28675,87 @@
   "email": "info@stukadoorsbedrijf-ronaldjoosten.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ralph de Man Stucwerken",
+  "kort": "Ralph de Man Stucwerken",
+  "slug": "ralph-de-man-stucwerken",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ralph de Man",
+   "verhaal": "Ralph de Man Stucwerken is een zelfstandig stukadoorsbedrijf uit Kaatsheuvel. Met vele jaren ervaring verzorgt Ralph strak binnen- en buitenstucwerk voor particulieren in Kaatsheuvel en omgeving. Afspraak is afspraak en het werk wordt netjes opgeleverd.",
+   "specialisaties": [
+    "Binnenstucwerk",
+    "Buitenstucwerk",
+    "Glad pleisterwerk",
+    "Renovatie en herstel"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/rdmstucwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Nick van Dongen Schilderwerken",
+  "kort": "Nick van Dongen Schilderwerken",
+  "slug": "nick-van-dongen-schilderwerken",
+  "plaats": "Dongen",
+  "tel_display": "0630724888",
+  "tel_href": "tel:+31630724888",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Nick van Dongen",
+   "verhaal": "Nick van Dongen Schilderwerken is een schildersbedrijf uit Dongen met een nuchtere kijk op zaken en korte communicatielijnen. Nick verzorgt onderhoud, renovatie en nieuw schilderwerk voor particulieren en bedrijven in Brabant en omstreken, met strak voorbereidend werk en een keurige afwerking.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Onderhoudsschilderwerk"
+   ],
+   "certificering": [
+    "Opgeleid aan de schildersvakschool"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dzinio Stukadoors & Schilder",
+  "kort": "Dzinio Stukadoors & Schilder",
+  "slug": "dzinio-stukadoors-schilder",
+  "plaats": "Venray",
+  "tel_display": "0620773725",
+  "tel_href": "tel:+31620773725",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dzinio Stukadoors & Schilder uit Venray levert strak stucwerk en professioneel schilderwerk voor woningen. Van gladde muren en plafonds tot een frisse, egale verflaag, met oog voor detail en een nette werkplek. Vakwerk dat gezien mag worden.",
+   "specialisaties": [
+    "Stucwerk muren en plafonds",
+    "Sierpleister / spachtelputz",
+    "Binnenschilderwerk",
+    "Renovatie"
+   ],
+   "certificering": [
+    "Garantie op het stucwerk"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
