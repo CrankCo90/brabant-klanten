@@ -26286,5 +26286,137 @@
   "telefoon": "06-51078855",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Botero Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Amersfoort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T23:18:19",
+  "laatste_post": "",
+  "demo_url": "https://botero-schildersbedrijf.demo.brabantdigital.nl",
+  "waarom": "Huidige website is een eenvoudige one-page builder-pagina zonder echt portfolio of online offerteflow.",
+  "fouten": [
+   "Huidige website is een eenvoudige one-page builder-pagina zonder echt portfolio of online offerteflow"
+  ],
+  "contact": "06-26059190",
+  "bron": null,
+  "social": "https://www.facebook.com/boteroschildersbedrijf",
+  "telefoon": "06-26059190",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Leeuwerke Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Amersfoort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T23:18:19",
+  "laatste_post": "",
+  "demo_url": "https://leeuwerke-schilders.demo.brabantdigital.nl",
+  "waarom": "Verouderde website op Drupal 7 (end-of-life en niet meer veilig te onderhouden) met een gedateerd thema uit 2015.",
+  "fouten": [
+   "Verouderde website op Drupal 7 (end-of-life en niet meer veilig te onderhouden) met een gedateerd thema uit 2015"
+  ],
+  "contact": "06-52044987",
+  "bron": null,
+  "social": "https://www.facebook.com/m.leeuwerke",
+  "telefoon": "06-52044987",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Eny",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Amersfoort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T23:18:19",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijf-eny.demo.brabantdigital.nl",
+  "waarom": "Website draait op een standaard template-bouwer en staat op noindex (niet vindbaar in Google); een portfolio en echte offerteflow ontbreken.",
+  "fouten": [
+   "Website draait op een standaard template-bouwer en staat op noindex (niet vindbaar in Google); een portfolio en echte offerteflow ontbreken"
+  ],
+  "contact": "06-54904675",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54904675",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Rouwendaal Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Soest",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T23:18:19",
+  "laatste_post": "",
+  "demo_url": "https://van-rouwendaal-schilderwerken.demo.brabantdigital.nl",
+  "waarom": "Kleine, verouderde website (laatst bijgewerkt in 2021) met slechts drie pagina's en zonder online offertemodule.",
+  "fouten": [
+   "Kleine, verouderde website (laatst bijgewerkt in 2021) met slechts drie pagina's en zonder online offertemodule"
+  ],
+  "contact": "06-13736936",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13736936",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Totaalafbouw Kian",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Leusden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T23:18:19",
+  "laatste_post": "",
+  "demo_url": "https://totaalafbouw-kian.demo.brabantdigital.nl",
+  "waarom": "Verouderde Weebly-website met copyright uit 2015 en een gedateerde tabel-indeling; geen mobielvriendelijke uitstraling of online offerteformulier.",
+  "fouten": [
+   "Verouderde Weebly-website met copyright uit 2015 en een gedateerde tabel-indeling; geen mobielvriendelijke uitstraling of online offerteformulier"
+  ],
+  "contact": "06-26266877",
+  "bron": null,
+  "social": "https://www.facebook.com/Kianafbouwbedrijf/",
+  "telefoon": "06-26266877",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Orhan",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Odijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T23:18:19",
+  "laatste_post": "",
+  "demo_url": "https://orhan-stucadoors.demo.brabantdigital.nl",
+  "waarom": "Gedateerde WordPress-template met projectfoto's uit 2018 en veel dunne SEO-pagina's; een frisse, snelle site met echt portfolio ontbreekt.",
+  "fouten": [
+   "Gedateerde WordPress-template met projectfoto's uit 2018 en veel dunne SEO-pagina's; een frisse, snelle site met echt portfolio ontbreekt"
+  ],
+  "contact": "06-24899177",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24899177",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
