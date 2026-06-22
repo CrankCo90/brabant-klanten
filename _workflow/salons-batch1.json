@@ -29495,5 +29495,94 @@
   "email": "info@groenewegenschilders.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Peters",
+  "kort": "Peters",
+  "slug": "stukadoorsbedrijfpeters",
+  "plaats": "Haps",
+  "tel_display": "06-22370947",
+  "tel_href": "tel:+31622370947",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Peters uit Haps levert al ruim 20 jaar vakkundige wand- en plafondafwerking voor particulieren, aannemers en ondernemers in de regio Land van Cuijk, Oss en Nijmegen.",
+   "specialisaties": [
+    "Stucwerk",
+    "Pleisterwerk",
+    "Spachtelputz",
+    "Sierlijsten",
+    "Spackspuiten",
+    "Renovatie en verbouw",
+    "Buitenwerk"
+   ],
+   "certificering": [
+    "Erkend leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Willems Stukadoors",
+  "kort": "Willems",
+  "slug": "willemsstukadoors",
+  "plaats": "Grave",
+  "tel_display": "06-27023616",
+  "tel_href": "tel:+31627023616",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Patrick",
+   "verhaal": "Willems Stukadoors uit Grave is het bedrijf van Patrick, die al meer dan 30 jaar strak en professioneel stucwerk levert. Van traditioneel stucwerk tot betonlook en lijstwerk.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Lijstwerk",
+    "Sauswerk",
+    "Decoratief stucwerk",
+    "Buiten stucwerk",
+    "Betonlook"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "willemsstukadoors@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Chris Reijs vakschilders",
+  "kort": "Chris Reijs",
+  "slug": "chrisreijsvakschilders",
+  "plaats": "Beers",
+  "tel_display": "06-51078855",
+  "tel_href": "tel:+31651078855",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Chris",
+   "verhaal": "Chris Reijs runt sinds 2000 met veel plezier zijn schildersbedrijf in Beers (gemeente Land van Cuijk). Geen opdracht is hetzelfde: van particulier onderhoud tot renovatie en houtrotherstel.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Beglazing",
+    "Onderhoudsschilderwerk",
+    "Kleuradvies"
+   ],
+   "certificering": [
+    "Aangesloten bij OnderhoudNL"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]

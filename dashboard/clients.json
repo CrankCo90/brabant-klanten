@@ -26220,5 +26220,71 @@
   "telefoon": "06-14663819",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Peters",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Haps",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T22:12:03",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijfpeters.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Haps met een standaard template-site zonder online offerteformulier; ruim 20 jaar ervaring, mobiel bereikbaar.",
+  "fouten": [
+   "Stukadoor in Haps met een standaard template-site zonder online offerteformulier; ruim 20 jaar ervaring, mobiel bereikbaar"
+  ],
+  "contact": "06-22370947",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22370947",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Willems Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Grave",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T22:12:03",
+  "laatste_post": "",
+  "demo_url": "https://willemsstukadoors.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Grave (30+ jaar) met een eenvoudige one-page WordPress-site zonder online offerteformulier; mobiel + e-mail bereikbaar.",
+  "fouten": [
+   "Stukadoor in Grave (30+ jaar) met een eenvoudige one-page WordPress-site zonder online offerteformulier; mobiel + e-mail bereikbaar"
+  ],
+  "contact": "06-27023616",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-27023616",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Chris Reijs vakschilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Beers",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T22:12:03",
+  "laatste_post": "",
+  "demo_url": "https://chrisreijsvakschilders.demo.brabantdigital.nl",
+  "waarom": "Schilder in Beers (Land van Cuijk) met een verouderde site zonder HTTPS/SSL; sinds 2000 actief, mobiel bereikbaar.",
+  "fouten": [
+   "Schilder in Beers (Land van Cuijk) met een verouderde site zonder HTTPS/SSL; sinds 2000 actief, mobiel bereikbaar"
+  ],
+  "contact": "06-51078855",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51078855",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
