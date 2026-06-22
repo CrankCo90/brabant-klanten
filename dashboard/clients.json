@@ -25824,5 +25824,71 @@
   "telefoon": "06-54630805",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Bokhoven Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Waalwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T19:35:01",
+  "laatste_post": "",
+  "demo_url": "https://vanbokhovenschilders.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderd WordPress-thema zonder modern, responsive ontwerp; alleen een kaal contactformulier en geen projectgalerij.",
+  "fouten": [
+   "Sterk verouderd WordPress-thema zonder modern, responsive ontwerp; alleen een kaal contactformulier en geen projectgalerij"
+  ],
+  "contact": "06-54381767",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54381767",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kolmans Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Drunen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T19:35:01",
+  "laatste_post": "",
+  "demo_url": "https://kolmansschildersbedrijf.demo.brabantdigital.nl",
+  "waarom": "Zwaar verouderde tabel-layout site ('Untitled Document', losse .php-pagina's) zonder mobiele weergave — niet mobielvriendelijk en oogt gedateerd.",
+  "fouten": [
+   "Zwaar verouderde tabel-layout site ('Untitled Document', losse .php-pagina's) zonder mobiele weergave — niet mobielvriendelijk en oogt gedateerd"
+  ],
+  "contact": "06-12463250",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-12463250",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Arjan Theunissen Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Vlijmen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-22",
+  "aangemaakt": "2026-06-22T19:35:01",
+  "laatste_post": "",
+  "demo_url": "https://arjantheunissenschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Site is opgebouwd met een generieke ClickSite-bouwer/template — een eigen, snelle en onderscheidende website biedt meer uitstraling en betere vindbaarheid.",
+  "fouten": [
+   "Site is opgebouwd met een generieke ClickSite-bouwer/template — een eigen, snelle en onderscheidende website biedt meer uitstraling en betere vindbaarheid"
+  ],
+  "contact": "06-41250203",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41250203",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

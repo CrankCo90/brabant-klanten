@@ -29024,5 +29024,86 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Bokhoven Schilders",
+  "kort": "Van Bokhoven",
+  "slug": "vanbokhovenschilders",
+  "plaats": "Waalwijk",
+  "tel_display": "06-54381767",
+  "tel_href": "tel:+31654381767",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Joop van Bokhoven",
+   "verhaal": "Van Bokhoven Schilders is úw schilder uit Waalwijk: een vertrouwd schildersbedrijf voor binnen- en buitenschilderwerk bij particulieren en bedrijven in Waalwijk en de regio.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Onderhoudsschilderwerk",
+    "Particulier en zakelijk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kolmans Schildersbedrijf",
+  "kort": "Kolmans",
+  "slug": "kolmansschildersbedrijf",
+  "plaats": "Drunen",
+  "tel_display": "06-12463250",
+  "tel_href": "tel:+31612463250",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Kolmans Schildersbedrijf is een jong en dynamisch schildersbedrijf uit Drunen voor particulieren en bedrijven: interieur- en exterieurschilderwerk, van klein onderhoud tot projecten in nieuwbouw en renovatie, met vooraf afgesproken prijzen.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotrenovatie",
+    "Beglazing",
+    "Onderhoud en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Arjan Theunissen Schilderwerken",
+  "kort": "Theunissen",
+  "slug": "arjantheunissenschilderwerken",
+  "plaats": "Vlijmen",
+  "tel_display": "06-41250203",
+  "tel_href": "tel:+31641250203",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Arjan Theunissen",
+   "verhaal": "Arjan Theunissen Schilderwerken uit Vlijmen heeft ruim 30 jaar ervaring in het schildersvak. Voor particulieren, bedrijven en instellingen: schilderwerk, spuitwerk, glas en behang — professioneel, schoon en snel met de modernste technieken.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Spuitwerk",
+    "Behangen",
+    "Houtrotrenovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "a-theunissen@ziggo.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
