@@ -29105,5 +29105,135 @@
   "email": "a-theunissen@ziggo.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stipt Schilderwerken",
+  "kort": "Stipt",
+  "slug": "stipt-schilderwerken",
+  "plaats": "Sprang-Capelle",
+  "tel_display": "06-14184957",
+  "tel_href": "tel:+31614184957",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Stijn Verhagen",
+   "verhaal": "Stipt Schilderwerken uit Sprang-Capelle is het schildersbedrijf van Stijn Verhagen. Of het nu gaat om binnen- of buitenschilderwerk, texen, onderhoud of reparatie - Stipt staat klaar voor een nette, verzorgde afwerking in Sprang-Capelle, Waalwijk, Kaatsheuvel en omgeving.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Texwerk (spuitwerk wanden en plafonds)",
+    "Onderhoud en houtreparatie",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stiptschilderwerken.nl",
+  "social": "IG @stiptschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stokkermans Schilderservice",
+  "kort": "Stokkermans",
+  "slug": "stokkermans-schilderservice",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "06-81384961",
+  "tel_href": "tel:+31681384961",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Sven Stokkermans",
+   "verhaal": "Sven Stokkermans Onderhoud & Schilderservice is in 2022 opgericht in Kaatsheuvel. Sven richt zich op particulieren en bedrijven met persoonlijk, vakkundig schilder- en onderhoudswerk en denkt graag met de klant mee.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotherstel en onderhoud",
+    "Behang- en sauswerk",
+    "Klein onderhoud in en om huis"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stokkermansschilderservice.nl",
+  "social": "IG @stokkermansschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Danny's Stukadoor",
+  "kort": "Danny's",
+  "slug": "dannys-stukadoor",
+  "plaats": "Loon op Zand",
+  "tel_display": "06-54321014",
+  "tel_href": "tel:+31654321014",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Danny",
+   "verhaal": "Danny's Stukadoor is een stukadoorsbedrijf uit Loon op Zand voor strak stuc- en pleisterwerk. Van gladpleisterwerk en spachtelputz tot renovatie en reparatie - netjes afgewerkt, voor particulier en bedrijf in Loon op Zand en omgeving.",
+   "specialisaties": [
+    "Gladpleisterwerk wanden en plafonds",
+    "Sierpleister en spachtelputz",
+    "Renovatie- en reparatiestucwerk",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "G.H.S. van der Lee Schilderwerken",
+  "kort": "van der Lee",
+  "slug": "ghs-van-der-lee",
+  "plaats": "Drunen",
+  "tel_display": "06-27581597",
+  "tel_href": "tel:+31627581597",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "G.H.S. van der Lee Schilderwerken is een schildersbedrijf uit Drunen voor binnen- en buitenschilderwerk, onderhoud en houtreparatie bij particulieren en bedrijven in Drunen en de Langstraat.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotherstel",
+    "Onderhoudsschilderwerk",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van den Dool Schilderwerken Totaalonderhoud",
+  "kort": "van den Dool",
+  "slug": "vandendool-schilderwerken",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "06-51924417",
+  "tel_href": "tel:+31651924417",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Maurice van den Dool",
+   "verhaal": "Van den Dool Schilderwerken Totaalonderhoud is het bedrijf van Maurice van den Dool uit Kaatsheuvel, gespecialiseerd in schilderwerk en totaalonderhoud in en rond de woning of het bedrijfspand.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Totaalonderhoud woning en bedrijfspand",
+    "Houtrotherstel en reparatie",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "maurice@vandendoolonderhoudsschilder.nl",
+  "social": "FB Maurice van den Dool / IG @van.den.dool",
+  "taal": "nl"
  }
 ]
