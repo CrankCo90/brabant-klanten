@@ -108,7 +108,7 @@ function waRole(c){var L=(c.nicheLabel||'').toLowerCase();
  if(L.indexOf('nagel')>=0)return['nagelstyliste','nail stylist'];
  if(L.indexOf('pedicure')>=0||L.indexOf('voet')>=0)return['pedicure','pedicurist'];
  if(L.indexOf('kapper')>=0||L.indexOf('kapsalon')>=0)return['kapper','hairdresser'];
- if(L.indexOf('stukad')>=0||L.indexOf('stucad')>=0||L.indexOf('schilder')>=0||L.indexOf('stuc')>=0)return['stukadoor','plasterer'];
+ if(L.indexOf('stukad')>=0||L.indexOf('stucad')>=0||L.indexOf('schilder')>=0||L.indexOf('stuc')>=0){var nm=(c.n||'').toLowerCase();var hasSch=/schilder/.test(nm),hasStu=/stukad|stucad|stuc|pleister|afbouw|spuitwerk/.test(nm),hasGlas=/glas|beglazing/.test(nm);if(hasSch&&hasStu)return['schilder en stukadoor','painter and plasterer'];if(hasSch&&hasGlas)return['schilder en glaszetter','painter and glazier'];if(hasSch)return['schilder','painter'];if(hasStu)return['stukadoor','plasterer'];if(hasGlas)return['glaszetter','glazier'];return['schilder','painter'];}
  return [c.nicheLabel||'ondernemer','business owner'];}
 function waText(c){if(c.wa)return c.wa;
  var url=c.demo_url?(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url)):'';
