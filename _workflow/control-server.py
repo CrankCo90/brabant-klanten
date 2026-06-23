@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Brabant Digital control-server — draait op de VPS (alleen 127.0.0.1), achter Caddy /api + token.
 Voert ALLEEN vooraf bepaalde acties uit. De vrije Claude-opdracht draait via Claude Code (acceptEdits + guard-hook)."""
-import json, os, subprocess, csv, datetime, hashlib
+import json, os, subprocess, csv, datetime, hashlib, re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 ROOT="/root/klanten"; DATA="/root/outreach-data"
 TOKEN=open(os.path.join(DATA,".control-token")).read().strip()
@@ -38,6 +38,50 @@ def sent_info():
             "total":len(rows),"today":sum(1 for r in rows if r["datum"].startswith(today)),
             "autopilot":bool(_ap().get("on")),"settings":_ap(),
             "replies":json.load(open(REPLIES)) if os.path.exists(REPLIES) else {}}
+
+def _norm_phone(p):
+    d=re.sub(r"\D","",str(p or ""))
+    if d.startswith("0031"): d=d[4:]
+    elif d.startswith("31"): d=d[2:]
+    elif d.startswith("0"): d=d[1:]
+    return d[-9:]
+
+def _git_push():
+    run("git add -A && git -c user.email=vps@brabantdigital.nl -c user.name=BD-VPS commit -q -m 'afwijzing -> afgewezen + demo offline'")
+    tkf=os.path.join(DATA,".git-token")
+    if os.path.exists(tkf):
+        tk=open(tkf).read().strip()
+        run("git push -q https://%s@github.com/CrankCo90/brabant-klanten.git HEAD:main"%tk)
+
+def _process_reject(bedrijf, reason="", channel="bericht"):
+    cf=os.path.join(ROOT,"dashboard/clients.json"); C=json.load(open(cf)); target=None
+    for c in C:
+        if c.get("bedrijf")==bedrijf: target=c; break
+    if not target: return False,"Bedrijf niet gevonden: %s"%bedrijf
+    if target.get("status")!="afgewezen":
+        target["status"]="afgewezen"; json.dump(C,open(cf,"w"),ensure_ascii=False,indent=1)
+    nd=os.path.join(ROOT,"_workflow/niet-deployen.txt"); nd_set=set()
+    if os.path.exists(nd):
+        for l in open(nd).read().splitlines():
+            l=l.strip()
+            if l and not l.startswith("#"): nd_set.add(l)
+    m=re.search(r"https://([^.]+)\.demo", target.get("demo_url") or "")
+    if m: nd_set.add(m.group(1))
+    header=("# Klanten die NOOIT gepubliceerd mogen worden (1 map-slug per regel).\n"
+            "# vps-autodeploy.sh slaat deze over en haalt een eventueel al-live exemplaar offline.\n"
+            "# Regel weghalen = klant mag weer gedeployed worden. Regels met # worden genegeerd.\n")
+    open(nd,"w").write(header+"\n".join(sorted(nd_set))+"\n")
+    rp=os.path.join(DATA,"replies.json"); R=json.load(open(rp)) if os.path.exists(rp) else {}
+    R[bedrijf]={"status":"nee","datum":datetime.date.today().isoformat(),"laatste":(reason or ("Afwijzing via "+channel))[:160]}
+    json.dump(R,open(rp,"w"),ensure_ascii=False,indent=1)
+    _git_push()
+    return True,"%s op 'afgewezen' gezet en demo offline gehaald."%bedrijf
+
+def _classify(text):
+    low=(text or "").lower()
+    if re.search(r"\b(nee|geen interesse|afmeld|uitschrijf|niet ge.nteresseerd|stop|geen behoefte|niet nodig|graag niet|liever niet|haal me weg)\b",low): return "nee"
+    if re.search(r"\b(ja|graag|interesse|akkoord|doen|bestellen|afspraak|leuk|mooi|top)\b",low): return "ja"
+    return "reactie"
 
 class H(BaseHTTPRequestHandler):
     def log_message(self,*a): pass
@@ -106,6 +150,30 @@ class H(BaseHTTPRequestHandler):
                 tk=open("/root/outreach-data/.git-token").read().strip()
                 run("git push -q https://%s@github.com/CrankCo90/brabant-klanten.git HEAD:main"%tk)
             return self._s(200,{"ok":True,"log":"Status van %s op '%s' gezet."%(b,st)})
+        if self.path=="/api/reject":
+            bedrijf=(body.get("bedrijf") or "").strip()
+            if not bedrijf: return self._s(400,{"error":"bedrijf vereist"})
+            ok,msg=_process_reject(bedrijf,(body.get("reason") or ""),(body.get("channel") or "handmatig"))
+            return self._s(200 if ok else 404,{"ok":ok,"log":msg})
+        if self.path=="/api/incoming":
+            text=(body.get("text") or "").strip(); sender=(body.get("sender") or "").strip()
+            channel=(body.get("channel") or "bericht").strip()
+            if not text: return self._s(400,{"error":"lege tekst"})
+            cls=_classify(text)
+            C=json.load(open(os.path.join(ROOT,"dashboard/clients.json"))); bedrijf=None
+            if sender:
+                sn=_norm_phone(sender)
+                for c in C:
+                    if sn and _norm_phone(c.get("telefoon"))==sn: bedrijf=c.get("bedrijf"); break
+            if not bedrijf:
+                return self._s(200,{"ok":False,"cls":cls,"matched":False,"log":"Geen klant bij nummer %s. Tekst herkend als '%s'."%(sender or "(leeg)",cls)})
+            if cls=="nee":
+                ok,msg=_process_reject(bedrijf,text[:160],channel)
+                return self._s(200,{"ok":ok,"cls":cls,"matched":True,"bedrijf":bedrijf,"log":msg})
+            rp=os.path.join(DATA,"replies.json"); R=json.load(open(rp)) if os.path.exists(rp) else {}
+            R[bedrijf]={"status":cls,"datum":datetime.date.today().isoformat(),"laatste":text[:160]}
+            json.dump(R,open(rp,"w"),ensure_ascii=False,indent=1)
+            return self._s(200,{"ok":True,"cls":cls,"matched":True,"bedrijf":bedrijf,"log":"%s: reactie '%s' gelogd (geen afwijzing)."%(bedrijf,cls)})
         if self.path=="/api/campaign":
             dg=(body.get("doelgroep") or "all"); tpl=(body.get("sjabloon") or "uitnodiging"); intro=(body.get("intro") or ""); test=bool(body.get("test"))
             tmap={"uitnodiging":"_workflow/outreach/template-nl.txt","herinnering":"_workflow/outreach/template-herinnering.txt","kort":"_workflow/outreach/template-kort.txt"}

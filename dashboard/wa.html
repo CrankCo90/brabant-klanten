@@ -38,6 +38,8 @@ header{position:sticky;top:0;z-index:5;background:rgba(11,20,26,.96);backdrop-fi
 .sms-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:8px;background:#2f6fed;color:#fff;font-weight:800;font-size:17px;text-decoration:none;border:0;border-radius:12px;padding:14px 12px}
 .sms-btn:active{background:#2559c9}
 .sms-btn svg{width:22px;height:22px}
+.rej-btn{display:block;width:100%;margin-top:8px;background:transparent;color:#ff6b6b;border:1px solid #5a2a2a;border-radius:10px;padding:9px;font-size:13px;font-weight:700}
+.rej-btn:active{background:#2a1414}
 .card.done{opacity:.6}
 .done-row{display:flex;align-items:center;gap:10px;font-size:15px;color:#8696a0;padding:2px 2px}
 .done-row .ok{color:#25D366;font-weight:800}
@@ -180,12 +182,14 @@ function render(){
      +'<a class="wa-btn" href="'+esc(waLink(c))+'" target="_blank" rel="noopener" data-id="'+c.id+'">'
      +'<svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> WhatsApp openen</a>'
      +'<a class="sms-btn" href="'+esc(smsLink(c))+'" data-id="'+c.id+'"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4V6a2 2 0 0 1 2-2z"/></svg> SMS sturen</a>'
+     +'<button class="rej-btn" data-id="'+c.id+'">✕ Afwijzing ontvangen — demo offline</button>'
      +'</div>';
   });
   html+='</div>';
  });
  $("#list").innerHTML=html;
  $("#list").querySelectorAll('.wa-btn,.sms-btn').forEach(function(a){a.addEventListener('click',function(){onWa(parseInt(a.dataset.id,10));});});
+ $("#list").querySelectorAll('.rej-btn').forEach(function(b){b.addEventListener('click',function(){rejectClient(parseInt(b.dataset.id,10));});});
 }
 
 function onWa(id){
@@ -204,6 +208,17 @@ function undo(id,prev){
  unmarkWa(c); c.st=prev;
  if(prev==='prospect'||prev==='demo')api('/set-status','POST',{bedrijf:c.bedrijf,status:prev});
  render();
+}
+function rejectClient(id){
+ var c=CLIENTS.filter(function(x){return x.id===id;})[0];if(!c)return;
+ if(!CT){toast('Even opnieuw inloggen.');return;}
+ if(!confirm(c.n+' markeren als AFGEWEZEN?\nDe demo gaat offline en hij verdwijnt uit alle lijsten.'))return;
+ c.st='niet';
+ var card=$("#card-"+id);
+ if(card){card.classList.add('done');card.innerHTML='<div class="done-row"><span class="ok" style="color:#ff6b6b">✕</span> '+esc(c.n)+' — afgewezen, demo offline</div>';}
+ toast('Afwijzing verwerken…');
+ api('/reject','POST',{bedrijf:c.bedrijf,channel:'whatsapp'}).then(function(r){toast(r&&r.error?('Fout: '+r.error):((r&&r.log)||'Afgewezen'));});
+ var sub=$("#sub");if(sub){var n=CLIENTS.filter(todo).filter(function(x){return fNiche==='all'||x.nicheLabel===fNiche;}).length;sub.textContent=n+' klant'+(n===1?'':'en')+' om te appen'+(fNiche==='all'?'':' · '+fNiche);}
 }
 
 /* ---- login ---- */
