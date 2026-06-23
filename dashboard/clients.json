@@ -26726,5 +26726,27 @@
   "telefoon": "06-41638218",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Lelie Glas en Schilderwerk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Vught",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T11:30:53",
+  "laatste_post": "",
+  "demo_url": "https://lelie-glas-en-schilderwerk-vught.demo.brabantdigital.nl",
+  "waarom": "Schilder- en glaszetbedrijf in Vught, mobiel en via Facebook bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Schilder- en glaszetbedrijf in Vught, mobiel en via Facebook bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "0611098356",
+  "bron": null,
+  "social": "facebook.com/lelie.schilderbedrijf",
+  "telefoon": "0611098356",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

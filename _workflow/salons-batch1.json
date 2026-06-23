@@ -30114,5 +30114,31 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Lelie Glas en Schilderwerk",
+  "kort": "Lelie",
+  "slug": "lelie-glas-en-schilderwerk-vught",
+  "plaats": "Vught",
+  "tel_display": "0611098356",
+  "tel_href": "tel:+31611098356",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Lelie Glas en Schilderwerk is een vakkundig schilder- en glaszetbedrijf uit Vught. We verzorgen binnen- en buitenschilderwerk, glaszetten en glasschade, houtrotreparatie en beglazing — met oog voor detail en heldere afspraken, voor particulieren en bedrijven in Vught en omgeving.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Glaszetten en glasschade",
+    "Houtrotreparatie",
+    "Beglazing en isolatieglas"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/lelie.schilderbedrijf",
+  "taal": "nl"
  }
 ]
