@@ -136,7 +136,7 @@ function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIC
 
 /* ---- data ---- */
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function todo(c){return isMobile(c.phone)&&['prospect','demo','benaderd'].indexOf(c.st)>=0&&!waDone(c);}
+function todo(c){if(!isMobile(c.phone))return false;if(waDone(c))return false;if(c.st==='prospect'||c.st==='demo')return true;if(c.st==='benaderd')return mailDone(c);return false;}
 
 async function loadData(){
  try{var d=await fetch("./clients.json?"+Date.now(),{cache:"no-store"});DATA=await d.json();}catch(e){DATA=[];}
