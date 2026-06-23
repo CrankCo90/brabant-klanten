@@ -1225,7 +1225,7 @@ function waText(c){if(c.wa)return c.wa;
 }
 function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIComponent(waText(c));}
 function renderWhatsapp(){var wrap=$("#waList");if(!wrap)return;
- var rows=CLIENTS.filter(function(c){return waNumber(c.phone)&&['prospect','demo','benaderd'].includes(c.st);}).sort(function(a,b){return (a.em?1:0)-(b.em?1:0)||b.score-a.score;});
+ var rows=CLIENTS.filter(function(c){return waNumber(c.phone)&&['prospect','demo','benaderd'].includes(c.st)&&!waDone(c);}).sort(function(a,b){return (a.em?1:0)-(b.em?1:0)||b.score-a.score;});
  var cnt=$("#waCount");if(cnt)cnt.textContent=rows.length+' met telefoonnummer';
  if(!rows.length){wrap.innerHTML='<div class="empty">Geen prospects met telefoonnummer in de wachtrij.</div>';return;}
  wrap.innerHTML=rows.map(function(c){var noemail=c.em?'':'<span class="badge b-geen">geen e-mail</span>';
@@ -1249,7 +1249,7 @@ function selectedNames(){return [...document.querySelectorAll('#actionList .chk:
 /* ---------- Klanten ---------- */
 var mode='todo',fNiche='all',sortBy='score';
 var WA_SENT=[];try{WA_SENT=JSON.parse(localStorage.getItem('bd_wasent')||'[]');}catch(e){WA_SENT=[];}
-function waDone(c){return WA_SENT.indexOf(c.bedrijf)>=0;}
+function waDone(c){return WA_SENT.indexOf(c.bedrijf)>=0||(c.st==='benaderd'&&!mailDone(c)&&!!waNumber(c.phone));}
 function markWa(c){if(!waDone(c)){WA_SENT.push(c.bedrijf);try{localStorage.setItem('bd_wasent',JSON.stringify(WA_SENT));}catch(e){}}}
 function mailDone(c){return c.es==='verzonden';}
 function channelsLeft(c){var n=0;if(c.em&&!mailDone(c))n++;if(waNumber(c.phone)&&!waDone(c))n++;return n;}
