@@ -27100,5 +27100,137 @@
   "telefoon": "06-43564646",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Davits Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Valkenswaard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T22:15:45",
+  "laatste_post": "",
+  "demo_url": "https://davitsstukadoors-valkenswaard.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Valkenswaard met alleen een verouderde één-pagina-website (enkel adresgegevens, geen diensten of offerteformulier); per e-mail bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Stukadoorsbedrijf in Valkenswaard met alleen een verouderde één-pagina-website (enkel adresgegevens, geen diensten of offerteformulier); per e-mail bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "040-2012891",
+  "bron": null,
+  "social": "",
+  "telefoon": "040-2012891",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Daams Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Luyksgestel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T22:15:45",
+  "laatste_post": "",
+  "demo_url": "https://daamsstucwerken-luyksgestel.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Luyksgestel met een verouderde website (Drupal 8, ontwerp uit 2018); mobiel bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Stukadoorsbedrijf in Luyksgestel met een verouderde website (Drupal 8, ontwerp uit 2018); mobiel bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "06-22008744",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22008744",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf van Lindert",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Waalre",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T22:15:45",
+  "laatste_post": "",
+  "demo_url": "https://van-lindert-schilders-waalre.demo.brabantdigital.nl",
+  "waarom": "Schildersbedrijf in Waalre met een algemene template-website (placeholder-cijfers en stockreviews); per e-mail bereikbaar — premium demo gebouwd als redesign-kans.",
+  "fouten": [
+   "Schildersbedrijf in Waalre met een algemene template-website (placeholder-cijfers en stockreviews); per e-mail bereikbaar — premium demo gebouwd als redesign-kans"
+  ],
+  "contact": "040-3030343",
+  "bron": null,
+  "social": "",
+  "telefoon": "040-3030343",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "TNF Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Heeze",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T22:15:45",
+  "laatste_post": "",
+  "demo_url": "https://tnf-schilderwerken-heeze.demo.brabantdigital.nl",
+  "waarom": "Schildersbedrijf in Heeze-Leende met een zeer summiere, verouderde website (alleen een menu, geen content); mobiel bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Schildersbedrijf in Heeze-Leende met een zeer summiere, verouderde website (alleen een menu, geen content); mobiel bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "06-52050230",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52050230",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hoeks Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bergeijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T22:15:45",
+  "laatste_post": "",
+  "demo_url": "https://hoeks-stukadoors-bergeijk.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Bergeijk zonder eigen website (alleen vermeldingen in bedrijvengidsen); mobiel bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Stukadoorsbedrijf in Bergeijk zonder eigen website (alleen vermeldingen in bedrijvengidsen); mobiel bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "06-55372062",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-55372062",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stappaerts Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Eersel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T22:15:45",
+  "laatste_post": "",
+  "demo_url": "https://stappaerts-stucwerken-eersel.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Eersel met een sterk verouderde één-pagina-website (WordPress 5.7.2, sinds 2021 niet bijgewerkt); mobiel en per e-mail bereikbaar — premium demo gebouwd.",
+  "fouten": [
+   "Stukadoorsbedrijf in Eersel met een sterk verouderde één-pagina-website (WordPress 5.7.2, sinds 2021 niet bijgewerkt); mobiel en per e-mail bereikbaar — premium demo gebouwd"
+  ],
+  "contact": "06-50241790",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-50241790",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
