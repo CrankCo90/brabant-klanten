@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="WhatsApp-lijst">
+<meta name="theme-color" content="#0b141a">
+<title>WhatsApp-lijst · Brabant Digital</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{background:#0b141a;color:#e9edef;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.4;overflow-x:hidden}
+.wrap{max-width:520px;margin:0 auto;padding:0 12px 90px}
+header{position:sticky;top:0;z-index:5;background:rgba(11,20,26,.96);backdrop-filter:blur(6px);padding:12px 12px 10px;border-bottom:1px solid #1f2c34}
+.htop{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.htitle{font-size:18px;font-weight:700;display:flex;align-items:center;gap:8px}
+.htitle svg{width:22px;height:22px;color:#25D366}
+.refresh{background:#1f2c34;color:#e9edef;border:0;border-radius:50%;width:38px;height:38px;font-size:18px;line-height:1}
+.sub{color:#8696a0;font-size:13px;margin-top:4px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 12px 2px;margin:0 -12px;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;background:#1f2c34;color:#cfd9df;border:0;border-radius:999px;padding:7px 13px;font-size:13px;white-space:nowrap}
+.chip.on{background:#25D366;color:#06281a;font-weight:700}
+.group{margin-top:18px}
+.gtitle{display:flex;align-items:center;gap:8px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#8696a0;font-weight:700;margin:0 2px 8px}
+.gtitle .cnt{margin-left:auto;background:#1f2c34;color:#cfd9df;border-radius:999px;padding:2px 9px;font-size:12px}
+.card{background:#111b21;border:1px solid #1f2c34;border-radius:14px;padding:13px 14px;margin-bottom:10px}
+.cn{font-size:17px;font-weight:700;line-height:1.25}
+.cmeta{color:#8696a0;font-size:13px;margin-top:3px;word-break:break-word}
+.cmeta .vast{color:#e9a23b}
+.wa-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:12px;background:#25D366;color:#06281a;font-weight:800;font-size:17px;text-decoration:none;border:0;border-radius:12px;padding:15px 12px}
+.wa-btn:active{background:#1da851}
+.wa-btn svg{width:24px;height:24px}
+.card.done{opacity:.6}
+.done-row{display:flex;align-items:center;gap:10px;font-size:15px;color:#8696a0;padding:2px 2px}
+.done-row .ok{color:#25D366;font-weight:800}
+.undo{margin-left:auto;background:transparent;border:1px solid #2a3942;color:#cfd9df;border-radius:8px;padding:6px 12px;font-size:14px}
+.empty{text-align:center;color:#8696a0;padding:60px 16px}
+.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:#1f2c34;color:#e9edef;padding:12px 18px;border-radius:999px;font-size:14px;box-shadow:0 8px 30px rgba(0,0,0,.5);z-index:30;max-width:90%}
+#login{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;background:#0b141a;padding:24px}
+#login .box{width:100%;max-width:320px;text-align:center}
+#login h1{font-size:20px;margin:0 0 4px}
+#login p{color:#8696a0;font-size:14px;margin:0 0 18px}
+#login input{width:100%;background:#111b21;border:1px solid #2a3942;color:#e9edef;border-radius:12px;padding:14px;font-size:16px;margin-bottom:10px}
+#login button{width:100%;background:#25D366;color:#06281a;font-weight:800;border:0;border-radius:12px;padding:14px;font-size:16px}
+#lerr{color:#f0a;font-size:13px;min-height:18px;margin-top:6px}
+.loading{text-align:center;color:#8696a0;padding:50px 16px}
+</style>
+</head>
+<body>
+<div id="login"><div class="box">
+  <h1>WhatsApp-lijst</h1>
+  <p>Even inloggen met je dashboard-wachtwoord.</p>
+  <input id="pw" type="password" inputmode="text" autocomplete="current-password" placeholder="Wachtwoord" enterkeyhint="go">
+  <button id="loginBtn">Inloggen</button>
+  <div id="lerr"></div>
+</div></div>
+
+<header>
+  <div class="htop">
+    <div class="htitle"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> WhatsApp-lijst</div>
+    <button class="refresh" id="refresh" title="Vernieuwen">&#8635;</button>
+  </div>
+  <div class="sub" id="sub">Laden…</div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<div class="wrap"><div id="list"><div class="loading">Laden…</div></div></div>
+
+<script>
+var PWHASH="64696df0eff1c7ed0db5371356e155b4279d2a260223f8a774798b9ac0654abe";
+var API=location.origin.replace(/\/$/,"")+"/api";
+var CT=localStorage.getItem("bd_ctl")||"";
+var DATA=[], CTL={sent:[],replies:{},prospects:[]}, CLIENTS=[], fNiche="all";
+
+function $(s){return document.querySelector(s);}
+async function sha256(s){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return [...new Uint8Array(b)].map(function(x){return x.toString(16).padStart(2,'0');}).join('');}
+function toast(m){var t=document.createElement('div');t.className='toast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.style.opacity='0';t.style.transition='opacity .4s';setTimeout(function(){t.remove();},400);},2600);}
+
+async function api(path,method,body){try{var r=await fetch(API+path,{method:method||"GET",keepalive:true,headers:{"Authorization":"Bearer "+CT,"Content-Type":"application/json"},body:body?JSON.stringify(body):undefined});var j=await r.json().catch(function(){return{error:"geen antwoord"};});if(!r.ok)j.error=j.error||("HTTP "+r.status);return j;}catch(e){return{error:"geen verbinding"};}}
+
+/* ---- helpers (1-op-1 uit het dashboard) ---- */
+function cityOf(d){return String(d.plaats||d.regio||'').split('·')[0].split('(')[0].trim()||'—';}
+function distOf(d){var p=String(d.plaats||'');var m=p.split('·')[1];if(m)return m.trim();m=p.match(/\(([^)]+)\)/);return m?m[1].trim():'';}
+function stripProto(u){return String(u||'').replace(/^https?:\/\//,'').replace(/\/$/,'');}
+function prospectByName(b){return (CTL.prospects||[]).find(function(p){return p.bedrijf===b;});}
+function emailOf(d){var p=prospectByName(d.bedrijf);if(p&&p.email)return p.email;var m=String(d.contact||'').match(/[\w.+-]+@[\w.-]+\.\w+/);return m?m[0]:'';}
+function phoneOf(d){var m=String(d.contact||'').match(/0\d[\d\s-]{6,}\d/);return m?m[0].trim():'';}
+var SENT_E,SENT_N;
+function buildSent(){SENT_E=new Set();SENT_N=new Set();(CTL.sent||[]).forEach(function(x){if(typeof x==='string')SENT_E.add(x.toLowerCase());else if(x){if(x.email)SENT_E.add(String(x.email).toLowerCase());if(x.bedrijf)SENT_N.add(x.bedrijf);}});}
+function isSent(d){var e=emailOf(d);return SENT_N.has(d.bedrijf)||(e&&SENT_E.has(e.toLowerCase()));}
+function replyOf(d){var r=CTL.replies||{};var e=(emailOf(d)||'').toLowerCase();var v=r[e]||r[d.bedrijf]||'';return (v&&typeof v==='object')?(v.status||''):v;}
+function effStatus(d){var s=d.status||'prospect';var rep=replyOf(d);if(rep==='ja')return 'ja';if(rep==='nee')return 'nee';if(isSent(d)&&(s==='prospect'||s==='demo'))return 'benaderd';return s;}
+var RAW2D={ja:'gekocht',afgewezen:'niet'};
+function esOf(d){if(isSent(d))return 'verzonden';return emailOf(d)?'klaar':'geen';}
+function toClient(d,i){var raw=effStatus(d);var st=RAW2D[raw]||raw;var label=d.niche||'Overig';
+ return {id:i,bedrijf:d.bedrijf,n:d.bedrijf,city:cityOf(d),dist:distOf(d),region:d.regio||cityOf(d),
+   nicheLabel:label,st:st,score:d.score||0,em:emailOf(d),es:esOf(d),
+   phone:(d.telefoon||phoneOf(d)),demo_url:d.demo_url||'',wa:d.wa_tekst||'',taal:d.taal||'nl'};}
+
+/* ---- WhatsApp tekst (1-op-1 uit het dashboard) ---- */
+function waNumber(p){var d=String(p||'').replace(/[^\d+]/g,'').replace(/^\+/,'');if(d.indexOf('00')===0)d=d.slice(2);if(d.indexOf('31')===0)return d;if(d.indexOf('0')===0)return '31'+d.slice(1);if(d.length>=9)return '31'+d;return d;}
+function isMobile(p){return waNumber(p).indexOf('316')===0;}
+function waName(c){var b=c.n||'';var m=b.match(/^([A-Za-zÀ-ÿ]+)'s\b/)||b.match(/\bby ([A-Za-zÀ-ÿ]+)/i)||b.match(/(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$/i);if(m){var n=m[1];if(!/^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$/i.test(n))return n.length>1?n.charAt(0).toUpperCase()+n.slice(1):b;}return b;}
+function waRole(c){var L=(c.nicheLabel||'').toLowerCase();
+ if(L.indexOf('hond')>=0||L.indexOf('trim')>=0)return['hondentrimmer','dog groomer'];
+ if(L.indexOf('nagel')>=0)return['nagelstyliste','nail stylist'];
+ if(L.indexOf('pedicure')>=0||L.indexOf('voet')>=0)return['pedicure','pedicurist'];
+ if(L.indexOf('kapper')>=0||L.indexOf('kapsalon')>=0)return['kapper','hairdresser'];
+ if(L.indexOf('stukad')>=0||L.indexOf('stucad')>=0||L.indexOf('schilder')>=0||L.indexOf('stuc')>=0)return['stukadoor','plasterer'];
+ return [c.nicheLabel||'ondernemer','business owner'];}
+function waText(c){if(c.wa)return c.wa;
+ var url=c.demo_url?(/^https?:/.test(c.demo_url)?c.demo_url:'https://'+stripProto(c.demo_url)):'';
+ var nm=waName(c),R=waRole(c),en=(c.taal==='en');
+ var H="👋",P="👉",S="😊",D="—";
+ var q=en?("We were wondering whether you still work as a "+R[1]+"? "):("We vroegen ons af of je nog steeds werkt als "+R[0]+"? ");
+ if(en){
+  if(c.em)return "Hi "+nm+"! "+H+" I'm Leroy from Brabant Digital. "+q+"I already put together a free example website for "+c.n+" "+D+" curious what you think. Takes 30 seconds:\n"+P+" "+url+"\n\nIf you like it, I'll gladly show you how to get it live. And if not, I'd love to hear that honestly too "+S+"\n\nCheers, Leroy "+D+" Brabant Digital";
+  return "Hi "+nm+"! "+H+" I'm Leroy from Brabant Digital. "+q+"I couldn't find an email address for "+c.n+", so I'm messaging you here. I made a free example website for you "+D+" have a look, takes 30 seconds:\n"+P+" "+url+"\n\nWhat do you think? If you like it, I'll gladly show you how to get it live. And if not, I'd love to hear that honestly too "+S+"\n\nCheers, Leroy "+D+" Brabant Digital";
+ }
+ if(c.em)return "Hoi "+nm+"! "+H+" Ik ben Leroy van Brabant Digital. "+q+"Ik heb alvast gratis een complete voorbeeldsite voor "+c.n+" gemaakt "+D+" benieuwd wat je ervan vindt. Kost je 30 seconden:\n"+P+" "+url+"\n\nMocht 'ie je aanspreken, dan vertel ik je graag hoe we 'm live kunnen krijgen. En zo niet, dan hoor ik dat ook graag eerlijk "+S+"\n\nGroetjes van Leroy "+D+" Brabant Digital";
+ return "Hoi "+nm+"! "+H+" Ik ben Leroy van Brabant Digital. "+q+"Ik kon geen e-mailadres van "+c.n+" vinden, daarom app ik je even. Ik heb alvast gratis een complete voorbeeldsite voor je gemaakt "+D+" kijk gerust, kost je 30 seconden:\n"+P+" "+url+"\n\nWat vind je? Mocht 'ie je aanspreken, dan vertel ik je graag hoe we 'm live kunnen krijgen. En zo niet, dan hoor ik dat ook graag eerlijk "+S+"\n\nGroetjes van Leroy "+D+" Brabant Digital";
+}
+function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIComponent(waText(c));}
+
+/* ---- data ---- */
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function todo(c){return isMobile(c.phone)&&(c.st==='prospect'||c.st==='demo');}
+
+async function loadData(){
+ try{var d=await fetch("./clients.json?"+Date.now(),{cache:"no-store"});DATA=await d.json();}catch(e){DATA=[];}
+ var st=await api("/status","GET");
+ if(st&&!st.error){CTL={sent:st.sent||[],replies:st.replies||{},prospects:st.prospects||[]};}
+ buildSent();CLIENTS=DATA.map(toClient);
+ render();
+}
+
+function render(){
+ var rows=CLIENTS.filter(todo);
+ // niche-chips
+ var counts={};rows.forEach(function(c){counts[c.nicheLabel]=(counts[c.nicheLabel]||0)+1;});
+ var nks=Object.keys(counts).sort();
+ var chips='<button class="chip '+(fNiche==='all'?'on':'')+'" data-n="all">Alle ('+rows.length+')</button>';
+ chips+=nks.map(function(k){return '<button class="chip '+(fNiche===k?'on':'')+'" data-n="'+esc(k)+'">'+esc(k)+' ('+counts[k]+')</button>';}).join('');
+ $("#chips").innerHTML=chips;
+ $("#chips").querySelectorAll('.chip').forEach(function(b){b.addEventListener('click',function(){fNiche=b.dataset.n;render();});});
+
+ var shown=rows.filter(function(c){return fNiche==='all'||c.nicheLabel===fNiche;});
+ $("#sub").textContent=shown.length+' klant'+(shown.length===1?'':'en')+' om te appen'+(fNiche==='all'?'':' · '+fNiche);
+
+ if(!shown.length){$("#list").innerHTML='<div class="empty">🎉 Geen open klanten om te appen.<br>Alles is benaderd of er is geen mobiel nummer.</div>';return;}
+
+ // groeperen per niche
+ var groups={};shown.forEach(function(c){(groups[c.nicheLabel]=groups[c.nicheLabel]||[]).push(c);});
+ var html='';
+ Object.keys(groups).sort().forEach(function(g){
+  var arr=groups[g].sort(function(a,b){return (b.score-a.score)||a.n.localeCompare(b.n);});
+  html+='<div class="group"><div class="gtitle">'+esc(g)+'<span class="cnt">'+arr.length+'</span></div>';
+  arr.forEach(function(c){
+   var vast=isMobile(c.phone)?'':' <span class="vast">(vast nr?)</span>';
+   html+='<div class="card" id="card-'+c.id+'">'
+     +'<div class="cn">'+esc(c.n)+'</div>'
+     +'<div class="cmeta">'+esc(c.city)+(c.dist?' · '+esc(c.dist):'')+' · '+esc(c.phone)+vast+'</div>'
+     +'<a class="wa-btn" href="'+esc(waLink(c))+'" target="_blank" rel="noopener" data-id="'+c.id+'">'
+     +'<svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> WhatsApp openen</a>'
+     +'</div>';
+  });
+  html+='</div>';
+ });
+ $("#list").innerHTML=html;
+ $("#list").querySelectorAll('.wa-btn').forEach(function(a){a.addEventListener('click',function(){onWa(parseInt(a.dataset.id,10));});});
+}
+
+function onWa(id){
+ var c=CLIENTS.filter(function(x){return x.id===id;})[0];if(!c)return;
+ var prev=c.st; c.st='benaderd';
+ var card=$("#card-"+id);
+ if(card){card.classList.add('done');card.innerHTML='<div class="done-row"><span class="ok">✓</span> '+esc(c.n)+' — benaderd<button class="undo" id="undo-'+id+'">Ongedaan</button></div>';
+  var u=$("#undo-"+id);if(u)u.addEventListener('click',function(){undo(id,prev);});}
+ // markeer op de server (commit+push gebeurt op de VPS)
+ api('/set-status','POST',{bedrijf:c.bedrijf,status:'benaderd'}).then(function(r){
+   if(r&&r.error)toast('Let op: status niet opgeslagen ('+r.error+')');
+ });
+ // tellers verversen
+ var sub=$("#sub");if(sub){var n=CLIENTS.filter(todo).filter(function(x){return fNiche==='all'||x.nicheLabel===fNiche;}).length;sub.textContent=n+' klant'+(n===1?'':'en')+' om te appen'+(fNiche==='all'?'':' · '+fNiche);}
+}
+function undo(id,prev){
+ var c=CLIENTS.filter(function(x){return x.id===id;})[0];if(!c)return;
+ c.st=prev;
+ api('/set-status','POST',{bedrijf:c.bedrijf,status:(prev==='demo'?'demo':'prospect')});
+ render();
+}
+
+/* ---- login ---- */
+function showApp(){$("#login").style.display='none';loadData();}
+async function doLogin(){
+ var pw=$("#pw").value;var h=await sha256(pw);
+ if(h!==PWHASH){$("#lerr").textContent='Onjuist wachtwoord.';return;}
+ var j=await fetch(API+'/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pw:pw})}).then(function(r){return r.json();}).catch(function(){return{};});
+ if(j&&j.token){CT=j.token;localStorage.setItem('bd_ctl',CT);}
+ showApp();
+}
+$("#loginBtn").addEventListener('click',doLogin);
+$("#pw").addEventListener('keydown',function(e){if(e.key==='Enter')doLogin();});
+$("#refresh").addEventListener('click',function(){$("#sub").textContent='Vernieuwen…';loadData();});
+
+/* auto-login als token al bekend is */
+(function(){if(CT){ // probeer meteen; valt terug op login bij 401
+  fetch(API+'/status',{headers:{'Authorization':'Bearer '+CT}}).then(function(r){if(r.ok){showApp();}else{$("#login").style.display='flex';}}).catch(function(){$("#login").style.display='flex';});
+ }else{$("#login").style.display='flex';}})();
+</script>
+</body>
+</html>
