@@ -26968,5 +26968,93 @@
   "telefoon": "06-17329027",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "EvE stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Mill",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T19:54:00",
+  "laatste_post": "",
+  "demo_url": "https://evestucwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen vermeld op stukadoorgidsen.",
+  "fouten": [
+   "Geen eigen website - alleen vermeld op stukadoorgidsen"
+  ],
+  "contact": "06-51236318",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51236318",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf S. van Beuningen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Grave",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T19:54:00",
+  "laatste_post": "",
+  "demo_url": "https://svanbeuningen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen een vermelding in online bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website - alleen een vermelding in online bedrijvengidsen"
+  ],
+  "contact": "06-51615722",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51615722",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Arno Thijssen Stukadoors & Texwerk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Vierlingsbeek",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T19:54:00",
+  "laatste_post": "",
+  "demo_url": "https://arnothijssen.demo.brabantdigital.nl",
+  "waarom": "Geen moderne eigen website - alleen vermeld op de dorps- en stukadoorgidsen.",
+  "fouten": [
+   "Geen moderne eigen website - alleen vermeld op de dorps- en stukadoorgidsen"
+  ],
+  "contact": "06-83442700",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-83442700",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Huijbers Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Boxmeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T19:54:00",
+  "laatste_post": "",
+  "demo_url": "https://huijbersstucwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website en geen e-mailadres - alleen telefonisch bereikbaar.",
+  "fouten": [
+   "Geen eigen website en geen e-mailadres - alleen telefonisch bereikbaar"
+  ],
+  "contact": "06-50526226",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-50526226",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
