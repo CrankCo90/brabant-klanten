@@ -29,6 +29,9 @@ header{position:sticky;top:0;z-index:5;background:rgba(11,20,26,.96);backdrop-fi
 .cn{font-size:17px;font-weight:700;line-height:1.25}
 .cmeta{color:#8696a0;font-size:13px;margin-top:3px;word-break:break-word}
 .cmeta .vast{color:#e9a23b}
+.cbadge{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px}
+.cbadge.mailed{background:#13361f;color:#7ee2a8}
+.cbadge.noem{background:#3a2f1f;color:#e9c07e}
 .wa-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:12px;background:#25D366;color:#06281a;font-weight:800;font-size:17px;text-decoration:none;border:0;border-radius:12px;padding:15px 12px}
 .wa-btn:active{background:#1da851}
 .wa-btn svg{width:24px;height:24px}
@@ -102,6 +105,11 @@ function toClient(d,i){var raw=effStatus(d);var st=RAW2D[raw]||raw;var label=d.n
 /* ---- WhatsApp tekst (1-op-1 uit het dashboard) ---- */
 function waNumber(p){var d=String(p||'').replace(/[^\d+]/g,'').replace(/^\+/,'');if(d.indexOf('00')===0)d=d.slice(2);if(d.indexOf('31')===0)return d;if(d.indexOf('0')===0)return '31'+d.slice(1);if(d.length>=9)return '31'+d;return d;}
 function isMobile(p){return waNumber(p).indexOf('316')===0;}
+var WA_SENT=[];try{WA_SENT=JSON.parse(localStorage.getItem('bd_wasent')||'[]');}catch(e){WA_SENT=[];}
+function waDone(c){return WA_SENT.indexOf(c.bedrijf)>=0;}
+function markWa(c){if(!waDone(c)){WA_SENT.push(c.bedrijf);try{localStorage.setItem('bd_wasent',JSON.stringify(WA_SENT));}catch(e){}}}
+function unmarkWa(c){var i=WA_SENT.indexOf(c.bedrijf);if(i>=0){WA_SENT.splice(i,1);try{localStorage.setItem('bd_wasent',JSON.stringify(WA_SENT));}catch(e){}}}
+function mailDone(c){return c.es==='verzonden';}
 function waName(c){var b=c.n||'';var m=b.match(/^([A-Za-zÀ-ÿ]+)'s\b/)||b.match(/\bby ([A-Za-zÀ-ÿ]+)/i)||b.match(/(?:nagelstudio|nagelsalon|hondentrimsalon|trimsalon|dogsalon|salon)\s+([A-Za-zÀ-ÿ]+)$/i);if(m){var n=m[1];if(!/^(nails?|beauty|design|nagel|hair|studio|hondjes|dog)$/i.test(n))return n.length>1?n.charAt(0).toUpperCase()+n.slice(1):b;}return b;}
 function waRole(c){var L=(c.nicheLabel||'').toLowerCase();
  if(L.indexOf('hond')>=0||L.indexOf('trim')>=0)return['hondentrimmer','dog groomer'];
@@ -116,9 +124,11 @@ function waText(c){if(c.wa)return c.wa;
  var H="👋",P="👉",S="😊",D="—";
  var q=en?("We were wondering whether you still work as a "+R[1]+"? "):("We vroegen ons af of je nog steeds werkt als "+R[0]+"? ");
  if(en){
+  if(mailDone(c))return "Hi "+nm+"! "+H+" I'm Leroy from Brabant Digital. "+q+"I just sent you an email about a free example website for "+c.n+" "+D+" but email sometimes lands in spam (not the idea, of course), so here it is too. Takes 30 seconds:\n"+P+" "+url+"\n\nWhat do you think? If you like it, I'll gladly show you how to get it live. And if not, I'd love to hear that honestly too "+S+"\n\nCheers, Leroy "+D+" Brabant Digital";
   if(c.em)return "Hi "+nm+"! "+H+" I'm Leroy from Brabant Digital. "+q+"I already put together a free example website for "+c.n+" "+D+" curious what you think. Takes 30 seconds:\n"+P+" "+url+"\n\nIf you like it, I'll gladly show you how to get it live. And if not, I'd love to hear that honestly too "+S+"\n\nCheers, Leroy "+D+" Brabant Digital";
   return "Hi "+nm+"! "+H+" I'm Leroy from Brabant Digital. "+q+"I couldn't find an email address for "+c.n+", so I'm messaging you here. I made a free example website for you "+D+" have a look, takes 30 seconds:\n"+P+" "+url+"\n\nWhat do you think? If you like it, I'll gladly show you how to get it live. And if not, I'd love to hear that honestly too "+S+"\n\nCheers, Leroy "+D+" Brabant Digital";
  }
+ if(mailDone(c))return "Hoi "+nm+"! "+H+" Ik ben Leroy van Brabant Digital. "+q+"Ik had je net een mailtje gestuurd over een gratis voorbeeldsite voor "+c.n+" "+D+" maar omdat mail nog wel eens in de spam belandt (en dat natuurlijk niet de bedoeling is), stuur ik 'm hier ook even. Kost je 30 seconden:\n"+P+" "+url+"\n\nWat vind je? Mocht 'ie je aanspreken, dan vertel ik je graag hoe we 'm live kunnen krijgen. En zo niet, dan hoor ik dat ook graag eerlijk "+S+"\n\nGroetjes van Leroy "+D+" Brabant Digital";
  if(c.em)return "Hoi "+nm+"! "+H+" Ik ben Leroy van Brabant Digital. "+q+"Ik heb alvast gratis een complete voorbeeldsite voor "+c.n+" gemaakt "+D+" benieuwd wat je ervan vindt. Kost je 30 seconden:\n"+P+" "+url+"\n\nMocht 'ie je aanspreken, dan vertel ik je graag hoe we 'm live kunnen krijgen. En zo niet, dan hoor ik dat ook graag eerlijk "+S+"\n\nGroetjes van Leroy "+D+" Brabant Digital";
  return "Hoi "+nm+"! "+H+" Ik ben Leroy van Brabant Digital. "+q+"Ik kon geen e-mailadres van "+c.n+" vinden, daarom app ik je even. Ik heb alvast gratis een complete voorbeeldsite voor je gemaakt "+D+" kijk gerust, kost je 30 seconden:\n"+P+" "+url+"\n\nWat vind je? Mocht 'ie je aanspreken, dan vertel ik je graag hoe we 'm live kunnen krijgen. En zo niet, dan hoor ik dat ook graag eerlijk "+S+"\n\nGroetjes van Leroy "+D+" Brabant Digital";
 }
@@ -126,7 +136,7 @@ function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIC
 
 /* ---- data ---- */
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function todo(c){return isMobile(c.phone)&&(c.st==='prospect'||c.st==='demo');}
+function todo(c){return isMobile(c.phone)&&['prospect','demo','benaderd'].indexOf(c.st)>=0&&!waDone(c);}
 
 async function loadData(){
  try{var d=await fetch("./clients.json?"+Date.now(),{cache:"no-store"});DATA=await d.json();}catch(e){DATA=[];}
@@ -162,6 +172,7 @@ function render(){
    html+='<div class="card" id="card-'+c.id+'">'
      +'<div class="cn">'+esc(c.n)+'</div>'
      +'<div class="cmeta">'+esc(c.city)+(c.dist?' · '+esc(c.dist):'')+' · '+esc(c.phone)+vast+'</div>'
+     +(mailDone(c)?'<div class="cbadge mailed">✉ al gemaild — opvolg-appje</div>':(c.em?'':'<div class="cbadge noem">geen e-mail bekend</div>'))
      +'<a class="wa-btn" href="'+esc(waLink(c))+'" target="_blank" rel="noopener" data-id="'+c.id+'">'
      +'<svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> WhatsApp openen</a>'
      +'</div>';
@@ -174,21 +185,19 @@ function render(){
 
 function onWa(id){
  var c=CLIENTS.filter(function(x){return x.id===id;})[0];if(!c)return;
- var prev=c.st; c.st='benaderd';
+ var prev=c.st; markWa(c);
  var card=$("#card-"+id);
- if(card){card.classList.add('done');card.innerHTML='<div class="done-row"><span class="ok">✓</span> '+esc(c.n)+' — benaderd<button class="undo" id="undo-'+id+'">Ongedaan</button></div>';
+ if(card){card.classList.add('done');card.innerHTML='<div class="done-row"><span class="ok">✓</span> '+esc(c.n)+' — geappt<button class="undo" id="undo-'+id+'">Ongedaan</button></div>';
   var u=$("#undo-"+id);if(u)u.addEventListener('click',function(){undo(id,prev);});}
- // markeer op de server (commit+push gebeurt op de VPS)
- api('/set-status','POST',{bedrijf:c.bedrijf,status:'benaderd'}).then(function(r){
-   if(r&&r.error)toast('Let op: status niet opgeslagen ('+r.error+')');
- });
+ // alleen op 'benaderd' zetten als dat nog niet zo was (gemailde klanten blijven gemaild)
+ if(prev==='prospect'||prev==='demo'){c.st='benaderd';api('/set-status','POST',{bedrijf:c.bedrijf,status:'benaderd'}).then(function(r){if(r&&r.error)toast('Let op: status niet opgeslagen ('+r.error+')');});}
  // tellers verversen
  var sub=$("#sub");if(sub){var n=CLIENTS.filter(todo).filter(function(x){return fNiche==='all'||x.nicheLabel===fNiche;}).length;sub.textContent=n+' klant'+(n===1?'':'en')+' om te appen'+(fNiche==='all'?'':' · '+fNiche);}
 }
 function undo(id,prev){
  var c=CLIENTS.filter(function(x){return x.id===id;})[0];if(!c)return;
- c.st=prev;
- api('/set-status','POST',{bedrijf:c.bedrijf,status:(prev==='demo'?'demo':'prospect')});
+ unmarkWa(c); c.st=prev;
+ if(prev==='prospect'||prev==='demo')api('/set-status','POST',{bedrijf:c.bedrijf,status:prev});
  render();
 }
 
