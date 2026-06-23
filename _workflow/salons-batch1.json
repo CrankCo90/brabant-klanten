@@ -30140,5 +30140,85 @@
   "email": "",
   "social": "facebook.com/lelie.schilderbedrijf",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Kolen",
+  "kort": "Stucadoorsbedrijf Kolen",
+  "slug": "stucadoorsbedrijf-kolen-mierlo",
+  "plaats": "Mierlo",
+  "tel_display": "06-51402078",
+  "tel_href": "tel:+31651402078",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf Kolen is al ruim 30 jaar een vertrouwd stukadoorsbedrijf in Mierlo. Van strak glad pleisterwerk en sierpleister tot mediterraan stucwerk: voor elke wand- en plafondafwerking ben je hier aan het juiste adres.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Sierpleister",
+    "Spachtelputz",
+    "Renovatie- en herstelwerk",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/StucadoorsbedrijfKolenMierlo/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Vasco Stucadoorsbedrijf",
+  "kort": "Vasco Stukadoors",
+  "slug": "vasco-stucadoorsbedrijf-geldrop",
+  "plaats": "Geldrop",
+  "tel_display": "06-24131490",
+  "tel_href": "tel:+31624131490",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vasco Stucadoorsbedrijf is een stukadoor uit Geldrop voor strak en duurzaam stucwerk binnen en buiten. Van gladde wanden en plafonds tot sierpleister: vakwerk met oog voor detail en een nette afwerking.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Wanden en plafonds",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Strak Schilders",
+  "kort": "Strak Schilders",
+  "slug": "strak-schilders-middelburg",
+  "plaats": "Middelburg",
+  "tel_display": "06-51401191",
+  "tel_href": "tel:+31651401191",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Strak levert al bijna 25 jaar vakkundig schilderwerk in Middelburg en heel Walcheren, voor particulier en zakelijk. Naast binnen- en buitenschilderwerk ben je er ook voor behangen, houtrotreparatie en kleuradvies.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behangen",
+    "Houtrotreparatie",
+    "Kleuradvies",
+    "Restauratie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@strakschilders.nu",
+  "social": "https://www.facebook.com/people/Strak-Schilders/100050009456316/",
+  "taal": "nl"
  }
 ]

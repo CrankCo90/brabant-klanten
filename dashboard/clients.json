@@ -26748,5 +26748,71 @@
   "telefoon": "0611098356",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Kolen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Helmond",
+  "plaats": "Mierlo",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T12:20:50",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijf-kolen-mierlo.demo.brabantdigital.nl",
+  "waarom": "Eigen website is onbereikbaar (serverfout) en verouderd; alleen bereikbaar via mobiel en Facebook.",
+  "fouten": [
+   "Eigen website is onbereikbaar (serverfout) en verouderd; alleen bereikbaar via mobiel en Facebook"
+  ],
+  "contact": "06-51402078",
+  "bron": null,
+  "social": "https://www.facebook.com/StucadoorsbedrijfKolenMierlo/",
+  "telefoon": "06-51402078",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Vasco Stucadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Helmond",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T12:20:50",
+  "laatste_post": "",
+  "demo_url": "https://vasco-stucadoorsbedrijf-geldrop.demo.brabantdigital.nl",
+  "waarom": "Geen eigen (werkende) website; alleen vindbaar via bedrijvengidsen. Bereikbaar via mobiel.",
+  "fouten": [
+   "Geen eigen (werkende) website; alleen vindbaar via bedrijvengidsen. Bereikbaar via mobiel"
+  ],
+  "contact": "06-24131490",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24131490",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Strak Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zeeland",
+  "plaats": "Middelburg",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T12:20:50",
+  "laatste_post": "",
+  "demo_url": "https://strak-schilders-middelburg.demo.brabantdigital.nl",
+  "waarom": "Verouderde gratis-bouwer website (Site.pro) zonder offerteformulier; toe aan een moderne, snelle site.",
+  "fouten": [
+   "Verouderde gratis-bouwer website (Site.pro) zonder offerteformulier; toe aan een moderne, snelle site"
+  ],
+  "contact": "06-51401191",
+  "bron": null,
+  "social": "https://www.facebook.com/people/Strak-Schilders/100050009456316/",
+  "telefoon": "06-51401191",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
