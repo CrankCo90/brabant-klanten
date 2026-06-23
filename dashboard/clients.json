@@ -27056,5 +27056,49 @@
   "telefoon": "06-50526226",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Nieuwenhof Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T20:13:40",
+  "laatste_post": "",
+  "demo_url": "https://nieuwenhofstukadoors.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen Gmail-adres en social media); bereikbaar via mobiel (06) en e-mail. Een eigen demo-site geeft Geldropse klanten direct een professionele indruk en betere vindbaarheid in Google.",
+  "fouten": [
+   "Geen eigen website (alleen Gmail-adres en social media); bereikbaar via mobiel (06) en e-mail. Een eigen demo-site geeft Geldropse klanten direct een professionele indruk en betere vindbaarheid in Google"
+  ],
+  "contact": "06-21524443",
+  "bron": null,
+  "social": "Instagram & TikTok (Nieuwenhof Stukadoorsbedrijf)",
+  "telefoon": "06-21524443",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stuc-Direct",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Best",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T20:13:40",
+  "laatste_post": "",
+  "demo_url": "https://stucdirectbest.demo.brabantdigital.nl",
+  "waarom": "Zwakke online presentatie: alleen een dunne contactpagina en een Hotmail-adres; bereikbaar via mobiel (06), e-mail en Facebook. Een eigen premium-demo geeft meteen meer uitstraling en meer offerteaanvragen.",
+  "fouten": [
+   "Zwakke online presentatie: alleen een dunne contactpagina en een Hotmail-adres; bereikbaar via mobiel (06), e-mail en Facebook. Een eigen premium-demo geeft meteen meer uitstraling en meer offerteaanvragen"
+  ],
+  "contact": "06-43564646",
+  "bron": null,
+  "social": "Facebook (Stuc-Direct, Best)",
+  "telefoon": "06-43564646",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

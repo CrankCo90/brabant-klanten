@@ -30514,5 +30514,61 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Nieuwenhof Stukadoorsbedrijf",
+  "kort": "Nieuwenhof Stukadoors",
+  "slug": "nieuwenhofstukadoors",
+  "plaats": "Geldrop",
+  "tel_display": "06-21524443",
+  "tel_href": "tel:+31621524443",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Nieuwenhof Stukadoorsbedrijf levert professioneel stucwerk voor elk project in Geldrop en omgeving — van strak glad pleisterwerk tot complete wand- en plafondafwerking. Het bedrijf deelt zijn werk volop op social media, maar heeft nog geen eigen website.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Raapwerk",
+    "Wand- en plafondafwerking",
+    "Sierpleister / spachtelputz",
+    "Renovatie en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "nzhafstukadoors@gmail.com",
+  "social": "Instagram & TikTok (Nieuwenhof Stukadoorsbedrijf)",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stuc-Direct",
+  "kort": "Stuc-Direct",
+  "slug": "stucdirectbest",
+  "plaats": "Best",
+  "tel_display": "06-43564646",
+  "tel_href": "tel:+31643564646",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stuc-Direct uit Best is een stukadoorsbedrijf voor al het binnen- en buitenstucwerk. Het bedrijf is bereikbaar via Facebook en e-mail, maar de huidige online presentatie is beperkt — een dunne losse pagina en een Hotmail-adres.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Raapwerk",
+    "Buitenstucwerk",
+    "Sierpleister",
+    "Wand- en plafondafwerking"
+   ],
+   "certificering": [
+    "KvK 81294182"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stucdirect@hotmail.com",
+  "social": "Facebook (Stuc-Direct, Best)",
+  "taal": "nl"
  }
 ]
