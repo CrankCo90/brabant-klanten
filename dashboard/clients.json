@@ -27232,5 +27232,137 @@
   "telefoon": "06-50241790",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Bijak Schilder",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T23:11:03",
+  "laatste_post": "",
+  "demo_url": "https://bijakschilder.demo.brabantdigital.nl",
+  "waarom": "Alleen vindbaar via Facebook, geen eigen website met projecten en offerteformulier.",
+  "fouten": [
+   "Alleen vindbaar via Facebook, geen eigen website met projecten en offerteformulier"
+  ],
+  "contact": "Alleen https://www.facebook.com/p/BijakSchilder-100064694081002/",
+  "bron": null,
+  "social": "https://www.facebook.com/p/BijakSchilder-100064694081002/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van de Beek Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T23:11:03",
+  "laatste_post": "",
+  "demo_url": "https://vandebeekstucwerken.demo.brabantdigital.nl",
+  "waarom": "Alleen een Facebookpagina en directory-vermeldingen, geen eigen website met offerteformulier.",
+  "fouten": [
+   "Alleen een Facebookpagina en directory-vermeldingen, geen eigen website met offerteformulier"
+  ],
+  "contact": "06-14324604",
+  "bron": null,
+  "social": "https://www.facebook.com/vandebeek.Stucwerken/",
+  "telefoon": "06-14324604",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Cuijpers & van Dam Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Vlierden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T23:11:03",
+  "laatste_post": "",
+  "demo_url": "https://cuijpersvandamstukadoors.demo.brabantdigital.nl",
+  "waarom": "Slechts een eenvoudige een-pagina-site zonder projecten, reviews of online offerteformulier.",
+  "fouten": [
+   "Slechts een eenvoudige een-pagina-site zonder projecten, reviews of online offerteformulier"
+  ],
+  "contact": "06-51635151",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51635151",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Leo van de Mortel Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Asten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T23:11:03",
+  "laatste_post": "",
+  "demo_url": "https://leovandemortelschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Verouderde website zonder HTTPS-beveiliging (oude WordPress, geen mobiel offerteformulier).",
+  "fouten": [
+   "Verouderde website zonder HTTPS-beveiliging (oude WordPress, geen mobiel offerteformulier)"
+  ],
+  "contact": "06-10202668",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-10202668",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf van Otterdijk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Someren",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T23:11:03",
+  "laatste_post": "",
+  "demo_url": "https://schildervanotterdijk.demo.brabantdigital.nl",
+  "waarom": "Verouderde, dunne website (oude WordPress uit 2019) zonder moderne uitstraling.",
+  "fouten": [
+   "Verouderde, dunne website (oude WordPress uit 2019) zonder moderne uitstraling"
+  ],
+  "contact": "06-11278041",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11278041",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Bennenbroek",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Someren",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T23:11:03",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfbennenbroek.demo.brabantdigital.nl",
+  "waarom": "Bestaande website is verouderd (laatst bijgewerkt in 2020, oude techniek).",
+  "fouten": [
+   "Bestaande website is verouderd (laatst bijgewerkt in 2020, oude techniek)"
+  ],
+  "contact": "06-22506841",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22506841",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
