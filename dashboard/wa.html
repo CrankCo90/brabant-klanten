@@ -35,6 +35,9 @@ header{position:sticky;top:0;z-index:5;background:rgba(11,20,26,.96);backdrop-fi
 .wa-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:12px;background:#25D366;color:#06281a;font-weight:800;font-size:17px;text-decoration:none;border:0;border-radius:12px;padding:15px 12px}
 .wa-btn:active{background:#1da851}
 .wa-btn svg{width:24px;height:24px}
+.sms-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:8px;background:#2f6fed;color:#fff;font-weight:800;font-size:17px;text-decoration:none;border:0;border-radius:12px;padding:14px 12px}
+.sms-btn:active{background:#2559c9}
+.sms-btn svg{width:22px;height:22px}
 .card.done{opacity:.6}
 .done-row{display:flex;align-items:center;gap:10px;font-size:15px;color:#8696a0;padding:2px 2px}
 .done-row .ok{color:#25D366;font-weight:800}
@@ -133,6 +136,7 @@ function waText(c){if(c.wa)return c.wa;
  return "Hoi "+nm+"! "+H+" Ik ben Leroy van Brabant Digital. "+q+"Ik kon geen e-mailadres van "+c.n+" vinden, daarom app ik je even. Ik heb alvast gratis een complete voorbeeldsite voor je gemaakt "+D+" kijk gerust, kost je 30 seconden:\n"+P+" "+url+"\n\nWat vind je? Mocht 'ie je aanspreken, dan vertel ik je graag hoe we 'm live kunnen krijgen. En zo niet, dan hoor ik dat ook graag eerlijk "+S+"\n\nGroetjes van Leroy "+D+" Brabant Digital";
 }
 function waLink(c){return 'https://wa.me/'+waNumber(c.phone)+'?text='+encodeURIComponent(waText(c));}
+function smsLink(c){return 'sms:+'+waNumber(c.phone)+'?&body='+encodeURIComponent(waText(c));}
 
 /* ---- data ---- */
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -175,12 +179,13 @@ function render(){
      +(mailDone(c)?'<div class="cbadge mailed">✉ al gemaild — opvolg-appje</div>':(c.em?'':'<div class="cbadge noem">geen e-mail bekend</div>'))
      +'<a class="wa-btn" href="'+esc(waLink(c))+'" target="_blank" rel="noopener" data-id="'+c.id+'">'
      +'<svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> WhatsApp openen</a>'
+     +'<a class="sms-btn" href="'+esc(smsLink(c))+'" data-id="'+c.id+'"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4V6a2 2 0 0 1 2-2z"/></svg> SMS sturen</a>'
      +'</div>';
   });
   html+='</div>';
  });
  $("#list").innerHTML=html;
- $("#list").querySelectorAll('.wa-btn').forEach(function(a){a.addEventListener('click',function(){onWa(parseInt(a.dataset.id,10));});});
+ $("#list").querySelectorAll('.wa-btn,.sms-btn').forEach(function(a){a.addEventListener('click',function(){onWa(parseInt(a.dataset.id,10));});});
 }
 
 function onWa(id){
