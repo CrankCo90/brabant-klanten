@@ -26924,5 +26924,49 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Snel Stukadoor en Bouw BV",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Sittard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T14:19:51",
+  "laatste_post": "",
+  "demo_url": "https://snel-stukadoor-sittard.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (logo uit 2014, laatst bijgewerkt in 2022, oude slider-plugins en Engelse pagina-instellingen); mobiel bereikbaar via 06 - een premium demo is een duidelijke upgrade.",
+  "fouten": [
+   "Verouderde website (logo uit 2014, laatst bijgewerkt in 2022, oude slider-plugins en Engelse pagina-instellingen); mobiel bereikbaar via 06 - een premium demo is een duidelijke upgrade"
+  ],
+  "contact": "06-22002682",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22002682",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "OSM Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Stein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T14:19:51",
+  "laatste_post": "",
+  "demo_url": "https://osm-stukadoor-stein.demo.brabantdigital.nl",
+  "waarom": "De huidige website is een Wix-bouwer-site met niet-ingestelde SEO (de paginatitel staat nog op de standaard 'Home | Mysite') en dunne, een-pagina-inhoud; mobiel en per e-mail bereikbaar - een premium demo is een duidelijke upgrade.",
+  "fouten": [
+   "De huidige website is een Wix-bouwer-site met niet-ingestelde SEO (de paginatitel staat nog op de standaard 'Home | Mysite') en dunne, een-pagina-inhoud; mobiel en per e-mail bereikbaar - een premium demo is een duidelijke upgrade"
+  ],
+  "contact": "06-17329027",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-17329027",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

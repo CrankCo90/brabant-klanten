@@ -30355,5 +30355,60 @@
   "email": "",
   "social": "Facebook Stukadoorsbedrijf D. Quix",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Snel Stukadoor en Bouw BV",
+  "kort": "Snel Stukadoor",
+  "slug": "snel-stukadoor-sittard",
+  "plaats": "Sittard",
+  "tel_display": "06-22002682",
+  "tel_href": "tel:+31622002682",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Snel Stukadoor en Bouw begon in 2001 als stukadoorsbedrijf en voert inmiddels uiteenlopende klussen uit, waaronder stuc-, schilder- en tegelwerk. Actief in Sittard, Geleen, Susteren, Echt en omstreken. Afwerking met gips, mortel, spachtelputz en sierpleister.",
+   "specialisaties": [
+    "Stucwerk (gips & mortel)",
+    "Spachtelputz",
+    "Sierpleister",
+    "Schilderwerk",
+    "Tegelwerk",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "OSM Stukadoor",
+  "kort": "OSM Stukadoor",
+  "slug": "osm-stukadoor-stein",
+  "plaats": "Stein",
+  "tel_display": "06-17329027",
+  "tel_href": "tel:+31617329027",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "OSM Stukadoor verzorgt strak stucwerk voor wanden en plafonds in Stein en omgeving, met heldere prijzen, een vrijblijvende offerte en garantie op het werk.",
+   "specialisaties": [
+    "Wanden stucen",
+    "Plafond stucen",
+    "Glad pleisterwerk",
+    "Afwerking",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@osm-stukadoor.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
