@@ -29748,5 +29748,239 @@
   "email": "info@orhanstucadoors.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf John Daenen",
+  "kort": "John Daenen",
+  "slug": "johndaenenstukadoors",
+  "plaats": "Bunde",
+  "tel_display": "06-13481358",
+  "tel_href": "tel:+31613481358",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "John",
+   "verhaal": "Stukadoorsbedrijf John Daenen is dé vakman voor stukadoorswerk in Bunde en de regio Zuid-Limburg. Van strak glad stucwerk tot sierpleister en sierplafonds — voor zowel particulieren als bedrijven, met ruime ervaring en oog voor een perfect glad resultaat.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Spachtelputz & sierpleister",
+    "Sierplafonds en strakke plafonds",
+    "Renovatie en restauratie van stucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@johndaenen.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Roy Felix",
+  "kort": "Roy Felix",
+  "slug": "royfelixstukadoor",
+  "plaats": "Valkenburg",
+  "tel_display": "06-27424939",
+  "tel_href": "tel:+31627424939",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roy",
+   "verhaal": "Stukadoorsbedrijf Roy Felix verzorgt stucwerk in Valkenburg en het Heuvelland. Van glad pleisterwerk tot sierpleister en spuitwerk, in bestaande bouw en nieuwbouw — netjes afgewerkt en op afspraak.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister / spachtelputz",
+    "Spuit- en raapwerk",
+    "Stucwerk bij renovatie en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "JL-stucadoor",
+  "kort": "JL-stucadoor",
+  "slug": "jlstucadoor",
+  "plaats": "Klimmen",
+  "tel_display": "06-52321991",
+  "tel_href": "tel:+31652321991",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "JL-stucadoor is een stukadoorsbedrijf uit Klimmen (gemeente Voerendaal). Strak glad stucwerk, sierpleister en spuitwerk voor woningen en bedrijven in Zuid-Limburg, met persoonlijke aandacht en een nette afwerking.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister / spachtelputz",
+    "Spuitwerk",
+    "Afbouw en renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf D. Quix",
+  "kort": "D. Quix",
+  "slug": "quixstukadoor",
+  "plaats": "Geleen",
+  "tel_display": "06-55366076",
+  "tel_href": "tel:+31655366076",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf D. Quix verzorgt stucwerk in Geleen en omgeving. Van gladde wanden en plafonds tot sierpleister — voor particulieren en bedrijven, met vakmanschap en oog voor detail.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister / spachtelputz",
+    "Plafondafwerking",
+    "Renovatie en afbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Jan Prevos",
+  "kort": "Jan Prevos",
+  "slug": "janprevosschilders",
+  "plaats": "Voerendaal",
+  "tel_display": "06-53981089",
+  "tel_href": "tel:+31653981089",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jan",
+   "verhaal": "Schildersbedrijf Jan Prevos is een schildersbedrijf uit Voerendaal voor particulieren en bedrijven in Zuid-Limburg. Of het nu gaat om binnen- of buitenschilderwerk, houtwerk of een frisse muur: vakwerk en een nette afwerking staan voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel en onderhoud",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf F. Egges",
+  "kort": "F. Egges",
+  "slug": "eggesschilders",
+  "plaats": "Heerlen",
+  "tel_display": "06-34873299",
+  "tel_href": "tel:+31634873299",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf F. Egges verzorgt schilderwerk in Heerlen en omgeving. Binnen- en buitenschilderwerk, houtwerk en onderhoud voor particulieren en bedrijven, met een nette en duurzame afwerking.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel en onderhoud",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Marc Storms",
+  "kort": "Marc Storms",
+  "slug": "marcstormsschilders",
+  "plaats": "Heerlen",
+  "tel_display": "06-55983797",
+  "tel_href": "tel:+31655983797",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Marc",
+   "verhaal": "Schildersbedrijf Marc Storms is een schildersbedrijf uit Heerlen voor binnen- en buitenschilderwerk in Zuid-Limburg. Persoonlijk, betrouwbaar en met oog voor een strakke afwerking — voor particulieren en bedrijven.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel en onderhoud",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://nl.linkedin.com/in/marc-storms-90244731",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Content Schilderwerken",
+  "kort": "Content Schilderwerken",
+  "slug": "contentschilderwerken",
+  "plaats": "Hoensbroek",
+  "tel_display": "06-46872191",
+  "tel_href": "tel:+31646872191",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Content Schilderwerken verzorgt schilderwerk in Hoensbroek en omgeving. Van binnen- en buitenschilderwerk tot onderhoud en houtwerk — vakwerk met een nette, duurzame afwerking voor particulieren en bedrijven.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel en onderhoud",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Alink Schilderwerken",
+  "kort": "Alink Schilderwerken",
+  "slug": "alinkschilderwerken",
+  "plaats": "Landgraaf",
+  "tel_display": "06-40826533",
+  "tel_href": "tel:+31640826533",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Alink Schilderwerken is een schildersbedrijf uit Landgraaf met ruime ervaring in binnen- en buitenschilderwerk. Met top-beoordelingen van klanten staat vakmanschap, netheid en een goede service voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel en onderhoud",
+    "Behang- en sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
