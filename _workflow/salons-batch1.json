@@ -30220,5 +30220,140 @@
   "email": "info@strakschilders.nu",
   "social": "https://www.facebook.com/people/Strak-Schilders/100050009456316/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Fejza Interieur & Afwerkingstechniek",
+  "kort": "Fejza",
+  "slug": "fejzainterieur",
+  "plaats": "Sittard-Geleen",
+  "tel_display": "06-18251690",
+  "tel_href": "tel:+31618251690",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Fejza Interieur & Afwerkingstechniek levert strak stucwerk en vakkundig schilderwerk in Sittard-Geleen en omgeving. Of het nu gaat om gladde wanden, sierpleister of een complete afwerking: persoonlijk advies, hoogwaardige materialen en een resultaat waar u trots op bent.",
+   "specialisaties": [
+    "Strak pleisterwerk & gladde wanden",
+    "Sierpleister & betonlook",
+    "Binnen- en buitenschilderwerk",
+    "Plafonds afwerken & verlagen",
+    "Complete renovatie & afwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@fejzabouw.nl",
+  "social": "Facebook · fejzabouw.nl (Wix)",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dayan Stukadoorsbedrijf",
+  "kort": "Dayan",
+  "slug": "dayanstukadoorsbedrijf",
+  "plaats": "Maastricht",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dayan Stukadoorsbedrijf zorgt voor strak en professioneel stucwerk in Maastricht en omgeving. Een perfect glad resultaat, klaar voor iedere afwerking — met oog voor detail en een nette werkwijze.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Wanden & plafonds stucen",
+    "Spuitwerk / latex",
+    "Sierpleister",
+    "Renovatie & nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "IG @dayanstukadoorsbedrijf · Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Yaser Stukadoor",
+  "kort": "Yaser",
+  "slug": "yaserstukadoor",
+  "plaats": "Heerlen",
+  "tel_display": "06-12377370",
+  "tel_href": "tel:+31612377370",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Yaser",
+   "verhaal": "Yaser Stukadoor is een stukadoor uit Heerlen voor strak stucwerk op wanden en plafonds. Van glad pleisterwerk tot spuitwerk: vakkundig, betrouwbaar en netjes afgewerkt.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Wanden & plafonds stucen",
+    "Spuitwerk / latex",
+    "Sierpleister",
+    "Renovatie & nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MW Stukadoorsbedrijf",
+  "kort": "MW",
+  "slug": "mwstukadoorsbedrijf",
+  "plaats": "Geleen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "MW Stukadoorsbedrijf zorgt voor fris en strak stucwerk in Geleen en omgeving. Wanden en plafonds met een nette afwerking voor een moderne uitstraling.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Wanden & plafonds stucen",
+    "Spuitwerk / latex",
+    "Sierpleister",
+    "Renovatie & nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "IG @mw_stukadoorsbedrijf",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf D. Quix",
+  "kort": "D. Quix",
+  "slug": "stukadoorsbedrijfquix",
+  "plaats": "Geleen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf D. Quix uit Geleen voert meer uit dan alleen stucwerk: van dunpleisterwerk en tegelwerk tot schilderwerk en verlaagde plafonds. Alles netjes en vakkundig afgewerkt.",
+   "specialisaties": [
+    "Stucwerk",
+    "Dunpleisterwerk",
+    "Tegelwerk",
+    "Schilderwerk",
+    "Verlaagde plafonds & voorzetwanden"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "Facebook Stukadoorsbedrijf D. Quix",
+  "taal": "nl"
  }
 ]
