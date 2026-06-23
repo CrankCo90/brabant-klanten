@@ -1,54 +1,54 @@
 # Apple Shortcut — afwijzing op WhatsApp/SMS automatisch verwerken
 
-> Doel: als een prospect via WhatsApp of SMS afwijst, deel je dat bericht naar een Shortcut.
-> De server herkent automatisch of het een "nee" is, zet de klant op **afgewezen**, haalt de
-> **demo offline** en logt de reactie. Werkt op je iPhone (ook iOS 15 / iPhone 6s).
+> Doel: deel je een afwijzings-bericht naar deze Shortcut, dan zet de server de klant op
+> **afgewezen**, haalt de **demo offline** en logt de reactie. Werkt op iPhone 6s (iOS 15).
 
 ## Wat het wel/niet doet
-- **Wel:** met één deel-actie + (kort) het afzendernummer wordt de afwijzing volledig verwerkt.
-- **Niet (kan technisch niet op iPhone):** automatisch meelezen zónder dat jij iets deelt. iOS geeft
-  een app/Shortcut geen toegang tot binnenkomende berichten of de afzender. Daarom: jij deelt het bericht.
-- De rode **"Afwijzing ontvangen"-knop** in de WhatsApp-lijst (`/admin/wa.html`) doet exact hetzelfde
-  zónder typen — gebruik die als je toch al in de lijst zit.
+- **Wel:** één deel-actie + (kort) het afzendernummer → afwijzing volledig verwerkt.
+- **Niet (kan niet op iPhone):** automatisch meelezen zonder dat jij iets deelt.
+- Sneller en zonder typen: de rode **“Afwijzing ontvangen”-knop** in `/admin/wa.html` doet hetzelfde.
 
 ## Eénmalig: je controle-token ophalen
-Het token is geheim en zit op de VPS. Print het en kopieer het (je plakt het straks in de Shortcut):
-
 **VPS-terminal:**
 ```
 cat /root/outreach-data/.control-token
 ```
+Kopieer de uitvoer; die plak je straks in de Shortcut.
 
-## De Shortcut bouwen (Opdrachten-app)
-1. Open **Opdrachten** → **+** (nieuwe opdracht) → naam: *Afwijzing verwerken*.
-2. Tik op het **info-icoon (ⓘ)** onderaan → zet **"Weergeven in deelmenu"** AAN → bij "Soort deelmenu-invoer" alleen **Tekst** aanvinken.
-3. Voeg deze acties toe, in deze volgorde:
-   - **"Tekst ophalen uit invoer"** (Get text from Input) → invoer = *Opdrachtinvoer (deelmenu)*. Hiermee komt de berichttekst binnen.
-   - **"Vraag om invoer"** (Ask for Input) → Vraag: `Nummer van afzender (06… of +31…)`, type **Getal/Tekst**. (Tip: kopieer het nummer eerst uit de chat, dan kun je plakken.)
-   - **"Woordenlijst"** (Dictionary) met drie sleutels:
-     - `text`  → waarde: *Tekst ophalen uit invoer* (de berichttekst)
-     - `sender` → waarde: *Opgegeven invoer* (het nummer uit de vorige stap)
-     - `channel` → waarde: `whatsapp`  (of `sms`)
-   - **"Inhoud van URL ophalen"** (Get Contents of URL):
+## De Shortcut bouwen (Opdrachten-app) — SIMPELE versie (4 acties)
+> Tip: je hoeft de actie **“Tekst ophalen uit invoer” NIET** te gebruiken. Je verwijst gewoon
+> rechtstreeks naar de variabele **“Opdrachtinvoer”** (Shortcut Input) — dat ís de gedeelde tekst.
+> Elke actie vind je door onderaan in de **zoekbalk** de naam te typen.
+
+1. Nieuwe opdracht → naam **Afwijzing verwerken**.
+2. Tik op het **ⓘ (info)** onderaan → **“Weergeven in deelmenu”** AAN → invoertype alleen **Tekst**.
+3. Acties toevoegen, in volgorde:
+   - **Vraag om invoer** — Vraag: `Nummer van de klant (06… of +31…)`, type **Tekst**.
+   - **Woordenlijst** (Dictionary), 3 sleutels:
+     - `text`  → waarde: variabele **Opdrachtinvoer** (Shortcut Input)
+     - `sender` → waarde: variabele **Opgegeven invoer** (uit “Vraag om invoer”)
+     - `channel` → waarde: `whatsapp`
+   - **Inhoud van URL ophalen** (Get Contents of URL):
      - URL: `https://brabantdigital.nl/api/incoming`
      - Methode: **POST**
-     - Koppen (Headers):
-       - `Authorization` = `Bearer JOUW_TOKEN_HIER`  ← plak hier het token uit de VPS-stap
-       - `Content-Type` = `application/json`
-     - Aanvraagtekst (Request Body): **JSON** → kies *Woordenlijst* (de Dictionary van hierboven).
-   - **"Toon meldingstekst"** (Show Notification) of **"Snel kijken"** (Quick Look) → inhoud = *Inhoud van URL ophalen* (dan zie je wat er is gebeurd, bv. "… op 'afgewezen' gezet en demo offline gehaald").
-4. Klaar. Bewaren.
+     - Koppen: `Authorization` = `Bearer JOUW_TOKEN` · `Content-Type` = `application/json`
+     - Aanvraagtekst: **JSON** → kies de **Woordenlijst** van hierboven.
+   - **Toon resultaat** (Show Result) → inhoud = **Inhoud van URL ophalen**.
+4. Bewaren.
+
+### Een variabele invoegen (belangrijk)
+Tik in een waardeveld (bv. bij `text`) → er verschijnt boven het toetsenbord een balk met
+**variabelen**. Kies daar **Opdrachtinvoer** (Shortcut Input) of **Opgegeven invoer**.
 
 ## Gebruiken
 1. Lees de afwijzing in WhatsApp of Berichten.
-2. Houd het bericht ingedrukt → **Deel** (of selecteer de tekst → Deel) → kies **Afwijzing verwerken**.
-3. Plak/typ het afzendernummer → klaar. De server:
-   - herkent "nee / geen interesse / stop / graag niet / …" → **afgewezen + demo offline + commit/push**;
-   - herkent "ja / graag / afspraak / …" → logt het als positieve reactie (geen status­wijziging);
-   - twijfel → logt het als "reactie" zodat je het terugziet.
-4. Geen match op het nummer? Dan meldt de Shortcut dat, en verandert er niets (controleer het nummer).
+2. Selecteer/houd het bericht ingedrukt → **Deel** → kies **Afwijzing verwerken**.
+3. Typ/plak het afzendernummer → klaar. De server:
+   - “nee / geen interesse / stop / graag niet / …” → **afgewezen + demo offline + push**;
+   - “ja / graag / afspraak / …” → gelogd als positieve reactie (geen statuswijziging);
+   - twijfel → gelogd als “reactie”.
 
 ## Belangrijk
-- Het nummer hoeft niet exact te matchen op +31/06/spaties — de server vergelijkt de laatste 9 cijfers.
+- Nummer hoeft niet exact: de server vergelijkt de **laatste 9 cijfers** (+31/06/spaties maakt niet uit).
 - Werkt alleen voor klanten die met dat **mobiele nummer** in het systeem staan.
-- Het token is geheim: deel de Shortcut niet met het token erin.
+- Token is geheim — deel de Shortcut niet met het token erin.
