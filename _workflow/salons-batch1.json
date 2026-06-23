@@ -29982,5 +29982,137 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf van Tiggelen",
+  "kort": "van Tiggelen",
+  "slug": "schildersbedrijfvantiggelen",
+  "plaats": "Overloon",
+  "tel_display": "06-21598480",
+  "tel_href": "tel:+31621598480",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Vertrouwd schildersbedrijf uit Overloon voor binnen- en buitenschilderwerk, houtrotherstel en wandafwerking bij particulieren en bedrijven in het Land van Cuijk.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Walter Bens",
+  "kort": "Walter Bens",
+  "slug": "schildersbedrijfwalterbens",
+  "plaats": "Landhorst",
+  "tel_display": "06-29410806",
+  "tel_href": "tel:+31629410806",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Walter",
+   "verhaal": "Schildersbedrijf uit Landhorst dat al sinds 2000 zorgt voor strak binnen- en buitenschilderwerk en nette afwerking voor woningen en bedrijfspanden in het Land van Cuijk.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Behang- en wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Frans Janssen Schilderwerken",
+  "kort": "Frans Janssen",
+  "slug": "fransjanssenschilderwerken",
+  "plaats": "Sint Hubert",
+  "tel_display": "06-52648285",
+  "tel_href": "tel:+31652648285",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Frans",
+   "verhaal": "Persoonlijk schildersbedrijf uit Sint Hubert voor binnen- en buitenschilderwerk, glaszetten en houtrotherstel, met korte lijnen en eerlijke afspraken.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Glaszetten",
+    "Houtrotherstel"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "fjschilderwerken@hetnet.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hermans Schilderwerken",
+  "kort": "Hermans",
+  "slug": "hermansschilderwerken",
+  "plaats": "Beugen",
+  "tel_display": "06-12150992",
+  "tel_href": "tel:+31612150992",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Frenck",
+   "verhaal": "Erkend schildersbedrijf uit Beugen voor binnen- en buitenschilderwerk, houtrot- en betonherstel, glaszetten en wandafwerking, met een eigen onderhoudsplan voor langdurig mooi vastgoed.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrot- en betonherstel",
+    "Glaszetten & wandafwerking"
+   ],
+   "certificering": [
+    "Erkend Betere Schilder"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schilderwerkenhermans.nl",
+  "social": "https://www.instagram.com/hermans_schilderwerken1840/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Clint Schilderwerk",
+  "kort": "Clint",
+  "slug": "clintschilderwerk",
+  "plaats": "Grave",
+  "tel_display": "06-41638218",
+  "tel_href": "tel:+31641638218",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Clint",
+   "verhaal": "Jong en vakkundig schildersbedrijf uit Grave voor binnen- en buitenschilderwerk, spuitwerk en wandafwerking bij woningen en bedrijfsruimtes in het Land van Cuijk.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Spuitwerk",
+    "Wandafwerking",
+    "Bedrijfsruimtes"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]

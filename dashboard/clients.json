@@ -26616,5 +26616,115 @@
   "telefoon": "06-40826533",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf van Tiggelen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Overloon",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T11:23:49",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfvantiggelen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vermeldingen in bedrijvengidsen, waardoor het bedrijf online nauwelijks vindbaar is.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen in bedrijvengidsen, waardoor het bedrijf online nauwelijks vindbaar is"
+  ],
+  "contact": "06-21598480",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21598480",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Walter Bens",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Landhorst",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T11:23:49",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfwalterbens.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen directory-vermeldingen, waardoor nieuwe klanten geen moderne online presentatie vinden.",
+  "fouten": [
+   "Geen eigen website, alleen directory-vermeldingen, waardoor nieuwe klanten geen moderne online presentatie vinden"
+  ],
+  "contact": "06-29410806",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-29410806",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Frans Janssen Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Sint Hubert",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T11:23:49",
+  "laatste_post": "",
+  "demo_url": "https://fransjanssenschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website en een verouderd hetnet-mailadres; het bedrijf is online nauwelijks vindbaar of modern gepresenteerd.",
+  "fouten": [
+   "Geen eigen website en een verouderd hetnet-mailadres; het bedrijf is online nauwelijks vindbaar of modern gepresenteerd"
+  ],
+  "contact": "06-52648285",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52648285",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hermans Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Beugen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T11:23:49",
+  "laatste_post": "",
+  "demo_url": "https://hermansschilderwerken.demo.brabantdigital.nl",
+  "waarom": "De huidige website is een verouderde WordPress-site uit 2017 die niet meer is bijgewerkt en niet modern oogt op mobiel.",
+  "fouten": [
+   "De huidige website is een verouderde WordPress-site uit 2017 die niet meer is bijgewerkt en niet modern oogt op mobiel"
+  ],
+  "contact": "06-12150992",
+  "bron": null,
+  "social": "https://www.instagram.com/hermans_schilderwerken1840/",
+  "telefoon": "06-12150992",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Clint Schilderwerk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Grave",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-23",
+  "aangemaakt": "2026-06-23T11:23:49",
+  "laatste_post": "",
+  "demo_url": "https://clintschilderwerk.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vermeldingen in bedrijvengidsen en op social media, waardoor het bedrijf online moeilijk vindbaar is.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen in bedrijvengidsen en op social media, waardoor het bedrijf online moeilijk vindbaar is"
+  ],
+  "contact": "06-41638218",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-41638218",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
