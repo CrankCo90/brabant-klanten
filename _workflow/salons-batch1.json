@@ -30897,5 +30897,175 @@
   "email": "info@schildersbedrijfbennenbroek.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "MAX Stukadoor",
+  "kort": "MAX Stukadoor",
+  "slug": "maxstukadoor-zwolle",
+  "plaats": "Zwolle",
+  "tel_display": "06-30154564",
+  "tel_href": "tel:+31630154564",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "MAX Stukadoor is een stukadoorsbedrijf uit Zwolle met passie voor het vak. Voor strak stucwerk, pleisterwerk en de afwerking van wanden en plafonds in Zwolle en omgeving ben je bij MAX aan het juiste adres.",
+   "specialisaties": [
+    "Stucwerk",
+    "Pleisterwerk",
+    "Wandafwerking",
+    "Plafondafwerking",
+    "Sierpleister",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@maxstukadoor.nl",
+  "social": "IG @maxstukadoor.nl",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Deventer Stucadoor",
+  "kort": "Deventer Stucadoor",
+  "slug": "deventer-stucadoor-deventer",
+  "plaats": "Deventer",
+  "tel_display": "06-16464131",
+  "tel_href": "tel:+31616464131",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mark",
+   "verhaal": "Deventer Stucadoor is een veelzijdige stukadoor uit Deventer, gespecialiseerd in restauratie, behang- en sausklaar pleisterwerk, sierpleister en maatwerk. Met oog voor detail wordt elk oud of nieuw stucwerk strak afgewerkt.",
+   "specialisaties": [
+    "Restauratie stucwerk",
+    "Behangklaar pleisterwerk",
+    "Sausklaar pleisterwerk",
+    "Sierpleister",
+    "Spachtelputz",
+    "Maatwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "mark@deventerstucadoor.nl",
+  "social": "FB deventerstucadoor",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoor Schilderwerk Hasan",
+  "kort": "Schilderwerk Hasan",
+  "slug": "stucadoor-schilderwerk-hasan-enschede",
+  "plaats": "Enschede",
+  "tel_display": "06-23892998",
+  "tel_href": "tel:+31623892998",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Hasan",
+   "verhaal": "Stucadoor Schilderwerk Hasan verzorgt stuc- en schilderwerk in Enschede en omgeving. Van strak stucwerk tot vakkundig binnen- en buitenschilderwerk: alles voor een fris afgewerkte woning.",
+   "specialisaties": [
+    "Stucwerk",
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Wandafwerking",
+    "Plafondafwerking",
+    "Behangwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "FB & IG stucadoorschilderwerkenhasan",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Zon Stuc",
+  "kort": "Van Zon Stuc",
+  "slug": "van-zon-stuc-zwolle",
+  "plaats": "Zwolle",
+  "tel_display": "06-15869370",
+  "tel_href": "tel:+31615869370",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Van Zon Stuc is al vijf generaties een vertrouwd stukadoorsbedrijf in Zwolle. Van gladpleisterwerk en sierpleister tot buitengevelwerk, restauratie en renovatie: vakwerk met oog voor detail, met NOA-afbouwgarantie.",
+   "specialisaties": [
+    "Gladpleisterwerk",
+    "Sierpleisterwerk",
+    "Buitengevelwerk",
+    "Plafondwerk",
+    "Restauratiewerk",
+    "Renovatiewerk"
+   ],
+   "certificering": [
+    "NOA-afbouwgarantie"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vanzonstuc.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Deventer",
+  "kort": "Stukadoorsbedrijf Deventer",
+  "slug": "stukadoorsbedrijf-deventer-diepenveen",
+  "plaats": "Deventer",
+  "tel_display": "06-25277461",
+  "tel_href": "tel:+31625277461",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Oscar Korderijnk",
+   "verhaal": "Stukadoorsbedrijf Deventer is het bedrijf van Oscar Korderijnk uit Diepenveen, met ruim 18 jaar ervaring als stukadoor in Deventer en omstreken. Voor zowel nieuwbouw als bestaande bouw, particulier en zakelijk, geldt: afspraak is afspraak en vakmanschap voorop.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sausklaar pleisterwerk",
+    "Behangklaar pleisterwerk",
+    "Sierpleister",
+    "Spuitwerk",
+    "Plafondwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijfdeventer.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Doorneweerd Schilderwerken",
+  "kort": "Doorneweerd Schilderwerken",
+  "slug": "doorneweerd-schilderwerken-rijssen",
+  "plaats": "Rijssen",
+  "tel_display": "06-53826067",
+  "tel_href": "tel:+31653826067",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Doorneweerd Schilderwerken uit Rijssen is al 25 jaar een vertrouwd adres voor binnen- en buitenschilderwerk. Met oog voor detail en de nieuwste technieken laat Doorneweerd elke woning weer stralen als nieuw.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Wandafwerking",
+    "Spuitwerk",
+    "Houtrotreparatie",
+    "Behangwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@doorneweerdschilderwerken.nl",
+  "social": "IG @doorneweerdschilderwerken",
+  "taal": "nl"
  }
 ]

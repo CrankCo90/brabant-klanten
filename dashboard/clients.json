@@ -27364,5 +27364,137 @@
   "telefoon": "06-22506841",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "MAX Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Zwolle",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T21:55:28",
+  "laatste_post": "",
+  "demo_url": "https://maxstukadoor-zwolle.demo.brabantdigital.nl",
+  "waarom": "Nog geen eigen website (website in aanbouw), alleen Instagram.",
+  "fouten": [
+   "Nog geen eigen website (website in aanbouw), alleen Instagram"
+  ],
+  "contact": "06-30154564",
+  "bron": null,
+  "social": "IG @maxstukadoor.nl",
+  "telefoon": "06-30154564",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Deventer Stucadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Deventer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T21:55:28",
+  "laatste_post": "",
+  "demo_url": "https://deventer-stucadoor-deventer.demo.brabantdigital.nl",
+  "waarom": "Verouderde een-pagina website (sinds 2024 niet bijgewerkt), beperkte uitstraling.",
+  "fouten": [
+   "Verouderde een-pagina website (sinds 2024 niet bijgewerkt), beperkte uitstraling"
+  ],
+  "contact": "06-16464131",
+  "bron": null,
+  "social": "FB deventerstucadoor",
+  "telefoon": "06-16464131",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoor Schilderwerk Hasan",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Enschede",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T21:55:28",
+  "laatste_post": "",
+  "demo_url": "https://stucadoor-schilderwerk-hasan-enschede.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen Facebook en Instagram.",
+  "fouten": [
+   "Geen eigen website, alleen Facebook en Instagram"
+  ],
+  "contact": "06-23892998",
+  "bron": null,
+  "social": "FB & IG stucadoorschilderwerkenhasan",
+  "telefoon": "06-23892998",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Zon Stuc",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Zwolle",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T21:55:28",
+  "laatste_post": "",
+  "demo_url": "https://van-zon-stuc-zwolle.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (WordPress 5.8.1, beelden uit 2017), niet meer van deze tijd.",
+  "fouten": [
+   "Sterk verouderde website (WordPress 5.8.1, beelden uit 2017), niet meer van deze tijd"
+  ],
+  "contact": "06-15869370",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-15869370",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Deventer",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Deventer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T21:55:28",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-deventer-diepenveen.demo.brabantdigital.nl",
+  "waarom": "Verouderde Wix-website met beperkte uitstraling en zwakke vindbaarheid.",
+  "fouten": [
+   "Verouderde Wix-website met beperkte uitstraling en zwakke vindbaarheid"
+  ],
+  "contact": "06-25277461",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-25277461",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Doorneweerd Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Rijssen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T21:55:28",
+  "laatste_post": "",
+  "demo_url": "https://doorneweerd-schilderwerken-rijssen.demo.brabantdigital.nl",
+  "waarom": "Dunne een-pagina website met niet-werkende projectlinks; veel ruimte voor verbetering.",
+  "fouten": [
+   "Dunne een-pagina website met niet-werkende projectlinks; veel ruimte voor verbetering"
+  ],
+  "contact": "06-53826067",
+  "bron": null,
+  "social": "IG @doorneweerdschilderwerken",
+  "telefoon": "06-53826067",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
