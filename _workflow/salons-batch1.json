@@ -31067,5 +31067,143 @@
   "email": "info@doorneweerdschilderwerken.nl",
   "social": "IG @doorneweerdschilderwerken",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Bos Schilderwerken",
+  "kort": "Bos Schilderwerken",
+  "slug": "bosschilderwerkenboxmeer",
+  "plaats": "Boxmeer",
+  "tel_display": "06-51865918",
+  "tel_href": "tel:+31651865918",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Walter Bos",
+   "verhaal": "Bos Schilderwerken en Vastgoedonderhoud uit Boxmeer is al sinds 1983 actief in het schildersvak. Eigenaar Walter Bos staat met zijn team voor vakwerk en betrouwbaar onderhoud, voor particulieren en bedrijven in Boxmeer en het hele Land van Cuijk.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Glaszetten",
+    "Behangwerk",
+    "Monumentale panden",
+    "Houtrotherstel",
+    "Vastgoedonderhoud"
+   ],
+   "certificering": [
+    "AF Erkend"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/BosBoxmeer",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Peters Rit Schilderwerken",
+  "kort": "Peters Rit",
+  "slug": "petersritschilderwerken",
+  "plaats": "Boxmeer",
+  "tel_display": "06-12889955",
+  "tel_href": "tel:+31612889955",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Peters Rit Schilderwerken uit Boxmeer is gespecialiseerd in professioneel schilderwerk voor binnen en buiten. Met ruim tien jaar ervaring en oog voor detail zorgt het bedrijf met hoogwaardige materialen voor een perfect eindresultaat dat de uitstraling van uw woning verbetert.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Kozijnen en deuren",
+    "Houtrotreparatie",
+    "Gevelschilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Reinders",
+  "kort": "Reinders",
+  "slug": "schildersbedrijfreinderscuijk",
+  "plaats": "Cuijk",
+  "tel_display": "06-11489858",
+  "tel_href": "tel:+31611489858",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Sinds 2017 biedt Schildersbedrijf Reinders hoogwaardige schilderdiensten in Cuijk, Nijmegen en omstreken. Veiligheid, gezondheid en milieu staan centraal, ondersteund door moderne technieken en een klantvriendelijke aanpak.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Spuitwerk",
+    "Houtrotherstel",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Art-Pol Schilder en Onderhoud",
+  "kort": "Art-Pol",
+  "slug": "artpolschildercuijk",
+  "plaats": "Cuijk",
+  "tel_display": "06-13560142",
+  "tel_href": "tel:+31613560142",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Art-Pol Schilder en Onderhoud is uw specialist voor schilderwerk en onderhoud in Cuijk en omgeving. Met jarenlange ervaring zorgt Art-Pol voor strak schilderwerk binnen en buiten, en u kunt er ook terecht voor kleine klussen en renovaties.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoud",
+    "Houtrotherstel",
+    "Behangwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "D. Brandts Stucwerken",
+  "kort": "D. Brandts Stucwerken",
+  "slug": "dbrandtsstucwerken",
+  "plaats": "Cuijk",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "D. Brandts Stucwerken is een stukadoorsbedrijf uit Cuijk voor alle gangbare stukadoorswerken. Van glad pleisterwerk en schuurwerk tot sierpleister: strak en vakkundig afgewerkte wanden en plafonds voor particulieren in Cuijk en het Land van Cuijk.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Schuurwerk",
+    "Sierpleister",
+    "Spachtelputz",
+    "Stucwerk herstellen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/DBrandtsstucwerken",
+  "taal": "nl"
  }
 ]

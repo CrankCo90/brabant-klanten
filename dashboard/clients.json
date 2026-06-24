@@ -27496,5 +27496,115 @@
   "telefoon": "06-53826067",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Bos Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Boxmeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T22:19:09",
+  "laatste_post": "",
+  "demo_url": "https://bosschilderwerkenboxmeer.demo.brabantdigital.nl",
+  "waarom": "Geen werkende eigen website (geparkeerd domein), alleen Facebook en gidsvermeldingen.",
+  "fouten": [
+   "Geen werkende eigen website (geparkeerd domein), alleen Facebook en gidsvermeldingen"
+  ],
+  "contact": "06-51865918",
+  "bron": null,
+  "social": "facebook.com/BosBoxmeer",
+  "telefoon": "06-51865918",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Peters Rit Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Boxmeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T22:19:09",
+  "laatste_post": "",
+  "demo_url": "https://petersritschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Geen werkende eigen website (domein resolvet niet meer), alleen gidsvermeldingen.",
+  "fouten": [
+   "Geen werkende eigen website (domein resolvet niet meer), alleen gidsvermeldingen"
+  ],
+  "contact": "06-12889955",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-12889955",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Reinders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Cuijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T22:19:09",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfreinderscuijk.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vermeldingen op offerte- en vergelijkingsplatforms.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen op offerte- en vergelijkingsplatforms"
+  ],
+  "contact": "06-11489858",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11489858",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Art-Pol Schilder en Onderhoud",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Cuijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T22:19:09",
+  "laatste_post": "",
+  "demo_url": "https://artpolschildercuijk.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen telefoongids- en directoryvermeldingen.",
+  "fouten": [
+   "Geen eigen website, alleen telefoongids- en directoryvermeldingen"
+  ],
+  "contact": "06-13560142",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13560142",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "D. Brandts Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Cuijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-24",
+  "aangemaakt": "2026-06-24T22:19:09",
+  "laatste_post": "",
+  "demo_url": "https://dbrandtsstucwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen Facebook en gidsvermeldingen.",
+  "fouten": [
+   "Geen eigen website, alleen Facebook en gidsvermeldingen"
+  ],
+  "contact": "Alleen facebook.com/DBrandtsstucwerken",
+  "bron": null,
+  "social": "facebook.com/DBrandtsstucwerken",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
