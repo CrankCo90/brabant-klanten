@@ -28156,5 +28156,71 @@
   "telefoon": "06-52711385",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Swinkels Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T17:18:58",
+  "laatste_post": "",
+  "demo_url": "https://swinkelsstucwerken.demo.brabantdigital.nl",
+  "waarom": "Eigen website is een enkele pagina op een zwaar WordPress-thema, zonder offerteformulier en zonder moderne uitstraling.",
+  "fouten": [
+   "Eigen website is een enkele pagina op een zwaar WordPress-thema, zonder offerteformulier en zonder moderne uitstraling"
+  ],
+  "contact": "06-34828528",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-34828528",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Tengg",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Rucphen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T17:25:52",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijftengg.demo.brabantdigital.nl",
+  "waarom": "Heeft geen eigen website en is alleen vindbaar via bedrijvengidsen.",
+  "fouten": [
+   "Heeft geen eigen website en is alleen vindbaar via bedrijvengidsen"
+  ],
+  "contact": "06-13175780",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-13175780",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "D. Stuc Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Sint Willebrord",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T17:25:52",
+  "laatste_post": "",
+  "demo_url": "https://dstucstukadoorsbedrijf.demo.brabantdigital.nl",
+  "waarom": "Heeft geen eigen website en is alleen vindbaar via bedrijvengidsen.",
+  "fouten": [
+   "Heeft geen eigen website en is alleen vindbaar via bedrijvengidsen"
+  ],
+  "contact": "06-53704943",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53704943",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

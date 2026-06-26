@@ -31901,5 +31901,87 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Swinkels Stucwerken",
+  "kort": "Swinkels",
+  "slug": "swinkelsstucwerken",
+  "plaats": "Deurne",
+  "tel_display": "06-34828528",
+  "tel_href": "tel:+31634828528",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Swinkels Stucwerken is een gedreven stukadoorsbedrijf uit Deurne, gespecialiseerd in stucwerk voor binnen en buiten. Van strak gladpleisterwerk tot sfeervol schuurwerk en decoratieve beton ciré: elk project wordt met vakmanschap en oog voor detail afgewerkt. Of het nu om een nieuwbouwwoning of een renovatie gaat, u kunt rekenen op een perfecte afwerking.",
+   "specialisaties": [
+    "Gladpleisterwerk",
+    "Schuurwerk",
+    "Spachtelputz",
+    "Cementgebonden stucwerk",
+    "Sierlijsten",
+    "Beton ciré"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@swinkels-stucwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Tengg",
+  "kort": "Tengg",
+  "slug": "stukadoorsbedrijftengg",
+  "plaats": "Rucphen",
+  "tel_display": "06-13175780",
+  "tel_href": "tel:+31613175780",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Tengg is een ervaren stukadoorsbedrijf uit Rucphen met ruim twintig jaar ervaring in het vak. Van strak glad stucwerk tot sfeervolle sierpleister: wanden en plafonds worden vakkundig en netjes afgewerkt voor een tijdloze, luxe uitstraling van uw woning.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Wandafwerking",
+    "Plafondafwerking"
+   ],
+   "certificering": [
+    "Ruim 20 jaar ervaring"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "D. Stuc Stukadoorsbedrijf",
+  "kort": "D. Stuc",
+  "slug": "dstucstukadoorsbedrijf",
+  "plaats": "Sint Willebrord",
+  "tel_display": "06-53704943",
+  "tel_href": "tel:+31653704943",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "D. Stuc Stukadoorsbedrijf is een stukadoorsbedrijf uit Sint Willebrord, gespecialiseerd in binnenstucwerk en wandafwerking. Met oog voor detail worden wanden en plafonds strak gestuukt, zodat uw woning een verzorgde en moderne basis krijgt.",
+   "specialisaties": [
+    "Binnenstucwerk",
+    "Glad stucwerk",
+    "Wandafwerking",
+    "Plafondafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
