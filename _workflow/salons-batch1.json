@@ -32062,5 +32062,145 @@
   "email": "info@vantilborgschilderwerken.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Bas van Aarle",
+  "kort": "Schildersbedrijf in Haarlem voor binnen- en buitenschilderwerk, wandafwerking en houtreparatie.",
+  "slug": "schildersbedrijfbasvanaarle",
+  "plaats": "Haarlem",
+  "tel_display": "06-51192999",
+  "tel_href": "tel:+31651192999",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Bas",
+   "verhaal": "Schildersbedrijf Bas van Aarle levert al meer dan 20 jaar kwaliteitsschilderwerk in Haarlem en omgeving, voor particulieren, bedrijven en VvE's. Er wordt uitsluitend gewerkt met hoogwaardige materialen van Sigma en Sikkens. De gecertificeerde schilders zijn daarnaast gespecialiseerd in houtreparatie, wandafwerking, glaszetten en stukadoorswerk.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Wandafwerking & behang",
+    "Houtrotreparatie",
+    "Glaszetten",
+    "Stukadoorswerk"
+   ],
+   "certificering": [
+    "Gecertificeerde houtreparateurs",
+    "Werkt met Sigma & Sikkens"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Portiek Schilders & Stukadoors",
+  "kort": "Schilders & stukadoors in Zaandam voor schilderwerk, stucwerk, houtrotherstel en tegelwerk.",
+  "slug": "portiekschilders",
+  "plaats": "Zaandam",
+  "tel_display": "06-29756853",
+  "tel_href": "tel:+31629756853",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Melle",
+   "verhaal": "Portiek Schilders & Stukadoors is al meer dan 15 jaar een begrip in Zaandam en de omgeving Amsterdam. Specialist in renovatie, stucwerk, binnen- en buitenschilderwerk, houtrotherstel, hoogglans en spuitwerk, en ook tegelwerk voor badkamer, keuken en vloer. Gevestigd in de gemeente Zaanstad.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Stukadoorswerk & latex spuiten",
+    "Houtrotherstel",
+    "Hoogglans specialist",
+    "Tegelwerk",
+    "Monumentenzorg"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Wijcker Stuc",
+  "kort": "Stukadoorsbedrijf in Beverwijk voor stucwerk, sierlijsten, gevelstuc, isolatie en latex spuiten.",
+  "slug": "wijckerstuc",
+  "plaats": "Beverwijk",
+  "tel_display": "06-51016402",
+  "tel_href": "tel:+31651016402",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Wijcker Stuc is een ervaren stukadoorsbedrijf uit Beverwijk met ruim 15 jaar ervaring en een team van gespecialiseerde stukadoors. Actief in heel Noord-Holland, onder andere Alkmaar, Heemskerk, IJmuiden, Velsen en Zaandam, voor het stucen van wanden en plafonds, gevelstuc en isolatie, sierlijsten en ornamenten, gips spuitwerk en latex spuiten, van kleine klussen tot renovatie en nieuwbouw.",
+   "specialisaties": [
+    "Stucen van wanden en plafonds",
+    "Sierlijsten & ornamenten",
+    "Gevelstuc & isolatie",
+    "Gips spuitwerk",
+    "Schilderwerk & latex spuiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "contact@wijckerstuc.nl",
+  "social": "facebook.com/devet1987",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoors- en Schildersbedrijf KOBE",
+  "kort": "Schilder- en stukadoorsbedrijf in Purmerend voor schilderwerk, stucwerk, spuitwerk en sierpleisters.",
+  "slug": "schildersbedrijfkobe",
+  "plaats": "Purmerend",
+  "tel_display": "06-31313196",
+  "tel_href": "tel:+31631313196",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoors- en Schildersbedrijf KOBE heeft meer dan 20 jaar ervaring in schilder- en stucwerk in Purmerend en omgeving. NOA-erkend en gespecialiseerd in alle vormen van wand- en plafondafwerking, lijsten en ornamenten, binnen- en buitenschilderwerk, spuitwerk en sierpleisters, voor woningen, VvE's, scholen, kantoren en monumentale panden.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Stucwerk",
+    "Spuitwerk",
+    "Sierpleisters",
+    "Lijstwerk & ornamenten"
+   ],
+   "certificering": [
+    "NOA-erkend"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfkobe.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van der Aart Schilders",
+  "kort": "Schilder- en klussenbedrijf in Hoofddorp (regio Groot-Amsterdam) voor schilderwerk, onderhoud, renovatie en taxatie.",
+  "slug": "vanderaartschilders",
+  "plaats": "Hoofddorp",
+  "tel_display": "06-55175591",
+  "tel_href": "tel:+31655175591",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Edwin",
+   "verhaal": "Edwin van der Aart is derde generatie schilder en sinds 2007 zelfstandig actief in de regio Groot-Amsterdam. Van der Aart Schilders werkt voor particulieren en ondernemers en is dankzij een groot netwerk van vakmannen ook inzetbaar als allround klussen-, onderhouds- en renovatiebedrijf, inclusief schadetaxatie en expertise.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Onderhoud & renovatie",
+    "Schadetaxatie & expertise",
+    "Allround klussenwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vanderaartschilders.nl",
+  "social": "facebook.com/vdaartonderhoud",
+  "taal": "nl"
  }
 ]
