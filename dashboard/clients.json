@@ -28684,5 +28684,71 @@
   "telefoon": "06-15462411",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Bierings",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Sprang-Capelle",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T23:14:17",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijfbierings.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (techniek uit 2011, niet mobielvriendelijk, geen offerteformulier).",
+  "fouten": [
+   "Sterk verouderde website (techniek uit 2011, niet mobielvriendelijk, geen offerteformulier)"
+  ],
+  "contact": "06-51821553",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51821553",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stuc-afbouw Van den Dungen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Drunen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T23:14:17",
+  "laatste_post": "",
+  "demo_url": "https://stucafbouwvandendungen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website — alleen vindbaar via Facebook en bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website — alleen vindbaar via Facebook en bedrijvengidsen"
+  ],
+  "contact": "06-29448634",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Stuc-afbouw-Van-den-Dungen-100054501817871/",
+  "telefoon": "06-29448634",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ligtenberg Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Loon op Zand",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T23:14:17",
+  "laatste_post": "",
+  "demo_url": "https://ligtenbergschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website — alleen telefonisch en via lokale vermeldingen bereikbaar.",
+  "fouten": [
+   "Geen eigen website — alleen telefonisch en via lokale vermeldingen bereikbaar"
+  ],
+  "contact": "06-16445335",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-16445335",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

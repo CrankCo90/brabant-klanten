@@ -32548,5 +32548,86 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Bierings",
+  "kort": "Erkend stukadoorsbedrijf in Sprang-Capelle",
+  "slug": "stukadoorsbedrijfbierings",
+  "plaats": "Sprang-Capelle",
+  "tel_display": "06-51821553",
+  "tel_href": "tel:+31651821553",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Erkend stukadoorsbedrijf uit Sprang-Capelle, aangesloten bij de NOA en actief sinds 1993. Een klein team ervaren vakmensen dat op een persoonlijke en flexibele manier alle stukadoorswerkzaamheden voor particulieren verzorgt, met aandacht voor de juiste materialen en afwerkingstechnieken.",
+   "specialisaties": [
+    "Binnenstucwerk",
+    "Sierpleister & spachtelputz",
+    "Schuurwerk en pleisterwerk",
+    "Buitengevelisolatie",
+    "Spuit- en spackwerk"
+   ],
+   "certificering": [
+    "Erkend stukadoorsbedrijf (NOA)"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@bieringsstukadoor.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stuc-afbouw Van den Dungen",
+  "kort": "Stukadoors- en afbouwbedrijf in Drunen",
+  "slug": "stucafbouwvandendungen",
+  "plaats": "Drunen",
+  "tel_display": "06-29448634",
+  "tel_href": "tel:+31629448634",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoors- en afbouwbedrijf uit Drunen, al ruim negen jaar actief in stuc- en afbouwwerk voor particulieren in de Langstraat. Vakwerk met een nette, persoonlijke aanpak van begin tot eind.",
+   "specialisaties": [
+    "Binnenstucwerk",
+    "Schuur- en pleisterwerk",
+    "Spuit- en spackwerk",
+    "Afbouw en renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stuc-afbouwvandendungen@hotmail.com",
+  "social": "https://www.facebook.com/p/Stuc-afbouw-Van-den-Dungen-100054501817871/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ligtenberg Schilderwerken",
+  "kort": "Schilderwerk uit Loon op Zand",
+  "slug": "ligtenbergschilderwerken",
+  "plaats": "Loon op Zand",
+  "tel_display": "06-16445335",
+  "tel_href": "tel:+31616445335",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit Loon op Zand voor particulier en zakelijk binnen- en buitenschilderwerk. Nette, vakkundige uitvoering met persoonlijk contact en een eerlijke prijs in Loon op Zand en omstreken.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotreparatie",
+    "Spuit- en lakwerk",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
