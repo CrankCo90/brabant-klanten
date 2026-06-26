@@ -31205,5 +31205,176 @@
   "email": "",
   "social": "facebook.com/DBrandtsstucwerken",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Derks",
+  "kort": "Schildersbedrijf Derks",
+  "slug": "schildersbedrijfderks",
+  "plaats": "Heerlen",
+  "tel_display": "06-53313704",
+  "tel_href": "tel:+31653313704",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Derks is een klein, zelfstandig schildersbedrijf uit Heerlen met jarenlange ervaring. Voor binnen- en buitenschilderwerk, behangen, decoratieve schildertechnieken en restauratie bent u hier aan het juiste adres: persoonlijk, vakkundig en betrouwbaar werk voor particulieren in Heerlen en omgeving.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangen",
+    "Decoratief schilderwerk",
+    "Restauratie",
+    "Latex en lakwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Meulenberg",
+  "kort": "Schildersbedrijf Meulenberg",
+  "slug": "schildersbedrijfmeulenberg",
+  "plaats": "Heerlen",
+  "tel_display": "06-51492877",
+  "tel_href": "tel:+31651492877",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Meulenberg is een erkend schildersbedrijf uit Heerlen, actief in heel Zuid-Limburg. Met een persoonlijke aanpak, strakke prijsafspraken en hoogwaardige materialen verzorgen wij schilder-, renovatie- en wandafwerkingswerk voor zowel particuliere als zakelijke klanten.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Renovatiewerk",
+    "Beglazing",
+    "Wandafwerking",
+    "Houtrotherstel"
+   ],
+   "certificering": [
+    "Erkend Beter Schildersbedrijf",
+    "RepairCare professional"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Nicky Bons",
+  "kort": "Nicky Bons",
+  "slug": "nickybonsstukadoor",
+  "plaats": "Maastricht",
+  "tel_display": "06-16728757",
+  "tel_href": "tel:+31616728757",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Nicky",
+   "verhaal": "Stukadoorsbedrijf Nicky Bons uit Maastricht verzorgt strak en glad stucwerk op wanden en plafonds. Van spachtelputz en sierpleister tot pleisterwerk: vakwerk met oog voor detail voor particulier en nieuwbouw in Maastricht en omgeving.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Spachtelputz",
+    "Sierpleister",
+    "Pleisterwerk",
+    "Wanden en plafonds",
+    "Nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Roy Meerten Stukadoor",
+  "kort": "Roy Meerten",
+  "slug": "roymeertenstukadoor",
+  "plaats": "Maastricht",
+  "tel_display": "06-52466820",
+  "tel_href": "tel:+31652466820",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roy",
+   "verhaal": "Roy Meerten is stukadoor in Maastricht en verzorgt vakkundig stucwerk: gladde wanden en plafonds, sierpleister en spuitwerk. Net, betrouwbaar en met een eerlijke prijs voor particulieren in Maastricht en omgeving.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Spuitwerk",
+    "Wanden en plafonds",
+    "Reparatiewerk",
+    "Particulier"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schmitz Stuc Design",
+  "kort": "Schmitz Stuc Design",
+  "slug": "schmitzstucdesign",
+  "plaats": "Stein",
+  "tel_display": "06-54305524",
+  "tel_href": "tel:+31654305524",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ralph",
+   "verhaal": "Schmitz Stuc Design (Ralph Schmitz) is een stukadoor uit Stein, gespecialiseerd in strak en glad stucwerk, sierpleister en spachtelputz. Vakwerk met oog voor detail voor particulier en bedrijf in Stein en de Westelijke Mijnstreek.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Spachtelputz",
+    "Pleisterwerk",
+    "Wanden en plafonds",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stuc.design@gmail.com",
+  "social": "https://www.facebook.com/p/STUC-design-100057064555235/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Dols",
+  "kort": "Stucadoorsbedrijf Dols",
+  "slug": "stucadoorsbedrijfdols",
+  "plaats": "Elsloo",
+  "tel_display": "06-81908228",
+  "tel_href": "tel:+31681908228",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf Dols uit Elsloo verzorgt al jaren strak stucwerk: gladde wanden en plafonds, sierpleister en spachtelputz. Vakkundig en betrouwbaar werk voor particulieren in Elsloo, Stein en omgeving.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Spachtelputz",
+    "Pleisterwerk",
+    "Wanden en plafonds",
+    "Reparatiewerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]

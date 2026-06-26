@@ -27606,5 +27606,137 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Derks",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T11:19:31",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfderks.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (oud Joomla-template, niet mobielvriendelijk en geen online offerteformulier); wel mobiel bereikbaar.",
+  "fouten": [
+   "Verouderde website (oud Joomla-template, niet mobielvriendelijk en geen online offerteformulier); wel mobiel bereikbaar"
+  ],
+  "contact": "06-53313704",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53313704",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Meulenberg",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T11:19:31",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfmeulenberg.demo.brabantdigital.nl",
+  "waarom": "Site draait op een Wix-bouwer (standaardtemplate), weinig onderscheidend; ruimte voor een snellere eigen premium-site met offerteformulier.",
+  "fouten": [
+   "Site draait op een Wix-bouwer (standaardtemplate), weinig onderscheidend; ruimte voor een snellere eigen premium-site met offerteformulier"
+  ],
+  "contact": "06-51492877",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51492877",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Nicky Bons",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T11:19:31",
+  "laatste_post": "",
+  "demo_url": "https://nickybonsstukadoor.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen telefoongids-vermelding); goed mobiel bereikbaar — sterke kans op een eerste eigen site.",
+  "fouten": [
+   "Geen eigen website (alleen telefoongids-vermelding); goed mobiel bereikbaar — sterke kans op een eerste eigen site"
+  ],
+  "contact": "06-16728757",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-16728757",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Roy Meerten Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T11:19:31",
+  "laatste_post": "",
+  "demo_url": "https://roymeertenstukadoor.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermelding in de telefoongids); mobiel bereikbaar.",
+  "fouten": [
+   "Geen eigen website (alleen vermelding in de telefoongids); mobiel bereikbaar"
+  ],
+  "contact": "06-52466820",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52466820",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schmitz Stuc Design",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Stein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T11:19:31",
+  "laatste_post": "",
+  "demo_url": "https://schmitzstucdesign.demo.brabantdigital.nl",
+  "waarom": "Geen werkende eigen website (het domein staat te koop); wel mobiel, e-mail en Facebook — klaar voor een echte eigen site.",
+  "fouten": [
+   "Geen werkende eigen website (het domein staat te koop); wel mobiel, e-mail en Facebook — klaar voor een echte eigen site"
+  ],
+  "contact": "06-54305524",
+  "bron": null,
+  "social": "https://www.facebook.com/p/STUC-design-100057064555235/",
+  "telefoon": "06-54305524",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Dols",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Elsloo",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T11:19:31",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijfdols.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen directory-vermeldingen); mobiel bereikbaar — eerste eigen site is een duidelijke kans.",
+  "fouten": [
+   "Geen eigen website (alleen directory-vermeldingen); mobiel bereikbaar — eerste eigen site is een duidelijke kans"
+  ],
+  "contact": "06-81908228",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-81908228",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
