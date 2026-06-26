@@ -28574,5 +28574,115 @@
   "telefoon": "06-49159839",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "VDB Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T22:16:00",
+  "laatste_post": "",
+  "demo_url": "https://vdb-stukadoors-maastricht.demo.brabantdigital.nl",
+  "waarom": "Alleen een Facebookpagina, geen eigen website.",
+  "fouten": [
+   "Alleen een Facebookpagina, geen eigen website"
+  ],
+  "contact": "Alleen https://www.facebook.com/VDBStukadoors/",
+  "bron": null,
+  "social": "https://www.facebook.com/VDBStukadoors/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Fejza Interieur & Afwerkingstechniek",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Sittard-Geleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T22:16:00",
+  "laatste_post": "",
+  "demo_url": "https://fejza-afwerkingstechniek-sittard-geleen.demo.brabantdigital.nl",
+  "waarom": "Huidige website draait op een Wix-bouwer; een eigen, snelle site met offerteformulier oogt professioneler en is beter vindbaar.",
+  "fouten": [
+   "Huidige website draait op een Wix-bouwer; een eigen, snelle site met offerteformulier oogt professioneler en is beter vindbaar"
+  ],
+  "contact": "06-18251690",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-18251690",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Snel Stukadoor en Bouw",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Sittard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T22:16:00",
+  "laatste_post": "",
+  "demo_url": "https://snel-stukadoor-en-bouw-sittard.demo.brabantdigital.nl",
+  "waarom": "Bestaande website is sterk verouderd (logo uit 2014, jaren niet bijgewerkt) en niet meer van deze tijd.",
+  "fouten": [
+   "Bestaande website is sterk verouderd (logo uit 2014, jaren niet bijgewerkt) en niet meer van deze tijd"
+  ],
+  "contact": "06-22002682",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22002682",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "van den Heuvel Wandafwerking",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T22:16:00",
+  "laatste_post": "",
+  "demo_url": "https://van-den-heuvel-wandafwerking-heerlen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vindbaar via een bedrijvengids.",
+  "fouten": [
+   "Geen eigen website, alleen vindbaar via een bedrijvengids"
+  ],
+  "contact": "06-40065280",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-40065280",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Duo Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T22:16:00",
+  "laatste_post": "",
+  "demo_url": "https://duo-stukadoors-brunssum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vindbaar via bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website, alleen vindbaar via bedrijvengidsen"
+  ],
+  "contact": "06-15462411",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-15462411",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

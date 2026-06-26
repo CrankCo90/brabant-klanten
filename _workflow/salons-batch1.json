@@ -32418,5 +32418,135 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "VDB Stukadoors",
+  "kort": "Stukadoorsbedrijf in Maastricht",
+  "slug": "vdb-stukadoors-maastricht",
+  "plaats": "Maastricht",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bij VDB Stukadoors uit Maastricht staan kwaliteit en vakmanschap voorop. Het bedrijf verzorgt strak stucwerk op wanden en plafonds voor particulieren en aannemers in Maastricht en de omgeving (Meerssen).",
+   "specialisaties": [
+    "Stucwerk wanden en plafonds",
+    "Sierpleister",
+    "Glad pleisterwerk",
+    "Renovatiestucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/VDBStukadoors/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Fejza Interieur & Afwerkingstechniek",
+  "kort": "Stukadoor & afwerkingsbedrijf in Sittard-Geleen",
+  "slug": "fejza-afwerkingstechniek-sittard-geleen",
+  "plaats": "Sittard-Geleen",
+  "tel_display": "06-18251690",
+  "tel_href": "tel:+31618251690",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Fejza Interieur & Afwerkingstechniek is de specialist in Sittard-Geleen voor strak stucwerk op wanden en plafonds. Van glad pleisterwerk en sierpleister tot complete interieurafwerking, altijd met oog voor detail en een duurzaam eindresultaat.",
+   "specialisaties": [
+    "Stucwerk wanden en plafonds",
+    "Sierpleister & pleisterwerk",
+    "Schilderwerk",
+    "Plafondverlaging"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@fejzabouw.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Snel Stukadoor en Bouw",
+  "kort": "Stukadoors- en bouwbedrijf in Sittard",
+  "slug": "snel-stukadoor-en-bouw-sittard",
+  "plaats": "Sittard",
+  "tel_display": "06-22002682",
+  "tel_href": "tel:+31622002682",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Snel Stukadoor en Bouw is sinds 2001 actief in Sittard, Geleen, Susteren, Echt en omstreken. Wij stukadoren binnen en buiten met gips, mortel, spachtelputz en sierpleister, en nemen daarnaast schilder- en tegelwerk aan.",
+   "specialisaties": [
+    "Binnen- en buitenstucwerk",
+    "Spachtelputz & sierpleister",
+    "Schilderwerk",
+    "Tegelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "van den Heuvel Wandafwerking",
+  "kort": "Stukadoor & wandafwerking in Heerlen",
+  "slug": "van-den-heuvel-wandafwerking-heerlen",
+  "plaats": "Heerlen",
+  "tel_display": "06-40065280",
+  "tel_href": "tel:+31640065280",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "van den Heuvel Wandafwerking is een stukadoorsbedrijf uit Heerlen, gespecialiseerd in strakke wand- en plafondafwerking voor particulieren en bedrijven in Heerlen en Parkstad.",
+   "specialisaties": [
+    "Stucwerk wanden",
+    "Stucwerk plafonds",
+    "Glad pleisterwerk",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Duo Stukadoors",
+  "kort": "Stukadoorsbedrijf in Brunssum",
+  "slug": "duo-stukadoors-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "06-15462411",
+  "tel_href": "tel:+31615462411",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Duo Stukadoors uit Brunssum zorgt voor strak stucwerk op wanden en plafonds in Brunssum en de regio Parkstad, met persoonlijke aandacht en een nette afwerking.",
+   "specialisaties": [
+    "Stucwerk wanden en plafonds",
+    "Glad pleisterwerk",
+    "Sierpleister",
+    "Renovatiestucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
