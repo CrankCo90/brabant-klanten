@@ -28222,5 +28222,71 @@
   "telefoon": "06-53704943",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van de Mortel Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T18:18:21",
+  "laatste_post": "",
+  "demo_url": "https://vandemortelschilderwerken-deurne.demo.brabantdigital.nl",
+  "waarom": "Eenmanszaak die alleen via Facebook bereikbaar is en nog geen eigen website heeft.",
+  "fouten": [
+   "Eenmanszaak die alleen via Facebook bereikbaar is en nog geen eigen website heeft"
+  ],
+  "contact": "06-57600547",
+  "bron": null,
+  "social": "facebook.com/vandemortelschilderwerken",
+  "telefoon": "06-57600547",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "EK Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Giessen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T18:18:21",
+  "laatste_post": "",
+  "demo_url": "https://ekschilderwerken-giessen.demo.brabantdigital.nl",
+  "waarom": "Verouderde bouwpakket-website met onafgemaakte placeholders en niet goed vindbaar in Google.",
+  "fouten": [
+   "Verouderde bouwpakket-website met onafgemaakte placeholders en niet goed vindbaar in Google"
+  ],
+  "contact": "06-43226843",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-43226843",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Tilborg Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Oosterhout",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T18:18:21",
+  "laatste_post": "",
+  "demo_url": "https://vantilborgschilderwerken-oosterhout.demo.brabantdigital.nl",
+  "waarom": "Verouderde Joomla-website uit 2018, niet mobielvriendelijk en zonder online offerteformulier.",
+  "fouten": [
+   "Verouderde Joomla-website uit 2018, niet mobielvriendelijk en zonder online offerteformulier"
+  ],
+  "contact": "06-30369169",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-30369169",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

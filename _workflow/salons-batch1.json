@@ -31983,5 +31983,84 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van de Mortel Schilderwerken",
+  "kort": "Schilderwerken voor binnen en buiten",
+  "slug": "vandemortelschilderwerken-deurne",
+  "plaats": "Deurne",
+  "tel_display": "06-57600547",
+  "tel_href": "tel:+31657600547",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Van de Mortel Schilderwerken is een Deurnese eenmanszaak voor al uw binnen- en buitenschilderwerk. Met persoonlijke aandacht en oog voor detail wordt elke klus netjes en vakkundig afgewerkt, of het nu gaat om kozijnen, deuren, wanden of plafonds.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotreparatie",
+    "Latex spuitwerk van wanden en plafonds",
+    "Behang- en wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vandemortelschilderwerken.nl",
+  "social": "facebook.com/vandemortelschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "EK Schilderwerken",
+  "kort": "Vakkundig schilderwerk met passie",
+  "slug": "ekschilderwerken-giessen",
+  "plaats": "Giessen",
+  "tel_display": "06-43226843",
+  "tel_href": "tel:+31643226843",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "EK Schilderwerken uit Giessen (Gemeente Altena) is opgericht door een vakman met ruim 24 jaar ervaring in het schildersvak. Van kleuradvies tot buitenschilderwerk en houtrotreparatie: elke klus wordt met trots en vakmanschap afgerond tot een tevreden eindresultaat.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotreparatie",
+    "Kleuradvies",
+    "Behangwerk",
+    "Werken met hoogwerker"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@ekschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Tilborg Schilderwerken",
+  "kort": "Schilder voor Oosterhout en omgeving",
+  "slug": "vantilborgschilderwerken-oosterhout",
+  "plaats": "Oosterhout",
+  "tel_display": "06-30369169",
+  "tel_href": "tel:+31630369169",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Van Tilborg Schilderwerken verzorgt al jaren het binnen- en buitenschilderwerk voor woningen en bedrijfspanden in Oosterhout, Dongen, Raamsdonksveer, Breda en omgeving. Van houtrotinspectie tot kleuradvies en wandafwerking: vakwerk waar u jarenlang plezier van heeft.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotinspectie en -reparatie",
+    "Spuitwerk en wandafwerking",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vantilborgschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
