@@ -27738,5 +27738,115 @@
   "telefoon": "06-81908228",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "StucDesign Berkers",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Deurne",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T12:26:21",
+  "laatste_post": "",
+  "demo_url": "https://stucdesignberkers.demo.brabantdigital.nl",
+  "waarom": "Verouderde één-pagina website uit 2020 die niet mobielvriendelijk is.",
+  "fouten": [
+   "Verouderde één-pagina website uit 2020 die niet mobielvriendelijk is"
+  ],
+  "contact": "06-51540005",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51540005",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf René Jacobs",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zeeland",
+  "plaats": "Vlissingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T12:26:21",
+  "laatste_post": "",
+  "demo_url": "https://renejacobs-schilders.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (gebouwd met Apple iWeb, niet ondersteund sinds 2011) en niet mobielvriendelijk.",
+  "fouten": [
+   "Sterk verouderde website (gebouwd met Apple iWeb, niet ondersteund sinds 2011) en niet mobielvriendelijk"
+  ],
+  "contact": "06-43275288",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-43275288",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Zeeland",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zeeland",
+  "plaats": "Vlissingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T12:26:21",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijfzeeland.demo.brabantdigital.nl",
+  "waarom": "Verouderde website die sinds 2019 niet meer is bijgewerkt; gedateerd ontwerp met oude techniek.",
+  "fouten": [
+   "Verouderde website die sinds 2019 niet meer is bijgewerkt; gedateerd ontwerp met oude techniek"
+  ],
+  "contact": "Alleen Facebook",
+  "bron": null,
+  "social": "Facebook",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Louwerse Sierpleister",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zeeland",
+  "plaats": "Vlissingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T12:26:21",
+  "laatste_post": "",
+  "demo_url": "https://louwerse-sierpleister.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website — alleen vindbaar via bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website — alleen vindbaar via bedrijvengidsen"
+  ],
+  "contact": "06-53382298",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53382298",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Daane Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zeeland",
+  "plaats": "Vlissingen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T12:26:21",
+  "laatste_post": "",
+  "demo_url": "https://daane-stukadoors.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website — alleen vermeldingen in bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website — alleen vermeldingen in bedrijvengidsen"
+  ],
+  "contact": "06-23755016",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-23755016",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

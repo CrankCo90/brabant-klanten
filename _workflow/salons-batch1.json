@@ -31376,5 +31376,148 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "StucDesign Berkers",
+  "kort": "StucDesign Berkers",
+  "slug": "stucdesignberkers",
+  "plaats": "Deurne",
+  "tel_display": "06-51540005",
+  "tel_href": "tel:+31651540005",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "StucDesign Berkers is een gedreven, erkend stukadoorsbedrijf in de regio Deurne dat werkt uit liefde voor het vak. Of het nu gaat om superstrakke wanden, stoere betonnen elementen of een plafond met sierlijst als eyecatcher — Berkers adviseert persoonlijk over de mogelijkheden.",
+   "specialisaties": [
+    "Strak gladpleisterwerk",
+    "Betonlook / industriële afwerking",
+    "Sierlijsten & plafondafwerking",
+    "Renovatie & nieuwbouw",
+    "Persoonlijk advies"
+   ],
+   "certificering": [
+    "Erkend stukadoor"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stucdesignberkers.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf René Jacobs",
+  "kort": "René Jacobs",
+  "slug": "renejacobs-schilders",
+  "plaats": "Vlissingen",
+  "tel_display": "06-43275288",
+  "tel_href": "tel:+31643275288",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "René Jacobs",
+   "verhaal": "Schildersbedrijf René Jacobs uit Vlissingen verzorgt al ruim 40 jaar alle voorkomende binnen- en buitenschilderwerken en is specialist in behangen, waaronder glasvlies. René werkt voor particulieren, bedrijven, scholen en overheidsinstellingen, met eerlijke offertes en kwaliteit voorop.",
+   "specialisaties": [
+    "Binnen- & buitenschilderwerk",
+    "Behangen & glasvlies",
+    "Houtwerk & onderhoud",
+    "Vakkundig kleuradvies",
+    "Particulier & zakelijk"
+   ],
+   "certificering": [
+    "40+ jaar ervaring"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "schilderbedrijfjacobs@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Zeeland",
+  "kort": "Stucadoorsbedrijf Zeeland",
+  "slug": "stucadoorsbedrijfzeeland",
+  "plaats": "Vlissingen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf Zeeland uit Vlissingen levert eersteklas stucwerk voor nieuwbouw, renovatie en restauratie. Van stucadoren van wanden en plafonds, sierpleister, spack- en spuitwerk en raapwerk tot buitengevelstucwerk, gevelisolatie en lijsten & ornamenten — met vakbekwaam en ervaren personeel.",
+   "specialisaties": [
+    "Stucadoren wanden & plafonds",
+    "Sierpleister & spuitwerk",
+    "Raapwerk & schuurwerk",
+    "Buitengevels & gevelisolatie",
+    "Lijsten & ornamenten"
+   ],
+   "certificering": [
+    "Aangesloten bij NOA"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stucadoorsbedrijfzeeland.nl",
+  "social": "Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Louwerse Sierpleister",
+  "kort": "Louwerse Sierpleister",
+  "slug": "louwerse-sierpleister",
+  "plaats": "Vlissingen",
+  "tel_display": "06-53382298",
+  "tel_href": "tel:+31653382298",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Louwerse Sierpleister is een stukadoor uit Vlissingen, gespecialiseerd in sierpleister en alle voorkomende stuc- en pleisterwerkzaamheden voor binnen en buiten — van strak raapwerk tot decoratieve sierpleisterafwerkingen.",
+   "specialisaties": [
+    "Sierpleister",
+    "Glad pleisterwerk",
+    "Raapwerk",
+    "Spack- & spuitwerk",
+    "Binnen & buiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Daane Stukadoors",
+  "kort": "Daane Stukadoors",
+  "slug": "daane-stukadoors",
+  "plaats": "Vlissingen",
+  "tel_display": "06-23755016",
+  "tel_href": "tel:+31623755016",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Daane Stukadoors is een gecertificeerd stukadoorsbedrijf uit Vlissingen voor alle voorkomende stukadoorswerkzaamheden — van glad pleisterwerk en sierpleister tot wand- en plafondafwerking bij renovatie en nieuwbouw.",
+   "specialisaties": [
+    "Stucwerk binnen & buiten",
+    "Gladpleisterwerk",
+    "Sierpleister",
+    "Wand- & plafondafwerking",
+    "Renovatie & nieuwbouw"
+   ],
+   "certificering": [
+    "Gecertificeerd stukadoor"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
