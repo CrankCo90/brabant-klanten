@@ -28398,5 +28398,115 @@
   "telefoon": "06-55175591",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "M. Verschuren Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T20:14:38",
+  "laatste_post": "",
+  "demo_url": "https://mverschuren.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (WordPress uit 2017, zwaar en niet meer up-to-date).",
+  "fouten": [
+   "Verouderde website (WordPress uit 2017, zwaar en niet meer up-to-date)"
+  ],
+  "contact": "06-57580506",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-57580506",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Roel Nijssen Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Eersel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T20:14:38",
+  "laatste_post": "",
+  "demo_url": "https://roelnijssen.demo.brabantdigital.nl",
+  "waarom": "Zwakke, verouderde website gebouwd met een gratis Jimdo-bouwer.",
+  "fouten": [
+   "Zwakke, verouderde website gebouwd met een gratis Jimdo-bouwer"
+  ],
+  "contact": "06-11197345",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11197345",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Haan Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T20:14:38",
+  "laatste_post": "",
+  "demo_url": "https://haanstucwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen telefonisch en via vermeldingen vindbaar.",
+  "fouten": [
+   "Geen eigen website, alleen telefonisch en via vermeldingen vindbaar"
+  ],
+  "contact": "06-26789133",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-26789133",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Louis Heesters",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Eersel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T20:14:38",
+  "laatste_post": "",
+  "demo_url": "https://louisheesters.demo.brabantdigital.nl",
+  "waarom": "Alleen aanwezig op Facebook, geen eigen website.",
+  "fouten": [
+   "Alleen aanwezig op Facebook, geen eigen website"
+  ],
+  "contact": "Alleen FB",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Lavrijsen & Gijbels",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Reusel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T20:14:38",
+  "laatste_post": "",
+  "demo_url": "https://lavrijsengijbels.demo.brabantdigital.nl",
+  "waarom": "Eigen website is offline en onbereikbaar; bedrijf is alleen via Facebook en telefoon te vinden.",
+  "fouten": [
+   "Eigen website is offline en onbereikbaar; bedrijf is alleen via Facebook en telefoon te vinden"
+  ],
+  "contact": "06-53187405",
+  "bron": null,
+  "social": "FB",
+  "telefoon": "06-53187405",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

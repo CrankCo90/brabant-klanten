@@ -32202,5 +32202,143 @@
   "email": "info@vanderaartschilders.nl",
   "social": "facebook.com/vdaartonderhoud",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "M. Verschuren Schilderwerken",
+  "kort": "M. Verschuren",
+  "slug": "mverschuren",
+  "plaats": "Geldrop",
+  "tel_display": "06-57580506",
+  "tel_href": "tel:+31657580506",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Martijn",
+   "verhaal": "M. Verschuren Schilderwerken is het eenmansbedrijf van Martijn Verschuren uit Geldrop. Na veertien jaar ervaring bij een groot schildersbedrijf begon hij in 2019 voor zichzelf. Hij levert vakkundig binnen- en buitenschilderwerk, houtrotsanering, glaszetten, wandbekleding en betonlook, met persoonlijke aandacht en zo min mogelijk overlast.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotsanering",
+    "Glaszetten en isolatieglas",
+    "Wandbekleding en behang",
+    "Betonlook en vloercoating"
+   ],
+   "certificering": [
+    "Niveau 3 specialist houtrotsanering",
+    "Lid Sigma Eigen Zaak"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@mverschurenschilderwerken.nl",
+  "social": "FB",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Roel Nijssen Stukadoor",
+  "kort": "Roel Nijssen",
+  "slug": "roelnijssen",
+  "plaats": "Eersel",
+  "tel_display": "06-11197345",
+  "tel_href": "tel:+31611197345",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roel",
+   "verhaal": "Roel Nijssen is al veertien jaar stukadoor, waarvan ruim acht jaar als zelfstandige in Eersel. Hij werkt vooral in de particuliere (ver)bouw, samen met collega Rob Heesters. Superstrak, glad pleisterwerk is zijn specialiteit, maar ook lijsten, ornamenten en schouwen draait hij zijn hand niet voor om, netjes werken en ontzorgen staan voorop.",
+   "specialisaties": [
+    "Strak glad pleisterwerk",
+    "Raap- en spachtelwerk",
+    "Lijsten en ornamenten",
+    "Schouwen",
+    "Particuliere (ver)bouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@roelnijssen.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Haan Stucwerken",
+  "kort": "Haan Stucwerken",
+  "slug": "haanstucwerken",
+  "plaats": "Geldrop",
+  "tel_display": "06-26789133",
+  "tel_href": "tel:+31626789133",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Haan Stucwerken is een stukadoorsbedrijf uit Geldrop, opgericht in 2019. Het bedrijf staat bekend om strak afgewerkt stuc- en pleisterwerk op muren en plafonds, nette communicatie en een opgeruimde werkplek. Klanten roemen de betrouwbaarheid en de uitstekende afwerking inclusief nazorg.",
+   "specialisaties": [
+    "Strak stucwerk muren en plafonds",
+    "Raapwerk",
+    "Pleisterwerk",
+    "Spackspuitwerk",
+    "Nazorg"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Louis Heesters",
+  "kort": "Louis Heesters",
+  "slug": "louisheesters",
+  "plaats": "Eersel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Louis",
+   "verhaal": "Stukadoorsbedrijf Louis Heesters is een allround stukadoorsbedrijf uit Eersel met meer dan vijftig jaar ervaring in alle soorten stucwerkzaamheden. Van strak binnenstucwerk tot sierpleister en buitenstucwerk: vakmanschap dat al generaties meegaat.",
+   "specialisaties": [
+    "Allround stucwerk",
+    "Binnen- en buitenstucwerk",
+    "Sierpleister",
+    "Raap- en pleisterwerk",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "FB",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Lavrijsen & Gijbels",
+  "kort": "Lavrijsen & Gijbels",
+  "slug": "lavrijsengijbels",
+  "plaats": "Reusel",
+  "tel_display": "06-53187405",
+  "tel_href": "tel:+31653187405",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Lavrijsen & Gijbels uit Reusel verzorgt schilderwerk binnen en buiten voor particulieren en bedrijven in de Kempen. Een persoonlijke aanpak, nette afwerking en afspraken die worden nagekomen staan centraal.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behangwerk",
+    "Houtrotherstel",
+    "Onderhoudsschilderwerk",
+    "Particulier en zakelijk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "FB",
+  "taal": "nl"
  }
 ]
