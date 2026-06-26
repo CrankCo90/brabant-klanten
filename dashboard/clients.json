@@ -28046,5 +28046,115 @@
   "telefoon": "06-51962591",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "N. de Smet Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T16:15:58",
+  "laatste_post": "",
+  "demo_url": "https://n-de-smet-stukadoor-maastricht.demo.brabantdigital.nl",
+  "waarom": "Verouderde website op een gratis subdomein, zonder eigen domein en zonder HTTPS.",
+  "fouten": [
+   "Verouderde website op een gratis subdomein, zonder eigen domein en zonder HTTPS"
+  ],
+  "contact": "06-29552923",
+  "bron": null,
+  "social": "Instagram @n_de_smet_stukadoor",
+  "telefoon": "06-29552923",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Frank Winkens Spackspuitwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Geleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T16:15:58",
+  "laatste_post": "",
+  "demo_url": "https://frank-winkens-spackspuitwerken-geleen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vindbaar via telefoongidsen.",
+  "fouten": [
+   "Geen eigen website, alleen vindbaar via telefoongidsen"
+  ],
+  "contact": "06-51166025",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51166025",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bouwservice Odekerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Munstergeleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T16:15:58",
+  "laatste_post": "",
+  "demo_url": "https://bouwservice-odekerken-munstergeleen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen een vermelding in de telefoongids.",
+  "fouten": [
+   "Geen eigen website, alleen een vermelding in de telefoongids"
+  ],
+  "contact": "06-28596908",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-28596908",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoor Hiba",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T16:15:58",
+  "laatste_post": "",
+  "demo_url": "https://stucadoor-hiba-brunssum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen een vermelding in de telefoongids.",
+  "fouten": [
+   "Geen eigen website, alleen een vermelding in de telefoongids"
+  ],
+  "contact": "06-84303629",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-84303629",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Mark Augustinus",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Brunssum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T16:15:58",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-mark-augustinus-brunssum.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vindbaar via de telefoongids.",
+  "fouten": [
+   "Geen eigen website, alleen vindbaar via de telefoongids"
+  ],
+  "contact": "06-52711385",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52711385",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

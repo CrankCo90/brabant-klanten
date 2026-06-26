@@ -31771,5 +31771,135 @@
   "email": "",
   "social": "Facebook",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "N. de Smet Stukadoor",
+  "kort": "Stukadoor in Maastricht",
+  "slug": "n-de-smet-stukadoor-maastricht",
+  "plaats": "Maastricht",
+  "tel_display": "06-29552923",
+  "tel_href": "tel:+31629552923",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "N. de Smet Stukadoor levert in en rond Maastricht strak, glad stucwerk en sierpleister voor particulieren. Vakwerk met oog voor detail en een nette afwerking.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Sierpleister",
+    "Schuurwerk",
+    "Renovatie en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@ndesmetstukadoor.nl",
+  "social": "Instagram @n_de_smet_stukadoor",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Frank Winkens Spackspuitwerken",
+  "kort": "Spack- en spuitwerk in Geleen",
+  "slug": "frank-winkens-spackspuitwerken-geleen",
+  "plaats": "Geleen",
+  "tel_display": "06-51166025",
+  "tel_href": "tel:+31651166025",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Frank",
+   "verhaal": "Frank Winkens Spackspuitwerken verzorgt in Geleen en omgeving spack- en spuitwerk, glad pleisterwerk en wand- en plafondafwerking. Snel, strak en netjes.",
+   "specialisaties": [
+    "Spackspuitwerk",
+    "Glad pleisterwerk",
+    "Wand- en plafondafwerking",
+    "Sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bouwservice Odekerken",
+  "kort": "Stukadoor in Munstergeleen",
+  "slug": "bouwservice-odekerken-munstergeleen",
+  "plaats": "Munstergeleen",
+  "tel_display": "06-28596908",
+  "tel_href": "tel:+31628596908",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Bouwservice Odekerken stukadoort in Munstergeleen en omgeving wanden en plafonds strak glad, en verzorgt sierpleister en renovatiewerk.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Wanden en plafonds",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoor Hiba",
+  "kort": "Stukadoor in Brunssum",
+  "slug": "stucadoor-hiba-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "06-84303629",
+  "tel_href": "tel:+31684303629",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoor Hiba verzorgt in Brunssum en omgeving glad stucwerk, sierpleister en schuurwerk voor een strakke, moderne afwerking.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Sierpleister",
+    "Schuurwerk",
+    "Wanden en plafonds"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Mark Augustinus",
+  "kort": "Stukadoorsbedrijf in Brunssum",
+  "slug": "stukadoorsbedrijf-mark-augustinus-brunssum",
+  "plaats": "Brunssum",
+  "tel_display": "06-52711385",
+  "tel_href": "tel:+31652711385",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mark",
+   "verhaal": "Stukadoorsbedrijf Mark Augustinus levert in Brunssum en omgeving glad pleisterwerk en sierpleister voor nieuwbouw en renovatie, met vakmanschap en aandacht voor detail.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Sierpleister",
+    "Renovatie en nieuwbouw",
+    "Wand- en plafondafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
