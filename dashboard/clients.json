@@ -27848,5 +27848,71 @@
   "telefoon": "06-23755016",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Willems Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Grave",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T13:26:24",
+  "laatste_post": "",
+  "demo_url": "https://willems-stukadoors-grave.demo.brabantdigital.nl",
+  "waarom": "Eenpagina-Elementorsite (2024) met een gmail-adres, zonder online offerte-/contactformulier en zonder reviews; duidelijke redesign-kans. Bereikbaar via mobiel 06.",
+  "fouten": [
+   "Eenpagina-Elementorsite (2024) met een gmail-adres, zonder online offerte-/contactformulier en zonder reviews; duidelijke redesign-kans. Bereikbaar via mobiel 06"
+  ],
+  "contact": "06-27023616",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-27023616",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hermans Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Beugen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T13:26:24",
+  "laatste_post": "",
+  "demo_url": "https://hermans-schilderwerken-beugen.demo.brabantdigital.nl",
+  "waarom": "Verouderde WordPress-site uit 2016/2017 (laatste nieuws feb 2017, gedateerd template, niet mobiel-geoptimaliseerd); sterke redesign-kans. Bereikbaar via 06, e-mail en Facebook.",
+  "fouten": [
+   "Verouderde WordPress-site uit 2016/2017 (laatste nieuws feb 2017, gedateerd template, niet mobiel-geoptimaliseerd); sterke redesign-kans. Bereikbaar via 06, e-mail en Facebook"
+  ],
+  "contact": "06-12150992",
+  "bron": null,
+  "social": "Facebook",
+  "telefoon": "06-12150992",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Walter Bens",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Landhorst",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T13:26:24",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-walter-bens-landhorst.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website (alleen vermeldingen in bedrijvengidsen); enkel bereikbaar via mobiel 06 - ideale kandidaat voor een eerste eigen website.",
+  "fouten": [
+   "Geen eigen website (alleen vermeldingen in bedrijvengidsen); enkel bereikbaar via mobiel 06 - ideale kandidaat voor een eerste eigen website"
+  ],
+  "contact": "06-29410806",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-29410806",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

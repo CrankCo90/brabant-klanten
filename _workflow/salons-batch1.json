@@ -31519,5 +31519,91 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Willems Stukadoors",
+  "kort": "Strak stucwerk in Grave",
+  "slug": "willems-stukadoors-grave",
+  "plaats": "Grave",
+  "tel_display": "06-27023616",
+  "tel_href": "tel:+31627023616",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Patrick",
+   "verhaal": "Patrick Willems begon in 1993 in het stukadoorsvak en startte in 2002 zijn eigen bedrijf in Grave. Met ruim 30 jaar ervaring staat Willems Stukadoors voor strak, traditioneel en decoratief stucwerk. Wij komen altijd vrijblijvend langs voor een offerte op maat.",
+   "specialisaties": [
+    "Traditioneel glad stucwerk",
+    "Sierpleister & spachtelputz",
+    "Lijst- en ornamentwerk",
+    "Betonlook",
+    "Buitenstucwerk",
+    "Sauswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "willemsstukadoors@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hermans Schilderwerken",
+  "kort": "Vakkundig schilder- en onderhoudswerk in Beugen",
+  "slug": "hermans-schilderwerken-beugen",
+  "plaats": "Beugen",
+  "tel_display": "06-12150992",
+  "tel_href": "tel:+31612150992",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Frenck",
+   "verhaal": "Hermans Schilderwerken uit Beugen verzorgt al sinds 2006 binnen- en buitenschilderwerk, houtrot- en betonherstel, glaszetten, wandafwerking en gevelreiniging. Als Erkend Betere Schilder staan wij voor kwaliteitsonderhoud met een duurzaam en mooi eindresultaat, inclusief vrijblijvend onderhoudsplan.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Glaszetten & isolatie",
+    "Wandafwerking & latex spuiten",
+    "Gevelreiniging"
+   ],
+   "certificering": [
+    "Erkend Betere Schilder"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schilderwerkenhermans.nl",
+  "social": "Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Walter Bens",
+  "kort": "Schilderwerk binnen & buiten in Landhorst",
+  "slug": "schildersbedrijf-walter-bens-landhorst",
+  "plaats": "Landhorst",
+  "tel_display": "06-29410806",
+  "tel_href": "tel:+31629410806",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Walter",
+   "verhaal": "Schildersbedrijf Walter Bens is sinds 2000 gevestigd in Landhorst en verzorgt binnen- en buitenschilderwerk voor particulieren en bedrijven in het Land van Cuijk. Vakmanschap, nette afwerking en heldere afspraken staan voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Wandafwerking",
+    "Beglazing",
+    "Onderhoud & renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
