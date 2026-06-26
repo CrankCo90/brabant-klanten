@@ -31663,5 +31663,113 @@
   "email": "info@hve-schilderwerken.nl",
   "social": "https://www.instagram.com/schildersenafwerkingstechniek",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hartman Stukadoors",
+  "kort": "Hartman",
+  "slug": "hartman-stukadoors-hulst",
+  "plaats": "Hulst",
+  "tel_display": "06-21194001",
+  "tel_href": "tel:+31621194001",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Raymen",
+   "verhaal": "Hartman Stukadoors realiseert al jarenlang strakke wanden, egale plafonds en gladde gevels in Zeeuws-Vlaanderen en de regio daarbuiten. Eigenaar Raymen komt vrijblijvend op locatie langs en levert binnen 24 uur na het bezoek een offerte op maat.",
+   "specialisaties": [
+    "Strakke wanden",
+    "Egale plafonds",
+    "Gladde gevels",
+    "Stucwerk binnen & buiten",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@hartmanstukadoors.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Wijers",
+  "kort": "Wijers",
+  "slug": "stukadoorsbedrijf-wijers-zierikzee",
+  "plaats": "Zierikzee",
+  "tel_display": "06-23245406",
+  "tel_href": "tel:+31623245406",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Serge",
+   "verhaal": "Stukadoorsbedrijf Wijers uit Zierikzee heeft meer dan 30 jaar ervaring in stucwerk en betonlook. Eigenaar Serge Wijers is gespecialiseerd in betoncire voor badkamers, keukens en wanden, en in glad pleister-, schuur- en sierpleisterwerk. Werkgebied: vooral Schouwen-Duiveland en heel Zeeland.",
+   "specialisaties": [
+    "Betonlook / betoncire",
+    "Glad stucwerk",
+    "Schuurwerk",
+    "Sierpleister / spachtelputz",
+    "Plafonds & wanden"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stucadoorsbedrijfwijers@gmail.com",
+  "social": "IG @stucadoorsbedrijfwijers · FB",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Robin Hoogendijk",
+  "kort": "Robin Hoogendijk",
+  "slug": "robin-hoogendijk-stukadoor-schore",
+  "plaats": "Schore",
+  "tel_display": "06-23518658",
+  "tel_href": "tel:+31623518658",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Robin",
+   "verhaal": "Stukadoorsbedrijf Robin Hoogendijk uit Schore verzorgt alle voorkomende stukadoorswerkzaamheden voor particulieren, bedrijven en woningcorporaties: stucwerk voor binnen en buiten, strak en netjes afgewerkt.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Schuurwerk",
+    "Buitenstucwerk",
+    "Wanden & plafonds",
+    "Renovatie & nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "Facebook",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Ruud van Daal",
+  "kort": "Ruud van Daal",
+  "slug": "ruud-van-daal-stukadoor-swalmen",
+  "plaats": "Swalmen",
+  "tel_display": "06-51962591",
+  "tel_href": "tel:+31651962591",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ruud",
+   "verhaal": "Stukadoorsbedrijf Ruud van Daal uit Swalmen verzorgt alle soorten stucwerk en wandafwerkingen: van schuurwerk en sierpleister tot glad pleisterwerk voor wanden en plafonds.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Schuurwerk",
+    "Sierpleister",
+    "Wanden & plafonds",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "Facebook",
+  "taal": "nl"
  }
 ]
