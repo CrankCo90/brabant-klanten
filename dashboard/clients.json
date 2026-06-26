@@ -28508,5 +28508,71 @@
   "telefoon": "06-53187405",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Danny's Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Loon op Zand",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T21:14:45",
+  "laatste_post": "",
+  "demo_url": "https://dannysstukadoor.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website — alleen vindbaar via telefoongidsen, terwijl klanten online een stukadoor zoeken.",
+  "fouten": [
+   "Geen eigen website — alleen vindbaar via telefoongidsen, terwijl klanten online een stukadoor zoeken"
+  ],
+  "contact": "06-54321014",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54321014",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Vugts Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Kaatsheuvel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T21:14:45",
+  "laatste_post": "",
+  "demo_url": "https://vugtsstucwerken.demo.brabantdigital.nl",
+  "waarom": "Alleen een verouderde Webnode-pagina (copyright 2022) — geen moderne, mobielvriendelijke site met offerteformulier.",
+  "fouten": [
+   "Alleen een verouderde Webnode-pagina (copyright 2022) — geen moderne, mobielvriendelijke site met offerteformulier"
+  ],
+  "contact": "06-46161345",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-46161345",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Corné's Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Waalwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T21:14:45",
+  "laatste_post": "",
+  "demo_url": "https://cornesstukadoorsbedrijf.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website — alleen een vermelding in de telefoongids, terwijl klanten online een stukadoor zoeken.",
+  "fouten": [
+   "Geen eigen website — alleen een vermelding in de telefoongids, terwijl klanten online een stukadoor zoeken"
+  ],
+  "contact": "06-49159839",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-49159839",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

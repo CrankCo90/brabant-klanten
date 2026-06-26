@@ -32340,5 +32340,83 @@
   "email": "",
   "social": "FB",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Danny's Stukadoor",
+  "kort": "Stukadoor in Loon op Zand",
+  "slug": "dannysstukadoor",
+  "plaats": "Loon op Zand",
+  "tel_display": "06-54321014",
+  "tel_href": "tel:+31654321014",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Danny",
+   "verhaal": "Danny's Stukadoor verzorgt strak stucwerk voor particulieren en bedrijven in Loon op Zand en omgeving. Van gladgepleisterde wanden en plafonds tot sierpleister en betonlook — vakwerk dat netjes wordt afgewerkt en op tijd klaar is.",
+   "specialisaties": [
+    "Gladpleisterwerk wanden en plafonds",
+    "Sierpleister en spachtelputz",
+    "Betonlook en betonciré",
+    "Renovatie- en raapwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Vugts Stucwerken",
+  "kort": "Stukadoor in Kaatsheuvel",
+  "slug": "vugtsstucwerken",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "06-46161345",
+  "tel_href": "tel:+31646161345",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roel",
+   "verhaal": "Roel Vugts staat met Vugts Stucwerken voor strak en eerlijk stucwerk in Kaatsheuvel en de Langstraat. Of het nu gaat om gladde wanden, sierpleister of een complete afwerking — persoonlijk contact en een nette afronding staan voorop.",
+   "specialisaties": [
+    "Gladpleisterwerk wanden en plafonds",
+    "Sierpleister en decoratief stucwerk",
+    "Spuit- en latexwerk",
+    "Raap- en renovatiewerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Corné's Stukadoorsbedrijf",
+  "kort": "Stukadoor in Waalwijk",
+  "slug": "cornesstukadoorsbedrijf",
+  "plaats": "Waalwijk",
+  "tel_display": "06-49159839",
+  "tel_href": "tel:+31649159839",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Corné",
+   "verhaal": "Corné's Stukadoorsbedrijf verzorgt stucwerk en wandafwerking voor woningen en bedrijven in Waalwijk en omgeving. Van gladpleisterwerk tot sierpleister — netjes uitgevoerd, met oog voor een strakke afwerking.",
+   "specialisaties": [
+    "Gladpleisterwerk wanden en plafonds",
+    "Sierpleister en spachtelputz",
+    "Spuit- en latexwerk",
+    "Renovatie- en raapwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
