@@ -31605,5 +31605,63 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf De Lange",
+  "kort": "Stukadoorsbedrijf De Lange",
+  "slug": "delangestucadoors",
+  "plaats": "Schijndel",
+  "tel_display": "06-54362413",
+  "tel_href": "tel:+31654362413",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mark",
+   "verhaal": "Stukadoorsbedrijf De Lange uit Schijndel is een klein, zelfstandig bedrijf van Mark van Grinsven dat zich richt op de particuliere markt. Specialist in traditioneel ambachtelijk stucwerk: van een enkele wand tot een complete woning, met een perfecte gladde afwerking via airless spuiten in elke gewenste kleur.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Wand- en plafondafwerking",
+    "Lijst- en koofwerk",
+    "Restauratiewerk",
+    "Airless spuiten",
+    "Sierpleister"
+   ],
+   "certificering": [
+    "Erkend leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "delangestukadoors@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Henri van Engelen",
+  "kort": "Henri van Engelen Schilderwerken",
+  "slug": "hveschilderwerken",
+  "plaats": "Oisterwijk",
+  "tel_display": "06-22680194",
+  "tel_href": "tel:+31622680194",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Henri",
+   "verhaal": "Schildersbedrijf Henri van Engelen uit Oisterwijk levert al ruim 30 jaar vakkundig schilder- en afwerkingswerk. Henri en zijn team verzorgen binnen- en buitenschilderwerk, kitwerk, behangen, houtrotreparatie en glasservice voor particulier en zakelijk, met persoonlijke aandacht en een nette afwerking.",
+   "specialisaties": [
+    "Buitenschilderwerk",
+    "Binnenschilderwerk",
+    "Kitwerk",
+    "Behangen",
+    "Houtrotreparatie",
+    "Glasservice"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@hve-schilderwerken.nl",
+  "social": "https://www.instagram.com/schildersenafwerkingstechniek",
+  "taal": "nl"
  }
 ]

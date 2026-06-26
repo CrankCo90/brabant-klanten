@@ -27914,5 +27914,49 @@
   "telefoon": "06-29410806",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf De Lange",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T14:25:29",
+  "laatste_post": "",
+  "demo_url": "https://delangestucadoors.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (copyright 2012, BTW-tekst tot eind 2012, losse Adobe Reader-download, niet mobielvriendelijk, geen online offerteformulier). Bereikbaar via e-mail en 06-mobiel. Uitstekende redesign-kans.",
+  "fouten": [
+   "Sterk verouderde website (copyright 2012, BTW-tekst tot eind 2012, losse Adobe Reader-download, niet mobielvriendelijk, geen online offerteformulier). Bereikbaar via e-mail en 06-mobiel. Uitstekende redesign-kans"
+  ],
+  "contact": "06-54362413",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54362413",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Henri van Engelen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Oisterwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-26",
+  "aangemaakt": "2026-06-26T14:25:29",
+  "laatste_post": "",
+  "demo_url": "https://hveschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Gedateerde, basale WordPress-site (2019-thema, oude Slider Revolution/WPBakery, geen modern responsive ontwerp, enkel een pop-up-formulier) terwijl het bedrijf 30 jaar ervaring en veel lovende reviews heeft. Bereikbaar via e-mail, 06-mobiel en Instagram. Goede redesign-kans.",
+  "fouten": [
+   "Gedateerde, basale WordPress-site (2019-thema, oude Slider Revolution/WPBakery, geen modern responsive ontwerp, enkel een pop-up-formulier) terwijl het bedrijf 30 jaar ervaring en veel lovende reviews heeft. Bereikbaar via e-mail, 06-mobiel en Instagram. Goede redesign-kans"
+  ],
+  "contact": "06-22680194",
+  "bron": null,
+  "social": "https://www.instagram.com/schildersenafwerkingstechniek",
+  "telefoon": "06-22680194",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
