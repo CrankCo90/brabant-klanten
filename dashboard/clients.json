@@ -28904,5 +28904,49 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Gulikers",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T14:15:37",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-gulikers-maastricht.demo.brabantdigital.nl",
+  "waarom": "Ervaren stukadoor in Maastricht (22 jaar, topreviews) die alleen mobiel/telefonisch bereikbaar is en geen eigen website heeft — premium demo gebouwd.",
+  "fouten": [
+   "Ervaren stukadoor in Maastricht (22 jaar, topreviews) die alleen mobiel/telefonisch bereikbaar is en geen eigen website heeft — premium demo gebouwd"
+  ],
+  "contact": "06-52695794",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-52695794",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hermans Stukadoorswerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Velden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T14:15:37",
+  "laatste_post": "",
+  "demo_url": "https://hermans-stukadoorswerken-velden.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Velden (Venlo) met 5-sterren reviews die alleen mobiel bereikbaar is en geen eigen website heeft — premium demo gebouwd.",
+  "fouten": [
+   "Stukadoor in Velden (Venlo) met 5-sterren reviews die alleen mobiel bereikbaar is en geen eigen website heeft — premium demo gebouwd"
+  ],
+  "contact": "06-45379643",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-45379643",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -32819,5 +32819,57 @@
   "email": "",
   "social": "facebook.com/schildersbedrijfteunissen",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Gulikers",
+  "kort": "Gulikers",
+  "slug": "stukadoorsbedrijf-gulikers-maastricht",
+  "plaats": "Maastricht",
+  "tel_display": "06-52695794",
+  "tel_href": "tel:+31652695794",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Luuk",
+   "verhaal": "Stukadoorsbedrijf Gulikers is al ruim 22 jaar het vertrouwde adres in Maastricht voor strak, glad stucwerk. Eigenaar Luuk levert vakwerk met oog voor detail: van gladde wanden en plafonds tot sierpleister en herstelwerk. Klanten roemen de heldere afspraken, het nette werken en het mooie eindresultaat.",
+   "specialisaties": [
+    "Glad stucwerk voor muren en plafonds",
+    "Renovatie- en herstelstucwerk",
+    "Sierpleister en decoratieve afwerking",
+    "Pleisterwerk bij verbouwing en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hermans Stukadoorswerken",
+  "kort": "Hermans Stukadoorswerken",
+  "slug": "hermans-stukadoorswerken-velden",
+  "plaats": "Velden",
+  "tel_display": "06-45379643",
+  "tel_href": "tel:+31645379643",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jan",
+   "verhaal": "Hermans Stukadoorswerken uit Velden (gemeente Venlo) staat voor perfect glad en strak stucwerk. Jan Hermans en zijn team werken netjes, communiceren duidelijk en houden je goed op de hoogte. Het resultaat: naadloze muren en plafonds, klaar voor iedere afwerking.",
+   "specialisaties": [
+    "Glad stucwerk voor muren en plafonds",
+    "Renovatie- en herstelstucwerk",
+    "Sierpleister en spachtelputz",
+    "Pleisterwerk bij nieuwbouw en verbouwing"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
