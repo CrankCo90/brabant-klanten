@@ -28816,5 +28816,93 @@
   "telefoon": "06-10083065",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilderwerken Gebr. Walterbos",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Nijmegen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T13:14:13",
+  "laatste_post": "",
+  "demo_url": "https://walterbosschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Alleen actief via Facebook, geen eigen website — klanten kunnen niet online een offerte aanvragen of het werk bekijken.",
+  "fouten": [
+   "Alleen actief via Facebook, geen eigen website — klanten kunnen niet online een offerte aanvragen of het werk bekijken"
+  ],
+  "contact": "06-15045441",
+  "bron": null,
+  "social": "facebook.com/walterbosschilderwerken",
+  "telefoon": "06-15045441",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MB Klus en Schilderwerken Arnhem",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Arnhem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T13:14:13",
+  "laatste_post": "",
+  "demo_url": "https://mb-klus-en-schilderwerken-arnhem.demo.brabantdigital.nl",
+  "waarom": "Online alleen vindbaar via een gratis Google Sites-pagina en een Gmail-adres, zonder eigen professionele website — oogt minder betrouwbaar en is slecht vindbaar in Google.",
+  "fouten": [
+   "Online alleen vindbaar via een gratis Google Sites-pagina en een Gmail-adres, zonder eigen professionele website — oogt minder betrouwbaar en is slecht vindbaar in Google"
+  ],
+  "contact": "06-87843656",
+  "bron": null,
+  "social": "facebook.com/mb.klus.en.schilderwerken.arnhem",
+  "telefoon": "06-87843656",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Magic",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Arnhem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T13:14:13",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijf-magic-arnhem.demo.brabantdigital.nl",
+  "waarom": "Verouderde website uit 2017 met kapotte menu-links en niet mobielvriendelijk — op een telefoon nauwelijks te gebruiken en niet meer representatief.",
+  "fouten": [
+   "Verouderde website uit 2017 met kapotte menu-links en niet mobielvriendelijk — op een telefoon nauwelijks te gebruiken en niet meer representatief"
+  ],
+  "contact": "06-84611592",
+  "bron": null,
+  "social": "facebook.com/stucadoorsbedrijfMagic",
+  "telefoon": "06-84611592",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Teunissen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Nijmegen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T13:14:13",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-teunissen-nijmegen.demo.brabantdigital.nl",
+  "waarom": "Alleen aanwezig op Facebook, geen eigen website — klanten kunnen het werk en de mogelijkheden niet online bekijken of een offerte aanvragen.",
+  "fouten": [
+   "Alleen aanwezig op Facebook, geen eigen website — klanten kunnen het werk en de mogelijkheden niet online bekijken of een offerte aanvragen"
+  ],
+  "contact": "Alleen facebook.com/schildersbedrijfteunissen",
+  "bron": null,
+  "social": "facebook.com/schildersbedrijfteunissen",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

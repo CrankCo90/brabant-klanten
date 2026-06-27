@@ -32713,5 +32713,111 @@
   "email": "info@luckerhof-stukadoors.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilderwerken Gebr. Walterbos",
+  "kort": "Walterbos",
+  "slug": "walterbosschilderwerken",
+  "plaats": "Nijmegen",
+  "tel_display": "06-15045441",
+  "tel_href": "tel:+31615045441",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "De gebroeders Walterbos verzorgen al jaren alle voorkomende schilderwerkzaamheden voor binnen en buiten in Nijmegen en omgeving. Ze zijn gespecialiseerd in het strak spuiten van interieur (lak op kozijnen, deuren en plinten) en het herstellen van houtrot. Persoonlijk, netjes en met oog voor een nette afwerking.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Interieur en lak spuiten",
+    "Houtrot herstellen",
+    "Wand- en plafondafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/walterbosschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MB Klus en Schilderwerken Arnhem",
+  "kort": "MB",
+  "slug": "mb-klus-en-schilderwerken-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-87843656",
+  "tel_href": "tel:+31687843656",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "MB Klus en Schilderwerken is een allround schilders- en klusbedrijf uit Arnhem voor particulieren en bedrijven. Naast binnen- en buitenschilderwerk verzorgen ze houtrotreparatie en kleine klussen, met spoedservice wanneer het snel moet. Scherp geprijsd en met een nette, persoonlijke aanpak.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Houtrotreparatie",
+    "Spoedservice schilderwerk",
+    "Klus- en onderhoudswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "mbklusenschilderwerkenarnhem@gmail.com",
+  "social": "facebook.com/mb.klus.en.schilderwerken.arnhem",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Magic",
+  "kort": "Magic",
+  "slug": "stucadoorsbedrijf-magic-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-84611592",
+  "tel_href": "tel:+31684611592",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf Magic uit Arnhem combineert stuc- en schilderwerk en heeft ruim 10 jaar ervaring. Ze werken voor particulieren én voor bouwbedrijven, woningbouwverenigingen en aannemers, binnen en buiten en ongeacht de grootte van de opdracht. Netheid, professionaliteit en vakkundigheid staan voorop.",
+   "specialisaties": [
+    "Stucwerk (behang- en sausklaar)",
+    "Sierpleister en spachtelputz",
+    "Buitengevelwerk",
+    "Schilderwerk"
+   ],
+   "certificering": [
+    "NOA-lid (brancheorganisatie afbouw & stukadoors)"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "magic-stukadoor-schilder@live.nl",
+  "social": "facebook.com/stucadoorsbedrijfMagic",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Teunissen",
+  "kort": "Teunissen",
+  "slug": "schildersbedrijf-teunissen-nijmegen",
+  "plaats": "Nijmegen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Patrick",
+   "verhaal": "Patrick Teunissen is een zelfstandig huisschilder uit Nijmegen met ruim 15 jaar ervaring in het vak. Hij verzorgt alle voorkomende schilderwerkzaamheden voor binnen en buiten, van frisse muren en strakke kozijnen tot glaszetten — persoonlijk en met aandacht voor detail.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Glaszetten",
+    "Kozijnen en houtwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/schildersbedrijfteunissen",
+  "taal": "nl"
  }
 ]
