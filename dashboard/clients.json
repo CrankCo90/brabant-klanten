@@ -28750,5 +28750,71 @@
   "telefoon": "06-16445335",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Quality Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Landgraaf",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T12:59:30",
+  "laatste_post": "",
+  "demo_url": "https://qualitystukadoorsbedrijf.demo.brabantdigital.nl",
+  "waarom": "Zwakke website op een demo-template met kapotte links en algemene voorbeeldfoto's.",
+  "fouten": [
+   "Zwakke website op een demo-template met kapotte links en algemene voorbeeldfoto's"
+  ],
+  "contact": "06-33399155",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-33399155",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bjorn Mallmann Stukadoors- & Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Landgraaf",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T12:59:30",
+  "laatste_post": "",
+  "demo_url": "https://bjornmallmann.demo.brabantdigital.nl",
+  "waarom": "Zeer summiere een-pagina website zonder echte inhoud, veel ruimte voor een sterkere uitstraling.",
+  "fouten": [
+   "Zeer summiere een-pagina website zonder echte inhoud, veel ruimte voor een sterkere uitstraling"
+  ],
+  "contact": "06-24609948",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24609948",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Luckerhof Stukadoors en Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Limburg",
+  "plaats": "Maastricht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T12:59:30",
+  "laatste_post": "",
+  "demo_url": "https://luckerhofstukadoors.demo.brabantdigital.nl",
+  "waarom": "Gedateerde website op een websitebouwer-template, een moderne site biedt duidelijk voordeel.",
+  "fouten": [
+   "Gedateerde website op een websitebouwer-template, een moderne site biedt duidelijk voordeel"
+  ],
+  "contact": "06-10083065",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-10083065",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

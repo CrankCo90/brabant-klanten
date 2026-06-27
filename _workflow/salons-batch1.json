@@ -32629,5 +32629,89 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Quality Stukadoorsbedrijf",
+  "kort": "Stukadoor & afbouw in Landgraaf",
+  "slug": "qualitystukadoorsbedrijf",
+  "plaats": "Landgraaf",
+  "tel_display": "06-33399155",
+  "tel_href": "tel:+31633399155",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Maher Mohammad",
+   "verhaal": "Quality Stukadoorsbedrijf verzorgt stuc-, afbouw- en schilderwerk in Landgraaf en omgeving, met heldere afspraken, scherpe prijzen en garantie op het werk.",
+   "specialisaties": [
+    "Stucwerk",
+    "Spachtelputz / spackspuiten",
+    "Afbouwwerkzaamheden",
+    "Schilderwerk",
+    "Kleine verbouwingen",
+    "Behangservice"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "mahermohammadnl@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Bjorn Mallmann Stukadoors- & Schildersbedrijf",
+  "kort": "Stukadoor & schilder in Landgraaf",
+  "slug": "bjornmallmann",
+  "plaats": "Landgraaf",
+  "tel_display": "06-24609948",
+  "tel_href": "tel:+31624609948",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Bjorn Mallmann",
+   "verhaal": "Bjorn Mallmann is een stukadoors- en schildersbedrijf uit Landgraaf voor strak stuc- en schilderwerk bij particulieren.",
+   "specialisaties": [
+    "Stukadoorswerk",
+    "Schilderwerk",
+    "Wandafwerking",
+    "Plafondafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Luckerhof Stukadoors en Schilderwerken",
+  "kort": "Stukadoor & schilder in Maastricht",
+  "slug": "luckerhofstukadoors",
+  "plaats": "Maastricht",
+  "tel_display": "06-10083065",
+  "tel_href": "tel:+31610083065",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Luckerhof Stukadoors en Schilderwerken (opgericht in 2012, aangesloten bij de NOA) is een betrouwbaar stukadoors- en schildersbedrijf in Maastricht en omgeving.",
+   "specialisaties": [
+    "Plafondafwerking",
+    "Binnenwanden stuken",
+    "Beton cire",
+    "Metal stud wanden en plafonds",
+    "Spackspuiten",
+    "Schilderwerk"
+   ],
+   "certificering": [
+    "Aangesloten bij NOA (Ned. Ondernemersvereniging voor Afbouwbedrijven)"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@luckerhof-stukadoors.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
