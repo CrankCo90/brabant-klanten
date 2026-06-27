@@ -33414,5 +33414,83 @@
   "email": "info@aartsschilders.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Sampono",
+  "kort": "Sampono",
+  "slug": "schildersbedrijf-sampono-veghel",
+  "plaats": "Veghel",
+  "tel_display": "0624240891",
+  "tel_href": "tel:+31624240891",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf in Veghel en omgeving voor strak binnen- en buitenschilderwerk, behang- en decoratiewerk, met persoonlijke aandacht en een eerlijke prijs.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behang- & decoratiewerk",
+    "Onderhoud & reparatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "schildersbedrijfsampono@gmail.com",
+  "social": "https://www.facebook.com/schildersbedrijfsampono/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dennis Janssen Schilderwerken",
+  "kort": "Dennis Janssen",
+  "slug": "dennis-janssen-schilderwerken-rosmalen",
+  "plaats": "Rosmalen",
+  "tel_display": "0622919331",
+  "tel_href": "tel:+31622919331",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Dennis Janssen",
+   "verhaal": "Sinds 2008 gespecialiseerd in particulier binnen- en buitenschilderwerk, onderhoud en reparatie in de regio Rosmalen, Den Bosch en Oss. Dennis doet alles zelf en werkt met hoogwaardige materialen.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoud & reparatie",
+    "Spuit- & texwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/DennisJanssenSchilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Deursen Schilderwerken",
+  "kort": "Van Deursen",
+  "slug": "van-deursen-schilderwerken-rosmalen",
+  "plaats": "Rosmalen",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit Rosmalen voor net binnen- en buitenschilderwerk, afplak- en onderhoudswerk, met oog voor detail en een nette afwerking.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoud",
+    "Houtwerk & kozijnen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/people/Van-deursen-schilderwerken-rosmalen/100063467025331/",
+  "taal": "nl"
  }
 ]

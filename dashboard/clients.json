@@ -29388,5 +29388,71 @@
   "telefoon": "0413-441009",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Sampono",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T20:15:44",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-sampono-veghel.demo.brabantdigital.nl",
+  "waarom": "Schildersbedrijf in Veghel dat alleen via Facebook en een Gmail-adres bereikbaar is - nog geen eigen website. Premium demo als eerste echte online visitekaartje.",
+  "fouten": [
+   "Schildersbedrijf in Veghel dat alleen via Facebook en een Gmail-adres bereikbaar is - nog geen eigen website. Premium demo als eerste echte online visitekaartje"
+  ],
+  "contact": "0624240891",
+  "bron": null,
+  "social": "https://www.facebook.com/schildersbedrijfsampono/",
+  "telefoon": "0624240891",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dennis Janssen Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Rosmalen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T20:15:44",
+  "laatste_post": "",
+  "demo_url": "https://dennis-janssen-schilderwerken-rosmalen.demo.brabantdigital.nl",
+  "waarom": "Vakkundige schilder in Rosmalen met een sterk verouderde website (ontwerp uit 2017/2018, laatste update 2022) die niet meer bij het vakmanschap past. Mobiel en via social bereikbaar - duidelijke redesign-kans.",
+  "fouten": [
+   "Vakkundige schilder in Rosmalen met een sterk verouderde website (ontwerp uit 2017/2018, laatste update 2022) die niet meer bij het vakmanschap past. Mobiel en via social bereikbaar - duidelijke redesign-kans"
+  ],
+  "contact": "0622919331",
+  "bron": null,
+  "social": "https://www.facebook.com/DennisJanssenSchilderwerken/",
+  "telefoon": "0622919331",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Deursen Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Rosmalen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T20:15:44",
+  "laatste_post": "",
+  "demo_url": "https://van-deursen-schilderwerken-rosmalen.demo.brabantdigital.nl",
+  "waarom": "Schildersbedrijf in Rosmalen dat uitsluitend op Facebook actief is - geen eigen website. Premium demo om online vindbaar en professioneel zichtbaar te worden.",
+  "fouten": [
+   "Schildersbedrijf in Rosmalen dat uitsluitend op Facebook actief is - geen eigen website. Premium demo om online vindbaar en professioneel zichtbaar te worden"
+  ],
+  "contact": "Alleen https://www.facebook.com/people/Van-deursen-schilderwerken-rosmalen/100063467025331/",
+  "bron": null,
+  "social": "https://www.facebook.com/people/Van-deursen-schilderwerken-rosmalen/100063467025331/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
