@@ -29036,5 +29036,115 @@
   "telefoon": "06-12222175",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Beau Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Nieuwegein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T16:17:14",
+  "laatste_post": "",
+  "demo_url": "https://beau-schilderwerken-nieuwegein.demo.brabantdigital.nl",
+  "waarom": "Alleen aanwezig op Instagram (@beauschilderwerken), geen eigen website. Bereikbaar via social, telefoon en WhatsApp. 'Alleen social = prospect' per rubric.",
+  "fouten": [
+   "Alleen aanwezig op Instagram (@beauschilderwerken), geen eigen website. Bereikbaar via social, telefoon en WhatsApp. 'Alleen social = prospect' per rubric"
+  ],
+  "contact": "Alleen https://www.instagram.com/beauschilderwerken/",
+  "bron": null,
+  "social": "https://www.instagram.com/beauschilderwerken/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DSH Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Zeist",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T16:17:14",
+  "laatste_post": "",
+  "demo_url": "https://dsh-schilderwerken-zeist.demo.brabantdigital.nl",
+  "waarom": "Bestaande site (dshschilderwerken.nl) is basaal en draait zonder HTTPS-beveiliging; geen online offerteformulier. Mobiel, e-mail en Facebook bereikbaar. Duidelijke moderniseringskans.",
+  "fouten": [
+   "Bestaande site (dshschilderwerken.nl) is basaal en draait zonder HTTPS-beveiliging; geen online offerteformulier. Mobiel, e-mail en Facebook bereikbaar. Duidelijke moderniseringskans"
+  ],
+  "contact": "06-46090672",
+  "bron": null,
+  "social": "https://www.facebook.com/dshschilderwerken/",
+  "telefoon": "06-46090672",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "JPK Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "IJsselstein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T16:17:14",
+  "laatste_post": "",
+  "demo_url": "https://jpk-schilderwerken-ijsselstein.demo.brabantdigital.nl",
+  "waarom": "Alleen aanwezig op Facebook (geen eigen website), mobiel bereikbaar (06-11072583). 'Alleen social = prospect' per rubric.",
+  "fouten": [
+   "Alleen aanwezig op Facebook (geen eigen website), mobiel bereikbaar (06-11072583). 'Alleen social = prospect' per rubric"
+  ],
+  "contact": "06-11072583",
+  "bron": null,
+  "social": "https://www.facebook.com/pages/JPK-Schilderwerken/264518110284764/",
+  "telefoon": "06-11072583",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Uniek Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Woerden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T16:17:14",
+  "laatste_post": "",
+  "demo_url": "https://uniek-schilderwerken-woerden.demo.brabantdigital.nl",
+  "waarom": "Eigen site (uniekschilderwerken.nl) is een lege, verouderde one-pager (alleen logo en adres, laatst bijgewerkt 2019, WordPress 6.0); geen content of offerteformulier. Mobiel, e-mail en Facebook bereikbaar. Sterke nieuwe-site-kans.",
+  "fouten": [
+   "Eigen site (uniekschilderwerken.nl) is een lege, verouderde one-pager (alleen logo en adres, laatst bijgewerkt 2019, WordPress 6.0); geen content of offerteformulier. Mobiel, e-mail en Facebook bereikbaar. Sterke nieuwe-site-kans"
+  ],
+  "contact": "06-40221694",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Uniek-Schilderwerken-100057645391653/",
+  "telefoon": "06-40221694",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "RuMa Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Barendrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T16:17:14",
+  "laatste_post": "",
+  "demo_url": "https://ruma-schilderwerken-barendrecht.demo.brabantdigital.nl",
+  "waarom": "Geen eigen bedrijfswebsite — uitsluitend Facebook en een Gmail-adres als contact. Mobiel bereikbaar (06-44973791). Geen eigen domein/site = prospect per rubric.",
+  "fouten": [
+   "Geen eigen bedrijfswebsite — uitsluitend Facebook en een Gmail-adres als contact. Mobiel bereikbaar (06-44973791). Geen eigen domein/site = prospect per rubric"
+  ],
+  "contact": "06-44973791",
+  "bron": null,
+  "social": "https://www.facebook.com/RuMa-Schilderwerken-104053134491706/",
+  "telefoon": "06-44973791",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

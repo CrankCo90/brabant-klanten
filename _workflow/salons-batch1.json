@@ -32977,5 +32977,135 @@
   "email": "stucadoorsbedrijfazwezerijnen@hotmail.com",
   "social": "https://www.instagram.com/stucadoorsbedrijfazwezerijnen/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Beau Schilderwerken",
+  "kort": "Beau Schilderwerken",
+  "slug": "beau-schilderwerken-nieuwegein",
+  "plaats": "Nieuwegein",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit Nieuwegein voor professioneel binnen- en buitenschilderwerk, van groot tot klein. Werkzaam in de regio Nieuwegein, Utrecht en omstreken.",
+   "specialisaties": [
+    "binnenschilderwerk",
+    "buitenschilderwerk",
+    "lakwerk",
+    "houtrotreparatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/beauschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "DSH Schilderwerken",
+  "kort": "DSH Schilderwerken",
+  "slug": "dsh-schilderwerken-zeist",
+  "plaats": "Zeist",
+  "tel_display": "06-46090672",
+  "tel_href": "tel:+31646090672",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Davy Heintjes",
+   "verhaal": "Schildersbedrijf uit Zeist voor nieuwbouw-, renovatie- en onderhoudsschilderwerk, voor zowel zakelijke als particuliere klanten. Persoonlijk contact staat voorop.",
+   "specialisaties": [
+    "nieuwbouwschilderwerk",
+    "renovatie",
+    "onderhoudsschilderwerk",
+    "binnen- en buitenschilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@dshschilderwerken.nl",
+  "social": "https://www.facebook.com/dshschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "JPK Schilderwerken",
+  "kort": "JPK Schilderwerken",
+  "slug": "jpk-schilderwerken-ijsselstein",
+  "plaats": "IJsselstein",
+  "tel_display": "06-11072583",
+  "tel_href": "tel:+31611072583",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit IJsselstein met circa 10 jaar ervaring in binnen- en buitenschilderwerk en glaszetten.",
+   "specialisaties": [
+    "binnenschilderwerk",
+    "buitenschilderwerk",
+    "glaszetten",
+    "onderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/pages/JPK-Schilderwerken/264518110284764/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Uniek Schilderwerken",
+  "kort": "Uniek Schilderwerken",
+  "slug": "uniek-schilderwerken-woerden",
+  "plaats": "Woerden",
+  "tel_display": "06-40221694",
+  "tel_href": "tel:+31640221694",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit Woerden voor kwalitatief binnen- en buitenschilderwerk en wandafwerking; deelt projecten via Facebook.",
+   "specialisaties": [
+    "binnenschilderwerk",
+    "buitenschilderwerk",
+    "wandafwerking",
+    "houtwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "mail@uniekschilderwerken.nl",
+  "social": "https://www.facebook.com/p/Uniek-Schilderwerken-100057645391653/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "RuMa Schilderwerken",
+  "kort": "RuMa Schilderwerken",
+  "slug": "ruma-schilderwerken-barendrecht",
+  "plaats": "Barendrecht",
+  "tel_display": "06-44973791",
+  "tel_href": "tel:+31644973791",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoors- en schildersbedrijf uit Barendrecht dat naar de klant toe komt voor strak stuc- en schilderwerk.",
+   "specialisaties": [
+    "stucwerk",
+    "schilderwerk",
+    "wandafwerking",
+    "latex spuiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "RuMaschilderwerken@gmail.com",
+  "social": "https://www.facebook.com/RuMa-Schilderwerken-104053134491706/",
+  "taal": "nl"
  }
 ]
