@@ -29146,5 +29146,137 @@
   "telefoon": "06-44973791",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf van Campenhout",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Flevoland",
+  "plaats": "Almere",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T17:11:35",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijf-van-campenhout-almere.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (copyright 2020, foto's uit 2019) zonder online offertemogelijkheid.",
+  "fouten": [
+   "Verouderde website (copyright 2020, foto's uit 2019) zonder online offertemogelijkheid"
+  ],
+  "contact": "06-52667013",
+  "bron": null,
+  "social": "https://www.facebook.com/Stucadoorsbedrijf-van-Campenhout-335482549830621",
+  "telefoon": "06-52667013",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf de Lange",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Flevoland",
+  "plaats": "Almere",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T17:11:35",
+  "laatste_post": "",
+  "demo_url": "https://stucadoorsbedrijf-de-lange-almere.demo.brabantdigital.nl",
+  "waarom": "Website bevat onafgewerkte placeholder-teksten (Lorem ipsum) - een nette demo wint direct vertrouwen.",
+  "fouten": [
+   "Website bevat onafgewerkte placeholder-teksten (Lorem ipsum) - een nette demo wint direct vertrouwen"
+  ],
+  "contact": "06-40295138",
+  "bron": null,
+  "social": "https://www.instagram.com/stucadoorsbedrijf_de_lange/",
+  "telefoon": "06-40295138",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "STDM Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Flevoland",
+  "plaats": "Almere",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T17:11:35",
+  "laatste_post": "",
+  "demo_url": "https://stdm-schilderwerken-almere.demo.brabantdigital.nl",
+  "waarom": "Gedateerde template-website zonder online offerte en matig mobielvriendelijk.",
+  "fouten": [
+   "Gedateerde template-website zonder online offerte en matig mobielvriendelijk"
+  ],
+  "contact": "06-11318457",
+  "bron": null,
+  "social": "https://www.instagram.com/s.t.d.m._schilderwerken/",
+  "telefoon": "06-11318457",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Flevo Painting",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Flevoland",
+  "plaats": "Almere",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T17:11:35",
+  "laatste_post": "",
+  "demo_url": "https://flevo-painting-almere.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (copyright 2017) zonder mobielvriendelijke weergave.",
+  "fouten": [
+   "Sterk verouderde website (copyright 2017) zonder mobielvriendelijke weergave"
+  ],
+  "contact": "036-5365408",
+  "bron": null,
+  "social": "",
+  "telefoon": "036-5365408",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Deco Stuc",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Flevoland",
+  "plaats": "Lelystad",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T17:11:35",
+  "laatste_post": "",
+  "demo_url": "https://deco-stuc-lelystad.demo.brabantdigital.nl",
+  "waarom": "Verouderde website op een gratis bouwer (foto's uit 2016) zonder werkende reviews of online offerte.",
+  "fouten": [
+   "Verouderde website op een gratis bouwer (foto's uit 2016) zonder werkende reviews of online offerte"
+  ],
+  "contact": "06-42808029",
+  "bron": null,
+  "social": "https://www.facebook.com/deco.stuc",
+  "telefoon": "06-42808029",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "JC Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Flevoland",
+  "plaats": "Lelystad",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T17:11:35",
+  "laatste_post": "",
+  "demo_url": "https://jc-schilderwerken-lelystad.demo.brabantdigital.nl",
+  "waarom": "Verouderde one-page website uit 2019 zonder voor/na-projectgalerij of online offerte.",
+  "fouten": [
+   "Verouderde one-page website uit 2019 zonder voor/na-projectgalerij of online offerte"
+  ],
+  "contact": "06-57650222",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-57650222",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
