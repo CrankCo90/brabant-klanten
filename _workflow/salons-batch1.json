@@ -33358,5 +33358,61 @@
   "email": "info@schildersbedrijfdijns.nl",
   "social": "https://www.facebook.com/p/Schildersbedrijf-Dijns-100076125547549/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van Zutphen",
+  "kort": "Van Zutphen",
+  "slug": "stukadoorsbedrijf-van-zutphen-erp",
+  "plaats": "Erp",
+  "tel_display": "06-22422180",
+  "tel_href": "tel:+31622422180",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Van Zutphen uit Erp is een regionaal opererend afbouwbedrijf met jarenlange ervaring in zowel woning- als utiliteitsbouw. Van sierpleister op buitengevels tot strak binnenstucwerk voor nieuwbouw en renovatie.",
+   "specialisaties": [
+    "Binnenstucwerk",
+    "Sierpleister buitengevel",
+    "Schuurwerk",
+    "Renovatie & nieuwbouw",
+    "Utiliteitsbouw",
+    "Cementgebonden raaplagen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijf-vanzutphen.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Aarts Schilders",
+  "kort": "Aarts Schilders",
+  "slug": "aarts-schilders-veghel",
+  "plaats": "Veghel",
+  "tel_display": "0413-441009",
+  "tel_href": "tel:0413441009",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Aarts Schilders is een schildersbedrijf uit Veghel, actief in de regio Veghel, Eindhoven, 's-Hertogenbosch en Helmond. Van binnen- en buitenschilderwerk tot grotere projecten voor particulier en zakelijk.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Latex spuitwerk",
+    "Behangwerk",
+    "Zakelijke projecten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@aartsschilders.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]

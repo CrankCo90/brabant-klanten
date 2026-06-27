@@ -29344,5 +29344,49 @@
   "telefoon": "06-25042773",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van Zutphen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Erp",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T19:14:58",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-van-zutphen-erp.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (laatste projecten uit 2020, niet mobielvriendelijk, geen offerteformulier); wel bereikbaar via e-mail en 06-nummer.",
+  "fouten": [
+   "Verouderde website (laatste projecten uit 2020, niet mobielvriendelijk, geen offerteformulier); wel bereikbaar via e-mail en 06-nummer"
+  ],
+  "contact": "06-22422180",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22422180",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Aarts Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T19:14:58",
+  "laatste_post": "",
+  "demo_url": "https://aarts-schilders-veghel.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (opzet uit circa 2016/2017, gedateerde uitstraling, geen modern offerteformulier); wel bereikbaar via e-mail.",
+  "fouten": [
+   "Verouderde website (opzet uit circa 2016/2017, gedateerde uitstraling, geen modern offerteformulier); wel bereikbaar via e-mail"
+  ],
+  "contact": "0413-441009",
+  "bron": null,
+  "social": "",
+  "telefoon": "0413-441009",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
