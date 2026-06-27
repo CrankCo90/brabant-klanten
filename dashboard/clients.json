@@ -29278,5 +29278,71 @@
   "telefoon": "06-57650222",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van de Bunt Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Amersfoort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T18:15:27",
+  "laatste_post": "",
+  "demo_url": "https://vandebunt-stukadoors-amersfoort.demo.brabantdigital.nl",
+  "waarom": "Alleen aanwezig op Instagram (geen eigen website). Bereikbaar via mobiel (06-55338087) en e-mail. 'Alleen social = prospect' per rubric - sterke kans op een eerste eigen website.",
+  "fouten": [
+   "Alleen aanwezig op Instagram (geen eigen website). Bereikbaar via mobiel (06-55338087) en e-mail. 'Alleen social = prospect' per rubric - sterke kans op een eerste eigen website"
+  ],
+  "contact": "06-55338087",
+  "bron": null,
+  "social": "https://www.instagram.com/vandebuntstukadoors/",
+  "telefoon": "06-55338087",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "J. van der Velden Stucwerk & Afbouw",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Utrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T18:15:27",
+  "laatste_post": "",
+  "demo_url": "https://jvandervelden-stukadoor-utrecht.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (beeldmateriaal uit 2011-2018, mobiele zoom uitgeschakeld, geen modern offerteformulier) terwijl het bedrijf 25+ jaar actief en goed beoordeeld is (4,8 op Google). Duidelijke redesign-kans; volledig bereikbaar via mobiel, e-mail en Facebook.",
+  "fouten": [
+   "Sterk verouderde website (beeldmateriaal uit 2011-2018, mobiele zoom uitgeschakeld, geen modern offerteformulier) terwijl het bedrijf 25+ jaar actief en goed beoordeeld is (4,8 op Google). Duidelijke redesign-kans; volledig bereikbaar via mobiel, e-mail en Facebook"
+  ],
+  "contact": "06-26376343",
+  "bron": null,
+  "social": "https://www.facebook.com/J.vanderVelden.stucadoor/",
+  "telefoon": "06-26376343",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Dijns",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Amersfoort",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T18:15:27",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-dijns-amersfoort.demo.brabantdigital.nl",
+  "waarom": "Huidige website draait op de gratis bouwer JouwWeb (jwwb.nl) = zwak/sjabloon per rubric, met beperkte uitstraling. Volledig bereikbaar via mobiel, e-mail, WhatsApp en social (FB/IG/TikTok). Sterke upgrade-kans naar een eigen, professionele site.",
+  "fouten": [
+   "Huidige website draait op de gratis bouwer JouwWeb (jwwb.nl) = zwak/sjabloon per rubric, met beperkte uitstraling. Volledig bereikbaar via mobiel, e-mail, WhatsApp en social (FB/IG/TikTok). Sterke upgrade-kans naar een eigen, professionele site"
+  ],
+  "contact": "06-25042773",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Schildersbedrijf-Dijns-100076125547549/",
+  "telefoon": "06-25042773",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

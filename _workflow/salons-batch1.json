@@ -33280,5 +33280,83 @@
   "email": "info@jcschilderwerken.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van de Bunt Stukadoors",
+  "kort": "Van de Bunt Stukadoors",
+  "slug": "vandebunt-stukadoors-amersfoort",
+  "plaats": "Amersfoort",
+  "tel_display": "06-55338087",
+  "tel_href": "tel:+31655338087",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Xavier van de Bunt",
+   "verhaal": "Stukadoorsbedrijf in Amersfoort en omstreken, geleid door Xavier van de Bunt. Strak stuc- en pleisterwerk voor woningen en bedrijfspanden, bereikbaar via mobiel, e-mail en Instagram.",
+   "specialisaties": [
+    "stucwerk",
+    "pleisterwerk",
+    "latex spuiten",
+    "sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "vandebuntstukadoors@gmail.com",
+  "social": "https://www.instagram.com/vandebuntstukadoors/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "J. van der Velden Stucwerk & Afbouw",
+  "kort": "J. van der Velden",
+  "slug": "jvandervelden-stukadoor-utrecht",
+  "plaats": "Utrecht",
+  "tel_display": "06-26376343",
+  "tel_href": "tel:+31626376343",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "John van der Velden",
+   "verhaal": "Stukadoor en schilder uit Utrecht (De Meern / Leidsche Rijn) met meer dan 25 jaar ervaring in stucwerk, sauswerk en schilderwerk voor woningen en bedrijfspanden.",
+   "specialisaties": [
+    "stucwerk",
+    "sauswerk",
+    "schilderwerk",
+    "ornamenten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@jvandervelden.nl",
+  "social": "https://www.facebook.com/J.vanderVelden.stucadoor/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Dijns",
+  "kort": "Schildersbedrijf Dijns",
+  "slug": "schildersbedrijf-dijns-amersfoort",
+  "plaats": "Amersfoort",
+  "tel_display": "06-25042773",
+  "tel_href": "tel:+31625042773",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf uit Amersfoort, actief in Midden-Nederland. Binnen- en buitenschilderwerk, wandafwerking, spuittechniek, stucco en beton cire voor particulier en zakelijk.",
+   "specialisaties": [
+    "binnenschilderwerk",
+    "buitenschilderwerk",
+    "latex spuiten",
+    "beton cire"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfdijns.nl",
+  "social": "https://www.facebook.com/p/Schildersbedrijf-Dijns-100076125547549/",
+  "taal": "nl"
  }
 ]
