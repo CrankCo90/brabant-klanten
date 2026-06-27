@@ -32871,5 +32871,111 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf M. van Rossum",
+  "kort": "Van Rossum Schilders",
+  "slug": "vanrossum-schilders-utrecht",
+  "plaats": "Utrecht",
+  "tel_display": "06-24372022",
+  "tel_href": "tel:+31624372022",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "M. van Rossum",
+   "verhaal": "Klein familie-schildersbedrijf in Utrecht (Muyskenweg) dat staat voor service, kwaliteit en klantvriendelijkheid; werkt voor particulieren, VvE's en zakelijke klanten.",
+   "specialisaties": [
+    "binnenschilderwerk",
+    "buitenschilderwerk",
+    "houtrot-reparatie",
+    "glasvezelbehang",
+    "verf spuiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijf-mvr.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Ettekoven",
+  "kort": "Stukadoor Ettekoven",
+  "slug": "ettekoven-stukadoors-nieuwegein",
+  "plaats": "Nieuwegein",
+  "tel_display": "06-55107149",
+  "tel_href": "tel:+31655107149",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Rene Ettekoven",
+   "verhaal": "NOA-erkend stukadoorsbedrijf uit Nieuwegein voor traditioneel en modern stucwerk aan wanden, plafonds en gevels, voor particulieren en bedrijven.",
+   "specialisaties": [
+    "glad stucwerk",
+    "sierpleister",
+    "relief- en structuurstucwerk",
+    "gevelstucwerk"
+   ],
+   "certificering": [
+    "NOA"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@ettekoven-stukadoors.nl",
+  "social": "https://www.facebook.com/p/Stukadoorsbedrijf-Ettekoven-100063571153823/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Roy van Wijnbergen",
+  "kort": "Roy van Wijnbergen",
+  "slug": "royvanwijnbergen-stucadoor-odijk",
+  "plaats": "Odijk",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roy van Wijnbergen",
+   "verhaal": "Zelfstandig stukadoor uit Odijk (gemeente Bunnik) met 15+ jaar ervaring, voor strakke wand- en plafondafwerking in de regio Utrecht.",
+   "specialisaties": [
+    "glad stucwerk",
+    "wand- en plafondafwerking",
+    "sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/roy.vanwijnbergen.7",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Zwezerijnen Stucadoors",
+  "kort": "Zwezerijnen Stucadoors",
+  "slug": "zwezerijnen-stucadoors-nieuwegein",
+  "plaats": "Nieuwegein",
+  "tel_display": "06-12222175",
+  "tel_href": "tel:+31612222175",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucadoorsbedrijf uit Nieuwegein, actief in Utrecht en omgeving; gespecialiseerd in strak stucwerk en latex spuiten voor nieuwbouw en renovatie.",
+   "specialisaties": [
+    "glad stucwerk",
+    "latex spuiten",
+    "wandafwerking",
+    "nieuwbouw stucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stucadoorsbedrijfazwezerijnen@hotmail.com",
+  "social": "https://www.instagram.com/stucadoorsbedrijfazwezerijnen/",
+  "taal": "nl"
  }
 ]

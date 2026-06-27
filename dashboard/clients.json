@@ -28948,5 +28948,93 @@
   "telefoon": "06-45379643",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf M. van Rossum",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Utrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T15:20:51",
+  "laatste_post": "",
+  "demo_url": "https://vanrossum-schilders-utrecht.demo.brabantdigital.nl",
+  "waarom": "Verouderde WordPress-site (thema en teksten sinds 2017-2019 niet vernieuwd), gedateerde uitstraling en geen online offerte (alleen een contactformulier). Mobiel (06) en e-mail bereikbaar; sterke moderniseringskans.",
+  "fouten": [
+   "Verouderde WordPress-site (thema en teksten sinds 2017-2019 niet vernieuwd), gedateerde uitstraling en geen online offerte (alleen een contactformulier). Mobiel (06) en e-mail bereikbaar; sterke moderniseringskans"
+  ],
+  "contact": "06-24372022",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24372022",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Ettekoven",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Nieuwegein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T15:20:51",
+  "laatste_post": "",
+  "demo_url": "https://ettekoven-stukadoors-nieuwegein.demo.brabantdigital.nl",
+  "waarom": "Standaard template-site (Youvia) met zichtbare onvervulde plaatshouders ('Stukadoor Ettekoven uit .' en '[city]') in titel en tekst, onafgewerkte en gedateerde indruk zonder eigen uitstraling. Mobiel, e-mail en Facebook bereikbaar.",
+  "fouten": [
+   "Standaard template-site (Youvia) met zichtbare onvervulde plaatshouders ('Stukadoor Ettekoven uit .' en '[city]') in titel en tekst, onafgewerkte en gedateerde indruk zonder eigen uitstraling. Mobiel, e-mail en Facebook bereikbaar"
+  ],
+  "contact": "06-55107149",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Stukadoorsbedrijf-Ettekoven-100063571153823/",
+  "telefoon": "06-55107149",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Roy van Wijnbergen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Odijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T15:20:51",
+  "laatste_post": "",
+  "demo_url": "https://royvanwijnbergen-stucadoor-odijk.demo.brabantdigital.nl",
+  "waarom": "Verouderde Wix-subdomeinsite (revelzen.wixsite.com/stucodijk) zonder eigen domein, summier en niet mobielvriendelijk. Bereikbaar via Facebook en LinkedIn; duidelijke kans op een eigen, professionele site.",
+  "fouten": [
+   "Verouderde Wix-subdomeinsite (revelzen.wixsite.com/stucodijk) zonder eigen domein, summier en niet mobielvriendelijk. Bereikbaar via Facebook en LinkedIn; duidelijke kans op een eigen, professionele site"
+  ],
+  "contact": "Alleen https://www.facebook.com/roy.vanwijnbergen.7",
+  "bron": null,
+  "social": "https://www.facebook.com/roy.vanwijnbergen.7",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Zwezerijnen Stucadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Nieuwegein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-27",
+  "aangemaakt": "2026-06-27T15:20:51",
+  "laatste_post": "",
+  "demo_url": "https://zwezerijnen-stucadoors-nieuwegein.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, uitsluitend actief op Instagram (met telefoon en e-mail in de bio). 'Alleen social = prospect': een eigen, vindbare site mist volledig. Mobiel, e-mail en Instagram bereikbaar.",
+  "fouten": [
+   "Geen eigen website, uitsluitend actief op Instagram (met telefoon en e-mail in de bio). 'Alleen social = prospect': een eigen, vindbare site mist volledig. Mobiel, e-mail en Instagram bereikbaar"
+  ],
+  "contact": "06-12222175",
+  "bron": null,
+  "social": "https://www.instagram.com/stucadoorsbedrijfazwezerijnen/",
+  "telefoon": "06-12222175",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
