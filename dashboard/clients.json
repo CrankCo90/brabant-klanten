@@ -29630,5 +29630,93 @@
   "telefoon": "06-53730563",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Mark's Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T16:24:32",
+  "laatste_post": "",
+  "demo_url": "https://marksschilderwerken.demo.brabantdigital.nl",
+  "waarom": "De website draait nog op een gedateerd WordPress-thema uit 2016 zonder online offerteflow. Een moderne, mobielvriendelijke demo met projectgalerij en offerteformulier oogt frisser en levert meer aanvragen op.",
+  "fouten": [
+   "De website draait nog op een gedateerd WordPress-thema uit 2016 zonder online offerteflow. Een moderne, mobielvriendelijke demo met projectgalerij en offerteformulier oogt frisser en levert meer aanvragen op"
+  ],
+  "contact": "06-53594213",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53594213",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Smits",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Nuenen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T16:24:32",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfsmits.demo.brabantdigital.nl",
+  "waarom": "De website draait nog op een gedateerd WordPress-thema uit 2018 met een verouderde uitstraling en geen online offerteflow. Een moderne, mobielvriendelijke demo met referenties en offerteformulier past veel beter bij ruim 40 jaar vakmanschap en versterkt de zakelijke uitstraling.",
+  "fouten": [
+   "De website draait nog op een gedateerd WordPress-thema uit 2018 met een verouderde uitstraling en geen online offerteflow. Een moderne, mobielvriendelijke demo met referenties en offerteformulier past veel beter bij ruim 40 jaar vakmanschap en versterkt de zakelijke uitstraling"
+  ],
+  "contact": "06-53353862",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53353862",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Renders Stukadoorswerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Eindhoven",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T16:24:32",
+  "laatste_post": "",
+  "demo_url": "https://rendersstukadoorswerken.demo.brabantdigital.nl",
+  "waarom": "Renders heeft (nog) geen eigen website en is alleen vindbaar via Werkspot en bedrijvengidsen. Een eigen, moderne demo met projectgalerij en offerteformulier maakt het bedrijf direct professioneel vindbaar in Google op 'stukadoor Eindhoven'.",
+  "fouten": [
+   "Renders heeft (nog) geen eigen website en is alleen vindbaar via Werkspot en bedrijvengidsen. Een eigen, moderne demo met projectgalerij en offerteformulier maakt het bedrijf direct professioneel vindbaar in Google op 'stukadoor Eindhoven'"
+  ],
+  "contact": "06-51055713",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-51055713",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stienezen Sierpleister- & Stucbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Eindhoven",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T16:24:32",
+  "laatste_post": "",
+  "demo_url": "https://stienezenstucwerk.demo.brabantdigital.nl",
+  "waarom": "Stienezen heeft geen eigen, moderne website en is vooral vindbaar via bedrijvengidsen en een gedeeld portaal. Een eigen, mobielvriendelijke demo met portfolio en offerteformulier zorgt voor een professionele uitstraling en betere vindbaarheid.",
+  "fouten": [
+   "Stienezen heeft geen eigen, moderne website en is vooral vindbaar via bedrijvengidsen en een gedeeld portaal. Een eigen, mobielvriendelijke demo met portfolio en offerteformulier zorgt voor een professionele uitstraling en betere vindbaarheid"
+  ],
+  "contact": "06-14699460",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-14699460",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -33709,5 +33709,114 @@
   "email": "",
   "social": "FB @vaw.schilders",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Mark's Schilderwerken",
+  "kort": "Mark's",
+  "slug": "marksschilderwerken",
+  "plaats": "Veghel",
+  "tel_display": "06-53594213",
+  "tel_href": "tel:+31653594213",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Mark's Schilderwerken uit Veghel is een servicegericht schildersbedrijf voor particulieren en bedrijven. Van nieuwbouw en onderhoud tot renovatie, texwerk, houtrotherstel en kleuradvies; maatwerk voor ieder budget met topmerken verf.",
+   "specialisaties": [
+    "Nieuwbouw",
+    "Onderhoud",
+    "Renovatie",
+    "Texwerken",
+    "Houtrotherstel en keimen",
+    "Kleur- en materiaaladvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Smits",
+  "kort": "Smits",
+  "slug": "schildersbedrijfsmits",
+  "plaats": "Nuenen",
+  "tel_display": "06-53353862",
+  "tel_href": "tel:+31653353862",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Smits uit Nuenen is al meer dan 40 jaar de vertrouwde schilder voor de regio Eindhoven, Nuenen en Valkenswaard. Met ruim 15 gecertificeerde vakschilders, gespecialiseerd in binnen- en buitenschilderwerk, Keimwerk, wandafwerking en planmatig onderhoud voor particulier en zakelijk.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Keimwerk (minerale verf)",
+    "Wandafwerking en behang",
+    "Planmatig onderhoud",
+    "Zakelijk en VvE"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfsmits.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Renders Stukadoorswerken",
+  "kort": "Renders",
+  "slug": "rendersstukadoorswerken",
+  "plaats": "Eindhoven",
+  "tel_display": "06-51055713",
+  "tel_href": "tel:+31651055713",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Renders Stukadoorswerken uit Eindhoven is een bedrijf met ruim 15 jaar stukadoorservaring. Voor strak binnen- en buitenstucwerk, sier- en pleisterwerk; netjes afgewerkt en altijd vrijblijvend een prijsopgave.",
+   "specialisaties": [
+    "Binnenstucwerk",
+    "Buitenstucwerk",
+    "Sierpleister",
+    "Pleister- en raapwerk",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stienezen Sierpleister- & Stucbedrijf",
+  "kort": "Stienezen",
+  "slug": "stienezenstucwerk",
+  "plaats": "Eindhoven",
+  "tel_display": "06-14699460",
+  "tel_href": "tel:+31614699460",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stienezen Sierpleister- & Stucbedrijf uit Eindhoven is gespecialiseerd in sierpleister en stucwerk voor wanden, plafonds en gevels. Vakkundig, strak en netjes afgewerkt voor particulier en bedrijf.",
+   "specialisaties": [
+    "Sierpleister en spachtelputz",
+    "Glad pleisterwerk",
+    "Schuurwerk",
+    "Buitengevels",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
