@@ -29718,5 +29718,115 @@
   "telefoon": "06-14699460",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "MVM Bergeijk Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bergeijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T17:23:51",
+  "laatste_post": "",
+  "demo_url": "https://mvmbergeijk.demo.brabantdigital.nl",
+  "waarom": "Website draait op de gratis JouwWeb-bouwer en mist een eigen, professionele uitstraling.",
+  "fouten": [
+   "Website draait op de gratis JouwWeb-bouwer en mist een eigen, professionele uitstraling"
+  ],
+  "contact": "06-16036285",
+  "bron": null,
+  "social": "IG @mvmbergeijk · FB",
+  "telefoon": "06-16036285",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Laat Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bergeijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T17:23:51",
+  "laatste_post": "",
+  "demo_url": "https://laatstucwerken.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vermeldingen in bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen in bedrijvengidsen"
+  ],
+  "contact": "06-29412944",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-29412944",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Cuijpers",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Valkenswaard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T17:23:51",
+  "laatste_post": "",
+  "demo_url": "https://cuijpersstukadoor.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen vermeldingen in bedrijvengidsen.",
+  "fouten": [
+   "Geen eigen website, alleen vermeldingen in bedrijvengidsen"
+  ],
+  "contact": "06-15482085",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-15482085",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verzantvoort Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bergeijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T17:23:51",
+  "laatste_post": "",
+  "demo_url": "https://verzantvoortschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Eenvoudige website met alleen contactgegevens, niet mobielvriendelijk en gedateerd.",
+  "fouten": [
+   "Eenvoudige website met alleen contactgegevens, niet mobielvriendelijk en gedateerd"
+  ],
+  "contact": "06-30985550",
+  "bron": null,
+  "social": "FB W. Verzantvoort schilderwerken",
+  "telefoon": "06-30985550",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucwerken Verstegen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bergeijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T17:23:51",
+  "laatste_post": "",
+  "demo_url": "https://stucwerkenverstegen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen een Facebook-pagina en een telefoonnummer.",
+  "fouten": [
+   "Geen eigen website, alleen een Facebook-pagina en een telefoonnummer"
+  ],
+  "contact": "06-46715740",
+  "bron": null,
+  "social": "FB @stucwerkenverstegen.bergeijk",
+  "telefoon": "06-46715740",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

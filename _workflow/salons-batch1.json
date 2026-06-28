@@ -33818,5 +33818,135 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "MVM Bergeijk Schilderwerken",
+  "kort": "MVM Bergeijk",
+  "slug": "mvmbergeijk",
+  "plaats": "Bergeijk",
+  "tel_display": "06-16036285",
+  "tel_href": "tel:+31616036285",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Marco",
+   "verhaal": "MVM Bergeijk Schilderwerken van Marco van Maastricht levert vakkundig binnen- en buitenschilderwerk in De Kempen. Een grondige inspectie vooraf, een eerlijke offerte en afwerking met hoogwaardige materialen (o.a. Sigma) staan centraal: geen snelle oplossingen voor het oog, maar werk waar u jarenlang geen omkijken naar heeft.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel en beglazingskit",
+    "Persoonlijk advies en inspectie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@mvmbergeijk.nl",
+  "social": "IG @mvmbergeijk · FB",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Laat Stucwerken",
+  "kort": "Laat Stucwerken",
+  "slug": "laatstucwerken",
+  "plaats": "Bergeijk",
+  "tel_display": "06-29412944",
+  "tel_href": "tel:+31629412944",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Laat Stucwerken is een lokaal stukadoorsbedrijf uit Bergeijk dat strak stuc- en pleisterwerk levert voor particulieren en bedrijven in De Kempen. Vakwerk, nette afwerking en heldere afspraken staan voorop.",
+   "specialisaties": [
+    "Stucwerk en pleisterwerk",
+    "Wanden en plafonds strak afwerken",
+    "Sierpleister",
+    "Renovatie en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Cuijpers",
+  "kort": "Stukadoorsbedrijf Cuijpers",
+  "slug": "cuijpersstukadoor",
+  "plaats": "Valkenswaard",
+  "tel_display": "06-15482085",
+  "tel_href": "tel:+31615482085",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jan",
+   "verhaal": "Stukadoorsbedrijf Cuijpers uit Valkenswaard is uw specialist voor hoogwaardig stucwerk. Van strak pleisterwerk tot raapwerk en sierpleister: een perfecte, duurzame afwerking van wanden en plafonds voor woning en bedrijf.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Pleister- en raapwerk",
+    "Sierpleister",
+    "Nieuwbouw en renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verzantvoort Schilderwerken",
+  "kort": "Verzantvoort Schilderwerken",
+  "slug": "verzantvoortschilderwerken",
+  "plaats": "Bergeijk",
+  "tel_display": "06-30985550",
+  "tel_href": "tel:+31630985550",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Wil",
+   "verhaal": "Schilderwerken W. Verzantvoort uit Bergeijk staat voor kwalitatief schilderwerk binnen en buiten, voor particulieren en bedrijven. Persoonlijk contact met de vakman zelf, eerlijk advies en een net resultaat dat lang meegaat.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Lakwerk en aflakken",
+    "Texwerk",
+    "Onderhoud en opfrissen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@wverzantvoort.nl",
+  "social": "FB W. Verzantvoort schilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucwerken Verstegen",
+  "kort": "Stucwerken Verstegen",
+  "slug": "stucwerkenverstegen",
+  "plaats": "Bergeijk",
+  "tel_display": "06-46715740",
+  "tel_href": "tel:+31646715740",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stucwerken Verstegen is een stukadoorsbedrijf uit Bergeijk voor strak stuc- en pleisterwerk. Vakkundige afwerking van wanden en plafonds voor woning, verbouwing en nieuwbouw, met oog voor detail.",
+   "specialisaties": [
+    "Stuc- en pleisterwerk",
+    "Spachtelputz en sierpleister",
+    "Wanden en plafonds",
+    "Renovatie en nieuwbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "FB @stucwerkenverstegen.bergeijk",
+  "taal": "nl"
  }
 ]
