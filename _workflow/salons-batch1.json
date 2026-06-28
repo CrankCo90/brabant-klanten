@@ -33573,5 +33573,141 @@
   "email": "info@tvdvenschilderwerken.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ron Mullenders Stucadoors",
+  "kort": "Ron Mullenders Stucadoors",
+  "slug": "ron-mullenders-stucadoors-berg-en-terblijt",
+  "plaats": "Berg en Terblijt",
+  "tel_display": "06-20545898",
+  "tel_href": "tel:+31620545898",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ron Mullenders",
+   "verhaal": "Ron Mullenders Stucadoors uit Berg en Terblijt bedient met ruim 20 jaar ervaring heel Zuid-Limburg. Van glad stucwerk en betonlook tot sierpleister, lijstwerk en het stuken van buitengevels — altijd met persoonlijk advies en een strakke afwerking.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Gevel stucwerk",
+    "Betonlook",
+    "Spachtelputz",
+    "Lijstwerk",
+    "Sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "ronmullenders@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Math Willems Stukadoor- en Schilderwerken",
+  "kort": "Math Willems",
+  "slug": "math-willems-urmond",
+  "plaats": "Urmond",
+  "tel_display": "06-11330229",
+  "tel_href": "tel:+31611330229",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Math Willems",
+   "verhaal": "Math Willems Stukadoor- en Schilderwerken uit Urmond levert stuc- en schilderwerk voor particulieren, bedrijven en instellingen in Zuid-Limburg. Vakwerk en precisie staan voorop, met Sikkens-kwaliteitsproducten, metalstudwanden en garantie op alle werkzaamheden.",
+   "specialisaties": [
+    "Stucwerk",
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Latex spuiten",
+    "Metalstud wanden en plafonds"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@mathwillems.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Went",
+  "kort": "Schildersbedrijf Went",
+  "slug": "schildersbedrijf-went-schinnen",
+  "plaats": "Schinnen",
+  "tel_display": "06-24807405",
+  "tel_href": "tel:+31624807405",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Went uit Schinnen verzorgt binnen- en buitenschilderwerk, behang en onderhoud voor particulieren en bedrijven in Zuid-Limburg en de Westelijke Mijnstreek.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Houtrotherstel",
+    "Onderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Bosselaar",
+  "kort": "Schildersbedrijf Bosselaar",
+  "slug": "schildersbedrijf-bosselaar-axel",
+  "plaats": "Axel",
+  "tel_display": "06-24933034",
+  "tel_href": "tel:+31624933034",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Bosselaar uit Axel levert vakkundig binnen- en buitenschilderwerk, wanddecoratie en kleuradvies voor particulieren en bedrijven in heel Zeeuws-Vlaanderen.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Wanddecoratie",
+    "Behangwerk",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijf-bosselaar.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "VAW Schilders",
+  "kort": "VAW Schilders",
+  "slug": "schildersbedrijf-vaw-goes",
+  "plaats": "Goes",
+  "tel_display": "06-53730563",
+  "tel_href": "tel:+31653730563",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "VAW Schilders uit Goes levert professioneel binnen- en buitenschilderwerk in heel Zeeland. Door kleinschalig te werken biedt VAW kwaliteit met materialen van gerenommeerde merken tegen een scherpe prijs.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtwerk en kozijnen",
+    "Latex spuiten",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "FB @vaw.schilders",
+  "taal": "nl"
  }
 ]

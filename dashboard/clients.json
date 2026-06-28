@@ -29520,5 +29520,115 @@
   "telefoon": "0653776511",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Ron Mullenders Stucadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Berg en Terblijt",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T15:21:22",
+  "laatste_post": "",
+  "demo_url": "https://ron-mullenders-stucadoors-berg-en-terblijt.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (sinds 2020 niet bijgewerkt, met onafgewerkte voorbeeldteksten en zonder online offerteformulier).",
+  "fouten": [
+   "Verouderde website (sinds 2020 niet bijgewerkt, met onafgewerkte voorbeeldteksten en zonder online offerteformulier)"
+  ],
+  "contact": "06-20545898",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-20545898",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Math Willems Stukadoor- en Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Urmond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T15:21:22",
+  "laatste_post": "",
+  "demo_url": "https://math-willems-urmond.demo.brabantdigital.nl",
+  "waarom": "Verouderde, sterk tekstuele website zonder moderne uitstraling of voor/na-projectfoto's.",
+  "fouten": [
+   "Verouderde, sterk tekstuele website zonder moderne uitstraling of voor/na-projectfoto's"
+  ],
+  "contact": "06-11330229",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11330229",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Went",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Schinnen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T15:21:22",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-went-schinnen.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website — alleen vindbaar via verouderde branchegidsen.",
+  "fouten": [
+   "Geen eigen website — alleen vindbaar via verouderde branchegidsen"
+  ],
+  "contact": "06-24807405",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24807405",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Bosselaar",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zeeland",
+  "plaats": "Axel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T15:21:22",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-bosselaar-axel.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (sinds 2017 niet bijgewerkt) zonder online offerteformulier.",
+  "fouten": [
+   "Verouderde website (sinds 2017 niet bijgewerkt) zonder online offerteformulier"
+  ],
+  "contact": "06-24933034",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-24933034",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "VAW Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zeeland",
+  "plaats": "Goes",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T15:21:22",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-vaw-goes.demo.brabantdigital.nl",
+  "waarom": "Eenvoudige één-pagina website (Divi-template, sinds 2021 niet bijgewerkt) zonder projectgalerij of moderne mobiele uitstraling.",
+  "fouten": [
+   "Eenvoudige één-pagina website (Divi-template, sinds 2021 niet bijgewerkt) zonder projectgalerij of moderne mobiele uitstraling"
+  ],
+  "contact": "06-53730563",
+  "bron": null,
+  "social": "FB @vaw.schilders",
+  "telefoon": "06-53730563",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
