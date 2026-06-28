@@ -30136,5 +30136,49 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Bijsteren Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Harderwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T22:18:25",
+  "laatste_post": "",
+  "demo_url": "https://vanbijsterenstukadoors.demo.brabantdigital.nl",
+  "waarom": "Bestaande website draait op een verouderd Joomla-systeem met een Engelstalige template, een niet-werkende Google Maps-kaart en geen online offerteformulier; oogt gedateerd en is niet mobielvriendelijk. Onze premium-demo geeft een strakke, moderne uitstraling met een werkend offerteformulier.",
+  "fouten": [
+   "Bestaande website draait op een verouderd Joomla-systeem met een Engelstalige template, een niet-werkende Google Maps-kaart en geen online offerteformulier; oogt gedateerd en is niet mobielvriendelijk. Onze premium-demo geeft een strakke, moderne uitstraling met een werkend offerteformulier"
+  ],
+  "contact": "06-33854425",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-33854425",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Tates",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Harderwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T22:18:25",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijftates.demo.brabantdigital.nl",
+  "waarom": "Bestaande WordPress-website is inhoudelijk blijven hangen rond 2013-2015 met een zeer summiere, gedateerde homepage en weinig content; oogt verouderd en onaf. Onze premium-demo toont het vakwerk groot in beeld met echte content en een werkend offerteformulier.",
+  "fouten": [
+   "Bestaande WordPress-website is inhoudelijk blijven hangen rond 2013-2015 met een zeer summiere, gedateerde homepage en weinig content; oogt verouderd en onaf. Onze premium-demo toont het vakwerk groot in beeld met echte content en een werkend offerteformulier"
+  ],
+  "contact": "06-13838761",
+  "bron": null,
+  "social": "instagram.com/stukadoorsbedrijftates",
+  "telefoon": "06-13838761",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

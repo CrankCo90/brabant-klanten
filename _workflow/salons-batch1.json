@@ -34318,5 +34318,70 @@
   "email": "",
   "social": "https://www.instagram.com/stukadoorsbedrijfsmolenaars/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Bijsteren Stukadoorsbedrijf",
+  "kort": "Van Bijsteren",
+  "slug": "vanbijsterenstukadoors",
+  "plaats": "Harderwijk",
+  "tel_display": "06-33854425",
+  "tel_href": "tel:+31633854425",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Marcel van Bijsteren",
+   "verhaal": "Van Bijsteren Stukadoorsbedrijf is een erkend familiebedrijf uit Harderwijk met meer dan 60 jaar vakervaring in stucwerk. Marcel van Bijsteren en zijn team verzorgen alle plafond- en wandafwerking, van glad plafond, sierlijsten en spuitpleister tot pleisterwerk, muurcoating en exclusieve Frescolori-afwerking. Met een eigen showroom en werkzaam binnen een straal van zo'n 50 km rond Harderwijk komt het bedrijf graag persoonlijk langs voor een vrijblijvende offerte.",
+   "specialisaties": [
+    "Glad plafond",
+    "Sierlijsten & plinten",
+    "Spuitpleister",
+    "Pleister- en stucwerk",
+    "Behangklaar maken",
+    "Frescolori & muurcoating",
+    "Nieuwbouwwoningen & appartementen"
+   ],
+   "certificering": [
+    "Erkend stukadoorsbedrijf",
+    "60+ jaar vakervaring",
+    "Eigen showroom"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vanbijsterenstukadoors.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Tates",
+  "kort": "Tates",
+  "slug": "stukadoorsbedrijftates",
+  "plaats": "Harderwijk",
+  "tel_display": "06-13838761",
+  "tel_href": "tel:+31613838761",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Matthijs Tates",
+   "verhaal": "Stukadoorsbedrijf Tates uit Hierden (Harderwijk) is gespecialiseerd in traditioneel en exclusief stucwerk. Matthijs Tates levert vakwerk variërend van strak sausklaar stucwerk en gipsspuiten tot exclusieve technieken als tadelakt, leemstuc en handgemaakte lijsten en ornamenten. Het bedrijf is aangesloten bij brancheorganisatie NOA en werkt voor zowel nieuwbouw als renovatie in Harderwijk en omgeving.",
+   "specialisaties": [
+    "Traditioneel stucwerk",
+    "Exclusief stucwerk (tadelakt)",
+    "Leemstuc",
+    "Gipsspuiten",
+    "Sausklaar stucwerk",
+    "Lijsten & ornamenten",
+    "Nieuwbouw & renovatie"
+   ],
+   "certificering": [
+    "NOA-Afbouwgarantie",
+    "Lid NOA"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijftates.nl",
+  "social": "instagram.com/stukadoorsbedrijftates",
+  "taal": "nl"
  }
 ]
