@@ -29828,5 +29828,93 @@
   "telefoon": "06-46715740",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Dox Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T18:17:12",
+  "laatste_post": "",
+  "demo_url": "https://doxschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Verouderde, niet-mobielvriendelijke website (One.com-bouwer met vaste breedte) en een hotmail-adres als enige zakelijke contact.",
+  "fouten": [
+   "Verouderde, niet-mobielvriendelijke website (One.com-bouwer met vaste breedte) en een hotmail-adres als enige zakelijke contact"
+  ],
+  "contact": "06-27230071",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-27230071",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "BvE Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Heerlen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T18:17:12",
+  "laatste_post": "",
+  "demo_url": "https://bveschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Onafgemaakte website met nog zichtbare 'Lorem ipsum'-placeholderteksten en kapotte links in het dienstenblok.",
+  "fouten": [
+   "Onafgemaakte website met nog zichtbare 'Lorem ipsum'-placeholderteksten en kapotte links in het dienstenblok"
+  ],
+  "contact": "06-28797847",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-28797847",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Kok",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Almelo",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T18:17:12",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijfkok.demo.brabantdigital.nl",
+  "waarom": "Verouderde templatewebsite met nog zichtbare 'Lorem ipsum'-placeholders en dode links, en alleen een gmail-adres als zakelijk contact.",
+  "fouten": [
+   "Verouderde templatewebsite met nog zichtbare 'Lorem ipsum'-placeholders en dode links, en alleen een gmail-adres als zakelijk contact"
+  ],
+  "contact": "06-36443896",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-36443896",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Enschede",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Overijssel",
+  "plaats": "Enschede",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T18:17:12",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfenschede.demo.brabantdigital.nl",
+  "waarom": "Slordige, onafgemaakte WordPress-site met achtergebleven demo- en 'test'-berichten en een rommelige fotogalerij.",
+  "fouten": [
+   "Slordige, onafgemaakte WordPress-site met achtergebleven demo- en 'test'-berichten en een rommelige fotogalerij"
+  ],
+  "contact": "06-54958460",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54958460",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

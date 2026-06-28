@@ -33948,5 +33948,109 @@
   "email": "",
   "social": "FB @stucwerkenverstegen.bergeijk",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Dox Schilderwerken",
+  "kort": "Schildersbedrijf in Heerlen / Parkstad",
+  "slug": "doxschilderwerken",
+  "plaats": "Heerlen",
+  "tel_display": "06-27230071",
+  "tel_href": "tel:+31627230071",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Dox Schilderwerken is een schildersbedrijf in de regio Parkstad, Zuid-Limburg. Met heldere offertes en korte lijnen verzorgen ze binnen- en buitenschilderwerk, behangwerk en houtrotreparaties, met hoogwaardige producten in elke periode van het jaar.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Houtrotreparatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "doxschilderwerken@hotmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "BvE Schilderwerken",
+  "kort": "Schildersbedrijf in Heerlen",
+  "slug": "bveschilderwerken",
+  "plaats": "Heerlen",
+  "tel_display": "06-28797847",
+  "tel_href": "tel:+31628797847",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "BvE Schilderwerken is een schildersbedrijf in Heerlen met meer dan 12 jaar ervaring in binnen- en buitenschilderwerk. Ze werken uitsluitend met kwaliteitsmerken als Sigma en Sikkens en bieden daarnaast professioneel behangwerk en kleuradvies, met de wensen van de klant centraal.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@bveschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Kok",
+  "kort": "Stukadoorsbedrijf in Almelo",
+  "slug": "stukadoorsbedrijfkok",
+  "plaats": "Almelo",
+  "tel_display": "06-36443896",
+  "tel_href": "tel:+31636443896",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Kok is gespecialiseerd in stukadoorswerk in Almelo en omgeving, voor zowel particuliere als zakelijke klanten. Of het nu gaat om onderhoud, nieuwbouw, renovatie of herstelwerk: ze zorgen voor een glad en strak eindresultaat met hoogwaardige materialen en duidelijke communicatie.",
+   "specialisaties": [
+    "Wand- en plafondstucwerk",
+    "Herstelwerk",
+    "Renovatie",
+    "Nieuwbouw stucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stukadoorsbedrijfkok@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Enschede",
+  "kort": "Schildersbedrijf in Enschede",
+  "slug": "schildersbedrijfenschede",
+  "plaats": "Enschede",
+  "tel_display": "06-54958460",
+  "tel_href": "tel:+31654958460",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Enschede verzorgt al het binnen- en buitenschilderwerk, glas- en behangwerk voor woningen en bedrijven in Enschede en omgeving. Ervaren schilders werken met hoogwaardige materialen voor een frisse, duurzame uitstraling van uw pand.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Glaszetten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildersbedrijfenschede.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
