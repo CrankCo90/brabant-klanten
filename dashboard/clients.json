@@ -29916,5 +29916,71 @@
   "telefoon": "06-54958460",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Eric Grim",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Geleen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T19:13:39",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-eric-grim-geleen.demo.brabantdigital.nl",
+  "waarom": "Geen werkende website - de oude site is offline/in aanbouw, ondanks een sterke reputatie en vakprijs.",
+  "fouten": [
+   "Geen werkende website - de oude site is offline/in aanbouw, ondanks een sterke reputatie en vakprijs"
+  ],
+  "contact": "06-14512370",
+  "bron": null,
+  "social": "instagram.com/eric_grim",
+  "telefoon": "06-14512370",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Joldersma Stucadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Drenthe",
+  "plaats": "Emmen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T19:20:10",
+  "laatste_post": "",
+  "demo_url": "https://joldersma-stucadoors-emmen.demo.brabantdigital.nl",
+  "waarom": "Verouderde website - een Elementor-pagina uit 2022/2023 met een achtergebleven 'Contact Form Demo'-placeholder; een moderne site oogt veel professioneler.",
+  "fouten": [
+   "Verouderde website - een Elementor-pagina uit 2022/2023 met een achtergebleven 'Contact Form Demo'-placeholder; een moderne site oogt veel professioneler"
+  ],
+  "contact": "06-55873255",
+  "bron": null,
+  "social": "instagram.com/joldersma_stucadoors",
+  "telefoon": "06-55873255",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "211 Stukadoor en Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Groningen",
+  "plaats": "Hoogezand",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T19:20:10",
+  "laatste_post": "",
+  "demo_url": "https://211-stukadoor-en-schildersbedrijf-hoogezand.demo.brabantdigital.nl",
+  "waarom": "Verouderde, slordige website - een WordPress-pagina uit 2022 met machinevertaalde teksten en een kapotte review-widget; een strakke nieuwe site wint direct vertrouwen.",
+  "fouten": [
+   "Verouderde, slordige website - een WordPress-pagina uit 2022 met machinevertaalde teksten en een kapotte review-widget; een strakke nieuwe site wint direct vertrouwen"
+  ],
+  "contact": "06-33220666",
+  "bron": null,
+  "social": "instagram.com/211stukadoor",
+  "telefoon": "06-33220666",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

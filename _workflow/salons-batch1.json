@@ -34052,5 +34052,91 @@
   "email": "info@schildersbedrijfenschede.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Eric Grim",
+  "kort": "Eric Grim",
+  "slug": "schildersbedrijf-eric-grim-geleen",
+  "plaats": "Geleen",
+  "tel_display": "06-14512370",
+  "tel_href": "tel:+31614512370",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Eric Grim",
+   "verhaal": "Schildersbedrijf Eric Grim uit Geleen levert vakwerk in binnen- en buitenschilderwerk, behang- en houtrenovatie. Meesterschilder Eric Grim won in 2009 de Nationale SchildersVakprijs en bedacht het tv-programma 'Schilderen is een vak'. Kwaliteit, een nette afwerking en eerlijk advies staan voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Houtrenovatie",
+    "Beglazing",
+    "Onderhoud"
+   ],
+   "certificering": [
+    "Winnaar Nationale SchildersVakprijs 2009"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@ericgrim.nl",
+  "social": "instagram.com/eric_grim",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Joldersma Stucadoors",
+  "kort": "Joldersma",
+  "slug": "joldersma-stucadoors-emmen",
+  "plaats": "Emmen",
+  "tel_display": "06-55873255",
+  "tel_href": "tel:+31655873255",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Ronald",
+   "verhaal": "Joldersma Stucadoors is een stukadoorsbedrijf uit de regio Emmen (Emmer-Compascuum, Drenthe). Voor alle soorten stucwerk op wanden en plafonds, en gespecialiseerd in waterdichte, naadloze betonlook. Het bedrijf werkt met professioneel materiaal voor een perfecte afwerking en heeft sterke klantbeoordelingen.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Betonlook",
+    "Sausklaar maken",
+    "Spackspuiten",
+    "Sierpleister",
+    "Plafondstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "instagram.com/joldersma_stucadoors",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "211 Stukadoor en Schildersbedrijf",
+  "kort": "211",
+  "slug": "211-stukadoor-en-schildersbedrijf-hoogezand",
+  "plaats": "Hoogezand",
+  "tel_display": "06-33220666",
+  "tel_href": "tel:+31633220666",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "211 Stukadoor en Schildersbedrijf is een team van stukadoors en schilders uit Hoogezand, actief in Groningen, Drenthe en Friesland. Ambachtelijk vakwerk met een moderne uitstraling voor particulieren, aannemers en woningbouwcorporaties, gespecialiseerd in glad pleisterwerk, spackspuiten en lijstwerk.",
+   "specialisaties": [
+    "Binnen stucwerk",
+    "Buiten stucwerk",
+    "Sierpleister",
+    "Schuurwerk",
+    "Spackspuiten",
+    "Schilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@211stukadoor-en-schildersbedrijf.nl",
+  "social": "instagram.com/211stukadoor",
+  "taal": "nl"
  }
 ]
