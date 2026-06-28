@@ -34238,5 +34238,85 @@
   "email": "klusbedrijfdepe@gmail.com",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hallak Stukadoor",
+  "kort": "Stukadoor- & schildersbedrijf",
+  "slug": "hallak-stukadoor-landgraaf",
+  "plaats": "Landgraaf",
+  "tel_display": "06-33218181",
+  "tel_href": "tel:+31633218181",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Mustafa Hallak",
+   "verhaal": "Hallak Stukadoor uit Landgraaf staat onder leiding van Mustafa Hallak en levert al ruim 25 jaar allround stukadoors-, schilder- en renovatiewerk voor particulieren en bedrijven in heel Zuid-Limburg. Van strak glad stucwerk en sierpleister tot complete badkamer- en woningrenovaties, tegelwerk en cinewalls — vakmanschap en 100% tevredenheid staan voorop.",
+   "specialisaties": [
+    "Glad stucwerk & pleisterwerk",
+    "Sierpleister & decoratief stucwerk",
+    "Binnen- en buitenschilderwerk",
+    "Renovatie & onderhoud",
+    "Tegelwerk, badkamers & cinewalls"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/hallakstukadoor/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Jong Stukadoors",
+  "kort": "Stukadoorsbedrijf",
+  "slug": "de-jong-stukadoors-leeuwarden",
+  "plaats": "Leeuwarden",
+  "tel_display": "06-45918845",
+  "tel_href": "tel:+31645918845",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Harjan de Jong",
+   "verhaal": "De Jong Stukadoors van Harjan de Jong is een stukadoorsbedrijf uit Leeuwarden, gespecialiseerd in beton ciré, glad stucwerk, sierpleisters en decoratief stucwerk. Met oog voor detail zorgt Harjan voor een strakke, naadloze afwerking in woningen en bedrijfspanden in Leeuwarden en omstreken.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Beton ciré",
+    "Sierpleisters",
+    "Decoratief stucwerk",
+    "Wand- en plafondafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/dejongstukadoorsleeuwarden/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Smolenaars",
+  "kort": "Stukadoorsbedrijf",
+  "slug": "stukadoorsbedrijf-smolenaars-alkmaar",
+  "plaats": "Alkmaar",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Koen Smolenaars",
+   "verhaal": "Stukadoorsbedrijf Smolenaars van Koen Smolenaars is een jong stukadoorsbedrijf uit Alkmaar dat draait om kwaliteit in stucwerk: van strak sausklaar stucwerk op wanden en plafonds tot een nette badkamerafwerking. Persoonlijk, nauwkeurig en altijd gericht op een vlak, perfect resultaat.",
+   "specialisaties": [
+    "Sausklaar stucwerk",
+    "Glad stucwerk wanden & plafonds",
+    "Badkamerafwerking",
+    "Renovatiestucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.instagram.com/stukadoorsbedrijfsmolenaars/",
+  "taal": "nl"
  }
 ]

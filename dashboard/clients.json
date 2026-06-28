@@ -30070,5 +30070,71 @@
   "telefoon": "0622285987",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Hallak Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Landgraaf",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T21:17:22",
+  "laatste_post": "",
+  "demo_url": "https://hallak-stukadoor-landgraaf.demo.brabantdigital.nl",
+  "waarom": "Verouderde, niet-moderne WordPress-templatesite (2020) zonder online offerteformulier.",
+  "fouten": [
+   "Verouderde, niet-moderne WordPress-templatesite (2020) zonder online offerteformulier"
+  ],
+  "contact": "06-33218181",
+  "bron": null,
+  "social": "https://www.instagram.com/hallakstukadoor/",
+  "telefoon": "06-33218181",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "De Jong Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Friesland",
+  "plaats": "Leeuwarden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T21:17:22",
+  "laatste_post": "",
+  "demo_url": "https://de-jong-stukadoors-leeuwarden.demo.brabantdigital.nl",
+  "waarom": "Alleen actief via social media; de eigen website is uit de lucht (geen werkende site).",
+  "fouten": [
+   "Alleen actief via social media; de eigen website is uit de lucht (geen werkende site)"
+  ],
+  "contact": "06-45918845",
+  "bron": null,
+  "social": "https://www.instagram.com/dejongstukadoorsleeuwarden/",
+  "telefoon": "06-45918845",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Smolenaars",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Holland",
+  "plaats": "Alkmaar",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T21:17:22",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-smolenaars-alkmaar.demo.brabantdigital.nl",
+  "waarom": "Alleen vindbaar via Instagram; geen eigen website.",
+  "fouten": [
+   "Alleen vindbaar via Instagram; geen eigen website"
+  ],
+  "contact": "Alleen https://www.instagram.com/stukadoorsbedrijfsmolenaars/",
+  "bron": null,
+  "social": "https://www.instagram.com/stukadoorsbedrijfsmolenaars/",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
