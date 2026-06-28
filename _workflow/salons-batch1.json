@@ -34515,5 +34515,111 @@
   "email": "info@arrindellschildersbedrijf.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Allround Schilderwerken",
+  "kort": "Schildersbedrijf voor binnen- en buitenwerk in Kerkrade",
+  "slug": "allround-schilderwerken-kerkrade",
+  "plaats": "Kerkrade",
+  "tel_display": "06-20671723",
+  "tel_href": "tel:+31620671723",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Björn",
+   "verhaal": "Familiebedrijf opgericht in 2005 door Hans de Bruijn en sinds 2017 voortgezet door Björn en Denise Brugman. We streven naar een zo hoog mogelijk esthetisch resultaat en hoge kwaliteit voor een betaalbare prijs, voor particulieren en VvE's in Kerkrade en omgeving.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Latex- en spuitwerk",
+    "Behangwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilder Milan",
+  "kort": "Schilder- en behangwerk in Kerkrade en Zuid-Limburg",
+  "slug": "schilder-milan-kerkrade",
+  "plaats": "Kerkrade",
+  "tel_display": "06-19839624",
+  "tel_href": "tel:+31619839624",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schilder Milan verzorgt binnen- en buitenschilderwerk, behangwerk en wandafwerking voor particulieren en bedrijven in Kerkrade en de regio Limburg, met aandacht voor detail en een nette afwerking.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schildermilan.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MaQu Schilderwerken",
+  "kort": "Schilder voor particulieren en VvE's in Zuid-Limburg",
+  "slug": "maqu-schilderwerken-bocholtz",
+  "plaats": "Bocholtz",
+  "tel_display": "06-55884297",
+  "tel_href": "tel:+31655884297",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "MaQu Schilderwerken is sinds 1988 actief in het vak en vanaf 2000 als zelfstandig schilder. Met een persoonlijke aanpak werken we vooral voor particulieren en verenigingen van eigenaren in heel Zuid-Limburg.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoud",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@maqu-schilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Jo Loozen & Zn",
+  "kort": "Schildersbedrijf sinds 1959 in Simpelveld, Zuid-Limburg",
+  "slug": "jo-loozen-schilderwerken-simpelveld",
+  "plaats": "Simpelveld",
+  "tel_display": "06-55880468",
+  "tel_href": "tel:+31655880468",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Jo Loozen & Zn verzorgt al sinds 1959 binnen- en buitenschilderwerk, gevelschilderwerk, spuitwerk en wandafwerking in Midden- en Zuid-Limburg, met persoonlijk advies en een goede prijs-kwaliteitverhouding.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Gevelschilderwerk",
+    "Spuitwerk",
+    "Behang- en glasvliesbehang"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "schilder@loozen.info",
+  "social": "",
+  "taal": "nl"
  }
 ]

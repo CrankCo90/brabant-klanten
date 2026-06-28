@@ -30290,5 +30290,93 @@
   "telefoon": "06-22065201",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Allround Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Kerkrade",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T00:19:54",
+  "laatste_post": "",
+  "demo_url": "https://allround-schilderwerken-kerkrade.demo.brabantdigital.nl",
+  "waarom": "Verouderde eenpagina-website uit 2019 (oude WPBakery/Slider Revolution), matig mobielvriendelijk en zonder online offertemodule.",
+  "fouten": [
+   "Verouderde eenpagina-website uit 2019 (oude WPBakery/Slider Revolution), matig mobielvriendelijk en zonder online offertemodule"
+  ],
+  "contact": "06-20671723",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-20671723",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schilder Milan",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Kerkrade",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T00:19:54",
+  "laatste_post": "",
+  "demo_url": "https://schilder-milan-kerkrade.demo.brabantdigital.nl",
+  "waarom": "Basale Wix-website uit 2022 (kant-en-klare bouwer), eenpagina-opzet, niet mobielvriendelijk en zonder recente updates.",
+  "fouten": [
+   "Basale Wix-website uit 2022 (kant-en-klare bouwer), eenpagina-opzet, niet mobielvriendelijk en zonder recente updates"
+  ],
+  "contact": "06-19839624",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-19839624",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MaQu Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Bocholtz",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T00:19:54",
+  "laatste_post": "",
+  "demo_url": "https://maqu-schilderwerken-bocholtz.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde, minimale website (WordPress 6.2.9 met gratis blogthema, beelden uit 2016, kale eenpagina-opzet zonder projecten of offertemodule).",
+  "fouten": [
+   "Sterk verouderde, minimale website (WordPress 6.2.9 met gratis blogthema, beelden uit 2016, kale eenpagina-opzet zonder projecten of offertemodule)"
+  ],
+  "contact": "06-55884297",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-55884297",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Jo Loozen & Zn",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Simpelveld",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T00:19:54",
+  "laatste_post": "",
+  "demo_url": "https://jo-loozen-schilderwerken-simpelveld.demo.brabantdigital.nl",
+  "waarom": "Eenvoudige eenpagina-website (kant-en-klare bouwer) zonder projecten of moderne uitstraling — een verouderde online presentatie voor een bedrijf met zo'n lange historie.",
+  "fouten": [
+   "Eenvoudige eenpagina-website (kant-en-klare bouwer) zonder projecten of moderne uitstraling — een verouderde online presentatie voor een bedrijf met zo'n lange historie"
+  ],
+  "contact": "06-55880468",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-55880468",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
