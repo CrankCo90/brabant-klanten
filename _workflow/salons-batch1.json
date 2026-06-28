@@ -33492,5 +33492,86 @@
   "email": "",
   "social": "https://www.facebook.com/people/Van-deursen-schilderwerken-rosmalen/100063467025331/",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van der Heijden Stukadoorsbedrijf",
+  "kort": "Van der Heijden",
+  "slug": "van-der-heijden-stukadoorsbedrijf-geldrop",
+  "plaats": "Geldrop",
+  "tel_display": "0637474681",
+  "tel_href": "tel:+31637474681",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Tom",
+   "verhaal": "Van der Heijden Stukadoorsbedrijf uit Geldrop verzorgt strak stucwerk voor wanden en plafonds in Geldrop en omgeving. Of het nu gaat om glad pleisterwerk, sierpleister of het sausklaar opleveren van nieuwbouw - net, vakkundig en persoonlijk.",
+   "specialisaties": [
+    "Glad pleisterwerk (wanden en plafonds)",
+    "Sierpleister en spachtelputz",
+    "Nieuwbouw sausklaar/texklaar opleveren",
+    "Renovatie- en reparatiestucwerk",
+    "Latexspuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "vanderheijdenstukadoorsbedrijf@gmail.com",
+  "social": "https://www.facebook.com/p/Van-der-heijden-stukadoorsbedrijf-100071049511370/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Randy Stucwerken",
+  "kort": "Randy",
+  "slug": "randy-stucwerken-valkenswaard",
+  "plaats": "Valkenswaard",
+  "tel_display": "0619234622",
+  "tel_href": "tel:+31619234622",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Randy van Aarle",
+   "verhaal": "Randy Stucwerken is het stucadoorsbedrijf van Randy van Aarle uit Valkenswaard, actief sinds 2006. Gespecialiseerd in glad pleisterwerk, sierpleister en lijstwerk, en in waterdichte betoncire en exclusieve wandafwerkingen voor badkamer, keuken en woonkamer.",
+   "specialisaties": [
+    "Glad pleisterwerk en fijn schuurwerk",
+    "Sierpleister en lijstwerk",
+    "Cemher betoncire (waterdicht)",
+    "Rivedil Exclusive Paint wandafwerking",
+    "Latexspuitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@randy-stucwerken.nl",
+  "social": "https://facebook.com/RandyStucwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Tim van de Ven Schilderwerken",
+  "kort": "Tim van de Ven",
+  "slug": "tim-van-de-ven-schilderwerken-bladel",
+  "plaats": "Bladel",
+  "tel_display": "0653776511",
+  "tel_href": "tel:+31653776511",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Tim van de Ven",
+   "verhaal": "Tim van de Ven Schilderwerken is een kleinschalig en vakkundig schildersbedrijf uit Bladel, actief sinds 2008. Voor binnen- en buitenschilderwerk bij onderhoud en nieuwbouw, decoratie en wandafwerking, beglazing, houtrotreparatie en kleuradvies.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Onderhoud en nieuwbouw",
+    "Wandafwerking en decoratie",
+    "Houtrotreparatie",
+    "Beglazing en kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@tvdvenschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]

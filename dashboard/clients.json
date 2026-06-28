@@ -29454,5 +29454,71 @@
   "telefoon": "",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Van der Heijden Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Geldrop",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T14:42:05",
+  "laatste_post": "",
+  "demo_url": "https://van-der-heijden-stukadoorsbedrijf-geldrop.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Geldrop dat alleen via Facebook bereikbaar is (geen eigen website) - mobiel en e-mail bekend; sterke kans op een eigen, vindbare website.",
+  "fouten": [
+   "Stukadoorsbedrijf in Geldrop dat alleen via Facebook bereikbaar is (geen eigen website) - mobiel en e-mail bekend; sterke kans op een eigen, vindbare website"
+  ],
+  "contact": "0637474681",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Van-der-heijden-stukadoorsbedrijf-100071049511370/",
+  "telefoon": "0637474681",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Randy Stucwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Valkenswaard",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T14:42:05",
+  "laatste_post": "",
+  "demo_url": "https://randy-stucwerken-valkenswaard.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Valkenswaard met een zwakke bouwer-website (zichtbare Lorem-ipsum placeholdertekst en dubbele secties) - mobiel en e-mail bekend; duidelijke moderniseringskans.",
+  "fouten": [
+   "Stukadoorsbedrijf in Valkenswaard met een zwakke bouwer-website (zichtbare Lorem-ipsum placeholdertekst en dubbele secties) - mobiel en e-mail bekend; duidelijke moderniseringskans"
+  ],
+  "contact": "0619234622",
+  "bron": null,
+  "social": "https://facebook.com/RandyStucwerken/",
+  "telefoon": "0619234622",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Tim van de Ven Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Bladel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T14:42:05",
+  "laatste_post": "",
+  "demo_url": "https://tim-van-de-ven-schilderwerken-bladel.demo.brabantdigital.nl",
+  "waarom": "Schildersbedrijf in Bladel met een dunne een-pagina-website (foto's uit 2016, weinig inhoud) - mobiel en e-mail bekend; duidelijke verbeterkans met een premium-demo.",
+  "fouten": [
+   "Schildersbedrijf in Bladel met een dunne een-pagina-website (foto's uit 2016, weinig inhoud) - mobiel en e-mail bekend; duidelijke verbeterkans met een premium-demo"
+  ],
+  "contact": "0653776511",
+  "bron": null,
+  "social": "",
+  "telefoon": "0653776511",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
