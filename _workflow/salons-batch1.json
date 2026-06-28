@@ -34383,5 +34383,137 @@
   "email": "info@stukadoorsbedrijftates.nl",
   "social": "instagram.com/stukadoorsbedrijftates",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Woerdman Schilderwerken",
+  "kort": "Woerdman",
+  "slug": "woerdmanschilderwerken",
+  "plaats": "Lochem",
+  "tel_display": "06-15202506",
+  "tel_href": "tel:+31615202506",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Woerdman Schilderwerken levert met passie en oog voor detail hoogwaardig binnen- en buitenschilderwerk voor particulieren en bedrijven in Lochem en omgeving. Van kleuradvies tot de laatste afwerking: vakmanschap staat voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotreparatie",
+    "Kleur- en onderhoudsadvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@woerdmanschilder.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Lou",
+  "kort": "Lou",
+  "slug": "schildersbedrijflou",
+  "plaats": "Hoogeveen",
+  "tel_display": "06-51653901",
+  "tel_href": "tel:+31651653901",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Lou is gespecialiseerd in strak binnen- en buitenschilderwerk en professioneel latex- en houtspuitwerk in Drenthe, Groningen, Friesland en Overijssel. Betrouwbaar, netjes en met oog voor detail.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Latex spuitwerk",
+    "Houtwerk spuiten",
+    "Houtrotreparatie & kitwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "Info@SchildersbedrijfLou.nl",
+  "social": "instagram.com/schildersbedrijflou",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "van Veen spuit en schilderwerken",
+  "kort": "van Veen",
+  "slug": "vanveenspuitenschilderwerken",
+  "plaats": "Hollandscheveld",
+  "tel_display": "06-31945446",
+  "tel_href": "tel:+31631945446",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "van Veen spuit en schilderwerken is gespecialiseerd in airless spuitwerk en traditioneel schilderwerk, binnen en buiten, voor woningen en bedrijfspanden. Persoonlijk advies en hoogwaardige materialen voor een strak en duurzaam resultaat.",
+   "specialisaties": [
+    "Airless (verf) spuiten",
+    "Latex spuiten",
+    "Schilderwerk binnen & buiten",
+    "Houtrotrestauratie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@schilderwerkenvanveen.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Rob van Ede",
+  "kort": "Rob van Ede",
+  "slug": "schildersbedrijfrobvanede",
+  "plaats": "Wijk bij Duurstede",
+  "tel_display": "06-55377107",
+  "tel_href": "tel:+31655377107",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Marcel Pince-van der Aa",
+   "verhaal": "Schildersbedrijf Rob van Ede onderscheidt zich met natuurvriendelijke en ecologische verfsystemen voor schilder- en restauratiewerk aan woningen en monumenten. Vakwerk met respect voor mens, dier en milieu.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Spuitwerk (airless)",
+    "Houtrot- en restauratiewerk",
+    "Behang- en glasweefselwerk"
+   ],
+   "certificering": [
+    "Repair Care opgeleid"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "devierseizoenen@me.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Arrindell Schildersbedrijf",
+  "kort": "Arrindell",
+  "slug": "arrindellschildersbedrijf",
+  "plaats": "Hoogeveen",
+  "tel_display": "06-22065201",
+  "tel_href": "tel:+31622065201",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Arrindell Schildersbedrijf is een éénmansbedrijf dat sinds 2013 actief is in Drenthe, Friesland, Groningen en Overijssel, vooral voor particulieren. Persoonlijk contact, kwaliteit en alle voorkomende schilder- en glaszetwerkzaamheden.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Sauswerk & behangen",
+    "Wand- en plafondafwerking",
+    "Houtrotreparatie & beglazing"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@arrindellschildersbedrijf.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]

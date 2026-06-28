@@ -30180,5 +30180,115 @@
   "telefoon": "06-13838761",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Woerdman Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Lochem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T23:16:29",
+  "laatste_post": "",
+  "demo_url": "https://woerdmanschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Verouderde JouwWeb-website (één pagina, niet mobiel-geoptimaliseerd) zonder offerteformulier.",
+  "fouten": [
+   "Verouderde JouwWeb-website (één pagina, niet mobiel-geoptimaliseerd) zonder offerteformulier"
+  ],
+  "contact": "06-15202506",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-15202506",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Lou",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Drenthe",
+  "plaats": "Hoogeveen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T23:16:29",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijflou.demo.brabantdigital.nl",
+  "waarom": "JouwWeb-website zonder online offerteformulier; weinig onderscheidend en beperkt vindbaar.",
+  "fouten": [
+   "JouwWeb-website zonder online offerteformulier; weinig onderscheidend en beperkt vindbaar"
+  ],
+  "contact": "06-51653901",
+  "bron": null,
+  "social": "instagram.com/schildersbedrijflou",
+  "telefoon": "06-51653901",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "van Veen spuit en schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Drenthe",
+  "plaats": "Hollandscheveld",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T23:16:29",
+  "laatste_post": "",
+  "demo_url": "https://vanveenspuitenschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Website draait op een gratis bouwer-subdomein (Strato/CM4all) met nog een standaard-slogan; oogt verouderd en niet professioneel.",
+  "fouten": [
+   "Website draait op een gratis bouwer-subdomein (Strato/CM4all) met nog een standaard-slogan; oogt verouderd en niet professioneel"
+  ],
+  "contact": "06-31945446",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-31945446",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Rob van Ede",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Wijk bij Duurstede",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T23:16:29",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijfrobvanede.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde Joomla-website (sjabloon en projectfoto's uit 2018) zonder moderne mobiele weergave of offerteformulier.",
+  "fouten": [
+   "Sterk verouderde Joomla-website (sjabloon en projectfoto's uit 2018) zonder moderne mobiele weergave of offerteformulier"
+  ],
+  "contact": "06-55377107",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-55377107",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Arrindell Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Drenthe",
+  "plaats": "Hoogeveen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T23:16:29",
+  "laatste_post": "",
+  "demo_url": "https://arrindellschildersbedrijf.demo.brabantdigital.nl",
+  "waarom": "Website op een One.com-bouwer met vaste breedte (1050px) — niet mobielvriendelijk en zonder offerteformulier.",
+  "fouten": [
+   "Website op een One.com-bouwer met vaste breedte (1050px) — niet mobielvriendelijk en zonder offerteformulier"
+  ],
+  "contact": "06-22065201",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22065201",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
