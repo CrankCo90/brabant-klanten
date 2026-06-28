@@ -29982,5 +29982,93 @@
   "telefoon": "06-33220666",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Zwerus Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "De Meern",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T20:20:09",
+  "laatste_post": "",
+  "demo_url": "https://zwerus-stukadoors-de-meern.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in De Meern (Utrecht), bereikbaar via mobiel, e-mail en social — huidige site draait op een gratis bouwer (JouwWeb); premium demo gebouwd.",
+  "fouten": [
+   "Stukadoorsbedrijf in De Meern (Utrecht), bereikbaar via mobiel, e-mail en social — huidige site draait op een gratis bouwer (JouwWeb); premium demo gebouwd"
+  ],
+  "contact": "0618020047",
+  "bron": null,
+  "social": "facebook.com/zwerusstukadoors",
+  "telefoon": "0618020047",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van der Geest & Kooijman Stukadoors en Schilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Woerden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T20:20:09",
+  "laatste_post": "",
+  "demo_url": "https://van-der-geest-kooijman-woerden.demo.brabantdigital.nl",
+  "waarom": "Stukadoors- en schildersbedrijf in Woerden, mobiel bereikbaar — bestaande website is traag en gedateerd; premium demo gebouwd.",
+  "fouten": [
+   "Stukadoors- en schildersbedrijf in Woerden, mobiel bereikbaar — bestaande website is traag en gedateerd; premium demo gebouwd"
+  ],
+  "contact": "0651096552",
+  "bron": null,
+  "social": "",
+  "telefoon": "0651096552",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Armenschilders",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Leusden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T20:20:09",
+  "laatste_post": "",
+  "demo_url": "https://armenschilders-leusden.demo.brabantdigital.nl",
+  "waarom": "Schildersbedrijf in Leusden, bereikbaar via mobiel en e-mail — huidige website is verouderd (laatst bijgewerkt in 2018); premium demo gebouwd.",
+  "fouten": [
+   "Schildersbedrijf in Leusden, bereikbaar via mobiel en e-mail — huidige website is verouderd (laatst bijgewerkt in 2018); premium demo gebouwd"
+  ],
+  "contact": "0614574514",
+  "bron": null,
+  "social": "",
+  "telefoon": "0614574514",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Klusbedrijf DEPE",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Leusden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-28",
+  "aangemaakt": "2026-06-28T20:20:09",
+  "laatste_post": "",
+  "demo_url": "https://klusbedrijf-depe-leusden.demo.brabantdigital.nl",
+  "waarom": "Schilder-/klusbedrijf in Leusden, bereikbaar via mobiel en e-mail — beperkte online vindbaarheid; premium demo gebouwd.",
+  "fouten": [
+   "Schilder-/klusbedrijf in Leusden, bereikbaar via mobiel en e-mail — beperkte online vindbaarheid; premium demo gebouwd"
+  ],
+  "contact": "0622285987",
+  "bron": null,
+  "social": "",
+  "telefoon": "0622285987",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

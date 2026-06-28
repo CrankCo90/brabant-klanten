@@ -34138,5 +34138,105 @@
   "email": "info@211stukadoor-en-schildersbedrijf.nl",
   "social": "instagram.com/211stukadoor",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Zwerus Stukadoors",
+  "kort": "Zwerus",
+  "slug": "zwerus-stukadoors-de-meern",
+  "plaats": "De Meern",
+  "tel_display": "0618020047",
+  "tel_href": "tel:+31618020047",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Noah",
+   "verhaal": "Stukadoorsbedrijf uit De Meern (Utrecht) waar vakmanschap, kwaliteit en service centraal staan. Noah brengt verschillende soorten stucwerk aan met oog voor een strakke, gladde afwerking en maakt graag een vrijblijvende offerte op locatie.",
+   "specialisaties": [
+    "Wandafwerking en glad stucwerk",
+    "Plafondafwerking",
+    "Stucwerk voor nieuwbouw en renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "zwerusstukadoors@outlook.com",
+  "social": "facebook.com/zwerusstukadoors",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van der Geest & Kooijman Stukadoors en Schilders",
+  "kort": "Van der Geest & Kooijman",
+  "slug": "van-der-geest-kooijman-woerden",
+  "plaats": "Woerden",
+  "tel_display": "0651096552",
+  "tel_href": "tel:+31651096552",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoors- en schildersbedrijf uit Woerden dat vaak op locatie werkt. Van der Geest & Kooijman verzorgt zowel het stucwerk als het schilderwerk, zodat klanten voor een strakke afwerking bij één partij terechtkunnen.",
+   "specialisaties": [
+    "Stucwerk",
+    "Binnen- en buitenschilderwerk",
+    "Werk op locatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Armenschilders",
+  "kort": "Armenschilders",
+  "slug": "armenschilders-leusden",
+  "plaats": "Leusden",
+  "tel_display": "0614574514",
+  "tel_href": "tel:+31614574514",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Armen Muradyan",
+   "verhaal": "Schildersbedrijf A&M (Armen Muradyan) uit Leusden voor binnen- en buitenschilderwerk. Werkt met liefde voor het vak voor particulieren, bedrijven en non-profit in de regio Amersfoort, Hoogland, Soest en Leusden.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoud en houtwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@armenschilders.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Klusbedrijf DEPE",
+  "kort": "DEPE",
+  "slug": "klusbedrijf-depe-leusden",
+  "plaats": "Leusden",
+  "tel_display": "0622285987",
+  "tel_href": "tel:+31622285987",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Klusbedrijf DEPE uit Leusden, gespecialiseerd in schilderwerk voor woningen en bedrijven in de regio Leusden en Amersfoort. Een betrouwbare partner voor een nette, betaalbare afwerking.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Klein onderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "klusbedrijfdepe@gmail.com",
+  "social": "",
+  "taal": "nl"
  }
 ]
