@@ -35067,5 +35067,87 @@
   "email": "stukadoorsbedrijf.spaan@hotmail.com",
   "social": "https://www.facebook.com/stukadoorsbedrijf.spaan",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Arnhem",
+  "kort": "Stukadoorsbedrijf Arnhem",
+  "slug": "stukadoorsbedrijf-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-44493953",
+  "tel_href": "tel:+31644493953",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Arnhem is een team ervaren stukadoors met ruim 30 jaar ervaring, actief in Arnhem en omgeving. Specialist in stucwerk, spackspuiten en dunpleister, en in complete badkamer-, keuken- en traprenovaties - van kleine herstellingen tot grootschalige nieuwbouwprojecten. Een nette afwerking en een duidelijke offerte vooraf staan altijd voorop.",
+   "specialisaties": [
+    "Stucwerk (wanden & plafonds)",
+    "Spackspuiten",
+    "Dunpleister",
+    "Badkamer- & keukenrenovatie",
+    "Traprenovatie",
+    "Renovatie & afbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijf-arnhem.nl",
+  "social": "FB @stukadoorsbedrijfarnhem",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Redka Stukadoorsbedrijf",
+  "kort": "Redka Stukadoorsbedrijf",
+  "slug": "redka-stukadoorsbedrijf-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-19448829",
+  "tel_href": "tel:+31619448829",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Murat",
+   "verhaal": "Redka Stukadoorsbedrijf uit Arnhem levert al ruim 13 jaar strak stucwerk en latexspuitwerk voor particulieren en bedrijven. Murat en zijn team staan voor nette, gladde wanden en plafonds en een vakkundige afwerking - van renovatie en herstel tot sierpleister, binnen en buiten.",
+   "specialisaties": [
+    "Stucwerk (glad & sausklaar)",
+    "Latex spuiten",
+    "Sierpleister",
+    "Renovatie & herstel",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ster Stukadoor",
+  "kort": "Ster Stukadoor",
+  "slug": "ster-stukadoor-arnhem",
+  "plaats": "Arnhem",
+  "tel_display": "06-36417627",
+  "tel_href": "tel:+31636417627",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Ster Stukadoor is een Arnhems stukadoorsbedrijf gespecialiseerd in strak stucwerk en latex spuiten. Voor gladde, sausklare wanden en plafonds en een verzorgde afwerking in en rond Arnhem - netjes werk en eerlijk advies, voor particulier en bedrijf.",
+   "specialisaties": [
+    "Stucwerk (glad & sausklaar)",
+    "Latex spuiten",
+    "Sierpleister",
+    "Wanden & plafonds",
+    "Renovatie"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@sterstukadoor.nl",
+  "social": "IG @sterstukadoor_",
+  "taal": "nl"
  }
 ]

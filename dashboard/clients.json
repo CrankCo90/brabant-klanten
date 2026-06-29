@@ -30730,5 +30730,71 @@
   "telefoon": "06-42645511",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Arnhem",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Arnhem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T23:15:02",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-arnhem.demo.brabantdigital.nl",
+  "waarom": "Generieke sjabloonsite met gedupliceerde, niet-kloppende reviews en een onvolledig adres.",
+  "fouten": [
+   "Generieke sjabloonsite met gedupliceerde, niet-kloppende reviews en een onvolledig adres"
+  ],
+  "contact": "06-44493953",
+  "bron": null,
+  "social": "FB @stukadoorsbedrijfarnhem",
+  "telefoon": "06-44493953",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Redka Stukadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Arnhem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T23:15:02",
+  "laatste_post": "",
+  "demo_url": "https://redka-stukadoorsbedrijf-arnhem.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen vindbaar via offerteplatforms zoals Werkspot en Stukadoorgids.",
+  "fouten": [
+   "Geen eigen website - alleen vindbaar via offerteplatforms zoals Werkspot en Stukadoorgids"
+  ],
+  "contact": "06-19448829",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-19448829",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Ster Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Arnhem",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T23:15:02",
+  "laatste_post": "",
+  "demo_url": "https://ster-stukadoor-arnhem.demo.brabantdigital.nl",
+  "waarom": "Alleen actief op Instagram; het opgegeven webadres werkt niet, dus geen bereikbare eigen website.",
+  "fouten": [
+   "Alleen actief op Instagram; het opgegeven webadres werkt niet, dus geen bereikbare eigen website"
+  ],
+  "contact": "06-36417627",
+  "bron": null,
+  "social": "IG @sterstukadoor_",
+  "telefoon": "06-36417627",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
