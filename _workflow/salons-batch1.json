@@ -35013,5 +35013,59 @@
   "email": "verheesschilderwerken@gmail.com",
   "social": "facebook.com/verheesschilderwerken",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf K. Hoefs",
+  "kort": "K. Hoefs Stukadoors",
+  "slug": "stukadoorsbedrijf-khoefs",
+  "plaats": "Utrecht",
+  "tel_display": "06-14240516",
+  "tel_href": "tel:+31614240516",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf in Utrecht en Amsterdam voor stucwerk, sauswerk, betoncire, spachtelputz, latex spuiten en sierlijsten, met scherpe all-in tarieven en duidelijke afspraken.",
+   "specialisaties": [
+    "stucwerk",
+    "sauswerk",
+    "betoncire",
+    "spachtelputz",
+    "latex spuiten",
+    "sierlijsten en ornamenten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stukadoorsbedrijf-khoefs.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Spaan",
+  "kort": "Stukadoorsbedrijf Spaan",
+  "slug": "stukadoorsbedrijfspaan-nieuwegein",
+  "plaats": "Nieuwegein",
+  "tel_display": "06-42645511",
+  "tel_href": "tel:+31642645511",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf uit Nieuwegein voor strak stuc- en pleisterwerk, bereikbaar via telefoon en WhatsApp, e-mail en Facebook.",
+   "specialisaties": [
+    "stucwerk",
+    "pleisterwerk",
+    "sauswerk",
+    "latex spuiten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "stukadoorsbedrijf.spaan@hotmail.com",
+  "social": "https://www.facebook.com/stukadoorsbedrijf.spaan",
+  "taal": "nl"
  }
 ]

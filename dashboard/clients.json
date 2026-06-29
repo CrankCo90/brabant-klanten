@@ -30686,5 +30686,49 @@
   "telefoon": "06-37595651",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf K. Hoefs",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Utrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T22:18:04",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-khoefs.demo.brabantdigital.nl",
+  "waarom": "Eigen site draait op sterk verouderde techniek (WordPress 6.0 + Divi 4.17, afbeeldingen uit 2019), met mobiele zoom uitgeschakeld (user-scalable=0) en geen online offerteformulier, alleen een belknop. Mobiel en e-mail bereikbaar. Duidelijke redesign-kans.",
+  "fouten": [
+   "Eigen site draait op sterk verouderde techniek (WordPress 6.0 + Divi 4.17, afbeeldingen uit 2019), met mobiele zoom uitgeschakeld (user-scalable=0) en geen online offerteformulier, alleen een belknop. Mobiel en e-mail bereikbaar. Duidelijke redesign-kans"
+  ],
+  "contact": "06-14240516",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-14240516",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Spaan",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Utrecht",
+  "plaats": "Nieuwegein",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T22:18:04",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijfspaan-nieuwegein.demo.brabantdigital.nl",
+  "waarom": "Eigen site (stukadoorsbedrijfspaan.nl) laadt extreem traag en is nauwelijks bereikbaar (scrape liep tweemaal in time-out), zakelijke communicatie loopt via een hotmail-adres en Facebook. Mobiel, e-mail en social bereikbaar. Sterke kans op een snelle, betrouwbare nieuwe site.",
+  "fouten": [
+   "Eigen site (stukadoorsbedrijfspaan.nl) laadt extreem traag en is nauwelijks bereikbaar (scrape liep tweemaal in time-out), zakelijke communicatie loopt via een hotmail-adres en Facebook. Mobiel, e-mail en social bereikbaar. Sterke kans op een snelle, betrouwbare nieuwe site"
+  ],
+  "contact": "06-42645511",
+  "bron": null,
+  "social": "https://www.facebook.com/stukadoorsbedrijf.spaan",
+  "telefoon": "06-42645511",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
