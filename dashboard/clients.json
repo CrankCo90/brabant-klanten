@@ -30620,5 +30620,71 @@
   "telefoon": "06-41642684",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf De Graauw",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T21:16:25",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-de-graauw-veghel.demo.brabantdigital.nl",
+  "waarom": "Stukadoorsbedrijf in Veghel dat alleen via Facebook te vinden is - geen eigen website. Premium demo gebouwd als moderne online uitstraling.",
+  "fouten": [
+   "Stukadoorsbedrijf in Veghel dat alleen via Facebook te vinden is - geen eigen website. Premium demo gebouwd als moderne online uitstraling"
+  ],
+  "contact": "Alleen facebook.com/Degraauwstukadoors",
+  "bron": null,
+  "social": "facebook.com/Degraauwstukadoors",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "HGL Lijmwerken- Stukadoorswerk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T21:16:25",
+  "laatste_post": "",
+  "demo_url": "https://hgl-lijmwerken-stukadoorswerk-veghel.demo.brabantdigital.nl",
+  "waarom": "Stukadoor in Veghel met alleen een vermelding in een online gids, mobiel bereikbaar maar zonder eigen website. Premium demo gebouwd zodat hij online vindbaar wordt.",
+  "fouten": [
+   "Stukadoor in Veghel met alleen een vermelding in een online gids, mobiel bereikbaar maar zonder eigen website. Premium demo gebouwd zodat hij online vindbaar wordt"
+  ],
+  "contact": "06-54667510",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54667510",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verhees Schilder-Behang-Spuitwerk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Helmond",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-06-29",
+  "aangemaakt": "2026-06-29T21:16:25",
+  "laatste_post": "",
+  "demo_url": "https://verhees-schilderwerken-helmond.demo.brabantdigital.nl",
+  "waarom": "Schilder uit Helmond die zich alleen via Facebook en Instagram presenteert - geen eigen website. Mobiel en per e-mail bereikbaar. Premium demo gebouwd als professionele online basis.",
+  "fouten": [
+   "Schilder uit Helmond die zich alleen via Facebook en Instagram presenteert - geen eigen website. Mobiel en per e-mail bereikbaar. Premium demo gebouwd als professionele online basis"
+  ],
+  "contact": "06-37595651",
+  "bron": null,
+  "social": "facebook.com/verheesschilderwerken",
+  "telefoon": "06-37595651",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

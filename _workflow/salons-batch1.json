@@ -34929,5 +34929,89 @@
   "email": "info@schildersbedrijfzutphen.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf De Graauw",
+  "kort": "Stukadoorsbedrijf De Graauw",
+  "slug": "stukadoorsbedrijf-de-graauw-veghel",
+  "plaats": "Veghel",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf De Graauw is een stukadoor uit Veghel voor nieuwbouw, verbouw en renovatie. Van strak spuitwerk en sausklaar pleisterwerk tot spachtelputz, schuurwerk, buitenwerk en latex spuiten - alles netjes en vakkundig afgewerkt.",
+   "specialisaties": [
+    "Nieuwbouw & verbouw stucwerk",
+    "Spuitwerk & latex spuiten",
+    "Sausklaar pleisterwerk",
+    "Spachtelputz & sierpleister",
+    "Schuurwerk",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "facebook.com/Degraauwstukadoors",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "HGL Lijmwerken- Stukadoorswerk",
+  "kort": "HGL Stukadoorswerk",
+  "slug": "hgl-lijmwerken-stukadoorswerk-veghel",
+  "plaats": "Veghel",
+  "tel_display": "06-54667510",
+  "tel_href": "tel:+31654667510",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "HGL Lijmwerken- Stukadoorswerk is een stukadoor uit Veghel, gespecialiseerd in lijmwerk en stukadoorswerk voor woning en bedrijf. Strak stucwerk voor wanden en plafonds, van nieuwbouw tot renovatie.",
+   "specialisaties": [
+    "Stukadoorswerk wanden & plafonds",
+    "Lijmwerk",
+    "Nieuwbouw & renovatie",
+    "Spuitwerk",
+    "Schuurwerk",
+    "Buitenstucwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Verhees Schilder-Behang-Spuitwerk",
+  "kort": "Verhees Schilderwerken",
+  "slug": "verhees-schilderwerken-helmond",
+  "plaats": "Helmond",
+  "tel_display": "06-37595651",
+  "tel_href": "tel:+31637595651",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Willem",
+   "verhaal": "Verhees Schilder-Behang-Spuitwerk uit Helmond is het eenmansbedrijf van Willem Verhees, al ruim tien jaar actief in schilder- en behangwerk. Voor binnen- en buitenschilderwerk, wandafwerking met glasvlies of behang, glaszetten, houtrotherstel en belettering - met persoonlijke aandacht en oog voor detail.",
+   "specialisaties": [
+    "Binnen- & buitenschilderwerk",
+    "Wandafwerking glasvlies & behang",
+    "Latex- en spuitwerk",
+    "Glaszetten",
+    "Houtrotherstel",
+    "Belettering"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "verheesschilderwerken@gmail.com",
+  "social": "facebook.com/verheesschilderwerken",
+  "taal": "nl"
  }
 ]
