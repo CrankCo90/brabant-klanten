@@ -34621,5 +34621,117 @@
   "email": "schilder@loozen.info",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Roel Nijssen Stukadoor",
+  "kort": "Roel Nijssen Stukadoor",
+  "slug": "roel-nijssen-stukadoor-eersel",
+  "plaats": "Eersel",
+  "tel_display": "06-11197345",
+  "tel_href": "tel:+31611197345",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roel",
+   "verhaal": "Roel Nijssen is al veertien jaar stukadoor, waarvan acht jaar als zelfstandige in Eersel. Samen met vaste collega Rob Heesters werkt hij vooral in de particuliere (ver)bouw. Superstrak, glad pleisterwerk is de specialiteit, maar ook sierlijsten, ornamenten en een mooie schouw draaien ze hun hand niet voor om. Netjes werken en de klant volledig ontzorgen staan voorop: materialen en gereedschap worden meegebracht, alles wordt afgeplakt en aan het eind van de dag is het weer opgeruimd.",
+   "specialisaties": [
+    "Glad pleisterwerk",
+    "Renovatiestucwerk",
+    "Sierlijsten & ornamenten",
+    "Schouwen",
+    "Particuliere (ver)bouw",
+    "Nieuwbouwafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@roelnijssen.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Geerts",
+  "kort": "Schildersbedrijf Geerts",
+  "slug": "schildersbedrijf-geerts-bladel",
+  "plaats": "Bladel",
+  "tel_display": "06-20791886",
+  "tel_href": "tel:+31620791886",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Geerts is een vakkundig schildersbedrijf uit Bladel voor binnen- en buitenschilderwerk. Of het nu gaat om het opfrissen van je woonkamer, het beschermen van kozijnen en houtwerk of een complete buitenbeurt: je kunt rekenen op nette voorbereiding, hoogwaardige verf en een strak eindresultaat. Persoonlijk contact en duidelijke afspraken staan voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Kozijnen & houtwerk",
+    "Houtrotherstel",
+    "Beglazing",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "dregeerts2008@gmail.com",
+  "social": "facebook.com/100054204593820",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Smolders Schilderwerken",
+  "kort": "Smolders Schilderwerken",
+  "slug": "smolders-schilderwerken-bergeijk",
+  "plaats": "Bergeijk",
+  "tel_display": "06-11153021",
+  "tel_href": "tel:+31611153021",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Smolders Schilderwerken is een schildersbedrijf dat actief is in Bergeijk en omgeving. Meer dan alleen schilders: vakmensen die ruimtes met zorg transformeren, van binnen- en buitenschilderwerk tot het herstellen van houtwerk. Met oog voor detail, A-merk materialen en nette afwerking zorgen ze voor een resultaat dat jarenlang mooi blijft.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel",
+    "Kozijnrenovatie",
+    "Spuitwerk",
+    "Behang & wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@smoldersschilderwerken.nl",
+  "social": "facebook.com/smoldersschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Senders Schilderwerken",
+  "kort": "Senders Schilderwerken",
+  "slug": "senders-schilderwerken-bergeijk",
+  "plaats": "Bergeijk",
+  "tel_display": "06-50501717",
+  "tel_href": "tel:+31650501717",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Senders Schilderwerken is een schildersbedrijf uit Bergeijk voor binnen- en buitenschilderwerk. Van het opfrissen van je interieur tot het beschermen van gevels, kozijnen en houtwerk: je kunt rekenen op vakwerk, nette voorbereiding en een verzorgde afwerking. Persoonlijk en betrokken, met aandacht voor een strak en duurzaam resultaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Kozijnen & houtwerk",
+    "Houtrotherstel",
+    "Gevels",
+    "Kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]

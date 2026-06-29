@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="nl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Senders Schilderwerken - Schilder &amp; Stukadoor Bergeijk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f1ea;--band:#efe8dd;--surface:#fff;--ink:#1c1b19;--text:#2b2926;--muted:#6f6a64;--accent:#e2641e;--accent2:#e2641e22;--ct:#fff;--line:#e7ddd0;--hbg:#1c1b19;--hfg:#fff;--ov:linear-gradient(rgba(20,18,16,.7),rgba(20,18,16,.78));--himg:url('../assets/voornaa/hero/hero1.jpg');--whyimg:url('../assets/voornaa/hero/hero5.jpg');--rad:12px;--fh:'Playfair Display',Georgia,serif;--fb:'Inter',system-ui,sans-serif;--revbg:#fff;--revtx:#2b2926}
+
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:var(--fb);color:var(--text);background:var(--bg);line-height:1.6}
+h1,h2,h3{font-family:var(--fh);font-weight:700;line-height:1.13;color:var(--ink)}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:.76rem;font-family:var(--fb)}
+.btn{display:inline-flex;align-items:center;gap:.5em;font-weight:600;font-family:var(--fb);border-radius:var(--rad);padding:14px 24px;font-size:.96rem;cursor:pointer;border:1.5px solid transparent;transition:.2s}
+.btn-pri{background:var(--accent);color:var(--ct)}.btn-pri:hover{filter:brightness(.92)}
+.btn-out{background:transparent;color:var(--hfg);border-color:#ffffff55}.btn-out:hover{border-color:#fff}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+/* topbar */
+.topbar{background:var(--accent);color:#fff;font-size:.85rem}.topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:40px;flex-wrap:wrap}
+.topbar a{color:#fff;font-weight:600}
+/* header */
+header{position:sticky;top:0;z-index:60;background:var(--hbg);color:var(--hfg);border-bottom:3px solid var(--accent)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-family:var(--fh);font-weight:800;font-size:1.12rem;color:var(--hfg);display:flex;align-items:center;gap:10px}
+.logo .mk{width:34px;height:34px;border-radius:8px;background:var(--accent);display:grid;place-items:center;font-size:.9rem;color:var(--ct);font-family:var(--fb);font-weight:700}
+.menu{display:flex;gap:26px;align-items:center}.menu a{color:var(--hfg);opacity:.88;font-size:.92rem;font-weight:500}.menu a:hover{opacity:1}
+.htools{display:flex;gap:14px;align-items:center}
+.hphone{color:var(--hfg);font-size:.88rem;font-weight:600}
+#lang{background:#ffffff1f;color:var(--hfg);border:1px solid #ffffff33;border-radius:8px;padding:6px 10px;font-size:.78rem;cursor:pointer;font-weight:600}
+.burger{display:none;background:none;border:0;color:var(--hfg);font-size:1.6rem;cursor:pointer}
+/* hero */
+.hero{position:relative;color:#fff;background:var(--ov),var(--himg) center/cover}
+.hero .wrap{padding:104px 24px 112px;position:relative}
+.hero.center .wrap{text-align:center;max-width:900px}
+.kick{display:inline-flex;align-items:center;gap:8px;background:#ffffff14;border:1px solid #ffffff2a;padding:8px 16px;border-radius:999px;font-size:.82rem;margin-bottom:22px}
+.stars{color:var(--accent);letter-spacing:2px}
+.hero h1{color:#fff;font-size:clamp(2.3rem,5.2vw,3.9rem);max-width:16ch}
+.hero.center h1{margin-inline:auto}
+.hero h1 .ac{color:var(--accent)}
+.hero p{color:#ece7df;font-size:1.08rem;max-width:50ch;margin:22px 0 0}
+.hero.center p{margin-inline:auto}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.hero.center .cta{justify-content:center}
+.trust{margin-top:18px;font-size:.85rem;color:#dcd5cb}
+.promo{position:absolute;right:24px;top:50%;transform:translateY(-50%);background:var(--accent);color:#fff;border-radius:16px;padding:26px;max-width:300px;box-shadow:0 18px 40px rgba(0,0,0,.3)}
+.promo h3{color:#fff;font-family:var(--fb);font-size:1.3rem;margin-bottom:8px}.promo p{color:#fff;font-size:.9rem;margin:6px 0 0}
+/* sections */
+section{padding:82px 0}
+.band{background:var(--band)}
+.sec-head{text-align:center;max-width:62ch;margin:0 auto 50px}
+.sec-head h2{font-size:clamp(2rem,3.6vw,2.7rem);margin:12px 0}.sec-head h2 .ac{color:var(--accent)}
+.sec-head p{color:var(--muted)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.2s}.svc-img{height:188px;background-size:cover;background-position:center}.svc-b{padding:24px 26px 28px}
+.svc:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,0,0,.09)}
+.svc .ic{width:50px;height:50px;border-radius:12px;background:var(--accent2);display:grid;place-items:center;color:var(--accent);font-size:1.4rem;margin-bottom:16px}
+.svc h3{font-size:1.25rem;margin-bottom:8px}.svc p{color:var(--muted);font-size:.94rem}
+/* waarom */
+.why-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+.feat{display:flex;gap:15px;margin-bottom:22px}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:50%;background:var(--accent2);color:var(--accent);display:grid;place-items:center;font-size:1.1rem}
+.feat h3{font-family:var(--fb);font-size:1.04rem;font-weight:700;color:var(--ink);margin-bottom:2px}.feat p{color:var(--muted);font-size:.92rem}
+.why-img{position:relative;border-radius:18px;overflow:hidden;min-height:430px;background:#ccc var(--whyimg) center/cover}
+.badge{position:absolute;left:18px;bottom:18px;background:var(--ink);color:#fff;border-radius:14px;padding:16px 20px;text-align:center}
+.badge b{font-family:var(--fh);color:var(--accent);font-size:1.7rem;display:block}.badge span{font-size:.78rem;color:#e6e0d8}
+/* steps */
+.step{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px 22px}
+.step .n{font-family:var(--fh);font-size:2.3rem;color:var(--accent);opacity:.6;line-height:1}
+.step h3{font-size:1.15rem;margin:10px 0 8px}.step p{color:var(--muted);font-size:.9rem}
+/* reviews */
+.rev{background:var(--revbg);border:1px solid var(--line);border-radius:16px;padding:26px;color:var(--revtx)}
+.rev .stars{font-size:1rem;margin-bottom:12px;display:block}
+.rev p{font-style:italic;font-size:.94rem}.rev .who{font-weight:700;color:var(--ink);margin-top:14px;font-style:normal}
+/* contact */
+.offer{background:var(--hbg);color:#fff}
+.offer-grid{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:start}
+.offer h2{color:#fff;font-size:clamp(2rem,3.6vw,2.6rem)}.offer h2 .ac{color:var(--accent)}
+.offer .lede{color:#cfc7bd;margin:16px 0 24px}
+.cline{display:flex;align-items:center;gap:12px;margin-bottom:13px;color:#eee}
+.cline .ic{width:42px;height:42px;border-radius:10px;background:#ffffff16;display:grid;place-items:center;color:var(--accent)}
+.formcard{background:#fff;color:var(--text);border-radius:18px;padding:30px}
+.formcard h3{font-size:1.35rem;margin-bottom:16px}
+.formcard label{display:block;font-size:.8rem;font-weight:600;color:var(--ink);margin:11px 0 5px}
+.formcard input,.formcard select,.formcard textarea{width:100%;border:1px solid var(--line);border-radius:9px;padding:11px 13px;font-family:var(--fb);font-size:.92rem;background:#fbf9f6;color:#222}
+.formcard textarea{min-height:92px;resize:vertical}.formcard button{width:100%;margin-top:16px;justify-content:center}
+.formnote{font-size:.78rem;color:var(--muted);margin-top:10px;text-align:center}
+.ok{display:none;background:#e8f5e9;border:1px solid #b7e0bb;color:#1f6b2a;border-radius:10px;padding:14px;margin-top:14px;font-size:.9rem}
+/* footer */
+footer{background:#161513;color:#cfc7bd;padding:56px 0 26px}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:34px}
+footer h4{color:#fff;font-family:var(--fb);font-size:1rem;margin-bottom:13px}
+footer a{color:#cfc7bd;font-size:.9rem;line-height:1.95}footer a:hover{color:#fff}
+.copy{border-top:1px solid #ffffff14;padding-top:18px;font-size:.82rem;color:#9a948c;text-align:center}
+.ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.ba{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.ba-wrap{position:relative;aspect-ratio:3/4;overflow:hidden;user-select:none}
+.ba-wrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.ba-before{clip-path:inset(0 50% 0 0)}
+.ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize}
+.ba-handle{position:absolute;top:0;bottom:0;left:50%;width:40px;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;pointer-events:none}
+.ba-handle::before{content:"";position:absolute;top:0;bottom:0;width:3px;background:#fff;box-shadow:0 0 8px rgba(0,0,0,.4)}
+.ba-handle span{position:relative;width:38px;height:38px;border-radius:50%;background:#fff;color:#222;display:grid;place-items:center;font-weight:700;box-shadow:0 3px 10px rgba(0,0,0,.3);font-size:.9rem}
+.ba-lbl{position:absolute;bottom:12px;padding:5px 12px;border-radius:999px;font-size:.78rem;font-weight:700;color:#fff;background:rgba(0,0,0,.55);font-family:var(--fb)}
+.ba-l{left:12px}.ba-r{right:12px}
+.ba-cap{padding:16px 20px;font-family:var(--fb);font-weight:600;color:var(--ink)}
+@media(max-width:780px){.ba-grid{grid-template-columns:1fr}}
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:999;display:flex;align-items:center;gap:8px;background:#25D366;color:#fff;padding:12px 18px;border-radius:999px;font-weight:700;font-size:.9rem;box-shadow:0 8px 22px rgba(0,0,0,.28)}.wa-float svg{width:20px;height:20px;fill:#fff}
+@media(max-width:920px){.why-grid,.offer-grid{grid-template-columns:1fr;gap:32px}.grid3,.grid4{grid-template-columns:1fr 1fr}.fgrid{grid-template-columns:1fr 1fr}.promo{position:static;transform:none;margin-top:26px;max-width:none}}
+@media(max-width:680px){.menu,.hphone{display:none}.burger{display:block}.menu.open{display:flex;position:absolute;top:72px;left:0;right:0;flex-direction:column;background:var(--hbg);padding:18px 24px;gap:14px;border-bottom:3px solid var(--accent)}.grid3,.grid4,.fgrid{grid-template-columns:1fr}section{padding:58px 0}.hero .wrap{padding:72px 24px 80px}}
+</style></head>
+<body class="t1">
+
+<header><div class="wrap nav">
+  <a href="#" class="logo"><span class="mk">SS</span><em>Senders Schilderwerken</em></a>
+  <nav class="menu" id="menu">
+    <a href="#diensten" data-en="Services">Diensten</a>
+    <a href="#waarom" data-en="Why us">Waarom wij</a>
+    <a href="#reviews" data-en="Reviews">Reviews</a>
+    <a href="#offerte" data-en="Contact">Contact</a>
+  </nav>
+  <div class="htools">
+    <a class="hphone" href="tel:+31650501717">06-50501717</a>
+    <button id="lang" type="button">EN</button>
+    <a href="#offerte" class="btn btn-pri" style="padding:9px 16px" data-en="Request a quote">Offerte aanvragen</a>
+    <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+  </div>
+</div></header>
+
+<section class="hero "><div class="wrap">
+  <span class="kick"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>9.6</b> uit 50+ reviews</span>
+  <h1>Strak stucwerk en <span class="ac">schilderwerk</span> met oog voor detail</h1>
+  <p>Vakmanschap, eerlijke prijzen en een nette afwerking - altijd. Afspraak = afspraak.</p>
+  <div class="cta">
+    <a href="#offerte" class="btn btn-pri" data-en="Request a free quote">Vraag een offerte aan</a>
+    <a href="#diensten" class="btn btn-out" data-en="Our services">Bekijk onze diensten</a>
+  </div>
+  <p class="trust" data-en="Free &amp; no obligation - honest quote within 24 hours">&#10003; Gratis &amp; vrijblijvend - binnen 24 uur een eerlijke offerte</p>
+  
+</div></section>
+
+<section id="diensten"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow" data-en="Our services">Onze diensten</span>
+    <h2 data-en="Craftsmanship for every surface">Vakwerk voor <span class="ac">elk oppervlak</span></h2>
+    <p data-en="From smooth plastered walls to perfectly painted frames - quality that lasts for years.">Van glad gestukte muren tot perfect geschilderd houtwerk - kwaliteit waar u jarenlang plezier van heeft.</p></div>
+  <div class="grid3">
+    <div class="svc"><div class="svc-img" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080441_0aad400c-8e6f-4662-9594-e151c7f649a7.png')"></div><div class="svc-b"><h3 data-en="Plastering">Stucwerk &amp; pleisterwerk</h3><p data-en="Mirror-smooth walls and ceilings. The perfect base for any interior.">Spiegelgladde muren en plafonds door vakkundig pleister- en spuitwerk. De perfecte basis voor elk interieur.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080537_f294e31d-cb99-4674-b622-e6a989d739b8.png')"></div><div class="svc-b"><h3 data-en="Interior painting">Binnenschilderwerk</h3><p data-en="Sharp, even painting for walls, ceilings and woodwork. Dust-free and detailed.">Strak en egaal schilderwerk voor muren, plafonds en houtwerk. Stofvrij en met oog voor detail.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080540_fa2aeef9-7998-4066-a6e1-02c1db8301ce.png')"></div><div class="svc-b"><h3 data-en="Exterior painting">Buitenschilderwerk</h3><p data-en="Durable painting for facades, frames and trim. Protection against the elements.">Duurzaam schilderwerk voor gevels, kozijnen en boeidelen. Bescherming tegen weer en wind.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('../assets/voornaa/betonlook.jpg')"></div><div class="svc-b"><h3 data-en="Decorative / Beton cire">Sierpleister &amp; betonlook</h3><p data-en="Decorative finishes and beton cire for a unique, modern look.">Decoratieve structuren, spachtelputz en betonlook (beton cire) voor een unieke, moderne uitstraling.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_3EDLFqGUNpQE4EgXyTJzGEcupp2/hf_20260620_080539_44b356d3-597a-4de4-8b94-6a2386c84ab6.png')"></div><div class="svc-b"><h3 data-en="Facade insulation">Gevelisolatie</h3><p data-en="Energy-efficient solutions for a comfortable, durable home.">Energiezuinige buitengevelisolatie voor een duurzaam en comfortabel huis, strak afgewerkt.</p></div></div>
+    <div class="svc"><div class="svc-img" style="background-image:url('../assets/voornaa/betonlook-aanbrengen.jpg')"></div><div class="svc-b"><h3 data-en="Renovation &amp; finishing">Renovatie &amp; afwerking</h3><p data-en="Complete renovation and finishing of your home or business - all from one hand.">Complete renovatie en afwerking van uw woning of bedrijfspand. Alles uit een hand, tot in de puntjes.</p></div></div>
+  </div>
+</div></section>
+
+<section id="waarom" class="band"><div class="wrap why-grid">
+  <div><span class="eyebrow" data-en="Why us">Waarom wij</span>
+    <h2 style="font-size:clamp(1.9rem,3.3vw,2.5rem);margin:10px 0 22px" data-en="Quality you can see. Agreements we keep.">Kwaliteit die u ziet. <span class="ac">Afspraken die we nakomen.</span></h2>
+    <div class="feat"><div class="ic">&#127894;&#65039;</div><div><h3 data-en="Craftsmanship">Vakmanschap &amp; ervaring</h3><p data-en="Years of experience in plaster and painting, every project finished to perfection.">Jarenlange ervaring in stuc- en schilderwerk. Elk project tot in de puntjes verzorgd.</p></div></div>
+    <div class="feat"><div class="ic">&#129529;</div><div><h3 data-en="Clean finish">Nette afwerking</h3><p data-en="We work dust-free, cover everything and leave it broom-clean.">We werken stofvrij, dekken alles af en leveren bezemschoon op. Geen gedoe.</p></div></div>
+    <div class="feat"><div class="ic">&#9201;&#65039;</div><div><h3 data-en="Agreement = agreement">Afspraak = afspraak</h3><p data-en="We arrive on time, work through and deliver within the agreed term.">We komen op tijd, werken door en leveren binnen de afgesproken termijn.</p></div></div>
+    <div class="feat"><div class="ic">&#128176;</div><div><h3 data-en="Fair prices">Eerlijke prijzen</h3><p data-en="Clear quotes, no surprises afterwards. You know exactly where you stand.">Duidelijke offertes, geen verrassingen achteraf. U weet precies waar u aan toe bent.</p></div></div>
+  </div>
+  <div class="why-img"><div class="badge"><b>15+</b><span data-en="years experience">jaar ervaring</span></div></div>
+</div></section>
+
+<section id="werkwijze"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow" data-en="How we work">Werkwijze</span>
+    <h2 data-en="From quote to a sharp delivery">Van offerte tot <span class="ac">strakke oplevering</span></h2>
+    <p data-en="Clear, fast and hassle-free.">Zo werkt het: helder, snel en zonder gedoe.</p></div>
+  <div class="grid4">
+    <div class="step"><div class="n">01</div><h3 data-en="Request a quote">Offerte aanvragen</h3><p data-en="You tell us what you want. We send a clear quote within 24 hours.">U vertelt ons wat u wilt. Wij sturen binnen 24 uur een heldere, vrijblijvende offerte.</p></div>
+    <div class="step"><div class="n">02</div><h3 data-en="Advice &amp; planning">Advies &amp; inplannen</h3><p data-en="We give honest colour and material advice and plan the work to suit you.">We geven eerlijk kleur- en materiaaladvies en plannen het werk wanneer het u uitkomt.</p></div>
+    <div class="step"><div class="n">03</div><h3 data-en="Execution">Vakkundige uitvoering</h3><p data-en="We arrive on time, cover everything and work dust-free and tidy.">We komen op tijd, dekken alles af en werken stofvrij en netjes.</p></div>
+    <div class="step"><div class="n">04</div><h3 data-en="Delivery">Strakke oplevering</h3><p data-en="We deliver broom-clean and check every detail together.">We leveren bezemschoon op en lopen samen elk detail na. Pas als u tevreden bent, is het klaar.</p></div>
+  </div>
+</div></section>
+
+<section id="voorna" class="band"><div class="wrap"><div class="sec-head"><span class="eyebrow" data-en="Before &amp; after">Voor &amp; na</span><h2 data-en="See the transformation">Zie de <span class="ac">transformatie</span></h2><p data-en="Drag the slider to see the result of our work.">Sleep de schuif om het resultaat van ons werk te zien.</p></div><div class="ba-grid"><div class="ba"><div class="ba-wrap"><img class="ba-after" src="../assets/voornaa/kamer7a.jpg" alt="Na"><img class="ba-before" src="../assets/voornaa/kamer7.jpg" alt="Voor"><input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Voor en na"><div class="ba-handle"><span>&#8596;</span></div><span class="ba-lbl ba-l" data-en="Before">Voor</span><span class="ba-lbl ba-r" data-en="After">Na</span></div><div class="ba-cap">Woonkamer - van ruwbouw naar strak afgewerkt</div></div><div class="ba"><div class="ba-wrap"><img class="ba-after" src="../assets/voornaa/kamer8a.jpg" alt="Na"><img class="ba-before" src="../assets/voornaa/kamer8.jpg" alt="Voor"><input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Voor en na"><div class="ba-handle"><span>&#8596;</span></div><span class="ba-lbl ba-l" data-en="Before">Voor</span><span class="ba-lbl ba-r" data-en="After">Na</span></div><div class="ba-cap">Slaapkamer - compleet gestukt en geschilderd</div></div></div></div></section>
+
+<section id="reviews" class="band"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">Reviews</span>
+    <h2 data-en="What our clients say">Wat onze klanten zeggen</h2>
+    <p><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>9.6</b> uit 50+ reviews</p></div>
+  <div class="grid3">
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p data-en="They plastered our whole house - truly sharp. Tidy and everything left neat.">"Senders Schilderwerken heeft ons hele huis gestukt en het resultaat is werkelijk strak. Nette werkwijze, alles netjes achtergelaten."</p><div class="who">- Marjolein V.</div></div>
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p data-en="A craftsman to the core. The paintwork still looks perfect after years.">"Vakman in hart en nieren. Het schilderwerk aan onze kozijnen ziet er na jaren nog perfect uit."</p><div class="who">- Hendrik B.</div></div>
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p data-en="Quick quote and a fair price, no surprises. The walls are mirror-smooth.">"Snel een offerte en een eerlijke prijs, geen verrassingen achteraf. De muren zijn spiegelglad."</p><div class="who">- Sandra K.</div></div>
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p data-en="Re-plastered and painted - what a difference! Honest advice too.">"Onze woonkamer is opnieuw gestukt en geschilderd. Wat een verschil! Eerlijk advies en meedenken."</p><div class="who">- Tom de J.</div></div>
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p data-en="Very satisfied with the exterior work. Neat, friendly and on time.">"Zeer tevreden over het buitenschilderwerk. Keurig werk, vriendelijke communicatie en netjes op tijd."</p><div class="who">- Anouk M.</div></div>
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p data-en="Finally someone who keeps appointments and delivers quality.">"Eindelijk een stukadoor die zijn afspraken nakomt en kwaliteit levert. De betonlook is prachtig."</p><div class="who">- Robert P.</div></div>
+  </div>
+</div></section>
+
+<section id="offerte" class="offer"><div class="wrap offer-grid">
+  <div><span class="eyebrow" data-en="Free quote">Gratis offerte</span>
+    <h2 data-en="Ready for a <span class='ac'>sharp</span> result?">Klaar voor een <span class="ac">strak</span> resultaat?</h2>
+    <p class="lede" data-en="Tell us about your project and receive a no-obligation quote within 24 hours.">Vertel ons over uw project en ontvang binnen 24 uur een vrijblijvende offerte. Eerlijk, duidelijk en zonder verrassingen.</p>
+    <div class="cline"><div class="ic">&#128222;</div><a href="tel:+31650501717">06-50501717</a></div>
+    <div class="cline"><div class="ic">&#9993;&#65039;</div><a href="mailto:">Op aanvraag</a></div>
+    <div class="cline"><div class="ic">&#128205;</div><span>Bergeijk en omstreken</span></div>
+  </div>
+  <form class="formcard" id="qform" data-mailto="">
+    <h3 data-en="Request a free quote">Vraag een offerte aan</h3>
+    <label data-en="Name">Naam</label><input name="naam" required placeholder="Uw naam">
+    <label data-en="Phone">Telefoon</label><input name="tel" placeholder="06 12345678">
+    <label>E-mail</label><input name="email" type="email" required placeholder="uw@email.nl">
+    <label data-en="Type of work">Type werk</label>
+    <select name="type"><option data-en="Select type of work...">Selecteer type werk...</option><option data-en="Plastering">Stucwerk / pleisterwerk</option><option>Binnenschilderwerk</option><option>Buitenschilderwerk</option><option data-en="Decorative / beton cire">Sierpleister / betonlook</option><option data-en="Facade insulation">Gevelisolatie</option><option data-en="Renovation">Renovatie</option><option data-en="Other / combination">Anders / combinatie</option></select>
+    <label data-en="Message">Bericht</label><textarea name="bericht" placeholder="Vertel ons over uw project..."></textarea>
+    <button type="submit" class="btn btn-pri" data-en="Send request">Verstuur aanvraag</button>
+    <p class="formnote" data-en="Free &amp; no obligation - reply within 24 hours">Gratis &amp; vrijblijvend - reactie binnen 24 uur</p>
+    <div class="ok" id="okmsg" data-en="Thank you! Your request has been opened in your email app.">Bedankt! Uw aanvraag is geopend in uw e-mailprogramma.</div>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><div class="logo" style="margin-bottom:14px;color:#fff"><span class="mk">SS</span>Senders Schilderwerken</div><p style="font-size:.9rem;max-width:34ch" data-en="Craftsmanship in plaster and painting. Sharp, honest and reliable.">Vakmanschap in stuc- en schilderwerk. Strak, eerlijk en betrouwbaar - voor particulieren en bedrijven.</p></div>
+    <div><h4 data-en="Services">Diensten</h4><a href="#diensten" data-en="Plastering">Stucwerk</a><br><a href="#diensten">Schilderwerk</a><br><a href="#diensten" data-en="Decorative">Sierpleister</a><br><a href="#diensten" data-en="Renovation">Renovatie</a></div>
+    <div><h4 data-en="Navigate">Pagina's</h4><a href="#waarom" data-en="Why us">Waarom wij</a><br><a href="#reviews">Reviews</a><br><a href="#offerte">Contact</a></div>
+    <div><h4>Contact</h4><a href="tel:+31650501717">06-50501717</a><br><a href="mailto:">Op aanvraag</a><br><span>Bergeijk</span></div>
+  </div>
+  <div class="copy">&copy; <span id="yr"></span> Senders Schilderwerken, Bergeijk. <span data-en="All rights reserved.">Alle rechten voorbehouden.</span></div>
+</div></footer>
+<a class="wa-float" href="https://wa.me/31650501717" target="_blank" rel="noopener"><svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L4 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3z"/></svg> App ons</a><script>if(window.self!==window.top){document.querySelectorAll(".wa-float").forEach(function(e){e.style.display="none"})}</script>
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+document.getElementById('burger').onclick=function(){document.getElementById('menu').classList.toggle('open')};
+(function(){var en=false,b=document.getElementById('lang');b.onclick=function(){en=!en;b.textContent=en?'NL':'EN';document.querySelectorAll('[data-en]').forEach(function(el){if(en){if(el.dataset.nl===undefined)el.dataset.nl=el.innerHTML;el.innerHTML=el.getAttribute('data-en');}else if(el.dataset.nl!==undefined)el.innerHTML=el.dataset.nl;});};})();
+document.getElementById('qform').addEventListener('submit',function(e){e.preventDefault();var f=e.target,to=f.getAttribute('data-mailto');var body='Naam: '+f.naam.value+'%0D%0ATelefoon: '+f.tel.value+'%0D%0AE-mail: '+f.email.value+'%0D%0AType: '+f.type.value+'%0D%0A%0D%0A'+f.bericht.value;if(to){window.location.href='mailto:'+to+'?subject='+encodeURIComponent('Offerteaanvraag via website')+'&body='+body;}document.getElementById('okmsg').style.display='block';});
+document.querySelectorAll('.ba-range').forEach(function(r){var w=r.closest('.ba-wrap');function u(){var v=r.value;w.querySelector('.ba-before').style.clipPath='inset(0 '+(100-v)+'% 0 0)';w.querySelector('.ba-handle').style.left=v+'%';}r.addEventListener('input',u);u();});
+</script>
+</body></html>
