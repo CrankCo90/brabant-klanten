@@ -31214,5 +31214,137 @@
   "telefoon": "06-52007884",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Basstuuk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Zoetermeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T19:36:24",
+  "laatste_post": "",
+  "demo_url": "https://basstuuk-zoetermeer.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (oude bouwer-software met animaties) die niet meer past bij het vakwerk.",
+  "fouten": [
+   "Sterk verouderde website (oude bouwer-software met animaties) die niet meer past bij het vakwerk"
+  ],
+  "contact": "06-54642331",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-54642331",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Britsemmer Stucadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Gouda",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T19:36:24",
+  "laatste_post": "",
+  "demo_url": "https://britsemmer-stucadoorsbedrijf-gouda.demo.brabantdigital.nl",
+  "waarom": "Verouderde template-website (inhoud rond 2018-2021) zonder moderne uitstraling.",
+  "fouten": [
+   "Verouderde template-website (inhoud rond 2018-2021) zonder moderne uitstraling"
+  ],
+  "contact": "06-46011582",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-46011582",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "B.M. Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Gouda",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T19:36:24",
+  "laatste_post": "",
+  "demo_url": "https://bm-stukadoors-gouda.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen Instagram, ondanks 15 topreviews (10/10) zijn ze online nauwelijks vindbaar.",
+  "fouten": [
+   "Geen eigen website - alleen Instagram, ondanks 15 topreviews (10/10) zijn ze online nauwelijks vindbaar"
+  ],
+  "contact": "06-48544130",
+  "bron": null,
+  "social": "IG @bmstukadoors",
+  "telefoon": "06-48544130",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "J. Holster Stucadoorsbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Leiden",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T19:36:24",
+  "laatste_post": "",
+  "demo_url": "https://jholster-stukadoorsbedrijf-leiden.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website - alleen een Facebookpagina; mist een professionele plek om werk en offertes te tonen.",
+  "fouten": [
+   "Geen eigen website - alleen een Facebookpagina; mist een professionele plek om werk en offertes te tonen"
+  ],
+  "contact": "06-28334955",
+  "bron": null,
+  "social": "FB @joeystuc",
+  "telefoon": "06-28334955",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf de Groot",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Zoetermeer",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T19:36:24",
+  "laatste_post": "",
+  "demo_url": "https://stukadoor-de-groot-zoetermeer.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (oude WordPress, copyright 2020, dode Google+-links) die niet meer bij het bedrijf past.",
+  "fouten": [
+   "Verouderde website (oude WordPress, copyright 2020, dode Google+-links) die niet meer bij het bedrijf past"
+  ],
+  "contact": "06-53644189",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53644189",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Munster Schildersbedrijf",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Leiderdorp",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T19:36:24",
+  "laatste_post": "",
+  "demo_url": "https://van-munster-schildersbedrijf-leiderdorp.demo.brabantdigital.nl",
+  "waarom": "Website op een standaard bouwer-template zonder onderscheidend vermogen; toe aan een eigen, moderne uitstraling.",
+  "fouten": [
+   "Website op een standaard bouwer-template zonder onderscheidend vermogen; toe aan een eigen, moderne uitstraling"
+  ],
+  "contact": "06-26336058",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-26336058",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
