@@ -31148,5 +31148,71 @@
   "telefoon": "06-20031642",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "JK Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Veghel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T13:16:05",
+  "laatste_post": "",
+  "demo_url": "https://jkschilderwerken.demo.brabantdigital.nl",
+  "waarom": "Sterke reputatie (4,9/40 reviews) maar een verouderde WordPress-website met een gedateerd thema, weinig eigentijdse uitstraling en geen moderne offerte-flow - een duidelijke redesign-kans.",
+  "fouten": [
+   "Sterke reputatie (4,9/40 reviews) maar een verouderde WordPress-website met een gedateerd thema, weinig eigentijdse uitstraling en geen moderne offerte-flow - een duidelijke redesign-kans"
+  ],
+  "contact": "06-14443000",
+  "bron": null,
+  "social": "https://www.instagram.com/mooimaken.jkschilderwerken/",
+  "telefoon": "06-14443000",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van der Donk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T13:16:05",
+  "laatste_post": "",
+  "demo_url": "https://vanderdonkstukadoors.demo.brabantdigital.nl",
+  "waarom": "Gevestigd bedrijf met een sterk verouderde Joomla-website (foto's uit 2018/2019), een gedateerde uitstraling, niet mobielvriendelijk en zonder online offerteformulier - grote winst te halen met een moderne site.",
+  "fouten": [
+   "Gevestigd bedrijf met een sterk verouderde Joomla-website (foto's uit 2018/2019), een gedateerde uitstraling, niet mobielvriendelijk en zonder online offerteformulier - grote winst te halen met een moderne site"
+  ],
+  "contact": "06-10892076",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-10892076",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Aarle Stucadoorswerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Noord-Brabant",
+  "plaats": "Schijndel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T13:16:05",
+  "laatste_post": "",
+  "demo_url": "https://vanaarlestucadoorswerken.demo.brabantdigital.nl",
+  "waarom": "Actief en goed aangeschreven op Facebook, maar zonder eigen website - alleen social media en directoryvermeldingen. Mist een professionele online uitstraling en een offertemogelijkheid, terwijl mobiel en e-mail wel bekend zijn.",
+  "fouten": [
+   "Actief en goed aangeschreven op Facebook, maar zonder eigen website - alleen social media en directoryvermeldingen. Mist een professionele online uitstraling en een offertemogelijkheid, terwijl mobiel en e-mail wel bekend zijn"
+  ],
+  "contact": "06-52007884",
+  "bron": null,
+  "social": "https://www.facebook.com/VanAarleStucadoorswerken/",
+  "telefoon": "06-52007884",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

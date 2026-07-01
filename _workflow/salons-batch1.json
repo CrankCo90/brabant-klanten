@@ -35572,5 +35572,92 @@
   "email": "merkx@kpnplanet.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "JK Schilderwerken",
+  "kort": "JK",
+  "slug": "jkschilderwerken",
+  "plaats": "Veghel",
+  "tel_display": "06-14443000",
+  "tel_href": "tel:+31614443000",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jasper",
+   "verhaal": "JK Schilderwerken is een vakkundig schildersbedrijf uit Veghel en omgeving (Meierijstad). Naast professioneel binnen- en buitenschilderwerk verzorgen ze desgewenst het hele plaatje: van behang en latex spuiten tot het regelen van een loodgieter, tegelzetter of timmerman. Met een Trustoo-beoordeling van 4,9 uit 40 reviews staat vakmanschap en netjes werken voorop.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Latex spuiten",
+    "Behangwerk",
+    "Totaalonderhoud woning"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@jkschilderwerken.nl",
+  "social": "https://www.instagram.com/mooimaken.jkschilderwerken/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Van der Donk",
+  "kort": "Van der Donk",
+  "slug": "vanderdonkstukadoors",
+  "plaats": "Schijndel",
+  "tel_display": "06-10892076",
+  "tel_href": "tel:+31610892076",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Patrick en Paul van der Donk",
+   "verhaal": "Stukadoorsbedrijf Van der Donk V.O.F. uit Schijndel is in 2001 opgericht door de broers Patrick en Paul van der Donk en heeft ruim 25 jaar ervaring. Met een team van zes stukadoors verzorgen ze alle voorkomende stukadoorswerkzaamheden - binnen en buiten - van kleine verbouwingen tot grote restauratie- en renovatieprojecten, inclusief lijstwerk en ornamenten uit eigen fabricage.",
+   "specialisaties": [
+    "Binnenstucwerk",
+    "Buitenstucwerk en gevelisolatie",
+    "Sierpleister en spachtelputz",
+    "Latex spuiten",
+    "Lijstwerk en ornamenten",
+    "Restauratie en renovatie"
+   ],
+   "certificering": [
+    "KOMO",
+    "KIWA",
+    "Stichting Gevelgarantie",
+    "Erkend Leerbedrijf"
+   ],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@vd-donk.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Van Aarle Stucadoorswerken",
+  "kort": "Van Aarle",
+  "slug": "vanaarlestucadoorswerken",
+  "plaats": "Schijndel",
+  "tel_display": "06-52007884",
+  "tel_href": "tel:+31652007884",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Roy van Aarle",
+   "verhaal": "Van Aarle Stucadoorswerken is het stucadoorsbedrijf van Roy van Aarle uit Schijndel, al zo'n zestien jaar actief in alle voorkomende stucadoorswerkzaamheden. Het bedrijf heeft een actieve Facebook-pagina met ruim 300 volgers, waar recent werk wordt getoond.",
+   "specialisaties": [
+    "Glad stucwerk",
+    "Schuurwerk",
+    "Sierpleister",
+    "Spachtelputz",
+    "Renovatie en herstel"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "vanaarlestucadoorswerken@hotmail.nl",
+  "social": "https://www.facebook.com/VanAarleStucadoorswerken/",
+  "taal": "nl"
  }
 ]
