@@ -30884,5 +30884,71 @@
   "telefoon": "06-53841160",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Pieter Rondon Stucadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Friesland",
+  "plaats": "Berltsum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T09:23:26",
+  "laatste_post": "",
+  "demo_url": "https://pieter-rondon-stucadoor-berlikum.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde website (een enkele afbeelding met alleen een e-mailadres), geen offerteformulier en niet mobielvriendelijk.",
+  "fouten": [
+   "Sterk verouderde website (een enkele afbeelding met alleen een e-mailadres), geen offerteformulier en niet mobielvriendelijk"
+  ],
+  "contact": "06-12219977",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-12219977",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "V/D Zee Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Friesland",
+  "plaats": "Sint Annaparochie",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T09:23:26",
+  "laatste_post": "",
+  "demo_url": "https://vd-zee-schilderwerken-sint-annaparochie.demo.brabantdigital.nl",
+  "waarom": "Generieke template-website zonder echt offerteformulier en met beperkte, weinig onderscheidende uitstraling.",
+  "fouten": [
+   "Generieke template-website zonder echt offerteformulier en met beperkte, weinig onderscheidende uitstraling"
+  ],
+  "contact": "06-29168533",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-29168533",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Flisijn",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Friesland",
+  "plaats": "Goutum",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T09:23:26",
+  "laatste_post": "",
+  "demo_url": "https://flisijn-stucadoorsbedrijf-goutum.demo.brabantdigital.nl",
+  "waarom": "Verouderde website (projectfoto's uit 2019, niet-werkende tellers en een achtergebleven testlink) die toe is aan een moderne, snelle site.",
+  "fouten": [
+   "Verouderde website (projectfoto's uit 2019, niet-werkende tellers en een achtergebleven testlink) die toe is aan een moderne, snelle site"
+  ],
+  "contact": "06-50698828",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-50698828",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

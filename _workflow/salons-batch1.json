@@ -35257,5 +35257,85 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Pieter Rondon Stucadoor",
+  "kort": "Stucadoorsbedrijf in Berltsum",
+  "slug": "pieter-rondon-stucadoor-berlikum",
+  "plaats": "Berltsum",
+  "tel_display": "06-12219977",
+  "tel_href": "tel:+31612219977",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Pieter Rondon",
+   "verhaal": "Stucadoorsbedrijf Pieter Rondon uit Berltsum levert al ruim 13 jaar strak stucwerk in heel Friesland. Met kwaliteit, zorgvuldigheid en een goede service brengen we wanden en plafonds naadloos in de afwerking die u wenst.",
+   "specialisaties": [
+    "Stucwerk wanden en plafonds",
+    "Schuur- en pleisterwerk",
+    "Renovatie en herstel",
+    "Sierpleister"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@pieterrondon.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "V/D Zee Schilderwerken",
+  "kort": "Allround schilder- en afwerkingsbedrijf in Sint Annaparochie",
+  "slug": "vd-zee-schilderwerken-sint-annaparochie",
+  "plaats": "Sint Annaparochie",
+  "tel_display": "06-29168533",
+  "tel_href": "tel:+31629168533",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "V/D Zee Schilderwerken uit Sint Annaparochie is een allround schilder- en afwerkingsbedrijf voor particulier en zakelijk in Friesland en Noord-Nederland. Van binnen- en buitenschilderwerk tot wandafwerking, houtrotreparatie en beglazing.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Nieuwbouw en renovatie",
+    "Wandafwerking",
+    "Houtrotreparatie",
+    "Beglazing"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "contact@vdzeeschilderwerken.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stucadoorsbedrijf Flisijn",
+  "kort": "Stucadoorsbedrijf met 50 jaar ervaring in Goutum",
+  "slug": "flisijn-stucadoorsbedrijf-goutum",
+  "plaats": "Goutum",
+  "tel_display": "06-50698828",
+  "tel_href": "tel:+31650698828",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Sierk Flisijn",
+   "verhaal": "Stucadoorsbedrijf Flisijn uit Goutum staat voor vakbekwaam en gedreven stucwerk met ruim 50 jaar ervaring. Traditioneel en modern stucwerk van wanden en plafonds, plus renovatie en restauratie in Friesland en Noord-Nederland.",
+   "specialisaties": [
+    "Stucwerk wanden en plafonds",
+    "Spack- en spuitwerk",
+    "Sierpleister en ornamenten",
+    "Renovatie en restauratie",
+    "Schilderwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@flisijn.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
