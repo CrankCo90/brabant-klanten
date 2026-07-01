@@ -31082,5 +31082,71 @@
   "telefoon": "06-38445958",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Maik's Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Waalwijk",
+  "plaats": "Waalwijk",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T12:20:10",
+  "laatste_post": "",
+  "demo_url": "https://maiks-schilderwerken-waalwijk.demo.brabantdigital.nl",
+  "waarom": "Alleen actief op Facebook en Instagram, geen eigen website.",
+  "fouten": [
+   "Alleen actief op Facebook en Instagram, geen eigen website"
+  ],
+  "contact": "06-51957295",
+  "bron": null,
+  "social": "IG @maiksschilderwerken · FB",
+  "telefoon": "06-51957295",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Jeroen van Mierlo Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Waalwijk",
+  "plaats": "Waspik",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T12:20:10",
+  "laatste_post": "",
+  "demo_url": "https://jeroen-van-mierlo-schilderwerken-waspik.demo.brabantdigital.nl",
+  "waarom": "Alleen een Facebookpagina, geen eigen website.",
+  "fouten": [
+   "Alleen een Facebookpagina, geen eigen website"
+  ],
+  "contact": "Alleen FB @vanmierloschilderwerken",
+  "bron": null,
+  "social": "FB @vanmierloschilderwerken",
+  "telefoon": "",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Merkx",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Waalwijk",
+  "plaats": "Kaatsheuvel",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T12:20:10",
+  "laatste_post": "",
+  "demo_url": "https://schildersbedrijf-merkx-kaatsheuvel.demo.brabantdigital.nl",
+  "waarom": "Sterk verouderde, niet-mobielvriendelijke website (tabel-layout, geen modern ontwerp).",
+  "fouten": [
+   "Sterk verouderde, niet-mobielvriendelijke website (tabel-layout, geen modern ontwerp)"
+  ],
+  "contact": "06-20031642",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-20031642",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

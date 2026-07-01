@@ -35493,5 +35493,84 @@
   "email": "",
   "social": "Facebook (Mcs Stukadoor)",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Maik's Schilderwerken",
+  "kort": "Maik's Schilderwerken",
+  "slug": "maiks-schilderwerken-waalwijk",
+  "plaats": "Waalwijk",
+  "tel_display": "06-51957295",
+  "tel_href": "tel:+31651957295",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Maikel",
+   "verhaal": "Maik's Schilderwerken is het schildersbedrijf van Maikel Snijders uit Waalwijk. Al vanaf zijn zeventiende actief in het schildersvak, staat Maikel voor totale bescherming van je woning binnen en buiten — met oog voor detail en een net resultaat.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Onderhoudsschilderwerk",
+    "Wandafwerking"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "maiksschilderwerken@gmail.com",
+  "social": "IG @maiksschilderwerken · FB",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Jeroen van Mierlo Schilderwerken",
+  "kort": "Van Mierlo Schilderwerken",
+  "slug": "jeroen-van-mierlo-schilderwerken-waspik",
+  "plaats": "Waspik",
+  "tel_display": "Bel of app ons",
+  "tel_href": "#contact",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Jeroen",
+   "verhaal": "Jeroen van Mierlo Schilderwerken is een klein, persoonlijk schildersbedrijf uit Waspik. Gespecialiseerd in binnenschilderwerk, onderhoudsbuitenschilderwerk, wandafwerking en glaszetten — met de aandacht en afwerking van een echte vakman.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Wandafwerking",
+    "Glaszetten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "FB @vanmierloschilderwerken",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Schildersbedrijf Merkx",
+  "kort": "Schildersbedrijf Merkx",
+  "slug": "schildersbedrijf-merkx-kaatsheuvel",
+  "plaats": "Kaatsheuvel",
+  "tel_display": "06-20031642",
+  "tel_href": "tel:+31620031642",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Schildersbedrijf Merkx uit Kaatsheuvel is al meer dan 75 jaar actief in het schildersvak. Door al die ervaring levert Merkx degelijk en duurzaam schilderwerk tegen een scherpe prijs, voor zowel particulier als bedrijf.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Behangwerk",
+    "Wandafwerking",
+    "Onderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "merkx@kpnplanet.nl",
+  "social": "",
+  "taal": "nl"
  }
 ]
