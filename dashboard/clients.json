@@ -30796,5 +30796,93 @@
   "telefoon": "06-36417627",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "AA+ Stukadoors van der Toolen",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Dordrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T08:59:44",
+  "laatste_post": "",
+  "demo_url": "https://aaplus-stukadoors-dordrecht.demo.brabantdigital.nl",
+  "waarom": "Eigen site met onafgewerkte template-teksten (Lorem ipsum en 'voeg je koptekst hier toe') en een gmail-adres; oogt amateuristisch en mist een vlot offerteformulier.",
+  "fouten": [
+   "Eigen site met onafgewerkte template-teksten (Lorem ipsum en 'voeg je koptekst hier toe') en een gmail-adres; oogt amateuristisch en mist een vlot offerteformulier"
+  ],
+  "contact": "06-17174000",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-17174000",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Onkruijt",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Dordrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T08:59:44",
+  "laatste_post": "",
+  "demo_url": "https://stukadoorsbedrijf-onkruijt-dordrecht.demo.brabantdigital.nl",
+  "waarom": "Verouderde, zware WordPress-site (content uit 2022, trage plugins) sterk op onderaanneming gericht; mist een moderne, snelle uitstraling en vlot offerteformulier voor particulieren.",
+  "fouten": [
+   "Verouderde, zware WordPress-site (content uit 2022, trage plugins) sterk op onderaanneming gericht; mist een moderne, snelle uitstraling en vlot offerteformulier voor particulieren"
+  ],
+  "contact": "06-21235062",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-21235062",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "M.E. Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Zwijndrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T08:59:44",
+  "laatste_post": "",
+  "demo_url": "https://me-schilderwerken-zwijndrecht.demo.brabantdigital.nl",
+  "waarom": "Kleine, eenvoudige eenpagina-site met een gmail-adres en weinig content; mist een volwaardig projecten-overzicht, reviews en een echt offerteformulier.",
+  "fouten": [
+   "Kleine, eenvoudige eenpagina-site met een gmail-adres en weinig content; mist een volwaardig projecten-overzicht, reviews en een echt offerteformulier"
+  ],
+  "contact": "06-57754512",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-57754512",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "J. Bezemer Schilder, Spuit & Stucwerk",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Zuid-Holland",
+  "plaats": "Zwijndrecht",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T08:59:44",
+  "laatste_post": "",
+  "demo_url": "https://jbezemer-schildersbedrijf-zwijndrecht.demo.brabantdigital.nl",
+  "waarom": "Eenvoudige eenpagina-site zonder zichtbare contactgegevens of adres en met een verkeerd ingestelde taal; mist projecten met details, reviews en een vlot offerteformulier.",
+  "fouten": [
+   "Eenvoudige eenpagina-site zonder zichtbare contactgegevens of adres en met een verkeerd ingestelde taal; mist projecten met details, reviews en een vlot offerteformulier"
+  ],
+  "contact": "06-53841160",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-53841160",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

@@ -35149,5 +35149,113 @@
   "email": "info@sterstukadoor.nl",
   "social": "IG @sterstukadoor_",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "AA+ Stukadoors van der Toolen",
+  "kort": "AA+ Stukadoors",
+  "slug": "aaplus-stukadoors-dordrecht",
+  "plaats": "Dordrecht",
+  "tel_display": "06-17174000",
+  "tel_href": "tel:+31617174000",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Rinaldi",
+   "verhaal": "Al drie generaties lang levert AA+ van der Toolen strak stucwerk in Dordrecht, Rotterdam en de omliggende regio. Rinaldi en zijn team werken met een persoonlijke, eerlijke aanpak: van het eerste telefoongesprek tot de oplevering één aanspreekpunt, heldere prijzen en een spiegelglad eindresultaat waar klanten jaren plezier van hebben.",
+   "specialisaties": [
+    "Sausklaar en glad pleisterwerk",
+    "Airless latex spuitwerk",
+    "Betonlook en decoratieve afwerking",
+    "Buitengevels stucwerk",
+    "Restauratie, ornamenten en sierlijsten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "rvandertoolen@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Stukadoorsbedrijf Onkruijt",
+  "kort": "Onkruijt",
+  "slug": "stukadoorsbedrijf-onkruijt-dordrecht",
+  "plaats": "Dordrecht",
+  "tel_display": "06-21235062",
+  "tel_href": "tel:+31621235062",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoorsbedrijf Onkruijt is al ruim 15 jaar actief in Dordrecht en omgeving, met stukadoorswerk voor nieuwbouw, renovatie, utiliteitsbouw en — als specialisatie — de particuliere sector. Betrouwbaarheid, kwaliteit en het nakomen van afspraken staan centraal, met moderne technieken en de beste producten.",
+   "specialisaties": [
+    "Glad pleisterwerk en sausklaar stucwerk",
+    "Sierlijsten en ornamenten",
+    "Spackspuitwerk en plafondafwerking",
+    "Schuurwerk",
+    "Renovatie en utiliteitsbouw"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@stucadoor-dordrecht.nl",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "M.E. Schilderwerken",
+  "kort": "M.E. Schilderwerken",
+  "slug": "me-schilderwerken-zwijndrecht",
+  "plaats": "Zwijndrecht",
+  "tel_display": "06-57754512",
+  "tel_href": "tel:+31657754512",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "M.E. Schilderwerken is een klein, gedreven schildersbedrijf uit Zwijndrecht, ontstaan uit een passie voor het vak die al in de kindertijd begon. Voor binnen- en buitenschilderwerk, renovatie en nieuwbouw in de Drechtsteden en omgeving — direct persoonlijk contact zonder gedoe en moderne technieken voor optimale bescherming en kwaliteit.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Renovatie en nieuwbouw",
+    "Trappen en kozijnen",
+    "Persoonlijk kleuradvies"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "m.e.schilderwerken@gmail.com",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "J. Bezemer Schilder, Spuit & Stucwerk",
+  "kort": "J. Bezemer",
+  "slug": "jbezemer-schildersbedrijf-zwijndrecht",
+  "plaats": "Zwijndrecht",
+  "tel_display": "06-53841160",
+  "tel_href": "tel:+31653841160",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "J. Bezemer Schilder, spuit & stucwerk is sinds 2000 uitgegroeid tot een erkend schildersbedrijf in de Drechtsteden en omstreken. Voor zowel zakelijke als particuliere klanten: van binnen- en buitenschilderwerk tot stuc- en spuitwerk, traprenovatie en restauratie — met goede service, de beste materialen en gegarandeerd vakwerk.",
+   "specialisaties": [
+    "Schilderwerk binnen en buiten",
+    "Stucwerk",
+    "Spuitwerk",
+    "Kleuradvies",
+    "Traprenovatie en restauratiewerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
