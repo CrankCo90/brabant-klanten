@@ -30950,5 +30950,93 @@
   "telefoon": "06-50698828",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "ProKlus",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Friesland",
+  "plaats": "Sneek",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T10:23:35",
+  "laatste_post": "",
+  "demo_url": "https://proklus-sneek.demo.brabantdigital.nl",
+  "waarom": "Allround schilder-/stukadoorsbedrijf in Sneek met een verouderde, minimale website; mobiel en via Facebook bereikbaar. Premium demo gebouwd.",
+  "fouten": [
+   "Allround schilder-/stukadoorsbedrijf in Sneek met een verouderde, minimale website; mobiel en via Facebook bereikbaar. Premium demo gebouwd"
+  ],
+  "contact": "06-41419162",
+  "bron": null,
+  "social": "https://www.facebook.com/p/Proklus-Bedrijf-100070418162194/",
+  "telefoon": "06-41419162",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kauffman Stukadoors",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Groningen",
+  "plaats": "Groningen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T10:23:35",
+  "laatste_post": "",
+  "demo_url": "https://kauffman-stukadoors-groningen.demo.brabantdigital.nl",
+  "waarom": "Allround stukadoorsbedrijf in Groningen met een verouderde website zonder HTTPS (geen beveiligd slot); mobiel bereikbaar. Premium demo gebouwd.",
+  "fouten": [
+   "Allround stukadoorsbedrijf in Groningen met een verouderde website zonder HTTPS (geen beveiligd slot); mobiel bereikbaar. Premium demo gebouwd"
+  ],
+  "contact": "06-11911446",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-11911446",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hans Sibers en Zn.",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Groningen",
+  "plaats": "Groningen",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T10:23:35",
+  "laatste_post": "",
+  "demo_url": "https://hans-sibers-stukadoors-groningen.demo.brabantdigital.nl",
+  "waarom": "Familiebedrijf voor stuc- en schilderwerk in Groningen met een verouderde website-builder-site; mobiel en per e-mail bereikbaar. Premium demo gebouwd.",
+  "fouten": [
+   "Familiebedrijf voor stuc- en schilderwerk in Groningen met een verouderde website-builder-site; mobiel en per e-mail bereikbaar. Premium demo gebouwd"
+  ],
+  "contact": "06-46710548",
+  "bron": null,
+  "social": "https://facebook.com/600275050023943",
+  "telefoon": "06-46710548",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dennis de Jong Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Friesland",
+  "plaats": "Drachten",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T10:23:35",
+  "laatste_post": "",
+  "demo_url": "https://dennis-de-jong-schilderwerken-drachten.demo.brabantdigital.nl",
+  "waarom": "Schilder in Drachten zonder eigen website (alleen op Werkspot en branchegidsen); mobiel bereikbaar. Premium demo gebouwd.",
+  "fouten": [
+   "Schilder in Drachten zonder eigen website (alleen op Werkspot en branchegidsen); mobiel bereikbaar. Premium demo gebouwd"
+  ],
+  "contact": "06-22676786",
+  "bron": null,
+  "social": "",
+  "telefoon": "06-22676786",
+  "land": "NL",
+  "taal": "nl"
  }
 ]

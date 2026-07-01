@@ -35337,5 +35337,109 @@
   "email": "info@flisijn.nl",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "ProKlus",
+  "kort": "Schilder-, behang- en stukadoorsbedrijf in Sneek",
+  "slug": "proklus-sneek",
+  "plaats": "Sneek",
+  "tel_display": "06-41419162",
+  "tel_href": "tel:+31641419162",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Saleh",
+   "verhaal": "ProKlus is een allround schilder-, behang- en stukadoorsbedrijf uit Sneek dat in heel Friesland werkt. Persoonlijk contact, nauwkeurig werk en een nette afwerking staan voorop, van strak stucwerk tot fris schilderwerk.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behangen en wandafwerking",
+    "Stukadoren en strak stucwerk",
+    "Renovatie en onderhoud"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "https://www.facebook.com/p/Proklus-Bedrijf-100070418162194/",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Kauffman Stukadoors",
+  "kort": "Allround stukadoorsbedrijf in Groningen",
+  "slug": "kauffman-stukadoors-groningen",
+  "plaats": "Groningen",
+  "tel_display": "06-11911446",
+  "tel_href": "tel:+31611911446",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Kauffman Stukadoors is een allround stukadoorsbedrijf uit Groningen dat ook actief is in de omgeving zoals Assen, Zuidhorn, Veendam en Zuidlaren. Van traditioneel stucwerk tot sierpleister: alles wordt strak en vakkundig afgewerkt.",
+   "specialisaties": [
+    "Traditioneel stucwerk voor wanden en plafonds",
+    "Sierpleister en spachtelputz",
+    "Dunpleister en schuurwerk",
+    "Renovatie- en herstelwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Hans Sibers en Zn.",
+  "kort": "Stukadoors-, schilders- en afbouwbedrijf in Groningen",
+  "slug": "hans-sibers-stukadoors-groningen",
+  "plaats": "Groningen",
+  "tel_display": "06-46710548",
+  "tel_href": "tel:+31646710548",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Hans",
+   "verhaal": "Hans Sibers en Zn. is al ruim twintig jaar een begrip in Groningen. Sinds 2007 werkt de tweede generatie mee in dit familiebedrijf voor afbouw-, stukadoors- en schilderwerk. Vakkundig advies en maatwerk voor particulier en bedrijfsleven.",
+   "specialisaties": [
+    "Stukadoorswerk voor wanden en plafonds",
+    "Sierpleister en ornamenten",
+    "Schilderwerk binnen en buiten",
+    "Gevel- en afbouwwerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "hsstukadoors@home.nl",
+  "social": "https://facebook.com/600275050023943",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "Dennis de Jong Schilderwerken",
+  "kort": "Schildersbedrijf in Drachten",
+  "slug": "dennis-de-jong-schilderwerken-drachten",
+  "plaats": "Drachten",
+  "tel_display": "06-22676786",
+  "tel_href": "tel:+31622676786",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "Dennis",
+   "verhaal": "Dennis de Jong Schilderwerken is een allround schildersbedrijf uit Drachten voor binnen- en buitenschilderwerk, behangen, houtrotherstel en glaszetten. Persoonlijk, betrouwbaar en met oog voor een strakke afwerking.",
+   "specialisaties": [
+    "Binnen- en buitenschilderwerk",
+    "Behangen en wandafwerking",
+    "Houtrotherstel",
+    "Beglazing en glaszetten"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "",
+  "taal": "nl"
  }
 ]
