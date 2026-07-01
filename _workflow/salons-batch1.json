@@ -35441,5 +35441,57 @@
   "email": "",
   "social": "",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Arben Schilderwerken",
+  "kort": "Arben",
+  "slug": "arben-schilderwerken-venlo",
+  "plaats": "Venlo",
+  "tel_display": "06-46087633",
+  "tel_href": "tel:+31646087633",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Al meer dan 20 jaar de vakkundige schilder voor particulieren, bedrijven en VvE's in Venlo en omgeving — met liefde voor het vak, oog voor kwaliteit en de afspraak dat een afspraak ook echt wordt nagekomen.",
+   "specialisaties": [
+    "Binnenschilderwerk",
+    "Buitenschilderwerk",
+    "Houtrotherstel & renovatie",
+    "Behang- en glaswerk"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "info@arben-schilderwerken.nl",
+  "social": "Facebook (Arben Schilderwerken)",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MCS Stukadoor",
+  "kort": "MCS",
+  "slug": "mcs-stukadoor-duiven",
+  "plaats": "Duiven",
+  "tel_display": "06-38445958",
+  "tel_href": "tel:+31638445958",
+  "niche": "schilder",
+  "content": {
+   "eigenaar": "",
+   "verhaal": "Stukadoor en schilder voor strak stucwerk, gips en afwerking — van gladde wanden en plafonds tot net schilderwerk, met een eerlijke prijs en snelle, betrouwbare service.",
+   "specialisaties": [
+    "Stucwerk & pleisterwerk",
+    "Gips & afwerking",
+    "Schilderwerk",
+    "Renovatie & spoedklussen"
+   ],
+   "certificering": [],
+   "tarieven": [],
+   "openingstijden": "Op afspraak",
+   "reviews": []
+  },
+  "email": "",
+  "social": "Facebook (Mcs Stukadoor)",
+  "taal": "nl"
  }
 ]

@@ -31038,5 +31038,49 @@
   "telefoon": "06-22676786",
   "land": "NL",
   "taal": "nl"
+ },
+ {
+  "bedrijf": "Arben Schilderwerken",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Limburg",
+  "plaats": "Venlo",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T11:15:49",
+  "laatste_post": "",
+  "demo_url": "https://arben-schilderwerken-venlo.demo.brabantdigital.nl",
+  "waarom": "Verouderde één-pagina website uit 2019 zonder online offerte en niet mobielvriendelijk",
+  "fouten": [
+   "Verouderde één-pagina website uit 2019 zonder online offerte en niet mobielvriendelijk"
+  ],
+  "contact": "06-46087633",
+  "bron": null,
+  "social": "Facebook (Arben Schilderwerken)",
+  "telefoon": "06-46087633",
+  "land": "NL",
+  "taal": "nl"
+ },
+ {
+  "bedrijf": "MCS Stukadoor",
+  "niche": "Schilders & Stukadoors",
+  "regio": "Gelderland",
+  "plaats": "Duiven",
+  "status": "demo",
+  "score": 4,
+  "werkdag": "2026-07-01",
+  "aangemaakt": "2026-07-01T11:15:49",
+  "laatste_post": "",
+  "demo_url": "https://mcs-stukadoor-duiven.demo.brabantdigital.nl",
+  "waarom": "Geen eigen website, alleen actief op Facebook",
+  "fouten": [
+   "Geen eigen website, alleen actief op Facebook"
+  ],
+  "contact": "06-38445958",
+  "bron": null,
+  "social": "Facebook (Mcs Stukadoor)",
+  "telefoon": "06-38445958",
+  "land": "NL",
+  "taal": "nl"
  }
 ]
